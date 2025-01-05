@@ -134,7 +134,7 @@
 	access = access_tech_storage
 
 /singleton/hierarchy/supply_pack/engineering/teg
-	name = "Power - Mark I Thermoelectric Generator"
+	name = "Power - Mark I Promethium Generator"
 	contains = list(/obj/machinery/power/generator)
 	cost = 75
 	containertype = /obj/structure/closet/crate/secure/large

@@ -591,13 +591,13 @@
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	projectile_type = /obj/item/projectile/bullet/heavyplasma
 	cell_type = /obj/item/cell/device/high/mechanicus
-	charge_cost = 100
+	charge_cost = 60
 	wielded_item_state = "plasmarifle-wielded"
 	sales_price = 75
 	slowdown_general = 0.06
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=60, burst=1, burst_delay=2.4, fire_delay=10),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=100, burst=1, burst_delay=2.2, fire_delay=16)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=100, burst=1, burst_delay=2.2, fire_delay=18)
 		)
 
 /obj/item/gun/energy/plasma/pistol // Better stats as plasma pistols are more often rare DAOT tech and not Forge-World manufactured.
@@ -622,7 +622,7 @@
 	slowdown_general = 0.03
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=2.4, fire_delay=10),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=16)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=18)
 		)
 
 /obj/item/gun/energy/plasma/pistol/chaos
@@ -633,7 +633,7 @@
 	accuracy = 0.5
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=35, burst=1, burst_delay=2.4, fire_delay=10),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=75, burst=1, burst_delay=2.2, fire_delay=16)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=75, burst=1, burst_delay=2.2, fire_delay=18)
 		)
 
 /obj/item/gun/energy/plasma/pistol/mechanicus
@@ -646,7 +646,7 @@
 	fire_delay = 15
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=2.4, fire_delay=9),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=15)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=17)
 		)
 
 /obj/item/gun/energy/plasma/pistol/xenos
@@ -664,7 +664,7 @@
 	slowdown_general = 0
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=30, burst=1, burst_delay=2.4, fire_delay=11),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=70, burst=1, burst_delay=2.2, fire_delay=17)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=70, burst=1, burst_delay=2.2, fire_delay=19)
 		)
 
 /obj/item/gun/energy/plasma/pistol/archeotech
@@ -678,7 +678,7 @@
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=11, fire_delay=9),
 		list(mode_name="burst", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=50, burst=3, burst_delay=11, fire_delay=9),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=11, fire_delay=15)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=11, fire_delay=17)
 		)
 
 //Tau weapons
@@ -707,7 +707,7 @@
 	slowdown_general = 0.07
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=2.4, fire_delay=7),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=15)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=17)
 		)
 
 /obj/item/gun/energy/tau/railgun

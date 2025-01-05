@@ -285,7 +285,7 @@
 
 /material/phoron/supermatter
 	name = MATERIAL_SUPERMATTER
-	lore_text = "Hypercrystalline supermatter is a subset of non-baryonic 'exotic' matter. It is found mostly in the heart of large stars, and features heavily in bluespace technology."
+	lore_text = "Hypercrystalline volkite is a subset of non-baryonic 'exotic' matter. It is found mostly in the heart of large stars, and features heavily in bluespace technology."
 	icon_colour = "#ffff00"
 	sheet_icon_base = "diamond"
 	radioactivity = 20

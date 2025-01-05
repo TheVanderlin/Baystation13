@@ -9,7 +9,7 @@
 	head = /obj/item/clothing/head/helmet/enforcer/sergeant
 	mask = /obj/item/clothing/mask/gas/half/cadianrespirator
 	glasses = /obj/item/clothing/glasses/night/aviators
-	belt = /obj/item/storage/belt/holster/security
+	belt = null
 	suit = /obj/item/clothing/suit/armor/enforcer_sgt
 	shoes = /obj/item/clothing/shoes/jackboots/cadian
 	uniform = /obj/item/clothing/under/rank/warden
@@ -28,14 +28,13 @@
 	head = /obj/item/clothing/head/helmet/enforcer
 	mask = /obj/item/clothing/mask/gas/half/cadianrespirator
 	glasses = /obj/item/clothing/glasses/night/aviators
-	belt = /obj/item/storage/belt/holster/security
+	belt = /obj/item/material/twohanded/ravenor/sword/chopper/heavy
 	suit = /obj/item/clothing/suit/armor/enforcer2
 	shoes = /obj/item/clothing/shoes/jackboots/cadian
 	uniform = /obj/item/clothing/under/rank/security
 	r_pocket = null
 	l_ear = /obj/item/device/radio/headset/headset_sec
 	l_hand = /obj/item/gun/projectile/pistol/slug
-	r_hand = /obj/item/material/twohanded/ravenor/sword/chopper/heavy
 	gloves = /obj/item/clothing/gloves/thick/swat/cadian
 	id_types = list(/obj/item/card/id/torch/crew/security/forensic)
 	pda_type = /obj/item/modular_computer/pda/security

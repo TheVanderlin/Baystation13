@@ -1,5 +1,5 @@
 /obj/item/grenade/supermatter
-	name = "supermatter grenade"
+	name = "volkite grenade"
 	icon_state = "banana"
 	item_state = "emergency_engi"
 	origin_tech = list(TECH_BLUESPACE = 5, TECH_MAGNET = 4, TECH_ENGINEERING = 5)

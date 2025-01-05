@@ -807,6 +807,10 @@ var/global/const/NO_EMAG_ACT = -50
 
 
 // low tier key for peasants. easy for anyone to get
+/obj/item/card/id/key/on_update_icon()
+	ClearOverlays()
+	icon_state = initial(icon_state)
+
 /obj/item/card/id/key/low
 	name = "Lowly Key"
 	desc = "A lowly key befitting the common man upon this world. Probably opens a pilgrim's home, or something equally unimportant."

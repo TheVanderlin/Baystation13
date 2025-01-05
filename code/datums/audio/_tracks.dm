@@ -6,6 +6,32 @@
 	license = null
 	url = "nonyabusiness"
 
+// WARHAMMER JUKE TRACKS
+
+/singleton/audio/track/tavern1
+	source = 'sound/newmusic/TAPE-INNMED.ogg'
+	title = "Grim Melodies"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern2
+	source = 'sound/newmusic/TAPE-INNLOUD.ogg'
+	title = "Imperial Hardcore"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern3
+	source = 'sound/newmusic/TAPE-INNCALM.ogg'
+	title = "Amasec Tunes"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
 /singleton/audio/track/absconditus
 	source = 'sound/music/traitor.ogg'
 	title = "Absconditus"

@@ -26,12 +26,12 @@
 		100% less additives and preservatives than our Imperial competitors.\
 	"}
 	products = list(
-		/obj/item/reagent_containers/food/drinks/cans/syndicola = 0,
-		/obj/item/reagent_containers/food/drinks/cans/syndicolax = 0,
-		/obj/item/reagent_containers/food/drinks/cans/artbru = 0,
-		/obj/item/reagent_containers/food/drinks/glass2/square/boda = 0,
-		/obj/item/reagent_containers/food/drinks/glass2/square/bodaplus = 0,
-		/obj/item/reagent_containers/food/drinks/bottle/small/space_up = 0
+		/obj/item/reagent_containers/food/drinks/cans/syndicola = 1,
+		/obj/item/reagent_containers/food/drinks/cans/syndicolax = 1,
+		/obj/item/reagent_containers/food/drinks/cans/artbru = 2,
+		/obj/item/reagent_containers/food/drinks/glass2/square/boda = 3,
+		/obj/item/reagent_containers/food/drinks/glass2/square/bodaplus = 1,
+		/obj/item/reagent_containers/food/drinks/bottle/small/space_up = 1
 	)
 	contraband = list(
 		/obj/item/clothing/under/soviet = 1,

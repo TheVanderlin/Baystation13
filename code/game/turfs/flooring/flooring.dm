@@ -777,3 +777,295 @@
 	icon_base = "metal10"
 	color = null
 	build_type = null
+
+/singleton/flooring/warhammer/concrete
+	icon_base = "concrete"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/mudsteel
+	icon_base = "steel_dark"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/catwalkdark
+	icon_base = "steelnew"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/surface_floor
+	icon_base = "surface"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/factory_floor
+	icon_base = "lev"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/bloodbar
+	icon_base = "bloodbar"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/bloodbar/off
+	icon_base = "bloodbar2"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/bar
+	icon_base = "barfull"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/bar2
+	icon_base = "bar2"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/bar3
+	icon_base = "bar3"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/cafe
+	icon_base = "cafefull"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/cafe2
+	icon_base = "cafe2"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/shaft
+	icon_base = "shaft"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/coldroom
+	icon_base = "coldroom"
+	color = null
+	build_type = null
+
+// Ceramic Flooring
+
+/singleton/flooring/warhammer/ceramic
+	icon_base = "newstone2"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/ceramic/surgery
+	icon_base = "surgery"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/ceramic/surgery2
+	icon_base = "surgery2"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/ceramic/old
+	icon_base = "newstone4"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/ceramic/blackstone
+	icon_base = "bluestone2"
+	color = null
+	build_type = null
+// Wooden Flooring
+/singleton/flooring/warhammer/darkwood
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "dark_wood"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/darkwood2
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "troom3"
+	color = null
+	build_type = null
+
+// Fancy Floors
+/singleton/flooring/warhammer/fancyfloor
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "metrofull"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/edges
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "metroedges"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/marble
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "marbletile"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/coralg
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "coralgranite"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/gray_white
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "graywhite"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/carpet
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "carpbet2side"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/carpet/middle
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "carpbet2"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/carpet/grey
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "carpet2side"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/carpet/grey/middle
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "carpet2"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/carpet/blue
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "blucarpet2side"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/carpet/blue/middle
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "carpet3"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/carpet/green
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "carpbet23side"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/carpet/green/middle
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "carpet0"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/oldcobble
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stonefloor4"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/ancient_cobble_old
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stone_old"
+	color = null
+	build_type = null
+
+// Broken Wooden Flooring
+/singleton/flooring/warhammer/fancyfloor/brokenfloor0
+	icon = 'icons/turf/flooring/wood.dmi'
+	icon_base = "wood_broken0"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/brokenfloor1
+	icon = 'icons/turf/flooring/wood.dmi'
+	icon_base = "wood_broken1"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/brokenfloor2
+	icon = 'icons/turf/flooring/wood.dmi'
+	icon_base = "wood_broken2"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/brokenfloor3
+	icon = 'icons/turf/flooring/wood.dmi'
+	icon_base = "wood_broken3"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/brokenfloor4
+	icon = 'icons/turf/flooring/wood.dmi'
+	icon_base = "wood_broken4"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/fancyfloor/brokenfloor5
+	icon = 'icons/turf/flooring/wood.dmi'
+	icon_base = "wood_broken5"
+	color = null
+	build_type = null
+
+// Stone Flooring
+/singleton/flooring/warhammer/stone/crafted_floor
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stonecrafted"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/stone/old
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stonefloor"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/stone/old2
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stonefloor2"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/stone/old3
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stonefloor3"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/stone/old4
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stonefloor4"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/stone/ancient
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stoney"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/stone/ancient2
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stone_old"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/stone/ancient3
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "stoning"
+	color = null
+	build_type = null
+
+/singleton/flooring/warhammer/stone/seabed
+	icon = 'icons/turf/flooring/plating.dmi'
+	icon_base = "seabed"
+	color = null
+	build_type = null

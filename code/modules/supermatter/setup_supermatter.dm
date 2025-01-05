@@ -184,7 +184,7 @@
 	..()
 	var/obj/machinery/power/supermatter/SM = locate() in get_turf(src)
 	if(!SM)
-		log_and_message_admins("## ERROR: Unable to locate supermatter core at [x] [y] [z]!")
+		log_and_message_admins("## ERROR: Unable to locate volkite core at [x] [y] [z]!")
 		return SETUP_ERROR
 	if(!energy_setting)
 		log_and_message_admins("## ERROR: Energy setting unset at [x] [y] [z]!")

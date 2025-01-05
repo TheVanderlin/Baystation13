@@ -313,22 +313,30 @@
 				flick("o_doorc0", src)
 			else
 				flick("doorc0", src)
+			if (istype(src, /obj/machinery/door/unpowered))
+				playsound(src.loc, 'sound/machines/door_open.ogg', 50, 0)
 		if("closing")
 			if (p_open)
 				flick("o_doorc1", src)
 			else
 				flick("doorc1", src)
+			if (istype(src, /obj/machinery/door/unpowered))
+				playsound(src.loc, 'sound/machines/door_close.ogg', 50, 0)
 		if("spark")
 			if(density)
 				flick("door_spark", src)
 		if("deny")
 			if(density && operable())
 				flick("door_deny", src)
+			if (istype(src, /obj/machinery/door/unpowered))
+				if (world.time > next_clicksound)
+					next_clicksound = world.time + CLICKSOUND_INTERVAL
+					playsound(src.loc, 'sound/machines/door_locked.ogg', 50, 0)
+			else
 				if (world.time > next_clicksound)
 					next_clicksound = world.time + CLICKSOUND_INTERVAL
 					playsound(src.loc, 'sound/machines/buzz-two.ogg', 50, 0)
 	return
-
 
 /obj/machinery/door/proc/open(forced = 0)
 	set waitfor = FALSE

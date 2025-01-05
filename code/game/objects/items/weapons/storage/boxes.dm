@@ -319,8 +319,8 @@
 
 
 /obj/item/storage/box/supermatters
-	name = "box of supermatter grenades"
-	desc = "A box containing 5 highly experimental supermatter grenades."
+	name = "box of volkite grenades"
+	desc = "A box containing 5 highly experimental volkite grenades."
 	icon_state = "radbox"
 	startswith = list(/obj/item/grenade/supermatter = 5)
 

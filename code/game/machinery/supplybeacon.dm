@@ -8,7 +8,7 @@
 	var/deploy_time = 30
 
 /obj/item/supply_beacon/supermatter
-	name = "inactive supermatter supply beacon"
+	name = "inactive volkite supply beacon"
 	deploy_path = /obj/machinery/power/supply_beacon/supermatter
 
 /obj/item/supply_beacon/attack_self(mob/user)
@@ -40,7 +40,7 @@
 	if(!drop_type) drop_type = pick(supply_drop_random_loot_types())
 
 /obj/machinery/power/supply_beacon/supermatter
-	name = "supermatter supply beacon"
+	name = "volkite supply beacon"
 	drop_type = "supermatter"
 
 /obj/machinery/power/supply_beacon/use_tool(obj/item/W, mob/living/user, list/click_params)

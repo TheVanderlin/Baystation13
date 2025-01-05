@@ -1,94 +1,71 @@
 /obj/item/book/union_charter
-	name = "\improper Union Charter"
-	title = "Union Charter of Workplace Rights"
-	author = "Explorator Organisation Corporate Union"
-	dat = {"<head><title>Explorator Organisation Union Charter of Workplace Rights</title></head>
+	name = "\improper Rogue Charter"
+	title = "Rogue Charter"
+	author = "Adeptus Terra"
+	dat = {"<head><title>Rogue Charter of our Lord Trader</title></head>
 	<body>
 	<h2>0. Summary</h2>
 	<hr>
-	<p>As a union representative, you are required to uphold the interests of contracted workers on your station or vessel. You are empowered to inspect workplaces and instigate cessation of contracted work when on green alert, with diminishing powers during a state of emergency. You do not have authority or jurisdiction over government or military workers, or any workers who are not card-carrying signatories to this Charter.</p>
+	<p>As a worker aboard a vessel under the command of Rogue House, you are subject to the whims of your Lord Trader. This document serves as a guideline to ensure your usefulness and prevent unnecessary losses. Your rights are limited to what is necessary for the continuation of the Rogue Trader’s operations and the profitability of the House.</p>
+	<p>Should you fail to meet the required standards or disrupt operations, no legal recourse will be available to you, and your fate will be at the discretion of the Rogue Trader. This document does not extend to Imperial military service personnel or any entities not under the direct employment of Rogue House.</p>
+
 	<h2>1. Introduction</h2>
-	<p>This Charter of Rights sets out the rights and responsibilities of all workplace parties in the provision of decent and fair health, safety, compensation and rehabilitation systems and practices within Sol-affiliated workplaces. Regardless of jurisdiction, changes to occupational health and safety, compensation and rehabilitation law must not result in a diminution of the rights and entitlements of any worker.</p>
-	<p>This Charter does not apply to staff who are not signatory to the Solar Employee General Award, or are signatory to other workplace regulatory documents such as the internal protocols of the Explorator or the Sol Defense Fleet. Union representatives must take care to ensure that their operations on mixed jurisdiction stations and vessels are restricted to those areas that have a union worker, contractor or labourer presence.</p>
-	<p>Workers must not be adversely affected by any employer moving between jurisdictions in relation to their OHS and workers compensation entitlements. Any proposed move between jurisdictions will only occur following genuine consultation and agreement with workers and their representatives and a process of public review, including public tribunal hearings.</p>
-	<p>Consistent with OHS and Worker Compensation Policy and interstellar standards, Solar law must ensure healthy and safe workplaces and a compensation and rehabilitation system which ensures that no worker is disadvantaged should they be injured at work.</p>
-	<p>All workers have the right to join a genuine guild. Union organised workplaces are safer workplaces.</p>
+	<p>This Charter outlines the minimum provisions expected for the continued operation of personnel aboard the Rogue House fleet and associated planetary holdings. It exists solely to ensure that labor resources do not degrade beyond operational utility and that basic maintenance of personnel is conducted to keep the workforce viable.</p>
+	<p>While the Charter’s presence may be invoked as a means of maintaining discipline, it does not prevent the Rogue Trader from making any decisions they deem necessary, including termination of employment through any means, as long as it does not disrupt immediate operations.</p>
+
 	<h2>2. Security Levels</h2>
 	<hr>
-	<p>On stations or vessels employing the standard Imperium Alert Level protocol, the following conditions apply:</p>
+	<p>The following applies during varying levels of ship or station alert:</p>
 	<ul>
-	<li>On green alert, all particulars of this charter are considered valid and applicable.</li>
-	<li>Above green alert, union representatives are not permitted to conduct workplace inspections and are advised, but not required, to cease all union meetings or strike proceedings.</li>
-	<li>On red alert or above, this charter is suspended, and all union representatives and workers must follow directives from personnel authorized under red alert protocol.</li>
+	<li>Routine operational alert: Basic care protocols are in place, including limited inspections of living and working conditions to prevent total disintegration of personnel.</li>
+	<li>Heightened alert: Inspections and crew welfare protocols are suspended as the focus shifts entirely to operational efficiency. Crew members must be prepared for increased risk of injury or death.</li>
+	<li>Red alert or combat operations: The Rogue Trader’s authority supersedes all provisions. Survival is the only expectation. Non-essential personnel may be placed in harm's way to secure operational objectives.</li>
 	</ul>
+
 	<h2>3. Representation</h2>
 	<hr>
-	<p>Every worker has the right to be represented on health, safety, compensation, rehabilitation and return to work issues, by their elected Union Representative and their union. Every worker has the right to elect health and safety representatives.</p>
-	<p>Unions have the right to:</p>
+	<p>While the concept of worker representation exists in theory, in practice it is a tool used by the Rogue Trader to manage dissent and maintain order among the crew. Any "representatives" are handpicked by the Trader or appointed from the crew under their direct supervision. These individuals may raise concerns, but their power is severely restricted, and they are under constant surveillance.</p>
+	<p>The role of a representative is limited to:</p>
 	<ul>
-	<li>Enter workplaces on health and safety issues;</li>
-	<li>Investigate breaches of health and safety laws;</li>
-	<li>Represent members and prospective members;</li>
-	<li>Initiate investigations and prosecutions for occupational health and safety breaches;</li>
-	<li>Initiate cessation of work in unsafe areas; and</li>
-	<li>Access all relevant information and reports.</li>
+	<li>Addressing grievances that do not interfere with the Rogue Trader's immediate objectives;</li>
+	<li>Ensuring that crew morale remains high enough to prevent widespread mutiny;</li>
+	<li>Reporting on the general state of the crew, including injuries, disputes, and fatalities.</li>
 	</ul>
-	<p>Union Representatives have the right to:</p>
+	<h2>4. Worker Rights</h2>
+	<hr>
+	<p>Workers aboard a Rogue Trader vessel have the following rights:</p>
 	<ul>
-	<li>Be democratically elected by a process determined by workers, in conjunction with their union;</li>
-	<li>Utilise legal rights and powers to represent workers on health and safety matters;</li>
-	<li>Inspect the workplace, within the agreed-upon confines previously noted;</li>
-	<li>Access relevant information and be informed of all incidents;</li>
-	<li>Be consulted by the employer before workplace changes occur that may affect health and safety;</li>
-	<li>Issue notices when breaches are detected;</li>
-	<li>Call in government inspectors;</li>
-	<li>Direct workers to cease work where there is a belief of immediate risk to health and safety;</li>
-	<li>Seek resolution of health and safety issues;</li>
-	<li>Perform all OHS activities on paid time and have adequate facilities;</li>
-	<li>Be assisted by any person at any time in the execution of union duties;</li>
-	<li>Be protected by law from discrimination, harassment, bullying, intimidation and prosecution;</li>
-	<li>Appeal any decision of a regulator or court regarding any health and safety, compensation or rehabilitation matter.</li>
+	<li>The right to basic resources as long as they contribute to the Rogue House;</li>
+	<li>Basic medical care to ensure they remain operational and fit for service;</li>S
+	<li>Safe disposal or handling of personnel who are no longer useful or are incapacitated beyond operational limits;</li>
+	<li>The right to be trained in additional skills if it benefits the House’s objectives.</li>
 	</ul>
-	<h2>4. Workers</h2>
+
+	<h2>5. Employer Responsibilities</h2>
 	<hr>
-	<p>Every worker has the right to:
+	<p>Rogue House is responsible for ensuring that its assets, including the crew, are capable of fulfilling their duties. The employer is under no obligation to offer more than the basic provisions required to maintain workforce efficacy. These include:</p>
 	<ul>
-	<li>A safe and healthy workplace;</li>
-	<li>Travel to and from work sites in safety and with appropriate protections;</li>
-	<li>Return home from work free of injury or illness;</li>
-	<li>Enjoy the highest level of protection, representation, compensation and rehabilitation, regardless of the jurisdiction within which they work;</li>
-	<li>Take collective action over any health and safety matter, including the right to cease unsafe or unhealthy work; and</li>
-	<li>Discuss, negotiate and be consulted and involved in all issues affecting their health, safety and welfare.</li>
+	<li>Providing adequate sustenance, as long as it keeps workers healthy enough to perform required tasks;</li>
+	<li>Ensuring medical facilities are available to address injuries that prevent work performance;</li>
+	<li>Minimizing unnecessary deaths to avoid detrimental loss of manpower.</li>
 	</ul>
-	<p>All workers (or prospective workers), including health and safety representatives, will be protected by law from discrimination, harassment, bullying or detriment to their employment because they have raised a health and safety issue, lodged a compensation claim or been involved in consultation on workplace health and safety matters.</p>
-	<h2>4. Employer Responsibilities</h2>
+
+	<h2>6. Compensation</h2>
 	<hr>
-	<p>Persons who control, manage or own workplaces have an absolute duty of care without limitation to provide and maintain safe and healthy work environments. Employers will not shift jurisdictions to attempt to avoid their OHS and workers compensation responsibilities and obligations. Employers are subject to all the obligations and responsibilities contained within this Charter.</p>
-	<h2>5. Compensation</h2>
-	<hr>
-	<p>Following a physical or psychological injury, all workers have the right to a fair, just and equitable compensation system, which promotes the best medical and like support, the most effective rehabilitation for injured workers and facilitates a safe return to work that offers genuine job security. Workers' compensation standards are to:</p>
-	<li>Be available to all members of the workforce;</li>
-	<li>Provide compensation for all injuries that arise from travel to, from or during work including and during recess breaks;</li>
-	<li>Be available upon the death of a worker and for dependants of that worker;</li>
-	<li>Be based on the 100% replacement of loss of income;</li>
-	<li>Provide total cost of medical rehabilitation and other related expenses;</li>
-	<li>Provide lump sum compensation for permanent disability;</li>
-	<li>Ensure common law rights;</li>
-	<li>Support rehabilitation and return to work;</li>
-	<li>Ensure that workers are entitled to timely and effective claim determination and dispute resolution processes;</li>
-	<li>Ensure the worker has access to the doctor of their choice; and</li>
-	<li>Not be eroded by companies seeking to self-insure in order to obtain lower OHS and worker's compensation entitlements for workers.</li>
-	</ul>
-	<h2>6. Rehabilitation</h2>
-	<hr>
-	<p>All workers have the right to return to safe, suitable, meaningful and sustainable work, following the provision of quality rehabilitation services, commensurate to need. Rehabilitation will include the right to:</p>
+	<p>Compensation is tied strictly to your ability to contribute to Rogue House’s operations. This can take the form of:</p>
 	<ul>
-	<li>Union representation;</li>
-	<li>Fair, equitable, high quality, appropriate, effective and timely rehabilitation plans and services;</li>
-	<li>Consultation about all aspects of rehabilitation;</li>
-	<li>All documentation and information relating to their rehabilitation;</li>
-	<li>Privacy in the management of all records and information; and</li>
-	<li>Personal choice of medical provider and rehabilitation service, where facilities permit.</li>
+	<li>Minimal wage for maintaining your physical and mental well-being;</li>
+	<li>Compensation for injury, limited to what is necessary to return the worker to service;</li>
+	<li>Death benefits, if the loss is deemed a preventable operational failure, but not if the death is caused by negligence or conflict.</li>
+	</ul>
+
+	<h2>7. Rehabilitation</h2>
+	<hr>
+	<p>Any worker incapacitated by injury or illness will be rehabilitated only if it serves the interests of Rogue House. This rehabilitation may include:</p>
+	<ul>
+	<li>Physical therapy to restore workers to operational efficiency;</li>
+	<li>Replacement of limbs, organs, or body parts if the cost is deemed reasonable;</li>
+	<li>Psychological reconditioning to prevent issues that would affect work performance.</li>
 	</ul>
 	</body>
 	"}

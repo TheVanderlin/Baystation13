@@ -346,7 +346,7 @@
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/heads/cobed)
 "aL" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/tech_supply,
 /obj/random/maintenance/solgov,
 /obj/floor_decal/industrial/outline/grey,
@@ -647,20 +647,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/forestarboard)
-"bu" = (
-/obj/machinery/door/firedoor,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/corporate{
-	id_tag = "liaisondoor3";
-	name = "Corporate Liaison";
-	secured_wires = 1
-	},
-/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
-/area/crew_quarters/heads/office/cl)
 "bv" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -884,9 +870,7 @@
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/storage/box/cups,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/bridge/hallway/starboard)
@@ -1529,9 +1513,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/heads/office/rd)
 "cT" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/random/cash,
 /obj/random/cash,
 /obj/random_multi/single_item/boombox,
@@ -1589,10 +1571,6 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/bridge/meeting_room)
 "da" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/item/device/radio/intercom{
 	pixel_y = 23
 	},
@@ -1703,9 +1681,7 @@
 /area/bridge)
 "di" = (
 /obj/floor_decal/industrial/outline/grey,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -1723,9 +1699,6 @@
 /obj/item/rig/command/medical/equipped,
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
-"dk" = (
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/heads/office/cl/backroom)
 "dl" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -1816,10 +1789,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/substation/bridge)
 "dv" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /obj/machinery/atmospherics/valve/shutoff/supply{
 	dir = 4
 	},
@@ -1854,7 +1823,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/bridge/storage)
 "dF" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -1980,13 +1949,6 @@
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/crew_quarters/heads/office/xo)
 "dS" = (
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Bridge Conference Room";
-	departmentType = 5;
-	name = "Bridge Conference Room";
-	pixel_x = 32
-	},
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/bridge/meeting_room)
 "dT" = (
@@ -2104,9 +2066,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/bridge/meeting_room)
 "em" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/device/flashlight/lamp{
 	pixel_y = 3
 	},
@@ -2182,9 +2142,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/xo)
 "eu" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/machinery/keycard_auth/torch{
 	pixel_x = 26
 	},
@@ -2697,13 +2655,6 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "XO's Desk";
-	departmentType = 5;
-	name = "XO Request Console";
-	pixel_y = 30
-	},
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/crew_quarters/heads/office/xo)
 "fA" = (
@@ -2762,10 +2713,6 @@
 /obj/structure/flora/pottedplant/smelly{
 	desc = "This is some kind of tropical plant. It reeks of rotten eggs. This one has a hand-painted Nametag on the rim. It reads 'Steve'"
 	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/crew_quarters/heads/office/cos)
 "fG" = (
@@ -2792,7 +2739,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/bridge/hallway/port)
 "fH" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/structure/window/reinforced,
 /obj/machinery/door/window/brigdoor/westright{
 	autoset_access = 0;
@@ -3275,7 +3222,8 @@
 /obj/machinery/porta_turret{
 	dir = 8;
 	enabled = 0;
-	lethal = 1
+	lethal = 1;
+	name = "Mechanicus Turret"
 	},
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor{
@@ -3307,7 +3255,8 @@
 /obj/machinery/porta_turret{
 	dir = 8;
 	enabled = 0;
-	lethal = 1
+	lethal = 1;
+	name = "Mechanicus Turret"
 	},
 /turf/simulated/floor{
 	map_airless = 1
@@ -3315,9 +3264,7 @@
 /area/aquila/cockpit)
 "hi" = (
 /obj/floor_decal/industrial/outline/grey,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -3524,7 +3471,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 6
 	},
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "id" = (
 /obj/machinery/door/blast/shutters{
 	density = 0;
@@ -3603,9 +3550,6 @@
 	department = "Dauntless - Corporate Liasion"
 	},
 /obj/structure/table/woodentable_reinforced/walnut,
-/obj/structure/noticeboard{
-	pixel_x = 32
-	},
 /obj/machinery/button/alternate/door/bolts{
 	desc = "A remote control-switch for the office door.";
 	id_tag = "liaisondoor2";
@@ -3786,9 +3730,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/heads/office/ce)
 "iS" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/floor_decal/corner/yellow{
 	dir = 6
 	},
@@ -3942,7 +3884,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/aftstarboard)
 "jz" = (
-/obj/machinery/computer/modular/preset/cardslot/command,
 /obj/machinery/button/alternate/door{
 	id_tag = "starboardbridgeaccess";
 	name = "Bridge Access Starboard Door Control";
@@ -3962,6 +3903,7 @@
 	pixel_x = 24;
 	pixel_y = 34
 	},
+/obj/machinery/computer/modular/preset/medical,
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/bridge)
 "jA" = (
@@ -4250,9 +4192,7 @@
 /obj/floor_decal/corner/yellow{
 	dir = 6
 	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/toy/desk/newtoncradle,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/heads/office/ce)
@@ -4711,9 +4651,7 @@
 /turf/simulated/wall/titanium,
 /area/aquila/storage)
 "mz" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/stamp/sea,
 /obj/machinery/button/alternate/door{
 	desc = "A remote control-switch for the office door.";
@@ -4805,9 +4743,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/machinery/newscaster/security_unit{
 	pixel_y = 32
 	},
@@ -5045,7 +4981,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/toolbox,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/air)
@@ -5058,10 +4994,6 @@
 /area/space)
 "ns" = (
 /obj/structure/table/woodentable_reinforced/walnut,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/item/storage/box/donut,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/crew_quarters/heads/office/cl)
@@ -5075,7 +5007,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet,
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "nE" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 1;
@@ -5184,9 +5116,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/crew_quarters/heads/office/cos)
 "nZ" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/device/binoculars,
 /obj/item/crowbar/prybar,
 /obj/random/maintenance/solgov/clean,
@@ -5324,7 +5254,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 4
 	},
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "oF" = (
 /obj/machinery/hologram/holopad,
 /obj/floor_decal/industrial/outline/yellow,
@@ -5630,9 +5560,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/storage)
 "pk" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/random/single/cola,
 /obj/machinery/power/apc/hyper/shuttle/aquila{
 	dir = 1;
@@ -5645,9 +5573,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/storage)
 "pl" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/machinery/microwave,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/storage)
@@ -5713,7 +5639,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 4
 	},
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "pG" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/prepainted,
@@ -5759,9 +5685,7 @@
 /area/aux_eva)
 "pR" = (
 /obj/floor_decal/industrial/outline/grey,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/item/device/suit_cooling_unit,
 /obj/item/device/suit_cooling_unit,
 /turf/simulated/floor/tiled/dark,
@@ -5855,9 +5779,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/storage)
 "qe" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/random/snack,
 /obj/machinery/light/small{
 	dir = 4
@@ -5915,9 +5837,7 @@
 /area/bridge)
 "qi" = (
 /obj/floor_decal/industrial/outline/grey,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -5939,14 +5859,6 @@
 /obj/structure/sign/warning/high_voltage,
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/heads/office/cos)
-"qn" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
-/area/crew_quarters/heads/office/cl/backroom)
 "qo" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
@@ -6006,13 +5918,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
 "qu" = (
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Chief Medical Officer's Desk";
-	departmentType = 5;
-	name = "Chief Medical Officer RC";
-	pixel_x = 32
-	},
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -6091,9 +5996,7 @@
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/heads/office/sea)
 "qI" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/machinery/recharger,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/storage)
@@ -6657,7 +6560,7 @@
 	},
 /area/bridge/storage)
 "so" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/syringe/antiviral,
 /obj/item/reagent_containers/syringe/antiviral,
 /obj/item/stack/medical/advanced/bruise_pack,
@@ -6829,7 +6732,7 @@
 /obj/structure/closet/medical_wall{
 	pixel_x = -32
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/surgery,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/gloves/latex,
@@ -7046,7 +6949,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/aftport)
 "tI" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
@@ -7064,7 +6967,7 @@
 /area/aquila/power)
 "tK" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/toolbox,
 /obj/random/toolbox,
 /obj/random/powercell,
@@ -7147,7 +7050,7 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet,
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "ub" = (
 /obj/structure/bed/chair/padded/blue{
 	dir = 4
@@ -7430,9 +7333,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/atm{
-	pixel_y = 32
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
@@ -7561,9 +7461,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/crew_quarters/heads/office/sea)
 "vk" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 8;
@@ -7769,9 +7667,7 @@
 	pixel_x = 32
 	},
 /obj/item/modular_computer/laptop/preset/custom_loadout/standard,
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "vX" = (
@@ -8096,9 +7992,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/crew_quarters/heads/office/sea)
 "wx" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/toy/bosunwhistle,
 /obj/item/sticky_pad/random,
 /obj/machinery/newscaster/security_unit{
@@ -8123,9 +8017,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "wC" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/stamp/cos,
 /obj/random_multi/single_item/memo_security,
 /obj/item/folder/envelope/cosorder,
@@ -8747,9 +8639,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/storage)
 "yp" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/cans/waterbottle,
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/crew_quarters/heads/office/sea)
@@ -8969,7 +8859,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
 "zC" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/item/storage/box/PDAs{
 	pixel_x = 4;
 	pixel_y = 4
@@ -9215,9 +9105,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
 "AA" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/machinery/recharger{
 	pixel_y = 4
 	},
@@ -9343,13 +9231,6 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/fore)
 "AZ" = (
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Chief Engineer's Desk";
-	departmentType = 6;
-	name = "Chief Engineer RC";
-	pixel_x = 32
-	},
 /obj/floor_decal/corner/yellow/mono,
 /obj/item/modular_computer/tablet/lease/preset/command,
 /obj/machinery/computer/modular/preset/cardslot/command_eng{
@@ -9625,14 +9506,6 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/crew_quarters/heads/office/sea)
 "Cl" = (
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "CO's Desk";
-	departmentType = 5;
-	name = "CO Request Console";
-	pixel_x = -30;
-	pixel_y = 32
-	},
 /obj/machinery/light{
 	dir = 8;
 	icon_state = "tube1"
@@ -9808,12 +9681,10 @@
 "Dj" = (
 /obj/structure/bed/chair/comfy/green,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "Dq" = (
 /obj/floor_decal/industrial/outline/grey,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -9852,7 +9723,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 32
 	},
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/item/pinpointer,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/device/multitool,
@@ -9878,7 +9749,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/bridge/meeting_room)
 "DI" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov/clean,
 /obj/random/maintenance/solgov/clean,
 /turf/simulated/floor/plating,
@@ -9911,10 +9782,6 @@
 /obj/machinery/light_switch{
 	pixel_x = 23;
 	pixel_y = 24
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
 	},
 /obj/machinery/light{
 	dir = 1
@@ -9972,15 +9839,9 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/item/device/binoculars,
 /obj/machinery/light,
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Security";
-	departmentType = 5;
-	pixel_y = -32
-	},
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/security/bridgecheck)
 "Es" = (
@@ -10120,7 +9981,7 @@
 	},
 /area/aquila/airlock)
 "Ff" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/floor_decal/industrial/outline/grey,
 /obj/item/device/radio,
 /obj/item/crowbar/prybar,
@@ -10184,12 +10045,6 @@
 /obj/floor_decal/industrial/warning,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/storage)
-"FE" = (
-/obj/machinery/computer/modular/preset/engineering{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
-/area/bridge)
 "FG" = (
 /obj/machinery/photocopier/faxmachine{
 	department = "Dauntless - Executive Officer"
@@ -10372,7 +10227,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 1
 	},
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "GB" = (
 /obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 8;
@@ -10726,24 +10581,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/computer/modular/preset/medical,
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 1
+	},
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/bridge)
-"HG" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/door/airlock/corporate{
-	id_tag = "liaisondoor3";
-	name = "Corporate Liaison";
-	secured_wires = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/heads/office/cl)
 "HI" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/warhammer/vaultold{
@@ -10822,9 +10664,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/storage)
 "Ia" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/paper_bin{
 	pixel_x = -3;
 	pixel_y = 7
@@ -10923,13 +10763,6 @@
 /area/crew_quarters/heads/office/co)
 "Io" = (
 /obj/floor_decal/spline/fancy/wood,
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Captain's Desk";
-	departmentType = 5;
-	name = "Captain RC";
-	pixel_x = 30
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
@@ -11019,18 +10852,9 @@
 /turf/simulated/floor/plating,
 /area/aquila/power)
 "IE" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/machinery/photocopier/faxmachine{
 	department = "Dauntless - Senior Enlisted Advisor"
-	},
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Senior Enlisted Advisor's Desk";
-	departmentType = 6;
-	name = "Senior Enlisted Advisor RC";
-	pixel_y = -34
 	},
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/crew_quarters/heads/office/sea)
@@ -11257,7 +11081,7 @@
 	pixel_y = -6
 	},
 /turf/simulated/wall/prepainted,
-/area/crew_quarters/heads/office/rd)
+/area/crew_quarters/heads/office/cl)
 "Kc" = (
 /obj/machinery/oxygen_pump{
 	pixel_y = 32
@@ -11397,7 +11221,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 5
 	},
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "KB" = (
 /obj/structure/largecrate,
 /turf/simulated/floor/plating,
@@ -11446,7 +11270,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/aftstarboard)
 "KN" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/defibrillator/loaded,
 /turf/simulated/floor/tiled/white/monotile,
 /area/aquila/medical)
@@ -11659,7 +11483,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 1
 	},
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "Ma" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -11710,13 +11534,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/aftstarboard)
 "Mn" = (
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Chief of Security's Desk";
-	departmentType = 5;
-	name = "Chief of Security RC";
-	pixel_x = 32
-	},
 /obj/item/modular_computer/tablet/lease/preset/command,
 /obj/machinery/computer/modular/preset/cardslot/command_sec{
 	dir = 8;
@@ -11893,9 +11710,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
 "Nn" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/pawn,
 /obj/item/reagent_containers/food/condiment/small/packet/coffee,
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
@@ -11943,9 +11758,6 @@
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/heads/office/cl)
-"NC" = (
-/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
-/area/crew_quarters/heads/office/cl/backroom)
 "ND" = (
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/alarm{
@@ -12038,13 +11850,6 @@
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/crew_quarters/heads/office/xo)
 "Oe" = (
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Bridge";
-	departmentType = 5;
-	name = "Bridge RC";
-	pixel_x = 30
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -12108,7 +11913,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "Oi" = (
 /obj/structure/hygiene/sink{
 	dir = 4;
@@ -12153,7 +11958,7 @@
 /obj/item/hand_labeler,
 /obj/item/folder/envelope/clorder,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "Ox" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/button/alternate/door/bolts{
@@ -12168,7 +11973,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "Oy" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/device/flashlight/lamp,
@@ -12314,7 +12119,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 4
 	},
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "Pn" = (
 /obj/item/device/taperecorder{
 	pixel_x = -4;
@@ -12328,7 +12133,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 4
 	},
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "Pt" = (
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/heads/office/co)
@@ -12409,7 +12214,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
-/area/crew_quarters/heads/office/cl/backroom)
+/area/crew_quarters/heads/office/cl)
 "Qb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -12511,9 +12316,7 @@
 /area/bridge/disciplinary_board_room)
 "Qh" = (
 /obj/floor_decal/industrial/outline/grey,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/item/storage/toolbox/mechanical,
 /obj/machinery/light{
 	dir = 8;
@@ -12860,9 +12663,7 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/device/flash,
 /obj/item/device/flash,
 /obj/item/device/megaphone,
@@ -13161,9 +12962,7 @@
 /turf/simulated/floor/tiled/white,
 /area/aquila/medical)
 "Ta" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/paper_bin{
 	pixel_x = -3;
 	pixel_y = 7
@@ -13259,9 +13058,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/item/inflatable_dispenser,
 /obj/item/storage/briefcase/inflatable,
 /obj/item/storage/briefcase/inflatable,
@@ -13282,7 +13079,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/solgov,
 /obj/random/solgov,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -13449,9 +13246,7 @@
 /area/hallway/primary/bridge/aft)
 "Uh" = (
 /obj/structure/window/reinforced,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -13639,13 +13434,6 @@
 /obj/item/folder/nt,
 /obj/item/folder/yellow,
 /obj/item/folder/white,
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Chief Science Officer's Desk";
-	departmentType = 5;
-	name = "Chief Science Officer RC";
-	pixel_y = 30
-	},
 /obj/item/folder/nt,
 /obj/floor_decal/corner/research/mono,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -13845,13 +13633,6 @@
 /obj/floor_decal/corner/research/mono,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/heads/office/rd)
-"Wj" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -23
-	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
-/area/security/bridgecheck)
 "Wr" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
@@ -13942,9 +13723,7 @@
 /area/bridge/meeting_room)
 "Xh" = (
 /obj/floor_decal/industrial/outline/grey,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -14410,9 +14189,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/coralg,
 /area/crew_quarters/heads/office/cos)
 "Zx" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/machinery/keycard_auth/torch{
 	pixel_x = 26
 	},
@@ -14455,10 +14232,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/heads/office/rd)
 "ZI" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/machinery/photocopier,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
@@ -22083,7 +21856,7 @@ Rq
 GV
 dU
 WW
-FE
+ew
 HE
 Mz
 Mz
@@ -26914,10 +26687,10 @@ VB
 VB
 sJ
 OM
-bu
+Ix
 kS
 kS
-HG
+ZJ
 sJ
 sJ
 Gs
@@ -27114,14 +26887,14 @@ af
 aF
 aP
 bg
-dk
+sJ
 LR
-qn
-NC
+Ix
+kS
 Ox
 PW
 nv
-dk
+sJ
 xW
 Rp
 fB
@@ -27132,7 +26905,7 @@ fY
 zV
 kX
 eF
-Wj
+UA
 Eq
 yW
 FS
@@ -27316,14 +27089,14 @@ af
 af
 aj
 bh
-dk
+sJ
 GA
 Oh
-NC
+kS
 Ov
 Dj
 ua
-dk
+sJ
 Lf
 gM
 fB
@@ -27518,14 +27291,14 @@ af
 af
 al
 bi
-dk
+sJ
 Kx
 pF
 Pl
 Pn
 oE
 hW
-dk
+sJ
 Re
 Bw
 hC
@@ -27720,13 +27493,13 @@ gz
 gz
 aQ
 bx
-sT
-sT
-sT
-sT
-sT
-sT
-sT
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
 Kb
 xW
 xX
@@ -37042,11 +36815,11 @@ ad
 ad
 ad
 ah
-av
+aw
 aI
 ad
 ah
-av
+aw
 aI
 ad
 ad
@@ -37210,11 +36983,11 @@ ad
 ad
 ad
 ah
-av
+aw
 aI
 ad
 ah
-av
+aw
 aI
 ad
 ad
@@ -37243,13 +37016,13 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
 ad
-ah
-av
-aI
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ad
@@ -37411,13 +37184,6 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
-ad
-ah
-av
-aI
 ad
 ad
 ad
@@ -37445,13 +37211,20 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
 ad
-ah
-av
-aI
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ad
@@ -37613,13 +37386,6 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
-ad
-ah
-av
-aI
 ad
 ad
 ad
@@ -37647,13 +37413,20 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
 ad
-ah
-av
-aI
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ad
@@ -37815,13 +37588,6 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
-ad
-ah
-av
-aI
 ad
 ad
 ad
@@ -37849,13 +37615,20 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
 ad
-ah
-av
-aI
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ad
@@ -38017,13 +37790,6 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
-ad
-ah
-av
-aI
 ad
 ad
 ad
@@ -38051,13 +37817,20 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
 ad
-ah
-av
-aI
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ad
@@ -38219,13 +37992,6 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
-ad
-ah
-av
-aI
 ad
 ad
 ad
@@ -38253,13 +38019,20 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
 ad
-ah
-av
-aI
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ad
@@ -38421,13 +38194,6 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
-ad
-ah
-av
-aI
 ad
 ad
 ad
@@ -38455,13 +38221,20 @@ ad
 ad
 ad
 ad
-ah
-av
-aI
 ad
-ah
-av
-aI
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ad
@@ -38623,13 +38396,6 @@ ad
 ad
 ad
 ad
-ah
-aw
-aI
-ad
-ah
-aw
-aI
 ad
 ad
 ad
@@ -38657,13 +38423,20 @@ ad
 ad
 ad
 ad
-ah
-aw
-aI
 ad
-ah
-aw
-aI
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ad

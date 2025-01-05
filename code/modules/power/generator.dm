@@ -1,6 +1,6 @@
 /obj/machinery/power/generator
-	name = "thermoelectric generator"
-	desc = "It's a high efficiency thermoelectric generator."
+	name = "promethium generator"
+	desc = "It's a high efficiency promethium generator."
 	icon = 'icons/obj/machines/power/teg.dmi'
 	icon_state = "teg-unassembled"
 	density = TRUE

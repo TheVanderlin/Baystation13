@@ -536,7 +536,7 @@
 	if(lit)
 		icon_state = "torch1"
 		item_state = "torch1"
-		set_light(5, 7, "#E38F46")
+		set_light(5, 4, "#E38F46")
 	else
 		icon_state = "torch0"
 		item_state = "torch0"
@@ -580,8 +580,12 @@
 
 /obj/item/torch/use_tool(obj/item/W, mob/user, list/click_params)
 	..()
-	if(isFlameOrHeatSource(W))
-		light()
+	world.log << "Checking [W] as a flame source."
+	if(isflamesource(W))
+		world.log << "[W] is a valid flame or heat source."
+		light(user, TRUE)
+	else
+		world.log << "[W] is not a valid flame or heat source."
 
 /obj/structure/torchwall
 	name = "torch fixture"
@@ -612,7 +616,7 @@
 	if(lighttorch)
 		if(lighttorch.lit)
 			icon_state = "torchwall1"
-			set_light(4, 5,"#E38F46")
+			set_light(5, 4,"#E38F46")
 
 		else
 			icon_state = "torchwall0"
@@ -714,7 +718,7 @@
 	if(lit)
 		icon_state = "fireplacestand_f"
 		item_state = "fireplacestand_f"
-		set_light(5, 6, "#E38F46")
+		set_light(5, 4, "#E38F46")
 	else
 		icon_state = "fireplacestand"
 		item_state = "fireplacestand"
@@ -781,7 +785,7 @@
 	overlays = overlays.Cut()
 	if(lit)
 		icon_state = "fire_bl"
-		set_light(5, 6, "#E38F46")
+		set_light(5, 5, "#E38F46")
 	else
 		icon_state = "fire_bl"
 		set_light(0,0)
@@ -836,7 +840,7 @@
 	if(lit)
 		icon_state = "cauldron1"
 		item_state = "cauldron1"
-		set_light(5, 6, "#E38F46")
+		set_light(5, 4, "#E38F46")
 	else
 		icon_state = "cauldron0"
 		item_state = "cauldron0"

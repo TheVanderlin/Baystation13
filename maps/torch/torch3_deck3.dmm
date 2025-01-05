@@ -34,12 +34,12 @@
 /turf/simulated/floor/plating,
 /area/vacant/brig)
 "ah" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/junk,
 /turf/simulated/floor/warhammer/plating,
 /area/vacant/brig)
 "ai" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/warhammer/plating,
 /area/vacant/brig)
 "aj" = (
@@ -268,7 +268,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "ba" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -276,10 +276,6 @@
 /obj/structure/lattice,
 /turf/space,
 /area/space)
-"bc" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/mess)
 "bd" = (
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d3starboard)
@@ -324,14 +320,8 @@
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
-"bn" = (
-/obj/decal/cleanable/dirt,
-/obj/random/obstruction,
-/turf/simulated/floor/plating,
-/area/maintenance/thirddeck/starboard)
 "bp" = (
 /obj/random/torchcloset,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
 "bq" = (
@@ -351,7 +341,7 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "bu" = (
 /turf/simulated/floor/plating,
@@ -418,7 +408,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "bD" = (
@@ -649,7 +638,7 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/chief_steward)
 "bT" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/photocopier/faxmachine{
 	department = "Dauntless - Chief Steward's Office"
 	},
@@ -772,21 +761,6 @@
 	},
 /turf/simulated/floor/warhammer/oldsmoothdirt,
 /area/crew_quarters/observation)
-"ci" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/structure/torchwall{
-	dir = 8
-	},
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/mess)
-"cj" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/warhammer/darkwood,
-/area/maintenance/thirddeck/starboard)
 "ck" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/bed/chair/stoolw/wood{
@@ -856,11 +830,10 @@
 /area/maintenance/thirddeck/aftstarboard)
 "ct" = (
 /obj/structure/disposalpipe/segment,
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/structure/torchwall{
 	dir = 4
 	},
 /turf/simulated/floor/warhammer/darkwood,
@@ -883,22 +856,17 @@
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -21;
-	req_access = list("ACCESS_DAUNTLESS")
-	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/janitor/storage)
 "cE" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
 /obj/random/tank,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
 "cF" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/tiled/techfloor,
@@ -908,7 +876,6 @@
 /area/maintenance/thirddeck/forestarboard)
 "cH" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
 "cI" = (
@@ -930,22 +897,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
-"cJ" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/catwalk,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/turf/simulated/floor/plating,
-/area/thruster/d3starboard)
 "cK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -975,7 +926,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/service_break_room)
 "cN" = (
-/obj/decal/cleanable/dirt,
 /obj/structure/table/warhammer/big_wood_table{
 	dir = 8
 	},
@@ -1020,7 +970,6 @@
 /area/hallway/primary/thirddeck/center)
 "cT" = (
 /obj/structure/disposalpipe/segment,
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
 	dir = 9
 	},
@@ -1060,6 +1009,7 @@
 	dir = 1
 	},
 /obj/structure/closet/walllocker/emerglocker/north,
+/obj/random/loot/randomcolonyitems,
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "cZ" = (
@@ -1078,13 +1028,13 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/unpowered/inn{
-	name = "Candela Obscura"
-	},
 /obj/machinery/door/blast/gates/grates{
 	id_tag = "bar2";
 	begins_closed = 0;
 	icon_state = "gshutter0"
+	},
+/obj/machinery/door/unpowered/inn{
+	name = "Whirling In Rags"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/mess)
@@ -1127,7 +1077,6 @@
 	icon_state = "4-8"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "dc" = (
@@ -1178,14 +1127,14 @@
 /area/maintenance/thirddeck/starboard)
 "dh" = (
 /obj/machinery/vending/sovietsoda,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "di" = (
 /obj/machinery/computer/arcade/orion_trail,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "dj" = (
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "dk" = (
 /obj/machinery/power/apc{
@@ -1212,10 +1161,12 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftstarboard)
 "do" = (
-/obj/structure/closet/emcloset,
-/obj/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/thirddeck/port)
+/obj/item/flame/candle{
+	pixel_x = -11;
+	pixel_y = 2
+	},
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "dr" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -1233,9 +1184,7 @@
 	},
 /obj/item/rig/eva/equipped,
 /obj/item/rig/eva/equipped,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/machinery/light/small{
 	dir = 4;
 	icon_state = "bulb1"
@@ -1286,32 +1235,11 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "dD" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/starboard)
-"dE" = (
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "hab_checkpoint_shutters";
-	name = "Hangar Deck Checkpoint Shutters";
-	opacity = 0
-	},
-/obj/structure/table/steel_reinforced,
-/obj/machinery/door/window/brigdoor/eastleft{
-	name = "Checkpoint Desk"
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/security/habcheck)
 "dF" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -1334,6 +1262,10 @@
 	},
 /obj/item/device/radio/intercom{
 	pixel_y = 23
+	},
+/obj/machinery/light_switch{
+	pixel_x = 21;
+	pixel_y = 25
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
@@ -1360,14 +1292,14 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/obj/machinery/door/unpowered/inn{
-	name = "Candela Obscura";
-	req_access = list("ACCESS_RESTRICTED")
-	},
 /obj/machinery/door/blast/gates/grates{
 	id_tag = "bar3";
 	begins_closed = 0;
 	icon_state = "gshutter0"
+	},
+/obj/machinery/door/unpowered/inn{
+	name = "Whirling In Rags";
+	req_access = list("ACCESS_TAVERN")
 	},
 /turf/simulated/floor/warhammer/metal,
 /area/crew_quarters/mess)
@@ -1395,7 +1327,6 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "dP" = (
@@ -1441,10 +1372,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/starboard)
 "dT" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -1452,22 +1379,19 @@
 /obj/decal/cleanable/cobweb,
 /obj/structure/table/steel,
 /obj/item/storage/box/condimentbottles,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "dV" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
 	},
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "dW" = (
-/obj/decal/cleanable/dirt,
 /obj/random_multi/single_item/poppy,
 /turf/simulated/floor/plating,
 /area/vacant/mess)
 "dX" = (
-/obj/decal/cleanable/dirt,
 /obj/item/frame/apc,
 /turf/simulated/floor/plating,
 /area/vacant/mess)
@@ -1476,7 +1400,6 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
 	dir = 10
 	},
@@ -1487,7 +1410,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/aftstarboard)
 "ea" = (
 /obj/machinery/door/firedoor,
@@ -1496,8 +1419,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/engineering{
-	name = "Third Deck Substation"
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Substation Airlock"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/maintenance/substation/thirddeck)
@@ -1596,13 +1520,13 @@
 /turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/crew_quarters/galleybackroom)
 "ev" = (
-/obj/machinery/door/unpowered/inn{
-	name = "Candela Obscura";
-	req_access = list("ACCESS_RESTRICTED")
-	},
 /obj/structure/curtain/open{
 	color = "#5f82d8";
 	icon = 'icons/obj/curtain.dmi'
+	},
+/obj/machinery/door/unpowered/inn{
+	name = "Whirling In Rags";
+	req_access = list("ACCESS_TAVERN")
 	},
 /turf/space,
 /area/crew_quarters/mess)
@@ -1622,7 +1546,9 @@
 /area/hydroponics)
 "ez" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/hatch/maintenance,
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/fore)
 "eA" = (
@@ -1637,7 +1563,7 @@
 	dir = 1;
 	icon_state = "tube1"
 	},
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/item/towel/random,
 /obj/item/towel/random,
 /obj/item/towel/random,
@@ -1652,10 +1578,6 @@
 "eD" = (
 /obj/machinery/vending/lavatory,
 /turf/simulated/floor/warhammer/surgerynew,
-/area/crew_quarters/head)
-"eE" = (
-/obj/machinery/door/unpowered/simple/plastic/open,
-/turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/head)
 "eF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1677,7 +1599,7 @@
 /obj/machinery/vending/snix{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "eI" = (
 /turf/simulated/wall/prepainted,
@@ -1720,12 +1642,13 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/engineering{
-	name = "Utility Up"
-	},
 /obj/floor_decal/industrial/warning/corner{
 	dir = 1;
 	icon_state = "warningcorner"
+	},
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Substation Airlock"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/maintenance/substation/thirddeck)
@@ -1799,7 +1722,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftstarboard)
 "eT" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/item/device/paint_sprayer,
 /obj/item/storage/box/lights/mixed,
 /obj/item/storage/box/lights/mixed,
@@ -1838,12 +1761,9 @@
 /turf/simulated/floor/plating,
 /area/engineering/atmos/aux)
 "fe" = (
-/obj/decal/cleanable/dirt,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/starboard)
 "ff" = (
@@ -1914,9 +1834,8 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
 "fl" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/civilian{
-	name = "Head"
+/obj/machinery/door/unpowered/inn{
+	name = "Bathroom"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/head)
@@ -1927,10 +1846,11 @@
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
 "fn" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Engineering Hard Storage"
-	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Enginarium Hard Storage"
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/hardstorage)
 "fo" = (
@@ -1982,21 +1902,6 @@
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
-"fu" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/civilian{
-	name = "Gym"
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/crew_quarters/gym)
 "fv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2042,12 +1947,6 @@
 /obj/structure/sign/poster,
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/head)
-"fA" = (
-/obj/floor_decal/corner/blue{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/disperser)
 "fB" = (
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/mess)
@@ -2092,7 +1991,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "fH" = (
@@ -2187,11 +2085,11 @@
 "fQ" = (
 /obj/structure/table,
 /obj/random/trash,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "fR" = (
 /obj/structure/closet/cabinet,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "fS" = (
 /obj/structure/cable/green{
@@ -2205,10 +2103,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/door/airlock/civilian{
-	name = "Head"
+/obj/machinery/door/unpowered/inn{
+	name = "Bathroom"
 	},
-/obj/machinery/door/firedoor,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/sleep/cryo)
 "fU" = (
@@ -2240,10 +2137,6 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2356,12 +2249,11 @@
 "gp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
 "gr" = (
@@ -2449,7 +2341,7 @@
 	},
 /obj/machinery/door/unpowered/inn{
 	name = "The Backrooms";
-	req_access = list("ACCESS_TAVERN4")
+	req_access = list("ACCESS_TAVERNBACK")
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/mess)
@@ -2492,10 +2384,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
-"gG" = (
-/obj/decal/cleanable/flour,
-/turf/simulated/floor/plating,
-/area/vacant/mess)
 "gH" = (
 /obj/landmark{
 	name = "xeno_spawn";
@@ -2505,7 +2393,7 @@
 /area/vacant/mess)
 "gI" = (
 /obj/decal/cleanable/flour,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "gJ" = (
 /obj/structure/closet/fridge,
@@ -2514,8 +2402,7 @@
 /obj/random/single/cola,
 /obj/random/single/cola,
 /obj/random/single/cola,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "gK" = (
 /obj/structure/cable/green{
@@ -2547,8 +2434,16 @@
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
 "gM" = (
-/obj/wallframe_spawn/no_grille,
-/turf/simulated/floor/plating,
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/gym)
 "gO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2566,13 +2461,11 @@
 /area/engineering/hardstorage)
 "gQ" = (
 /obj/machinery/reagentgrinder,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/warhammer/darkwood,
 /area/hydroponics)
 "gR" = (
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/item/device/suit_cooling_unit,
 /obj/item/device/suit_cooling_unit,
 /obj/floor_decal/industrial/outline/yellow,
@@ -2589,7 +2482,7 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "gT" = (
 /turf/simulated/floor/warhammer/darkwood,
@@ -2643,7 +2536,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftstarboard)
 "gZ" = (
-/obj/decal/cleanable/dirt,
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 1;
 	icon_state = "console"
@@ -2656,11 +2548,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/service_break_room)
-"hd" = (
-/obj/decal/cleanable/dirt,
-/obj/item/stack/cable_coil/single,
-/turf/simulated/floor/plating,
-/area/maintenance/thirddeck/starboard)
 "hf" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -2733,7 +2620,7 @@
 	name = "west bump";
 	pixel_x = -24
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/material/minihoe,
 /obj/item/material/minihoe,
 /obj/item/material/minihoe,
@@ -2751,23 +2638,9 @@
 /obj/item/storage/secure/safe{
 	pixel_x = 32
 	},
+/obj/random/trash,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
-"hq" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/machinery/newscaster{
-	pixel_x = 32
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/office)
 "hr" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/machinery/cooker/candy{
@@ -2806,27 +2679,6 @@
 "hv" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/hydroponics)
-"hx" = (
-/obj/structure/disposalpipe/junction,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
 "hy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2839,7 +2691,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "hz" = (
@@ -2997,17 +2848,6 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/hardstorage)
-"hV" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
 "hY" = (
 /obj/machinery/door/firedoor,
 /obj/wallframe_spawn/reinforced,
@@ -3023,7 +2863,6 @@
 /area/crew_quarters/service_break_room)
 "ib" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
 "ic" = (
@@ -3083,15 +2922,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
-"ig" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
 "ih" = (
 /obj/structure/closet/crate/warhammer/freezer,
 /turf/simulated/floor/warhammer/ceramic/surgery2,
@@ -3179,10 +3009,6 @@
 	},
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/mess)
-"in" = (
-/obj/item/stool/padded,
-/turf/simulated/floor/warhammer/surgerynew,
-/area/crew_quarters/head)
 "ip" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -3323,19 +3149,6 @@
 /obj/item/soap,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
-"iC" = (
-/obj/structure/table/woodentable/mahogany,
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/memorial)
 "iD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -3345,10 +3158,6 @@
 	},
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
-"iE" = (
-/obj/structure/bed/chair/comfy/black,
-/turf/simulated/floor/carpet,
-/area/crew_quarters/recreation)
 "iF" = (
 /obj/structure/closet/crate/warhammer/freezer,
 /obj/item/reagent_containers/food/drinks/cans/speer,
@@ -3410,7 +3219,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "iN" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/clipboard,
 /obj/item/pen{
 	pixel_x = 4;
@@ -3535,17 +3344,6 @@
 /obj/machinery/seed_extractor,
 /turf/simulated/floor/warhammer/darkwood,
 /area/hydroponics)
-"jb" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
 "jc" = (
 /obj/structure/table/warhammer/big_wood_table{
 	dir = 1
@@ -3570,7 +3368,8 @@
 "jh" = (
 /obj/machinery/door/airlock/vault/bolted{
 	id_tag = "civsafedoor";
-	name = "Third Deck Safe Room"
+	name = "Crew Quarters";
+	locked = 0
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -3649,7 +3448,6 @@
 /area/engineering/hardstorage)
 "jr" = (
 /obj/machinery/floodlight,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
 "js" = (
@@ -3668,14 +3466,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
+	},
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "ju" = (
 /obj/machinery/light/small,
@@ -3701,7 +3501,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftstarboard)
 "jx" = (
-/obj/decal/cleanable/dirt,
 /obj/structure/table/warhammer/big_wood_table{
 	dir = 8
 	},
@@ -3710,7 +3509,6 @@
 /area/crew_quarters/mess)
 "jC" = (
 /obj/random/junk,
-/obj/decal/cleanable/dirt,
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -3729,7 +3527,6 @@
 /area/hallway/primary/thirddeck/fore)
 "jG" = (
 /obj/structure/ore_box,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
 "jH" = (
@@ -3768,12 +3565,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 9
 	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/structure/closet/secure_closet/atmos_torch,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos/aux)
 "jL" = (
@@ -3798,12 +3590,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
-"jN" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
 "jO" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -3832,10 +3618,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
-"jQ" = (
-/obj/structure/catwalk,
-/turf/simulated/open,
-/area/security/habcheck)
 "jR" = (
 /obj/structure/bed/chair,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3934,7 +3716,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "kd" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
@@ -4025,18 +3807,16 @@
 /area/crew_quarters/mess)
 "ko" = (
 /obj/machinery/space_heater,
-/obj/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "kp" = (
 /obj/structure/lattice,
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d3starboard)
 "kq" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
-/obj/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "kr" = (
 /obj/machinery/door/airlock/external{
@@ -4165,7 +3945,6 @@
 /area/engineering/atmos/aux)
 "kH" = (
 /obj/structure/closet/emcloset,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos/aux)
 "kI" = (
@@ -4173,7 +3952,7 @@
 	dir = 4;
 	pixel_x = 24
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
 "kJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4226,7 +4005,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/decal/cleanable/dirt,
 /obj/structure/bed/chair/wood/fancy{
 	color = "#666666"
 	},
@@ -4267,7 +4045,7 @@
 	dir = 8;
 	pixel_x = 25
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "kU" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -4278,17 +4056,6 @@
 	},
 /turf/simulated/floor/warhammer/darkwood2,
 /area/crew_quarters/head/sauna)
-"kV" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/center)
 "kW" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -4298,7 +4065,7 @@
 	pixel_x = -24
 	},
 /obj/machinery/light/spot,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
 /area/holocontrol)
 "kX" = (
@@ -4367,13 +4134,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/thruster/d3port)
-"lj" = (
-/obj/machinery/door/airlock/civilian{
-	name = "Emergency Storage"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/maintenance/thirddeck/aftstarboard)
 "lk" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
 /obj/floor_decal/industrial/warning{
@@ -4385,7 +4145,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3starboard)
 "lp" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
 /obj/random/tool,
 /turf/simulated/floor/tiled/techfloor,
@@ -4395,10 +4155,6 @@
 /turf/simulated/wall/prepainted,
 /area/engineering/atmos/aux)
 "lr" = (
-/obj/machinery/door/airlock/atmos{
-	name = "Auxiliary Atmospherics";
-	secured_wires = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -4407,6 +4163,10 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Atmospherics Auxillary"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/atmos/aux)
 "ls" = (
@@ -4414,8 +4174,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
 "lt" = (
-/obj/floor_decal/industrial/hatch/yellow,
-/obj/structure/ladder/updown,
 /obj/structure/catwalk,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
@@ -4467,9 +4225,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/hologram/holopad,
-/obj/random_multi/single_item/punitelli,
+/obj/structure/closet/crate/warhammer/secure,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
 "lE" = (
@@ -4528,14 +4285,18 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/item/storage/secure/safe{
+	pixel_x = -22
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
 "lL" = (
-/obj/machinery/door/airlock/vault/bolted{
-	id_tag = "civsafedoorport";
-	name = "Third Deck Safe Room"
-	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/vault/bolted{
+	id_tag = "civsafedoor";
+	name = "Crew Quarters";
+	locked = 0
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
 "lM" = (
@@ -4566,20 +4327,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
-"lQ" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "lR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -4595,16 +4342,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/crew_quarters/cryolocker)
-"lT" = (
-/obj/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/thirddeck/aftstarboard)
-"lU" = (
-/obj/floor_decal/industrial/outline/yellow,
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/thirddeck/aftstarboard)
 "lV" = (
 /obj/machinery/door/airlock/warhammer{
 	name = "Hydroponics"
@@ -4759,13 +4496,16 @@
 "mk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/hatch/maintenance,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access";
+	req_access = list("ACCESS_DAUNTLESS")
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/fore)
 "ml" = (
@@ -4813,14 +4553,11 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/holocontrol)
 "my" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper{
 	desc = "";
 	info = "Bruises sustained in the holodeck can be healed simply by sleeping.";
 	name = "Holodeck Disclaimer"
-	},
-/obj/machinery/alarm{
-	pixel_y = 24
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/holocontrol)
@@ -4831,20 +4568,13 @@
 /turf/simulated/floor/warhammer/bar3,
 /area/crew_quarters/mess)
 "mB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/item/flame/candle/scented/incense{
-	pixel_x = -12;
-	pixel_y = 12
+/obj/structure/closet/coffin/wooden,
+/obj/structure/torchwall{
+	dir = 4
 	},
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/brick,
 /area/chapel/memorial)
 "mF" = (
-/obj/machinery/door/unpowered/inn{
-	name = "Candela Obscura"
-	},
 /obj/structure/curtain/open{
 	color = "#5f82d8";
 	icon = 'icons/obj/curtain.dmi'
@@ -4854,23 +4584,6 @@
 "mG" = (
 /obj/structure/railing/mapped,
 /turf/simulated/open,
-/area/maintenance/thirddeck/aftstarboard)
-"mH" = (
-/obj/structure/table/standard,
-/obj/machinery/recharger,
-/obj/item/wrench,
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
-"mI" = (
-/obj/floor_decal/spline/plain/red,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/crew_quarters/gym)
-"mK" = (
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftstarboard)
 "mO" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -4892,18 +4605,10 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/crew_quarters/gym)
 "mT" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
 	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/disposalpipe/segment,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "mV" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -4997,7 +4702,6 @@
 	color = "#666666";
 	dir = 1
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue,
 /area/crew_quarters/mess)
 "ni" = (
@@ -5078,7 +4782,7 @@
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder,
 /obj/structure/catwalk,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "nz" = (
 /obj/structure/railing/mapped{
@@ -5109,27 +4813,6 @@
 /obj/floor_decal/industrial/outline/red,
 /turf/simulated/floor/reinforced/oxygen,
 /area/thruster/d3port)
-"nG" = (
-/obj/floor_decal/industrial/outline/yellow,
-/obj/machinery/portable_atmospherics/powered/pump/filled,
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/thirddeck/aftstarboard)
-"nI" = (
-/obj/structure/table/steel,
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Security";
-	departmentType = 5;
-	pixel_y = -32
-	},
-/obj/machinery/rotating_alarm/security_alarm{
-	dir = 1
-	},
-/obj/item/flora/pottedplantsmall{
-	pixel_y = 13
-	},
-/turf/simulated/floor/tiled/dark,
-/area/security/habcheck)
 "nL" = (
 /obj/structure/table/warhammer/big_wood_table{
 	icon_state = "wood_1tilethick";
@@ -5151,7 +4834,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "nP" = (
@@ -5162,25 +4844,22 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "nQ" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
 	},
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/structure/disposalpipe/junction/mirrored,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "nR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5215,7 +4894,10 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/hatch/maintenance,
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access";
+	req_access = list("ACCESS_DAUNTLESS")
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/fore)
 "nT" = (
@@ -5277,21 +4959,6 @@
 /obj/random/trash,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
-"nY" = (
-/obj/structure/table/gamblingtable,
-/obj/random/coin,
-/obj/item/pen,
-/obj/item/pen,
-/obj/item/pen/green,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/item/paper_bin{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "nZ" = (
 /obj/structure/statue/fountain,
 /obj/structure/hygiene/sink/puddle/fountain,
@@ -5444,11 +5111,6 @@
 	},
 /turf/simulated/floor,
 /area/command/disperser)
-"oA" = (
-/obj/floor_decal/industrial/outline/yellow,
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/thirddeck/aftstarboard)
 "oB" = (
 /obj/wallframe_spawn/reinforced_phoron,
 /obj/machinery/door/firedoor,
@@ -5509,18 +5171,8 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"oO" = (
-/obj/structure/table/gamblingtable,
-/obj/item/dice/d20,
-/obj/item/dice/d12,
-/obj/item/dice/d4,
-/obj/item/dice/d8,
-/obj/random/drinkbottle,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "oS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5828,20 +5480,14 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "py" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/glass/civilian{
-	name = "Computer Lab"
+/obj/machinery/door/airlock/warhammer{
+	name = "Memorial Room"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/crew_quarters/office)
+/area/chapel/memorial)
 "pz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -5878,42 +5524,14 @@
 	},
 /turf/simulated/wall/r_wall/hull,
 /area/crew_quarters/mess)
-"pF" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
-"pH" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
 "pI" = (
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d3port)
 "pJ" = (
-/obj/floor_decal/spline/fancy/wood,
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
-"pL" = (
-/obj/machinery/vending/games,
-/obj/floor_decal/spline/fancy/wood,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
+/obj/structure/table/woodentable_reinforced/walnut,
+/obj/item/material/chopping_board,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/mess)
 "pM" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -5961,27 +5579,27 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/unpowered/inn{
-	name = "Candela Obscura"
-	},
 /obj/machinery/door/blast/gates/grates{
 	id_tag = "bar2";
 	begins_closed = 0;
 	icon_state = "gshutter0"
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/door/unpowered/inn{
+	name = "Whirling In Rags"
+	},
+/turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "pZ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/unpowered/inn{
-	name = "Candela Obscura"
+	name = "Whirling In Rags"
 	},
 /obj/machinery/door/blast/gates/grates{
 	id_tag = "bar2";
 	begins_closed = 0;
 	icon_state = "gshutter0"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "qa" = (
 /obj/structure/table/woodentable_reinforced/walnut,
@@ -6032,21 +5650,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
-"qj" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/mess)
 "ql" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /obj/machinery/meter,
@@ -6110,9 +5713,6 @@
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
-"qu" = (
-/turf/simulated/floor/carpet,
-/area/crew_quarters/recreation)
 "qv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -6151,7 +5751,6 @@
 /turf/simulated/floor/plating,
 /area/crew_quarters/observation)
 "qB" = (
-/obj/decal/cleanable/dirt,
 /obj/item/frame/light,
 /obj/item/light/tube/warm,
 /turf/simulated/floor/plating,
@@ -6171,21 +5770,13 @@
 /turf/simulated/floor/warhammer/oldsmoothdirt,
 /area/crew_quarters/observation)
 "qG" = (
-/obj/floor_decal/spline/fancy/wood{
+/obj/structure/hygiene/toilet{
+	pixel_x = -2;
+	pixel_y = 2;
 	dir = 4
 	},
 /turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
-"qH" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/turf/simulated/floor/carpet,
-/area/crew_quarters/recreation)
-"qI" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/carpet,
-/area/crew_quarters/recreation)
+/area/maintenance/thirddeck/starboard)
 "qJ" = (
 /obj/structure/reagent_dispensers/water_cooler{
 	dir = 4
@@ -6251,7 +5842,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/janitor/storage)
 "qZ" = (
-/obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6260,6 +5850,9 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/aft)
@@ -6335,10 +5928,6 @@
 "rv" = (
 /obj/machinery/hologram/holopad,
 /obj/floor_decal/industrial/outline/yellow,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -23
-	},
 /turf/simulated/floor/tiled/dark,
 /area/holocontrol)
 "rw" = (
@@ -6368,7 +5957,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "rA" = (
@@ -6398,9 +5986,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/floor_decal/industrial/outline/yellow,
 /obj/item/inflatable_dispenser,
 /obj/item/inflatable_dispenser,
@@ -6419,39 +6005,30 @@
 /turf/simulated/wall/r_wall/hull,
 /area/space)
 "rE" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/structure/cable/green{
-	d1 = 4;
+	d1 = 2;
 	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "2-8"
 	},
-/obj/machinery/door/firedoor,
-/obj/structure/curtain/black,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/chapel/main)
+/turf/simulated/wall/prepainted,
+/area/chapel/memorial)
 "rG" = (
 /obj/structure/sign/warning/nosmoking_1{
 	dir = 4;
 	pixel_x = -32
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "rH" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/floor_decal/industrial/outline/grey,
 /obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/starboard)
 "rL" = (
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/light/alien{
+	dir = 4
 	},
-/turf/simulated/floor/warhammer/tunnelchess,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/gym)
 "rM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -6493,35 +6070,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
 /obj/structure/catwalk,
 /obj/machinery/tele_beacon,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
-"rT" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/glass/civilian{
-	name = "Recreation"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/crew_quarters/recreation)
-"rU" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/carpet,
-/area/crew_quarters/recreation)
 "rZ" = (
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/chemical_dispenser/bar_coffee/full{
@@ -6564,10 +6116,6 @@
 	name = "north bump";
 	pixel_y = 24
 	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "sf" = (
@@ -6587,11 +6135,6 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
 	},
 /obj/structure/cable/green{
 	d1 = 2;
@@ -6632,8 +6175,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/wallframe_spawn/no_grille,
-/turf/simulated/floor/plating,
+/turf/simulated/wall/prepainted,
 /area/hallway/primary/thirddeck/center)
 "si" = (
 /obj/machinery/air_sensor{
@@ -6889,27 +6431,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/wallframe_spawn/no_grille,
-/turf/simulated/floor/plating,
+/turf/simulated/wall/prepainted,
 /area/hallway/primary/thirddeck/center)
-"sC" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/aft)
 "sE" = (
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment{
@@ -6948,7 +6471,6 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/aft)
 "sG" = (
-/obj/structure/catwalk,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -6968,32 +6490,32 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/aft)
 "sH" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/obj/random_multi/single_item/punitelli,
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "sI" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/machinery/light_switch{
-	pixel_y = -24
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/unpowered/inn{
+	name = "Hall of Vigor"
 	},
-/turf/simulated/floor/warhammer/metal/alt,
+/turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/gym)
 "sJ" = (
 /obj/structure/disposalpipe/segment{
@@ -7013,17 +6535,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/aft)
-"sL" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "sM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/warhammer/plating,
@@ -7054,9 +6565,8 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/hardstorage)
 "sQ" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/machinery/portable_atmospherics/powered/pump/filled,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "sS" = (
 /obj/structure/cable/green{
@@ -7090,6 +6600,13 @@
 /area/hallway/primary/thirddeck/aft)
 "sX" = (
 /obj/structure/table/woodentable_reinforced/walnut,
+/obj/machinery/button/blast_door{
+	id_tag = "bar";
+	name = "Bar Shutters";
+	pixel_w = 8;
+	pixel_y = 8;
+	pixel_x = -3
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
 "sZ" = (
@@ -7105,7 +6622,6 @@
 "tb" = (
 /obj/random/obstruction,
 /obj/random/trash,
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "td" = (
@@ -7174,15 +6690,6 @@
 /obj/machinery/vending/dinnerware,
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
-"tp" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
 "ts" = (
 /obj/machinery/camera/network/third_deck{
 	c_tag = "Third Deck Hallway - Fore Center";
@@ -7190,11 +6697,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"tt" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/civilian,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/hallway/primary/thirddeck/center)
 "tx" = (
 /obj/machinery/camera/network/third_deck{
 	c_tag = "Third Deck Hallway - Lift";
@@ -7207,14 +6709,11 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "ty" = (
-/obj/floor_decal/corner/blue{
-	dir = 5
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "tz" = (
 /obj/structure/catwalk,
@@ -7289,20 +6788,11 @@
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d3port)
 "tL" = (
-/obj/machinery/camera/network/third_deck{
-	c_tag = "Third Deck Hallway - Fore Starboard";
-	dir = 8
+/obj/machinery/light/alien{
+	dir = 1
 	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
-"tN" = (
-/obj/structure/bed/chair/pew/left/mahogany,
-/obj/machinery/light{
-	dir = 4;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/crew_quarters/gym)
 "tR" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -7347,7 +6837,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/aft)
 "tX" = (
-/obj/decal/cleanable/dirt,
 /obj/item/taperoll/engineering,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -7465,30 +6954,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/aft)
-"up" = (
-/obj/wallframe_spawn/reinforced,
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "hab_checkpoint_shutters";
-	name = "Hangar Deck Checkpoint Shutters";
-	opacity = 0
-	},
-/obj/structure/cable/green,
-/turf/simulated/floor/plating,
-/area/security/habcheck)
-"uq" = (
-/obj/machinery/hologram/holopad,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "ur" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/machinery/cooker/cereal{
@@ -7500,11 +6965,17 @@
 /obj/machinery/reagent_temperature{
 	pixel_y = 4
 	},
+/obj/machinery/button/blast_door{
+	id_tag = "bar2";
+	name = "Bar Lockdown";
+	pixel_w = 8;
+	pixel_y = -34;
+	pixel_x = 29
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
 "uu" = (
 /obj/random/trash,
-/obj/decal/cleanable/dirt,
 /obj/structure/sign/ecplaque{
 	pixel_x = 32
 	},
@@ -7540,45 +7011,24 @@
 /turf/simulated/floor,
 /area/command/disperser)
 "uB" = (
-/obj/machinery/computer/arcade,
-/obj/floor_decal/spline/fancy/wood{
-	dir = 1
+/obj/item/card/id/key/grand{
+	name = "Tavern Key";
+	access = list("ACCESS_TAVERN")
 	},
-/obj/machinery/light,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/mess)
 "uC" = (
-/obj/machinery/computer/arcade,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
+/obj/structure/table/rack/dark,
+/obj/random/loot/basicarmorbundle,
+/turf/simulated/floor/plating,
+/area/maintenance/thirddeck/starboard)
 "uG" = (
-/obj/floor_decal/spline/fancy/wood{
-	dir = 8
+/obj/structure/bed/chair,
+/obj/item/storage/secure/safe{
+	pixel_x = -22
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/light_switch{
-	pixel_x = 26;
-	pixel_y = 26
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
-"uH" = (
-/obj/structure/bed/chair/comfy/black{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/crew_quarters/safe_room/thirddeck)
 "uI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -7594,38 +7044,15 @@
 "uK" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/prepainted,
-/area/security/habcheck)
-"uL" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/hatch/maintenance,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/center)
 "uM" = (
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/sleep/bunk)
 "uN" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/security{
-	name = "Security Checkpoint";
-	secured_wires = 1
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/security/habcheck)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/thirddeck/aft)
 "uO" = (
 /obj/shuttle_landmark/torch/deck4/exploration_shuttle{
 	name = "3rd Deck, Fore Port"
@@ -7634,8 +7061,8 @@
 /area/space)
 "uQ" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/civilian{
-	name = "Cryogenic Storage"
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Cryogenics"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/sleep/cryo)
@@ -7651,8 +7078,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/obj/wallframe_spawn/no_grille,
-/turf/simulated/floor/plating,
+/turf/simulated/wall/prepainted,
 /area/crew_quarters/sleep/cryo)
 "uS" = (
 /obj/machinery/door/firedoor,
@@ -7660,13 +7086,14 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
-/obj/machinery/door/airlock/glass/civilian{
-	name = "Cryogenic Storage"
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Cryogenics"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/sleep/cryo)
 "uT" = (
 /obj/machinery/status_display,
+/obj/structure/sign/banner_count,
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/sleep/cryo)
 "uU" = (
@@ -7698,7 +7125,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "ve" = (
@@ -7728,21 +7154,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/disperser)
-"vg" = (
-/obj/wallframe_spawn/no_grille,
-/turf/simulated/floor/plating,
-/area/crew_quarters/office)
-"vh" = (
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/office)
 "vi" = (
-/obj/machinery/papershredder,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 25
-	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/obj/structure/table/warhammer/rich_table,
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "vj" = (
 /obj/machinery/atmospherics/unary/vent_pump/tank{
 	dir = 8;
@@ -7777,7 +7192,6 @@
 /area/maintenance/thirddeck/port)
 "vl" = (
 /obj/structure/table/warhammer/polished_table,
-/obj/item/material/chopping_board,
 /obj/item/material/kitchen/rollingpin{
 	pixel_x = 3
 	},
@@ -7785,41 +7199,22 @@
 /obj/item/material/knife/kitchen/cleaver/bronze,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
-"vm" = (
-/obj/machinery/door/airlock/chaplain{
-	name = "Chapel"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/chapel/main)
-"vn" = (
+"vo" = (
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/firedoor,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/chaplain{
-	name = "Chapel"
-	},
-/obj/machinery/holosign/chapel{
-	id_tag = "chapel"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/chapel/main)
-"vo" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/wall/prepainted,
 /area/chapel/memorial)
 "vs" = (
 /obj/structure/closet/crate/warhammer/xenos/chest3,
 /obj/item/trash/warfare_can/flower,
 /obj/item/material/knife/folding/combat/balisong,
+/obj/item/card/id/key/grand{
+	name = "Backrooms Key";
+	access = list("ACCESS_TAVERNBACK")
+	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "vt" = (
@@ -7885,7 +7280,7 @@
 /obj/machinery/hologram/holopad,
 /obj/floor_decal/industrial/outline/yellow,
 /obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "vM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -7908,9 +7303,6 @@
 "vQ" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet,
-/obj/item/storage/secure/safe{
-	pixel_x = 32
-	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep/bunk)
 "vR" = (
@@ -7924,9 +7316,6 @@
 "vS" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4
-	},
-/obj/landmark{
-	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
@@ -7969,7 +7358,8 @@
 /obj/item/taperoll/bog{
 	pixel_x = -12
 	},
-/turf/simulated/floor/tiled/freezer,
+/obj/item/reagent_containers/food/snacks/poo,
+/turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
 "vZ" = (
 /obj/structure/cable/green{
@@ -7991,22 +7381,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
 "wb" = (
-/obj/structure/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/gym)
 "wf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -8061,8 +7438,11 @@
 /turf/simulated/floor/warhammer/oldsmoothdirt,
 /area/crew_quarters/observation)
 "wp" = (
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/obj/structure/torchwall{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "wq" = (
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -8093,64 +7473,8 @@
 	pixel_x = -6;
 	pixel_y = 24
 	},
-/obj/machinery/disposal,
-/obj/floor_decal/industrial/hatch/yellow,
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
-"wt" = (
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
-	},
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
-/obj/machinery/disposal,
-/obj/floor_decal/industrial/hatch/yellow,
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
-"wu" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
-"wy" = (
-/obj/structure/bed/chair/armchair/brown{
-	dir = 1
-	},
-/obj/floor_decal/spline/fancy/wood/corner{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
-"wz" = (
-/obj/machinery/computer/modular/preset/civilian,
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
-"wA" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/flora/pottedplant/flower,
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
+/turf/simulated/wall/prepainted,
+/area/chapel/memorial)
 "wB" = (
 /obj/machinery/firealarm{
 	pixel_y = 24
@@ -8173,14 +7497,6 @@
 /obj/random/junk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
-"wH" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/flora/pottedplant/stoutbush,
-/obj/floor_decal/corner/purple/half{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/chapel/memorial)
 "wI" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -8198,12 +7514,10 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/gym)
 "wK" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/structure/flora/pottedplant/stoutbush,
-/obj/floor_decal/corner/purple/half{
-	dir = 8
+/obj/structure/bed/chair/wood/wings/ebony{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/warhammer/brick,
 /area/chapel/memorial)
 "wL" = (
 /obj/machinery/light{
@@ -8211,13 +7525,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"wM" = (
-/obj/structure/bed/chair/comfy/black,
-/obj/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "wN" = (
 /obj/machinery/newscaster{
 	pixel_y = 32
@@ -8296,7 +7603,6 @@
 	dir = 8;
 	pixel_x = 21
 	},
-/obj/random_multi/single_item/punitelli,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
 "wY" = (
@@ -8305,21 +7611,9 @@
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
 "xb" = (
-/obj/wallframe_spawn/reinforced,
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 2;
-	icon_state = "shutter0";
-	id_tag = "hab_checkpoint_shutters";
-	name = "Hangar Deck Checkpoint Shutters";
-	opacity = 0
-	},
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/plating,
-/area/security/habcheck)
+/obj/structure/sign/banner_count,
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/sleep/cryo)
 "xf" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -8327,9 +7621,8 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "xg" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "xh" = (
 /obj/machinery/firealarm{
@@ -8357,9 +7650,8 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/aft)
 "xk" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "xl" = (
 /turf/simulated/open,
@@ -8368,53 +7660,31 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
 "xo" = (
-/obj/structure/table/standard,
-/obj/item/material/bell,
-/obj/item/paper_bin{
-	pixel_x = -3;
-	pixel_y = 7
+/obj/item/pyre/self_lit{
+	invisibility = 60;
+	name = "Invisible Light";
+	icon = 'icons/obj/candle.dmi';
+	icon_state = "candle1"
 	},
-/obj/item/pen/green,
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/turf/simulated/wall/prepainted,
+/area/chapel/memorial)
 "xp" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
 	},
-/obj/machinery/light,
-/obj/machinery/newscaster{
-	pixel_y = -30
-	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "xr" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
-"xs" = (
-/obj/floor_decal/chapel{
-	dir = 1
-	},
-/obj/structure/bed/chair/pew/mahogany,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
-"xt" = (
-/obj/floor_decal/chapel{
-	dir = 4
-	},
-/obj/structure/bed/chair/pew/left/mahogany,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "xu" = (
-/obj/structure/table/standard,
-/obj/item/hand_labeler,
-/obj/item/stack/package_wrap/cargo_wrap,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "xv" = (
 /obj/floor_decal/techfloor{
 	dir = 4
@@ -8424,15 +7694,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
-"xx" = (
-/obj/wallframe_spawn/reinforced/polarized/no_grille{
-	id = "chapoff_windows"
-	},
-/turf/simulated/floor/plating,
-/area/chapel/office)
-"xy" = (
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
 "xz" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -8499,19 +7760,10 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "xO" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
-	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "xP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -8593,27 +7845,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"xU" = (
-/obj/wallframe_spawn/reinforced,
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "hab_checkpoint_shutters";
-	name = "Hangar Deck Checkpoint Shutters";
-	opacity = 0
-	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/plating,
-/area/security/habcheck)
 "xW" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 8
@@ -8635,14 +7866,6 @@
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"xY" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet,
-/obj/item/storage/secure/safe{
-	pixel_x = -22
-	},
-/turf/simulated/floor/carpet,
-/area/crew_quarters/sleep/bunk)
 "xZ" = (
 /obj/structure/cable/green{
 	d2 = 4;
@@ -8735,15 +7958,9 @@
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
 "yh" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 25
-	},
-/obj/floor_decal/spline/fancy/wood/corner{
-	dir = 8
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
+/obj/random/trash,
+/turf/simulated/floor/warhammer/surgerynew,
+/area/crew_quarters/head)
 "yk" = (
 /obj/machinery/camera/network/third_deck{
 	c_tag = "Third Deck Cryogenics - Aft";
@@ -8763,42 +7980,19 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "yq" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 4;
-	icon_state = "console"
-	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
-"yr" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/closet/coffin/wooden,
+/turf/simulated/floor/warhammer/brick,
 /area/chapel/memorial)
-"yt" = (
-/obj/machinery/light,
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+"yr" = (
+/obj/structure/bed/chair/wood/wings/ebony{
+	dir = 8
+	},
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "yu" = (
 /obj/structure/barricade/sandbag,
 /turf/simulated/floor/warhammer/oldsmoothdirt,
 /area/crew_quarters/observation)
-"yv" = (
-/obj/floor_decal/chapel{
-	dir = 8
-	},
-/obj/structure/bed/chair/pew/mahogany,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
-"yw" = (
-/obj/floor_decal/chapel,
-/obj/structure/bed/chair/pew/left/mahogany,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "yy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -8810,24 +8004,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"yz" = (
-/obj/floor_decal/spline/fancy/black{
-	dir = 5
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
-"yB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
-"yC" = (
-/obj/structure/table/woodentable/maple,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
 "yE" = (
 /obj/structure/table/rack/dark,
 /obj/item/reagent_containers/food/drinks/bottle/champagne,
@@ -8980,7 +8156,6 @@
 /turf/simulated/open,
 /area/maintenance/thirddeck/starboard)
 "zg" = (
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
 	dir = 5
 	},
@@ -8989,17 +8164,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
-"zj" = (
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
 "zl" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -9010,16 +8176,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"zn" = (
-/obj/floor_decal/spline/fancy/wood{
-	dir = 8
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "zq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -9032,18 +8188,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/aft)
-"zr" = (
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
-	},
-/obj/structure/bed/chair/pew/mahogany,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
-"zs" = (
-/obj/structure/bed/chair/pew/left/mahogany,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "zt" = (
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment{
@@ -9051,10 +8195,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftport)
-"zu" = (
-/obj/structure/bed/chair/pew/mahogany,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "zx" = (
 /obj/machinery/power/apc{
 	name = "south bump";
@@ -9090,22 +8230,18 @@
 /turf/simulated/floor/warhammer/oldsmoothdirt,
 /area/crew_quarters/observation)
 "zC" = (
-/obj/item/device/radio/intercom/entertainment{
-	dir = 8;
-	pixel_x = 22
+/obj/item/card/id/key/grand{
+	name = "Grand Room Key";
+	access = list("ACCESS_TAVERN1")
 	},
-/obj/structure/bed/chair/comfy/black{
-	dir = 8
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
-"zD" = (
-/obj/structure/torchwall{
-	dir = 4
-	},
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/warhammer/darkwood,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
+"zD" = (
+/obj/item/storage/secure/safe{
+	pixel_x = 32
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/crew_quarters/safe_room/thirddeck)
 "zE" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -9125,20 +8261,17 @@
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "zG" = (
 /turf/simulated/wall/r_wall/hull,
 /area/crew_quarters/cryolocker)
 "zJ" = (
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
+/obj/floor_decal/spline/plain/red,
+/obj/machinery/light/alien{
+	dir = 8
 	},
-/obj/structure/reagent_dispensers/water_cooler{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/metal/alt,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/crew_quarters/gym)
 "zO" = (
 /obj/structure/table/woodentable_reinforced/walnut,
@@ -9168,9 +8301,6 @@
 "zT" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet,
-/obj/item/storage/secure/safe{
-	pixel_x = 32
-	},
 /obj/random/plushie,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep/bunk)
@@ -9216,10 +8346,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/glass/civilian{
-	name = "Auxiliary Tool Storage"
-	},
 /obj/floor_decal/techfloor/corner,
+/obj/machinery/door/airlock/warhammer/engineering{
+	name = "Tool Storage";
+	req_access = list("ACCESS_DAUNTLESS")
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/storage/tools)
 "Ac" = (
@@ -9230,11 +8361,9 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/hardstorage)
 "Af" = (
-/obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -9243,9 +8372,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
-"Ag" = (
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "Aj" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 9
@@ -9261,10 +8387,6 @@
 	dir = 4;
 	pixel_x = 24
 	},
-/obj/item/card/id/key/grand{
-	name = "Backrooms Key";
-	access = list("ACCESS_TAVERN4")
-	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "Ar" = (
@@ -9273,12 +8395,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/hardstorage)
-"AA" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
-	dir = 1
-	},
-/area/crew_quarters/mess)
 "AB" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -9321,13 +8437,6 @@
 	},
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
-"AH" = (
-/obj/floor_decal/spline/plain/red,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/crew_quarters/gym)
 "AI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -9344,9 +8453,7 @@
 /turf/simulated/floor/reinforced,
 /area/thruster/d3starboard)
 "AK" = (
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
@@ -9365,30 +8472,18 @@
 "AM" = (
 /obj/structure/closet/toolcloset,
 /obj/floor_decal/industrial/outline/yellow,
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
 /turf/simulated/floor/warhammer/plating,
 /area/storage/tools)
 "AN" = (
 /turf/simulated/wall/prepainted,
 /area/storage/tools)
 "AP" = (
-/turf/simulated/floor/tiled/dark,
-/area/chapel/memorial)
-"AQ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
 /obj/structure/cable/green{
-	d1 = 4;
+	d1 = 2;
 	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "2-8"
 	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/brick,
 /area/chapel/memorial)
 "AR" = (
 /obj/structure/catwalk,
@@ -9408,24 +8503,12 @@
 /area/hallway/primary/thirddeck/aft)
 "AS" = (
 /obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/wall/prepainted,
 /area/chapel/memorial)
-"AV" = (
-/obj/floor_decal/spline/fancy/black{
-	dir = 9
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
-"AW" = (
-/obj/floor_decal/spline/fancy/black{
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
 "AX" = (
 /obj/machinery/gibber,
 /obj/structure/curtain/medical,
@@ -9453,7 +8536,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "Bf" = (
 /obj/structure/table/woodentable/walnut,
@@ -9480,7 +8563,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/safe_room/thirddeck)
 "Bn" = (
-/obj/structure/sign/warning/secure_area,
+/obj/structure/sign/warning/mail_delivery,
 /turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/safe_room/thirddeck)
 "Bp" = (
@@ -9521,7 +8604,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
 "Bt" = (
 /obj/structure/cable/green{
@@ -9535,7 +8618,8 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/gibspawner/human,
+/turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
 "Bu" = (
 /obj/structure/cable/green{
@@ -9549,7 +8633,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
 "Bv" = (
 /obj/machinery/newscaster{
@@ -9576,6 +8660,7 @@
 	},
 /obj/decal/cleanable/blood,
 /obj/item/material/knife/ritual,
+/obj/decal/cleanable/vomit,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
 "Bz" = (
@@ -9590,14 +8675,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/storage/tools)
-"BF" = (
-/obj/floor_decal/spline/fancy/black,
-/obj/item/device/radio/intercom/entertainment{
-	dir = 1;
-	pixel_y = -28
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
 "BH" = (
 /obj/machinery/firealarm{
 	pixel_y = 21
@@ -9623,48 +8700,6 @@
 /obj/random/junk,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
-"BN" = (
-/obj/structure/table/woodentable_reinforced/mahogany,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
-"BO" = (
-/obj/floor_decal/spline/fancy/black{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
-"BP" = (
-/obj/structure/table/woodentable_reinforced/mahogany,
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
-"BR" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/office)
 "BS" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -9676,14 +8711,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
-"BU" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -21
-	},
-/obj/structure/bed/chair/wood/maple,
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
 "BV" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/thirddeck/foreport)
@@ -9695,10 +8722,6 @@
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 1;
 	icon_state = "console"
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -25
 	},
 /obj/item/modular_computer/tablet/lease/preset/command,
 /turf/simulated/floor/warhammer/darkwood,
@@ -9727,7 +8750,7 @@
 /area/thruster/d3port)
 "Cb" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/civilian,
+/obj/machinery/door/airlock/warhammer,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/fore)
 "Cj" = (
@@ -9739,39 +8762,29 @@
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
 "Ck" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
-"Cm" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance{
-	name = "Bunk Room Maintenance"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/crew_quarters/sleep/bunk)
 "Cn" = (
-/turf/simulated/floor/tiled/dark/monotile,
-/area/crew_quarters/sleep/bunk)
-"Co" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
+/obj/item/card/id/key/grand{
+	name = "Room Key #4";
+	access = list("ACCESS_TAVERN4")
 	},
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/mess)
+"Co" = (
 /obj/structure/undies_wardrobe,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
 "Cp" = (
 /obj/structure/closet/wardrobe/pjs,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
 "Cq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9785,11 +8798,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/civilian{
-	name = "Bunk Room"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/wall/prepainted,
 /area/crew_quarters/sleep/bunk)
 "Cr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9819,9 +8828,6 @@
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
-	},
-/obj/landmark{
-	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
@@ -9919,22 +8925,15 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
 "CF" = (
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/recreation)
-"CI" = (
-/obj/floor_decal/spline/fancy/black{
-	dir = 10
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/structure/banner{
-	pixel_y = -32
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
-"CJ" = (
-/obj/machinery/light,
-/obj/floor_decal/spline/fancy/black,
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/gym)
 "CK" = (
 /obj/structure/table/warhammer/polished_table,
 /obj/machinery/reagentgrinder/juicer{
@@ -9948,13 +8947,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
-"CL" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "CM" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4;
@@ -9962,24 +8954,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/janitor/storage)
-"CN" = (
-/obj/item/device/radio/intercom/locked/confessional{
-	dir = 8;
-	pixel_x = 22
-	},
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
-	},
-/obj/structure/table/woodentable/maple,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
 "CO" = (
 /obj/structure/flora/pottedplant{
 	icon = 'icons/obj/plants.dmi';
@@ -9988,7 +8962,6 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "CP" = (
-/obj/decal/cleanable/dirt,
 /obj/structure/largecrate,
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/starboard)
@@ -9996,8 +8969,8 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "CS" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -10045,8 +9018,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
 "CY" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/green,
+/obj/structure/bed/barrack,
+/obj/structure/bed/barrack1,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
 "CZ" = (
@@ -10219,13 +9192,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
-"Du" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/chaplain{
-	name = "Chapel"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/chapel/memorial)
 "Dv" = (
 /obj/structure/table/steel,
 /obj/item/paper_bin{
@@ -10236,46 +9202,19 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/port)
 "Dx" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/light,
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
+/obj/structure/table/steel,
+/obj/machinery/recharger,
+/obj/item/wrench,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/gym)
 "Dy" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"DA" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/memorial)
 "DD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -10296,11 +9235,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
-"DE" = (
-/obj/structure/bed/chair/armchair/brown,
-/obj/floor_decal/spline/fancy/wood/corner,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "DF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -10308,9 +9242,9 @@
 /turf/simulated/wall/prepainted,
 /area/command/disperser)
 "DI" = (
-/obj/structure/table/standard,
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/SCG,
 /obj/item/deck/cards,
+/obj/structure/table/warhammer/reinf_table,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
 "DJ" = (
@@ -10340,24 +9274,18 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
 "DL" = (
-/obj/floor_decal/industrial/outline/grey,
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "DM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "DN" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
-	},
-/obj/machinery/requests_console{
-	department = "Cryogenic Storage";
-	pixel_x = -32
 	},
 /obj/machinery/camera/network/third_deck{
 	c_tag = "Third Deck Cryogenics - Fore";
@@ -10407,13 +9335,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/door/airlock/maintenance{
-	name = "Cryogenic Storage Maintenance"
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/crew_quarters/sleep/cryo)
@@ -10431,7 +9359,7 @@
 	c_tag = "Fire Control - Munitions";
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "DV" = (
 /obj/structure/bed/chair/comfy/lime,
@@ -10545,7 +9473,6 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "Eg" = (
-/obj/decal/cleanable/dirt,
 /obj/random/trash,
 /obj/structure/table/marble,
 /obj/item/material/kitchen/rollingpin,
@@ -10556,45 +9483,12 @@
 /obj/random_multi/single_item/boombox,
 /turf/simulated/floor/plating,
 /area/vacant/mess)
-"Eh" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
-"Ej" = (
-/obj/machinery/door/morgue{
-	name = "Confession Booth (Chaplain)"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/chapel/office)
 "Ek" = (
-/obj/floor_decal/corner/blue{
-	dir = 4
-	},
 /obj/structure/railing/mapped,
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "El" = (
 /obj/structure/table/warhammer/polished_table,
@@ -10625,16 +9519,22 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "Er" = (
-/obj/structure/closet,
-/obj/item/storage/candle_box,
-/obj/item/storage/candle_box/incense,
-/obj/item/flame/lighter/random,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/memorial)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/hallway/primary/thirddeck/center)
 "Es" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -10652,7 +9552,7 @@
 /obj/floor_decal/industrial/outline/yellow,
 /obj/random_multi/single_item/boombox,
 /obj/structure/closet/warhammer/secure_closet/personal,
-/turf/simulated/floor/tiled/white/monotile,
+/turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
 "Ex" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -10707,7 +9607,6 @@
 	dir = 4
 	},
 /obj/machinery/light/small,
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "EG" = (
@@ -10738,12 +9637,6 @@
 	pixel_x = -6;
 	pixel_y = 24
 	},
-/obj/machinery/button/blast_door{
-	id_tag = "cs_shutter";
-	name = "Chief Steward Office Shutters Control";
-	pixel_x = 6;
-	pixel_y = 24
-	},
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "west bump";
@@ -10752,11 +9645,6 @@
 /obj/structure/cable/green{
 	d2 = 4;
 	icon_state = "0-4"
-	},
-/obj/machinery/button/alternate/door{
-	id_tag = "cs_door";
-	name = "Chief Steward Office Door Control";
-	pixel_y = 35
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/chief_steward)
@@ -10784,9 +9672,6 @@
 "EO" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
 	dir = 1
-	},
-/obj/structure/fireaxecabinet{
-	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
@@ -10823,15 +9708,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftstarboard)
-"EU" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/turf/simulated/floor/carpet,
-/area/crew_quarters/recreation)
 "EV" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -10878,24 +9754,6 @@
 "Fd" = (
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/sleep/cryo)
-"Fe" = (
-/obj/structure/ladder/updown,
-/obj/floor_decal/industrial/hatch/yellow,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/warhammer/plating,
-/area/maintenance/thirddeck/port)
-"Ff" = (
-/obj/machinery/door/airlock/maintenance{
-	autoset_access = 0;
-	name = "Cargo Storage Maintenance";
-	req_access = list("ACCESS_RESTRICTED")
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/maintenance/thirddeck/port)
 "Fg" = (
 /obj/item/frame/apc,
 /turf/simulated/floor/plating,
@@ -10910,31 +9768,8 @@
 	},
 /turf/simulated/floor/plating,
 /area/vacant/cabin)
-"Fj" = (
-/turf/simulated/floor/tiled/dark,
-/area/vacant/cabin)
-"Fk" = (
-/obj/random/junk,
-/turf/simulated/floor/tiled/dark,
-/area/vacant/cabin)
-"Fl" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 25;
-	req_access = list("ACCESS_MECHANICUS")
-	},
-/obj/structure/bed/chair/wood/maple{
-	dir = 1
-	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/carpet/purple,
-/area/chapel/main)
 "Fm" = (
 /obj/machinery/power/port_gen/pacman,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftport)
 "Fn" = (
@@ -10968,6 +9803,8 @@
 	name = "Shower"
 	},
 /obj/machinery/door/firedoor,
+/obj/random/trash,
+/obj/structure/barricade/boards,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
 "Fr" = (
@@ -10989,35 +9826,52 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/grey,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
 "Fy" = (
 /turf/simulated/floor/warhammer/metal,
 /area/crew_quarters/mess)
 "Fz" = (
-/obj/machinery/firealarm{
-	pixel_y = 24
+/obj/item/flame/candle{
+	pixel_x = 10;
+	pixel_y = 14
 	},
-/obj/machinery/disposal,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/item/flame/candle{
+	pixel_x = 13;
+	pixel_y = 5
 	},
-/obj/floor_decal/industrial/hatch/yellow,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/item/flame/candle{
+	pixel_x = 5;
+	pixel_y = 8
 	},
-/obj/structure/disposalpipe/trunk{
-	dir = 4
+/obj/item/flame/candle{
+	pixel_y = 11
 	},
-/turf/simulated/floor/tiled/dark,
-/area/security/habcheck)
+/obj/item/flame/candle{
+	pixel_x = -9;
+	pixel_y = 13
+	},
+/obj/item/flame/candle{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/flame/candle{
+	pixel_x = -11;
+	pixel_y = 2
+	},
+/obj/item/flame/candle{
+	pixel_x = 8
+	},
+/obj/item/flame/candle/scented/incense{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/item/flame/candle/scented/incense{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "FA" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	controlled = 0;
@@ -11040,12 +9894,8 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "FC" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/civilian{
-	name = "Cryogenic Storage Wardrobe"
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/crew_quarters/sleep/cryo)
+/turf/simulated/floor/warhammer/plating,
+/area/maintenance/thirddeck/aftstarboard)
 "FD" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -11055,16 +9905,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/maintenance{
-	name = "Cryogenic Storage Maintenance"
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Cryogenics"
 	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/sleep/cryo)
 "FE" = (
-/obj/floor_decal/corner/blue{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "FH" = (
 /turf/simulated/floor/warhammer/darkwood,
@@ -11078,10 +9925,6 @@
 /obj/structure/bedsheetbin,
 /turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
-"FK" = (
-/obj/random/trash,
-/turf/simulated/floor/tiled/dark,
-/area/vacant/cabin)
 "FL" = (
 /obj/structure/table/rack/dark,
 /obj/item/reagent_containers/food/drinks/bottle/brandy,
@@ -11091,15 +9934,10 @@
 "FM" = (
 /obj/structure/table/steel,
 /obj/random/maintenance/solgov,
-/turf/simulated/floor/plating,
-/area/vacant/cabin)
-"FN" = (
-/obj/structure/table/steel,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
 "FO" = (
 /obj/machinery/power/rad_collector,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftport)
 "FQ" = (
@@ -11166,10 +10004,6 @@
 /obj/structure/closet/secure_closet/crew,
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/cryolocker)
-"FY" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/warhammer/fancyfloor/carpet/blue/middle,
-/area/crew_quarters/mess)
 "FZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -11183,13 +10017,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftport)
-"Ga" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Security Checkpoint Maintenance"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/security/habcheck)
 "Ge" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -11198,7 +10025,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
 "Gf" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/random/junk,
 /obj/random/junk,
 /turf/simulated/floor/tiled/techfloor,
@@ -11228,22 +10054,21 @@
 /area/vacant/cabin)
 "Gn" = (
 /obj/machinery/door/unpowered/inn,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
 "Go" = (
 /obj/landmark{
 	name = "xeno_spawn";
 	pixel_x = -1
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
 "Gp" = (
 /obj/structure/undies_wardrobe,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
 "Gq" = (
 /obj/structure/reagent_dispensers/fueltank,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftport)
 "Gr" = (
@@ -11258,9 +10083,6 @@
 "Gt" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4
-	},
-/obj/landmark{
-	name = "JoinLateCryo"
 	},
 /obj/structure/closet/hydrant{
 	pixel_y = 32
@@ -11319,11 +10141,13 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/cryolocker)
@@ -11358,7 +10182,6 @@
 /obj/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "GA" = (
@@ -11394,8 +10217,8 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/civilian{
-	name = "Cryogenic Storage Wardrobe"
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/cryolocker)
@@ -11473,48 +10296,39 @@
 	pixel_x = -3;
 	pixel_y = 6
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
 "GO" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
+/obj/item/storage/mirror{
+	pixel_y = 32
 	},
-/turf/simulated/floor/plating,
-/area/vacant/cabin)
+/obj/structure/hygiene/sink{
+	dir = 1;
+	pixel_y = 16
+	},
+/obj/decal/cleanable/blood,
+/turf/simulated/floor/warhammer/surgerynew,
+/area/crew_quarters/head)
 "GP" = (
 /obj/structure/flora/pottedplant/dead,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
 "GQ" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/floor_decal/industrial/outline/grey,
 /obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftport)
 "GT" = (
 /obj/structure/reagent_dispensers/fueltank,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "GU" = (
 /obj/decal/cleanable/cobweb2,
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
-"GV" = (
-/obj/machinery/door/firedoor,
-/obj/wallframe_spawn/no_grille,
-/obj/machinery/door/blast/shutters{
-	id_tag = "cs_shutter";
-	name = "Chief Steward Office Shutters"
-	},
-/turf/simulated/floor/plating,
-/area/crew_quarters/chief_steward)
 "GW" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "GY" = (
@@ -11531,17 +10345,9 @@
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/cryolocker)
 "Ha" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
+/obj/machinery/vending/cola,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/gym)
 "Hd" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -11586,7 +10392,6 @@
 /area/crew_quarters/mess)
 "Hl" = (
 /obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "Hm" = (
@@ -11633,10 +10438,8 @@
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/thirddeck/aftstarboard)
 "Ht" = (
-/obj/structure/closet/medical_wall/filled{
-	pixel_x = -32
-	},
-/turf/simulated/floor/warhammer/metal/alt,
+/obj/floor_decal/spline/plain/red,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/crew_quarters/gym)
 "Hu" = (
 /obj/structure/cable/green{
@@ -11659,8 +10462,8 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/obj/structure/table/standard,
 /obj/item/modular_computer/laptop/preset/custom_loadout/cheap,
+/obj/structure/table/warhammer/reinf_table,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
 "Hx" = (
@@ -11715,7 +10518,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "HD" = (
 /obj/structure/cable/green{
@@ -11735,7 +10538,7 @@
 "HE" = (
 /obj/random/torchcloset,
 /obj/random/maintenance/solgov,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "HF" = (
 /obj/machinery/camera/network/third_deck{
@@ -11746,7 +10549,7 @@
 "HG" = (
 /obj/structure/largecrate,
 /obj/random/maintenance/solgov,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "HH" = (
 /obj/wallframe_spawn/reinforced/hull,
@@ -11792,7 +10595,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "HM" = (
 /obj/structure/catwalk,
@@ -11822,31 +10625,28 @@
 	name = "east bump";
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "HP" = (
 /obj/floor_decal/industrial/warning{
 	dir = 10
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "HQ" = (
-/obj/floor_decal/corner/blue{
-	dir = 5
-	},
 /obj/structure/railing/mapped,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "HR" = (
 /obj/floor_decal/industrial/warning{
 	dir = 6
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "HS" = (
 /obj/machinery/door/firedoor,
@@ -11902,9 +10702,6 @@
 /turf/simulated/floor/plating,
 /area/command/disperser)
 "Ib" = (
-/obj/floor_decal/corner/blue{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
@@ -11913,7 +10710,7 @@
 	pixel_x = 22;
 	pixel_y = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "Ic" = (
 /obj/machinery/light{
@@ -11947,16 +10744,15 @@
 	c_tag = "Fire Control - Operations";
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "Ih" = (
 /obj/floor_decal/industrial/hatch/orange,
 /obj/structure/ship_munition/disperser_charge/fire,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "Ii" = (
 /obj/random/trash,
-/obj/decal/cleanable/dirt,
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -12019,29 +10815,22 @@
 /turf/simulated/floor/tiled/dark,
 /area/command/disperser)
 "Iv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/wall/prepainted,
 /area/chapel/memorial)
 "Iw" = (
 /obj/floor_decal/industrial/hatch/red,
 /obj/structure/ship_munition/disperser_charge/explosive,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "Ix" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/item/stool/padded,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
 "Iy" = (
@@ -12065,13 +10854,13 @@
 	pixel_x = -20;
 	pixel_y = -20
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "IB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "IC" = (
 /obj/structure/hygiene/toilet{
@@ -12083,43 +10872,17 @@
 /obj/item/taperoll/bog{
 	pixel_x = -12
 	},
+/obj/random/trash,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
-"ID" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/random_multi/single_item/punitelli,
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
-"IE" = (
-/obj/random_multi/single_item/punitelli,
-/turf/simulated/floor/carpet,
-/area/crew_quarters/recreation)
 "IF" = (
 /obj/structure/sign/poster/torch,
 /turf/simulated/wall/prepainted,
-/area/crew_quarters/recreation)
+/area/crew_quarters/gym)
 "IH" = (
 /obj/random_multi/single_item/punitelli,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
-"II" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/random_multi/single_item/punitelli,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "IJ" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -12202,19 +10965,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
-"IQ" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 1;
-	icon_state = "console"
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/floor_decal/spline/fancy/wood/corner{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "IR" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -12244,7 +10994,7 @@
 	dir = 8
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "IW" = (
 /obj/structure/catwalk,
@@ -12655,13 +11405,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/aft)
 "JK" = (
@@ -12685,20 +11437,6 @@
 	},
 /turf/simulated/open,
 /area/maintenance/thirddeck/port)
-"JM" = (
-/obj/floor_decal/spline/fancy/wood,
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/structure/flora/pottedplant/flower,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "JN" = (
 /obj/machinery/light{
 	dir = 1
@@ -12746,24 +11484,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/aft)
-"JR" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/office)
 "JS" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
 	dir = 6
@@ -12836,12 +11556,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftport)
-"Kc" = (
-/obj/structure/bed/chair/padded/red{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/security/habcheck)
 "Kd" = (
 /obj/machinery/door/firedoor,
 /obj/wallframe_spawn/reinforced/polarized/no_grille{
@@ -12849,12 +11563,6 @@
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/chief_steward)
-"Ke" = (
-/obj/machinery/light_switch{
-	pixel_x = 28
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/memorial)
 "Kf" = (
 /obj/machinery/atmospherics/unary/engine{
 	dir = 8
@@ -12914,7 +11622,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/decal/cleanable/dirt,
 /obj/structure/bed/chair/wood/fancy{
 	color = "#666666";
 	dir = 1
@@ -13103,7 +11810,6 @@
 /area/thruster/d3starboard)
 "KI" = (
 /obj/structure/reagent_dispensers/fueltank,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/starboard)
 "KJ" = (
@@ -13150,20 +11856,6 @@
 "KP" = (
 /turf/simulated/wall/ocp_wall,
 /area/thruster/d3starboard)
-"KQ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
 "KR" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -13172,28 +11864,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/space)
-"KS" = (
-/obj/structure/table/steel,
-/obj/machinery/button/blast_door{
-	desc = "A remote control-switch for shutters.";
-	id_tag = "hab_checkpoint_shutters";
-	name = "Checkpoint Window Shutters";
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/machinery/button/blast_door{
-	desc = "A remote control-switch for shutters.";
-	id_tag = "hab_hallway_shutters";
-	name = "Hallway Checkpoint Shutters";
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/machinery/newscaster/security_unit{
-	pixel_y = -32
-	},
-/obj/machinery/light,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/security/habcheck)
 "KT" = (
 /obj/floor_decal/industrial/warning{
 	dir = 8
@@ -13212,7 +11882,6 @@
 	internal_pressure_bound = 35000;
 	internal_pressure_bound_default = 35000
 	},
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3starboard)
 "KW" = (
@@ -13266,13 +11935,12 @@
 	internal_pressure_bound = 35000;
 	internal_pressure_bound_default = 35000
 	},
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "Lh" = (
 /obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/warhammer/secure_closet/personal,
-/turf/simulated/floor/tiled/white/monotile,
+/turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
 "Li" = (
 /obj/machinery/door/blast/regular{
@@ -13422,8 +12090,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/engineering{
-	name = "Engineering Hard Storage"
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Enginarium Hard Storage"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
@@ -13449,9 +12118,6 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/service_break_room)
 "LC" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_y = -32
-	},
 /obj/machinery/rotating_alarm/security_alarm{
 	dir = 1
 	},
@@ -13515,17 +12181,7 @@
 	},
 /turf/simulated/floor/reinforced/oxygen,
 /area/thruster/d3starboard)
-"LI" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/light,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/office)
 "LK" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 8;
 	icon_state = "console"
@@ -13533,9 +12189,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/port)
 "LL" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/table/steel,
 /obj/item/lipstick/random{
 	pixel_x = 5;
 	pixel_y = 3
@@ -13547,12 +12201,6 @@
 	},
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
-"LM" = (
-/obj/floor_decal/spline/fancy/black{
-	dir = 4
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
 "LN" = (
 /obj/shuttle_landmark/skipjack/deck4{
 	name = "3rd Deck, Aft Port"
@@ -13569,7 +12217,6 @@
 	internal_pressure_bound = 35000;
 	internal_pressure_bound_default = 35000
 	},
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "LP" = (
@@ -13585,39 +12232,6 @@
 	},
 /turf/simulated/wall/r_wall/hull,
 /area/space)
-"LQ" = (
-/obj/item/flame/candle{
-	pixel_x = 10;
-	pixel_y = 14
-	},
-/obj/item/flame/candle{
-	pixel_x = 13;
-	pixel_y = 5
-	},
-/obj/item/flame/candle{
-	pixel_x = 5;
-	pixel_y = 8
-	},
-/obj/item/flame/candle{
-	pixel_y = 11
-	},
-/obj/item/flame/candle{
-	pixel_x = -9;
-	pixel_y = 13
-	},
-/obj/item/flame/candle{
-	pixel_x = -5;
-	pixel_y = 4
-	},
-/obj/item/flame/candle{
-	pixel_x = -11;
-	pixel_y = 2
-	},
-/obj/item/flame/candle{
-	pixel_x = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/memorial)
 "LT" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -13632,22 +12246,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftstarboard)
-"LV" = (
-/obj/wallframe_spawn/reinforced,
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 2;
-	icon_state = "shutter0";
-	id_tag = "hab_checkpoint_shutters";
-	name = "Hangar Deck Checkpoint Shutters";
-	opacity = 0
-	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/plating,
-/area/security/habcheck)
 "LX" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -13749,19 +12347,9 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
-"Mj" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "Ml" = (
 /obj/machinery/honey_extractor,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/warhammer/darkwood,
 /area/hydroponics)
 "Mn" = (
@@ -13805,9 +12393,8 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "Ms" = (
-/obj/decal/cleanable/dirt,
 /obj/machinery/vending/props,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "Mt" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -13823,34 +12410,16 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
-"Mv" = (
-/obj/machinery/chem_master/condimaster{
-	name = "CondiMaster Neo"
-	},
-/turf/simulated/floor/warhammer/ceramic/surgery2,
-/area/crew_quarters/galleybackroom)
-"My" = (
-/obj/machinery/jukebox/old,
-/obj/floor_decal/spline/fancy/wood,
-/obj/item/device/radio/intercom{
-	pixel_y = 23
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "MB" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
 "MC" = (
@@ -13878,10 +12447,6 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "MJ" = (
@@ -13889,7 +12454,6 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "MK" = (
@@ -13910,12 +12474,6 @@
 "MM" = (
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/thirddeck/aft)
-"MP" = (
-/obj/structure/table/woodentable,
-/obj/floor_decal/spline/fancy/wood,
-/obj/item/tableflag/rainbow,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "MR" = (
 /obj/machinery/air_sensor{
 	id_tag = "d3po2_sensor"
@@ -13957,17 +12515,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
-"MZ" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "Na" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -14023,25 +12570,29 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "Nj" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/port)
-"Nm" = (
-/obj/structure/table/woodentable/maple,
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
 "Nn" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk,
 /obj/structure/cable/green{
 	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+	d2 = 4;
+	icon_state = "1-4"
 	},
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/center)
+/turf/simulated/floor/plating,
+/area/maintenance/thirddeck/aftport)
 "No" = (
 /obj/structure/bed/chair/armchair/green{
 	dir = 8
@@ -14059,22 +12610,12 @@
 /obj/structure/closet/crate/trashcart,
 /obj/random/junk,
 /obj/random/junk,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftport)
-"Ns" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
-/obj/item/device/radio/intercom/department/security{
-	dir = 8;
-	pixel_x = 21
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/security/habcheck)
 "Nt" = (
-/obj/structure/table/warhammer/polished_table,
-/obj/machinery/chemical_dispenser/bar_alc/full,
+/obj/machinery/chem_master/condimaster{
+	name = "CondiMaster Neo"
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
 "Nu" = (
@@ -14102,25 +12643,12 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
-"Nz" = (
-/obj/item/device/radio/intercom/locked/confessional{
-	pixel_y = 23
-	},
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/machinery/light{
-	dir = 4;
-	icon_state = "tube1"
-	},
-/obj/structure/table/woodentable/maple,
-/turf/simulated/floor/carpet/purple,
-/area/chapel/main)
 "NA" = (
 /obj/machinery/light{
 	dir = 1
@@ -14147,10 +12675,6 @@
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
-"NI" = (
-/obj/machinery/photocopier,
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
 "NJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -14171,36 +12695,24 @@
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d3starboard)
 "NL" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
+	dir = 10
 	},
 /obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/gym)
 "NM" = (
 /obj/machinery/jukebox/old,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
-/area/vacant/mess)
-"NN" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
+/area/vacant/mess)
 "NO" = (
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/vacant/mess)
 "NQ" = (
@@ -14253,6 +12765,8 @@
 	dir = 4
 	},
 /obj/structure/closet/walllocker/emerglocker/north,
+/obj/random/loot/lightmelee,
+/obj/random/loot/randomsupply,
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "NV" = (
@@ -14271,20 +12785,12 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
 "NW" = (
-/obj/decal/cleanable/dirt,
 /obj/random/junk,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "NY" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
-"NZ" = (
-/obj/machinery/door/morgue{
-	name = "Confession Booth"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/chapel/main)
 "Oa" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	frequency = 1447;
@@ -14303,23 +12809,19 @@
 /turf/space,
 /area/space)
 "Og" = (
-/obj/structure/table/standard,
 /obj/item/device/radio/intercom{
 	dir = 4;
 	pixel_x = -21
 	},
-/obj/machinery/photocopier/faxmachine{
-	department = "Dauntless - Cogitator Lab"
-	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/obj/structure/closet/coffin/wooden,
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "Oi" = (
 /obj/structure/catwalk,
 /obj/machinery/field_generator,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftstarboard)
 "Oj" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/structure/table/steel,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/tiled/techfloor,
@@ -14386,11 +12888,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "Ox" = (
 /obj/random_multi/single_item/poppy,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
 "Oy" = (
 /obj/machinery/fabricator/micro{
@@ -14425,20 +12927,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"OG" = (
-/obj/structure/bed/chair/office/comfy,
-/obj/machinery/button/windowtint{
-	id = "chapoff_windows";
-	pixel_x = 6;
-	pixel_y = 24
-	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22;
-	pixel_y = 4
-	},
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
 "OH" = (
 /obj/floor_decal/industrial/warning{
 	dir = 8
@@ -14484,17 +12972,11 @@
 	},
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d3port)
-"OL" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
 "ON" = (
-/obj/structure/closet/emcloset,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/closet/crate/warhammer/secure,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
 "OO" = (
@@ -14551,37 +13033,26 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "OY" = (
-/obj/machinery/door/airlock/glass/civilian,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/steel_ridged,
+/obj/machinery/door/airlock/warhammer,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "OZ" = (
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/door/airlock/maintenance{
-	name = "Lounge Maintenance"
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
-"Pa" = (
-/obj/structure/fitness/weightlifter,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
 "Pc" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/item/storage/box/mousetraps,
 /obj/random/soap,
 /obj/random/soap,
@@ -14594,11 +13065,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/decal/cleanable/dirt,
-/obj/structure/hygiene/toilet{
-	pixel_x = 1;
-	pixel_y = 13
-	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "Pf" = (
@@ -14606,10 +13072,6 @@
 /obj/item/deck/tarot,
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
-"Pg" = (
-/obj/structure/closet/secure_closet/chaplain,
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
 "Pj" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -14638,9 +13100,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
-"Pp" = (
-/turf/simulated/floor/tiled/dark,
-/area/command/disperser)
 "Pq" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4
@@ -14668,7 +13127,7 @@
 	c_tag = "Third Deck - Ladders";
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "Px" = (
 /obj/structure/catwalk,
@@ -14680,22 +13139,11 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
 "Py" = (
-/obj/structure/disposalpipe/segment{
+/obj/structure/reagent_dispensers/water_cooler{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/gym)
 "Pz" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -14704,7 +13152,6 @@
 /area/hallway/primary/thirddeck/fore)
 "PB" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "PC" = (
@@ -14727,6 +13174,9 @@
 /obj/machinery/rotating_alarm/security_alarm{
 	dir = 4
 	},
+/obj/item/storage/secure/safe{
+	pixel_x = -22
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
 "PF" = (
@@ -14736,18 +13186,16 @@
 	dir = 8;
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "PG" = (
-/obj/machinery/vending/coffee{
-	dir = 4
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/gym)
 "PH" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor/warhammer/oldsmoothdirt,
@@ -14778,7 +13226,6 @@
 	internal_pressure_bound = 35000;
 	internal_pressure_bound_default = 35000
 	},
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3starboard)
 "PN" = (
@@ -14818,9 +13265,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "PQ" = (
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/item/stack/material/glass/boron_reinforced{
 	amount = 20
 	},
@@ -14863,8 +13308,11 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Starboard Engines"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/thruster/d3starboard)
 "PY" = (
@@ -14882,7 +13330,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/unpowered/inn{
 	name = "The Backrooms";
-	req_access = list("ACCESS_TAVERN4")
+	req_access = list("ACCESS_TAVERNBACK")
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -14903,7 +13351,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "Qk" = (
 /obj/machinery/button/blast_door{
@@ -14971,29 +13419,26 @@
 /obj/structure/barricade/barbed,
 /turf/simulated/floor/warhammer/oldsmoothdirt,
 /area/crew_quarters/observation)
-"Qv" = (
-/obj/machinery/computer/modular/preset/security,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/security/habcheck)
 "Qx" = (
-/obj/machinery/computer/modular/preset/security,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/table/warhammer/pagan{
+	pixel_x = -4;
+	pixel_y = 2
 	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/security/habcheck)
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = -9
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = -5;
+	pixel_x = -4
+	},
+/obj/item/flame/candle/scented/incense{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "Qy" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -15018,7 +13463,6 @@
 	pixel_y = -22
 	},
 /obj/machinery/portable_atmospherics/powered/scrubber,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
 "QB" = (
@@ -15039,18 +13483,67 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "QE" = (
-/obj/structure/table/rack,
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = 2;
+	pixel_x = -9
 	},
-/obj/item/device/binoculars,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = 4;
+	pixel_x = -14
 	},
-/turf/simulated/floor/tiled/dark,
-/area/security/habcheck)
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = -8;
+	pixel_x = 14
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = -8;
+	pixel_x = 23
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = 3;
+	pixel_x = -2
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = -7;
+	pixel_x = -21
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = -6;
+	pixel_x = -9
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = -6;
+	pixel_x = 4
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = 2;
+	pixel_x = 14
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_x = 23
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = 2;
+	pixel_x = 4
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = 2;
+	pixel_x = -21
+	},
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "QG" = (
 /obj/machinery/botany/extractor,
 /turf/simulated/floor/warhammer/darkwood,
@@ -15059,8 +13552,8 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 8
 	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/turf/simulated/wall/prepainted,
+/area/chapel/memorial)
 "QJ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/warhammer/plating,
@@ -15081,19 +13574,6 @@
 /obj/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/crew_quarters/observation)
-"QR" = (
-/obj/machinery/door/airlock/glass/civilian{
-	name = "Recreation"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/crew_quarters/recreation)
 "QU" = (
 /obj/structure/railing/mapped{
 	dir = 4;
@@ -15115,8 +13595,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Starboard Engines"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/thruster/d3starboard)
 "QY" = (
@@ -15156,25 +13639,13 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"Re" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+"Rg" = (
+/obj/item/card/id/key/grand{
+	name = "Room Key #3";
+	access = list("ACCESS_TAVERN3")
 	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/office)
-"Rf" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/obj/machinery/disposal,
-/obj/machinery/newscaster{
-	pixel_x = -32
-	},
-/obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
+/area/crew_quarters/mess)
 "Rh" = (
 /obj/structure/bed/chair/padded/green{
 	dir = 4
@@ -15195,24 +13666,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"Rm" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/chaplain{
-	name = "Chaplain's Office"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/chapel/office)
 "Rn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -15225,7 +13678,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/decal/cleanable/dirt,
 /obj/structure/torchwall{
 	dir = 1
 	},
@@ -15236,7 +13688,7 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "Rq" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/closet/shipping_wall/filled{
 	pixel_y = 32
 	},
@@ -15291,12 +13743,6 @@
 	},
 /turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/crew_quarters/galleybackroom)
-"RA" = (
-/obj/structure/table/rack,
-/obj/item/towel/random,
-/obj/item/towel/random,
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
 "RB" = (
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -15311,17 +13757,21 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "RE" = (
-/obj/machinery/alarm{
-	pixel_y = 16
-	},
 /obj/structure/hygiene/shower{
 	dir = 8
 	},
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
 "RG" = (
-/turf/simulated/wall/prepainted,
-/area/chapel/main)
+/obj/item/flame/candle{
+	pixel_x = 13;
+	pixel_y = 5
+	},
+/obj/item/flame/candle{
+	pixel_x = 8
+	},
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "RH" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -15331,8 +13781,11 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Port Engines"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/thruster/d3port)
 "RI" = (
@@ -15378,17 +13831,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
-"RR" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/item/flame/candle/scented/incense{
-	pixel_x = 12;
-	pixel_y = 12
-	},
-/obj/floor_decal/corner/purple{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/memorial)
 "RS" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 10
@@ -15399,11 +13841,11 @@
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "RT" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "RV" = (
 /obj/structure/cable/green{
@@ -15423,21 +13865,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
-"Sd" = (
-/obj/structure/closet/hydrant{
-	pixel_x = 24
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
-"Sf" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
 "Sg" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "cChamber3sV";
@@ -15476,31 +13903,12 @@
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/cryolocker)
 "Sm" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green,
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/machinery/light_switch{
-	pixel_x = -22;
-	pixel_y = 26
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/security/habcheck)
+/obj/item/storage/candle_box,
+/obj/item/storage/candle_box/incense,
+/obj/item/flame/lighter/random,
+/obj/structure/closet/crate/warhammer,
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "Sn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -15577,7 +13985,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/hologram/holopad,
-/obj/decal/cleanable/dirt,
 /obj/structure/table/warhammer/big_wood_table{
 	dir = 3
 	},
@@ -15585,7 +13992,6 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue/middle,
 /area/crew_quarters/mess)
 "Sx" = (
-/obj/decal/cleanable/dirt,
 /obj/structure/table/warhammer/big_wood_table{
 	dir = 1
 	},
@@ -15618,10 +14024,6 @@
 	},
 /turf/simulated/floor/reinforced/hydrogen,
 /area/thruster/d3port)
-"Sz" = (
-/obj/random/vendor,
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
 "SA" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/warhammer/ceramic/surgery2,
@@ -15696,13 +14098,11 @@
 /turf/simulated/floor/reinforced/oxygen,
 /area/thruster/d3starboard)
 "SK" = (
-/obj/structure/sign/memorial,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/structure/table/warhammer/shrine,
+/turf/simulated/floor/warhammer/brick,
 /area/chapel/memorial)
 "SL" = (
-/obj/structure/table/rack{
-	dir = 8
-	},
+/obj/structure/table/rack/dark,
 /obj/item/tank/oxygen_emergency_double,
 /obj/item/tank/oxygen_emergency_double,
 /obj/item/tank/oxygen_emergency_double,
@@ -15747,31 +14147,8 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/obj/machinery/button/blast_door{
-	id_tag = "bar";
-	name = "Bar Shutters";
-	pixel_w = 8;
-	pixel_y = -24;
-	pixel_x = -3
-	},
-/obj/machinery/button/blast_door{
-	id_tag = "bar2";
-	name = "Bar Lockdown";
-	pixel_w = 8;
-	pixel_y = -24;
-	pixel_x = 10
-	},
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/mess)
-"SW" = (
-/obj/floor_decal/spline/fancy/black{
-	dir = 6
-	},
-/obj/structure/banner{
-	pixel_y = -32
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
 "SX" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -15783,14 +14160,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
-"SY" = (
-/obj/floor_decal/industrial/outline/grey,
-/obj/machinery/computer/modular/preset/engineering{
-	dir = 4;
-	icon_state = "console"
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/thirddeck/aftstarboard)
 "Te" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -15821,6 +14190,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftport)
+"Tl" = (
+/obj/item/card/id/key/grand{
+	name = "Backrooms Key";
+	access = list("ACCESS_TAVERNBACK")
+	},
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/mess)
 "Tm" = (
 /obj/structure/flora/pottedplant{
 	icon = "icons/map_project/furniture_and_decor.dmi";
@@ -15893,12 +14269,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/aft)
-"Tv" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
 "Tw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -15933,9 +14303,6 @@
 /obj/structure/catwalk,
 /turf/simulated/open,
 /area/maintenance/thirddeck/port)
-"TE" = (
-/turf/simulated/wall/prepainted,
-/area/chapel/office)
 "TG" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	frequency = 1441;
@@ -15953,20 +14320,9 @@
 /obj/random/junk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
-"TL" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
 "TN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
-	},
-/obj/machinery/alarm{
-	pixel_y = 24
 	},
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
@@ -15979,28 +14335,20 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
 "TO" = (
-/obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/center)
 "TQ" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/structure/largecrate,
 /obj/random/maintenance/clean,
 /obj/random/maintenance/clean,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
-"TR" = (
-/obj/wallframe_spawn/reinforced/polarized/no_grille{
-	id = "chapel_windows"
-	},
-/turf/simulated/floor/plating,
-/area/chapel/main)
-"TS" = (
-/turf/simulated/floor/tiled/dark,
-/area/security/habcheck)
 "TV" = (
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/disposal,
@@ -16017,13 +14365,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
-"TY" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
-/area/chapel/office)
 "TZ" = (
 /obj/structure/closet/athletic_mixed,
 /turf/simulated/floor/warhammer/surgerynew,
@@ -16050,13 +14391,6 @@
 	},
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
-"Uc" = (
-/obj/structure/bed/chair/comfy/black{
-	dir = 1
-	},
-/obj/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "Ud" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 6
@@ -16104,7 +14438,7 @@
 "Un" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/prepainted,
-/area/crew_quarters/office)
+/area/chapel/memorial)
 "Uo" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -16137,23 +14471,18 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
 "Us" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/structure/disposalpipe/junction{
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /turf/simulated/floor/warhammer/plating,
@@ -16190,20 +14519,6 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/maintenance/thirddeck/starboard)
-"Uw" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/memorial)
 "Uy" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -16217,43 +14532,56 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
 "UA" = (
-/obj/wallframe_spawn/reinforced,
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 2;
-	icon_state = "shutter0";
-	id_tag = "hab_checkpoint_shutters";
-	name = "Hangar Deck Checkpoint Shutters";
-	opacity = 0
+/obj/item/flame/candle{
+	pixel_x = 10;
+	pixel_y = 14
 	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
+/obj/item/flame/candle{
+	pixel_x = 13;
+	pixel_y = 5
 	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/item/flame/candle{
+	pixel_x = 5;
+	pixel_y = 8
 	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
+/obj/item/flame/candle{
+	pixel_y = 11
 	},
-/turf/simulated/floor/plating,
-/area/security/habcheck)
+/obj/item/flame/candle{
+	pixel_x = -9;
+	pixel_y = 13
+	},
+/obj/item/flame/candle{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/flame/candle{
+	pixel_x = -11;
+	pixel_y = 2
+	},
+/obj/item/flame/candle{
+	pixel_x = 8
+	},
+/obj/item/flame/candle/scented/incense{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/flame/candle/scented/incense{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "UD" = (
 /obj/structure/grille,
 /obj/structure/wall_frame,
 /turf/simulated/floor/plating,
 /area/vacant/brig)
 "UE" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/obj/floor_decal/industrial/outline/grey,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "UG" = (
 /obj/structure/catwalk,
@@ -16264,17 +14592,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftstarboard)
-"UH" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 1;
-	icon_state = "console"
-	},
-/obj/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/obj/machinery/light,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "UI" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -16284,12 +14601,6 @@
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/chief_steward)
-"UJ" = (
-/obj/structure/bed/chair/comfy/black{
-	dir = 8
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "UK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -16342,13 +14653,12 @@
 /turf/simulated/floor/warhammer/plating,
 /area/janitor/storage)
 "UP" = (
-/obj/structure/fitness/weightlifter,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 25
+/obj/item/card/id/key/grand{
+	name = "Room Key #2";
+	access = list("ACCESS_TAVERN2")
 	},
 /turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
+/area/crew_quarters/mess)
 "UQ" = (
 /obj/item/device/radio/intercom{
 	dir = 1;
@@ -16367,7 +14677,6 @@
 	internal_pressure_bound = 35000;
 	internal_pressure_bound_default = 35000
 	},
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3starboard)
 "UU" = (
@@ -16440,15 +14749,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/wallframe_spawn/no_grille,
-/turf/simulated/floor/plating,
+/turf/simulated/wall/prepainted,
 /area/hallway/primary/thirddeck/fore)
 "Vc" = (
-/obj/machinery/light{
-	dir = 8
+/obj/machinery/vending/wallmed1{
+	pixel_y = 32
 	},
-/obj/machinery/vending/coffee,
-/turf/simulated/floor/warhammer/metal/alt,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/crew_quarters/gym)
 "Vd" = (
 /obj/floor_decal/industrial/warning{
@@ -16513,7 +14820,6 @@
 	color = "#666666";
 	dir = 1
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue,
 /area/crew_quarters/mess)
 "Vn" = (
@@ -16597,9 +14903,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
-"Vx" = (
-/turf/simulated/wall/prepainted,
-/area/security/habcheck)
 "Vz" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -16630,18 +14933,13 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Port Engines"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/thruster/d3port)
-"VB" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/office)
 "VC" = (
 /obj/machinery/newscaster{
 	pixel_y = 32
@@ -16694,23 +14992,9 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "VH" = (
-/obj/machinery/disposal,
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
-"VI" = (
-/obj/structure/ladder,
-/obj/floor_decal/industrial/hatch/yellow,
-/obj/structure/catwalk,
-/obj/machinery/light,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 21
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/security/habcheck)
+/obj/machinery/light/alien,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/gym)
 "VK" = (
 /obj/machinery/vending/coffee{
 	dir = 1
@@ -16795,9 +15079,10 @@
 /turf/simulated/open,
 /area/maintenance/thirddeck/starboard)
 "VU" = (
-/obj/machinery/cryopod,
-/turf/simulated/floor/warhammer,
-/area/crew_quarters/sleep/cryo)
+/obj/structure/table/woodentable_reinforced/walnut,
+/obj/machinery/chemical_dispenser/bar_alc/full,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/crew_quarters/mess)
 "VV" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -16836,7 +15121,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "VX" = (
-/obj/decal/cleanable/dirt,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -16852,32 +15136,9 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
-"Wb" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
-"We" = (
-/obj/decal/cleanable/dirt,
-/obj/structure/bed/chair/wood/fancy{
-	color = "#666666"
-	},
-/turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
-	dir = 1
-	},
-/area/crew_quarters/mess)
 "Wg" = (
 /obj/random/trash,
+/obj/random/loot/lightmelee,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "Wh" = (
@@ -16964,24 +15225,11 @@
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "Wz" = (
-/obj/floor_decal/spline/fancy/wood{
-	dir = 8
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Maintenance Access"
 	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
-"WA" = (
-/obj/floor_decal/spline/fancy/black{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
+/turf/simulated/floor/plating,
+/area/maintenance/thirddeck/starboard)
 "WB" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -17003,12 +15251,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"WE" = (
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/aft)
 "WF" = (
 /obj/wallframe_spawn/reinforced_phoron,
 /obj/machinery/door/firedoor,
@@ -17022,7 +15264,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "WH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -17094,36 +15336,6 @@
 /obj/item/book/manual/barman_recipes,
 /turf/simulated/floor/warhammer/metal,
 /area/crew_quarters/mess)
-"WT" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/light{
-	dir = 4;
-	icon_state = "tube1"
-	},
-/obj/machinery/button/windowtint{
-	id = "chapel_windows";
-	pixel_x = -10;
-	pixel_y = 24
-	},
-/obj/machinery/light_switch{
-	pixel_x = 24;
-	pixel_y = 18
-	},
-/obj/machinery/button/holosign{
-	id_tag = "chapel";
-	pixel_x = -10;
-	pixel_y = 32
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "WU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -17136,7 +15348,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "WW" = (
 /obj/item/reagent_containers/glass/bucket,
@@ -17174,12 +15386,6 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/maintenance/thirddeck/starboard)
-"Xa" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/office)
 "Xb" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/unary/vent_pump/tank{
@@ -17202,7 +15408,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "Xe" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -17217,16 +15423,6 @@
 /obj/floor_decal/industrial/outline/orange,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3starboard)
-"Xg" = (
-/obj/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
-/obj/structure/flora/pottedplant/large,
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "Xi" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -17250,7 +15446,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "Xj" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/machinery/floodlight,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/port)
@@ -17364,13 +15559,17 @@
 /turf/simulated/wall/ocp_wall,
 /area/thruster/d3port)
 "XB" = (
-/obj/structure/table/woodentable/mahogany,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -25
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
 	},
-/obj/item/tableflag,
-/turf/simulated/floor/tiled/dark,
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/structure/closet/crate/warhammer/biohazard,
+/turf/simulated/floor/warhammer/brick,
 /area/chapel/memorial)
 "XC" = (
 /obj/floor_decal/techfloor{
@@ -17397,37 +15596,32 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/hardstorage)
-"XE" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/bed/chair/wood/fancy{
-	color = "#666666";
-	dir = 4
-	},
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
-	dir = 8
-	},
-/area/crew_quarters/mess)
 "XF" = (
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
-	},
-/turf/simulated/floor/lino,
-/area/crew_quarters/office)
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "XJ" = (
-/obj/machinery/hologram/holopad,
-/obj/floor_decal/industrial/outline/yellow,
-/obj/machinery/recharger/wallcharger{
-	dir = 1;
-	pixel_y = -22
+/obj/structure/statue/guardshrine{
+	pixel_x = 12;
+	pixel_y = 12
 	},
-/turf/simulated/floor/tiled/dark,
-/area/security/habcheck)
+/obj/structure/table/warhammer/pagan{
+	pixel_y = 2
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = -2;
+	pixel_x = 3
+	},
+/obj/decal/cleanable/remains{
+	layer = 4;
+	pixel_y = -9
+	},
+/obj/item/flame/candle/scented/incense{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
 "XK" = (
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/service_break_room)
@@ -17440,18 +15634,8 @@
 	dir = 1;
 	level = 2
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
-"XO" = (
-/obj/decal/cleanable/dirt,
-/obj/structure/bed/chair/wood/fancy{
-	color = "#666666";
-	dir = 8
-	},
-/turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
-	dir = 4
-	},
-/area/crew_quarters/mess)
 "XP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -17475,28 +15659,14 @@
 /area/crew_quarters/cryolocker)
 "XS" = (
 /obj/random/torchcloset,
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
 "XT" = (
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
-"XU" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/machinery/light_switch{
-	pixel_x = 6;
-	pixel_y = -24
-	},
-/obj/structure/table/woodentable/maple,
-/obj/item/sticky_pad,
-/obj/item/device/taperecorder,
-/turf/simulated/floor/carpet/purple,
-/area/chapel/office)
 "XX" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -17522,25 +15692,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
-"XY" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/chapel/main)
 "XZ" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -17579,12 +15730,6 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3starboard)
-"Yi" = (
-/obj/structure/reagent_dispensers/water_cooler{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
 "Yj" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -17594,7 +15739,7 @@
 /turf/simulated/open,
 /area/maintenance/thirddeck/port)
 "Yk" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/dark,
 /obj/item/clothing/mask/plunger,
 /obj/item/clothing/mask/plunger,
 /obj/item/reagent_containers/glass/rag,
@@ -17645,19 +15790,14 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/light_switch{
-	pixel_x = 24;
-	pixel_y = 26
-	},
 /obj/machinery/door/unpowered/inn{
-	name = "Candela Obscura";
-	req_access = list("ACCESS_RESTRICTED")
+	name = "Whirling In Rags";
+	req_access = list("ACCESS_TAVERN")
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
 "Yp" = (
 /obj/random/junk,
-/obj/decal/cleanable/dirt,
 /obj/decal/cleanable/cobweb{
 	dir = 8
 	},
@@ -17670,14 +15810,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftstarboard)
-"Yt" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
 "Yv" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1
@@ -17723,18 +15855,11 @@
 /obj/machinery/hologram/holopad/longrange,
 /turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
-"YN" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
-/area/maintenance/thirddeck/starboard)
 "YO" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+/obj/structure/curtain/open/bed,
+/obj/gibspawner/human,
 /turf/simulated/floor/carpet,
-/area/crew_quarters/recreation)
+/area/crew_quarters/sleep/bunk)
 "YP" = (
 /obj/machinery/door/blast/shutters{
 	density = 0;
@@ -17750,7 +15875,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "YR" = (
 /obj/structure/cable/green{
@@ -17785,7 +15910,7 @@
 /area/crew_quarters/mess)
 "YV" = (
 /obj/item/stool,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/aftstarboard)
 "YW" = (
 /obj/machinery/light/alien,
@@ -17808,26 +15933,18 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "YZ" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Auxiliary Tool Storage Maintenance"
-	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/warhammer/engineering{
+	name = "Tool Storage";
+	req_access = list("ACCESS_DAUNTLESS")
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/storage/tools)
 "Za" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
+/obj/structure/reagent_dispensers/water_cooler{
+	dir = 4
 	},
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/crew_quarters/gym)
-"Zb" = (
-/obj/structure/disposalpipe/segment{
+/obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/warhammer/metal/alt,
@@ -17865,9 +15982,8 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
 "Zg" = (
-/obj/floor_decal/industrial/outline/grey,
 /obj/random/torchcloset,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/aftstarboard)
 "Zi" = (
 /obj/structure/cable/green{
@@ -17902,7 +16018,6 @@
 /area/maintenance/thirddeck/port)
 "Zm" = (
 /obj/random/trash,
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "Zn" = (
@@ -17928,35 +16043,20 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
-"Zt" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 1;
-	icon_state = "console"
-	},
-/obj/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/recreation)
 "Zv" = (
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/disposalpipe/junction{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -17987,7 +16087,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
 "ZA" = (
-/obj/decal/cleanable/dirt,
 /obj/structure/table/warhammer/big_wood_table{
 	dir = 3
 	},
@@ -18043,7 +16142,6 @@
 	internal_pressure_bound = 35000;
 	internal_pressure_bound_default = 35000
 	},
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "ZJ" = (
@@ -18056,13 +16154,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
-"ZK" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/mess)
 "ZQ" = (
 /obj/machinery/newscaster{
 	pixel_x = 32
@@ -18091,22 +16182,6 @@
 /obj/floor_decal/industrial/outline/red,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3starboard)
-"ZW" = (
-/obj/structure/table/woodentable_reinforced/mahogany,
-/obj/item/spirit_board,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/wood/walnut,
-/area/chapel/main)
 "ZY" = (
 /turf/simulated/wall/r_wall/hull,
 /area/crew_quarters/service_break_room)
@@ -27087,9 +25162,9 @@ NB
 NB
 NB
 NB
-VH
-PG
-Yi
+mj
+mj
+mj
 yH
 lG
 lX
@@ -27289,9 +25364,9 @@ NB
 NB
 NB
 NB
-NN
-CD
-Pz
+mj
+mj
+mj
 yH
 lY
 lX
@@ -27306,7 +25381,7 @@ lX
 yu
 lX
 PH
-GV
+LG
 vb
 iN
 bT
@@ -27491,9 +25566,9 @@ NB
 NB
 NB
 NB
-KQ
-Af
-wb
+mj
+mj
+mj
 yH
 nL
 mO
@@ -27508,7 +25583,7 @@ lX
 zz
 lX
 lX
-GV
+LG
 vb
 UI
 Ut
@@ -27693,9 +25768,9 @@ NB
 NB
 NB
 NB
-Sz
-mV
-NL
+mj
+mj
+mj
 yH
 Zn
 lX
@@ -27710,7 +25785,7 @@ lX
 FQ
 lX
 lX
-GV
+LG
 Yc
 Te
 Es
@@ -27896,8 +25971,8 @@ gB
 gB
 gB
 gB
-CD
-Py
+mj
+mj
 yH
 yH
 Tx
@@ -27912,7 +25987,7 @@ SF
 lX
 yI
 lX
-GV
+LG
 cz
 xP
 jo
@@ -28087,19 +26162,19 @@ aa
 aa
 aj
 aj
-fC
-fC
-AH
-Ht
-Rf
-RA
-zJ
-Vc
-wJ
-mH
 gB
-CD
-Py
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+mj
+mj
 yH
 mc
 mR
@@ -28289,19 +26364,19 @@ aa
 aa
 aj
 aj
-fC
-Nd
-QV
-Fs
-Zb
-Fs
-Fs
-Fs
-Fs
-Fs
-gM
-CD
-Dx
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+mj
+mj
 yH
 yH
 yH
@@ -28491,21 +26566,21 @@ aa
 aa
 aj
 aj
-rL
-fC
-JH
-uc
-Pa
-Fs
-pp
-jN
-pp
-Fs
-gM
-CD
-NL
-CD
-CD
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+mj
+mj
+mj
+mj
 Dy
 nP
 oL
@@ -28693,25 +26768,25 @@ aa
 aa
 aj
 aj
-fC
-Nd
-mS
-pF
-zj
-pH
-ID
-Wb
-jb
-jb
-fu
-hV
-hx
-Ha
-hV
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+mj
+mj
+mj
+mj
 mT
 nQ
 oM
-yy
+Af
 tl
 rS
 yy
@@ -28895,27 +26970,27 @@ aa
 aa
 aj
 aj
-fC
-fC
-mI
-ig
-pp
-Za
-pp
-Sf
-UP
-sI
 gB
-Yd
-tL
-WB
-Sd
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+mj
+mj
+mj
+mj
 oy
 nR
 wP
 CD
 pM
-Yt
+CD
 oy
 WB
 CD
@@ -29114,13 +27189,13 @@ cG
 cG
 cG
 nS
-CF
-CF
-CF
-rT
-CF
-CF
-CF
+gB
+gB
+gB
+gB
+gB
+gB
+gB
 Cb
 Vb
 Cb
@@ -29316,13 +27391,13 @@ lp
 bs
 bs
 nT
-CF
-DE
-qG
-sL
-wM
-IQ
-CF
+gB
+fC
+fC
+zJ
+Fs
+Py
+gB
 wL
 Xi
 PV
@@ -29518,14 +27593,14 @@ Mu
 bs
 bs
 nU
-CF
-JM
-YO
-rU
-iE
-UH
-CF
-CD
+gB
+fC
+Nd
+QV
+Fs
+wb
+gB
+wO
 pq
 gu
 hv
@@ -29720,13 +27795,13 @@ dv
 Uy
 bs
 nU
-CF
-MP
-qu
-qu
-iE
-Zt
-CF
+gB
+Vc
+fC
+JH
+uc
+wJ
+gB
 wN
 pq
 xH
@@ -29922,14 +27997,14 @@ dv
 me
 mW
 nV
+gB
+fC
+Nd
+mS
+NL
 CF
-pL
-qu
-qu
-iE
-Zt
-CF
-wO
+sI
+CD
 Uo
 Rk
 hv
@@ -30122,14 +28197,14 @@ jI
 kE
 lq
 mf
-CF
-CF
-CF
-My
-qu
-IE
-qu
-uC
+gB
+gB
+gB
+tL
+fC
+Ht
+PG
+VH
 IF
 QJ
 xQ
@@ -30324,15 +28399,15 @@ jJ
 kF
 lr
 mg
-CF
-uH
-uH
-pJ
-qI
-qI
-qH
-uB
-CF
+gB
+Fs
+Fs
+Fs
+Fs
+Fs
+PG
+Dx
+gB
 wQ
 Uo
 CD
@@ -30526,15 +28601,15 @@ jI
 kG
 lq
 mh
-CF
-nY
-oO
-Uc
-qu
-qu
-EU
-Xg
-CF
+gB
+pp
+Fs
+pp
+Fs
+pp
+PG
+Ha
+gB
 CD
 xR
 CD
@@ -30728,15 +28803,15 @@ jK
 kH
 dv
 cK
-CF
-UJ
-zC
-yh
-zn
-Wz
-uG
-wy
-CF
+gB
+Fs
+Fs
+Fs
+rL
+Fs
+gM
+Za
+gB
 WD
 XX
 WD
@@ -30930,20 +29005,20 @@ dv
 dv
 dv
 cK
-CF
-CF
-CF
-CF
-CF
-CF
-QR
-CF
-CF
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
 CD
 xR
 hQ
 Bm
-jR
+uG
 lK
 PE
 Hv
@@ -31138,7 +29213,7 @@ oT
 pO
 mj
 sc
-tp
+CD
 CD
 ob
 qL
@@ -31340,7 +29415,7 @@ hK
 pO
 mj
 sc
-tp
+CD
 CD
 CD
 CD
@@ -31542,7 +29617,7 @@ oU
 pP
 mj
 se
-tp
+CD
 CD
 CD
 QJ
@@ -31753,11 +29828,11 @@ Bm
 Bm
 Bm
 Bm
-Bm
+zD
 CX
-Bm
+zD
 CX
-Bm
+zD
 CX
 Bm
 Yb
@@ -32146,14 +30221,14 @@ wD
 wD
 wD
 wD
-tt
+OY
 sh
-tt
+OY
 uK
-xU
-dE
-up
-Vx
+wD
+wD
+wD
+wD
 Yb
 Wq
 Qz
@@ -32351,11 +30426,11 @@ wD
 xC
 VM
 cV
-LV
-Qx
-Kc
-KS
-Vx
+wD
+wD
+wD
+wD
+wD
 Px
 AB
 Bp
@@ -32553,11 +30628,11 @@ pT
 cV
 sj
 cV
-UA
-Qv
-jQ
-nI
-Vx
+wD
+wD
+wD
+wD
+wD
 tU
 an
 Ma
@@ -32755,21 +30830,21 @@ pT
 qQ
 sk
 xf
-xb
-QE
-jQ
-XJ
-Vx
+wD
+wD
+wD
+wD
+wD
 Bq
 zS
 Br
 Yb
 uM
-xY
+vQ
 wW
-xY
+vQ
 wW
-xY
+vQ
 uM
 NJ
 BV
@@ -32946,7 +31021,7 @@ SA
 hm
 Zx
 gs
-eu
+ih
 wD
 lu
 lu
@@ -32957,17 +31032,17 @@ pT
 cV
 sj
 tx
-Vx
-Fz
-jQ
-TS
-Ga
+wD
+wD
+wD
+wD
+wD
 Bq
 uM
 uM
-Cm
 uM
-vO
+uM
+YO
 wW
 vO
 wW
@@ -33148,7 +31223,7 @@ et
 hn
 ij
 iW
-Mv
+eu
 wD
 lu
 lu
@@ -33158,23 +31233,23 @@ lu
 wD
 NA
 Us
-Nn
-uN
-Sm
-Ns
-VI
-Vx
+cV
+wD
+wD
+wD
+wD
+wD
 Bq
 uM
 Bs
-Cn
-Cn
+vP
+vP
 vP
 wX
 vP
 yR
 vP
-Cm
+uM
 Bq
 BV
 BV
@@ -33361,11 +31436,11 @@ fB
 YP
 sl
 pn
-Vx
-Vx
-Vx
-Vx
-Vx
+wD
+wD
+wD
+wD
+wD
 Bq
 uM
 Bt
@@ -33375,7 +31450,7 @@ vO
 wW
 vO
 wW
-vO
+YO
 uM
 Bq
 GW
@@ -33563,7 +31638,7 @@ fB
 cV
 VW
 Ly
-uL
+Er
 vM
 vM
 vM
@@ -33951,8 +32026,8 @@ aP
 fc
 fq
 vl
-bZ
-bZ
+uB
+zC
 VK
 fv
 ky
@@ -34153,8 +32228,8 @@ cc
 Tn
 bZ
 bZ
-bZ
-bZ
+Tl
+UP
 bZ
 OI
 aq
@@ -34182,7 +32257,7 @@ Da
 DO
 vT
 vT
-FC
+uQ
 XR
 UX
 lR
@@ -34356,8 +32431,8 @@ Hk
 bZ
 hr
 pl
-bZ
-bZ
+Rg
+Cn
 ii
 aq
 jd
@@ -34372,14 +32447,14 @@ cV
 IY
 tE
 Fd
-VU
-VU
+Fd
+Fd
 yb
 yU
-VU
-VU
-VU
-VU
+Fd
+Fd
+Fd
+Fd
 Db
 Cr
 vT
@@ -34557,7 +32632,7 @@ th
 aW
 bZ
 ur
-sX
+pJ
 bZ
 bZ
 ii
@@ -34573,7 +32648,7 @@ nc
 cV
 IZ
 cV
-Fd
+xb
 vU
 vU
 yb
@@ -34758,7 +32833,7 @@ fc
 aP
 ZB
 bZ
-sX
+VU
 sX
 bZ
 cL
@@ -34766,7 +32841,7 @@ ik
 aq
 gv
 cT
-XE
+du
 du
 dY
 lb
@@ -34974,7 +33049,7 @@ nh
 WH
 pe
 pY
-kV
+YY
 so
 YY
 uR
@@ -35169,12 +33244,12 @@ ht
 is
 aq
 jW
-We
+mo
 jx
 Sx
 Vm
 jd
-bc
+jd
 pZ
 cV
 sp
@@ -35371,8 +33446,8 @@ ly
 kn
 mA
 jX
-AA
-FY
+fU
+eC
 eC
 ni
 jd
@@ -35382,14 +33457,14 @@ cV
 sj
 cV
 uT
-VU
-VU
+Fd
+Fd
 yf
 yY
-VU
-VU
-VU
-VU
+Fd
+Fd
+Fd
+Fd
 Df
 PJ
 Fd
@@ -35574,8 +33649,8 @@ iu
 hu
 UK
 fU
-FY
-FY
+eC
+eC
 ni
 jd
 pg
@@ -35971,7 +34046,7 @@ fc
 cU
 rM
 jd
-zD
+ky
 jd
 rM
 GY
@@ -36171,16 +34246,16 @@ fc
 fc
 fc
 fp
-qj
+rM
 jd
-ZK
+jd
 Aq
 rM
 GY
 jd
 jd
 zg
-XO
+CB
 CB
 jn
 jd
@@ -36379,7 +34454,7 @@ fB
 fB
 gA
 yG
-ci
+KZ
 YD
 jd
 ZQ
@@ -36797,7 +34872,7 @@ sj
 Dt
 uU
 vY
-eE
+Md
 YK
 fW
 uU
@@ -36805,7 +34880,7 @@ RE
 AG
 By
 uU
-do
+DL
 UZ
 YH
 WL
@@ -37381,9 +35456,9 @@ aI
 aQ
 aQ
 oH
-cj
+FH
 rz
-cj
+qG
 cl
 WM
 Ef
@@ -37402,7 +35477,7 @@ cV
 sj
 cV
 uU
-fo
+GO
 YK
 YK
 gK
@@ -37799,7 +35874,7 @@ Ou
 os
 KC
 cl
-YN
+aY
 Eq
 wD
 aR
@@ -37807,10 +35882,10 @@ sk
 xf
 uU
 eB
+yh
 YK
-in
 Ix
-in
+YK
 hP
 jl
 kg
@@ -38020,7 +36095,7 @@ km
 hL
 CE
 Ez
-Ff
+Ez
 Ez
 HD
 Ts
@@ -38195,15 +36270,15 @@ Uv
 cl
 dD
 dD
-cl
+Wz
 Ii
 Mr
-YN
+aY
 qB
 aY
 aY
-YN
-YN
+aY
+aY
 uu
 wD
 cV
@@ -38211,7 +36286,7 @@ VG
 cV
 uU
 uU
-fl
+uU
 uU
 uU
 uU
@@ -38222,7 +36297,7 @@ hL
 hL
 CE
 Ez
-Fe
+Ez
 Ez
 Qy
 Ts
@@ -38411,7 +36486,7 @@ wD
 cV
 su
 Ly
-uL
+Er
 wf
 wf
 wf
@@ -38600,13 +36675,13 @@ cl
 da
 dD
 cl
-XT
-YN
+uC
+aY
 gZ
 cl
 jC
 tb
-hd
+Mr
 dd
 ti
 wD
@@ -38615,8 +36690,8 @@ XP
 ov
 wD
 Ez
-Ts
-Ts
+DL
+DL
 BS
 Ez
 LK
@@ -38631,7 +36706,7 @@ Dn
 Dn
 Dn
 HD
-Ts
+DL
 Hf
 Qq
 Qq
@@ -38807,7 +36882,7 @@ Zm
 kc
 cl
 aY
-bn
+bE
 aY
 Wg
 dd
@@ -38833,13 +36908,13 @@ Gi
 ot
 ub
 HD
-Ts
+DL
 HE
 HI
 HL
 HP
 HI
-fA
+FE
 Ek
 pR
 Ir
@@ -39229,7 +37304,7 @@ AI
 BA
 nu
 YZ
-Ts
+DL
 CE
 ub
 EC
@@ -39438,8 +37513,8 @@ FJ
 Gk
 GJ
 ub
-Ts
-Ts
+DL
+DL
 HG
 HI
 HO
@@ -39854,7 +37929,7 @@ DM
 DU
 IK
 rG
-Pp
+FE
 QL
 Qq
 aa
@@ -40056,7 +38131,7 @@ Ow
 Qj
 DJ
 XN
-Pp
+FE
 iw
 Qq
 aa
@@ -40254,11 +38329,11 @@ aI
 aa
 Qq
 Qq
-Pp
-Pp
-Pp
-Pp
-Pp
+FE
+FE
+FE
+FE
+FE
 Qq
 Qq
 aa
@@ -40416,7 +38491,7 @@ dh
 dU
 PF
 NW
-gG
+gI
 fO
 eI
 gP
@@ -40429,16 +38504,16 @@ dM
 dM
 eI
 ji
-sC
+sv
 tW
-vh
-yq
+Yn
+Yn
 Og
 yq
-Yn
-Er
+mB
+yq
 XB
-iC
+Yn
 Yn
 Ba
 CU
@@ -40458,7 +38533,7 @@ aa
 Qq
 Qq
 Ih
-Pp
+FE
 Iw
 Qq
 Qq
@@ -40635,13 +38710,13 @@ sv
 ji
 Un
 QH
-xo
+XF
 xp
-Yn
-vo
+XF
+XF
 AP
 AS
-Du
+Yn
 Ba
 CU
 Gl
@@ -40835,14 +38910,14 @@ qc
 Oq
 sE
 ji
-vg
+Yn
 wp
 xu
 XF
-Yn
+XF
 wK
-RR
-AQ
+Yn
+Iv
 Yn
 Ba
 CU
@@ -41036,21 +39111,21 @@ pk
 om
 ji
 Zv
-ue
+uN
 py
 xO
 sH
-TL
-Yn
+XF
+XF
 SK
-LQ
-Uw
+Yn
+Iv
 Yn
 Ba
 CU
 ub
 Fi
-Fj
+EC
 ED
 ED
 ub
@@ -41239,19 +39314,19 @@ qd
 rr
 sG
 ji
-vg
-Tv
-CQ
-yt
 Yn
-wH
-mB
-DA
+XF
+CQ
+XF
+XF
+Yn
+Yn
+Iv
 Yn
 Nq
 CU
 ub
-Fj
+EC
 FM
 Go
 GN
@@ -41423,9 +39498,9 @@ aT
 bL
 OA
 OA
-dn
+FC
 Zg
-SY
+FC
 qd
 hA
 hA
@@ -41439,24 +39514,24 @@ hA
 hA
 qd
 Bg
-AR
+sU
 ua
-vh
+Yn
 wr
 vi
-NI
+XF
+XF
+SK
 Yn
-yr
-Ke
 Iv
 Yn
 Do
 DZ
 ub
-Fk
-FN
+ot
+by
 Gm
-GO
+ED
 ub
 Ba
 jZ
@@ -41626,7 +39701,7 @@ bM
 co
 co
 dZ
-dn
+FC
 YV
 qd
 hA
@@ -41643,21 +39718,21 @@ qd
 ji
 Wh
 ji
+Yn
+Yn
+Sm
 RG
-RG
-RG
-RG
-RG
-RG
-RG
+XF
+yr
+Yn
 rE
-RG
-RG
-CU
+vo
+vo
+Nn
 ub
 Ox
-FK
-Fj
+Fh
+EC
 GP
 ub
 Ba
@@ -41845,16 +39920,16 @@ qd
 wB
 sJ
 ji
-RG
-wt
-xs
-yv
-zr
-CL
-AV
-BO
-CI
-RG
+Yn
+xo
+XJ
+Fz
+XF
+wK
+Yn
+Yn
+Yn
+Yn
 Lr
 ub
 ED
@@ -42047,16 +40122,16 @@ qd
 Wx
 sF
 ji
-TR
-wu
-xt
-yw
-zs
-Ag
-AW
-BN
-CJ
-RG
+Yn
+Yn
+QE
+UA
+XF
+SK
+Yn
+Yn
+Yn
+Yn
 CU
 ub
 ED
@@ -42249,16 +40324,16 @@ qd
 rt
 kR
 ue
-vn
-Eh
-Mj
-uq
-II
-XY
-WA
-ZW
-BF
-RG
+Yn
+xo
+Qx
+Fz
+XF
+Yn
+Yn
+Yn
+Yn
+Yn
 CU
 ub
 Ya
@@ -42451,16 +40526,16 @@ qd
 ji
 Xv
 ji
-TR
-MZ
-xs
-yv
-zu
-lQ
-AW
-BP
-CJ
-RG
+Yn
+Yn
+Sm
+do
+XF
+Yn
+Yn
+Yn
+Yn
+Yn
 CU
 Dn
 Dn
@@ -42653,16 +40728,16 @@ qd
 ru
 Xv
 ji
-RG
-WT
-xt
-yw
-tN
-lQ
-yz
-LM
-SW
-RG
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
 JX
 Kb
 Kb
@@ -42852,19 +40927,19 @@ hA
 hA
 hA
 qd
-WE
+ji
 Xv
 ji
-TE
-TE
-xx
-xx
-TE
-lQ
-Ag
-Ag
-Ag
-vm
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
 FZ
 Bc
 Bc
@@ -43057,16 +41132,16 @@ qe
 lJ
 AR
 ZE
-TE
-wz
-OL
-XU
-TE
-Rm
-RG
-Ag
-Ag
-RG
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
 JT
 Bc
 Fm
@@ -43259,17 +41334,17 @@ qd
 rw
 Xv
 ji
-TE
-wA
-xy
-yB
-TY
-JR
-RG
-RG
-NZ
-RG
-JT
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Bc
 Dq
 EE
 EE
@@ -43461,16 +41536,16 @@ qd
 rx
 sF
 uk
-TE
-Pg
-xy
-yC
-BR
-Re
-RG
-Nz
-Fl
-RG
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
 Eb
 uV
 qM
@@ -43641,7 +41716,7 @@ aa
 aa
 bd
 bd
-cJ
+fY
 bd
 aT
 dn
@@ -43654,25 +41729,25 @@ ES
 UG
 Rs
 ve
-lT
-mK
-nG
-oA
+ve
+ve
+ve
+ve
 wl
 wl
 ji
 sF
 ul
-TE
-TE
-OG
-Nm
-Xa
-LI
-TE
-TE
-TE
-TE
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
 JT
 EE
 Fo
@@ -43856,9 +41931,9 @@ iG
 jv
 CT
 ve
-lU
-mK
-mK
+ve
+ve
+ve
 wl
 wl
 qr
@@ -43866,15 +41941,15 @@ Vn
 op
 um
 vu
-TE
-TE
-TE
-hq
-VB
-Ej
-BU
-CN
-TE
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
 Ed
 EG
 Fp
@@ -44059,7 +42134,7 @@ jw
 IW
 ve
 ve
-lj
+ve
 ve
 wl
 WY
@@ -44069,14 +42144,14 @@ sU
 ZE
 YS
 oX
-TE
-TE
-TE
-TE
-TE
-TE
-TE
-TE
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
+Yn
 Ra
 Wr
 Ne

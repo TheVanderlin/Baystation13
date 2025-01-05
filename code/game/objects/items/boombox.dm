@@ -1,80 +1,115 @@
-/*
 /obj/item/device/boombox
 	name = "Audioslate Player"
 	icon = 'icons/obj/boombox.dmi'
 	icon_state = "boombox"
 	desc = "You should insert some tapes into this thing."
-	var/casetta = /obj/item/device/cassette
-	var/datum/sound_token/sound_token
-	var/playing = 0
-	var/sound_id
-	w_class = ITEM_SIZE_NO_CONTAINER
+	w_class = ITEM_SIZE_GARGANTUAN
 
-/obj/item/device/boombox/New()
-	..()
-	sound_id = "[type]_[sequential_id(type)]"
+	var/obj/item/device/cassette/current_tape // The tape currently inside the boombox.
+	var/is_playing = FALSE // Tracks if music is playing
+	var/last_song_played = "" // Tracks the last played song file
 
-/obj/item/device/boombox/use_tool(obj/item/I, mob/living/user, list/click_params)
-	if(!casetta && user.unEquip(I))
-		I.forceMove(src)
-		casetta = I
-		visible_message("<span class='notice'>[user] insert cassette into [src].</span>")
-		playsound(get_turf(src), 'sound/machines/bominside.ogg', 50, 1)
-	else
-		to_chat(user, "<span class='warning'>There is already cassette inside.</span>")
+/obj/item/device/boombox/attack_hand(mob/user as mob)
+	if (user.get_inactive_hand() == src)
+		if (current_tape)
+			to_chat(user, "You remove the tape from [src].")
+			current_tape.loc = user.loc
+			current_tape = null
+			sound_to(src, sound(null))
+			is_playing = FALSE
+			last_song_played = "" // Reset last song
+			return TRUE
 	return ..()
 
+/obj/item/device/boombox/use_tool(obj/item/I, mob/living/user, list/click_params)
+	if (istype(I, /obj/item/device/cassette))
+		if (!current_tape && user.unEquip(I)) // Add the tape if there isn't one already.
+			I.forceMove(src)
+			current_tape = I
+			to_chat(user, "You insert [I.name] into [src].")
+			return TRUE
+		else
+			to_chat(user, "[src] already has a tape installed.")
+			return TRUE
+	return ..()
 
-/obj/item/device/boombox/MouseDrop(var/obj/over_object)
-	if (!over_object || !(ishuman(usr) || issmall(usr)))
-		return
-
-	if (!(src.loc == usr))
-		return
-
-	switch(over_object.name)
-		if("r_hand")
-			eject()
-		if("l_hand")
-			eject()
-
-/obj/item/device/boombox/proc/eject()
-	if(usr.incapacitated())
-		return
-	if(!casseta)
-		to_chat(usr, "<span class='warning'>There is no cassette inside.</span>")
-		return
-
-	if(playing)
-		StopPlaying()
-	visible_message("<span class='notice'>[usr] ejects cassette from [src].</span>")
-	playsound(get_turf(src), 'sound/machines/bominside.ogg', 50, 1)
-	usr.put_in_hands(casseta)
-	casseta = null
-
-/obj/item/device/boombox/attack_self(mob/user)
-	if(playing)
-		StopPlaying()
-		playsound(get_turf(src), 'sound/machines/bomclick.ogg', 50, 1)
-		return
+/obj/item/device/boombox/attack_self(mob/living/carbon/human/user)
+	if (current_tape) // Check if there's a tape inserted
+		if (is_playing) // If music is already playing
+			to_chat(user, "You restart the [src].")
+			playsound(get_turf(src), 'sound/machines/bomclick.ogg', 40, 1) // Optional click sound
+			sound_to(src, sound(null))
+			is_playing = FALSE
+			last_song_played = "" // Reset last played song
+		else // If no music is playing
+			if (current_tape.sound_file == last_song_played)
+				to_chat(user, "[src] is already playing this song!")
+			else
+				to_chat(user, "You start playing [current_tape.name] in [src].")
+				playsound(get_turf(src), 'sound/machines/bomclick.ogg', 40, 1) // Optional click sound
+				playsound(src, current_tape.sound_file, 40) // Play the song from the tape
+				is_playing = TRUE
+				last_song_played = current_tape.sound_file // Track the last played song
 	else
-		StartPlaying()
-		playsound(get_turf(src), 'sound/machines/bomclick.ogg', 50, 1)
+		to_chat(user, "No tape is inserted into [src].") // Handle case where no tape is inserted
 
 
-/obj/item/device/boombox/proc/StopPlaying()
-	playing = 0
-	QDEL_NULL(sound_token)
+/obj/item/device/cassette
+	name = "Audio Tape"
+	desc = "A tape containing two sides of music, each with its own song."
+	icon = 'icons/obj/cassette.dmi'
+	icon_state = "cassette_0"
+	w_class = ITEM_SIZE_TINY
 
-/obj/item/device/boombox/proc/StartPlaying()
-	StopPlaying()
-	if(isnull(casseta))
-		return
-	if(!casseta.sound_inside)
-		return
+	var/aside
+	var/bside
+	var/sound_file
 
-	sound_token = GLOB.sound_player.PlayLoopingSound(src, sound_id, casseta.sound_inside, volume = 40, range = 10, falloff = 3, prefer_mute = TRUE, ignore_vis = TRUE)
-	playing = 1
+/obj/item/device/cassette/attack_hand(mob/user as mob)
+	if (user.get_inactive_hand() == src)
+		if (sound_file == aside)
+			sound_file = bside
+		else
+			sound_file = aside
+		to_chat(user, "You switched the tape to the other side.")
+		return TRUE
+	return ..()
+
+/obj/item/device/cassette/New()
+	..()
+	icon_state = "cassette_[rand(0,12)]"
+
+/obj/item/device/cassette/fart
+	sound_file = 'sound/newmusic/fart.ogg'
+	name = "The Great Gatsby"
+	aside = 'sound/newmusic/fart.ogg'
+	bside = 'sound/newmusic/fart.ogg'
+
+/obj/item/device/cassette/ambient
+	sound_file = 'sound/newmusic/General_Ambient.ogg'
+	name = "Imperial Ambiance #1"
+	aside = 'sound/newmusic/General_Ambient.ogg'
+	bside = 'sound/newmusic/General_Ambient2.ogg'
+
+/obj/item/device/cassette/ambient2
+	sound_file = 'sound/newmusic/General_Ambient3.ogg'
+	name = "Imperial Ambiance #2"
+	aside = 'sound/newmusic/General_Ambient3.ogg'
+	bside = 'sound/newmusic/Hab.ogg'
+
+/obj/item/device/cassette/ambient3
+	sound_file = 'sound/newmusic/Outpost1.ogg'
+	name = "Imperial Ambiance #3"
+	aside = 'sound/newmusic/Outpost1.ogg'
+	bside = 'sound/newmusic/Chapel1.ogg'
+
+/obj/item/device/cassette/combat1
+	sound_file = 'sound/newmusic/TAPE-DUEL.ogg'
+	name = "Rockin Death Tunes"
+	aside = 'sound/newmusic/TAPE-DUEL.ogg'
+	bside = 'sound/newmusic/TUPE-ORKS1.ogg'
+/*
+
 
 /obj/item/device/cassette
 	name = "cassette tape"
@@ -85,346 +120,292 @@
 	w_class = ITEM_SIZE_TINY
 	var/uploader_idiot
 	var/current_side = 1
-	var/sound/a_side
-	var/sound/b_side
+	var/sound/aside
+	var/sound/bside
 
 /obj/item/device/cassette/New()
 	icon_state = "cassette_[rand(0,12)]"
 
-/obj/item/device/cassette/attack_self(mob/user)
-	. = ..()
-	if(current_side == 1)
-		sound_inside = b_side
-		current_side = 2
-		to_chat(user, "<span class='notice'>You flip the cassette over to the b-side.")
-	else
-		sound_inside = a_side
-		current_side = 1
-		to_chat(user, "<span class='notice'>You flip the cassette over to the a-side.")
-
-/obj/item/device/cassette/tape1/New()
-	..()
-	name = "\"The Outside World\'s Greatest Hits Vol.1\" magn-o-tape"
-	a_side = pick('sound/music/boombox1.ogg','sound/music/boombox2.ogg')
-	b_side = 'sound/music/boombox3.ogg'
-	sound_inside = a_side
-
-/obj/item/device/cassette/tape2/New()
-	..()
-	name = "\"The Outside World\'s Greatest Hits Vol.2\" magn-o-tape"
-	a_side = pick('sound/music/boombox4.ogg', 'sound/music/boombox5.ogg')
-	b_side = 'sound/music/boombox6.ogg'
-	sound_inside = a_side
-
-/obj/item/device/cassette/tape3/New()
-	..()
-	name = "\"The Outside World\'s Greatest Hits Vol.3\" magn-o-tape"
-	a_side = pick('sound/music/boombox7.ogg', 'sound/music/boombox8.ogg')
-	b_side = pick('sound/music/boombox9.ogg', 'sound/music/boombox10.ogg')
-	sound_inside = a_side
-
-/obj/item/device/cassette/tape4/New()
-	..()
-	name = "\"The Outside World\'s Greatest Hits - Santa Monica Edition\" magn-o-tape"
-	a_side = pick('sound/music/inn.ogg',)
-	b_side = pick('sound/music/boombox9.ogg', 'sound/music/boombox10.ogg')
-	sound_inside = a_side
-
-/obj/item/device/cassette/tape5/New()
-	..()
-	name = "\"The Officio Prefectus-Approved Morale Boosting Chants\" magn-o-tape"
-	a_side = pick('sound/music/boombox11.ogg', 'sound/music/boombox12.ogg')
-	b_side = pick('sound/music/boombox2.ogg', 'sound/music/boombox15.ogg')
-	current_side = 2
-	sound_inside = b_side
-
-/obj/item/device/cassette/tape6/New()
-	..()
-	name = "\"The General Fabricator-Approved Chants\" magn-o-tape"
-	a_side = pick('sound/music/boombox13.ogg')
-	b_side = pick('sound/music/boombox14.ogg')
-	sound_inside = a_side
-
 /obj/item/device/cassette/fart/New()
 	..()
 	name = "The Great Gatsby"
-	a_side = pick('sound/newmusic/fart.ogg')
-	b_side = pick('sound/newmusic/fart.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/fart.ogg')
+	bside = pick('sound/newmusic/fart.ogg')
+	sound_inside = aside
 
 
 /obj/item/device/cassette/titansbane/New()
 	..()
 	name = "Titansbane - Cadia Stands"
-	a_side = pick('sound/newmusic/TAPE-TITANSBANE.ogg')
-	b_side = pick('sound/newmusic/TAPE-TITANSBANE.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-TITANSBANE.ogg')
+	bside = pick('sound/newmusic/TAPE-TITANSBANE.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/unknownsoldier/New()
 	..()
 	name = "The Unknown Soldier"
-	a_side = pick('sound/newmusic/TAPE-unknownsoldier.ogg')
-	b_side = pick('sound/newmusic/TAPE-unknownsoldier.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-unknownsoldier.ogg')
+	bside = pick('sound/newmusic/TAPE-unknownsoldier.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/daboss/New()
 	..()
 	name = "Da Boss"
-	a_side = pick('sound/newmusic/TAPE-DABOSS1.ogg')
-	b_side = pick('sound/newmusic/TAPE-DABOSS1.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-DABOSS1.ogg')
+	bside = pick('sound/newmusic/TAPE-DABOSS1.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/inqlog1/New()
 	..()
 	name = "Inquisition Log 1"
-	a_side = pick('sound/newmusic/TAPE-INQLOG1.ogg')
-	b_side = pick('sound/newmusic/TAPE-INQLOG1.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-INQLOG1.ogg')
+	bside = pick('sound/newmusic/TAPE-INQLOG1.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/brokensaint/New()
 	..()
 	name = "Broken Saint"
-	a_side = pick('sound/newmusic/TAPE-BROKENSAINT.ogg')
-	b_side = pick('sound/newmusic/TAPE-BROKENSAINT.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-BROKENSAINT.ogg')
+	bside = pick('sound/newmusic/TAPE-BROKENSAINT.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/grimdark/New()
 	..()
 	name = "The Grimdark"
-	a_side = pick('sound/newmusic/TAPE-GRIMDARK1.ogg')
-	b_side = pick('sound/newmusic/TAPE-GRIMDARK1.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-GRIMDARK1.ogg')
+	bside = pick('sound/newmusic/TAPE-GRIMDARK1.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/buildin/New()
 	..()
 	name = "Serf Music"
-	a_side = pick('sound/newmusic/TUPE-BUILDIN1.ogg')
-	b_side = pick('sound/newmusic/TUPE-BUILDIN1.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TUPE-BUILDIN1.ogg')
+	bside = pick('sound/newmusic/TUPE-BUILDIN1.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/orks1/New()
 	..()
 	name = "Ork Jamma's"
-	a_side = pick('sound/newmusic/TUPE-ORKS1.ogg')
-	b_side = pick('sound/newmusic/TUPE-ORKS1.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TUPE-ORKS1.ogg')
+	bside = pick('sound/newmusic/TUPE-ORKS1.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/church1/New()
 	..()
 	name = "Monastery Chants"
-	a_side = pick('sound/newmusic/TUPE-CHURCH1.ogg')
-	b_side = pick('sound/newmusic/TUPE-CHURCH1.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TUPE-CHURCH1.ogg')
+	bside = pick('sound/newmusic/TUPE-CHURCH1.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/sombre1/New()
 	..()
 	name = "Sombre Song's A"
-	a_side = pick('sound/newmusic/TUPE-SOMBRE1.ogg')
-	b_side = pick('sound/newmusic/TUPE-SOMBRE1.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TUPE-SOMBRE1.ogg')
+	bside = pick('sound/newmusic/TUPE-SOMBRE1.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/sombre2/New()
 	..()
 	name = "Sombre Song's B"
-	a_side = pick('sound/newmusic/TUPE-SOMBRE2.ogg')
-	b_side = pick('sound/newmusic/TUPE-SOMBRE2.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TUPE-SOMBRE2.ogg')
+	bside = pick('sound/newmusic/TUPE-SOMBRE2.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/western1/New()
 	..()
 	name = "Western Stuff"
-	a_side = pick('sound/newmusic/TUPE-WESTERN1.ogg')
-	b_side = pick('sound/newmusic/TUPE-WESTERN1.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TUPE-WESTERN1.ogg')
+	bside = pick('sound/newmusic/TUPE-WESTERN1.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/clockwork1/New()
 	..()
 	name = "Clockwork"
-	a_side = pick('sound/newmusic/TUPE-CLOCKWORK1.ogg')
-	b_side = pick('sound/newmusic/TUPE-CLOCKWORK1.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TUPE-CLOCKWORK1.ogg')
+	bside = pick('sound/newmusic/TUPE-CLOCKWORK1.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/inn1/New()
 	..()
 	name = "Calm Tavern"
-	a_side = pick('sound/newmusic/Inn_Ambient.ogg')
-	b_side = pick('sound/newmusic/Inn_Ambient.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/Inn_Ambient.ogg')
+	bside = pick('sound/newmusic/Inn_Ambient.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/inn2/New()
 	..()
 	name = "Strange Music"
-	a_side = pick('sound/newmusic/TAPE-INNMED.ogg')
-	b_side = pick('sound/newmusic/TAPE-INNMED.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-INNMED.ogg')
+	bside = pick('sound/newmusic/TAPE-INNMED.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/heresy1/New()
 	..()
 	name = "Heretical Tape"
-	a_side = pick('sound/newmusic/TAPE-forbidden.ogg')
-	b_side = pick('sound/newmusic/TAPE-forbidden.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-forbidden.ogg')
+	bside = pick('sound/newmusic/TAPE-forbidden.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/inn3/New()
 	..()
 	name = "Totally Transcendent"
-	a_side = pick('sound/newmusic/TAPE-INNLOUD.ogg')
-	b_side = pick('sound/newmusic/TAPE-INNLOUD.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-INNLOUD.ogg')
+	bside = pick('sound/newmusic/TAPE-INNLOUD.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/inn4/New()
 	..()
 	name = "Whirling In Rags"
-	a_side = pick('sound/newmusic/TAPE-INNCALM.ogg')
-	b_side = pick('sound/newmusic/TAPE-INNCALM.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-INNCALM.ogg')
+	bside = pick('sound/newmusic/TAPE-INNCALM.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/duel/New()
 	..()
 	name = "Dueling Music"
-	a_side = pick('sound/newmusic/TAPE-DUEL.ogg')
-	b_side = pick('sound/newmusic/TAPE-DUEL.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-DUEL.ogg')
+	bside = pick('sound/newmusic/TAPE-DUEL.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/demon/New()
 	..()
 	name = "Rip & Tear"
-	a_side = pick('sound/newmusic/TAPE-DEMON.ogg')
-	b_side = pick('sound/newmusic/TAPE-DEMON.ogg')
-	sound_inside = a_side
+	aside = pick('sound/newmusic/TAPE-DEMON.ogg')
+	bside = pick('sound/newmusic/TAPE-DEMON.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/bold_brathas/New()
 	..()
 	name = "Boreale & Diomedes - Bold Brathas"
 	desc = "A very rare imperial collector's edition cassette that only had over 100 copies produced due the expensive price of 9999.9 thrones, the song was performed by Apollo Diomedes and Indrick Boreale."
-	a_side = pick('icons/map_project/sounds/bold_brathas.ogg')
-	b_side = pick('icons/map_project/sounds/bold_brathas.ogg')
-	sound_inside = a_side
+	aside = pick('icons/map_project/sounds/bold_brathas.ogg')
+	bside = pick('icons/map_project/sounds/bold_brathas.ogg')
+	sound_inside = aside
 	sales_price = 20 // Very rare and expensive
 
 /obj/item/device/cassette/dow_cmd_theme/New()
 	..()
 	name = "Jeremy Soule - Force Commander Theme"
 	desc = "Where have you heard this before ? It sounds VERY familiar..."
-	a_side = pick('icons/map_project/sounds/dow_commander_theme.ogg')
-	b_side = pick('icons/map_project/sounds/dow_commander_theme.ogg')
-	sound_inside = a_side
+	aside = pick('icons/map_project/sounds/dow_commander_theme.ogg')
+	bside = pick('icons/map_project/sounds/dow_commander_theme.ogg')
+	sound_inside = aside
 	sales_price = 10 // Very rare and expensive
 
 /obj/item/device/cassette/dow_spessmuhreen_theme/New()
 	..()
 	name = "Inon Zur - Space Marines Theme"
 	desc = "Where have you heard this before ? It sounds VERY familiar..."
-	a_side = pick('icons/map_project/sounds/dow_spessmarine.ogg')
-	b_side = pick('icons/map_project/sounds/dow_spessmarine.ogg')
-	sound_inside = a_side
+	aside = pick('icons/map_project/sounds/dow_spessmarine.ogg')
+	bside = pick('icons/map_project/sounds/dow_spessmarine.ogg')
+	sound_inside = aside
 	sales_price = 10 // Very rare and expensive
 
 /obj/item/device/cassette/the_forest_1/New()
     ..()
     name = "Gabe Castro - Cassette 1"
     desc = "Where have you heard this before ? It sounds VERY familiar..."
-    a_side = pick('icons/map_project/sounds/cassette_forest1.ogg')
-    b_side = pick('icons/map_project/sounds/cassette_forest1.ogg')
-    sound_inside = a_side
+    aside = pick('icons/map_project/sounds/cassette_forest1.ogg')
+    bside = pick('icons/map_project/sounds/cassette_forest1.ogg')
+    sound_inside = aside
     sales_price = 10 // Very rare and expensive
 
 /obj/item/device/cassette/the_forest2/New()
     ..()
     name = "Gabe Castro - Cassette 6"
     desc = "Where have you heard this before ? It sounds VERY familiar..."
-    a_side = pick('icons/map_project/sounds/cassette_forest6.ogg')
-    b_side = pick('icons/map_project/sounds/cassette_forest6.ogg')
-    sound_inside = a_side
+    aside = pick('icons/map_project/sounds/cassette_forest6.ogg')
+    bside = pick('icons/map_project/sounds/cassette_forest6.ogg')
+    sound_inside = aside
     sales_price = 10 // Very rare and expensive
 
 /obj/item/device/cassette/starcraft_1/New()
     ..()
     name = "Glenn Stafford - Terran Theme 1"
     desc = "You need to build additional supply depots."
-    a_side = pick('icons/map_project/sounds/starcraft_terran1.ogg')
-    b_side = pick('icons/map_project/sounds/starcraft_terran1.ogg')
-    sound_inside = a_side
+    aside = pick('icons/map_project/sounds/starcraft_terran1.ogg')
+    bside = pick('icons/map_project/sounds/starcraft_terran1.ogg')
+    sound_inside = aside
     sales_price = 10 // Very rare and expensive
 
 /obj/item/device/cassette/astra_militarum/New()
 	..()
 	name = "\"The Officio Prefectus-Approved Morale Boosting Chants\" volume two magn-o-tape"
 	desc = "A second volume of the popular tape."
-	a_side = pick('sound/music/Astra_Militarum_Theme.ogg')
-	b_side = pick('sound/music/Bomber.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Astra_Militarum_Theme.ogg')
+	bside = pick('sound/music/Bomber.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/necron/New()
 	..()
 	name = "Strange Tape"
 	desc = "A strange tape, this seems to have a drawing of a skull with growing green eyes on it. How odd."
-	a_side = pick('sound/music/Cryptek.ogg')
-	b_side = pick('sound/music/Necrons_Theme.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Cryptek.ogg')
+	bside = pick('sound/music/Necrons_Theme.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/commissar/New()
 	..()
 	name = "Damaged Astra Militarum Tape."
 	desc = "A damaged official Astra Militarum tape, this has the word \"COMMISSAR\" scrolled across the front."
-	a_side = pick('sound/music/Commissar.ogg')
-	b_side = pick('sound/music/Guardsman.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Commissar.ogg')
+	bside = pick('sound/music/Guardsman.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/inquisitor/New()
 	..()
 	name = "Inquisitorial Morale Tapes."
 	desc = "An official looking tape with the Inquisitorial Rosette on the front."
-	a_side = pick('sound/music/Inquisitor_Song1.ogg')
-	b_side = pick('sound/music/Inquisitor_Song2.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Inquisitor_Song1.ogg')
+	bside = pick('sound/music/Inquisitor_Song2.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/space_marine/New()
 	..()
 	name = "Adeptus Astartes Audioslates"
 	desc = "An official looking tape with the winged skull and blade of the Adeptus Astartes."
-	a_side = pick('sound/music/Space_Marine_Standing.ogg')
-	b_side = pick('sound/music/Space_Marine_Dynamite.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Space_Marine_Standing.ogg')
+	bside = pick('sound/music/Space_Marine_Dynamite.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/space_marine_alt/New()
 	..()
 	name = "Odd Adeptus Astartes Audioslates"
 	desc = "An official looking tape with the winged skull and blade of the Adeptus Astartes. This one looks different, somehow."
-	a_side = pick('sound/music/Space_Marine_Meme1.ogg')
-	b_side = pick('sound/music/Space_Marine_Meme2.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Space_Marine_Meme1.ogg')
+	bside = pick('sound/music/Space_Marine_Meme2.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/mechanicus_warchant/New()
 	..()
 	name = "Adeptus Mechanicus War-Chants"
 	desc = "An official looking tape with the cog and skull of the Adeptus Mechanicus."
-	a_side = pick('sound/music/Mechanicus_War_Cant.ogg')
-	b_side = pick('sound/music/Mechanicus_Tune.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Mechanicus_War_Cant.ogg')
+	bside = pick('sound/music/Mechanicus_Tune.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/mechanicus_warchant_alt/New()
 	..()
 	name = "Damaged Adeptus Mechanicus War-Chants"
 	desc = "An official looking tape with the cog and skull of the Adeptus Mechanicus. This tape is sparking, and seems damaged."
-	a_side = pick('sound/music/Mechanicus_Meme1.ogg')
-	b_side = pick('sound/music/Mechanicus_Meme2.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Mechanicus_Meme1.ogg')
+	bside = pick('sound/music/Mechanicus_Meme2.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/adepta_sororitas/New()
 	..()
 	name = "Adepta Sororitas Morale Tapes"
 	desc = "An experiment in boosting morale of units with an attached Adeptua Sororitas unit."
-	a_side = pick('sound/music/Sororitas1.ogg')
-	b_side = pick('sound/music/Sororitas2.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Sororitas1.ogg')
+	bside = pick('sound/music/Sororitas2.ogg')
+	sound_inside = aside
 
 /obj/item/device/cassette/astra_militarum_alt/New()
 	..()
 	name = "Astra Militarum Relaxation Tape."
 	desc = "An official tape from the Astra Militarum, intended to promote calm and relaxation among Militarum personnel."
-	a_side = pick('sound/music/Imperial_Guard_Meme1.ogg')
-	b_side = pick('sound/music/Imperial_Guard_Meme2.ogg')
-	sound_inside = a_side
+	aside = pick('sound/music/Imperial_Guard_Meme1.ogg')
+	bside = pick('sound/music/Imperial_Guard_Meme2.ogg')
+	sound_inside = aside
 
 */

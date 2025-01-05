@@ -14,16 +14,16 @@
 	products = list(
 		/obj/item/clothing/glasses/meson = 2,
 		/obj/item/device/multitool = 4,
-		/obj/item/device/geiger = 4,
+		/obj/item/device/geiger = 6,
 		/obj/item/airlock_electronics = 10,
 		/obj/item/intercom_electronics = 10,
 		/obj/item/module/power_control = 10,
 		/obj/item/airalarm_electronics = 10,
-		/obj/item/cell/standard = 10,
-		/obj/item/clamp = 10
+		/obj/item/cell/standard = 6,
+		/obj/item/clamp = 6
 	)
 	rare_products = list(
-		/obj/item/device/uplink_service/fake_crew_announcement = 40,
+		/obj/item/device/uplink_service/fake_crew_announcement = 20,
 		/obj/item/device/uplink_service/fake_rad_storm = 20
 	)
 	contraband = list(

@@ -493,18 +493,27 @@
 	name = "grimy floor"
 	icon = 'icons/turf/flooring/floors.dmi'
 	icon_state = "grimy"
-	initial_flooring = /singleton/flooring/warhammer
+	layer = DECAL_LAYER
+	var/dirty = 15
+	initial_flooring = null
+
+/turf/simulated/floor/warhammer/New()
+	.= ..()
+	if(dirty > 0 && prob(dirty)) // Check if dirt should spawn
+		new /obj/decal/cleanable/dirt(src)
 
 /turf/simulated/floor/warhammer/nf2
 	name = "stone floor"
 	icon = 'icons/turf/flooring/floors.dmi'
 	icon_state = "nf2"
+	dirty = 20
 	initial_flooring = /singleton/flooring/warhammer/nf2
 
 /turf/simulated/floor/warhammer/lfloorscorched1
 	name = "scorched floor"
 	icon = 'icons/turf/flooring/floors.dmi'
 	icon_state = "lfloorscorched1"
+	dirty = 35
 	initial_flooring = /singleton/flooring/warhammer/lfloorscorched1
 
 /turf/simulated/floor/warhammer/basalt
@@ -512,6 +521,7 @@
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "basalt0" // ignore basalt, oldsmoothdirt and necro floors. they should not have any initial_flooring
 	footstep_type = /singleton/footsteps/dirt
+	dirty = 0
 
 /turf/simulated/floor/warhammer/basalt/one
 	icon_state = "basalt1"
@@ -530,66 +540,77 @@
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "necro1"
 	footstep_type = /singleton/footsteps/mud
+	dirty = 0
 
 /turf/simulated/floor/warhammer/necro2
 	name = "infestation"
 	icon = 'icons/map_project/eldritch/Flesh_Ground.dmi'
 	icon_state = "flesh_floor-1"
 	footstep_type = /singleton/footsteps/mud
+	dirty = 0
 
 /turf/simulated/floor/warhammer/necro3
 	name = "infestation"
 	icon = 'icons/map_project/eldritch/Flesh_Ground.dmi'
 	icon_state = "flesh_floor-2"
 	footstep_type = /singleton/footsteps/mud
+	dirty = 0
 
 /turf/simulated/floor/warhammer/necro4
 	name = "infestation"
 	icon = 'icons/map_project/eldritch/Flesh_Ground.dmi'
 	icon_state = "flesh_floor-3"
 	footstep_type = /singleton/footsteps/mud
+	dirty = 0
 
 /turf/simulated/floor/warhammer/oldsmoothdirt
 	name = "dirt floor"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "oldsmoothdirt"
 	footstep_type = /singleton/footsteps/dirt
+	dirty = 100
 
 /turf/simulated/floor/warhammer/tunneldirty
 	name = "tunnel floor"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "tunneldirty"
 	initial_flooring = /singleton/flooring/warhammer/tunneldirty
+	dirty = 50
 
 /turf/simulated/floor/warhammer/tunnelchess
 	name = "tunnel floor"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "tunnelchess"
 	initial_flooring = /singleton/flooring/warhammer/tunnelchess
+	dirty = 100
 
 /turf/simulated/floor/warhammer/carpetn00
 	name = "carpet floor"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "n00"
 	initial_flooring = /singleton/flooring/warhammer/carpetn00
+	dirty = 10
 
 /turf/simulated/floor/warhammer/surgerynew
 	name = "surgery floor"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "surgery2"
 	initial_flooring = /singleton/flooring/warhammer/surgerynew
+	dirty = 30
 
 /turf/simulated/floor/warhammer/brothel
 	name = "brothel floor"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "brothel"
 	initial_flooring = /singleton/flooring/warhammer/brothel
+	dirty = 35
 
 /turf/simulated/floor/warhammer/clockwork
 	name = "alien floor"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "clockwork"
 	initial_flooring = /singleton/flooring/warhammer/clockwork
+	dirty = 35
 
 /turf/simulated/floor/warhammer/aesculapius
 	icon = 'icons/turf/flooring/decals.dmi'
@@ -691,69 +712,80 @@
 /turf/simulated/floor/warhammer/metal/northeast
 	initial_flooring = /singleton/flooring/warhammer/metal/ten
 	icon_state = "metal10"
-
 /turf/simulated/floor/warhammer/concrete
 	name = "concrete floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "concrete"
+	initial_flooring = /singleton/flooring/warhammer/concrete
 
 /turf/simulated/floor/warhammer/mudsteel
 	name = "steel dark floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "steel_dark"
+	initial_flooring = /singleton/flooring/warhammer/mudsteel
 
 /turf/simulated/floor/warhammer/catwalkdark
 	name = "steel floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "steelnew"
+	initial_flooring = /singleton/flooring/warhammer/catwalkdark
 
 /turf/simulated/floor/warhammer/surface_floor
 	name = "surface"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "surface"
+	initial_flooring = /singleton/flooring/warhammer/surface_floor
 
 /turf/simulated/floor/warhammer/factory_floor
 	name = "plated floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "lev"
-
-
+	initial_flooring = /singleton/flooring/warhammer/factory_floor
 
 /turf/simulated/floor/warhammer/bloodbar
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "bloodbar"
+	initial_flooring = /singleton/flooring/warhammer/bloodbar
 
 /turf/simulated/floor/warhammer/bloodbar/off
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "bloodbar2"
+	initial_flooring = /singleton/flooring/warhammer/bloodbar/off
 
 /turf/simulated/floor/warhammer/bar
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "barfull"
+	initial_flooring = /singleton/flooring/warhammer/bar
 
 /turf/simulated/floor/warhammer/bar2
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "bar2"
+	initial_flooring = /singleton/flooring/warhammer/bar2
+
 /turf/simulated/floor/warhammer/bar3
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "bar3"
+	initial_flooring = /singleton/flooring/warhammer/bar3
 
 /turf/simulated/floor/warhammer/cafe
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "cafefull"
+	initial_flooring = /singleton/flooring/warhammer/cafe
+
 /turf/simulated/floor/warhammer/cafe2
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "cafe2"
+	initial_flooring = /singleton/flooring/warhammer/cafe2
 
 /turf/simulated/floor/warhammer/shaft
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "shaft"
+	initial_flooring = /singleton/flooring/warhammer/shaft
+
 /turf/simulated/floor/warhammer/coldroom
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "coldroom"
-
-
-
+	initial_flooring = /singleton/flooring/warhammer/coldroom
 
 // Ceramic Flooring
 
@@ -761,189 +793,227 @@
 	name = "ceramic flooring"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "newstone2"
+	initial_flooring = /singleton/flooring/warhammer/ceramic
 
 /turf/simulated/floor/warhammer/ceramic/surgery
 	name = "grey ceramic flooring"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "surgery"
+	initial_flooring = /singleton/flooring/warhammer/ceramic/surgery
 
 /turf/simulated/floor/warhammer/ceramic/surgery2
 	name = "grey ceramic flooring"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "surgery2"
+	initial_flooring = /singleton/flooring/warhammer/ceramic/surgery2
 
 /turf/simulated/floor/warhammer/ceramic/old
 	name = "ceramic flooring"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "newstone4"
+	initial_flooring = /singleton/flooring/warhammer/ceramic/old
 
 /turf/simulated/floor/warhammer/ceramic/blackstone
 	name = "black ceramic flooring"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "bluestone2"
+	initial_flooring = /singleton/flooring/warhammer/ceramic/blackstone
 
-// Wooden flooring
+// Wooden Flooring
 
 /turf/simulated/floor/warhammer/darkwood
 	name = "wooden floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "dark_wood"
+	dirty = 35
+	initial_flooring = /singleton/flooring/warhammer/darkwood
 
 /turf/simulated/floor/warhammer/darkwood2
 	name = "decrepit wooden floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "troom3"
+	dirty = 100
+	initial_flooring = /singleton/flooring/warhammer/darkwood2
+
 
 
 // Fancy floors (For the Gov or some housing)
-
+// Fancy Flooring
 /turf/simulated/floor/warhammer/fancyfloor
 	name = "fancy floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "metrofull"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor
 
 /turf/simulated/floor/warhammer/fancyfloor/edges
 	name = "fancy floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "metroedges"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/edges
 
 /turf/simulated/floor/warhammer/fancyfloor/marble
 	name = "marble floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "marbletile"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/marble
 
 /turf/simulated/floor/warhammer/fancyfloor/coralg
 	name = "coral granite floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "coralgranite"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/coralg
 
 /turf/simulated/floor/warhammer/fancyfloor/gray_white
 	name = "gray & white flooring"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "graywhite"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/gray_white
 
 /turf/simulated/floor/warhammer/fancyfloor/carpet
 	name = "red carpet"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "carpbet2side"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/carpet
 
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle
 	name = "red carpet"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "carpbet2"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/carpet/middle
 
 /turf/simulated/floor/warhammer/fancyfloor/carpet/grey
 	name = "grey carpet"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "carpet2side"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/carpet/grey
 
 /turf/simulated/floor/warhammer/fancyfloor/carpet/grey/middle
 	name = "grey carpet"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "carpet2"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/carpet/grey/middle
 
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue
 	name = "blue carpet"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "blucarpet2side"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/carpet/blue
 
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue/middle
 	name = "blue carpet"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "carpet3"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/carpet/blue/middle
 
 /turf/simulated/floor/warhammer/fancyfloor/carpet/green
 	name = "green carpet"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "carpbet23side"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/carpet/green
 
 /turf/simulated/floor/warhammer/fancyfloor/carpet/green/middle
 	name = "green carpet"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "carpet0"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/carpet/green/middle
 
 /turf/simulated/floor/warhammer/fancyfloor/oldcobble
 	name = "old cobblestone"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stonefloor4"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/oldcobble
 
 /turf/simulated/floor/warhammer/fancyfloor/ancient_cobble_old
 	name = "dark cobble floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stone_old"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/ancient_cobble_old
 
-//broken varients of wood turf
-
+// Broken Wooden Flooring
 /turf/simulated/floor/warhammer/fancyfloor/brokenfloor0
 	icon = 'icons/turf/flooring/wood.dmi'
 	icon_state = "wood_broken0"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/brokenfloor0
 
 /turf/simulated/floor/warhammer/fancyfloor/brokenfloor1
 	icon = 'icons/turf/flooring/wood.dmi'
 	icon_state = "wood_broken1"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/brokenfloor1
 
 /turf/simulated/floor/warhammer/fancyfloor/brokenfloor2
 	icon = 'icons/turf/flooring/wood.dmi'
 	icon_state = "wood_broken2"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/brokenfloor2
 
 /turf/simulated/floor/warhammer/fancyfloor/brokenfloor3
 	icon = 'icons/turf/flooring/wood.dmi'
 	icon_state = "wood_broken3"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/brokenfloor3
 
 /turf/simulated/floor/warhammer/fancyfloor/brokenfloor4
 	icon = 'icons/turf/flooring/wood.dmi'
 	icon_state = "wood_broken4"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/brokenfloor4
 
 /turf/simulated/floor/warhammer/fancyfloor/brokenfloor5
 	icon = 'icons/turf/flooring/wood.dmi'
 	icon_state = "wood_broken5"
+	initial_flooring = /singleton/flooring/warhammer/fancyfloor/brokenfloor5
 
-// Stone Flooring here
-
+// Stone Flooring
 /turf/simulated/floor/warhammer/stone/crafted_floor
 	name = "stone path"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stonecrafted"
+	initial_flooring = /singleton/flooring/warhammer/stone/crafted_floor
 
 /turf/simulated/floor/warhammer/stone/old
 	name = "old stone floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stonefloor"
+	initial_flooring = /singleton/flooring/warhammer/stone/old
 
 /turf/simulated/floor/warhammer/stone/old2
 	name = "old stone floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stonefloor2"
+	initial_flooring = /singleton/flooring/warhammer/stone/old2
 
 /turf/simulated/floor/warhammer/stone/old3
 	name = "old stone floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stonefloor3"
+	initial_flooring = /singleton/flooring/warhammer/stone/old3
 
 /turf/simulated/floor/warhammer/stone/old4
 	name = "old stone floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stonefloor4"
+	initial_flooring = /singleton/flooring/warhammer/stone/old4
 
 /turf/simulated/floor/warhammer/stone/ancient
 	name = "ancient stone floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stoney"
+	initial_flooring = /singleton/flooring/warhammer/stone/ancient
 
 /turf/simulated/floor/warhammer/stone/ancient2
 	name = "ancient stone floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stone_old"
+	initial_flooring = /singleton/flooring/warhammer/stone/ancient2
 
 /turf/simulated/floor/warhammer/stone/ancient3
 	name = "ancient stone floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "stoning"
+	initial_flooring = /singleton/flooring/warhammer/stone/ancient3
 
 /turf/simulated/floor/warhammer/stone/seabed
 	name = "seabed"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "seabed"
+	initial_flooring = /singleton/flooring/warhammer/stone/seabed
 
 // DECALS PORTED TO FLOORING
 /turf/simulated/floor/warhammer/newsteel
@@ -951,6 +1021,7 @@
 	icon = 'icons/turf/flooring/tiles.dmi'
 	icon_state = "steel"
 	initial_flooring = /singleton/flooring/newsteel
+	dirty = 35
 
 /turf/simulated/floor/warhammer/newsteel/light
 	name = "steel foor"

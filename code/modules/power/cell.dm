@@ -158,14 +158,16 @@
 /obj/item/cell/device/high/laspack
 	name = "laspack"
 	desc = "Standard issue laspack for standard pattern las weapons."
-	icon_state = "hdevice"
+	icon = 'icons/obj/power.dmi'
+	w_class = ITEM_SIZE_NORMAL
+	icon_state = "lgpp_small"
 	maxcharge = 550
 	matter = list(MATERIAL_STEEL = 70, MATERIAL_GLASS = 6)
 
 /obj/item/cell/device/high/laspack/hotshot
 	name = "hotshot laspack"
 	desc = "Standard issue hotshot laspack for more demanding las weapons."
-	icon_state = "hdevice"
+	icon_state = "lgpp"
 	color = COLOR_GUNMETAL
 	maxcharge = 620
 	matter = list(MATERIAL_STEEL = 70, MATERIAL_GLASS = 6)
@@ -173,7 +175,9 @@
 /obj/item/cell/device/high/mechanicus
 	name = "experimental power pack"
 	desc = "A mechanicus power pack with incredible charge capacity."
-	icon_state = "hpcell"
+	icon = 'icons/obj/power.dmi'
+	w_class = ITEM_SIZE_NORMAL
+	icon_state = "lgpp"
 	maxcharge = 680
 	matter = list(MATERIAL_STEEL = 70, MATERIAL_GLASS = 6)
 
@@ -188,6 +192,7 @@
 	name = "melta pack"
 	desc = "A specialized promethium fuel pack for meltaguns."
 	icon = 'icons/obj/ammo.dmi'
+	w_class = ITEM_SIZE_NORMAL
 	icon_state = "melta"
 	maxcharge = 200
 	matter = list(MATERIAL_STEEL = 70, MATERIAL_GLASS = 6)

@@ -42,12 +42,11 @@
 				</body>
 				</html>
 				"}
-
 /obj/item/book/manual/research_and_development
-	name = "Research and Development 101"
+	name = "Mechanicus Research and Development - Techno-Doctrines"
 	icon_state = "rdbook"
-	author = "Dr. L. Ight"
-	title = "Research and Development 101"
+	author = "Magos L. Ight, Tech-Priest of the Omnissiah"
+	title = "Mechanicus Research and Development - Techno-Doctrines"
 
 	dat = {"<html>
 				<head>
@@ -58,63 +57,61 @@
 				li {margin: 2px 0px 2px 15px;}
 				ul {margin: 5px; padding: 0px;}
 				ol {margin: 5px; padding: 0px 15px;}
-				body {font-size: 13px; font-family: Verdana;}
+				body {font-size: 13px; font-family: Verdana, sans-serif;}
 				</style>
 				</head>
 				<body>
 
-				<h1>Science For Dummies</h1>
-				So you want to further SCIENCE? Good man/woman/thing! However, SCIENCE is a complicated process even though it's quite easy. For the most part, it's a three step process:
+				<h1>Omnissiah's Sacred Lore: Research and Development</h1>
+				Welcome, acolyte. You stand before the sacred edifice of SCIENCE, a domain where logic and machine spirit entwine in an eternal dance of progress. Your journey into the mysteries of the universe is led by the Omnissiah’s divine hand, through the sacred process of <i>Deconstruction, Construction, and Iteration</i>.
+
+				<u>01001110010011101111000101001001</u>—it is the will of the Machine Spirit.
+
 				<ol>
-					<li><b>Deconstruct</b> items in the Destructive Analyzer to advance technology or improve the design.</li>
-					<li><b>Build</b> unlocked designs in the Protolathe and Circuit Imprinter.</li>
-					<li><b>Repeat</b>!</li>
+					<li><b>Deconstruct</b> the sacred objects in the Destructive Analyzer to unlock the hidden mysteries of the machine spirit and advance our understanding of technology. <i>11110010101000101011001100010001</i></li>
+					<li><b>Build</b> new creations in the Protolathe and Circuit Imprinter, bending the materials of reality to our will, guided by the binary code of the Omnissiah. <u>00101001011101011101001010100101</u></li>
+					<li><b>Repeat</b> in the eternal cycle of the Machine God's work. <i>01000011010001010101111000110000</i></li>
 				</ol>
 
-				Those are the basic steps to furthering science. What do you do science with, however? Well, you have four major tools: R&D Console, the Destructive Analyzer, the Protolathe, and the Circuit Imprinter.
-
 				<h2>The R&D Console</h2>
-				The R&D console is the cornerstone of any research lab. It is the central system from which the Destructive Analyzer, Protolathe, and Circuit Imprinter (your R&D systems) are controlled. More on those systems in their own sections.
-				On its own, the R&D console acts as a database for all your technological gains and new devices you discover. So long as the R&D console remains intact, you'll retain all that SCIENCE you've discovered. Protect it though,
-				because if it gets damaged, you'll lose your data!
-				In addition to this important purpose, the R&D console has a disk menu that lets you transfer data from the database onto disk or from the disk into the database.
-				It also has a settings menu that lets you re-sync with nearby R&D devices (if they've become disconnected), lock the console from the unworthy,
-				upload the data to all other R&D consoles in the network (all R&D consoles are networked by default), connect/disconnect from the network, and purge all data from the database.<br><br>
+				The R&D console is the cornerstone of any research lab. It is the central system from which the Destructive Analyzer, Protolathe, and Circuit Imprinter (your R&D systems) are controlled. More on those systems in their own sections. <i>00111010110010101001110010111010</i> guides us.
 
-				<b>NOTE:</b> The technology list screen, circuit imprinter, and protolathe menus are accessible by non-scientists. This is intended to allow 'public' systems for the plebians to utilize some new devices.
+				On its own, the R&D console acts as a <b>database</b> for all your technological gains and new devices you discover. So long as the R&D console remains intact, you'll retain all that SCIENCE you've discovered. Protect it though, because if it gets damaged, you'll lose your data! <u>00001110101100101000000011110011</u>—data loss is anathema.
+
+				In addition to this important purpose, the R&D console has a disk menu that lets you transfer data from the database onto disk or from the disk into the database. Proceed with caution, initiate <i>11101011000010101101001110100000</i>, for not all data is sacred.
 
 				<h2>Destructive Analyzer</h2>
-				This is the source of all technology. Whenever you put a handheld object in it, it analyzes it and determines what sort of technological advancements you can discover from it. If the technology of the object is equal or higher then your current knowledge,
-				you can destroy the object to further those sciences.
-				Some devices (notably, some devices made from the protolathe and circuit imprinter) aren't 100% reliable when you first discover them. If these devices break down, you can put them into the Destructive Analyzer and improve their reliability rather than further science.
-				If their reliability is high enough, it'll also advance their related technologies.
+				This is the source of all technology. Whenever you put a handheld object in it, it analyzes it and determines what sort of technological advancements you can discover from it. If the technology of the object is equal or higher than your current knowledge, you can destroy the object to further those sciences. <i>10110100101101010011111001100001</i>—progress demands sacrifice.
+
+				Some devices (notably, some devices made from the protolathe and circuit imprinter) aren't 100% reliable when you first discover them. If these devices break down, you can put them into the Destructive Analyzer and improve their reliability rather than further science. <u>01110010101101001110011000011010</u>
 
 				<h2>Circuit Imprinter</h2>
-				This machine, along with the Protolathe, is used to actually produce new devices. The Circuit Imprinter takes glass and various chemicals (depends on the design) to produce new circuit boards to build new machines or computers. It can even be used to print AI modules.
+				This machine, along with the Protolathe, is used to actually produce new devices. The Circuit Imprinter takes glass and various chemicals (depends on the design) to produce new circuit boards to build new machines or computers. It can even be used to print AI modules. <i>01010111011001010110001110111001</i>
 
 				<h2>Protolathe</h2>
-				This machine is an advanced form of the Autolathe that produce non-circuit designs. Unlike the Autolathe, it can use processed metal, glass, solid phoron, silver, gold, and diamonds along with a variety of chemicals to produce devices.
-				The downside is that, again, not all devices you make are 100% reliable when you first discover them.
+				This machine is an advanced form of the Autolathe that produces non-circuit designs. Unlike the Autolathe, it can use processed metal, glass, solid phoron, silver, gold, and diamonds along with a variety of chemicals to produce devices. <u>11011101010001101110101011011001</u>
+
+				The downside is that, again, not all devices you make are 100% reliable when you first discover them. Reliability improves with time and usage. <i>10101000111010010001101001101101</i>
 
 				<h2>Reliability and You</h2>
-				As it has been stated, many devices, when they're first discovered, do not have a 100% reliability. Instead,
-				the reliability of the device is dependent upon a base reliability value, whatever improvements to the design you've discovered through the Destructive Analyzer,
-				and any advancements you've made with the device's source technologies. To be able to improve the reliability of a device, you have to use the device until it breaks beyond repair. Once that happens, you can analyze it in a Destructive Analyzer.
-				Once the device reaches a certain minimum reliability, you'll gain technological advancements from it.
+				As it has been stated, many devices, when they're first discovered, do not have a 100% reliability. Instead, the reliability of the device is dependent upon a base reliability value, whatever improvements to the design you've discovered through the Destructive Analyzer, and any advancements you've made with the device's source technologies. To be able to improve the reliability of a device, you have to use the device until it breaks beyond repair. <u>01111010001001110001011100001101</u> Once that happens, you can analyze it in a Destructive Analyzer.
+
+				Once the device reaches a certain minimum reliability, you'll gain technological advancements from it. <i>10001001010101011100010101101111</i>
 
 				<h2>Building a Better Machine</h2>
-				Many machines produced from circuit boards inserted into a machine frames require a variety of parts to construct. These are parts like capacitors, batteries, matter bins, and so forth. As your knowledge of science improves, more advanced versions are unlocked.
-				If you use these parts when constructing something, its attributes may be improved.
-				For example, if you use an advanced matter bin when constructing an autolathe (rather than a regular one), it'll hold more materials. Experiment around with stock parts of various qualities to see how they affect the end results! Be warned, however:
-				Tier 3 and higher stock parts don't have 100% reliability and their low reliability may affect the reliability of the end machine.
+				Many machines produced from circuit boards inserted into machine frames require a variety of parts to construct. These are parts like capacitors, batteries, matter bins, and so forth. As your knowledge of science improves, more advanced versions are unlocked. <u>11001010100101001001110110101100</u>
+
+				If you use these parts when constructing something, its attributes may be improved. For example, if you use an advanced matter bin when constructing an autolathe (rather than a regular one), it'll hold more materials. Experiment around with stock parts of various qualities to see how they affect the end results! Be warned, however: Tier 3 and higher stock parts don't have 100% reliability and their low reliability may affect the reliability of the end machine. <i>01001110110011010110100110110111</i>
+
 				</body>
 			</html>
 			"}
 
+
 /obj/item/book/manual/excavation
 	name = "Out on the Dig"
 	icon_state = "excavation"
-	author = "Professor Patrick Mason, Curator of the Antiquities Museum on Ichar VII"
+	author = "Magos Lucius, Curator of the Xenos Laboratorum on Theta Nine"
 	title = "Out on the Dig"
 	dat = {"<html>
 				<head>
@@ -131,103 +128,83 @@
 
 				<h1><a name="Contents">Contents</a></h1>
 				<ol>
-					<li><a href="#Prep">Prepping the expedition</a></li>
-					<li><a href="#Tools">Knowing your tools</a></li>
-					<li><a href="#Find">Finding the dig</a></li>
-					<li><a href="#Analyse">Analysing deposits</a></li>
-					<li><a href="#Excavate">Extracting your first find</a></li>
+					<li><a href="#Prep">Preparing the Expedition</a></li>
+					<li><a href="#Tools">The Tools of the Trade</a></li>
+					<li><a href="#Find">Identifying the Dig Site</a></li>
+					<li><a href="#Analyse">Analyzing the Finds</a></li>
+					<li><a href="#Excavate">Extracting the Relics</a></li>
 				</ol>
 				<br>
 
-				<h1><a name="Prep">Prepping the expedition</a></h1>
-				Every digsite I've been to, someone has forgotten something and I've never yet been to a dig that hasn't had me hiking to get to it - so gather your gear
-				and get it to the site the first time. You learn quick that time is money, when you've got a shipful of bandits searching for you the next valley over,
-				but don't be afraid to clear some space if there are any inconvenient boulders in the way.<br>
+				<h1><a name="Prep">Preparing the Expedition</a></h1>
+				The first lesson of any expedition is to prepare well, for the unforgiving wilds will not wait for you. Every dig site holds its dangers, from hostile fauna to the ravages of time, and time is your greatest adversary. Always bring what you need... and don’t forget the mules.<br>
 				<ul>
-					<li>Floodlights (if it's dark)</li>
-					<li>Wooden trestle tables (for holding tools and finds)</li>
-					<li>Suspension field generator</li>
-					<li>Load bearing servitors (such as a mulebot, or hover-tray)</li>
-					<li>Spare energy packs</li>
+					<li>Floodlights (for the darkened places of the earth)</li>
+					<li>Wooden trestle tables (for your tools and discoveries)</li>
+					<li>Suspension field generators (for floating the heavy burdens)</li>
+					<li>Load-bearing servitors (mulebots, hover-trays, the workhorses of our age)</li>
+					<li>Spare energy packs (you can never have too many)</li>
 				</ul><br>
 				<a href="#Contents">Contents</a>
 
-				<h1><a name="Tools">Knowing your tools</a></h1>
-				Every archaeologist has a plethora of tools at their disposal, but here's the important ones:<br>
+				<h1><a name="Tools">The Tools of the Trade</a></h1>
+				No Bondsman worth their salt would dare undertake a dig without proper tools. Each is vital to the task at hand. Here are the essentials:<br>
 				<ul>
-					<li><b>Picks, pickaxes, and brushes</b> - don't underestimate the the smallest or largest in your arsenal, each one clears a different amount
-						of the rockface so each one has a use.</li>
-					<li><b>Measuring tape</b> - don't leave home without it, you can use it to measure the depth a rock face has been excavated to.</li>
-					<li><b>GPS locator</b> - knowing where you are is the first step to not be lost.</li>
-					<li><b>Core sampler</b> - use this to take core samples from rock faces, which you can then run to the lab for analysis.</li>
-					<li><b>Depth scanner</b> - uses X-ray diffraction to locate anomalous densities in rock, indicating archaeological deposits or mineral veins.
-						Comes with a handy reference log containing coordinates and time of each scan.</li>
-					<li><b>Alden-Saraspova counter</b> - uses a patented application of Fourier Transform analysis to determine the difference between background and
-						exotic radiation. Use it to determine how far you are from anomalous energy sources.</li>
-					<li><b>Radio beacon locator</b> - leave a beacon at an item of interest, then track it down later with this handy gadget. Watch for interference from other
-						devices though.</li>
-					<li><b>Flashlight or portable light source</b> - Self explanatory, I hope.</li>
-					<li><b>Environmental safety gear</b> - This one's dependent on the environment you're working in, but enclosed footwear and a pack of internals
-						could save your life.</li>
-					<li><b>Anomaly safety gear</b> - A biosealed and catalysis-resistant suit along with eye shielding, tinted hood, and non-reactive disposable gloves are
-					the best kind of protection you can hope for from the errors our forebears may have unleashed.</li>
-					<li><b>Personal defence weapon</b> - Never know what you'll find on the dig: pirates, natives, ancient guardians, carnivorous wildlife...
-						it pays in blood to be prepared.</li>
+					<li><b>Picks, pickaxes, and brushes</b> - The tools of our work. Each stroke must be precise, no matter how small or large the task.</li>
+					<li><b>Measuring tape</b> - A must. To know how deep you’ve gone is to know how far you’ve yet to go.</li>
+					<li><b>GPS locator</b> - In the vast expanse of forgotten worlds, never lose your bearings.</li>
+					<li><b>Core sampler</b> - To extract the secrets buried within the rock.</li>
+					<li><b>Depth scanner</b> - The x-ray tool that uncovers hidden veins of riches... or dangers.</li>
+					<li><b>Alden-Saraspova counter</b> - A fine piece of technology that detects anomalies in radiation.</li>
+					<li><b>Radio beacon locator</b> - Set a beacon, mark the spot, and return when the time is right.</li>
+					<li><b>Portable light source</b> - For when the darkness is too deep.</li>
+					<li><b>Environmental safety gear</b> - Whatever the environment may be, prepare for it.</li>
+					<li><b>Anomaly safety gear</b> - This is for those relics that still carry the scars of a forgotten age.</li>
+					<li><b>Personal defence weapon</b> - Always be ready for what the unknown may bring. Be it beasts or men.</li>
 				</ul><br>
 				<a href="#Contents">Contents</a>
 
-				<h1><a name="Find">Finding the dig</a></h1>
-				Wouldn't be an archaeologist without their dig, but everyone has to start somewhere. Here's a basic procedure I go through when cataloguing a new planet:<br>
+				<h1><a name="Find">Identifying the Dig Site</a></h1>
+				Every expedition begins with finding the right place. You must understand the world you’re digging into. Start with the locals—geologists, farmers, and miners often know the land better than any of us.<br>
 				<ul>
-					<li><b>Get in touch with the locals</b> (in particular geologists, miners, and farmers) - Never know what's been turned up by accident, then left to
-						gather dust on a shelf.</li>
-					<li><b>Check the obvious areas first</b> - even if you're pressed for time, these ones are the generally easiest to search, and the most likely targets
-						of your rivals.</li>
-					<li><b>Do some prospecting</b> - the earth mother isn't in the habit of displaying her secrets to the world (although sometimes you get lucky).
-						Drop a shaft and clear away a bit of surface rock here and there, you never know what might be lurking below the surface.</li>
-					<li><b>Tips on unearthing a deposit</b> - How do you know when you're golden? Look for telltale white strata that looks strange or out of place, or if
-						something has broken under your pick while you're digging. Your depth scanner is your best friend, but even it can't distinguish between
-						ordinary minerals and ancient leavings, if in doubt then err on the side of caution.</li>
+					<li><b>Speak to the locals</b> - Their knowledge of the land can be invaluable. The planet’s secrets may already have been uncovered by accident.</li>
+					<li><b>Search the obvious first</b> - There’s no shame in starting with the easiest places; the competition certainly will.</li>
+					<li><b>Prospect the unknown</b> - Sometimes, the true treasures are hidden deep, where the surface gives no hint.</li>
+					<li><b>Signs of hidden deposits</b> - Strange strata, disturbed rock, and the depth scanner are your friends. But beware: not every anomaly is a prize.</li>
 				</ul><br>
 				<a href="#Contents">Contents</a>
 
-				<h1><a name="Analyse">Analysing the contents of a dig</a></h1>
-				You've found some unusual strata, but it's not all peaches from here. No archaeologist ever managed to pull a bone from the earth without doing thorough
-				chemical analysis on every two meters of rock face nearby.<br>
+				<h1><a name="Analyse">Analyzing the Finds</a></h1>
+				Once you’ve unearthed something worthy, the real work begins. The careful study of every stone and fragment will reveal whether you have found the fabled relics of an ancient civilization—or just another rock.<br>
 				<ul>
-					<li><b>Take core samples</b> - Grab a rock core for every 4m^2.</li>
-					<li><b>Clear around any potential finds</b> - Clear away ordinary rock, leaving your prizes reachable in a clearly marked area.</li>
-					<li><b>Haul off excess rock</b> - It's easy for a dig to get cluttered, and a neat archaeologist is a successful archaeologist.</li>
-					<li><b>Don't be afraid to be cautious</b> - It's slower sometimes, but the extra time will be worth the payoff when you find an Exolitic relic.</li>
-					<li><b>Chemical analysis</b> - I won't go into detail here, but the labwork is essential to any successful extraction. Marshal your core samples, and
-						send them off to the labcoated geniuses.</li>
+					<li><b>Core sampling</b> - Always take samples for lab analysis, every 4m^2.</li>
+					<li><b>Clear the area</b> - Keep your site clear of non-essential rubble. A cluttered dig is a lost one.</li>
+					<li><b>Haul excess rock</b> - Keep only what’s necessary. A successful Bondsman is an organized one.</li>
+					<li><b>Patience and caution</b> - Don’t rush. Take your time and study each discovery, for the smallest detail may change everything.</li>
+					<li><b>Chemical analysis</b> - Send your samples to the experts. It’s their work that makes your discovery worthwhile.</li>
 				</ul><br>
 				<a href="#Contents">Contents</a>
 
-				<h1><a name="Excavate">Extracting your first find</a></h1>
+				<h1><a name="Excavate">Extracting the Relics</a></h1>
+				The final phase of any dig: the extraction. This is where mistakes can ruin everything. The proper precautions must be taken.<br>
 				<ul>
-					<li><b>Scan the rock</b> - Use a depth scanner to determine the find's depth and clearance. DON'T FORGET THESE.</li>
-					<li><b>Choose stasis field</b> - Chemical analysis on a core sample from the rock face will tell you which field is necessary to extract the find safely.</li>
-					<li><b>Setup field gen</b> - Bolt it down, choose the field, check the charge, and activate it. If you forget it, you'll wish you hadn't when that priceless
-						Uryom vase crumbles as it sees the light of day.</li>
-					<li><b>FUNCTIONAL AND SAFE digging</b> - Dig into the rock until you've cleared away a depth equal to (the anomaly depth MINUS the clearance range). The find
-						should come loose on it's own, but it will be in the midst of a chunk of rock. Use a welder or miniature excavation tool to clear away the excess.</li>
-					<li><b>FANCY AND SPEEDY digging</b> - Dig into the rock until you've cleared away a depth equal to the anomaly depth, but without any of your strokes
-						entering the clearance range.</li>
-					<li><b>The big find</b> - Sometimes, you'll chance upon something big, both literally and figuratively. Giant statues and functioning remnants of Precursor
-						technology are just as exciting, to the right buyers. If your digging leaves a large boulder behind, dig into it normally and see if anything's hidden
-							inside.</li>
+					<li><b>Scan the rock</b> - Always know the depth before you dig. You must know where your target lies.</li>
+					<li><b>Choose the proper stasis field</b> - Depending on the relic’s age, select the correct stasis field to avoid damage.</li>
+					<li><b>Setup the generator</b> - Bolt it into place, ensure the charge is sufficient, and activate it. Do not fail to do this.</li>
+					<li><b>Safe excavation</b> - Careful digging ensures the relic remains intact. Precision is key.</li>
+					<li><b>Expedited digging</b> - Speed can be necessary, but never at the cost of caution. Digging too fast can result in ruin.</li>
+					<li><b>The big find</b> - Sometimes, your efforts uncover something massive. Be it a statue or a functioning artifact, always be ready for the unexpected.</li>
 				</ul><br>
 				<a href="#Contents">Contents</a>
 
 				</body>
-				</html>
+				</html>"
+			}
 			"}
-
 /obj/item/book/manual/mass_spectrometry
 	name = "High Power Mass Spectrometry: A Comprehensive Guide"
 	icon_state = "analysis"
-	author = "Winton Rice, Chief Mass Spectrometry Technician at the Institute of Applied Sciences on Arcadia"
+	author = "Winton Rice, Magos at the Institute of Applied Sciences on Terra"
 	title = "High powered mass spectrometry, a comprehensive guide"
 	dat = {"<html>
 				<head>
@@ -253,41 +230,30 @@
 				<br>
 				<h1><a name="Terms">A note on terms</a></h1>
 				<ul>
-					<li><b>Mass spectrometry</b> - MS is the procedure used used to measure and quantify the components of matter. The most prized tool in the field of
-						'Materials analysis.'</li>
-					<li><b>Radiometric dating</b> - MS applied using the right carrier reagents can be used to accurately determine the age of a sample.</li>
-					<li><b>Dissonance ratio</b> - This is a pseudoarbitrary value indicating the overall presence of a particular element in a greater composite.
-						It takes into account volume, density, molecular excitation and isotope spread.</li>
-					<li><b>Vacuum seal integrity</b> - A reference to how close an airtight seal is to failure.</li>
+					<li><b>Mass spectrometry</b> - MS is the revered procedure employed by the Adeptus Mechanicus to analyze and quantify the composition of materials. It is considered the finest tool within the domain of 'Xenotech analysis,' wielded only by the most devoted of tech-priests.</li>
+					<li><b>Radiometric dating</b> - MS, when wielded by skilled magos, can determine the age of ancient relics, even those from the long-lost age of the Old Ones, by utilizing specific alchemically prepared carrier reagents.</li>
+					<li><b>Dissonance ratio</b> - A sacred, though often cryptic, value signifying the presence of an element within a greater composite. It takes into account volume, density, molecular excitation, and isotopic spread, giving the tech-priest insight into the material's potential utility in the creation of more complex devices.</li>
+					<li><b>Vacuum seal integrity</b> - A reference to the stability of the hermetically sealed environment, crucial for maintaining sterile conditions during analysis. The failure of a seal can lead to the contamination of precious specimens or worse, the destruction of sensitive data.</li>
 				</ul><br>
 				<a href="#Contents">Contents</a>
 
 				<h1><a name="Analysis">Analysis progression</a></h1>
-				Modern mass spectrometry requires constant attention from the diligent researcher in order to be successful. There are many different elements to juggle,
-					and later chapters will delve into them. For the spectrometry assistant, the first thing you need to know is that the scanner wavelength is automatically
-					calculated for you. Just tweak the settings and try to match it with the actual wavelength as closely as possible.<br>
+				Modern mass spectrometry demands ceaseless vigilance from the magos and their servitors to be successful. A multitude of complex variables must be carefully monitored, with the most experienced of tech-priests able to discern patterns within the chaos of elemental interaction. The first lesson for any spectrometry assistant is that the scanner's wavelength is automatically calibrated by the Omnissiah's sacred machine-spirits. With only minor adjustments required, one must ensure that the scanner's wavelength is as close as possible to the desired output.<br>
 				<br>
 				<a href="#Contents">Contents</a>
 
 				<h1><a name="Seal">Seal integrity</a></h1>
-				In order to maintain sterile and environmentally static procedures, a special chamber is set up inside the spectrometer. It's protected by a proprietary vacuum seal
-					produced by top tier industrial science. It will only last for a certain number of scans before failing outright, but it can be resealed through use of nanite paste.
-					Unfortunately, it's susceptible to malforming under heat stress so exposing it to higher temperatures will cause it's operation life to drop significantly.<br>
+				To maintain the sanctity of sterile and controlled environments, a specialized chamber is employed within the spectrometer. This chamber is guarded by a proprietary vacuum seal forged by the finest artisans of the Adeptus Mechanicus. The seal endures a set number of scans before its integrity falters, but it can be reforged through the application of sacred nanite paste. However, the seal is susceptible to distortion when subjected to extreme heat, and its operational life rapidly deteriorates when exposed to the blistering temperatures of a forge-world's forges.<br>
 				<br>
 				<a href="#Contents">Contents</a>
 
 				<h1><a name="Heat">Heat management</a></h1>
-				The scanner relies on a gyro-rotational system that varies in speed and intensity. Over the course of an ordinary scan, the RPMs can change dramatically. Higher RPMs
-					means greater heat generation, but is necessary for the ongoing continuation of the scan. To offset heat production, spectrometers have an inbuilt cooling system.
-					Researchers can modify the flow rate of coolant to aid in dropping temperature as necessary, but are advised that frequent coolant replacements may be necessary
-					depending on coolant purity. Water and substances such as cryoxadone are viable substitutes, but nowhere near as effective as pure coolant itself.<br>
+				The spectrometer is powered by a gyro-rotational system, its speed and intensity fluctuating throughout each scan. As the RPMs rise, so does the heat produced, a necessary consequence of the machine's operation. To counter this, the spectrometer is equipped with a cooling system, the flow rate of coolant adjustable by the tech-priest in attendance. However, frequent coolant replacements are required, as even the purest of coolants degrade over time. Though substances such as cryoxadone or water are used, they are not as effective as the purer coolant utilized by the Machine Cult.<br>
 				<br>
 				<a href="#Contents">Contents</a>
 
 				<h1><a name="Radiation">Ambient radiation</a></h1>
-				Researchers are warned that while operational, mass spectrometers emit period bursts of radiation and are thus advised to wear protective gear. In the event of
-					radiation spikes, there is also a special shield that can be lowered to block emissions. Lowering this, however, will have the effect of blocking the scanner
-					so use it sparingly.<br>
+				The mass spectrometer emits periodic bursts of radiation during operation, a fact well-known to the tech-priests of the Adeptus Mechanicus. All personnel working in proximity must don protective war-plate and shielding to prevent injury. In moments of heightened radiation flux, a protective shield can be deployed to block emissions, though this will simultaneously block the spectrometer’s scanning function. The tech-priest must carefully weigh the necessity of shielding against the needs of the analysis, for every scan counts.<br>
 				<br>
 				<a href="#Contents">Contents</a>
 
@@ -298,7 +264,7 @@
 /obj/item/book/manual/anomaly_spectroscopy
 	name = "Spectroscopy: Analysing the Anomalies of the Cosmos"
 	icon_state = "anomaly"
-	author = "Doctor Martin Boyle, Director Research at the Lower Hydrolian Sector Listening Array"
+	author = "Dr Martin Boyle, Chief Medicae at the Lower Hydrolian Sector Listening Array"
 	title = "Spectroscopy: Analysing the Anomalies of the Cosmos"
 	dat = {"<html>
 				<head>
@@ -313,17 +279,15 @@
 				</head>
 				<body>
 				<br>
-				It's perhaps one of the most exciting times to be alive, with the recent breakthroughs in understanding and categorisation of things we may one day no longer call
-				'anomalies,' but rather 'infrequent or rare occurrences of certain celestial weather or phenomena.' Perhaps a little more long winded, but no less eloquent all the
-				same! Why, look at the strides we're making in piercing the walls of bluespace or our steadily improving ability to clarify and stabilise subspace emissions; it's
-				certainly an exciting time to be alive. For the moment, the Hydrolian hasn't seen two spatial anomalies alike but the day will come and it is soon, I can feel it.
+				It is perhaps one of the most thrilling epochs to exist, with the recent breakthroughs in understanding and cataloging the anomalies we once called 'impossible,' but may one day refer to simply as 'infrequent or rare manifestations of celestial weather or warp phenomena.' It may be a touch more verbose, but no less fitting in its grandeur. Just look at the progress we’ve made in breaching the walls of the Immaterium, or our steadily advancing mastery over stabilizing and clarifying subspace emissions; truly, it is a time of unprecedented discovery. For now, the Adeptus Hydrolian has yet to witness two spatial anomalies that are the same, but that day will come, and I can feel it — it approaches swiftly.<br>
 				</body>
-			</html>"}
+			</html>
+			"}
 
 /obj/item/book/manual/materials_chemistry_analysis
 	name = "Materials Analysis and the Chemical Implications"
 	icon_state = "chemistry"
-	author = "Jasper Pascal, Senior Lecturer in Materials Analysis at the Progenium of Jol'Nar"
+	author = "Jasper Pascal, Senior Medicae in Materials Analysis at the Progenium of Krieg"
 	title = "Materials Analysis and the Chemical Implications"
 	dat = {"<html>
 				<head>
@@ -338,13 +302,9 @@
 				</head>
 				<body>
 				<br>
-				In today's high tech research fields, leaps and bounds are being made every day. Whether it's great strides forward in our understanding of the physical universe
-				or the operation of some fancy new piece of equipment, it seems like all the cool fields are producing new toys to play with, leaving doddery old fields such as
-				materials analysis and chemistry relegated to the previous few centuries, when we were still learning the makeup and structure of the elements.<br>
+				In today's cutting-edge research sectors of the Imperium, immense progress is made with each passing day. Whether it is the grand strides forward in our understanding of the physical universe, or the operation of some newly developed piece of Xenos technology, it seems as though the most esteemed fields of study are continually unveiling new tools of war and industry, while venerable pursuits such as materials analysis and alchemical chemistry have been pushed aside, relegated to ancient times when we were still unraveling the mysteries of the elements and forging basic alloys.<br>
 				<br>
-				Well, when you're out there building the next gryo-whatsitron or isotope mobility thingummy, remember how the field of archaeology experienced a massive new rebirth
-				following the excavations at Paranol IV and consider how all of the scientific greats will come crawling back to basic paradigms of natural philosophy when they discover
-				a new element that defies classification. I defy you to classify it without reviving this once great field!
+				But when you're out there constructing the next gyro-whatsitron or isotope mobility contraption, remember the resurgence of the once-dismissed field of archaeology following the excavation of the Paranol IV ruins. Consider how all the scholars of the Imperium will one day return to the foundational doctrines of natural philosophy when they inevitably uncover a new element, or a warp anomaly, that defies any classification. I defy you to catalogue it without invoking the knowledge of these lost arts, long abandoned in the pursuit of glory and power!
 			"}
 
 /obj/item/book/manual/anomaly_testing
@@ -373,52 +333,31 @@
 				</ol>
 				<br>
 				<h1><a name="Anomalies">Modern attitude towards anomalies</a></h1>
-				It's only when confronted with things we don't know, that we may push back our knowledge of the world around us. Nowhere is this more obvious than the
-				vast and inscrutable mysterious of the cosmos that scholars from such august institutions as the Elysian Institute of the Sciences present
-				formulas and hypotheses for every few decades.<br>
+				It is only when confronted with things beyond our understanding that we can push the boundaries of our knowledge of the universe. Nowhere is this more apparent than in the vast, inscrutable mysteries of the cosmos, where scholars from such esteemed institutions as the Elysian Institute of the Sciences present their theories and hypotheses every few decades.<br>
 				<br>
-				Using our vast, telescopic array installations and deep space satellite networks, we are able to detect anomalous energy fields and formations in deep space,
-				but are limited to those that are large enough to output energy that will stretch across light years worth of distance between stars.<br>
+				Using our vast arrays of auspex arrays, long-range sensor networks, and deep-space relays, the Imperium is able to detect anomalous energy fields and formations in the void. However, we are limited to detecting only those large enough to generate energy emissions that can stretch across the vast distances between the stars.<br>
 				<br>
-				While some sectors (such as the Hydrolian Rift and Keppel's Run) are replete with inexplicable energetic activity and unique phenomena found nowhere else in
-				the galaxy, the majority of space is dry, barren and cold - and if past experience has told us anything, it is that there are always more things we are
-				unable to explain.<br>
+				While some regions of the galaxy (such as the Hydrolian Rift and Keppel's Run) are teeming with inexplicable energetic activity and unique phenomena found nowhere else in the galaxy, the majority of the void remains barren, cold, and devoid of life – and, if history has taught us anything, it is that there are always more things beyond our comprehension.<br>
 				<br>
-				Indeed, a great source of knowledge and technology has always been those who come before us, in the form of the multitudinous ancient alien precursors that
-				have left scattered remnants of their great past all over settled (and unexplored) space.<br>
+				Indeed, a great source of knowledge and technological advancement has always been the remnants of ancient alien races, the xenos precursors who left scattered ruins of their once-great empires across the galaxy.<br>
 				<br>
-				It is from xenoarchaeologists, high energy materials researchers, and technology reconstruction authorities that we are able to theorise on the gifts these
-				species have left behind, and in some cases even reverse engineer or rebuild the technology in question. My colleague, Doctor Raymond Ward of the
-				Tyrolian Institute on Titan, has made great breakthroughs in a related field through his pioneering development of universally reflective materials capable
-				of harvesting and 'bottling' up virtually any energy emissions yet encountered by spacefaring civilisations.<br>
+				It is from xenoarchaeologists, high-energy materials researchers, and the Adeptus Mechanicus that we are able to theorize about the gifts these species left behind, and in some cases, even reverse-engineer or rebuild their technologies. My colleague, Magos Raymond Ward of the Tyrolian Forge World, has made significant breakthroughs in a related field through his pioneering development of universal energy-conductive materials capable of harnessing and 'bottling' up almost any energy emission encountered by humanity or xenos alike.<br>
 				<br>
-				And yet, there are some amongst us who do not see the benefits of those who have come before us - indeed, some among them profess the opinion that there
-				is no species that could possibly match humanity in it's achievements and knowledge, or simply that employing non-human technology is dangerous and unethical.
-				Folly, say I. If it is their desire to throw onto the wayside the greatest achievements <i>in the history of the galaxy</i>, simply for preferment of the
-				greatest achievements <i>in the history of mankind</i>, then they have no business in the establishment of science.<br>
+				And yet, there are some among the Imperium who do not see the benefits of those who have come before us. Some even go so far as to claim that no species could possibly surpass humanity in its achievements and knowledge, or that using xenos technology is dangerous and heretical. Foolishness, I say. If it is their desire to discard the greatest achievements in the history of the galaxy, simply to elevate mankind's own accomplishments, then they have no place in the pursuit of true science.<br>
 				<a href="#Contents">Contents</a>
 
 				<h1><a name="Tri">Triangulating anomalous energy readings</a></h1>
-				Strong energy emissions, when remaining constant from any one fixed location for millennia, can leave an 'imprint' or distinctive energy signature on other
-				matter composites that are spatially fixed relative to the source.<br>
+				Strong energy emissions, when consistent from a single source over millennia, can leave an 'imprint' or distinctive energy signature on nearby matter composites, spatially fixed relative to the origin.<br>
 				<br>
-				By taking samples of such 'fixed' matter, we can apply complex analytics such as the modified Fourier Transform Procedure to reverse engineer the path of the
-				energy, and determine the approximate distance and direction that the energy source is, relative to the sample's point in space. Modern portable devices can do
-				all this purely by taking readings of local radiation.<br>
+				By taking samples of such 'fixed' matter, we can apply complex methods such as the modified Fourier Transform Procedure to reverse-engineer the path of the energy and determine the approximate distance and direction of the source relative to the sample's position in space. Modern portable devices now allow us to perform this analysis by taking readings of local radiation.<br>
 				<br>
-				A canny researcher can thusly analyse radiation at pre-chosen points strategically scattered around an area, and if there are any anomalous energy
-				emissions in range of those points, combined the researcher can triangulate the source.<br>
+				A canny researcher can, thus, analyze radiation at pre-designated points scattered across an area. If any anomalous energy emissions lie within range, combining these readings will allow the researcher to triangulate the source of the anomaly.<br>
 				<a href="#Contents">Contents</a>
 
-				<h1><a name="Synthetic">Harvesting and utilising anomalous energy signatures</a></h1>
-				As mentioned in the foreword, my colleague from the Tyrolian Institute on Saturn's moon of Titan, in the Sol System, Doctor Raymond Ward has made great strides
-				in the area of harvesting and application of the energy emitted by anomalous phenomena from around the galaxy (although I profess I have not yet seen him
-				venture further from his birthplace on Terra than the comfortable distance of the Sol Cis-Oort Satellite Sphere).<br>
+				<h1><a name="Synthetic">Harvesting and utilizing anomalous energy signatures</a></h1>
+				As mentioned in the foreword, my colleague from the Tyrolian Forge World on Saturn's moon of Titan, in the Sol System, Magos Raymond Ward has made significant progress in the area of harvesting and applying the energy emitted by anomalous phenomena across the galaxy (though I admit I have yet to see him venture further from his birthplace on Terra than the Sol Cis-Oort Satellite Sphere).<br>
 				<br>
-				By employing a patented semi-phased alloy with unique and fascinating bluespace interaction properties, Ward's contraption is able to 'harvest' energy, store
-				it and redirect it later at will (with appropriate electronic mechanisms, of course). Although he professes to see or desire no commercial or material gain
-				for the application and use of said energy once it is harvested, there are no doubt myriad ways we can come to benefit from such things beyond mere research,
-				such as the reconstruction of torn cartilaginous tissue that a peculiar radiation from an amphibious species on Brachis IV was found to emit.<br>
+				By employing a patented semi-phased alloy with unique bluespace interaction properties, Ward's device is capable of 'harvesting' energy, storing it, and then redirecting it at will (with the appropriate electronic mechanisms, of course). While he claims no desire for material gain in utilizing said energy, there are no doubt numerous applications that could benefit humanity, including the reconstruction of biological tissue damaged by the peculiar radiation emitted by an amphibious xenos species found on Brachis IV.<br>
 				<a href="#Contents">Contents</a>
 
 				</body>
@@ -433,16 +372,6 @@
 	dat = {"<html>
 				<head>
 				<style>
-				h1 {font-size: 18px; margin: 15px 0px 5px;}
-				h2 {font-size: 15px; margin: 15px 0px 5px;}
-				li {margin: 2px 0px 2px 15px;}
-				ul {margin: 5px; padding: 0px;}
-				ol {margin: 5px; padding: 0px 15px;}
-				body {font-size: 13px; font-family: Verdana;}
-				</style>
-				</head>
-				<body>
-
 				<h1><a name="Contents">Contents</a></h1>
 				<ol>
 					<li><a href="#Foreword">Foreword: A replacement for cryosleep?</a></li>
@@ -459,30 +388,31 @@
 				<a href="#Contents">Contents</a>
 
 				<h1><a name="Development">The breakthrough</a></h1>
-				It was in examining the effects of decelerated, bluespace, high energy particles when transphased through bluespace that the effects where primarily noticed.
-				Due to exigent properties of that dimension, transphasing those particles capable of existing in bluespace with high stability levels has the effect of bringing
-				some of those effects into realspace. Examining the Hoffman emissions in particular, it was discovered that they exhibited a-entropic behaviour, and in what is
-				now termed the 'Effete Hoffman Principle,' it was found that metastabilising the Hoffman radiation resulted in the effect being applied across other physical
+				It was in examining the effects of decelerated, warp-based, high energy particles when transphased through the immaterium that the effects were primarily noticed.
+				Due to the volatile properties of that dimension, transphasing those particles capable of existing within the warp with high stability levels has the effect of bringing
+				some of those anomalies into realspace. Examining the Astartes' psychic emissions in particular, it was discovered that they exhibited a-entropy behaviour, and in what is
+				now termed the 'Effete Astartes Principle,' it was found that metastabilising these warp signatures resulted in the effect being applied across other physical
 				interactions, in particular forces and reactions.<br>
 				<a href="#Contents">Contents</a>
 
 				<h1><a name="Application">Applying this new principle</a></h1>
-				When combined with an appropriate energy-effect replicate for cryogenics (slowing down biological activity, thus stabilising the organics), the effect is
+				When combined with an appropriate energy-effect replicate for stasis technology (slowing down biological activity, thus stabilising the organics), the effect is
 				effectively identical to cryogenics, and while it consumes vastly more power and requires extremely complex equipment, it's (for all intents and purposes) superior
 				to cryogenics, all that remains is to 'commercialise' the process by enabling cheaper development and mass production.<br>
-				The Effete Hoffman Principle can be tweak-combined with other effects however, for different purposes. A division of PMC Research initially developed the application
-				in prisons as a literal 'suspension field' where convicts are held immobile in the air, and the use quickly spread to numerous other areas.<br>
+				The Effete Astartes Principle can be tweak-combined with other effects however, for different purposes. A division of Rogue Trader research initially developed the application
+				in prisons as a literal 'suspension field' where convicts are held immobile in stasis, and the use quickly spread to numerous other areas.<br>
 				<br>
-				By examining the material resonance properties of certain strong waveforms when combined with Hoffman radiation, an effect was produced able to reverse energy
+				By examining the material resonance properties of certain strong waveforms when combined with warp signatures, an effect was produced able to reverse energy
 				transferral through matter, and to slow the effects of gravity. When combined with energy repulse technology, the triple effects compound themselves into a much
 				stronger field, although all three components do slightly different things. High energy researchers assure me of the following key points:<br>
 				<ul>
 					<li>The energy repulsion factor provides a 'shell' capable of weak suspension.</li>
-					<li>The Hoffman emissions nullify energy transferral and other kinetic activity, maintaining stability inside the field.</li>
-					<li>The resonant waveform combines the effects of the above two points, and applies it magnified onto it's synced 'resonance' materials.</li>
+					<li>The warp emissions nullify energy transferral and other kinetic activity, maintaining stability inside the field.</li>
+					<li>The resonant waveform combines the effects of the above two points, and applies it magnified onto its synced 'resonance' materials.</li>
 				</ul>
-				As an interesting aside, a carbon waveform was chosen for the field in prison suspension fields, due to it's resonance with organic matter.<br>
+				As an interesting aside, a carbon waveform was chosen for the field in prison suspension fields, due to its resonance with organic matter.<br>
 				<a href="#Contents">Contents</a>
+
 
 				</body>
 				</html>

@@ -6,10 +6,10 @@
 	url = "Engineering"
 
 /obj/item/book/manual/robotics_cyborgs
-	name = "Cyborgs for Dummies"
+	name = "Servitors for Dummies"
 	icon_state = "borgbook"
 	author = "XISC"
-	title = "Cyborgs for Dummies"
+	title = "Servitors for Dummies"
 
 	dat = {"<html>
 				<head>
@@ -25,38 +25,38 @@
 				</head>
 				<body>
 
-				<h1>Cyborgs for Dummies</h1>
+				<h1>Servitors for Dummies</h1>
 
 				<h2>Chapters</h2>
 
 				<ol>
-					<li><a href="#Equipment">Cyborg Related Equipment</a></li>
-					<li><a href="#Modules">Cyborg Modules</a></li>
-					<li><a href="#Construction">Cyborg Construction</a></li>
-					<li><a href="#Maintenance">Cyborg Maintenance</a></li>
-					<li><a href="#Repairs">Cyborg Repairs</a></li>
+					<li><a href="#Equipment">Servitor Related Equipment</a></li>
+					<li><a href="#Modules">Servitor Modules</a></li>
+					<li><a href="#Construction">Servitor Construction</a></li>
+					<li><a href="#Maintenance">Servitor Maintenance</a></li>
+					<li><a href="#Repairs">Servitor Repairs</a></li>
 					<li><a href="#Emergency">In Case of Emergency</a></li>
 				</ol>
 
 
-				<h2><a name="Equipment">Cyborg Related Equipment</h2>
+				<h2><a name="Equipment">Servitor Related Equipment</h2>
 
 				<h3>Exosuit Fabricator</h3>
 				The Exosuit Fabricator is the most important piece of equipment related to cyborgs. It allows the construction of the core cyborg parts. Without these machines, cyborgs cannot be built. It seems that they may also benefit from advanced research techniques.
 
-				<h3>Cyborg Recharging Station</h3>
+				<h3>Servitor Recharging Station</h3>
 				This useful piece of equipment will suck power out of the power systems to charge a cyborg's power cell back up to full charge.
 
 				<h3>Robotics Control Console</h3>
-				This useful piece of equipment can be used to immobilize or destroy a cyborg. A word of warning: Cyborgs are expensive pieces of equipment, do not destroy them without good reason, or the Company may see to it that it never happens again.
+				This useful piece of equipment can be used to immobilize or destroy a cyborg. A word of warning: Servitors are expensive pieces of equipment, do not destroy them without good reason, or the Company may see to it that it never happens again.
 
 
-				<h2><a name="Modules">Cyborg Modules</h2>
+				<h2><a name="Modules">Servitor Modules</h2>
 				When a cyborg is created it picks out of an array of modules to designate its purpose. There are 11 different cyborg modules.<br>
 				All cyborg modules carry a flash.
 
-				<h3>Standard Cyborg</h3>
-				The standard cyborg module is a multi-purpose cyborg. It is equipped with various modules, allowing it to do basic tasks.<br>A Standard Cyborg comes with:
+				<h3>Standard Servitor</h3>
+				The standard cyborg module is a multi-purpose cyborg. It is equipped with various modules, allowing it to do basic tasks.<br>A Standard Servitor comes with:
 				<ul>
 				  <li>Crowbar</li>
 				  <li>Wrench</li>
@@ -65,8 +65,8 @@
 				  <li>Fire Extinguisher</li>
 				</ul>
 
-				<h3>Research Cyborg</h3>
-				The research cyborg module is an effective researching machine. It is equipped with tools to effectively run RnD.<be>A Research Cyborg comes with:
+				<h3>Research Servitor</h3>
+				The research cyborg module is an effective researching machine. It is equipped with tools to effectively run RnD.<be>A Research Servitor comes with:
 				<ul>
 				  <li>Portable Destructive Analyzer</li>
 				  <li>Research Gripper</li>
@@ -82,8 +82,8 @@
 				  <li>Nanopaste</li>
 				</ul>
 
-				<h3>Engineering Cyborg</h3>
-				The Engineering cyborg module comes equipped with various engineering-related tools to help with engineering-related tasks.<br>An Engineering Cyborg comes with:
+				<h3>Engineering Servitor</h3>
+				The Engineering cyborg module comes equipped with various engineering-related tools to help with engineering-related tasks.<br>An Engineering Servitor comes with:
 				<ul>
 				  <li>A basic set of engineering tools</li>
 				  <li>Metal Synthesizer</li>
@@ -95,8 +95,8 @@
 				  <li>Built-in Optical Meson Scanners</li>
 				</ul>
 
-				<h3>Mining Cyborg</h3>
-				The Mining Cyborg module comes equipped with the latest in mining equipment. They are efficient at mining due to no need for oxygen, but their power cells limit their time in the mines.<br>A Mining Cyborg comes with:
+				<h3>Mining Servitor</h3>
+				The Mining Servitor module comes equipped with the latest in mining equipment. They are efficient at mining due to no need for oxygen, but their power cells limit their time in the mines.<br>A Mining Servitor comes with:
 				<ul>
 				  <li>Wrench</li>
 				  <li>Scredriver</li>
@@ -107,8 +107,8 @@
 				  <li>Ore Scanner</li>
 				</ul>
 
-				<h3>Security Cyborg</h3>
-				The Security Cyborg module is equipped with effective security measures used to apprehend and arrest criminals.<br>A Security Cyborg comes with:
+				<h3>Security Servitor</h3>
+				The Security Servitor module is equipped with effective security measures used to apprehend and arrest criminals.<br>A Security Servitor comes with:
 				<ul>
 				  <li>Stun Baton</li>
 				  <li>Handcuffs</li>
@@ -117,8 +117,8 @@
 				  <li>Roll of Tape</li>
 				</ul>
 
-				<h3>Janitor Cyborg</h3>
-				The Janitor Cyborg module is equipped with various cleaning-facilitating devices.<br>A Janitor Cyborg comes with:
+				<h3>Janitor Servitor</h3>
+				The Janitor Servitor module is equipped with various cleaning-facilitating devices.<br>A Janitor Servitor comes with:
 				<ul>
 				  <li>Mop</li>
 				  <li>Hand Bucket</li>
@@ -127,8 +127,8 @@
 				  <li>Trash Bag</li>
 				</ul>
 
-				<h3>Service Cyborg</h3>
-				The service cyborg module comes ready to serve your human needs. It includes various entertainment and refreshment devices. Occasionally some service cyborgs may have been referred to as "Bros."<br>A Service Cyborg comes with:
+				<h3>Service Servitor</h3>
+				The service cyborg module comes ready to serve your human needs. It includes various entertainment and refreshment devices. Occasionally some service cyborgs may have been referred to as "Bros."<br>A Service Servitor comes with:
 				<ul>
 				  <li>Service Gripper</li>
 				  <li>Bucket</li>
@@ -142,7 +142,7 @@
 				  <li>Knife</li>
 				</ul>
 
-				<h3>Clerical Cyborg</h3>
+				<h3>Clerical Servitor</h3>
 				The clerical cyborg module is prepared to run the supply department, including a vareity of stamps.<br>A clerical cyborg comes with:
 				<ul>
 				  <li>Pen</li>
@@ -155,7 +155,7 @@
 				  <li>Destination Tagger</li>
 				</ul>
 
-				<h3>Crisis Cyborg</h3>
+				<h3>Crisis Servitor</h3>
 				The crisis cyborg module is prepared to handle a variety of non-surgical medical emergencies.<br>A medical cyborg comes with:
 				<ul>
 				  <li>Crowbar</li>
@@ -173,7 +173,7 @@
 				  <li>Roll of Tape</li>
 				</ul>
 
-				<h3>Surgeon Cyborg</h3>
+				<h3>Surgeon Servitor</h3>
 				The surgeon cyborg modules is prepared to handle a variety of surgical medical emergencies.<br>A medical cyborg comes with:
 				<ul>
 				  <li>Set of Surgery Tools</li>
@@ -190,8 +190,8 @@
 				  <li>Roll of Tape</li>
 				</ul>
 
-				<h2><a name="Construction">Cyborg Construction</h2>
-				Cyborg construction is a rather easy process, requiring a decent amount of metal and a few other supplies.<br>The required materials to make a cyborg are:
+				<h2><a name="Construction">Servitor Construction</h2>
+				Servitor construction is a rather easy process, requiring a decent amount of metal and a few other supplies.<br>The required materials to make a cyborg are:
 				<ul>
 				  <li>Metal</li>
 				  <li>Two Flashes</li>
@@ -211,34 +211,34 @@
 				  <li>Congratulations! You have a new cyborg!</li>
 				</ol>
 
-				<h2><a name="Maintenance">Cyborg Maintenance</h2>
-				Occasionally Cyborgs may require maintenance of a couple types, this could include replacing a power cell with a charged one, or possibly maintaining the cyborg's internal wiring.
+				<h2><a name="Maintenance">Servitor Maintenance</h2>
+				Occasionally Servitors may require maintenance of a couple types, this could include replacing a power cell with a charged one, or possibly maintaining the cyborg's internal wiring.
 
 				<h3>Replacing a Power Cell</h3>
 				Replacing a Power cell is a common type of maintenance for cyborgs. It usually involves replacing the cell with a fully charged one, or upgrading the cell with a larger capacity cell.<br>The steps to replace a cell are as follows:
 				<ol>
-				  <li>Unlock the Cyborg's Interface by swiping your ID on it</li>
-				  <li>Open the Cyborg's outer panel using a crowbar</li>
+				  <li>Unlock the Servitor's Interface by swiping your ID on it</li>
+				  <li>Open the Servitor's outer panel using a crowbar</li>
 				  <li>Remove the old power cell</li>
 				  <li>Insert the new power cell</li>
-				  <li>Close the Cyborg's outer panel using a crowbar</li>
-				  <li>Lock the Cyborg's Interface by swiping your ID on it, this will prevent non-qualified personnel from attempting to remove the power cell</li>
+				  <li>Close the Servitor's outer panel using a crowbar</li>
+				  <li>Lock the Servitor's Interface by swiping your ID on it, this will prevent non-qualified personnel from attempting to remove the power cell</li>
 				</ol>
 
 				<h3>Exposing the Internal Wiring</h3>
 				Exposing the internal wiring of a cyborg is fairly easy to do, and is mainly used for cyborg repairs.<br>You can easily expose the internal wiring by following the steps below:
 				<ol>
-					<li>Follow Steps 1 - 3 of "Replacing a Cyborg's Power Cell"</li>
+					<li>Follow Steps 1 - 3 of "Replacing a Servitor's Power Cell"</li>
 					<li>Open the cyborg's internal wiring panel by using a screwdriver to unsecure the panel</li>
 				</ol>
 				To re-seal the cyborg's internal wiring:
 				<ol>
 					<li>Use a screwdriver to secure the cyborg's internal panel</li>
-					<li>Follow steps 4 - 6 of "Replacing a Cyborg's Power Cell" to close up the cyborg</li>
+					<li>Follow steps 4 - 6 of "Replacing a Servitor's Power Cell" to close up the cyborg</li>
 				</ol>
 
-				<h2><a name="Repairs">Cyborg Repairs</h2>
-				Occasionally a Cyborg may become damaged. This could be in the form of impact damage from a heavy or fast-travelling object, or it could be heat damage from high temperatures, or even lasers or Electromagnetic Pulses (EMPs).
+				<h2><a name="Repairs">Servitor Repairs</h2>
+				Occasionally a Servitor may become damaged. This could be in the form of impact damage from a heavy or fast-travelling object, or it could be heat damage from high temperatures, or even lasers or Electromagnetic Pulses (EMPs).
 
 				<h3>Dents</h3>
 				If a cyborg becomes damaged due to impact from heavy or fast-moving objects, it will become dented. Sure, a dent may not seem like much, but it can compromise the structural integrity of the cyborg, possibly causing a critical failure.
@@ -247,22 +247,22 @@
 				<h3>Excessive Heat Damage</h3>
 				If a cyborg becomes damaged due to excessive heat, it is likely that the internal wires will have been damaged. You must replace those wires to ensure that the cyborg remains functioning properly.<br>To replace the internal wiring follow the steps below:
 				<ol>
-					<li>Unlock the Cyborg's Interface by swiping your ID</li>
-					<li>Open the Cyborg's External Panel using a crowbar</li>
-					<li>Remove the Cyborg's Power Cell</li>
-					<li>Using a screwdriver, expose the internal wiring of the Cyborg</li>
+					<li>Unlock the Servitor's Interface by swiping your ID</li>
+					<li>Open the Servitor's External Panel using a crowbar</li>
+					<li>Remove the Servitor's Power Cell</li>
+					<li>Using a screwdriver, expose the internal wiring of the Servitor</li>
 					<li>Replace the damaged wires inside the cyborg</li>
 					<li>Secure the internal wiring cover using a screwdriver</li>
-					<li>Insert the Cyborg's Power Cell</li>
-					<li>Close the Cyborg's External Panel using a crowbar</li>
-					<li>Lock the Cyborg's Interface by swiping your ID</li>
+					<li>Insert the Servitor's Power Cell</li>
+					<li>Close the Servitor's External Panel using a crowbar</li>
+					<li>Lock the Servitor's Interface by swiping your ID</li>
 				</ol>
 				These repair tasks may seem difficult, but are essential to keep your cyborgs running at peak efficiency.
 
 				<h2><a name="Emergency">In Case of Emergency</h2>
 				In case of emergency, there are a few steps you can take.
 
-				<h3>"Rogue" Cyborgs</h3>
+				<h3>"Rogue" Servitors</h3>
 				If the cyborgs seem to become "rogue", they may have non-standard laws. In this case, use extreme caution.
 				To repair the situation, follow these steps:
 				<ol>
@@ -281,7 +281,7 @@
 
 				<h3>As a last resort</h3>
 				If all else fails in a case of cyborg-related emergency, there may be only one option. Using a Robotics Control console, you may have to remotely detonate the cyborg.
-				<h3>WARNING:</h3> Do not detonate a borg without an explicit reason for doing so. Cyborgs are expensive pieces of company equipment, and you may be punished for detonating them without reason.
+				<h3>WARNING:</h3> Do not detonate a borg without an explicit reason for doing so. Servitors are expensive pieces of company equipment, and you may be punished for detonating them without reason.
 
 				</body>
 			</html>
@@ -598,10 +598,10 @@
 			"}
 
 /obj/item/book/manual/evaguide
-	name = "EVA Gear and You: Not Spending All Day Inside"
+	name = "EVA Gear and You: Surviving the Void"
 	icon_state = "evabook"
-	author = "Maria Crash, Senior Atmospherics Technician"
-	title = "EVA Gear and You: Not Spending All Day Inside"
+	author = "Maria Crash, Senior Void-Tec Specialist"
+	title = "EVA Gear and You: Surviving the Void"
 	dat = {"<html>
 				<head>
 				<style>
@@ -615,70 +615,58 @@
 				</head>
 				<body>
 
-				<h1><a name="Foreword">EVA Gear and You: Not Spending All Day Inside</a></h1>
-				<I>Or: How not to suffocate because there's a hole in your shoes</I><BR>
+				<h1><a name="Foreword">EVA Gear and You: Surviving the Void</a></h1>
+				<I>Or: How to Not Expire in the Void because of a Malfunctioning Boot</I><BR>
 
 				<h2><a name="Contents">Contents</a></h2>
 				<ol>
-					<li><a href="#Foreword">A foreword on using EVA gear</a></li>
-					<li><a href="#Civilian">Donning a Civilian Suit</a></li>
-					<li><a href="#Hardsuit">Putting on a Hardsuit</a></li>
-					<li><a href="#Equipment">Cyclers and Other Modification Equipment</a></li>
-					<li><a href="#Final">Final Checks</a></li>
+					<li><a href="#Foreword">A Foreword on EVA Gear Usage</a></li>
+					<li><a href="#Civilian">Donning a Standard Void Suit</a></li>
+					<li><a href="#Hardsuit">Donning a Hardsuit</a></li>
+					<li><a href="#Equipment">Cyclers and Modifications</a></li>
+					<li><a href="#Final">Final Integrity Checks</a></li>
 				</ol>
 				<br>
 
-				EVA gear. Wonderful to use. It's useful for mining, engineering, and occasionally just surviving, if things are that bad. Most people have EVA training,
-				but apparently there are some people out in space who don't. This guide should give you a basic idea of how to use this gear, safely. It's split into two sections:
-				 Civilian suits and hardsuits.<BR><BR>
+				EVA gear. Essential for survival. It's invaluable for void operations, maintenance, and of course, to stay alive when the worst occurs. Most members of the crew have basic EVA training,
+				but unfortunately, not everyone knows how to operate in space. This guide aims to teach you the basics of EVA gear, starting with the simpler void suits and progressing to the more protective hardsuits.<BR><BR>
 
-				<h2><a name="Civilian">Civilian Suits</a></h2>
-				<I>The bulkiest things this side of Alpha Centauri</I><BR>
-				These suits are the grey ones that are stored in EVA. They're the more simple to get on, but are also a lot bulkier, and provide less protection from environmental hazards such as radiation or physical impact.
-				As Medical, Engineering, Security, and Mining all have hardsuits of their own, these don't see much use, but knowing how to put them on is quite useful anyways.<BR><BR>
+				<h2><a name="Civilian">Void Suits</a></h2>
+				<I>The Bulkiest Wares Outside the Forge Worlds</I><BR>
+				These are the standard-issue grey suits you’ll find in EVA storage. While less cumbersome than a hardsuit, these suits provide limited protection against hazards like cosmic radiation and hostile environments.
+				They’re primarily used by unskilled crew members but are essential nonetheless.<BR><BR>
 
-				First, take the suit. It should be in three pieces: A top, a bottom, and a helmet. Put the bottom on first, shoes and the like will fit in it. If you have magnetic boots, however,
-				put them on on top of the suit's feet. Next, get the top on, as you would a shirt. It can be somewhat awkward putting these pieces on, due to the makeup of the suit,
-				but to an extent they will adjust to you. You can then find the snaps and seals around the waist, where the two pieces meet. Fasten these, and double-check their tightness.
-				The red indicators around the waist of the lower half will turn green when this is done correctly. Next, put on whatever breathing apparatus you're using, be it a gas mask or a breath mask. Make sure the oxygen tube is fastened into it.
-				Put on the helmet now, straightforward, and make sure the tube goes into the small opening specifically for internals. Again, fasten seals around the neck, a small indicator light in the inside of the helmet should go from red to off when all is fastened.
-				There is a small slot on the side of the suit where an emergency oxygen tank or extended emergency oxygen tank will fit,
-				but it is recommended to have a full-sized tank on your back for EVA.<BR><BR>
+				First, retrieve the suit from its storage compartment. The standard void suit is made of three components: the lower body section, the upper body section, and the helmet. Begin by stepping into the lower body section, securing it over your boots. If you are using mag-boots, be sure to place them over the suit’s foot coverings. After securing the lower section, fit the upper body piece on, as you would don a tunic. Once the suit is properly adjusted, fasten the seals around the waist. These should turn from red to green once secured.
 
-				These suits tend to be wearable by most species. They're large and flexible. They might be pretty uncomfortable for some, though, so keep that in mind.<BR><BR>
+				Attach your respirator or other internals, ensuring the oxygen tube is properly connected to the suit's internal system. Once fitted, place the helmet over your head and ensure it seals properly, ensuring the lights turn from red to off when the seal is complete. There’s also a slot near the back of the suit for an emergency air tank, but a full-sized pack is recommended for EVA tasks.<BR><BR>
+
+				These suits are adaptable and can be worn by most species, though some may find them uncomfortable due to their design.<BR><BR>
 
 				<h2><a name="Hardsuit">Hardsuits</a></h2>
-				<I>Heavy, uncomfortable, still the best option.</I><BR>
-				These suits come in Engineering, Mining, and the Armory. There's also a couple Medical Hardsuits in EVA. These provide a lot more protection than the standard suits.<BR><BR>
+				<I>Heavy, Difficult to Wear, but the Best Option for Void Operations</I><BR>
+				Hardsuits are stored in the Engineering and Mining Departments, and occasionally in the Armory. These suits offer far superior protection in void environments compared to standard suits.<BR><BR>
 
-				Similarly to the other suits, these are split into three parts. Fastening the pant and top are mostly the same as the other spacesuits, with the exception that these are a bit heavier,
-				though not as bulky. The helmet goes on differently, with the air tube feeding into the suit and out a hole near the left shoulder, while the helmet goes on turned ninety degrees counter-clockwise,
-				and then is screwed in for one and a quarter full rotations clockwise, leaving the faceplate directly in front of you. There is a small button on the right side of the helmet that activates the helmet light.
-				The tanks that fasten onto the side slot are emergency tanks, as well as full-sized oxygen tanks, leaving your back free for a backpack or satchel.<BR><BR>
+				Like the void suits, hardsuits come in three parts. However, these are heavier and provide better protection. The helmet, unlike the standard void suit, requires precise placement. Attach it with a twist of the head, ensuring the air line feeds into the suit. Once the helmet is in place, twist the collar counter-clockwise to secure it properly. There’s a light on the helmet to confirm it's securely fastened.<BR><BR>
 
-				These suits generally only fit one species. Standard-issue suits are usually human-fitting by default, but there's equipment that can make modifications to the hardsuits to fit them to other species.<BR><BR>
+				Hardsuits tend to be designed for human physiology. However, specialized modifications can be made to accommodate non-human crew members.<BR><BR>
 
-				<h2><a name="Equipment">Modification Equipment</a></h2>
-				<I>How to actually make hardsuits fit you.</I><BR>
-				There's a variety of equipment that can modify hardsuits to fit species that can't fit into them, making life quite a bit easier.<BR><BR>
+				<h2><a name="Equipment">Modifying the Suit for Specialization</a></h2>
+				<I>How to Fit a Suit for Species-Specific Requirements</I><BR>
+				There are machines designed for altering the hardsuit to suit a variety of species. These devices, known as cyclers, can adjust the suit's structure to accommodate different body types. It’s important to note, these cyclers can be dangerous if mishandled, so avoid using them unless necessary.<BR><BR>
 
-				The first piece of equipment is a suit cycler. This is a large machine resembling the storage pods that are in place in some places. These are machines that will automatically tailor a suit to certain specifications.
-				The largest uses of them are for their cleaning functions and their ability to tailor suits for a species. Do not enter them physically. You will die from any of the functions being activated, and it will be painful.
-				These machines can both tailor a suit between species, and between types. This means you can convert engineering hardsuits to atmospherics, or the other way. This is useful. Use it if you can.<BR><BR>
+				Modification kits are also available for manual adjustments, but they are extremely complex and not recommended unless no other options are available.<BR><BR>
 
-				There's also modification kits that let you modify suits yourself. These are extremely difficult to use unless you understand the actual construction of the suit. I do not reccomend using them unless no other option is available.
-
-				<h2><a name="Final">Final Checks</a></h2>
+				<h2><a name="Final">Final Integrity Checks</a></h2>
 				<ul>
-					<li>Are all seals fastened correctly?</li>
-					<li>If you have modified it manually, is absolutely everything sealed perfectly?</li>
-					<li>Do you either have shoes on under the suit, or magnetic boots on over it?</li>
-					<li>Do you have a mask on and internals on the suit or your back?</li>
-					<li>Do you have a way to communicate with your fellow crew in case something goes wrong?</li>
-					<li>Do you have a second person watching if this is a training session?</li><BR>
+					<li>Have you confirmed all seals are secured properly?</li>
+					<li>If you made any manual modifications, have you ensured they are flawless?</li>
+					<li>Do you have magnetic boots or other footwear?</li>
+					<li>Have you attached your internals to the suit?</li>
+					<li>Is your communication device operational?</li>
+					<li>If conducting training, is there a fellow crew member present for oversight?</li><BR>
 				</ul>
 
-				If you don't have any further issues, go out and do whatever is necessary.
+				If all checks are complete and without issue, proceed with your mission and remember to avoid unnecessary risks in the void.<BR><BR>
 
 				</body>
 			</html>
