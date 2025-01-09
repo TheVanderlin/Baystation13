@@ -69,7 +69,7 @@
 	name = "laser scalpel"
 	desc = "An advanced scalpel augmented with a directed laser, for more precise cutting without blood entering the field."
 	icon_state = "scalpel_laser3_on"
-	origin_tech = list(TECH_BIO = 5, TECH_MATERIAL = 6, TECH_MAGNET = 4)
+	origin_tech = list(TECH_BIO = 2, TECH_MATERIAL = 2, TECH_MAGNET = 3)
 	matter = list(MATERIAL_STEEL = 12500, MATERIAL_GLASS = 7500, MATERIAL_SILVER = 2000, MATERIAL_GOLD = 1500)
 	damtype = DAMAGE_BURN
 	force = 25.0
@@ -78,7 +78,7 @@
 	name = "incision management system"
 	desc = "A true extension of the surgeon's body, this marvel instantly and completely prepares an incision allowing for the immediate commencement of therapeutic steps."
 	icon_state = "scalpel_manager_on"
-	origin_tech = list(TECH_BIO = 6, TECH_MATERIAL = 6, TECH_MAGNET = 5, TECH_DATA = 5)
+	origin_tech = list(TECH_BIO = 2, TECH_MATERIAL = 2, TECH_MAGNET = 2, TECH_DATA = 4)
 	matter = list(MATERIAL_STEEL = 12500, MATERIAL_GLASS = 7500, MATERIAL_SILVER = 1500, MATERIAL_GOLD = 1500, MATERIAL_DIAMOND = 750)
 	force = 17.5
 

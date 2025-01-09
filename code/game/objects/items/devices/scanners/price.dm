@@ -3,7 +3,7 @@
 	desc = "Using an up-to-date database of various costs and prices, this device estimates the market price of an item up to 0.001% accuracy."
 	icon = 'icons/obj/tools/price_scanner.dmi'
 	icon_state = "price_scanner"
-	origin_tech = list(TECH_MATERIAL = 6, TECH_MAGNET = 4)
+	origin_tech = list(TECH_MATERIAL = 2, TECH_MAGNET = 1)
 	scan_sound = 'sound/effects/checkout.ogg'
 
 /obj/item/device/scanner/price/is_valid_scan_target(atom/movable/target)

@@ -216,7 +216,7 @@
 			if(growing)
 				visible_message(SPAN_DANGER(FONT_NORMAL("The singularity has grown out of control!")))
 			else
-				visible_message(SPAN_WARNING("The singularity miraculously reduces in size and loses its supermatter properties."))
+				visible_message(SPAN_WARNING("The singularity miraculously reduces in size and loses its volkite properties."))
 		if(STAGE_SUPER)//SUPERSINGULO
 			SetName("super gravitational singularity")
 			desc = "A gravitational singularity with the properties of supermatter. <b>It has the power to destroy worlds.</b>"

@@ -479,7 +479,7 @@
 /obj/random/closet/spawn_choices()
 	return list(/obj/structure/closet,
 				/obj/structure/closet/firecloset,
-				/obj/structure/closet/emcloset,
+				/obj/structure/closet/warhammer/emcloset,
 				/obj/structure/closet/jcloset,
 				/obj/structure/closet/athletic_mixed,
 				/obj/structure/closet/toolcloset,

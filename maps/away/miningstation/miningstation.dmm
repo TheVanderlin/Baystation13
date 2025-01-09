@@ -730,7 +730,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/miningstation/hangarhall)
 "bR" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/hatch,
 /obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3644,7 +3644,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/miningstation/bridge)
 "iz" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/hatch,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/miningstation/operationshall2)
@@ -4347,7 +4347,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/miningstation/operationshall)
 "jX" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/hatch,
 /obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -4509,7 +4509,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/miningstation/chief2)
 "kz" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/hatch,
 /obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -8550,7 +8550,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/miningstation/prep)
 "Sn" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/hatch,
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/item/gun/projectile/pistol/slug/old,

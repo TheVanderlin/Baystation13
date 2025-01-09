@@ -14,12 +14,15 @@
 /*
  * Emergency Closet
  */
-/obj/structure/closet/emcloset
+/obj/structure/closet/warhammer/emcloset
 	name = "emergency closet"
 	desc = "It's a storage unit for emergency breathmasks and o2 tanks."
-	closet_appearance = /singleton/closet_appearance/oxygen
+	icon = 'icons/map_project/furniture_and_decor.dmi'
+	icon_state = "metal_locker_closed"
+	icon_opened = "metal_locker_open"
+	icon_closed = "metal_locker_closed"
 
-/obj/structure/closet/emcloset/WillContain()
+/obj/structure/closet/warhammer/emcloset/WillContain()
 	return list(/obj/item/tank/oxygen_emergency = 2,
 				/obj/item/clothing/mask/breath = 2,
 				/obj/item/storage/toolbox/emergency,

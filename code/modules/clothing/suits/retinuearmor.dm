@@ -68,6 +68,7 @@
 	desc = "An ancient relic of the Mechanicus, sanctified for the Inquisition’s holy war. The engraved Rosette and gleaming surface reflect the Emperor’s divine will, guiding the wearer to annihilate His enemies."
 	icon_state = "inqarmor"
 	item_state = "inqarmor"
+	action_button_name = "Toggle Hood"
 	w_class = ITEM_SIZE_GARGANTUAN
 	valid_accessory_slots = null // So you can't remove or attach armor acceesories.
 	restricted_accessory_slots = null

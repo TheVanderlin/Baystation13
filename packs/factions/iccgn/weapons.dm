@@ -7,7 +7,7 @@
 	safety_icon = "optimus-safety"
 	magazine_type = /obj/item/ammo_magazine/pistol/double
 	allowed_magazines = /obj/item/ammo_magazine/pistol/double
-	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 2, TECH_ESOTERIC = 4)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2, TECH_ESOTERIC = 4)
 	ammo_indicator = TRUE
 	fire_delay = 3.5
 

@@ -4,7 +4,7 @@
 	icon = 'icons/obj/guns/40kproj.dmi'
 	icon_state = "boltaction"
 	item_state = "boltaction"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	caliber = CALIBER_STUB
 	ammo_type = /obj/item/ammo_casing/sniper
 	load_method = SINGLE_CASING|SPEEDLOADER
@@ -33,7 +33,7 @@
 	desc = "An old custom made bolt action stub rifle chambered in 12mm stub rounds. It has a scope attached."
 	icon_state = "boltactionsharp"
 	item_state = "boltaction"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	caliber = CALIBER_STUB
 	ammo_type = /obj/item/ammo_casing/sniper
 	max_shells = 6
@@ -87,7 +87,7 @@
 	desc = "Xenos Thrower is an incredibly advanced single-shot magrail hunting thrower developed by the local xenos tribes."
 	icon_state = "musket"
 	item_state = "musket"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	force = 10
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
 	caliber = CALIBER_SNIPER
@@ -151,7 +151,7 @@
 	icon_state = "hunting-sawn"
 	item_state = "sawnchester"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_BACK
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 	max_shells = 4
 	one_hand_penalty = 0.4
 	fire_delay = 3.6
@@ -272,7 +272,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/heavy) // This is inbetween 5.56 and 12.77mm in terms of power.
 	caliber = CALIBER_AUTOGUN_HEAVY
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	one_hand_penalty = 1
 	accuracy = 0
 	fire_delay = 3.5
@@ -301,7 +301,7 @@
 	item_state = "R84"
 	wielded_item_state = "R84"
 	slot_flags = SLOT_BACK
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	fire_sound = 'sound/warhammer/guns/fire/ltrifle_fire.ogg'
 	mag_remove_sound = 'sound/warhammer/guns/interact/arm_magout.ogg'
 	mag_insert_sound = 'sound/warhammer/guns/interact/arm_magin.ogg'
@@ -365,7 +365,7 @@
 	desc = "A rugged slug rifle of imperial design, the Agripinaa is a highly accurate battle rifle for the hardened frontiersman. Chambered in 15mm handgun rounds."
 	icon_state = "agripinaa"
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	fire_sound = 'sound/warhammer/guns/fire/revolver_fire.ogg'
 	fire_delay = 3.2
 	burst = 1
@@ -429,7 +429,7 @@
 	desc = "Mechanicus forged belt-fed 6.8mm heavy stubber, this weapon is designed around greater accuracy and tactical purpose."
 	icon_state = "cognisLMG"
 	slot_flags = SLOT_BACK
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_GARGANTUAN
 	one_hand_penalty = 2.2
 	accuracy = 0.5
 	fire_delay = 3.1
@@ -457,7 +457,7 @@
 		wielded_item_state = "hmg-wielded-e"
 
 /obj/item/gun/projectile/automatic/boltrifle
-	name = "Godwyn Mark Vb Pattern Bolter" // For future, create carbine, heavy bolter versions. Carbine smaller magazine, size, slowdown and one-handed handling.
+	name = "Godwyn Bolt Rifle" // For future, create carbine, heavy bolter versions. Carbine smaller magazine, size, slowdown and one-handed handling.
 	desc = "The Adeptus Astartes's legendary and destructive Bolter Rifle, This one is painted in XIIIth Chapter Ultramarines's colour scheme."
 	icon_state = "ultrabolter"
 	item_state = "hbolter"
@@ -637,7 +637,7 @@
 	magazine_type = /obj/item/ammo_magazine/radcarbine
 	allowed_magazines = list(/obj/item/ammo_magazine/radcarbine)
 	firemodes = list()
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 
 /obj/item/gun/projectile/automatic/radcarbine/update_icon()
 	..()
@@ -665,7 +665,7 @@
 	magazine_type = /obj/item/ammo_magazine/radcarbine/radpistol
 	allowed_magazines = list(/obj/item/ammo_magazine/radcarbine/radpistol)
 	firemodes = list()
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 
 /obj/item/gun/projectile/automatic/radcarbine/radpistol/update_icon()
 	..()

@@ -6,7 +6,7 @@
 	restricted_software = list(MECH_SOFTWARE_MEDICAL)
 	equipment_delay = 30 //don't spam it on people pls
 	active_power_use = 0 //Usage doesn't really require power. We don't want people stuck inside
-	origin_tech = list(TECH_DATA = 2, TECH_BIO = 3)
+	origin_tech = list(TECH_DATA = 2, TECH_BIO = 2)
 	passive_power_use = 0 //Raised to 1.5 KW when patient is present.
 	var/obj/machinery/sleeper/mounted/sleeper = null
 

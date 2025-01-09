@@ -14,7 +14,7 @@
 	throw_range = 15
 	throw_speed = 3
 
-	origin_tech = list(TECH_DATA = 1, TECH_ENGINEERING = 1, TECH_ESOTERIC = 3)
+	origin_tech = list(TECH_DATA = 1, TECH_ENGINEERING = 1, TECH_ESOTERIC = 2)
 
 	var/obj/item/device/radio/spy/radio
 	var/obj/machinery/camera/spy/camera

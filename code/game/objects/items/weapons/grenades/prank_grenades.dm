@@ -10,7 +10,7 @@
 
 
 /obj/item/grenade/spawnergrenade/fake_carp
-	origin_tech = list(TECH_MATERIAL = 2, TECH_MAGNET = 2, TECH_BLUESPACE = 5)
+	origin_tech = list(TECH_MATERIAL = 2, TECH_MAGNET = 2, TECH_BLUESPACE = 2)
 	spawn_type = /mob/living/simple_animal/hostile/carp/holodeck
 	spawn_amount = 4
 	spawn_throw_range = 3

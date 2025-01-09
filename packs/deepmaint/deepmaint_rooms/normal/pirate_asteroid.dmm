@@ -167,7 +167,7 @@
 	},
 /area/map_template/deepmaint)
 "xw" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/corner/brown/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/map_template/deepmaint)

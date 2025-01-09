@@ -116,7 +116,7 @@
 	item_flags = null
 	body_parts_covered = FACE|EYES
 	action_button_name = "Toggle MUI"
-	origin_tech = list(TECH_DATA = 5, TECH_ENGINEERING = 5)
+	origin_tech = list(TECH_DATA = 3, TECH_ENGINEERING = 3)
 	active = FALSE
 	var/mob/observer/eye/cameranet/eye
 

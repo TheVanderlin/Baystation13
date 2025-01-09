@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ad" = (
-/obj/structure/bed/chair/padded/green{
+/obj/structure/bed/chair/warhammer/padded/green{
 	dir = 1
 	},
 /obj/floor_decal/corner/lime/full,
@@ -41,7 +41,7 @@
 /turf/simulated/floor/steel_dirty,
 /area/map_template/deepmaint)
 "dF" = (
-/obj/structure/bed/chair/padded/green{
+/obj/structure/bed/chair/warhammer/padded/green{
 	dir = 8
 	},
 /obj/floor_decal/corner/lime{
@@ -120,7 +120,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/map_template/deepmaint)
 "jB" = (
-/obj/structure/bed/chair/padded/green{
+/obj/structure/bed/chair/warhammer/padded/green{
 	dir = 8
 	},
 /obj/floor_decal/corner/lime/full,

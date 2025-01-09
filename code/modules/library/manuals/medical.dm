@@ -1,9 +1,8 @@
 /obj/item/book/manual/medical_cloning
-	name = "Cloning Techniques of the 26th Century"
-	icon_state ="bookCloning"
-	author = "Medical Journal, volume 3"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
-	title = "Cloning Techniques of the 26th Century"
-
+	name = "Cloning Techniques of M41"
+	icon_state = "bookCloning"
+	author = "Medical Journal, volume 3"         // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
+	title = "Cloning Techniques of M41"
 	dat = {"<html>
 				<head>
 				<style>
@@ -18,77 +17,67 @@
 				</head>
 				<body>
 
-				<H1>How to Clone People</H1>
-				So there are 50 dead people lying on the floor, chairs are spinning like no tomorrow and you haven't the foggiest idea of what to do? Not to worry!
-				This guide is intended to teach you how to clone people and how to do it right, in a simple, step-by-step process! If at any point of the guide you have a mental meltdown,
-				genetics probably isn't for you and you should get a job-change as soon as possible before you're sued for malpractice.
+				<H1>Cloning Techniques in the 26th Century: A Manual of Adeptus Mechanicus Protocol</H1>
+				In the name of the Emperor, the Adeptus Mechanicus has perfected the art of cloning to serve the Imperium. Whether for replacement of lost assets, the creation of sacred warriors, or the reclamation of vital personnel, cloning is a tool utilized by the Omnissiah's faithful. However, this process is not without its dangers. The blessed tech-priests and their acolytes have seen to the most critical of processes, ensuring success under the watchful eye of the Machine God.
 
 				<ol>
-					<li><a href='#1'>Acquire body</a></li>
-					<li><a href='#2'>Strip body</a></li>
-					<li><a href='#3'>Put body in cloning machine</a></li>
-					<li><a href='#4'>Scan body</a></li>
-					<li><a href='#5'>Clone body</a></li>
-					<li><a href='#6'>Get clean Structural Enzymes for the body</a></li>
-					<li><a href='#7'>Put body in morgue</a></li>
-					<li><a href='#8'>Await cloned body</a></li>
-					<li><a href='#9'>Cryo and use the clean SE injector</a></li>
-					<li><a href='#10'>Give person clothes back</a></li>
-					<li><a href='#11'>Send person on their way</a></li>
+					<li><a href='#1'>Acquire Subject for Cloning</a></li>
+					<li><a href='#2'>Sanctify the Corpse</a></li>
+					<li><a href='#3'>Place Body in Cloning Chamber</a></li>
+					<li><a href='#4'>Perform Scanning Procedure</a></li>
+					<li><a href='#5'>Commence Cloning Ritual</a></li>
+					<li><a href='#6'>Prepare Structural Rejuvenation</a></li>
+					<li><a href='#7'>Process the Mortal Remains</a></li>
+					<li><a href='#8'>Await the Rebirth</a></li>
+					<li><a href='#9'>Administer Cryonic Stabilization</a></li>
+					<li><a href='#10'>Bestow Garb of the Adept</a></li>
+					<li><a href='#11'>Reassign Clone to Duty</a></li>
 				</ol>
 
-				<a name='1'><H3>Step 1: Acquire body</H3>
-				This is pretty much vital for the process because without a body, you cannot clone it. Usually, bodies will be brought to you, so you do not need to worry so much about this step. If you already have a body, great! Move on to the next step.
+				<a name='1'><H3>Step 1: Acquire Subject for Cloning</H3>
+				In the service of the Emperor, subjects are often retrieved through expeditions, skirmishes, or battlefield recoveries. The body must be intact, though organs and limbs may be replaced by augmetics as necessary. Ensure all genetic data is accessible through the proper cogitator interface.
+				If no physical body remains, use a biomaterial proxy. Those chosen for cloning may include lost operatives, honored warriors, or even fallen martyrs.
 
-				<a name='2'><H3>Step 2: Strip body</H3>
-				The cloning machine does not like abiotic items. What this means is you can't clone anyone if they're wearing clothes or holding things, so take all of it off. If it's just one person, it's courteous to put their possessions in the closet.
-				If you have about seven people awaiting cloning, just leave the piles where they are, but don't mix them around and for God's sake don't let people in to steal them.
+				<a name='2'><H3>Step 2: Sanctify the Corpse</H3>
+				Before proceeding with the sacred procedure, the body must be purified through the Ritual of Mechanical Purity. Cleanse it with sacred oils, carefully removing the taint of the xenos, traitor, or heretic. Clothes and any unauthorized tech should be removed and either discarded or cataloged.
+				If the body is a high-ranking officer or warrior, sacred rites should be administered to ensure that their essence is properly encoded into the cloning matrix.
 
-				<a name='3'><h3>Step 3: Put body in cloning machine</h3>
-				Grab the body and then put it inside the DNA modifier. If you cannot do this, then you messed up at Step 2. Go back and check you took EVERYTHING off - a commonly missed item is their headset.
+				<a name='3'><h3>Step 3: Place Body in Cloning Chamber</h3>
+				Once purified, the body must be placed into the cloning chamber, a chamber of sacred function, where the faithful Tech-Priests have conducted countless resurrections. This chamber should be sterile and powered by the divine energy of the Machine God.
+				For the process to be successful, all connections must be properly made between the body and the chamber’s interface nodes.
 
-				<a name='4'><h3>Step 4: Scan body</h3>
-				Go onto the cogitator and scan the body by pressing 'Scan - &lt;Subject Name Here&gt;.' If you're successful, they will be added to the records (note that this can be done at any time, even with living people,
-				so that they can be cloned without a body in the event that they are lying dead on port solars and didn't turn on their suit sensors)!
-				If not, and it says "Error: Mental interface failure.", then they have left their bodily confines and are one with the spirits. If this happens, just shout at them to get back in their body,
-				click 'Refresh' and try scanning them again. If there's no success, threaten them with gibbing.
-				Still no success? Skip over to Step 7 and don't continue after it, as you have an unresponsive body and it cannot be cloned.
-				If you got "Error: Unable to locate valid genetic data.", you are trying to clone a monkey - start over.
+				<a name='4'><h3>Step 4: Perform Scanning Procedure</h3>
+				The body must be scanned through the sacred cogitator interface. This will encode all the genetic data into the sacred databanks of the Adeptus Mechanicus. If the subject’s DNA is corrupted by heresy or chaos mutations, the process will fail, and the body may be discarded into the refuse pit.
+				If the scan is successful, the data will be used to create an exact duplicate, though the original may still suffer from weaknesses based on prior damage. Do not hesitate to perform multiple scans in cases of malfunction.
 
-				<a name='5'><h3>Step 5: Clone body</h3>
-				Now that the body has a record, click 'View Records,' click the subject's name, and then click 'Clone' to start the cloning process. Congratulations! You're halfway there.
-				Remember not to 'Eject' the cloning pod as this will kill the developing clone and you'll have to start the process again.
+				<a name='5'><h3>Step 5: Commence Cloning Ritual</h3>
+				With the scanned data confirmed, initiate the cloning ritual. This is where the power of the Omnissiah is channeled through the sacred machinery. The body will be regenerated using the Omnissiah’s divine knowledge and the ancient technologies of the Adeptus Mechanicus. Ensure that no interruptions from xenos or traitors disrupt the sacred machinery during this time.
 
-				<a name='6'><h3>Step 6: Get clean SEs for body</h3>
-				Cloning is a finicky and unreliable process. Whilst it will most certainly bring someone back from the dead, they can have any number of nasty disabilities given to them during the cloning process!
-				For this reason, you need to prepare a clean, defect-free Structural Enzyme (SE) injection for when they're done. If you're a competent Geneticist, you will already have one ready on your working computer.
-				If, for any reason, you do not, then eject the body from the DNA modifier (NOT THE CLONING POD) and take it next door to the Genetics research room. Put the body in one of those DNA modifiers and then go onto the console.
-				Go into View/Edit/Transfer Buffer, find an open slot and click "SE" to save it. Then click 'Injector' to get the SEs in syringe form. Put this in your pocket or something for when the body is done.
+				<a name='6'><h3>Step 6: Prepare Structural Rejuvenation</h3>
+				Structural Rejuvenation is the process by which damaged cells and organs are repaired during the cloning. It is paramount that clean Structural Enzymes are used in this step to ensure that the subject’s body remains viable and free from mutations. These must be drawn from the Omnissiah’s sacred stores or crafted by the Mechanicus’ finest Apothecarion.
+				Prepare the Injector and ensure its purity—this step is crucial for preventing catastrophic failure.
 
-				<a name='7'><h3>Step 7: Put body in morgue</h3>
-				Now that the cloning process has been initiated and you have some clean Structural Enzymes, you no longer need the body! Drag it to the morgue and tell the Chef over the radio that they have some fresh meat waiting for them in there.
-				To put a body in a morgue bed, simply open the tray, grab the body, put it on the open tray, then close the tray again. Use one of the nearby pens to label the bed "CHEF MEAT" in order to avoid confusion.
+				<a name='7'><h3>Step 7: Process the Mortal Remains</h3>
+				After cloning is completed, the remains of the original subject must be disposed of in accordance with Imperial doctrine. Any deviations or signs of corruption should be investigated immediately.
+				For sacred warriors, such as Astartes, their mortal remains may be subjected to further examination to ensure that their genetic legacy remains intact for future generations.
 
-				<a name='8'><h3>Step 8: Await cloned body</h3>
-				Now go back to the lab and wait for your patient to be cloned. It won't be long now, I promise.
+				<a name='8'><h3>Step 8: Await the Rebirth</h3>
+				The clone will begin to take form over several hours. Remain vigilant as the subject’s data imprinting continues. You must wait with unwavering faith, trusting the Machine God’s power to ensure success. At this stage, the new clone will be fully formed and ready for the final steps.
 
-				<a name='9'><h3>Step 9: Cryo and clean SE injector on person</h3>
-				Has your body been cloned yet? Great! As soon as the guy pops out, grab them and stick them in cryo. Clonexadone and Cryoxadone help rebuild their genetic material. Then grab your clean SE injector and jab it in them. Once you've injected them,
-				they now have clean Structural Enzymes and their defects, if any, will disappear in a short while.
+				<a name='9'><h3>Step 9: Administer Cryonic Stabilization</h3>
+				Cryogenic stabilization must be applied to the new clone to prevent cellular degeneration before the final procedures are complete. This will allow the clone to be safely awakened and serve the Imperium without the instability of an incomplete process.
 
-				<a name='10'><h3>Step 10: Give person clothes back</h3>
-				Obviously the person will be naked after they have been cloned. Provided you weren't an irresponsible little shit, you should have protected their possessions from thieves and should be able to give them back to the patient.
-				No matter how cruel you are, it's simply against protocol to force your patients to walk outside naked.
+				<a name='10'><h3>Step 10: Bestow Garb of the Adept</h3>
+				Once the clone has been stabilized, they must be equipped with the appropriate garb for their station. For warriors, this may include power armor or sacred relics, while for adepts or engineers, standard-issue robes and insignia may suffice. Make sure that each item is accounted for in the Emperor’s name.
 
-				<a name='11'><h3>Step 11: Send person on their way</h3>
-				Give the patient one last check-over - make sure they don't still have any defects and that they have all their possessions. Ask them how they died, if they know, so that you can report any foul play over the radio.
-				Once you're done, your patient is ready to go back to work! Chances are they do not have Medbay access, so you should let them out of Genetics and the Medbay main entrance.
+				<a name='11'><h3>Step 11: Reassign Clone to Duty</h3>
+				With the clone prepared and ready, assign them to their designated role. Ensure they are made aware of their purpose and reassign them to their original duties or roles within the Adeptus Mechanicus, the Astra Militarum, or other Imperial factions.
 
-				<p>If you've gotten this far, congratulations! You have mastered the art of cloning. Now, the real problem is how to resurrect yourself after that traitor had his way with you for cloning his target.
-
+				<p>The process of cloning, though a marvel of technological achievement, is not without its flaws. The human mind is a fragile thing, and even the most successful clone may suffer from mental degradation, spiritual disquiet, or even subversive tendencies. It is the duty of the Adeptus Mechanicus to monitor these subjects closely, ensuring they remain loyal to the Emperor and the Machine God.</p>
 				</body>
 				</html>
 				"}
+
 
 /obj/item/book/manual/medical_diagnostics_manual
 	name = "Medical Diagnostics Manual"
@@ -113,30 +102,30 @@
 				</head>
 				<body>
 				<br>
-				<h1>The Oath</h1>
+				<h1>The Oath of the Medicae</h1>
 
-				<i>The Medical Oath sworn by recognised medical practitioners in the employ of [GLOB.using_map.company_name]</i><br>
+				<i>The Oath sworn by the sanctioned medicae and apothecarion personnel in the service of the Imperium of Man</i><br>
 
 				<ol>
-					<li>Now, as a new doctor, I solemnly promise that I will, to the best of my ability, serve humanity-caring for the sick, promoting good health, and alleviating pain and suffering.</li>
-					<li>I recognise that the practice of medicine is a privilege with which comes considerable responsibility and I will not abuse my position.</li>
-					<li>I will practise medicine with integrity, humility, honesty, and compassion-working with my fellow doctors and other colleagues to meet the needs of my patients.</li>
-					<li>I shall never intentionally do or administer anything to the overall harm of my patients.</li>
-					<li>I will not permit considerations of gender, race, religion, political affiliation, sexual orientation, nationality, or social standing to influence my duty of care.</li>
-					<li>I will oppose policies in breach of human rights and will not participate in them. I will strive to change laws that are contrary to my profession's ethics and will work towards a fairer distribution of health resources.</li>
-					<li>I will assist my patients to make informed decisions that coincide with their own values and beliefs and will uphold patient confidentiality.</li>
-					<li>I will recognise the limits of my knowledge and seek to maintain and increase my understanding and skills throughout my professional life. I will acknowledge and try to remedy my own mistakes and honestly assess and respond to those of others.</li>
-					<li>I will seek to promote the advancement of medical knowledge through teaching and research.</li>
-					<li>I make this declaration solemnly, freely, and upon my honour.</li>
+					<li>Now, as a new medicae in the service of the Emperor, I solemnly swear, by my honour and the will of the Omnissiah, that I will, to the best of my ability, tend to the wounded, treat the suffering, and preserve the lives entrusted to me in the name of the Imperium.</li>
+					<li>I recognise that the practice of medicae is a sacred duty, entrusted to me by the Emperor Himself, and with this privilege comes the gravest responsibility. I shall not abuse this power.</li>
+					<li>I will carry out my duties with integrity, humility, and unflinching loyalty to the Imperium—working alongside my fellow medicae, apothecarion, and the Adeptus Astartes to ensure the well-being of all Imperial citizens under my care.</li>
+					<li>I shall never intentionally do harm or administer treatment that will weaken or corrupt the sanctity of my patients. Should they be tainted by mutation, heresy, or xenos filth, I shall not hesitate to apply the Emperor’s mercy.</li>
+					<li>I will not allow the considerations of rank, creed, or heritage to influence the care I give to my patients. Every life, whether noble or common, is precious in the eyes of the Emperor.</li>
+					<li>I will oppose any orders or policies that breach the rights of the innocent or violate the Imperial Creed. I will resist heretical practices and will never partake in the betrayal of the Imperium, striving instead to strengthen the unity and purity of the Emperor’s domain.</li>
+					<li>I will ensure that my patients, whether dying or in need of care, are fully informed of their condition and treatment, whilst upholding their right to confidentiality and respect, for their soul is as sacred as their body.</li>
+					<li>I will recognise the limits of my knowledge and shall seek always to advance my understanding of medical practices, whether through study, research, or the sacred rites of the Apothecarion. I will admit my failures and strive to atone for them in the eyes of the Emperor.</li>
+					<li>I shall contribute to the advancement of medical science and the sharing of knowledge, that future generations of medicae might serve the Imperium with greater efficiency and honour.</li>
+					<li>I make this vow before the Emperor, freely, solemnly, and upon my honour, to serve the Imperium with unwavering devotion until my last breath.</li>
 				</ol><br>
 
 				<HR COLOR="steelblue" WIDTH="60%" ALIGN="LEFT">
 
-				<iframe width='100%' height='100%' src="[url]&printable=yes&removelinks=1" frameborder="0" id="main_frame"></iframe>
+				<iframe width='100%' height='100%' src='[url]&printable=yes&removelinks=1' frameborder='0' id='main_frame'></iframe>
 				</body>
 			</html>
-
 		"}
+
 
 /obj/item/book/manual/chemistry_recipes
 	name = "Guide to Medicines & Drugs"

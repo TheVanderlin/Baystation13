@@ -52,7 +52,7 @@
 /turf/simulated/floor/carpet/blue2,
 /area/map_template/deepmaint)
 "jp" = (
-/obj/structure/bed/chair/padded/blue{
+/obj/structure/bed/chair/warhammer/padded/blue{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/blue2,
@@ -198,7 +198,7 @@
 /turf/simulated/floor/carpet/red,
 /area/map_template/deepmaint)
 "At" = (
-/obj/structure/bed/chair/padded/blue,
+/obj/structure/bed/chair/warhammer/padded/blue,
 /turf/simulated/floor/wood/walnut,
 /area/map_template/deepmaint)
 "AK" = (
@@ -389,7 +389,7 @@
 /turf/simulated/floor/carpet/red,
 /area/map_template/deepmaint)
 "YJ" = (
-/obj/structure/bed/chair/padded/blue{
+/obj/structure/bed/chair/warhammer/padded/blue{
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,

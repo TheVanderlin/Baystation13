@@ -9,7 +9,7 @@
 
 /datum/exoplanet_theme/ruined_city
 	name = "Ruined City"
-	ruin_tags_whitelist = RUIN_ALIEN|RUIN_NATURAL|RUIN_WRECK
+	ruin_tags_whitelist = RUIN_ALIEN|RUIN_NATURAL|RUIN_WRECK|RUIN_HABITAT
 	sub_themes = list(/datum/exoplanet_theme/robotic_guardians)
 	var/spooky_ambience = list(
 		'sound/ambience/ominous1.ogg',

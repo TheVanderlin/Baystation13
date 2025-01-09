@@ -1,5 +1,5 @@
 /obj/item/projectile/bullet/pellet/fragment
-	damage = 20
+	damage = 22
 	armor_penetration = 31
 	range_step = 2 //controls damage falloff with distance. projectiles lose a "pellet" each time they travel this distance. Can be a non-integer.
 
@@ -10,10 +10,10 @@
 	fire_sound = null
 	no_attack_log = TRUE
 	muzzle_type = null
-	embed = TRUE
+	embed = TRUE // Maybe test out removing embed later. Be kinda silly for people in power armor to have to do surgery after an explosion. Or modify the code to not embed unless full pen?
 
 /obj/item/projectile/bullet/pellet/fragment/strong
-	damage = 35
+	damage = 37
 	armor_penetration = 33
 
 /obj/item/grenade/frag
@@ -22,7 +22,7 @@
 	icon_state = "frggrenade"
 
 	var/list/fragment_types = list(/obj/item/projectile/bullet/pellet/fragment = 1)
-	var/num_fragments = 30  //total number of fragments produced by the grenade
+	var/num_fragments = 45  //total number of fragments produced by the grenade
 	var/explosion_size = 2   //size of the center explosion
 
 	//The radius of the circle used to launch projectiles. Lower values mean less projectiles are used but if set too low gaps may appear in the spread pattern
@@ -80,14 +80,14 @@
 
 /obj/item/grenade/frag/proc/on_explosion(turf/O)
 	if(explosion_size)
-		explosion(O, explosion_size, EX_ACT_LIGHT)
+		explosion(O, explosion_size, EX_ACT_LIGHT, 0)
 
 /obj/item/grenade/frag/shell
 	name = "fragmentation grenade"
 	desc = "A light fragmentation grenade, designed to be fired from a launcher. It can still be activated and thrown by hand if necessary."
 	icon_state = "fragshell"
 
-	num_fragments = 25 //less powerful than a regular frag grenade
+	num_fragments = 40 //less powerful than a regular frag grenade
 
 /obj/item/grenade/frag/high_yield
 	name = "fragmentation bomb"
@@ -99,8 +99,8 @@
 	throw_range = 7
 
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment=1,/obj/item/projectile/bullet/pellet/fragment/strong=4)
-	num_fragments = 40  //total number of fragments produced by the grenade
-	explosion_size = 3
+	num_fragments = 50  //total number of fragments produced by the grenade
+	explosion_size = 2
 
 /obj/item/grenade/frag/high_yield/on_explosion(turf/O)
 	if(explosion_size)
@@ -111,54 +111,60 @@
 	desc = "A potent anti armor grenade used by the Imperium of Man, mind the blast radius."
 	icon_state = "krak_grenade"
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/strong=1)
-	explosion_size = 5
+	explosion_size = 3
 	throw_range = 5
-	num_fragments = 30
-	w_class = ITEM_SIZE_SMALL
+	num_fragments = 40
+	w_class = ITEM_SIZE_NORMAL
 
 /obj/item/grenade/frag/high_yield/krak/detpack
 	name = "Det Pack"
 	desc = "A standard issue imperial detpack, while simple these explosives when combined with grenades or further detpacks are capable of destroying even baneblades. Stand well clear!"
-	explosion_size = 10
-	num_fragments = 40
+	explosion_size = 4
+	num_fragments = 45 // Same number as a krak grenade but larger explosion radius and can destroy floor tiles.
 	throw_range = 3
 	throw_speed = 2
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE // So nobody carries 10 of them and blows up the entire ship in a minute.
 	icon = 'icons/obj/assemblies.dmi'
 	icon_state = "plastic-explosive0"
 	item_state = "plasticx"
+
+/obj/item/grenade/frag/high_yield/krak/detpack/on_explosion(turf/O)
+	if(explosion_size)
+		explosion(O, round(explosion_size * 1.5), EX_ACT_HEAVY, 0, turf_breaker = TRUE)
 
 /obj/item/grenade/frag/high_yield/krak2
 	name = "Mechanicus Krak Grenade"
 	desc = "An incredibly dangerous and unstable plasma-enchanced Krak Grenade. Stand well clear!"
 	icon_state = "krak_grenade"
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/strong=1)
-	explosion_size = 6
-	num_fragments = 35
+	explosion_size = 4
+	num_fragments = 30 // Mechanicus make it more anti-armor but worse at fragmentation.
 	w_class = ITEM_SIZE_SMALL
 
-/obj/item/grenade/frag/high_yield/homemade
+/obj/item/grenade/frag/homemade
 	name = "Pipe Grenade"
 	desc = "A low yield explosive used by miners to clear out caves and demolish stone."
 	icon_state = "fire_grenade"
 	explosion_size = 1
-	num_fragments = 15
+	num_fragments = 30
 	throw_speed = 4.5
 	throw_range = 8
 	w_class = ITEM_SIZE_SMALL
 
-/obj/item/grenade/frag/plasma
+/obj/item/grenade/frag/high_yield/plasma
 	name = "Plasma Grenade"
 	desc = "A highly lethal plasma grenade, which fires a burst of high-energy plasma when detonating."
 	icon_state = "smoke1"
 	fragment_types = list(/obj/item/projectile/energy/ion/plasma/pellet=1)
-	explosion_size = 5
-	num_fragments = 30
+	explosion_size = 2
+	num_fragments = 40
 	throw_speed = 3
 	throw_range = 6
 	w_class = ITEM_SIZE_SMALL
 
-
+/obj/item/grenade/frag/high_yield/plasma/on_explosion(turf/O)
+	if(explosion_size)
+		explosion(O, round(explosion_size * 1.5), EX_ACT_HEAVY, 0, turf_breaker = TRUE)
 
 /obj/item/grenade/frag/makeshift
 	name = "improvised explosive device"

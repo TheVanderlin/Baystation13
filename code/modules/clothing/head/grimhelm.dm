@@ -446,6 +446,7 @@
 	name = "catachan headband"
 	desc = "Catachan Regiment refuses to acknowledge any sort of protection in favour of their mentality and physical capabilties, Thus. The iconic red headband go with them anywhere they go.. But does it protects them from Bolters or lasguns? No."
 	icon_state = "Catachan_Headband"
+	item_state = "headband"
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-250
 	disorientation = -0.5 // orientates your MINDDD
 	armor = list(

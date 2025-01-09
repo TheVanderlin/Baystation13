@@ -743,7 +743,7 @@
 /obj/item/ammo_magazine/proto_smg
 	name = "submachine gun magazine"
 	icon_state = CALIBER_SLUG_FLECHETTE
-	origin_tech = list(TECH_COMBAT = 4)
+	origin_tech = list(TECH_COMBAT = 2)
 	mag_type = MAGAZINE
 	caliber = CALIBER_SLUG_FLECHETTE
 	matter = list(MATERIAL_STEEL = 2000)
@@ -845,7 +845,7 @@
 /obj/item/ammo_magazine/box/minigun
 	name = "minigun box"
 	icon_state = "minigun"
-	origin_tech = list(TECH_COMBAT = 4)
+	origin_tech = list(TECH_COMBAT = 2)
 	mag_type = MAGAZINE
 	caliber = CALIBER_SLUG_SMALL
 	matter = list(MATERIAL_STEEL = 10000)

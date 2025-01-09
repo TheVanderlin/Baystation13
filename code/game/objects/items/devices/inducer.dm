@@ -11,7 +11,7 @@
 	var/failsafe = 0
 	var/obj/item/cell/cell = /obj/item/cell/standard
 	var/recharging = FALSE
-	origin_tech = list(TECH_POWER = 6, TECH_ENGINEERING = 4)
+	origin_tech = list(TECH_POWER = 3, TECH_ENGINEERING = 3)
 	matter = list(MATERIAL_STEEL = 1000, MATERIAL_GLASS = 700)
 	slot_flags = SLOT_BELT
 

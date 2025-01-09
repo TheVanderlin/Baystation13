@@ -15,7 +15,7 @@
 	throw_speed = 1
 	throw_range = 5
 	w_class = ITEM_SIZE_NORMAL
-	origin_tech = list(TECH_ENGINEERING = 4, TECH_MATERIAL = 2)
+	origin_tech = list(TECH_ENGINEERING = 2, TECH_MATERIAL = 2)
 	var/datum/effect/spark_spread/spark_system
 	var/stored_matter = 0
 	var/max_stored_matter = 120
@@ -170,7 +170,7 @@
 	icon_state = "rcdlarge"
 	matter = list(MATERIAL_STEEL = 45000,MATERIAL_GLASS = 22500)
 	remaining = 120
-	origin_tech = list(TECH_MATERIAL = 4)
+	origin_tech = list(TECH_MATERIAL = 3)
 
 /obj/item/rcd/borg
 	canRwall = 1

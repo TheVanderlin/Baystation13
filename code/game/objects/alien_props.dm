@@ -7,7 +7,7 @@
 	icon = 'icons/obj/xenoarchaeology_finds.dmi'
 	icon_state = "unknown1"
 	maxcharge = 5000
-	origin_tech = list(TECH_POWER = 7)
+	origin_tech = list(TECH_POWER = 3)
 	var/static/base_icon
 
 /obj/item/cell/alien/on_update_icon()

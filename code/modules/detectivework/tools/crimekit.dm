@@ -1,6 +1,6 @@
 //crime scene kit
 /obj/item/storage/briefcase/crimekit
-	name = "crime scene kit"
+	name = "mortis forensics kit"
 	desc = "A stainless steel-plated carrycase for all your forensic needs. Feels heavy."
 	icon = 'icons/obj/forensics.dmi'
 	icon_state = "case"

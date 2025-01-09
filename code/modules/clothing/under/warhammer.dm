@@ -89,9 +89,9 @@
 	worn_state = "zealot"
 	siemens_coefficient = 0.9
 
-/obj/item/clothing/under/administratum
-	name = "administratum underlayers"
-	desc = "voluminous underlayers belonging to an administratum officer."
+/obj/item/clothing/under/voidofficer
+	name = "officer's underlayers"
+	desc = "voluminous underlayers belonging to a void officer."
 	icon_state = "combat"
 	item_state = "bl_suit"
 	worn_state = "combat"

@@ -7,7 +7,7 @@
 	w_class = ITEM_SIZE_TINY
 	light_color = "#e09d37"
 
-	var/available_colours = list(COLOR_WHITE, COLOR_DARK_GRAY, COLOR_RED, COLOR_ORANGE, COLOR_YELLOW, COLOR_GREEN, COLOR_BLUE, COLOR_INDIGO, COLOR_VIOLET)
+	var/available_colours = list(COLOR_ORANGE, COLOR_YELLOW)
 	var/wax
 	var/last_lit
 	var/icon_set = "candle"
@@ -15,7 +15,7 @@
 	var/candle_power
 
 /obj/item/flame/candle/Initialize()
-	wax = rand(27 MINUTES, 33 MINUTES) / SSobj.wait // Enough for 27-33 minutes. 30 minutes on average, adjusted for subsystem tickrate.
+	wax = rand(30 MINUTES, 43 MINUTES) / SSobj.wait // Enough for 27-33 minutes. 30 minutes on average, adjusted for subsystem tickrate.
 	if(available_colours)
 		color = pick(available_colours)
 	. = ..()
@@ -88,4 +88,4 @@
 	max_storage_space = 7
 	slot_flags = SLOT_BELT
 
-	startswith = list(/obj/item/flame/candle = 7)
+	startswith = list(/obj/item/flame/candle = 15)

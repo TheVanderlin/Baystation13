@@ -1,8 +1,8 @@
 /obj/item/grenade/supermatter
-	name = "supermatter grenade"
+	name = "volkite grenade"
 	icon_state = "banana"
 	item_state = "emergency_engi"
-	origin_tech = list(TECH_BLUESPACE = 5, TECH_MAGNET = 4, TECH_ENGINEERING = 5)
+	origin_tech = list(TECH_BLUESPACE = 3, TECH_MAGNET = 4, TECH_ENGINEERING = 4)
 	arm_sound = 'sound/effects/3.wav'
 	var/implode_at
 

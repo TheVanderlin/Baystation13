@@ -5,6 +5,7 @@
 	icon_state = "revolver"
 	item_state = "revolver"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
+	w_class = ITEM_SIZE_LARGE
 	caliber = CALIBER_SLUG_MAGNUM
 	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2)
 	handle_casings = CYCLE_CASINGS

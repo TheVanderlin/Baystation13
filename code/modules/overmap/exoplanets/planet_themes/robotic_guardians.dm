@@ -10,7 +10,7 @@
 	)
 
 /datum/exoplanet_theme/robotic_guardians/before_map_generation(obj/overmap/visitable/sector/exoplanet/E)
-	E.ruin_tags_whitelist |= RUIN_ALIEN
+	E.ruin_tags_whitelist |= RUIN_ALIEN|RUIN_NATURAL|RUIN_WRECK|RUIN_HABITAT
 	E.fauna_types |= guardian_types
 	E.megafauna_types |= mega_guardian_types
 

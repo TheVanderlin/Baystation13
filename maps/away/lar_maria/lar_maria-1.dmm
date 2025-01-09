@@ -603,7 +603,7 @@
 /turf/simulated/floor/tiled/white,
 /area/lar_maria/vir_main)
 "bQ" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/lar_maria/cells)
 "bR" = (
@@ -1015,7 +1015,7 @@
 /turf/simulated/floor/tiled,
 /area/lar_maria/cells)
 "cS" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled,
 /area/lar_maria/cells)
@@ -2544,7 +2544,7 @@
 /turf/simulated/floor/tiled,
 /area/lar_maria/sec_wing)
 "gn" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/lar_maria/vir_access)
 "go" = (

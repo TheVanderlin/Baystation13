@@ -2631,7 +2631,7 @@
 /obj/machinery/alarm{
 	dir = 8
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/carpet/blue,
 /area/abandoned_hotel/buffet)
 "Iz" = (
@@ -3008,7 +3008,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/abandoned_hotel/pool)
 "Nx" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/carpet/blue,
 /area/abandoned_hotel/buffet)
 "NM" = (

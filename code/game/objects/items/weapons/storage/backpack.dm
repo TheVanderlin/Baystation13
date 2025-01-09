@@ -20,7 +20,7 @@
 		)
 	w_class = ITEM_SIZE_HUGE
 	slot_flags = SLOT_BACK
-	max_w_class = ITEM_SIZE_LARGE
+	max_w_class = ITEM_SIZE_HUGE
 	max_storage_space = DEFAULT_BACKPACK_STORAGE
 	open_sound = 'sound/effects/storage/unzip.ogg'
 	allow_slow_dump = TRUE
@@ -246,7 +246,7 @@
 	icon_state = "duffle"
 	item_state_slots = null
 	w_class = ITEM_SIZE_HUGE
-	max_storage_space = DEFAULT_BACKPACK_STORAGE + 10
+	max_storage_space = DEFAULT_BACKPACK_STORAGE + 6
 	worn_access = FALSE
 
 /obj/item/storage/backpack/dufflebag/gangerloot
@@ -377,7 +377,7 @@
 	icon_state = "pocketbook"
 	w_class = ITEM_SIZE_HUGE // to avoid recursive backpacks
 	slot_flags = SLOT_BACK
-	max_w_class = ITEM_SIZE_NORMAL
+	max_w_class = ITEM_SIZE_LARGE
 	max_storage_space = DEFAULT_LARGEBOX_STORAGE
 	color = "#212121"
 
@@ -581,8 +581,8 @@
 	level = ATOM_LEVEL_UNDER_TILE
 	w_class = ITEM_SIZE_NORMAL //Can fit in backpacks itself.
 	storage_slots = 5
-	max_w_class = ITEM_SIZE_NORMAL
-	max_storage_space = DEFAULT_BACKPACK_STORAGE-2
+	max_w_class = ITEM_SIZE_LARGE
+	max_storage_space = DEFAULT_BACKPACK_STORAGE-1
 	contents_banned = list(/obj/item/storage/backpack/satchel/flat)
 	startswith = list(
 		/obj/item/crowbar
@@ -664,26 +664,27 @@
 		/obj/item/clothing/head/helmet/inquisition/shrouded,
 	)
 
-/obj/item/storage/backpack/satchel/warfare/heavy
-	name = "heavy rucksack"
-	desc = "A heavy rucksack."
-	icon_state = "warfare_satchel"
-	max_storage_space = DEFAULT_BACKPACK_STORAGE+2
-	slowdown_general = 0.03
-	max_w_class = ITEM_SIZE_HUGE
-
 /obj/item/storage/backpack/satchel/warfare
 	name = "light satchel"
 	desc = "Fit for war, and not much else."
 	icon_state = "warfare_satchel"
 	max_storage_space = DEFAULT_BACKPACK_STORAGE
 	slowdown_general = 0.015
+	max_w_class = ITEM_SIZE_HUGE
+
+/obj/item/storage/backpack/satchel/warfare/heavy
+	name = "heavy rucksack"
+	desc = "A heavy rucksack."
+	icon_state = "warfare_satchel"
+	max_storage_space = DEFAULT_BACKPACK_STORAGE+3
+	slowdown_general = 0.03
+	max_w_class = ITEM_SIZE_HUGE
 
 /obj/item/storage/backpack/satchel/krieger
 	desc = "Field ready kit, tried and tested through countless encounters."
 	icon_state = "kriegpack"
 	item_state = "kriegpack"
-	max_storage_space = DEFAULT_BACKPACK_STORAGE+1
+	max_storage_space = DEFAULT_BACKPACK_STORAGE+2
 	slowdown_general = 0.023
 	max_w_class = ITEM_SIZE_HUGE
 
@@ -691,21 +692,21 @@
 	desc = "An assembled kit for air filtration, weapon power supply, and basic storage. Perfect to bring with you into no man's land."
 	icon_state = "grenpack"
 	item_state = "grenpack"
-	max_storage_space = DEFAULT_BACKPACK_STORAGE
+	max_storage_space = DEFAULT_BACKPACK_STORAGE+1
 	slowdown_general = 0.015
 
 /obj/item/storage/backpack/satchel/maccabian
 	desc = "Field ready kit, tried and tested through countless encounters."
 	icon_state = "M_Backpack-Icon"
 	item_state = "M_Backpack-Icon"
-	max_storage_space = DEFAULT_BACKPACK_STORAGE
+	max_storage_space = DEFAULT_BACKPACK_STORAGE+1
 	slowdown_general = 0.015
 
 /obj/item/storage/backpack/satchel/maccabian/sergeant
 	desc = "Field ready kit, tried and tested through countless encounters."
 	icon_state = "M_SBackpack-Icon"
 	item_state = "M_SBackpack-Icon"
-	max_storage_space = DEFAULT_BACKPACK_STORAGE
+	max_storage_space = DEFAULT_BACKPACK_STORAGE+1
 	slowdown_general = 0.015
 
 /obj/item/storage/backpack/satchel/ordinate
@@ -717,7 +718,7 @@
 /obj/item/storage/backpack/satchel/warfare/techpriest
 	desc = "BZZZRRRRT."
 	icon_state = "warfare_satchel"
-	max_storage_space = DEFAULT_BACKPACK_STORAGE+2
+	max_storage_space = DEFAULT_BACKPACK_STORAGE+3
 	canremove = FALSE
 	max_w_class = ITEM_SIZE_HUGE
 	// var/can_toggle = 1
@@ -757,7 +758,7 @@
 	item_state = "ultrapack"
 	canremove = 1
 	max_w_class = ITEM_SIZE_HUGE
-	max_storage_space = DEFAULT_BACKPACK_STORAGE+1
+	max_storage_space = DEFAULT_BACKPACK_STORAGE+2
 
 /obj/item/storage/backpack/satchel/astartes/ultramarine
 	name = "Astartes Mark VII Powerpack"

@@ -39,7 +39,7 @@
 						SKILL_VIGOR = SKILL_MASTER)
 
 	access = list(
-		access_dauntless, access_restricted, access_restricted_command, access_mechanicus, access_medical,
+		access_dauntless, access_restricted, access_restricted_command, access_mechanicus, access_mechanicus_command, access_medical,
 		access_medical_command, access_bridge)
 
 	software_on_spawn = list(/datum/computer_file/program/comm,
@@ -141,7 +141,7 @@
 						SKILL_COMBAT = SKILL_LEGEND)
 
 	access = list(
-		access_dauntless, access_restricted, access_restricted_command, access_mechanicus, access_medical,
+		access_dauntless, access_restricted, access_restricted_command, access_mechanicus, access_mechanicus_command, access_medical,
 		access_medical_command, access_bridge)
 
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,

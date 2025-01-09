@@ -1,6 +1,6 @@
 
 /mob/living/exosuit/premade/light/exploration
-	name = "exploration mech"
+	name = "terra-prospector unit"
 	desc = "It looks a bit charred."
 
 /mob/living/exosuit/premade/light/exploration/Initialize()
@@ -30,4 +30,3 @@
 	install_system(new /obj/item/mech_equipment/clamp(src), HARDPOINT_RIGHT_HAND)
 	install_system(new /obj/item/mech_equipment/mounted_system/taser/plasma(src), HARDPOINT_LEFT_HAND)
 	install_system(new /obj/item/mech_equipment/ionjets(src), HARDPOINT_BACK)
-	

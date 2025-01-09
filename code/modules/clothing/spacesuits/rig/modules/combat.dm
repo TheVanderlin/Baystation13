@@ -35,12 +35,12 @@
 	interface_name = "mounted flash"
 	interface_desc = "Disorientates your target by blinding them with this intense palm-mounted light."
 	device = /obj/item/device/flash
-	origin_tech = list(TECH_COMBAT = 2, TECH_MAGNET = 3, TECH_ENGINEERING = 5)
+	origin_tech = list(TECH_COMBAT = 2, TECH_MAGNET = 2, TECH_ENGINEERING = 2)
 
 /obj/item/rig_module/device/flash/advanced
 	name = "advanced mounted flash"
 	device = /obj/item/device/flash/advanced
-	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 3, TECH_ENGINEERING = 5)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 3, TECH_ENGINEERING = 2)
 
 /obj/item/rig_module/device/flash/installed()
 	. = ..()
@@ -274,7 +274,7 @@
 
 	interface_name = "mounted laser cannon"
 	interface_desc = "A shoulder-mounted cell-powered laser cannon."
-	origin_tech = list(TECH_POWER = 6, TECH_COMBAT = 6, TECH_ENGINEERING = 6)
+	origin_tech = list(TECH_POWER = 3, TECH_COMBAT = 3, TECH_ENGINEERING = 2)
 
 	laser = /obj/item/gun/energy/lasercannon/mounted
 
@@ -286,7 +286,7 @@
 
 	interface_name = "mounted ion gun"
 	interface_desc = "A shoulder-mounted cell-powered ion gun."
-	origin_tech = list(TECH_POWER = 6, TECH_COMBAT = 6, TECH_ENGINEERING = 6)
+	origin_tech = list(TECH_POWER = 3, TECH_COMBAT = 4, TECH_ENGINEERING = 3)
 
 	laser = /obj/item/gun/energy/ionrifle/mounted
 
@@ -300,7 +300,7 @@
 
 	interface_name = "mounted energy gun"
 	interface_desc = "A shoulder-mounted suit-powered energy gun."
-	origin_tech = list(TECH_POWER = 6, TECH_COMBAT = 6, TECH_ENGINEERING = 6)
+	origin_tech = list(TECH_POWER = 3, TECH_COMBAT = 3, TECH_ENGINEERING = 3)
 
 	laser = /obj/item/gun/energy/gun/mounted
 
@@ -315,7 +315,7 @@
 
 	interface_name = "mounted electrolaser"
 	interface_desc = "A shoulder-mounted, cell-powered electrolaser."
-	origin_tech = list(TECH_POWER = 5, TECH_COMBAT = 5, TECH_ENGINEERING = 6)
+	origin_tech = list(TECH_POWER = 2, TECH_COMBAT = 2, TECH_ENGINEERING = 3)
 
 	laser = /obj/item/gun/energy/taser/mounted
 
@@ -330,7 +330,7 @@
 
 	interface_name = "mounted plasma cutter"
 	interface_desc = "A forearm-mounted suit-powered plasma cutter."
-	origin_tech = list(TECH_MATERIAL = 5, TECH_PHORON = 4, TECH_ENGINEERING = 7, TECH_COMBAT = 5)
+	origin_tech = list(TECH_MATERIAL = 2, TECH_PHORON = 3, TECH_ENGINEERING = 4, TECH_COMBAT = 2)
 
 	laser = /obj/item/gun/energy/plasmacutter/mounted
 
@@ -417,7 +417,7 @@
 
 	interface_name = "mounted autocannon"
 	interface_desc = "An arm-mounted autocannon. While it carries a large amount of ammo, reloading it takes a very long time. Use an ammo box on your suit control module to reload."
-	origin_tech = list(TECH_POWER = 4, TECH_COMBAT = 8, TECH_ENGINEERING = 6)
+	origin_tech = list(TECH_POWER = 2, TECH_COMBAT = 4, TECH_ENGINEERING = 3)
 
 	ballistic = /obj/item/gun/projectile/automatic/autocannon/mounted ///Reloading handled in automatic.dm
 

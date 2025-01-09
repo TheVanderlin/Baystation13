@@ -19,7 +19,7 @@
 	req_amount = 2
 
 #define PADDED_CHAIR(color) /datum/stack_recipe/furniture/chair/padded/##color{\
-	result_type = /obj/structure/bed/chair/padded/##color;\
+	result_type = /obj/structure/bed/chair/warhammer/padded/##color;\
 	modifiers = list("padded", #color)\
 	}
 PADDED_CHAIR(beige)
@@ -141,12 +141,12 @@ ARMCHAIR(yellow)
 
 /datum/stack_recipe/furniture/pew
 	title = "pew, right"
-	result_type = /obj/structure/bed/chair/pew
+	result_type = /obj/structure/bed/chair/warhammer/pew
 	req_amount = 4
 
 /datum/stack_recipe/furniture/pew_left
 	title = "pew, left"
-	result_type = /obj/structure/bed/chair/pew/left
+	result_type = /obj/structure/bed/chair/warhammer/pew
 	req_amount = 4
 
 /datum/stack_recipe/furniture/table_frame

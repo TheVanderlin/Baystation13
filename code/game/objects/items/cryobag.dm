@@ -5,7 +5,7 @@
 	a hostile enviroment."
 	icon = 'icons/obj/closets/cryobag.dmi'
 	icon_state = "bodybag_folded"
-	origin_tech = list(TECH_BIO = 4)
+	origin_tech = list(TECH_BIO = 2)
 	var/stasis_power
 
 /obj/item/bodybag/cryobag/attack_self(mob/user)

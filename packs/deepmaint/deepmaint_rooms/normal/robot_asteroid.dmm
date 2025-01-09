@@ -29,7 +29,7 @@
 	},
 /area/map_template/deepmaint)
 "h" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/corner/brown/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/map_template/deepmaint)
@@ -254,7 +254,7 @@
 	},
 /area/map_template/deepmaint)
 "T" = (
-/obj/structure/bed/chair/padded/brown{
+/obj/structure/bed/chair/warhammer/padded/brown{
 	dir = 8
 	},
 /obj/floor_decal/corner/brown/mono,

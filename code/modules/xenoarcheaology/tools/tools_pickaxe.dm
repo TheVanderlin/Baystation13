@@ -91,7 +91,7 @@
 	excavation_amount = 1
 	drill_sound = 'sound/items/jaws_pry.ogg'
 	drill_verb = "carefully drilling"
-	origin_tech = list(TECH_MATERIAL = 4, TECH_ENGINEERING = 5)
+	origin_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3)
 	matter = list(MATERIAL_STEEL = 2000, MATERIAL_GLASS = 700, MATERIAL_ALUMINIUM = 250)
 	w_class = ITEM_SIZE_NORMAL
 	force = 12
@@ -131,7 +131,7 @@
 	excavation_amount = 1
 	drill_sound = 'sound/weapons/plasma_cutter.ogg'
 	drill_verb = "carefully cutting"
-	origin_tech = list(TECH_MATERIAL = 4, TECH_PHORON = 4, TECH_ENGINEERING = 6, TECH_BLUESPACE = 2)
+	origin_tech = list(TECH_MATERIAL = 4, TECH_PHORON = 4, TECH_ENGINEERING = 4, TECH_BLUESPACE = 2)
 	matter = list(MATERIAL_STEEL = 1800, MATERIAL_GLASS = 1000, MATERIAL_ALUMINIUM = 500)
 	w_class = ITEM_SIZE_NORMAL
 	force = 12

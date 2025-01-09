@@ -7,7 +7,7 @@
 	w_class = ITEM_SIZE_HUGE
 	force = 10
 	slot_flags = SLOT_BACK
-	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 2, TECH_ESOTERIC = 8)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2, TECH_ESOTERIC = 4)
 	caliber = CALIBER_SNIPER
 	screen_shake = 2 //extra kickback
 	handle_casings = HOLD_CASINGS
@@ -125,7 +125,7 @@
 	icon_state = "dmr"
 	item_state = "dmr"
 	fire_delay = 5
-	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 4, TECH_ESOTERIC = 5)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 4, TECH_ESOTERIC = 3)
 	w_class = ITEM_SIZE_HUGE
 	force = 10
 	caliber = CALIBER_AUTOGUN

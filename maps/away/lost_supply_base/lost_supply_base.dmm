@@ -1649,7 +1649,7 @@
 /turf/simulated/floor/tiled,
 /area/lost_supply_base/supply)
 "fg" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
@@ -1989,7 +1989,7 @@
 /turf/simulated/floor,
 /area/lost_supply_base)
 "gf" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor,
 /area/lost_supply_base)
 "gg" = (

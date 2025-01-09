@@ -536,7 +536,7 @@
 	if(lit)
 		icon_state = "torch1"
 		item_state = "torch1"
-		set_light(5, 7, "#E38F46")
+		set_light(5, 4, "#E38F46")
 	else
 		icon_state = "torch0"
 		item_state = "torch0"
@@ -547,11 +547,21 @@
 
 /obj/item/torch/Process()
 	..()
+	var/datum/gas_mixture/mixture = src.loc.return_air()
+	if(submerged()) // Check if the torch is submerged
+		snuff()
+		return
+	if(mixture)
+		var/pressure = mixture.return_pressure()
+		if(pressure < 16) // Adjust threshold as necessary
+			snuff()
+			return
 	if(prob(1)) //Needs playtesting. This seems a little high.
 		if(istype(src.loc, /obj/structure/torchwall))
 			return //Please don't put out torches that are on the walls.
-		visible_message("A rush of wind puts out the torch.")
-		snuff()
+		visible_message("The torch flickers in the wind.")
+		if(prob(30))
+			snuff()
 
 /obj/item/torch/proc/light(mob/user, var/manually_lit = FALSE)
 	lit = TRUE
@@ -559,14 +569,14 @@
 		user.visible_message("<span class='notice'>\The [user] rips the lighting sheath off their [src].</span>")
 	update_icon()
 	START_PROCESSING(SSprocessing, src)
-	playsound(src, 'sound/items/torch_light.ogg', 50, 0, -1)
+	playsound(src, 'sound/items/torch_light.ogg', 50, 1)
 
 
 /obj/item/torch/proc/snuff()
 	lit = FALSE
 	update_icon()
 	STOP_PROCESSING(SSprocessing, src)
-	playsound(src, 'sound/items/torch_snuff.ogg', 50, 0, -1)
+	playsound(src, 'sound/items/torch_snuff.ogg', 50, 1)
 
 
 /obj/item/torch/attack_self(mob/user)
@@ -578,10 +588,16 @@
 	if(lit)
 		snuff()
 
+
+/obj/item/torch/IsFlameSource()
+	return lit
+
 /obj/item/torch/use_tool(obj/item/W, mob/user, list/click_params)
 	..()
-	if(isFlameOrHeatSource(W))
-		light()
+	if(isflamesource(W))
+		light(user, TRUE)
+	else
+		return
 
 /obj/structure/torchwall
 	name = "torch fixture"
@@ -612,7 +628,7 @@
 	if(lighttorch)
 		if(lighttorch.lit)
 			icon_state = "torchwall1"
-			set_light(4, 5,"#E38F46")
+			set_light(5, 4,"#E38F46")
 
 		else
 			icon_state = "torchwall0"
@@ -714,7 +730,7 @@
 	if(lit)
 		icon_state = "fireplacestand_f"
 		item_state = "fireplacestand_f"
-		set_light(5, 6, "#E38F46")
+		set_light(5, 4, "#E38F46")
 	else
 		icon_state = "fireplacestand"
 		item_state = "fireplacestand"
@@ -781,7 +797,7 @@
 	overlays = overlays.Cut()
 	if(lit)
 		icon_state = "fire_bl"
-		set_light(5, 6, "#E38F46")
+		set_light(5, 5, "#E38F46")
 	else
 		icon_state = "fire_bl"
 		set_light(0,0)
@@ -836,7 +852,7 @@
 	if(lit)
 		icon_state = "cauldron1"
 		item_state = "cauldron1"
-		set_light(5, 6, "#E38F46")
+		set_light(5, 4, "#E38F46")
 	else
 		icon_state = "cauldron0"
 		item_state = "cauldron0"

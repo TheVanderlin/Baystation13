@@ -12,7 +12,7 @@
 	wall_icon_reinf = "reinf_stone"
 	icon_colour = "#007a00"
 	weight = 22
-	stack_origin_tech = list(TECH_MATERIAL = 5)
+	stack_origin_tech = list(TECH_MATERIAL = 3)
 	chem_products = list(
 				/datum/reagent/uranium = 20
 				)
@@ -29,7 +29,7 @@
 	weight = 25
 	hardness = MATERIAL_FLEXIBLE + 5
 	integrity = 100
-	stack_origin_tech = list(TECH_MATERIAL = 4)
+	stack_origin_tech = list(TECH_MATERIAL = 3)
 	sheet_icon_base = "ingot"
 	sheet_singular_name = "ingot"
 	sheet_plural_name = "ingots"
@@ -245,7 +245,7 @@
 	hardness = 120
 	stack_type = /obj/item/stack/material/osmium
 	icon_colour = "#9999ff"
-	stack_origin_tech = list(TECH_MATERIAL = 5)
+	stack_origin_tech = list(TECH_MATERIAL = 3)
 	sheet_icon_base = "ingot"
 	sheet_singular_name = "ingot"
 	sheet_plural_name = "ingots"
@@ -262,7 +262,7 @@
 	wall_name = "bulkhead"
 	stack_type = /obj/item/stack/material/tritium
 	icon_colour = "#777777"
-	stack_origin_tech = list(TECH_MATERIAL = 5)
+	stack_origin_tech = list(TECH_MATERIAL = 3)
 	sheet_icon_base = "puck"
 	sheet_singular_name = "ingot"
 	sheet_plural_name = "ingots"
@@ -293,7 +293,7 @@
 	sheet_icon_base = "sheet-mythril"
 	sheet_has_plural_icon = FALSE
 	icon_colour = "#e6c5de"
-	stack_origin_tech = list(TECH_MATERIAL = 6, TECH_POWER = 6, TECH_MAGNET = 5)
+	stack_origin_tech = list(TECH_MATERIAL = 3, TECH_POWER = 3, TECH_MAGNET = 2)
 	is_fusion_fuel = 1
 	chem_products = list(
 				/datum/reagent/hydrazine = 20
@@ -460,7 +460,7 @@
 	weight = 22
 	integrity = 100
 	hardness = MATERIAL_FLEXIBLE + 10
-	stack_origin_tech = list(TECH_MATERIAL = 4)
+	stack_origin_tech = list(TECH_MATERIAL = 3)
 	chem_products = list(
 		/datum/reagent/silver = 8,
 		/datum/reagent/gold = 8,

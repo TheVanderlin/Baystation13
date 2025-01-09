@@ -16,18 +16,18 @@
 	"}
 	products = list(
 		/obj/item/reagent_containers/food/drinks/bottle/oiljug = 6,
-		/obj/item/storage/belt/utility = 4,
-		/obj/item/clothing/glasses/meson = 4,
-		/obj/item/clothing/gloves/insulated = 4,
-		/obj/item/screwdriver = 12,
-		/obj/item/crowbar = 12,
-		/obj/item/wirecutters = 12,
-		/obj/item/device/multitool = 12,
-		/obj/item/wrench = 12,
-		/obj/item/device/t_scanner = 12,
-		/obj/item/cell/standard = 8,
-		/obj/item/weldingtool = 8,
-		/obj/item/clothing/head/welding = 8,
+		/obj/item/storage/belt/utility = 3,
+		/obj/item/clothing/glasses/meson = 2,
+		/obj/item/clothing/gloves/insulated = 3,
+		/obj/item/screwdriver = 8,
+		/obj/item/crowbar = 8,
+		/obj/item/wirecutters = 8,
+		/obj/item/device/multitool = 4,
+		/obj/item/wrench = 8,
+		/obj/item/device/t_scanner = 5,
+		/obj/item/cell/standard = 4,
+		/obj/item/weldingtool = 6,
+		/obj/item/clothing/head/welding = 4,
 		/obj/item/light/tube = 10,
 		/obj/item/stock_parts/scanning_module = 5,
 		/obj/item/stock_parts/micro_laser = 5,
@@ -36,7 +36,7 @@
 		/obj/item/stock_parts/console_screen = 5,
 		/obj/item/stock_parts/capacitor = 5,
 		/obj/item/stock_parts/keyboard = 5,
-		/obj/item/stock_parts/power/apc/buildable = 5
+		/obj/item/stock_parts/power/apc/buildable = 7
 	)
 	rare_products = list(
 		/obj/item/device/suit_sensor_jammer = 50,
@@ -47,6 +47,6 @@
 	)
 	antag = list(
 		/obj/item/device/encryptionkey/syndicate = 2,
-		/obj/item/device/suit_sensor_jammer = 0,
-		/obj/item/device/radio/intercept = 0
+		/obj/item/device/suit_sensor_jammer = 1,
+		/obj/item/device/radio/intercept = 1
 	)

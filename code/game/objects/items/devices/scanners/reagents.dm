@@ -33,4 +33,4 @@
 	icon = 'icons/obj/tools/spectrometer_advanced.dmi'
 	icon_state = "adv_spectrometer"
 	details = 1
-	origin_tech = list(TECH_MAGNET = 4, TECH_BIO = 2)
+	origin_tech = list(TECH_MAGNET = 3, TECH_BIO = 2)

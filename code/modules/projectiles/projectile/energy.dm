@@ -259,7 +259,7 @@
 
 /obj/item/projectile/bullet/heavyplasma/on_hit(atom/target)
 	// Trigger the explosion effect
-	explosion(src.loc, 3, EX_ACT_LIGHT)
+	explosion(src.loc, 2, EX_ACT_LIGHT)
 	..()
 
 /obj/item/projectile/bullet/railgun
@@ -272,7 +272,7 @@
 
 /obj/item/projectile/bullet/railgun/on_hit(atom/target)
 	// Trigger the explosion effect
-	explosion(src.loc, 1, EX_ACT_LIGHT)
+	explosion(src.loc, 0.5, EX_ACT_LIGHT)
 	..()
 
 /obj/item/projectile/energy/pulsepistol

@@ -42,7 +42,7 @@
 
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
 	slot_flags = SLOT_BELT
-	origin_tech = list(TECH_MAGNET = 3, TECH_MATERIAL = 2)
+	origin_tech = list(TECH_MAGNET = 1, TECH_MATERIAL = 1)
 
 	var/max_uses = 32
 	var/uses = 32

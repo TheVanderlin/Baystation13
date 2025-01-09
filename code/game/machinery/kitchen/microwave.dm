@@ -482,7 +482,7 @@
 	icon = 'icons/map_project/farm_content.dmi'
 	icon_state = "samovar_active"
 
-/obj/machinery/microwave/on_update_icon()
+/obj/machinery/microwave/distillery/on_update_icon()
 	if(dirtiness == 100)
 		icon_state = "samovar_active"
 	else if(broken)

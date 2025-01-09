@@ -3,7 +3,7 @@
 /turf/simulated/floor,
 /area/map_template/deepmaint)
 "b" = (
-/obj/structure/bed/chair/padded/brown{
+/obj/structure/bed/chair/warhammer/padded/brown{
 	dir = 4
 	},
 /obj/floor_decal/corner/lightgrey/mono,
@@ -60,7 +60,7 @@
 /turf/simulated/floor/plating,
 /area/map_template/deepmaint)
 "k" = (
-/obj/structure/bed/chair/padded/brown{
+/obj/structure/bed/chair/warhammer/padded/brown{
 	dir = 4
 	},
 /obj/floor_decal/corner/lightgrey/mono,
@@ -73,7 +73,7 @@
 	},
 /area/map_template/deepmaint)
 "m" = (
-/obj/structure/bed/chair/padded/brown{
+/obj/structure/bed/chair/warhammer/padded/brown{
 	dir = 1
 	},
 /obj/floor_decal/corner/lightgrey/mono,
@@ -123,7 +123,7 @@
 	},
 /area/map_template/deepmaint)
 "v" = (
-/obj/structure/bed/chair/padded/brown{
+/obj/structure/bed/chair/warhammer/padded/brown{
 	dir = 8
 	},
 /obj/floor_decal/corner/lightgrey/mono,
@@ -189,7 +189,7 @@
 /turf/simulated/mineral/random,
 /area/map_template/deepmaint)
 "F" = (
-/obj/structure/bed/chair/padded/brown{
+/obj/structure/bed/chair/warhammer/padded/brown{
 	dir = 8
 	},
 /obj/floor_decal/corner/lightgrey/mono,
@@ -239,7 +239,7 @@
 /turf/simulated/floor/tiled,
 /area/map_template/deepmaint)
 "M" = (
-/obj/structure/bed/chair/padded/brown,
+/obj/structure/bed/chair/warhammer/padded/brown,
 /obj/floor_decal/corner/lightgrey/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/map_template/deepmaint)

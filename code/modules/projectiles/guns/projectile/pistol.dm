@@ -1,6 +1,7 @@
 
 /obj/item/gun/projectile/pistol
 	load_method = MAGAZINE
+	w_class = ITEM_SIZE_LARGE
 	caliber = CALIBER_SLUG
 	magazine_type = /obj/item/ammo_magazine/pistol
 	allowed_magazines = /obj/item/ammo_magazine/pistol
@@ -93,7 +94,7 @@
 	icon = 'icons/obj/guns/holdout_pistol.dmi'
 	icon_state = "pistol"
 	item_state = null
-	w_class = ITEM_SIZE_SMALL
+	w_class = ITEM_SIZE_NORMAL
 	caliber = CALIBER_SLUG_SMALL
 	fire_delay = 3.4
 	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2, TECH_ESOTERIC = 2)

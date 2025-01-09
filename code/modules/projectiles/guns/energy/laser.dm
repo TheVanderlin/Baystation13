@@ -5,7 +5,7 @@
 	icon_state = "laser"
 	item_state = "laser"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_BACK
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	safety_state = 1 // Lasguns are on safe by default.
 	force = 10
 	fire_delay = 4
@@ -58,7 +58,7 @@
 	item_state = "retro"
 	desc = "An older model of the basic lasergun. Nevertheless, it is still quite deadly and easy to maintain, making it a favorite amongst pirates and other outlaws."
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_HOLSTER
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 	projectile_type = /obj/item/projectile/beam
 	fire_delay = 4 //old technology, and a pistol
 
@@ -83,7 +83,7 @@
 	icon_state = "lasercannon"
 	icon = 'icons/obj/guns/laser_cannon.dmi'
 	item_state = null
-	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_POWER = 3)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_POWER = 3)
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_BACK
 	one_hand_penalty = 2 //large and heavy
 	w_class = ITEM_SIZE_HUGE
@@ -113,7 +113,7 @@
 	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 3, TECH_MAGNET = 2, TECH_ESOTERIC = 2)
 	projectile_type = /obj/item/projectile/beam/xray/midlaser
 	one_hand_penalty = 2
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	charge_cost = 15
 	max_shots = 10
 	wielded_item_state = "gun_wielded"
@@ -126,10 +126,10 @@
 	icon_state = "oldxray"
 	item_state = "oldxray"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_HOLSTER
-	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_MAGNET = 2, TECH_ESOTERIC = 2)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_MAGNET = 2, TECH_ESOTERIC = 2)
 	projectile_type = /obj/item/projectile/beam/xray
 	one_hand_penalty = 1
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_HUGE
 	fire_delay = 4
 
 /obj/item/gun/energy/sniperrifle
@@ -138,7 +138,7 @@
 	icon = 'icons/obj/guns/laser_sniper.dmi'
 	icon_state = "sniper"
 	item_state = "laser"
-	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 5, TECH_POWER = 4)
+	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 5, TECH_POWER = 3)
 	projectile_type = /obj/item/projectile/beam/sniper
 	one_hand_penalty = 3 // The weapon itself is heavy, and the long barrel makes it hard to hold steady with just one hand.
 	slot_flags = SLOT_BACK
@@ -166,7 +166,7 @@
 	icon_state = "lasgun"
 	item_state = "lasgun"
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	force = 14
 	one_hand_penalty = 2
 	fire_delay = 3.5
@@ -188,7 +188,7 @@
 	icon_state = "lasgun"
 	item_state = "lasgun"
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	force = 14
 	one_hand_penalty = 2
 	fire_delay = 3.7
@@ -213,7 +213,7 @@
 	icon_state = "laspistolciv"
 	item_state = "hrrevolver"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_HOLSTER
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 	force = 12
 	accuracy = -1
 	fire_delay = 3.9
@@ -230,6 +230,7 @@
 	name = "grim laspistol"
 	desc = "The Laspistol variant of the Grim Lasrifle. Forged together by spare parts and significant ingenuity."
 	icon_state = "semip"
+	w_class = ITEM_SIZE_NORMAL
 	fire_delay = 4
 	charge_cost = 36
 	accuracy = -1
@@ -283,7 +284,7 @@
 	desc = "An older pattern of the Accatran Laspistols. Fully auto but extremely power inefficient and somewhat inaccurate."
 	icon_state = "accatranp"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_HOLSTER
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 	charge_meter = TRUE // accatran has icons for charge
 	force = 10
 	accuracy = 0
@@ -322,13 +323,12 @@
 	icon_state = "hellpistol"
 	item_state = "hrrevolver" // hrrevolver is for cool looking pistols/laspistols
 	charge_meter = FALSE // hellpistol has no charge icons
-	w_class = ITEM_SIZE_NORMAL
 	force = 12
 	one_hand_penalty = 0.5
 	fire_delay = 3.9
 	accuracy = -0.5
 	self_recharge = 0
-	origin_tech = list(TECH_COMBAT = 4, TECH_MAGNET = 4)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 3)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	projectile_type = /obj/item/projectile/beam/lasgun/hotshot
 	charge_cost = 55
@@ -362,7 +362,7 @@
 	icon_state = "lasgun"
 	item_state = "lasgun"
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	force = 12
 	one_hand_penalty = 3
 	fire_delay = 3.7
@@ -390,7 +390,7 @@
 	item_state = "lascar"
 	icon = 'icons/obj/guns/40k.dmi'
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	force = 17
 	one_hand_penalty = 1.5
 	fire_delay = 3.5
@@ -405,7 +405,7 @@
 
 	firemodes = list(
 		list(mode_name="single", projectile_type=/obj/item/projectile/beam/lasgun, charge_cost=20, burst=1, burst_delay=2.5, fire_delay=3.5),
-		list(mode_name="overcharge", projectile_type=/obj/item/projectile/beam/lasgun/overcharge, charge_cost=30, burst=1, burst=2.5, burst_delay=2.5, fire_delay=3.9),
+		list(mode_name="overcharge", projectile_type=/obj/item/projectile/beam/lasgun/overcharge, charge_cost=30, burst=1, burst=1, burst_delay=2.5, fire_delay=3.9),
 		list(mode_name="burst", projectile_type=/obj/item/projectile/beam/lasgun, charge_cost=20, burst=3, burst_delay=2.5, fire_delay=3.5)
 		)
 
@@ -415,7 +415,7 @@
 	icon_state = "lucius"
 	item_state = "luscius"
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	force = 16
 	one_hand_penalty = 1.2
 	fire_delay = 4.2
@@ -441,7 +441,7 @@
 	icon_state = "accatran"
 	item_state = "lascar"
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_HUGE
 	force = 13
 	one_hand_penalty = 0.7
 	fire_delay = 3
@@ -467,14 +467,14 @@
 	item_state = "lascar"
 	charge_meter = FALSE // No icons for hellguns or hotshots.
 	slot_flags = SLOT_BACK
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_GARGANTUAN
 	force = 14
 	one_hand_penalty = 1.7
 	fire_delay = 4.2
 	accuracy = 0
 	self_recharge = 1
 	recharge_time = 9
-	origin_tech = list(TECH_COMBAT = 4, TECH_MAGNET = 4)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 3)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	projectile_type = /obj/item/projectile/beam/lasgun/hotshot
 	charge_cost = 33
@@ -518,14 +518,14 @@
 	item_state = "hevluscius"
 	charge_meter = TRUE
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_GARGANTUAN
 	force = 13
 	one_hand_penalty = 1.5
 	fire_delay = 4
 	accuracy = 0.2
 	self_recharge = 1
 	recharge_time = 11
-	origin_tech = list(TECH_COMBAT = 4, TECH_MAGNET = 4)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 3)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	projectile_type = /obj/item/projectile/beam/incendiary_laser
 	charge_cost = 40
@@ -591,13 +591,13 @@
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	projectile_type = /obj/item/projectile/bullet/heavyplasma
 	cell_type = /obj/item/cell/device/high/mechanicus
-	charge_cost = 100
+	charge_cost = 60
 	wielded_item_state = "plasmarifle-wielded"
 	sales_price = 75
 	slowdown_general = 0.06
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=60, burst=1, burst_delay=2.4, fire_delay=10),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=100, burst=1, burst_delay=2.2, fire_delay=16)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=100, burst=1, burst_delay=2.2, fire_delay=18)
 		)
 
 /obj/item/gun/energy/plasma/pistol // Better stats as plasma pistols are more often rare DAOT tech and not Forge-World manufactured.
@@ -622,7 +622,7 @@
 	slowdown_general = 0.03
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=2.4, fire_delay=10),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=16)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=18)
 		)
 
 /obj/item/gun/energy/plasma/pistol/chaos
@@ -633,7 +633,7 @@
 	accuracy = 0.5
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=35, burst=1, burst_delay=2.4, fire_delay=10),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=75, burst=1, burst_delay=2.2, fire_delay=16)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=75, burst=1, burst_delay=2.2, fire_delay=18)
 		)
 
 /obj/item/gun/energy/plasma/pistol/mechanicus
@@ -646,7 +646,7 @@
 	fire_delay = 15
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=2.4, fire_delay=9),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=15)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=17)
 		)
 
 /obj/item/gun/energy/plasma/pistol/xenos
@@ -656,7 +656,7 @@
 	item_state = "pulse_pistol"
 	charge_meter = FALSE
 	w_class = ITEM_SIZE_NORMAL
-	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER|SLOT_HOLSTER
+	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
 	wielded_item_state = "pulse_pistol"
 	accuracy = 0.5
 	charge_cost = 70
@@ -664,7 +664,7 @@
 	slowdown_general = 0
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=30, burst=1, burst_delay=2.4, fire_delay=11),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=70, burst=1, burst_delay=2.2, fire_delay=17)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=70, burst=1, burst_delay=2.2, fire_delay=19)
 		)
 
 /obj/item/gun/energy/plasma/pistol/archeotech
@@ -678,7 +678,7 @@
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=11, fire_delay=9),
 		list(mode_name="burst", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=50, burst=3, burst_delay=11, fire_delay=9),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=11, fire_delay=15)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=11, fire_delay=17)
 		)
 
 //Tau weapons
@@ -707,7 +707,7 @@
 	slowdown_general = 0.07
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=2.4, fire_delay=7),
-		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=15)
+		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=2.2, fire_delay=17)
 		)
 
 /obj/item/gun/energy/tau/railgun
@@ -739,7 +739,7 @@
 	icon_state = "pulsep"
 	item_state = "pulsep"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_HOLSTER
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 	charge_meter = FALSE
 	force = 12
 	accuracy = -0.5
@@ -762,7 +762,7 @@
 	icon_state = "pulseb"
 	item_state = "pulseb"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_BACK
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_GARGANTUAN
 	charge_meter = FALSE
 	force = 14
 	accuracy = 0

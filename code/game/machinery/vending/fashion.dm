@@ -30,10 +30,10 @@
 		/obj/item/storage/wallet/poly = 600
 	)
 	products = list(
-		/obj/item/mirror = 8,
-		/obj/item/haircomb = 8,
-		/obj/item/clothing/glasses/monocle = 5,
-		/obj/item/clothing/glasses/sunglasses = 5,
+		/obj/item/mirror = 6,
+		/obj/item/haircomb = 6,
+		/obj/item/clothing/glasses/monocle = 3,
+		/obj/item/clothing/glasses/sunglasses = 4,
 		/obj/item/lipstick = 3,
 		/obj/item/lipstick/black = 3,
 		/obj/item/lipstick/purple = 3,

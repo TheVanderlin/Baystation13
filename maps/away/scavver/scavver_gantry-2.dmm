@@ -2133,7 +2133,7 @@
 /turf/simulated/floor,
 /area/scavver/yachtup)
 "rp" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/item/crowbar,
 /obj/item/crowbar,
 /obj/floor_decal/industrial/outline/blue,

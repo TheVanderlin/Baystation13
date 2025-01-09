@@ -7,7 +7,7 @@
 	w_class = ITEM_SIZE_TINY
 	max_amount = 50
 	item_flags = ITEM_FLAG_NO_BLUDGEON
-	origin_tech = list(TECH_MATERIAL = 6, TECH_BLUESPACE = 4)
+	origin_tech = list(TECH_MATERIAL = 3, TECH_BLUESPACE = 4)
 
 /obj/item/stack/telecrystal/use_after(obj/item/I, mob/living/user, click_parameters)
 	if (!istype(I))

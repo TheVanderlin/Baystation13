@@ -30,7 +30,7 @@
 	self_recharge = 1
 
 	projectile_type = /obj/item/projectile/beam/stun
-	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 5, TECH_POWER = 3)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_POWER = 3)
 	modifystate = "skrell_pistol_stun"
 
 	firemodes = list(

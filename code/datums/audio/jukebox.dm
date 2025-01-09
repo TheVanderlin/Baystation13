@@ -22,11 +22,22 @@
 	if (QDELETED(_owner) || !isatom(_owner))
 		qdel(src)
 		return
+
 	owner = _owner
 	tracks = list()
-	for (var/path in GLOB.jukebox_tracks)
+
+	// Determine which track list to use
+	var/list/track_list
+	if (istype(owner, /obj/machinery/jukebox/old/tavern))
+		track_list = GLOB.tavern_tracks  // Use tavern-specific tracks
+	else
+		track_list = GLOB.jukebox_tracks  // Use regular jukebox tracks
+
+	// Add tracks to the jukebox
+	for (var/path in track_list)
 		var/singleton/audio/track/track = GET_SINGLETON(path)
 		AddTrack(track.display || track.title, track.source)
+
 	sound_id = "[/jukebox]_[sequential_id(/jukebox)]"
 	template = _template
 	ui_title = _ui_title
@@ -191,4 +202,14 @@ GLOBAL_LIST_INIT(jukebox_tracks, list(
 	/singleton/audio/track/voidsent,
 	/singleton/audio/track/wake,
 	/singleton/audio/track/wildencounters
+))
+
+GLOBAL_LIST_INIT(tavern_tracks, list(
+	/singleton/audio/track/tavern1,
+	/singleton/audio/track/tavern2,
+	/singleton/audio/track/tavern3,
+	/singleton/audio/track/tavern4,
+	/singleton/audio/track/tavern5,
+	/singleton/audio/track/tavern6,
+	/singleton/audio/track/tavern7
 ))

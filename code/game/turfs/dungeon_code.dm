@@ -259,9 +259,9 @@
 	name = "crate"
 	desc = "A rectangular steel crate."
 	icon = 'icons/obj/storage.dmi'
-	icon_state = "cgold"
-	icon_opened = "cgoldopen"
-	icon_closed = "cgold"
+	icon_state = "gcrate"
+	icon_opened = "gcrateopen"
+	icon_closed = "gcrate"
 	health_max = 600
 	closet_appearance = null // If you remove this closets break.
 
@@ -310,17 +310,6 @@
 		/obj/random/fish = 3
 	)
 
-
-/obj/structure/closet/crate/warhammer/large
-	name = "large crate"
-	desc = "A hefty metal crate with an electronic locking system."
-	icon = 'icons/obj/storage.dmi'
-	icon_state = "ancientclosed"
-	icon_opened = "ancientopen"
-	icon_closed = "ancientclosed"
-	storage_capacity = 2 * MOB_LARGE
-	storage_types = CLOSET_STORAGE_ITEMS|CLOSET_STORAGE_STRUCTURES
-
 /obj/structure/closet/crate/warhammer/cargo
 	name = "cargo crate"
 	desc = "A hefty metal crate with an electronic locking system."
@@ -351,14 +340,12 @@
 	close_sound = 'sound/items/Deconstruct.ogg'
 	setup = CLOSET_HAS_LOCK
 	storage_types = CLOSET_STORAGE_ITEMS|CLOSET_STORAGE_STRUCTURES
-	locked = TRUE
 
 /obj/structure/closet/crate/warhammer/secure
 	name = "secure crate"
 	desc = "A heavy, metal crate with an electronic lock."
 	setup = CLOSET_HAS_LOCK
 	storage_types = CLOSET_STORAGE_ITEMS|CLOSET_STORAGE_STRUCTURES
-	locked = TRUE
 	icon_state = "ecrate"
 	icon_opened = "ecrateopen"
 	icon_closed = "ecrate"
@@ -366,6 +353,7 @@
 /obj/structure/closet/crate/warhammer/xenos
 	name = "xenos crate"
 	desc = "A xenos secure crate."
+	setup = CLOSET_HAS_LOCK
 	icon = 'icons/map_project/port/objects.dmi'
 	icon_state = "secure_crate"
 	icon_opened = "secure_crate2"
@@ -373,6 +361,7 @@
 
 /obj/structure/closet/crate/warhammer/xenos/chest
 	name = "xenos chest"
+	setup = CLOSET_HAS_LOCK
 	desc = "A xenos secure chest."
 	icon_state = "chest"
 	icon_opened = "chest2"
@@ -380,6 +369,7 @@
 
 /obj/structure/closet/crate/warhammer/xenos/chest2
 	name = "xenos chest"
+	setup = CLOSET_HAS_LOCK
 	desc = "A xenos secure chest."
 	icon_state = "chest_white"
 	icon_opened = "chest_white2"
@@ -387,6 +377,7 @@
 
 /obj/structure/closet/crate/warhammer/xenos/chest3
 	name = "xenos chest"
+	setup = CLOSET_HAS_LOCK
 	desc = "A xenos secure chest."
 	icon_state = "crate_ds_blue1"
 	icon_opened = "crate_ds_blue1_open"
@@ -403,6 +394,7 @@
 /obj/structure/closet/crate/warhammer/safe
 	name = "secure safe"
 	desc = "A secure safe."
+	setup = CLOSET_HAS_LOCK
 	icon = 'icons/map_project/port/structures.dmi'
 	icon_state = "safe"
 	icon_opened = "safe-open"
@@ -413,6 +405,7 @@
 	name = "secure safe"
 	desc = "A secure safe."
 	icon = 'icons/map_project/port/structures.dmi'
+	setup = CLOSET_HAS_LOCK
 	icon_state = "floorsafe"
 	icon_opened = "floorsafe-open"
 	icon_closed = "floorsafe"

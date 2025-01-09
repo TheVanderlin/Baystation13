@@ -104,35 +104,46 @@
 	if(buckled_mob)
 		buckled_mob.set_dir(dir)
 
-/obj/structure/bed/chair/padded/red/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+
+/obj/structure/bed/chair/warhammer/padded/red/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, MATERIAL_CARPET)
+	name = "chair"
 
-/obj/structure/bed/chair/padded/brown/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+/obj/structure/bed/chair/warhammer/padded/brown/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, MATERIAL_LEATHER_GENERIC)
+	name = "chair"
 
-/obj/structure/bed/chair/padded/teal/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+/obj/structure/bed/chair/warhammer/padded/teal/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "teal")
+	name = "chair"
 
-/obj/structure/bed/chair/padded/black/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+/obj/structure/bed/chair/warhammer/padded/black/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "black")
+	name = "chair"
 
-/obj/structure/bed/chair/padded/green/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+/obj/structure/bed/chair/warhammer/padded/green/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "green")
+	name = "chair"
 
-/obj/structure/bed/chair/padded/purple/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+/obj/structure/bed/chair/warhammer/padded/purple/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "purple")
+	name = "chair"
 
-/obj/structure/bed/chair/padded/blue/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+/obj/structure/bed/chair/warhammer/padded/blue/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "blue")
+	name = "chair"
 
-/obj/structure/bed/chair/padded/beige/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+/obj/structure/bed/chair/warhammer/padded/beige/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "beige")
+	name = "chair"
 
-/obj/structure/bed/chair/padded/lime/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+/obj/structure/bed/chair/warhammer/padded/lime/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "lime")
+	name = "chair"
 
-/obj/structure/bed/chair/padded/yellow/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+/obj/structure/bed/chair/warhammer/padded/yellow/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "yellow")
+	name = "chair"
 
 // Leaving this in for the sake of compilation.
 /obj/structure/bed/chair/comfy
@@ -143,33 +154,43 @@
 
 /obj/structure/bed/chair/comfy/brown/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, MATERIAL_LEATHER_GENERIC)
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/red/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, MATERIAL_CARPET)
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/teal/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "teal")
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/black/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "black")
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/green/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "green")
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/purple/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "purple")
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/blue/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "blue")
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/beige/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "beige")
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/lime/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "lime")
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/yellow/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "yellow")
+	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/captain
 	name = "captain chair"
@@ -393,111 +414,98 @@
 	color = WOOD_COLOR_CHOCOLATE
 	chair_material = MATERIAL_WALNUT
 
-/obj/structure/bed/chair/pew
+/obj/structure/bed/chair/warhammer/on_update_icon()
+	icon_state = "[icon_state]"
+
+/obj/structure/bed/chair/warhammer/pew
 	name = "pew"
 	desc = "A long, simple bench with a backboard, commonly found in places of worship, courtrooms and so on. Not known for being particularly comfortable."
-	icon_state = "pew"
-	base_icon = "pew"
-	color = WOOD_COLOR_GENERIC
-	/// String (One of `MATERIAL_*`). Base material for the chair. Only used if `New()` is not passed a material.
-	var/material/pew_material = MATERIAL_WOOD
-	obj_flags = 0
 	buckle_movable = FALSE
+	base_icon = "pewchair_center"
+	icon = 'icons/map_project/furniture_and_decor.dmi'
+	icon_state = "pewchair_center"
 
-/obj/structure/bed/chair/pew/left
-	icon_state = "pew_left"
-	base_icon = "pew_left"
+/obj/structure/bed/chair/warhammer/pew/rotate()//Can't rotate it.
+	return
 
-/obj/structure/bed/chair/pew/New(newloc, _material)
-	..(newloc, _material? _material : pew_material)
-	set_color(material.icon_colour)
-
-/obj/structure/bed/chair/pew/mahogany
-	color = WOOD_COLOR_RICH
-	pew_material = MATERIAL_MAHOGANY
-
-/obj/structure/bed/chair/pew/left/mahogany
-	color = WOOD_COLOR_RICH
-	pew_material = MATERIAL_MAHOGANY
-
-/obj/structure/bed/chair/stoolw
+/obj/structure/bed/chair/warhammer/stoolw
 	name = "\the bar stool"
 	desc = "An old steel stool."
 	base_icon = "bar_black"
 	icon_state = "bar_black"
 
-/obj/structure/bed/chair/stoolw/wood
+/obj/structure/bed/chair/warhammer/stoolw/wood
 	desc = "An old wood stool."
 	base_icon = "barstool"
 	icon_state = "barstool"
 
-/obj/structure/bed/chair/stoolw/rotate()//Can't rotate it.
+/obj/structure/bed/chair/warhammer/stoolw/rotate()//Can't rotate it.
 	return
 
-/obj/structure/bed/chair/throne
+/obj/structure/bed/chair/warhammer/throne
 	name = "\the rogue throne"
 	desc = "Fit for baron, count, or even duke. Surely fit for your sorry rear end."
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	base_icon = "cave_throne"
 	icon_state = "cave_throne"
 
-/obj/structure/bed/chair/throne/two
+/obj/structure/bed/chair/warhammer/throne/two
 	name = "imperial throne"
 	desc = "An expensive and serious looking chair to use on an office."
 	base_icon = "comm"
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	icon_state = "comm"
 
-/obj/structure/bed/chair/throne/three
+/obj/structure/bed/chair/warhammer/throne/three
 	name = "imperial throne"
 	desc = "An expensive and serious looking chair to use on an office."
 	base_icon = "chair"
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	icon_state = "chair"
 
-/obj/structure/bed/chair/ancient_throne
+/obj/structure/bed/chair/warhammer/ancient_throne
 	name = "ancient throne"
 	desc = "An old throne that seems to be made out of metal, how long it's been there is unknown."
 	base_icon = "Chair"
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	icon_state = "Chair"
 
-/obj/structure/bed/chair/wood/simple
+/obj/structure/bed/chair/warhammer/wood
 	name = "simple wood chair"
 	desc = "A simple wooden chair."
 	base_icon = "cave_wooden_chair"
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	icon_state = "cave_wooden_chair"
 
-/obj/structure/bed/chair/wood/fancy
+/obj/structure/bed/chair/warhammer/wood/fancy
 	name = "fancy wood chair"
 	desc = "An elegant and well crafted chair."
 	base_icon = "wooden_chair"
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	icon_state = "wooden_chair"
 
-/obj/structure/bed/chair/wood/fancy/comfy1
+/obj/structure/bed/chair/warhammer/wood/fancy/comfy1
 	name = "expensive chair"
 	desc = "A chair that was possibly done by imperial war orphans, the materials seem of very high quality though."
 	base_icon = "comfychair_brown"
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	icon_state = "comfychair_brown"
 
-/obj/structure/bed/chair/wood/fancy/comfy2
+/obj/structure/bed/chair/warhammer/wood/fancy/comfy2
 	name = "antique chair"
 	desc = "This chairs very old, possibly dating from 100-200 years old with the state of it, seems it's been mantained quite properly."
 	base_icon = "comfychair2"
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	icon_state = "comfychair2"
 
-/obj/structure/bed/chair/cage
+/obj/structure/bed/chair/warhammer/cage
 	name = "cage"
 	desc = "A horrible cramped cage."
 	icon = 'icons/obj/furniture.dmi'
 	base_icon = "cage1"
 	icon_state = "cage1"
 
-/obj/structure/bed/chair/altar
+/obj/structure/bed/chair/warhammer/altar
 	name = "altar"
 	desc = "A disgusting stone altar."
 	icon = 'icons/obj/furniture.dmi'

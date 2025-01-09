@@ -100,7 +100,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
 	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	max_force = 60
 	force_multiplier = 0.34 // 0.34 = 34 Force damage wielded.
 	unwielded_force_divisor = 0.31
@@ -120,7 +120,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	desc = "A lightweight iron blade with near perfect balance, designed for short quick thrusts -- favoured by the merchant class and the occasional assassin."
 	icon_state = "spatha"
 	item_state = "spatha"
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 	attack_cooldown_modifier = 0.7
 	max_force = 55
 	force_multiplier = 0.33
@@ -146,6 +146,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	icon_state = "claymore"
 	item_state = "claymore"
 	attack_cooldown_modifier = 1
+	w_class = ITEM_SIZE_HUGE
 	max_force = 70
 	force_multiplier = 0.41 // Dedicated two hander gets good stats. Balanced by being bad at one-handed fighting.
 	unwielded_force_divisor = 0.36
@@ -170,7 +171,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	desc = "A light primitive blade made of scrap iron, a common sight in the underhives of imperial worlds."
 	icon_state = "machete_imp"
 	item_state = "salvagedmachete"
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_HOLSTER
 	attack_cooldown_modifier = 1
 	max_force = 65
@@ -186,7 +187,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	desc = "A heavy primitive blade made of scrap iron, a common sight in the underhives of imperial worlds."
 	icon_state = "scrapsabre"
 	item_state = "salvagedmachete"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	attack_cooldown_modifier = 1.2
 	max_force = 75
 	force_multiplier = 0.44
@@ -211,7 +212,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	desc = "A mastercrafted fighting sword of exceptional quality, it's design a perfect balance between speed and strength."
 	icon_state = "commissword"
 	item_state = "commissword"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	max_force = 75
 	force_multiplier = 0.39
 	unwielded_force_divisor = 0.35
@@ -237,7 +238,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	desc = "The very sight of this blade makes you sick to your stomach."
 	icon_state = "Scorpion_CS"
 	item_state = "Scorpion_CS"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	max_force = 100
 	force_multiplier = 0.42
 	unwielded_force_divisor = 0.38
@@ -260,7 +261,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	attack_verb = list("bashed", "chopped", "slashed")
 	obj_flags = null // no shock
 	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	max_force = 80
 	force_multiplier = 0.46 // Bad one handed. Stronger than sword two handed.
 	unwielded_force_divisor = 0.32
@@ -286,7 +287,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	attack_verb = list("pierced", "stabbed", "slashed")
 	obj_flags = null // no shock
 	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_HOLSTER
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	max_force = 60
 	force_multiplier = 0.42
 	unwielded_force_divisor = 0.30
@@ -317,7 +318,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	icon_state = "lance"
 	item_state = "lance"
 	wielded_item_state = "lance-w"
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_GARGANTUAN
 	max_force = 70
 	force_multiplier = 0.46 // Heavier, slower version of a spear.
 	unwielded_force_divisor = 0.32
@@ -347,7 +348,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	icon_state = "glaive"
 	item_state = "spear"
 	wielded_item_state = "spear-w"
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_GARGANTUAN
 	obj_flags = OBJ_FLAG_CONDUCTIBLE // Steel Staff
 	max_force = 90
 	force_multiplier = 0.50
@@ -376,7 +377,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	icon_state = "bardiche"
 	item_state = "savaxe"
 	wielded_item_state = "savaxe"
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_GARGANTUAN
 	max_force = 95
 	force_multiplier = 0.53 // Heavy chopping weapon.
 	unwielded_force_divisor = 0.36
@@ -455,6 +456,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	icon_state = "eviscerator"
 	item_state = "eviscerator"
 	wielded_item_state = "eviscerator"
+	w_class = ITEM_SIZE_GARGANTUAN
 	max_force = 110
 	armor_penetration = 8
 	force_multiplier = 0.71 // Super OP fast astartes chainsword.
@@ -484,6 +486,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	icon_state = "pcsword"
 	item_state = "pcsword"
 	wielded_item_state = "pcsword"
+	w_class = ITEM_SIZE_GARGANTUAN
 	armor_penetration = 8
 	force_multiplier = 0.74 // Super OP fast astartes chainsword.
 	unwielded_force_divisor = 0.72
@@ -503,7 +506,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	wielded_item_state = "thunder_hammer-w"
 	obj_flags = null // Power weapons don't get shocked.
 	slot_flags = null
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_GARGANTUAN
 	attack_verb = list("smited", "thrashed", "struck")
 	max_force = 100
 	force_multiplier = 0.75
@@ -542,7 +545,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	item_state = "mekmace"
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("grunked", "krumped", "kronked", "bonked", "gonked")
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_GARGANTUAN
 	slot_flags = SLOT_BELT
 	max_force = 100
 	force_multiplier = 0.51
@@ -639,7 +642,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
 	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_HOLSTER|SLOT_POCKET
-	w_class = ITEM_SIZE_SMALL
+	w_class = ITEM_SIZE_NORMAL
 	max_force = 40
 	force_multiplier = 0.22
 	unwielded_force_divisor = 0.21
@@ -722,6 +725,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	desc = "An improvised monster of metal, this glaive head has been refitted into something brutal."
 	icon_state = "glaive-dagger"
 	item_state = "salvagedmachete"
+	w_class = ITEM_SIZE_LARGE
 	max_force = 50
 	force_multiplier = 0.28
 	unwielded_force_divisor = 0.27
@@ -741,7 +745,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	item_state = "EB-knife"
 	max_force = 55
 	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_HOLSTER
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 	force_multiplier = 0.32
 	unwielded_force_divisor = 0.3
 	thrown_force_multiplier = 0.3
@@ -765,7 +769,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	color = "#292929"
 	max_force = 55
 	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_HOLSTER
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_GARGANTUAN
 	force_multiplier = 0.22
 	unwielded_force_divisor = 0.19
 	thrown_force_multiplier = 0.22

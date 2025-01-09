@@ -332,4 +332,4 @@
 	frequency = 1438
 	out_pressure_mode = 1
 	machine_name = "core control"
-	machine_desc = "An atmosphere monitoring console, modified for use in a supermatter engine."
+	machine_desc = "An atmosphere monitoring console, modified for use in a volkite engine."

@@ -6,6 +6,64 @@
 	license = null
 	url = "nonyabusiness"
 
+// WARHAMMER JUKE TRACKS
+
+/singleton/audio/track/tavern1
+	source = 'sound/newmusic/TAPE-INNMED.ogg'
+	title = "Grim Melodies"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern2
+	source = 'sound/newmusic/TAPE-INNLOUD.ogg'
+	title = "Imperial Hardcore"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern3
+	source = 'sound/newmusic/TAPE-INNCALM.ogg'
+	title = "Amasec Tunes"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern4
+	source = 'sound/newmusic/General_Ambient.ogg'
+	title = "Ambient Tunes #1"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern5
+	source = 'sound/newmusic/General_Ambient2.ogg'
+	title = "Ambient Tunes #2"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern6
+	source = 'sound/newmusic/General_Ambient3.ogg'
+	title = "Ambient Tunes #3"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern7
+	source = 'sound/newmusic/Hab.ogg'
+	title = "Ambient Tunes #4"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
 /singleton/audio/track/absconditus
 	source = 'sound/music/traitor.ogg'
 	title = "Absconditus"

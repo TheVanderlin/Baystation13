@@ -1,5 +1,5 @@
 /obj/machinery/recharge_station
-	name = "cyborg recharging station"
+	name = "servitor recharging station"
 	desc = "A heavy duty rapid charging system, designed to quickly recharge cyborg power reserves."
 	icon = 'icons/obj/machines/robot_charger.dmi'
 	icon_state = "borgcharger"
@@ -11,7 +11,7 @@
 	stat_immune = 0
 	construct_state = /singleton/machine_construction/default/panel_closed
 
-	machine_name = "cyborg recharging station"
+	machine_name = "servitor recharging station"
 	machine_desc = "A station for recharging robots, cyborgs, and silicon-based humanoids such as IPCs and full-body prosthetics."
 
 	var/overlay_icon = 'icons/obj/machines/robot_charger.dmi'

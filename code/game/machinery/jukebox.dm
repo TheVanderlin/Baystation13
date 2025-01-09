@@ -1,6 +1,6 @@
 /obj/machinery/jukebox
-	name = "mediatronic jukebox"
-	desc = "An immense, standalone touchscreen on a swiveling base, equipped with phased array speakers. Embossed on one corner of the ultrathin bezel is the brand name, 'Leitmotif Enterprise Edition'."
+	name = "xenos audioslate player"
+	desc = "An immense, standalone touchscreen on a swiveling base, equipped with phased array speakers. Embossed on one corner of the ultrathin bezel is the brand name."
 	icon = 'icons/obj/machines/jukebox_new.dmi'
 	icon_state = "jukebox3"
 	anchored = TRUE
@@ -18,7 +18,7 @@
 
 /obj/machinery/jukebox/Initialize()
 	. = ..()
-	jukebox = new(src, "jukebox.tmpl", "MediaTronic Library", 400, 600)
+	jukebox = new(src, "jukebox.tmpl", "Munitorum Library", 400, 600)
 	jukebox.falloff = 3
 	queue_icon_update()
 
@@ -65,7 +65,21 @@
 /obj/machinery/jukebox/old
 	name = "space jukebox"
 	desc = "A battered and hard-loved jukebox in some forgotten style, carefully restored to some semblance of working condition."
-	icon = 'icons/obj/machines/jukebox.dmi'
-	icon_state = "jukebox2"
+	icon = 'icons/obj/jukebox.dmi'
+	icon_state = "jukebox2-nopower"
 	pixel_x = 0
 	layer = STRUCTURE_LAYER
+
+/obj/machinery/jukebox/old/on_update_icon()
+	ClearOverlays()
+	icon_state = initial(icon_state)
+
+/obj/machinery/jukebox/old/Initialize()
+	. = ..()
+	jukebox = new(src, "jukebox.tmpl", "Munitorum Library", 400, 600)
+	jukebox.falloff = 3
+	queue_icon_update()
+
+/obj/machinery/jukebox/old/tavern
+	name = "space jukebox"
+	desc = "A battered and hard-loved jukebox in some forgotten style, carefully restored to some semblance of working condition."

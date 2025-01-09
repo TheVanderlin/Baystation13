@@ -334,7 +334,10 @@
 				else if(authenticated_account && amount > 0)
 					//remove the money
 					if(authenticated_account.withdraw(amount, "Credit withdrawal", machine_id))
-						playsound(src, 'sound/machines/chime.ogg', 50, 1)
+						if(prob(50))
+							playsound(loc, 'sound/items/metalboots_drop.ogg', 50, 1)
+						else
+							playsound(loc, 'sound/items/metalshield_drop.ogg', 50, 1)
 						spawn_money(amount,src.loc,usr)
 					else
 						to_chat(usr, "[icon2html(src, usr)][SPAN_WARNING("You don't have enough funds to do that!")]")

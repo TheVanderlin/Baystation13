@@ -175,7 +175,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/lab)
 "bg" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/recandlockers)
@@ -1379,7 +1379,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/recandlockers)
 "hw" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/engineerhall)
@@ -1997,7 +1997,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/living6)
 "lj" = (
-/obj/structure/bed/chair/padded/yellow{
+/obj/structure/bed/chair/warhammer/padded/yellow{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3421,7 +3421,7 @@
 "sn" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/floor_decal/industrial/outline/grey,
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/fixedsecurity)
 "so" = (
@@ -3998,7 +3998,7 @@
 /area/map_template/oldlab2/recandlockers)
 "vf" = (
 /obj/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/item/inflatable_dispenser,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/hall)
@@ -4063,7 +4063,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/hall)
 "vw" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/test1)
@@ -5439,7 +5439,7 @@
 /area/map_template/oldlab2/bathroom)
 "Dc" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/hall)
@@ -5457,7 +5457,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/hall)
@@ -6222,7 +6222,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/server)
 "Gp" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/alarm{
 	dir = 1;
@@ -7765,7 +7765,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/lab)
 "OK" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/chem)
@@ -8959,7 +8959,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/test1)
 "Vw" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/lab)
@@ -9150,7 +9150,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/medical)
 "Wx" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /obj/item/inflatable_dispenser,
 /turf/simulated/floor/tiled/white,
@@ -9278,7 +9278,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/test1)
 "Xh" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/recandlockers)

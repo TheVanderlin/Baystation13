@@ -163,7 +163,7 @@
 	difficulty = 2
 
 /datum/stack_recipe/supermatter_alarm
-	title = "supermatter alarm frame"
+	title = "volkite alarm frame"
 	result_type = /obj/item/frame/supermatter_alarm
 	req_amount = 1
 	difficulty = 2

@@ -63,6 +63,7 @@
 	icon = 'icons/obj/poop.dmi'
 	icon_state = "poop2"
 	item_state = "poop"
+	nutriment_desc  = list("shit" = 4)
 
 /obj/item/reagent_containers/food/snacks/poo/New()
 	..()
@@ -76,6 +77,20 @@
 	if(!istype(T, /turf/space))
 		new /obj/decal/cleanable/poo(T)
 	qdel(src)
+
+/obj/item/reagent_containers/food/snacks/poo/decker
+	name = "decker's gelato"
+	desc = "A chocolately gelato surprise!"
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "icecream_cone_waffle"
+	nutriment_desc  = list("shit gelato" = 4)
+
+/obj/item/reagent_containers/food/snacks/poo/decker/New()
+	..()
+	icon_state = "icecream_cone_waffle"
+	AddOverlays("icecream_chocolate")
+	reagents.add_reagent(/datum/reagent/toxin/poo, 5)
+	bitesize = 3
 
 //SHIT
 /datum/reagent/toxin/poo

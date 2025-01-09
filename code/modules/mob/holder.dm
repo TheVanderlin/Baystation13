@@ -122,7 +122,7 @@ var/global/list/holder_mob_icon_cache = list()
 
 //Mob specific holders.
 /obj/item/holder/drone
-	origin_tech = list(TECH_MAGNET = 3, TECH_ENGINEERING = 5)
+	origin_tech = list(TECH_MAGNET = 3, TECH_ENGINEERING = 3)
 
 /obj/item/holder/mouse
 	w_class = ITEM_SIZE_TINY
@@ -131,7 +131,7 @@ var/global/list/holder_mob_icon_cache = list()
 	w_class = ITEM_SIZE_SMALL
 
 /obj/item/holder/borer
-	origin_tech = list(TECH_BIO = 6)
+	origin_tech = list(TECH_BIO = 4)
 
 //need own subtype to work with recipes
 /obj/item/holder/corgi

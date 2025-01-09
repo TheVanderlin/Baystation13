@@ -548,7 +548,7 @@
 /area/outpost/mining/power)
 "bw" = (
 /obj/structure/catwalk,
-/obj/structure/bed/chair/padded/brown{
+/obj/structure/bed/chair/warhammer/padded/brown{
 	dir = 1;
 	icon_state = "chair_preview"
 	},
@@ -839,7 +839,7 @@
 /turf/simulated/floor/plating,
 /area/outpost/mining/hangar)
 "bW" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/outpost/mining/cenral)
