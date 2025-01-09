@@ -32,7 +32,7 @@
 	ore_spread_chance = 10
 	ore_name = "pitchblende"
 	ore_scan_icon = "mineral_uncommon"
-	stack_origin_tech = list(TECH_MATERIAL = 5)
+	stack_origin_tech = list(TECH_MATERIAL = 2)
 	xarch_ages = list(
 		"thousand" = 999,
 		"million" = 704
@@ -289,7 +289,7 @@
 	icon_colour = "#ffff00"
 	sheet_icon_base = "diamond"
 	radioactivity = 20
-	stack_origin_tech = list(TECH_BLUESPACE = 2, TECH_MATERIAL = 6, TECH_PHORON = 4)
+	stack_origin_tech = list(TECH_BLUESPACE = 2, TECH_MATERIAL = 4, TECH_PHORON = 4)
 	stack_type = null
 	luminescence = 3
 	ore_compresses_to = null

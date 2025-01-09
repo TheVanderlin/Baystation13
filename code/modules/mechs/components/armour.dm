@@ -60,7 +60,7 @@
 		bomb = ARMOR_BOMB_RESISTANT,
 		bio = ARMOR_BIO_SHIELDED
 		)
-	origin_tech = list(TECH_MATERIAL = 5)
+	origin_tech = list(TECH_MATERIAL = 3)
 
 /obj/item/robot_parts/robot_component/armour/exosuit/Initialize()
 	. = ..()

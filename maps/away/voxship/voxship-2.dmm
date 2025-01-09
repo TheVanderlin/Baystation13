@@ -3772,7 +3772,7 @@
 	},
 /area/voxship/shuttle)
 "zV" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/item/clothing/suit/space/emergency,
 /obj/item/tank/oxygen_emergency_double,
 /obj/item/clothing/head/helmet/space/emergency,
@@ -4659,7 +4659,7 @@
 /turf/simulated/floor/plating,
 /area/voxship/shuttle)
 "Yi" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/item/clothing/suit/space/emergency,
 /obj/item/tank/oxygen_emergency_double,
 /obj/item/clothing/head/helmet/space/emergency,

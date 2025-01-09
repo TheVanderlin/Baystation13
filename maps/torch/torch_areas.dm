@@ -396,7 +396,7 @@
 	req_access = list(access_restricted)
 
 /area/aquila/power
-	name = "\improper Aquila - Engineering Compartment"
+	name = "\improper Aquila - Genetorium Compartment"
 	req_access = list(access_dauntless)
 
 /area/aquila/storage
@@ -579,7 +579,7 @@
 	name = "lift (second deck)"
 	lift_floor_label = "Deck 2"
 	lift_floor_name = "Maintenance Deck"
-	lift_announce_str = "Arriving at Maintenance Deck: Engineering. Atmospherics. Storage."
+	lift_announce_str = "Arriving at Maintenance Deck: Mechanicus. Atmospherics. Storage."
 
 /area/turbolift/torch_second
 	name = "lift (third deck)"
@@ -686,7 +686,7 @@
 
 /area/crew_quarters/heads/office/ce
 	icon_state = "heads_ce"
-	name = "\improper Engineering - CE's Office"
+	name = "\improper Magos Sanctum"
 	req_access = list(access_mechanicus_command)
 
 /area/crew_quarters/heads/office/cos
@@ -712,7 +712,7 @@
 	icon_state = "heads_sea"
 	name = "\improper Command - SEA's Office"
 
-// Engineering
+// Mechanicus
 /area/engineering/shieldbay
 	name = "Shield Bay"
 	icon_state = "engineering"
@@ -745,13 +745,13 @@
 	req_access = list(access_mechanicus)
 
 /area/engineering/hardstorage
-	name = "\improper Engineering Hard Storage"
+	name = "\improper Mechanicus Hard Storage"
 	icon_state = "engineering_storage"
 	sound_env = SMALL_ENCLOSED
 	req_access = list(access_mechanicus)
 
 /area/engineering/hardstorage/aux
-	name = "\improper Auxiliary Engineering Hard Storage"
+	name = "\improper Auxiliary Mechanicus Hard Storage"
 	icon_state = "engineering_storage"
 
 //Vacant Areas
@@ -1502,7 +1502,7 @@
 	name = "\improper Holodeck - Plaza"
 	sound_env = SMALL_ENCLOSED
 
-// Engineering
+// Mechanicus
 
 /area/engineering/atmos/storage
 	name = "\improper Atmospherics Storage"
@@ -1533,23 +1533,23 @@
 	icon_state = "rust_reactor"
 
 /area/engineering/engine_smes
-	name = "\improper Engineering SMES"
+	name = "\improper Mechanicus SMES"
 	icon_state = "engine_smes"
 	sound_env = SMALL_ENCLOSED
 	req_access = list(access_mechanicus)
 
 /area/engineering/foyer
-	name = "\improper Engineering Foyer"
+	name = "\improper Enginarium Foyer"
 	icon_state = "engineering_foyer"
 	req_access = list()
 
 /area/engineering/engineering_bay
-	name = "\improper Engineering Bay"
+	name = "\improper Forge Deck"
 	icon_state = "engineering_locker"
 	req_access = list(access_mechanicus)
 
 /area/engineering/storage
-	name = "\improper Engineering Storage"
+	name = "\improper Teleporter Access"
 	icon_state = "engineering_storage"
 	req_access = list()
 

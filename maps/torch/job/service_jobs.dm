@@ -250,7 +250,7 @@
 	)
 
 	access = list(
-		access_dauntless, access_mechanicus)
+		access_dauntless, access_medical, access_mechanicus)
 
 	skill_points = 18
 	min_skill = list(

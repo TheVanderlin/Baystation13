@@ -8,16 +8,18 @@
 	var/obj/item/device/cassette/current_tape // The tape currently inside the boombox.
 	var/is_playing = FALSE // Tracks if music is playing
 	var/last_song_played = "" // Tracks the last played song file
+	var/datum/sound_token/sound_token // Token to manage the currently playing sound
+	var/sound_id // Unique ID for this boombox's sound
+	var/working_sound // Current working sound file for playback
 
 /obj/item/device/boombox/attack_hand(mob/user as mob)
 	if (user.get_inactive_hand() == src)
 		if (current_tape)
 			to_chat(user, "You remove the tape from [src].")
+			playsound(get_turf(src), 'sound/machines/bomclick.ogg', 30, 1)
 			current_tape.loc = user.loc
 			current_tape = null
-			sound_to(src, sound(null))
-			is_playing = FALSE
-			last_song_played = "" // Reset last song
+			StopPlayback() // Stop playback safely
 			return TRUE
 	return ..()
 
@@ -27,6 +29,7 @@
 			I.forceMove(src)
 			current_tape = I
 			to_chat(user, "You insert [I.name] into [src].")
+			playsound(get_turf(src), 'sound/machines/bomclick.ogg', 30, 1)
 			return TRUE
 		else
 			to_chat(user, "[src] already has a tape installed.")
@@ -36,26 +39,42 @@
 /obj/item/device/boombox/attack_self(mob/living/carbon/human/user)
 	if (current_tape) // Check if there's a tape inserted
 		if (is_playing) // If music is already playing
-			to_chat(user, "You restart the [src].")
-			playsound(get_turf(src), 'sound/machines/bomclick.ogg', 40, 1) // Optional click sound
-			sound_to(src, sound(null))
-			is_playing = FALSE
-			last_song_played = "" // Reset last played song
+			to_chat(user, "You stop the [src].")
+			StopPlayback() // Stop playback
 		else // If no music is playing
 			if (current_tape.sound_file == last_song_played)
 				to_chat(user, "[src] is already playing this song!")
 			else
 				to_chat(user, "You start playing [current_tape.name] in [src].")
-				playsound(get_turf(src), 'sound/machines/bomclick.ogg', 40, 1) // Optional click sound
-				playsound(src, current_tape.sound_file, 40) // Play the song from the tape
-				is_playing = TRUE
-				last_song_played = current_tape.sound_file // Track the last played song
+				StartPlayback(current_tape.sound_file) // Play the new song
 	else
 		to_chat(user, "No tape is inserted into [src].") // Handle case where no tape is inserted
 
+/obj/item/device/boombox/proc/StartPlayback(sound_file)
+	StopPlayback() // Stop any currently playing sound
+
+	sound_id = "[src]_[sequential_id(/obj/item/device/boombox)]"
+	working_sound = sound_file
+
+	if (!sound_token)
+		sound_token = GLOB.sound_player.PlayLoopingSound(src, sound_id, working_sound, volume = 40) // Play the looping sound
+		sound_token.SetVolume(40) // Set initial volume
+
+	is_playing = TRUE
+	last_song_played = sound_file
+
+/obj/item/device/boombox/proc/StopPlayback()
+	if (sound_token)
+		QDEL_NULL(sound_token) // Safely delete the sound token to stop playback
+		sound_token = null
+
+	is_playing = FALSE
+	last_song_played = ""
+
+
 
 /obj/item/device/cassette
-	name = "Audio Tape"
+	name = "Audioslate Tape"
 	desc = "A tape containing two sides of music, each with its own song."
 	icon = 'icons/obj/cassette.dmi'
 	icon_state = "cassette_0"
@@ -65,13 +84,15 @@
 	var/bside
 	var/sound_file
 
-/obj/item/device/cassette/attack_hand(mob/user as mob)
-	if (user.get_inactive_hand() == src)
-		if (sound_file == aside)
-			sound_file = bside
-		else
-			sound_file = aside
-		to_chat(user, "You switched the tape to the other side.")
+/obj/item/device/cassette/attack_self(mob/user as mob)
+	if (sound_file == aside)
+		sound_file = bside
+		to_chat(user, "You switched the tape to the B side.")
+		playsound(get_turf(src), 'sound/machines/bomclick.ogg', 40, 1)
+	else
+		sound_file = aside
+		to_chat(user, "You switched the tape to the A side.")
+		playsound(get_turf(src), 'sound/machines/bomclick.ogg', 40, 1)
 		return TRUE
 	return ..()
 
@@ -108,6 +129,25 @@
 	name = "Rockin Death Tunes"
 	aside = 'sound/newmusic/TAPE-DUEL.ogg'
 	bside = 'sound/newmusic/TUPE-ORKS1.ogg'
+
+/obj/item/device/cassette/sombre
+	sound_file = 'sound/newmusic/TUPE-SOMBRE1.ogg'
+	name = "Sombre Tunes"
+	aside = 'sound/newmusic/TUPE-SOMBRE1.ogg'
+	bside = 'sound/newmusic/TUPE-SOMBRE2.ogg'
+
+/obj/item/device/cassette/western1
+	sound_file = 'sound/newmusic/TUPE-WESTERN1.ogg'
+	name = "Wild West Tunes"
+	aside = 'sound/newmusic/TUPE-WESTERN1.ogg'
+	bside = 'sound/newmusic/TUPE-BUILDIN1.ogg'
+
+/obj/item/device/cassette/forbidden1
+	sound_file = 'sound/newmusic/TAPE-forbidden.ogg'
+	name = "Forbidden Tunes"
+	aside = 'sound/newmusic/TAPE-forbidden.ogg'
+	bside = 'sound/newmusic/TAPE-unknownsoldier.ogg'
+
 /*
 
 

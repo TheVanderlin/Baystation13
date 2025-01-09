@@ -9,7 +9,7 @@
 	bulk = 0
 	load_method = MAGAZINE
 	caliber = CALIBER_SLUG_FLECHETTE
-	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 3)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3)
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
 	ammo_type = /obj/item/ammo_casing/flechette
 	magazine_type = /obj/item/ammo_magazine/proto_smg
@@ -84,7 +84,7 @@
 	w_class = ITEM_SIZE_LARGE
 	force = 10
 	caliber = CALIBER_SLUG
-	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2, TECH_ESOTERIC = 8)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2, TECH_ESOTERIC = 2)
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_BACK
 	magazine_type = /obj/item/ammo_magazine/smg
 	allowed_magazines = /obj/item/ammo_magazine/smg
@@ -116,7 +116,7 @@
 	w_class = ITEM_SIZE_HUGE
 	force = 10
 	caliber = CALIBER_AUTOGUN
-	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 1, TECH_ESOTERIC = 5)
+	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 1, TECH_ESOTERIC = 2)
 	slot_flags = SLOT_BACK
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/autogun
@@ -153,7 +153,7 @@
 	safety_icon = "safety"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = CALIBER_SLUG_SMALL
-	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2)
+	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2)
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
 	ammo_type = /obj/item/ammo_casing/pistol/tech
 	load_method = MAGAZINE
@@ -189,7 +189,7 @@
 	w_class = ITEM_SIZE_HUGE
 	force = 10
 	caliber = CALIBER_AUTOGUN
-	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 3)
+	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 3)
 	slot_flags = SLOT_BACK
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/autogun
@@ -296,7 +296,7 @@
 	slot_flags = 0
 	burst_delay = 2
 	caliber = CALIBER_AUTOGUN
-	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 1, TECH_ESOTERIC = 2)
+	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 1, TECH_ESOTERIC = 2)
 	slot_flags = 0 //need sprites for SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/rifle
 	load_method = MAGAZINE
@@ -390,7 +390,7 @@
 	w_class = ITEM_SIZE_HUGE
 	force = 12
 	caliber = CALIBER_AUTOGUN
-	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 1, TECH_ESOTERIC = 5)
+	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 1, TECH_ESOTERIC = 3)
 	slot_flags = SLOT_BACK
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/autogun
@@ -428,7 +428,7 @@
 	w_class = ITEM_SIZE_HUGE
 	force = 15
 	caliber = CALIBER_SLUG_SMALL
-	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 4, TECH_ESOTERIC = 8)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_ESOTERIC = 3)
 	slot_flags = 0
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/box/minigun

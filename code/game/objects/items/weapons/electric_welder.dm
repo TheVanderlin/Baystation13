@@ -7,7 +7,7 @@
 	waterproof = TRUE
 	force = 17
 	throwforce = 7
-	origin_tech = list(TECH_POWER = 5, TECH_ENGINEERING = 4)
+	origin_tech = list(TECH_POWER = 1, TECH_ENGINEERING = 2)
 	var/obj/item/cell/cell = /obj/item/cell/high
 	var/fuel_cost_multiplier = 10
 

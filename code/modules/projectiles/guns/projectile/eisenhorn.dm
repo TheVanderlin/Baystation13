@@ -26,7 +26,7 @@
 	caliber = CALIBER_SLUG_SMALL
 	ammo_type = /obj/item/ammo_casing/pistol/tech
 	fire_sound = 'sound/warhammer/gunshot/auto5.ogg'
-	w_class = ITEM_SIZE_SMALL
+	w_class = ITEM_SIZE_NORMAL
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_POCKET
 	accuracy = 0
 	fire_delay = 2.9
@@ -154,6 +154,7 @@
 	icon = 'icons/obj/guns/40kproj.dmi'
 	icon_state = "kieji"
 	item_state = "pistol"
+	w_class = ITEM_SIZE_NORMAL
 	magazine_type = /obj/item/ammo_magazine/pistol
 	allowed_magazines = /obj/item/ammo_magazine/pistol
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
@@ -178,6 +179,7 @@
 	desc = "A snub-nose 10mm stub pistol with an ergonomic grip and hair trigger, it looks custom made."
 	icon_state = "kiejistub"
 	item_state = "pistol"
+	w_class = ITEM_SIZE_NORMAL
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_POCKET
 	accuracy = 0
 	sales_price = 8

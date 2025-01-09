@@ -565,7 +565,7 @@
 	},
 /area/map_template/oldpod)
 "fh" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/item/clothing/suit/space/emergency,
 /obj/item/tank/oxygen_emergency_double,
 /obj/item/clothing/head/helmet/space/emergency,

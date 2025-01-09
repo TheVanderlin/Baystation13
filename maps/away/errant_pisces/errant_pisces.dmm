@@ -2665,7 +2665,7 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/errant_pisces/hallway)
 "fZ" = (
@@ -2759,7 +2759,7 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/errant_pisces/hallway)
 "gi" = (
@@ -3330,7 +3330,7 @@
 /turf/simulated/floor/tiled,
 /area/errant_pisces/hallway)
 "hN" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/errant_pisces/dorms)
 "hO" = (
@@ -3338,7 +3338,7 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/errant_pisces/dorms)
 "hP" = (
@@ -3422,7 +3422,7 @@
 /turf/simulated/floor/tiled,
 /area/errant_pisces/infirmary)
 "ie" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/errant_pisces/infirmary)
 "if" = (
@@ -4535,7 +4535,7 @@
 /turf/simulated/floor/tiled,
 /area/errant_pisces/science_wing)
 "lr" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/errant_pisces/science_wing)
 "ls" = (
@@ -6043,7 +6043,7 @@
 /turf/simulated/floor/tiled,
 /area/errant_pisces/bridge)
 "oN" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/errant_pisces/bridge)
 "oO" = (
@@ -6613,7 +6613,7 @@
 /turf/simulated/floor/tiled,
 /area/errant_pisces/fishing_wing)
 "qz" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/tiled,
 /area/errant_pisces/fishing_wing)
 "qA" = (

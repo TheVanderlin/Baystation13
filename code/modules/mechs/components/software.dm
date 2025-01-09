@@ -20,10 +20,10 @@
 	name = "exosuit software (medical systems)"
 	contains_software = list(MECH_SOFTWARE_MEDICAL)
 	icon_state = "mcontroller"
-	origin_tech = list(TECH_DATA = 3,TECH_BIO = 2)
+	origin_tech = list(TECH_DATA = 2,TECH_BIO = 2)
 
 /obj/item/circuitboard/exosystem/weapons
 	name = "exosuit software (basic weapon systems)"
 	contains_software = list(MECH_SOFTWARE_WEAPONS)
 	icon_state = "mainboard"
-	origin_tech = list(TECH_DATA = 4, TECH_COMBAT = 3)
+	origin_tech = list(TECH_DATA = 2, TECH_COMBAT = 3)

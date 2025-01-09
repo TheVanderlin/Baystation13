@@ -12,7 +12,7 @@
 	icon = 'icons/obj/stock_parts.dmi'
 	icon_state = "smes_coil"
 	w_class = ITEM_SIZE_LARGE							// It's LARGE (backpack size)
-	origin_tech = list(TECH_MATERIAL = 7, TECH_POWER = 7, TECH_ENGINEERING = 5)
+	origin_tech = list(TECH_MATERIAL = 3, TECH_POWER = 3, TECH_ENGINEERING = 3)
 	base_type = /obj/item/stock_parts/smes_coil
 	part_flags = PART_FLAG_HAND_REMOVE
 	var/ChargeCapacity = 100 KILOWATTS

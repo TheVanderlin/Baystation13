@@ -3446,11 +3446,11 @@
 /obj/floor_decal/corner/brown{
 	dir = 4
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_hall)
 "EN" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_hangar)
@@ -3641,7 +3641,7 @@
 /turf/simulated/floor/asteroid,
 /area/map_template/mininghome_eva)
 "Gw" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/corner/brown/half{
 	dir = 4
 	},
@@ -4369,7 +4369,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/mininghome_mess)
 "MJ" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/corner/brown/half{
 	dir = 4
 	},
@@ -6001,7 +6001,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/map_template/mininghome_bathroom)
 "ZO" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/corner/brown/half{
 	dir = 8
 	},

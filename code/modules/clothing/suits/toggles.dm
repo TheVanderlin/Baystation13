@@ -4,6 +4,7 @@
 	var/obj/item/clothing/head/winterhood/hood
 	var/hoodtype = null //so the chaplain hoodie or other hoodies can override this
 	var/suittoggled = 0
+	action_button_name = "Toggle Hood"
 
 /obj/item/clothing/suit/armor/grim/storage/hooded/New()
 	MakeHood()

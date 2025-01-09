@@ -196,7 +196,7 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/galley)
 "aV" = (
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galley)
 "aW" = (
 /turf/simulated/wall/ocp_wall,
@@ -1096,12 +1096,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/floor_decal/industrial/outline/grey,
 /obj/machinery/porta_turret{
 	dir = 8;
-	enabled = 0;
 	lethal = 1
 	},
-/obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/tcommsat/chamber)
 "eb" = (
@@ -1126,7 +1125,7 @@
 /turf/simulated/wall/prepainted,
 /area/storage/auxillary/starboard)
 "ek" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/machinery/light{
 	dir = 8;
 	icon_state = "tube1"
@@ -1225,7 +1224,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/structure/bed/chair/stoolw/wood{
+/obj/structure/bed/chair/warhammer/stoolw/wood{
 	color = null
 	},
 /turf/simulated/floor/warhammer/darkwood,
@@ -1300,7 +1299,7 @@
 	req_access = list("ACCESS_TAVERN");
 	name = "suite crate"
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galley)
 "eL" = (
 /obj/structure/disposalpipe/segment{
@@ -1365,7 +1364,7 @@
 /area/hallway/primary/fourthdeck/aft)
 "fa" = (
 /obj/structure/bookcase,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "fb" = (
 /obj/machinery/door/unpowered/inn{
@@ -1391,7 +1390,7 @@
 	name = "Grand Room Key";
 	access = list("ACCESS_TAVERN1")
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "fj" = (
 /obj/structure/table/steel,
@@ -1534,7 +1533,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/airlock/highsecurity{
 	name = "Server Room";
-	req_access = list("ACCESS_MECHANICUS_RESTRICTED")
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/tcommsat/chamber)
@@ -1548,8 +1547,8 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "fN" = (
-/obj/structure/bed/chair/altar,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/obj/structure/bed/chair/warhammer/altar,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "fP" = (
 /obj/floor_decal/industrial/warning{
@@ -1571,7 +1570,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/fourthdeck/aft)
 "fV" = (
-/obj/structure/bed/chair/wood/fancy/comfy1{
+/obj/structure/bed/chair/warhammer/wood/fancy/comfy1{
 	color = "#666666";
 	dir = 1
 	},
@@ -1936,7 +1935,7 @@
 /turf/simulated/open,
 /area/maintenance/fourthdeck/starboard)
 "hG" = (
-/obj/structure/bed/chair/cage,
+/obj/structure/bed/chair/warhammer/cage,
 /turf/simulated/floor/warhammer/brick,
 /area/crew_quarters/galley)
 "hU" = (
@@ -2148,7 +2147,7 @@
 	pixel_x = -24;
 	pixel_y = 6
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "js" = (
 /obj/structure/catwalk,
@@ -2434,7 +2433,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "kS" = (
 /obj/structure/disposalpipe/trunk,
@@ -2474,7 +2473,7 @@
 	c_tag = "Fourth Deck - Ladders";
 	dir = 8
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/aft)
 "kZ" = (
 /obj/floor_decal/industrial/outline/grey,
@@ -2538,7 +2537,7 @@
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/galleybackroom)
 "lg" = (
-/obj/structure/bed/chair/stoolw/wood,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/crew_quarters/galley)
 "lh" = (
@@ -2745,7 +2744,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/fore)
 "mf" = (
@@ -2873,7 +2872,7 @@
 	icon_state = "2-8"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/camera/network/fourth_deck{
 	c_tag = "Fourth Deck Hallway - Stairs"
@@ -2906,6 +2905,11 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/aft)
+"mF" = (
+/obj/structure/ladder/up,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/warhammer/plating,
+/area/maintenance/fourthdeck/foreport)
 "mG" = (
 /obj/structure/railing/mapped,
 /turf/simulated/open,
@@ -2956,7 +2960,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/highsecurity{
 	name = "Server Room";
-	req_access = list("ACCESS_MECHANICUS_RESTRICTED")
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fourthdeck/starboard)
@@ -2986,7 +2990,7 @@
 /obj/structure/torchwall{
 	dir = 8
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galley)
 "mV" = (
 /obj/structure/cable/green{
@@ -3155,14 +3159,6 @@
 /obj/structure/table/warhammer/big_wood_table{
 	icon_state = "wood_1tilethick";
 	dir = 4
-	},
-/obj/machinery/button/blast_door{
-	id_tag = "office1";
-	name = "Lockdown";
-	pixel_w = 8;
-	pixel_y = 6;
-	pixel_x = 74;
-	layer = 3
 	},
 /obj/structure/sign/writers{
 	pixel_y = 6
@@ -3397,7 +3393,6 @@
 "oT" = (
 /obj/machinery/porta_turret{
 	dir = 8;
-	enabled = 0;
 	lethal = 1
 	},
 /obj/floor_decal/industrial/outline/grey,
@@ -3424,7 +3419,7 @@
 /obj/effect/floor_decal/newcorner/stone{
 	dir = 1
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "oZ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -3536,7 +3531,7 @@
 /turf/simulated/open,
 /area/quartermaster/hangar/catwalks_port)
 "pK" = (
-/obj/structure/bed/chair/wood/fancy/comfy1{
+/obj/structure/bed/chair/warhammer/wood/fancy/comfy1{
 	color = "#666666"
 	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
@@ -3567,7 +3562,7 @@
 /obj/effect/floor_decal/newcorner/stone{
 	dir = 1
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "pQ" = (
 /obj/structure/table/steel,
@@ -3796,10 +3791,6 @@
 "ri" = (
 /turf/simulated/wall/r_wall/hull,
 /area/crew_quarters/galleybackroom)
-"rj" = (
-/obj/structure/torchwall,
-/turf/simulated/wall/ocp_wall,
-/area/crew_quarters/galley)
 "rk" = (
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/head/deck4)
@@ -3939,7 +3930,7 @@
 /area/hallway/primary/fourthdeck/center)
 "sc" = (
 /obj/structure/table/warhammer/old_table,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "sd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -4487,7 +4478,7 @@
 /obj/structure/hivedecor/bookcase/huge{
 	opacity = 1
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "tz" = (
 /obj/wallframe_spawn/reinforced,
@@ -4723,7 +4714,7 @@
 /turf/simulated/open,
 /area/quartermaster/storage/upper)
 "um" = (
-/obj/structure/bed/chair/stoolw/wood,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /turf/simulated/floor/warhammer/brick,
 /area/crew_quarters/galley)
 "un" = (
@@ -4795,7 +4786,7 @@
 /obj/structure/torchwall{
 	dir = 4
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galley)
 "uy" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -5050,7 +5041,7 @@
 /area/storage/primary)
 "vw" = (
 /obj/machinery/light,
-/obj/structure/bed/chair{
+/obj/structure/bed/chair/warhammer{
 	dir = 4
 	},
 /turf/simulated/floor/warhammer/metal/alt,
@@ -5452,7 +5443,7 @@
 	name = "Grand Suite";
 	req_access = list("ACCESS_TAVERN1")
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "xi" = (
 /obj/structure/disposalpipe/segment{
@@ -5795,7 +5786,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/fore)
 "ye" = (
-/obj/structure/bed/chair/padded/red{
+/obj/structure/bed/chair/warhammer/padded/red{
 	dir = 8
 	},
 /turf/simulated/floor/warhammer/metal/alt,
@@ -5990,7 +5981,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/newsteel/dark,
 /area/hallway/primary/fourthdeck/fore)
@@ -6111,7 +6102,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/fore)
 "zC" = (
@@ -6433,10 +6424,20 @@
 	pixel_x = 10;
 	pixel_y = -3
 	},
+/obj/machinery/button/blast_door{
+	id_tag = "office1";
+	name = "Lockdown";
+	pixel_x = 10;
+	pixel_y = 6
+	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 4
 	},
 /area/crew_quarters/galley)
+"Bb" = (
+/obj/structure/bed/chair/warhammer,
+/turf/space,
+/area/space)
 "Bf" = (
 /obj/floor_decal/techfloor{
 	dir = 8
@@ -6468,7 +6469,7 @@
 /turf/simulated/floor/warhammer/brick,
 /area/crew_quarters/galley)
 "Bm" = (
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "Bo" = (
 /obj/structure/sign/warning/docking_area,
@@ -6503,7 +6504,7 @@
 /turf/simulated/floor/reinforced,
 /area/maintenance/fourthdeck/port)
 "BA" = (
-/obj/structure/bed/chair,
+/obj/structure/bed/chair/warhammer,
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/crew_quarters/galley)
 "BB" = (
@@ -6669,6 +6670,10 @@
 	},
 /turf/simulated/open,
 /area/maintenance/fourthdeck/port)
+"CA" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/warhammer/plating,
+/area/maintenance/fourthdeck/foreport)
 "CB" = (
 /obj/machinery/status_display/supply_display,
 /turf/simulated/wall/r_wall/prepainted,
@@ -6837,7 +6842,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/aft)
 "Du" = (
-/obj/structure/bed/chair{
+/obj/structure/bed/chair/warhammer{
 	dir = 4
 	},
 /turf/simulated/floor/warhammer/ceramic/old,
@@ -7055,7 +7060,8 @@
 /obj/machinery/turretid/stun{
 	name = "Server Control Turrets";
 	pixel_x = 32;
-	req_access = list("ACCESS_RESTRICTED_COMMAND")
+	req_access = list("ACCESS_RESTRICTED_COMMAND");
+	lethal = 1
 	},
 /turf/simulated/wall/r_wall/hull,
 /area/tcommsat/chamber)
@@ -7067,7 +7073,7 @@
 /turf/simulated/floor/shuttle_ceiling/torch/air,
 /area/quartermaster/hangar/catwalks_port)
 "EH" = (
-/obj/structure/bed/chair{
+/obj/structure/bed/chair/warhammer{
 	dir = 8
 	},
 /turf/simulated/floor/warhammer/ceramic/old,
@@ -7359,7 +7365,7 @@
 	dir = 8
 	},
 /obj/machinery/vending/weeb,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "FK" = (
 /obj/wallframe_spawn/reinforced,
@@ -7439,7 +7445,7 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fourthdeck/starboard)
 "FW" = (
-/obj/structure/bed/chair/cage,
+/obj/structure/bed/chair/warhammer/cage,
 /obj/item/archaeological_find/trap,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/crew_quarters/galleybackroom)
@@ -7554,7 +7560,7 @@
 /obj/structure/reagent_dispensers/water_cooler{
 	dir = 1
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Gr" = (
 /obj/machinery/power/apc{
@@ -7572,7 +7578,7 @@
 /obj/machinery/vending/cigarette{
 	dir = 8
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Gt" = (
 /obj/shuttle_landmark/scavver_gantry/torch,
@@ -7748,11 +7754,11 @@
 /obj/structure/table/woodentable,
 /obj/item/gun/launcher/crossbow,
 /obj/item/storage/pill_bottle/happy,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "GZ" = (
 /obj/machinery/vending/fashionvend,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Hd" = (
 /obj/structure/disposalpipe/segment{
@@ -8286,7 +8292,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "IZ" = (
 /obj/structure/cable/green{
@@ -8298,7 +8304,7 @@
 /area/maintenance/fourthdeck/starboard)
 "Jc" = (
 /obj/machinery/door/unpowered/inn/bookcase,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "Jh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -8608,7 +8614,7 @@
 /obj/machinery/rotating_alarm/security_alarm{
 	dir = 8
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/structure/railing/mapped{
 	dir = 1;
 	icon_state = "railing0-1"
@@ -8866,7 +8872,7 @@
 /obj/item/book/manual/medical_cloning,
 /obj/item/book/manual/medical_diagnostics_manual,
 /obj/item/book/manual/nuclear,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Lj" = (
 /obj/structure/cable/green{
@@ -9108,7 +9114,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Mc" = (
 /obj/structure/sign/warning/docking_area,
@@ -9147,7 +9153,7 @@
 /area/maintenance/fourthdeck/aft)
 "Ml" = (
 /obj/machinery/light/small,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Mq" = (
 /obj/structure/railing/mapped{
@@ -9179,7 +9185,7 @@
 	dir = 1
 	},
 /obj/machinery/libraryscanner,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Mv" = (
 /obj/machinery/atmospherics/valve/shutoff/supply{
@@ -9287,7 +9293,7 @@
 /obj/item/handcuffs/cable/tape,
 /obj/item/handcuffs/cable/tape,
 /obj/item/clothing/suit/armor/grim/toggle/brown_jacket,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "MR" = (
 /turf/simulated/floor/tiled/steel_ridged,
@@ -9333,7 +9339,7 @@
 /obj/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "MZ" = (
 /obj/structure/railing/mapped{
@@ -9352,7 +9358,7 @@
 /obj/item/book/manual/anomaly_testing,
 /obj/item/book/manual/materials_chemistry_analysis,
 /obj/item/book/manual/stasis,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Nc" = (
 /obj/structure/cable/green{
@@ -9730,7 +9736,7 @@
 	pixel_x = 32
 	},
 /obj/item/clothing/suit/armor/grim/toggle/agent_jacket,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Oa" = (
 /obj/structure/catwalk,
@@ -9863,6 +9869,11 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/eva)
+"OD" = (
+/obj/structure/railing/mapped,
+/obj/structure/ladder,
+/turf/simulated/floor/warhammer/plating,
+/area/maintenance/fourthdeck/foreport)
 "OG" = (
 /obj/structure/railing/mapped,
 /obj/structure/sign/deck/fourth{
@@ -9915,7 +9926,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "OR" = (
 /obj/floor_decal/spline/fancy/wood,
@@ -10161,7 +10172,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
 "PH" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/foreport)
 "PI" = (
@@ -10343,7 +10354,7 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fourthdeck/starboard)
 "Qq" = (
-/obj/structure/bed/chair/padded/red{
+/obj/structure/bed/chair/warhammer/padded/red{
 	dir = 4
 	},
 /turf/simulated/floor/warhammer/metal/alt,
@@ -10372,7 +10383,7 @@
 /obj/machinery/recharger,
 /obj/structure/table/woodentable,
 /obj/item/clothing/suit/armor/grim/toggle/track/red,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Qu" = (
 /obj/structure/table/steel,
@@ -10825,10 +10836,10 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "RY" = (
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Sa" = (
 /obj/machinery/light/small{
@@ -11133,7 +11144,7 @@
 	dir = 1;
 	level = 2
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "SS" = (
 /obj/machinery/door/firedoor,
@@ -11352,7 +11363,7 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/galleybackroom)
 "Tt" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/grey,
 /obj/random/single/lighter,
 /turf/simulated/floor/tiled/techfloor,
@@ -11380,7 +11391,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "TA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -11644,7 +11655,7 @@
 /area/hallway/primary/fourthdeck/fore)
 "UD" = (
 /obj/machinery/bookbinder,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "UE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -11673,7 +11684,7 @@
 	},
 /obj/machinery/door/airlock/highsecurity{
 	name = "Server Room";
-	req_access = list("ACCESS_MECHANICUS_RESTRICTED")
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
@@ -12041,7 +12052,7 @@
 /area/hallway/primary/fourthdeck/center)
 "VO" = (
 /obj/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/warhammer/newsteel/dark2,
 /area/hallway/primary/fourthdeck/center)
 "VQ" = (
@@ -12127,7 +12138,7 @@
 /obj/effect/floor_decal/newcorner/stone{
 	dir = 1
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "Wa" = (
 /obj/machinery/telecomms/server/presets/command,
@@ -12573,7 +12584,7 @@
 /area/maintenance/fourthdeck/port)
 "Xy" = (
 /obj/structure/hivedecor/bookcase/huge,
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "XA" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -12741,7 +12752,7 @@
 /obj/item/modular_computer/telescreen/preset/generic{
 	pixel_x = 32
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "XX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -12835,7 +12846,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/aft)
 "Yn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -13095,7 +13106,6 @@
 /obj/floor_decal/industrial/outline/grey,
 /obj/machinery/porta_turret{
 	dir = 8;
-	enabled = 0;
 	lethal = 1
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
@@ -13104,7 +13114,7 @@
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
-/turf/simulated/floor/warhammer/fancyfloor/coralg,
+/turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/lounge)
 "Zb" = (
 /obj/structure/cable/green{
@@ -14873,7 +14883,7 @@ Dl
 Dl
 Dl
 Dl
-Dl
+Bb
 Dl
 Dl
 Dl
@@ -27967,8 +27977,8 @@ Dl
 Dl
 Dl
 Dl
-Dl
-Dl
+DT
+OD
 Dl
 Dl
 Dl
@@ -28168,9 +28178,9 @@ DT
 Dl
 Dl
 Dl
-Dl
-Dl
-Dl
+DT
+DT
+CA
 Dl
 Dl
 Dl
@@ -28367,12 +28377,12 @@ Dc
 Dc
 DT
 DT
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
+DT
+DT
+DT
+DT
+DT
+CA
 Dl
 Dl
 Dl
@@ -28570,11 +28580,11 @@ DQ
 DT
 DT
 JB
-Dl
-Dl
-Dl
-Dl
-Dl
+DT
+DT
+DT
+DT
+CA
 Dl
 Dl
 Dl
@@ -28774,9 +28784,9 @@ DT
 DT
 DT
 DT
-Dl
-Dl
-Dl
+DT
+DT
+CA
 Dl
 Dl
 Dl
@@ -28978,7 +28988,7 @@ DT
 DT
 DT
 DT
-Dl
+mF
 Dl
 Dl
 Dl
@@ -32784,7 +32794,7 @@ fl
 fl
 fl
 fl
-rj
+fl
 fl
 fl
 fl

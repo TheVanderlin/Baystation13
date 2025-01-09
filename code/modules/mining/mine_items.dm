@@ -77,7 +77,7 @@
 	icon_state = "diamonddrill"
 	item_state = "jackhammer"
 	digspeed = 5 //Digs through walls, girders, and can dig up sand
-	origin_tech = list(TECH_MATERIAL = 6, TECH_POWER = 4, TECH_ENGINEERING = 5)
+	origin_tech = list(TECH_MATERIAL = 3, TECH_POWER = 3, TECH_ENGINEERING = 3)
 	desc = "Yours is the drill that will pierce the heavens!"
 	drill_verb = "drilling"
 
@@ -121,14 +121,14 @@
 	name = "golden pickaxe"
 	desc = "This makes no metallurgic sense."
 	digspeed = 60
-	origin_tech = list(TECH_MATERIAL = 4)
+	origin_tech = list(TECH_MATERIAL = 3)
 	hardware_color = COLOR_GOLD
 
 /obj/item/pickaxe/hand/diamond
 	name = "diamond pickaxe"
 	desc = "A pickaxe with a diamond pick head."
 	digspeed = 20
-	origin_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 4)
+	origin_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 2)
 	hardware_color = COLOR_DIAMOND
 
 /*****************************Shovel********************************/

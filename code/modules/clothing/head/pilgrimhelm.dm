@@ -159,8 +159,8 @@
 	item_state = "plebhood"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEFACE|BLOCKHEADHAIR
 
-/obj/item/clothing/head/helmet/pilgrimcap/administratum
-	name = "administratum soft-cap"
+/obj/item/clothing/head/helmet/pilgrimcap/officer
+	name = "officer's soft-cap"
 	desc = "This cap belongs to a member of the Administratum."
 	icon_state = "captain_hat"
 	item_state = "captain_hat"

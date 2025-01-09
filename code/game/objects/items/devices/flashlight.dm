@@ -248,6 +248,7 @@
 	flashlight_power = 1
 	w_class = ITEM_SIZE_NORMAL
 	sales_price = 15
+	activation_sound = 'sound/items/torch_light.ogg'
 
 /obj/item/device/flashlight/candelabra/on_update_icon()
 	if (flashlight_flags & FLASHLIGHT_ALWAYS_ON)

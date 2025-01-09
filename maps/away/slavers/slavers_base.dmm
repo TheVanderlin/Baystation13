@@ -782,8 +782,8 @@
 /turf/simulated/floor/warhammer/ceramic,
 /area/slavers_base/secwing)
 "dg" = (
-/obj/structure/bed/barrack,
-/obj/structure/bed/barrack1,
+/obj/structure/bed/warhammer/barrack,
+/obj/structure/bed/warhammer/barrack1,
 /turf/simulated/floor/warhammer/ceramic,
 /area/slavers_base/secwing)
 "dh" = (
@@ -1163,8 +1163,8 @@
 /turf/simulated/floor/ceiling,
 /area/slavers_base/powatm)
 "eh" = (
-/obj/structure/bed/barrack,
-/obj/structure/bed/barrack1,
+/obj/structure/bed/warhammer/barrack,
+/obj/structure/bed/warhammer/barrack1,
 /turf/simulated/floor/tiled,
 /area/slavers_base/secwing)
 "ej" = (

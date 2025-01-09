@@ -9,7 +9,7 @@
 	layer = TABLE_LAYER
 	throwpass = 1
 	mob_offset = 12
-	health_max = 100
+	health_max = 150
 	obj_flags = OBJ_FLAG_RECEIVE_TABLE
 	var/flipped = 0
 
@@ -36,9 +36,9 @@
 /obj/structure/table/proc/update_material()
 	var/new_health = 0
 	if(!material)
-		new_health = 10
+		new_health = 200
 		damage_hitsound = initial(damage_hitsound)
-		health_min_damage = 0
+		health_min_damage = 18
 	else
 		new_health = material.integrity / 2
 		health_min_damage = material.hardness

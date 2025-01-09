@@ -47,6 +47,7 @@ var/global/const/access_tavernback = "ACCESS_TAVERNBACK"
 	name = "Metal Door"
 	icon = 'icons/obj/doors/door_prison.dmi'
 	health_max = 2000
+	opacity = 0
 	autoclose = 0
 	normalspeed = 0
 
@@ -58,7 +59,6 @@ var/global/const/access_tavernback = "ACCESS_TAVERNBACK"
 	icon = 'icons/obj/doors/necron_door.dmi'
 	name = "necron door"
 	desc = "An old ancient door, cold to the touch and highly resilient to any attack."
-	opacity = 0
 	req_access = list(access_necron1)
 
 /obj/machinery/door/unpowered/necron_door2
@@ -66,7 +66,6 @@ var/global/const/access_tavernback = "ACCESS_TAVERNBACK"
 	name = "necron door"
 	desc = "An old ancient door, cold to the touch and highly resilient to any attack."
 	color = "blue"
-	opacity = 0
 	req_access = list(access_necron2)
 
 /obj/machinery/door/unpowered/necron_door3
@@ -74,5 +73,4 @@ var/global/const/access_tavernback = "ACCESS_TAVERNBACK"
 	name = "necron door"
 	color = "red"
 	desc = "An old ancient door, cold to the touch and highly resilient to any attack."
-	opacity = 0
 	req_access = list(access_necron3)

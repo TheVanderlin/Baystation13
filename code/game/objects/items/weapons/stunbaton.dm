@@ -9,7 +9,7 @@
 	force = 21
 	throwforce = 7
 	w_class = ITEM_SIZE_NORMAL
-	origin_tech = list(TECH_COMBAT = 2)
+	origin_tech = list(TECH_COMBAT = 1)
 	attack_verb = list("beat", "whacked")
 	base_parry_chance = 20
 	attack_ignore_harm_check = TRUE
@@ -260,4 +260,3 @@
 	agonyforce = 60	//same force as a stunbaton, but uses way more charge.
 	hitcost = 25
 	attack_verb = list("poked")
-	slot_flags = null

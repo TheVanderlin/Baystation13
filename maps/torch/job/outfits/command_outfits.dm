@@ -37,10 +37,10 @@
 	name = OUTFIT_JOB_NAME("Void Officer")
 	suit = /obj/item/clothing/suit/armor/grim/noble/officer
 	glasses = /obj/item/clothing/glasses/eyepatch/hud/medical
-	uniform = /obj/item/clothing/under/rank/victorian/redbl
+	uniform = /obj/item/clothing/under/voidofficer
 	gloves = /obj/item/clothing/gloves/thick/duty
 	l_ear = /obj/item/device/radio/headset/headset_com
-	head = null
+	head = /obj/item/clothing/head/helmet/pilgrimcap/officer
 	shoes = /obj/item/clothing/shoes/jackboots/noble
 	id_types = list(/obj/item/card/id/torch/silver/bridge)
 	pda_type = /obj/item/modular_computer/pda/heads

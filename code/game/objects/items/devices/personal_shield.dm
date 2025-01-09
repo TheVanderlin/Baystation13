@@ -215,7 +215,7 @@
 	interface_name = "energy shield"
 	interface_desc = "A device that protects its user from being hit by fast moving projectiles. Its internal capacitor can hold 5 charges at a time and recharges slowly over time."
 	module_cooldown = 10 SECONDS
-	origin_tech = list(TECH_MATERIAL = 5, TECH_POWER = 6, TECH_MAGNET = 6, TECH_ESOTERIC = 6, TECH_ENGINEERING = 7)
+	origin_tech = list(TECH_MATERIAL = 4, TECH_POWER = 4, TECH_MAGNET = 5, TECH_ESOTERIC = 5, TECH_ENGINEERING = 4)
 	activate_string = "Enable Shield"
 	deactivate_string = "Disable Shield"
 

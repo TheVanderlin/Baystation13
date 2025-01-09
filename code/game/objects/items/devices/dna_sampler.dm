@@ -2,7 +2,7 @@
 	name = "dna sampler"
 	desc = "An all in one DNA sampling and sequencing device which can be used to deliver a genetic payload to a mimic cube. Requires a DNA sample from the target."
 	w_class = ITEM_SIZE_SMALL
-	origin_tech = list(TECH_BIO = 5, TECH_MATERIAL = 2)
+	origin_tech = list(TECH_BIO = 2, TECH_MATERIAL = 2)
 	icon = 'icons/obj/tools/implanter.dmi'
 	icon_state = "dnainjector0"
 	item_state = "syringe_0"

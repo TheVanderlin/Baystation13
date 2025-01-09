@@ -2682,7 +2682,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/start)
 "fd" = (

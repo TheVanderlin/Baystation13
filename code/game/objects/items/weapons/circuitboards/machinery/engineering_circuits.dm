@@ -14,7 +14,7 @@
 	name = "circuit board (pipe dispenser)"
 	build_path = /obj/machinery/pipedispenser
 	board_type = "machine"
-	origin_tech = list(TECH_ENGINEERING = 6, TECH_MATERIAL = 5)
+	origin_tech = list(TECH_ENGINEERING = 2, TECH_MATERIAL = 2)
 	req_components = list(
 		/obj/item/stock_parts/manipulator = 1,
 		/obj/item/stock_parts/matter_bin = 2,

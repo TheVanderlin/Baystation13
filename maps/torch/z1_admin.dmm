@@ -480,7 +480,7 @@
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_courtroom)
 "acH" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/shuttle.dmi';
 	icon_state = "floor"
@@ -9037,7 +9037,7 @@
 /turf/simulated/floor/tiled,
 /area/merchant_station)
 "aQO" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 25;
@@ -9653,7 +9653,7 @@
 /turf/simulated/floor/carpet/blue,
 /area/shuttle/merchant/home)
 "aTx" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/carpet/blue,
 /area/shuttle/merchant/home)
 "aTy" = (

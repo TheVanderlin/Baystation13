@@ -9,6 +9,7 @@
 
 	/// Bitflag (Any of `AREA_FLAG_*`). See `code\__defines\misc.dm`.
 	var/area_flags
+	var/music
 
 	/// A lazy list of vent pumps currently in the area
 	var/list/obj/machinery/atmospherics/unary/vent_pump/vent_pumps

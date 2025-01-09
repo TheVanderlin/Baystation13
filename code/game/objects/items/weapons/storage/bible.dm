@@ -1,6 +1,6 @@
 /obj/item/storage/bible
-	name = "bible"
-	desc = "Apply to head repeatedly."
+	name = "imperial cult"
+	desc = "The imperial creed deems the God Emperor as the master of Mankind, by the will of the gods."
 	icon = 'icons/obj/books.dmi'
 	icon_state ="bible"
 	throw_speed = 1
@@ -9,7 +9,7 @@
 	max_w_class = ITEM_SIZE_SMALL
 	max_storage_space = 4
 	var/mob/affecting = null
-	var/deity_name = "Christ"
+	var/deity_name = "The God Emperor"
 	var/renamed = 0
 	var/icon_changed = 0
 
@@ -25,8 +25,8 @@
 		)
 
 /obj/item/storage/bible/bible
-	name = "\improper Bible"
-	desc = "The central religious text of Christianity."
+	icon = 'icons/obj/items/books.dmi'
+	icon_state = "ERIT"
 	renamed = 1
 	icon_changed = 1
 

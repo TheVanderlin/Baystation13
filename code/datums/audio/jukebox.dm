@@ -207,5 +207,9 @@ GLOBAL_LIST_INIT(jukebox_tracks, list(
 GLOBAL_LIST_INIT(tavern_tracks, list(
 	/singleton/audio/track/tavern1,
 	/singleton/audio/track/tavern2,
-	/singleton/audio/track/tavern3
+	/singleton/audio/track/tavern3,
+	/singleton/audio/track/tavern4,
+	/singleton/audio/track/tavern5,
+	/singleton/audio/track/tavern6,
+	/singleton/audio/track/tavern7
 ))

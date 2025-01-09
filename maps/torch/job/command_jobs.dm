@@ -30,7 +30,7 @@
 	)
 	access = list(
 		access_dauntless, access_restricted, access_restricted_command, access_mechanicus, access_mechanicus_command, access_medical,
-		access_medical_command, access_magos, access_bridge, access_roguetrader)
+		access_medical_command, access_bridge, access_roguetrader)
 
 	max_skill = list(	SKILL_BUREAUCRACY = SKILL_MASTER,
 						SKILL_FINANCE = SKILL_MASTER,

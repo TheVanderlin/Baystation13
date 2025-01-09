@@ -54,8 +54,8 @@
 	)
 
 /obj/structure/closet/secure_closet/engineering_torch
-	name = "tech priest's locker"
-	req_access = list(access_mechanicus_command)
+	name = "bondsman's locker"
+	req_access = list(access_mechanicus)
 	closet_appearance = /singleton/closet_appearance/secure_closet/torch/engineering
 
 /obj/structure/closet/secure_closet/engineering_torch/WillContain()
@@ -63,17 +63,14 @@
 		/obj/item/clothing/accessory/storage/brown_vest,
 		/obj/item/storage/belt/utility/full,
 		/obj/item/device/radio/headset/headset_mechanicus,
-		/obj/item/device/radio/headset/headset_mechanicus/alt,
-		/obj/item/clothing/glasses/meson,
 		/obj/item/taperoll/engineering,
 		/obj/item/device/flashlight,
 		/obj/item/clothing/gloves/insulated,
-		/obj/item/material/knife/folding/swiss/engineer,
-		/obj/item/storage/backpack/dufflebag/eng
+		/obj/item/material/knife/folding/swiss/engineer
 	)
 
 /obj/structure/closet/secure_closet/engineering_senior
-	name = "senior tech priest's locker"
+	name = "tech priest's locker"
 	req_access = list(access_mechanicus_command)
 	closet_appearance = /singleton/closet_appearance/secure_closet/torch/engineering/se
 

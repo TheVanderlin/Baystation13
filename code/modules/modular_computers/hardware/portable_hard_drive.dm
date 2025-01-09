@@ -24,7 +24,7 @@
 	icon_state = "flashdrive_super"
 	hardware_size = 1
 	max_capacity = 256
-	origin_tech = list(TECH_DATA = 4)
+	origin_tech = list(TECH_DATA = 3)
 
 /obj/item/stock_parts/computer/hard_drive/portable/install_default_programs()
 	return

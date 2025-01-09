@@ -1,22 +1,22 @@
 /obj/item/stock_parts/circuitboard/message_monitor
 	name = "circuit board (message monitor console)"
 	build_path = /obj/machinery/computer/message_monitor
-	origin_tech = list(TECH_DATA = 3)
+	origin_tech = list(TECH_DATA = 2)
 
 /obj/item/stock_parts/circuitboard/aiupload
 	name = "circuit board (AI upload console)"
 	build_path = /obj/machinery/computer/upload/ai
-	origin_tech = list(TECH_DATA = 4)
+	origin_tech = list(TECH_DATA = 3)
 
 /obj/item/stock_parts/circuitboard/borgupload
 	name = "circuit board (cyborg upload console)"
 	build_path = /obj/machinery/computer/upload/robot
-	origin_tech = list(TECH_DATA = 4)
+	origin_tech = list(TECH_DATA = 3)
 
 /obj/item/stock_parts/circuitboard/teleporter
 	name = "circuit board (teleporter control console)"
 	build_path = /obj/machinery/computer/teleporter
-	origin_tech = list(TECH_DATA = 2, TECH_BLUESPACE = 4)
+	origin_tech = list(TECH_DATA = 2, TECH_BLUESPACE = 3)
 
 /obj/item/stock_parts/circuitboard/atmos_alert
 	name = "circuit board (atmospheric alert console)"
@@ -101,7 +101,7 @@
 /obj/item/stock_parts/circuitboard/rcon_console
 	name = "circuit board (RCON remote control console)"
 	build_path = /obj/machinery/computer/rcon
-	origin_tech = list(TECH_DATA = 4, TECH_ENGINEERING = 3, TECH_POWER = 5)
+	origin_tech = list(TECH_DATA = 2, TECH_ENGINEERING = 3, TECH_POWER = 3)
 
 /obj/item/stock_parts/circuitboard/account_database
 	name = "circuit board (accounts uplink terminal)"

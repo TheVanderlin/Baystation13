@@ -23,7 +23,7 @@
 	board_type = "machine"
 	icon_state = "mcontroller"
 	build_path = /obj/machinery/radio_beacon
-	origin_tech = list(TECH_POWER = 3, TECH_ENGINEERING = 5, TECH_BLUESPACE = 3)
+	origin_tech = list(TECH_POWER = 3, TECH_ENGINEERING = 3, TECH_BLUESPACE = 3)
 	req_components = list(
 							/obj/item/stock_parts/subspace/ansible = 1,
 							/obj/item/stock_parts/subspace/filter = 1,

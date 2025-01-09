@@ -146,7 +146,7 @@
 	desc = "A magnetic clamp which can halt the flow of gas in a pipe, via a localised stasis field."
 	icon = 'icons/atmos/clamp.dmi'
 	icon_state = "pclamp0"
-	origin_tech = list(TECH_ENGINEERING = 4, TECH_MAGNET = 4)
+	origin_tech = list(TECH_ENGINEERING = 2, TECH_MAGNET = 2)
 
 /obj/item/clamp/use_after(atom/A, mob/living/user, click_parameters)
 	if (istype(A, /obj/machinery/atmospherics/pipe/simple))

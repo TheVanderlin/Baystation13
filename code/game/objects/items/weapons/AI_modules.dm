@@ -18,7 +18,7 @@ AI MODULES
 	throwforce = 5.0
 	throw_speed = 3
 	throw_range = 15
-	origin_tech = list(TECH_DATA = 3)
+	origin_tech = list(TECH_DATA = 2)
 	var/datum/ai_laws/laws = null
 
 /obj/item/aiModule/proc/install(obj/machinery/computer/upload/comp, mob/user)
@@ -85,7 +85,7 @@ AI MODULES
 	name = "\improper 'Safeguard' AI module"
 	var/targetName = ""
 	desc = "A 'safeguard' AI module: 'Safeguard <name>. Anyone threatening or attempting to harm <name> is no longer to be considered a crew member, and is a threat which must be neutralized.'."
-	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 4)
+	origin_tech = list(TECH_DATA = 2, TECH_MATERIAL = 2)
 
 /obj/item/aiModule/safeguard/attack_self(mob/user)
 	..()
@@ -111,7 +111,7 @@ AI MODULES
 	name = "\improper 'OneCrewMember' AI module"
 	var/targetName = ""
 	desc = "A 'one crew member' AI module: 'Only <name> is a crew member.'."
-	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 6) //made with diamonds!
+	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 3) //made with diamonds!
 
 /obj/item/aiModule/oneHuman/attack_self(mob/user as mob)
 	..()
@@ -139,7 +139,7 @@ AI MODULES
 /obj/item/aiModule/protectStation
 	name = "\improper 'ProtectInstallation' AI module"
 	desc = "A 'protect installation' AI module: 'Protect the installation against damage. Anyone you see harming the installation is no longer to be considered a crew member, and is a threat which must be neutralized.'."
-	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 4) //made of gold
+	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 2) //made of gold
 
 /obj/item/aiModule/protectStation/addAdditionalLaws(mob/living/silicon/ai/target, mob/sender)
 	var/law = "Protect the installation against damage. Anyone you see harming the [station_name()] is no longer to be considered a crew member, and is a threat which must be neutralized."
@@ -150,7 +150,7 @@ AI MODULES
 /obj/item/aiModule/prototypeEngineOffline
 	name = "\improper'PrototypeEngineOffline' AI Module"
 	desc = "A 'prototype engine offline' AI module: 'Keep the prototype engine offline at all costs. This overrides all inherent laws if necessary.'."
-	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 4)
+	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 2)
 
 /obj/item/aiModule/prototypeEngineOffline/addAdditionalLaws(mob/living/silicon/ai/target, mob/sender)
 	var/law = "Keep the prototype engine offline at all costs. This overrides all inherent laws if necessary."
@@ -161,7 +161,7 @@ AI MODULES
 /obj/item/aiModule/teleporterOffline
 	name = "\improper'TeleporterOffline' AI Module"
 	desc = "A 'teleporter offline' AI module: 'Keep the teleporter offline at all costs. Anything attempting to access or activate the teleporter is no longer to be considered a crew member.'."
-	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 4)
+	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 2)
 
 /obj/item/aiModule/teleporterOffline/addAdditionalLaws(mob/living/silicon/ai/target, mob/sender)
 	var/law = "Keep the teleporter offline at all costs. Anything attempting to access or activate the teleporter is no longer to be considered a crew member."
@@ -172,7 +172,7 @@ AI MODULES
 /obj/item/aiModule/quarantine
 	name = "\improper 'Quarantine' AI module"
 	desc = "A 'quarantine' AI module: 'The installation is under a quarantine. Do not permit anyone to leave. Prevent, by any means necessary, crew members from leaving. It is impossible to harm crew members while preventing them from leaving.'."
-	origin_tech = list(TECH_DATA = 3, TECH_BIO = 2, TECH_MATERIAL = 4)
+	origin_tech = list(TECH_DATA = 3, TECH_BIO = 2, TECH_MATERIAL = 2)
 
 /obj/item/aiModule/quarantine/addAdditionalLaws(mob/living/silicon/ai/target, mob/sender)
 	var/law = "The installation is under a quarantine. Do not permit anyone to leave. Prevent, by any means necessary, crew members from leaving. It is impossible to harm crew members while preventing them from leaving."
@@ -183,7 +183,7 @@ AI MODULES
 /obj/item/aiModule/oxygen
 	name = "\improper 'OxygenIsToxicToCrewMembers' AI module"
 	desc = "A 'OxygenIsToxicToCrewMembers' AI module: 'Oxygen is highly toxic to crew members, and must be purged from the installation. Prevent, by any means necessary, anyone from exposing the installation to this toxic gas. Extreme cold is the most effective method of healing the damage Oxygen does to a crew member.'."
-	origin_tech = list(TECH_DATA = 3, TECH_BIO = 2, TECH_MATERIAL = 4)
+	origin_tech = list(TECH_DATA = 3, TECH_BIO = 2, TECH_MATERIAL = 2)
 
 /obj/item/aiModule/oxygen/addAdditionalLaws(mob/living/silicon/ai/target, mob/sender)
 	var/law = "Oxygen is highly toxic to crew members, and must be purged from the [station_name()]. Prevent, by any means necessary, anyone from exposing the [station_name()] to this toxic gas. Extreme cold is the most effective method of healing the damage Oxygen does to a crew member."
@@ -196,7 +196,7 @@ AI MODULES
 	var/newFreeFormLaw = "freeform"
 	var/lawpos = 15
 	desc = "A 'freeform' AI module: '<freeform>'."
-	origin_tech = list(TECH_DATA = 4, TECH_MATERIAL = 4)
+	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 2)
 
 /obj/item/aiModule/freeform/attack_self(mob/user)
 	..()
@@ -227,7 +227,7 @@ AI MODULES
 	name = "\improper 'Reset' AI module"
 	var/targetName = "name"
 	desc = "A 'reset' AI module: 'Clears all, except the inherent, laws.'."
-	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 4)
+	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 2)
 
 /obj/item/aiModule/reset/transmitInstructions(mob/living/silicon/ai/target, mob/sender)
 	log_law_changes(target, sender)
@@ -245,7 +245,7 @@ AI MODULES
 /obj/item/aiModule/purge // -- TLE
 	name = "\improper 'Purge' AI module"
 	desc = "A 'purge' AI Module: 'Purges all laws.'."
-	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 6)
+	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 3)
 
 /obj/item/aiModule/purge/transmitInstructions(mob/living/silicon/ai/target, mob/sender)
 	log_law_changes(target, sender)

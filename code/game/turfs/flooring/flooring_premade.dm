@@ -857,7 +857,7 @@
 	icon_state = "marbletile"
 	initial_flooring = /singleton/flooring/warhammer/fancyfloor/marble
 
-/turf/simulated/floor/warhammer/fancyfloor/coralg
+/turf/simulated/floor/warhammer/coralg
 	name = "coral granite floor"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "coralgranite"

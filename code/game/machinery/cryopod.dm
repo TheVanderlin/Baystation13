@@ -118,12 +118,12 @@
 /obj/item/stock_parts/circuitboard/cryopodcontrol
 	name = "circuit board (cryogenic oversight console)"
 	build_path = /obj/machinery/computer/cryopod
-	origin_tech = list(TECH_DATA = 3)
+	origin_tech = list(TECH_DATA = 2)
 
 /obj/item/stock_parts/circuitboard/robotstoragecontrol
 	name = "circuit board (robotic storage console)"
 	build_path = /obj/machinery/computer/cryopod/robot
-	origin_tech = list(TECH_DATA = 3)
+	origin_tech = list(TECH_DATA = 2)
 
 //Decorative structures to go alongside cryopods.
 /obj/structure/cryofeed

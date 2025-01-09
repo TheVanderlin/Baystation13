@@ -2553,7 +2553,7 @@
 /turf/simulated/floor/warhammer/metal/southeast,
 /area/quartermaster/hangar)
 "fU" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/newsteel/dark2,
 /area/hallway/primary/fifthdeck/aft)
@@ -4013,7 +4013,7 @@
 	tag_interior_door = "petrov_shuttle_dock_inner"
 	},
 /obj/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -4614,7 +4614,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/expedition/storage)
 "ld" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "east bump";
@@ -4655,7 +4655,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/closet/warhammer/emcloset,
 /obj/structure/railing/mapped,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/fifthdeck/aft)
@@ -12269,7 +12269,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/bed/chair/padded/purple,
+/obj/structure/bed/chair/warhammer/padded/purple,
 /turf/simulated/floor/warhammer/brothel,
 /area/shuttle/petrov/rd)
 "Ha" = (
@@ -12832,7 +12832,8 @@
 	name = "Hangar Sterilization Protocoal";
 	pixel_x = 32;
 	req_access = list("ACCESS_RESTRICTED_COMMAND");
-	layer = 4
+	layer = 4;
+	lethal = 1
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
@@ -13288,6 +13289,11 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fifthdeck/aftstarboard)
+"KX" = (
+/obj/structure/ladder/up,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/warhammer/plating,
+/area/space)
 "KY" = (
 /obj/floor_decal/industrial/warning/corner,
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -15303,6 +15309,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
+"Tn" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/warhammer/plating,
+/area/space)
 "Tp" = (
 /obj/wallframe_spawn/reinforced/titanium,
 /obj/machinery/door/blast/regular{
@@ -15578,6 +15588,9 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/fifthdeck/aftstarboard)
+"Up" = (
+/turf/simulated/floor/warhammer/plating,
+/area/space)
 "Uq" = (
 /obj/machinery/atmospherics/unary/vent_pump/tank{
 	dir = 8;
@@ -31044,7 +31057,7 @@ an
 an
 an
 an
-aa
+Up
 aa
 aa
 aa
@@ -31246,7 +31259,7 @@ an
 an
 an
 an
-aa
+Tn
 aa
 aa
 aa
@@ -31448,7 +31461,7 @@ ns
 nt
 an
 an
-aa
+KX
 aa
 aa
 aa

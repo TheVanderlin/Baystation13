@@ -49,7 +49,7 @@
 	name = "circuit board (replicator)"
 	build_path = /obj/machinery/fabricator/replicator
 	board_type = "machine"
-	origin_tech = list(TECH_ENGINEERING = 3, TECH_DATA = 2, TECH_BIO = 2)
+	origin_tech = list(TECH_ENGINEERING = 2, TECH_DATA = 2, TECH_BIO = 2)
 	req_components = list(
 							/obj/item/stock_parts/matter_bin = 3,
 							/obj/item/stock_parts/manipulator = 1)
@@ -104,7 +104,7 @@
 	name = "circuit board (NTNet quantum relay)"
 	build_path = /obj/machinery/ntnet_relay
 	board_type = "machine"
-	origin_tech = list(TECH_DATA = 4)
+	origin_tech = list(TECH_DATA = 3)
 	req_components = list(/obj/item/stack/cable_coil = 15)
 	additional_spawn_components = list(
 		/obj/item/stock_parts/console_screen = 1,
@@ -117,7 +117,7 @@
 	name = "circuit board (suspension generator)"
 	build_path = /obj/machinery/suspension_gen
 	board_type = "machine"
-	origin_tech = list(TECH_DATA = 4, TECH_ENGINEERING = 3, TECH_MAGNET = 4)
+	origin_tech = list(TECH_DATA = 3, TECH_ENGINEERING = 3, TECH_MAGNET = 3)
 	req_components = list(
 		/obj/item/stock_parts/matter_bin = 2,
 		/obj/item/stock_parts/manipulator = 1,
@@ -133,7 +133,7 @@
 	name = "circuit board (anomaly container)"
 	build_path = /obj/machinery/anomaly_container
 	board_type = "machine"
-	origin_tech = list(TECH_BLUESPACE = 3, TECH_ENGINEERING = 4, TECH_MAGNET = 4)
+	origin_tech = list(TECH_BLUESPACE = 3, TECH_ENGINEERING = 3, TECH_MAGNET = 3)
 	req_components = list(
 		/obj/item/stock_parts/matter_bin = 3,
 		/obj/item/stock_parts/manipulator = 1,
@@ -149,7 +149,7 @@
 	name = "circuit board (stasis cage)"
 	build_path = /obj/machinery/stasis_cage
 	board_type = "machine"
-	origin_tech = list(TECH_BLUESPACE = 3, TECH_ENGINEERING = 4, TECH_BIO = 3)
+	origin_tech = list(TECH_BLUESPACE = 3, TECH_ENGINEERING = 3, TECH_BIO = 3)
 	req_components = list(
 		/obj/item/stock_parts/matter_bin = 2,
 		/obj/item/stock_parts/capacitor = 1
@@ -165,7 +165,7 @@
 	name = "circuit board (molecular cracking unit)"
 	build_path = /obj/machinery/portable_atmospherics/cracker
 	board_type = "machine"
-	origin_tech = list(TECH_MAGNET = 4, TECH_ENGINEERING = 3, TECH_MATERIAL = 3)
+	origin_tech = list(TECH_MAGNET = 3, TECH_ENGINEERING = 3, TECH_MATERIAL = 3)
 	req_components = list(
 							/obj/item/stock_parts/matter_bin = 3,
 							/obj/item/stock_parts/micro_laser = 3,
@@ -178,7 +178,7 @@
 	name = "circuit board (doppler array)"
 	build_path = /obj/machinery/doppler_array
 	board_type = "machine"
-	origin_tech = list(TECH_ENGINEERING = 7, TECH_MATERIAL = 4, TECH_DATA = 4, TECH_BLUESPACE = 3)
+	origin_tech = list(TECH_ENGINEERING = 4, TECH_MATERIAL = 4, TECH_DATA = 4, TECH_BLUESPACE = 3)
 	req_components = list(
 							/obj/item/stock_parts/scanning_module = 2,
 							/obj/item/stock_parts/computer/hard_drive/cluster = 2,

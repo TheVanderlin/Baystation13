@@ -213,7 +213,7 @@
 	allow_quick_gather = TRUE
 	temperature = -16 CELSIUS
 	matter = list(MATERIAL_PLASTIC = 350)
-	origin_tech = list(TECH_MATERIAL = 3, TECH_POWER = 2)
+	origin_tech = list(TECH_MATERIAL = 2, TECH_POWER = 2)
 	contents_allowed = list(
 		/obj/item/organ,
 		/obj/item/reagent_containers

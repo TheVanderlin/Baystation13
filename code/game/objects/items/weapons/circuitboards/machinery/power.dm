@@ -2,7 +2,7 @@
 	name = "circuit board (superconductive magnetic energy storage)"
 	build_path = /obj/machinery/power/smes/buildable
 	board_type = "machine"
-	origin_tech = list(TECH_POWER = 6, TECH_ENGINEERING = 4)
+	origin_tech = list(TECH_POWER = 3, TECH_ENGINEERING = 3)
 	req_components = list(/obj/item/stock_parts/smes_coil = 2, /obj/item/stack/cable_coil = 30)
 	additional_spawn_components = list(
 		/obj/item/stock_parts/console_screen = 1,

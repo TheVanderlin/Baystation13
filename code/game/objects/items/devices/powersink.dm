@@ -14,7 +14,7 @@
 
 	matter = list(MATERIAL_STEEL = 750,MATERIAL_WASTE = 750)
 
-	origin_tech = list(TECH_POWER = 3, TECH_ESOTERIC = 5)
+	origin_tech = list(TECH_POWER = 3, TECH_ESOTERIC = 4)
 	var/drain_rate = 15000000		// amount of power to drain per tick
 	var/apc_drain_rate = 10000 		// Max. amount drained from single APC. In Watts.
 	var/dissipation_rate = 20000	// Passive dissipation of drained power. In Watts.

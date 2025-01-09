@@ -18,7 +18,7 @@
 
 /obj/machinery/jukebox/Initialize()
 	. = ..()
-	jukebox = new(src, "jukebox.tmpl", "MediaTronic Library", 400, 600)
+	jukebox = new(src, "jukebox.tmpl", "Munitorum Library", 400, 600)
 	jukebox.falloff = 3
 	queue_icon_update()
 
@@ -76,7 +76,7 @@
 
 /obj/machinery/jukebox/old/Initialize()
 	. = ..()
-	jukebox = new(src, "jukebox.tmpl", "MediaTronic Library", 400, 600)
+	jukebox = new(src, "jukebox.tmpl", "Munitorum Library", 400, 600)
 	jukebox.falloff = 3
 	queue_icon_update()
 

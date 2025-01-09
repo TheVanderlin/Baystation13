@@ -32,6 +32,38 @@
 	license = null
 	url = null
 
+/singleton/audio/track/tavern4
+	source = 'sound/newmusic/General_Ambient.ogg'
+	title = "Ambient Tunes #1"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern5
+	source = 'sound/newmusic/General_Ambient2.ogg'
+	title = "Ambient Tunes #2"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern6
+	source = 'sound/newmusic/General_Ambient3.ogg'
+	title = "Ambient Tunes #3"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
+/singleton/audio/track/tavern7
+	source = 'sound/newmusic/Hab.ogg'
+	title = "Ambient Tunes #4"
+	author = "ZA/UM"
+	collection = "Tavern Collection"
+	license = null
+	url = null
+
 /singleton/audio/track/absconditus
 	source = 'sound/music/traitor.ogg'
 	title = "Absconditus"

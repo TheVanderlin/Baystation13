@@ -228,7 +228,7 @@
 /obj/item/cell/super
 	name = "super power cell"
 	desc = "A very advanced power cell with increased energy density, for use in critical applications."
-	origin_tech = list(TECH_POWER = 5)
+	origin_tech = list(TECH_POWER = 2)
 	icon_state = "scell"
 	maxcharge = 2500
 	matter = list(MATERIAL_STEEL = 700, MATERIAL_GLASS = 70, MATERIAL_ALUMINIUM = 20)
@@ -239,7 +239,7 @@
 /obj/item/cell/hyper
 	name = "mechanicus archeotech power cell"
 	desc = "Pinnacle of power storage technology, this very expensive power cell provides the best energy density reachable with conventional electrochemical cells."
-	origin_tech = list(TECH_POWER = 6)
+	origin_tech = list(TECH_POWER = 3)
 	icon_state = "hpcell"
 	maxcharge = 4000
 	matter = list(MATERIAL_STEEL = 700, MATERIAL_GLASS = 80, MATERIAL_ALUMINIUM = 20)
@@ -274,7 +274,7 @@
 /obj/item/cell/slime
 	name = "charged slime core"
 	desc = "A yellow slime core infused with phoron, it crackles with power."
-	origin_tech = list(TECH_POWER = 2, TECH_BIO = 4)
+	origin_tech = list(TECH_POWER = 2, TECH_BIO = 2)
 	icon = 'icons/mob/simple_animal/slimes.dmi' //'icons/obj/harvest.dmi'
 	icon_state = "yellow slime extract" //"potato_battery"
 	maxcharge = 200

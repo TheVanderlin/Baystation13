@@ -85,7 +85,7 @@
 	hitsound = 'sound/weapons/circsawhit.ogg'
 	toolspeed = 0.5
 	lock_picking_level = 2
-	origin_tech = list(TECH_ENGINEERING = 4, TECH_POWER = 4)
+	origin_tech = list(TECH_ENGINEERING = 2, TECH_POWER = 2)
 	matter = list(MATERIAL_STEEL = 75, MATERIAL_PLASTIC = 1000)
 	tool_list = list(BOLT_HEAD, SCREW_HEAD)
 
@@ -104,6 +104,6 @@
 	throwforce = 8.0
 	hitsound = 'sound/items/jaws_pry.ogg'
 	toolspeed = 0.5
-	origin_tech = list(TECH_ENGINEERING = 5, TECH_POWER = 4)
+	origin_tech = list(TECH_ENGINEERING = 2, TECH_POWER = 2)
 	matter = list(MATERIAL_STEEL = 1000, MATERIAL_PLASTIC = 500)
 	tool_list = list(PRY_HEAD, CUTTER_HEAD)
