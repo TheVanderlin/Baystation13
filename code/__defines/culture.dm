@@ -41,6 +41,7 @@
 #define CULTURE_HUMAN_OTHER    "Other, Humanity"
 #define CULTURE_STARLIGHT      "Starlit Realms"
 #define CULTURE_MONKEY         "Monkey Business"
+#define CULTURE_ORKY           "Orky Dorky"
 #define CULTURE_FARWA          "Farwa Business"
 #define CULTURE_NEARA          "Neara Business"
 #define CULTURE_STOK           "Stok Business"

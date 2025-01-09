@@ -20,3 +20,25 @@
 	)
 	shorthand = "GT"
 	has_written_form = TRUE
+
+/datum/language/orky
+	name = LANGUAGE_ORKY
+	speech_verb = "growls"
+	colour = "rough"
+	key = "t"
+	space_chance = 70
+	partial_understanding = list(
+		LANGUAGE_HIGH_GOTHIC = 75,
+		LANGUAGE_HUMAN_CHINESE = 20,
+		LANGUAGE_HUMAN_ARABIC = 10,
+		LANGUAGE_HUMAN_INDIAN = 10,
+		LANGUAGE_HUMAN_IBERIAN = 30,
+		LANGUAGE_HUMAN_RUSSIAN = 30,
+		LANGUAGE_HUMAN_SELENIAN = 15,
+		LANGUAGE_LOW_GOTHIC = 35,
+	)
+	syllables = list (
+		"bad", "beekee", "gog", "gor", "wagh","gul", "gutz", "mor", "grok", "nob", "mor", "naagh", "orky"
+	)
+	shorthand = "ORK"
+	has_written_form = TRUE // they can write. surprisingly.
