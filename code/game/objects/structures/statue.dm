@@ -594,12 +594,10 @@
 
 /obj/item/torch/use_tool(obj/item/W, mob/user, list/click_params)
 	..()
-	world.log << "Checking [W] as a flame source."
 	if(isflamesource(W))
-		world.log << "[W] is a valid flame or heat source."
 		light(user, TRUE)
 	else
-		world.log << "[W] is not a valid flame or heat source."
+		return
 
 /obj/structure/torchwall
 	name = "torch fixture"
