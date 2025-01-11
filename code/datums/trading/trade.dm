@@ -31,9 +31,9 @@
 	what_want			What the person says when they are asked if they want something
 
 	*/
-	var/want_multiplier = 2                                     //How much wanted items are multiplied by when traded for
-	var/margin = 1.2											//Multiplier to price when selling to player
-	var/price_rng = 10                                          //Percentage max variance in sell prices.
+	var/want_multiplier = 1.1                                     //How much wanted items are multiplied by when traded for
+	var/margin = 1.25											//Multiplier to price when selling to player
+	var/price_rng = 5                                          //Percentage max variance in sell prices.
 	var/insult_drop = 5                                         //How far disposition drops on insult
 	var/compliment_increase = 5                                 //How far compliments increase disposition
 	var/refuse_comms = 0                                        //Whether they refuse further communication
@@ -130,13 +130,14 @@
 /datum/trader/proc/skill_curve(skill)
 	switch(skill)
 		if(SKILL_EXPERIENCED)
-			. = 1
-		if(SKILL_EXPERIENCED to SKILL_MAX)
-			. = 1 + (SKILL_EXPERIENCED - skill) * 0.2
+			. = 1 + (SKILL_EXPERIENCED - skill) ** 1.2
+		if(SKILL_MASTER)
+			. = 1 + (SKILL_EXPERIENCED - skill) ** 1.1
 		else
-			. = 1 + (SKILL_EXPERIENCED - skill) ** 2
-	//This condition ensures that the buy price is higher than the sell price on generic goods, i.e. the merchant can't be exploited
-	. = max(., price_rng/((margin - 1)*(200 - price_rng)))
+			. = 1 + (SKILL_EXPERIENCED - skill) ** 1.3 // Softer penalty for skills below experienced
+	// Ensure buy price remains higher than the sell price
+	. = max(., price_rng / ((margin - 1) * (200 - price_rng)))
+
 
 /datum/trader/proc/get_item_value(trading_num, skill = SKILL_MAX)
 	if(!trading_items[trading_items[trading_num]])

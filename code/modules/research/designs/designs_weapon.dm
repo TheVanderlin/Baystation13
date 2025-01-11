@@ -269,6 +269,102 @@
 	build_path = /obj/item/gun/energy/plasma/pistol/mechanicus
 	sort_string = "TAPAR"
 
+/datum/design/item/weapon/radiumcarb
+	name = "radium carbine"
+	id = "radiumcarb"
+	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 7, TECH_MAGNET = 6, TECH_COMBAT = 5)
+	materials = list(MATERIAL_STEEL = 3000, MATERIAL_URANIUM = 4600, MATERIAL_DIAMOND = 6300)
+	build_path = /obj/item/gun/projectile/automatic/radcarbine
+	sort_string = "TAPAS"
+
+/datum/design/item/weapon/radiumpistol
+	name = "radium pistol"
+	id = "radiumpist"
+	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 7, TECH_MAGNET = 6, TECH_COMBAT = 6)
+	materials = list(MATERIAL_STEEL = 2000, MATERIAL_URANIUM = 4100, MATERIAL_DIAMOND = 5300)
+	build_path = /obj/item/gun/projectile/automatic/radcarbine/radpistol
+	sort_string = "TAPAT"
+
+/datum/design/item/weapon/slugpistol
+	name = "slug pistol"
+	id = "slugpist"
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 700, MATERIAL_URANIUM = 900)
+	build_path = /obj/item/gun/projectile/pistol/slug
+	sort_string = "TAPAU"
+
+/datum/design/item/weapon/stubpistol
+	name = "stub pistol"
+	id = "stubpist"
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2, TECH_COMBAT = 2)
+	materials = list(MATERIAL_STEEL = 600, MATERIAL_URANIUM = 800)
+	build_path = /obj/item/gun/projectile/pistol/stub
+	sort_string = "TAPAW"
+
+/datum/design/item/weapon/tstubpistol
+	name = "talon stub pistol"
+	id = "tstubpist"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 4, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 500, MATERIAL_URANIUM = 1100)
+	build_path = /obj/item/gun/projectile/pistol/stub/talon
+	sort_string = "TAPAX"
+
+/datum/design/item/weapon/bpistol
+	name = "bolt pistol"
+	id = "boltpistol"
+	req_tech = list(TECH_MATERIAL = 5, TECH_ENGINEERING = 4, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 700, MATERIAL_URANIUM = 2500, MATERIAL_DIAMOND = 2500)
+	build_path = /obj/item/gun/projectile/pistol/bolt_pistol
+	sort_string = "TAPAY"
+
+/datum/design/item/weapon/bpistold
+	name = "drusian bolt pistol"
+	id = "boltpistold"
+	req_tech = list(TECH_MATERIAL = 5, TECH_ENGINEERING = 5, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 500, MATERIAL_URANIUM = 3100, MATERIAL_DIAMOND = 3100)
+	build_path = /obj/item/gun/projectile/pistol/bolt_pistol/drusian
+	sort_string = "TAPAZ"
+
+/datum/design/item/weapon/bpistols
+	name = "sister bolt pistol"
+	id = "boltpistols"
+	req_tech = list(TECH_MATERIAL = 5, TECH_ENGINEERING = 5, TECH_COMBAT = 5)
+	materials = list(MATERIAL_STEEL = 600, MATERIAL_URANIUM = 3300, MATERIAL_DIAMOND = 3300)
+	build_path = /obj/item/gun/projectile/pistol/bolt_pistol/sob
+	sort_string = "TAPBA"
+
+/datum/design/item/weapon/revolver
+	name = "slug revolver"
+	id = "srevolver"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 800, MATERIAL_URANIUM = 1000)
+	build_path = /obj/item/gun/projectile/revolver/imperial
+	sort_string = "TAPBB"
+
+/datum/design/item/weapon/revolver2
+	name = "small slug revolver"
+	id = "ssrevolver"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 600, MATERIAL_URANIUM = 900)
+	build_path = /obj/item/gun/projectile/revolver/imperial/holdout
+	sort_string = "TAPBC"
+
+/datum/design/item/weapon/revolver3
+	name = "heavy slug revolver"
+	id = "hsrevolver"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 900, MATERIAL_URANIUM = 1350)
+	build_path = /obj/item/gun/projectile/revolver/imperial/heavy
+	sort_string = "TAPBD"
+
+/datum/design/item/weapon/revolver4
+	name = "mateba slug revolver"
+	id = "msrevolver"
+	req_tech = list(TECH_MATERIAL = 4, TECH_ENGINEERING = 3, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 1000, MATERIAL_URANIUM = 1750)
+	build_path = /obj/item/gun/projectile/revolver/imperial/heavy/mateba
+	sort_string = "TAPBE"
+
 /datum/design/item/weapon/ammunition/AssembleDesignName()
 	..()
 	name = "Munition: ([item_name])"
@@ -488,6 +584,141 @@
 	materials = list(MATERIAL_STEEL = 1900, MATERIAL_URANIUM = 3000)
 	build_path = /obj/item/cell/device/high/melta
 	sort_string = "TATAX"
+
+/datum/design/item/weapon/ammunition/slugpistol_ap
+	name = "10mm AP rounds"
+	id = "slugammo_ap"
+	desc = "A magazine for 15mm slug pistol"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 1500, MATERIAL_URANIUM = 1000)
+	build_path = /obj/item/ammo_magazine/magnum/ap
+	sort_string = "TATAY"
+
+/datum/design/item/weapon/ammunition/slugpistol_kp
+	name = "10mm KP rounds"
+	id = "slugammo_kp"
+	desc = "A magazine for 15mm slug pistol"
+	req_tech = list(TECH_MATERIAL = 4, TECH_ENGINEERING = 2, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 900, MATERIAL_URANIUM = 500, MATERIAL_DIAMOND = 500)
+	build_path = /obj/item/ammo_magazine/magnum/kp
+	sort_string = "TATAZ"
+
+/datum/design/item/weapon/ammunition/slugpistol_ms
+	name = "10mm MS rounds"
+	id = "slugammo_ms"
+	desc = "A magazine for 15mm slug pistol"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 1000, MATERIAL_URANIUM = 400, MATERIAL_DIAMOND = 400)
+	build_path = /obj/item/ammo_magazine/magnum/ms
+	sort_string = "TATAZ"
+
+/datum/design/item/weapon/ammunition/stubpistol_ap
+	name = "10mm AP rounds"
+	id = "stubammo_ap"
+	desc = "A magazine for 15mm stub pistol"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 1200, MATERIAL_URANIUM = 800)
+	build_path = /obj/item/ammo_magazine/pistol/ap
+	sort_string = "TATBA"
+
+/datum/design/item/weapon/ammunition/stubpistol_kp
+	name = "10mm KP rounds"
+	id = "stubammo_kp"
+	desc = "A magazine for 15mm stub pistol"
+	req_tech = list(TECH_MATERIAL = 4, TECH_ENGINEERING = 2, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 600, MATERIAL_URANIUM = 400, MATERIAL_DIAMOND = 400)
+	build_path = /obj/item/ammo_magazine/pistol/kp
+	sort_string = "TATBB"
+
+/datum/design/item/weapon/ammunition/stubpistol_ms
+	name = "10mm MS rounds"
+	id = "stubammo_ms"
+	desc = "A magazine for 15mm stub pistol"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 700, MATERIAL_URANIUM = 300, MATERIAL_DIAMOND = 300)
+	build_path = /obj/item/ammo_magazine/pistol/ms
+	sort_string = "TATBC"
+
+/datum/design/item/weapon/ammunition/ttubpistol_ap
+	name = "7mm AP rounds"
+	id = "ttubammo_ap"
+	desc = "A magazine for 7mm stub pistol"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 1100, MATERIAL_URANIUM = 700)
+	build_path = /obj/item/ammo_magazine/pistol/small/ap
+	sort_string = "TATBD"
+
+/datum/design/item/weapon/ammunition/ttubpistol_kp
+	name = "7mm KP rounds"
+	id = "ttubammo_kp"
+	desc = "A magazine for 7mm stub pistol"
+	req_tech = list(TECH_MATERIAL = 4, TECH_ENGINEERING = 2, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 500, MATERIAL_URANIUM = 350, MATERIAL_DIAMOND = 350)
+	build_path = /obj/item/ammo_magazine/pistol/small/kp
+	sort_string = "TATBE"
+
+/datum/design/item/weapon/ammunition/ttubpistol_ms
+	name = "7mm MS rounds"
+	id = "ttubammo_ms"
+	desc = "A magazine for 7mm stub pistol"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 600, MATERIAL_URANIUM = 250, MATERIAL_DIAMOND = 250)
+	build_path = /obj/item/ammo_magazine/pistol/small/ms
+	sort_string = "TATBF"
+
+/datum/design/item/weapon/ammunition/revolver_ap
+	name = "15mm AP rounds"
+	id = "rev_ap"
+	desc = "A magazine for 15mm revolvers"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 1100, MATERIAL_URANIUM = 700)
+	build_path = /obj/item/ammo_magazine/speedloader/revolver/ap
+	sort_string = "TATBG"
+
+/datum/design/item/weapon/ammunition/revolver_kp
+	name = "15mm KP rounds"
+	id = "rev_kp"
+	desc = "A magazine for 15mm revolvers"
+	req_tech = list(TECH_MATERIAL = 4, TECH_ENGINEERING = 2, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 500, MATERIAL_URANIUM = 350, MATERIAL_DIAMOND = 350)
+	build_path = /obj/item/ammo_magazine/speedloader/revolver/kp
+	sort_string = "TATBH"
+
+/datum/design/item/weapon/ammunition/revolver_ms
+	name = "15mm MS rounds"
+	id = "rev_ms"
+	desc = "A magazine for 15mm revolvers"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 600, MATERIAL_URANIUM = 250, MATERIAL_DIAMOND = 250)
+	build_path = /obj/item/ammo_magazine/speedloader/revolver/ms
+	sort_string = "TATBI"
+
+/datum/design/item/weapon/ammunition/srevolver_ap
+	name = "10mm AP rounds"
+	id = "srev_ap"
+	desc = "A magazine for 10mm revolvers"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
+	materials = list(MATERIAL_STEEL = 1100, MATERIAL_URANIUM = 800)
+	build_path = /obj/item/ammo_magazine/speedloader/militarum/ap
+	sort_string = "TATBJ"
+
+/datum/design/item/weapon/ammunition/srevolver_kp
+	name = "10mm KP rounds"
+	id = "srev_kp"
+	desc = "A magazine for 10mm revolvers"
+	req_tech = list(TECH_MATERIAL = 4, TECH_ENGINEERING = 2, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 500, MATERIAL_URANIUM = 450, MATERIAL_DIAMOND = 350)
+	build_path = /obj/item/ammo_magazine/speedloader/militarum/kp
+	sort_string = "TATBK"
+
+/datum/design/item/weapon/ammunition/srevolver_ms
+	name = "10mm MS rounds"
+	id = "srev_ms"
+	desc = "A magazine for 10mm revolvers"
+	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 600, MATERIAL_URANIUM = 350, MATERIAL_DIAMOND = 250)
+	build_path = /obj/item/ammo_magazine/speedloader/militarum/ms
+	sort_string = "TATBL"
 
 // Non Warhammer Ammo
 

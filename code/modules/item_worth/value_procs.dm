@@ -59,6 +59,9 @@
 /obj/item/spacecash/Value()
 	return worth
 
+/obj/item/ammo_magazine/Value()
+	return sales_price * 0.8
+
 /obj/item/exploration_loot/Value()
 	return sales_price
 

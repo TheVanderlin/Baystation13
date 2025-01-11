@@ -9,6 +9,7 @@
 	matter = list(MATERIAL_STEEL = 1440)
 	max_ammo = 8
 	multiple_sprites = 1
+	sales_price = 224
 	var/marking_color
 
 /obj/item/ammo_magazine/shotholder/on_update_icon()
@@ -32,47 +33,56 @@
 /obj/item/ammo_magazine/shotholder/ap
 	name = "16mm AP slug holder"
 	ammo_type = /obj/item/ammo_casing/shotgun/ap
+	sales_price = 324
 
 /obj/item/ammo_magazine/shotholder/kp
 	name = "16mm KP slug holder"
 	ammo_type = /obj/item/ammo_casing/shotgun/kp
+	sales_price = 524
 
 /obj/item/ammo_magazine/shotholder/ms
 	name = "16mm MS slug holder"
 	ammo_type = /obj/item/ammo_casing/shotgun/ms
+	sales_price = 344
 
 /obj/item/ammo_magazine/shotholder/shell
 	name = "16mm shell holder"
 	ammo_type = /obj/item/ammo_casing/shotgun/pellet
 	marking_color = COLOR_RED_GRAY
+	sales_price = 200
 
 /obj/item/ammo_magazine/shotholder/flechette
 	name = "flechette shell holder"
 	ammo_type = /obj/item/ammo_casing/shotgun/flechette
 	marking_color = COLOR_BLUE
+	sales_price = 300
 
 /obj/item/ammo_magazine/shotholder/beanbag
 	name = "beanbag shell holder"
 	ammo_type = /obj/item/ammo_casing/shotgun/beanbag
 	matter = list(MATERIAL_STEEL = 720)
 	marking_color = COLOR_PAKISTAN_GREEN
+	sales_price = 150
 
 /obj/item/ammo_magazine/shotholder/flash
 	name = "illumination shell holder"
 	ammo_type = /obj/item/ammo_casing/shotgun/flash
 	matter = list(MATERIAL_STEEL = 360, MATERIAL_GLASS = 360)
 	marking_color = COLOR_PALE_YELLOW
+	sales_price = 150
 
 /obj/item/ammo_magazine/shotholder/stun
 	name = "stun shell holder"
 	ammo_type = /obj/item/ammo_casing/shotgun/stunshell
 	matter = list(MATERIAL_STEEL = 1440, MATERIAL_GLASS = 2880)
 	marking_color = COLOR_MUZZLE_FLASH
+	sales_price = 300
 
 /obj/item/ammo_magazine/shotholder/empty
 	name = "16mm ammunition holder"
 	matter = list(MATERIAL_STEEL = 250)
 	initial_ammo = 0
+	sales_price = 50
 
 /obj/item/ammo_magazine/shotgunmag
 	name = "16mm slug magazine"
@@ -84,30 +94,37 @@
 	matter = list(MATERIAL_STEEL = 2400)
 	max_ammo = 15
 	multiple_sprites = TRUE
+	sales_price = 300
 
 /obj/item/ammo_magazine/shotgunmag/ap
 	desc = "An AP magazine for semi-automatic shotguns."
 	ammo_type = /obj/item/ammo_casing/shotgun/ap
+	sales_price = 400
 
 /obj/item/ammo_magazine/shotgunmag/kp
 	desc = "An KP magazine for semi-automatic shotguns."
 	ammo_type = /obj/item/ammo_casing/shotgun/kp
+	sales_price = 700
 
 /obj/item/ammo_magazine/shotgunmag/ms
 	desc = "An MS magazine for semi-automatic shotguns."
 	ammo_type = /obj/item/ammo_casing/shotgun/ms
+	sales_price = 500
 
 /obj/item/ammo_magazine/shotgunmag/shot
 	labels = list("shot")
 	ammo_type = /obj/item/ammo_casing/shotgun/pellet
+	sales_price = 250
 
 /obj/item/ammo_magazine/shotgunmag/flechette
 	labels = list("flechette")
 	ammo_type = /obj/item/ammo_casing/shotgun/flechette
+	sales_price = 400
 
 /obj/item/ammo_magazine/shotgunmag/beanbag
 	labels = list("beanbag")
 	ammo_type = /obj/item/ammo_casing/shotgun/beanbag
+	sales_price = 250
 
 /obj/item/ammo_magazine/machine_pistol
 	name = "scrap magazine"
@@ -118,6 +135,7 @@
 	caliber = CALIBER_SLUG
 	max_ammo = 31
 	multiple_sprites = 1
+	sales_price = 300
 
 /obj/item/ammo_magazine/machine_pistol/empty
 	initial_ammo = 0
@@ -132,21 +150,26 @@
 	ammo_type = /obj/item/ammo_casing/pistol
 	max_ammo = 37
 	multiple_sprites = 1
+	sales_price = 300
 
 /obj/item/ammo_magazine/smg/empty
 	initial_ammo = 0
+	sales_price = 100
 
 /obj/item/ammo_magazine/smg/ap
 	name = "box magazine"
 	ammo_type = /obj/item/ammo_casing/pistol/ap
+	sales_price = 400
 
 /obj/item/ammo_magazine/smg/kp
 	name = "box magazine"
 	ammo_type = /obj/item/ammo_casing/pistol/kp
+	sales_price = 700
 
 /obj/item/ammo_magazine/smg/ms
 	name = "box magazine"
 	ammo_type = /obj/item/ammo_casing/pistol/ms
+	sales_price = 600
 
 /obj/item/ammo_magazine/speedloader/clip
 	name = "8mm stripper clip"
@@ -157,6 +180,7 @@
 	matter = list(MATERIAL_STEEL = 1800)
 	max_ammo = 10
 	multiple_sprites = 1
+	sales_price = 150
 
 /obj/item/ammo_magazine/speedloader/clip/stub
 	name = "12mm stripper clip"
@@ -165,18 +189,22 @@
 	ammo_type = /obj/item/ammo_casing/sniper
 	max_ammo = 9
 	multiple_sprites = 1
+	sales_price = 200
 
 /obj/item/ammo_magazine/speedloader/clip/stub/ap
 	name = "12mm AP stripper clip"
 	ammo_type = /obj/item/ammo_casing/sniper/ap
+	sales_price = 300
 
 /obj/item/ammo_magazine/speedloader/clip/stub/kp
 	name = "12mm KP stripper clip"
 	ammo_type = /obj/item/ammo_casing/sniper/kp
+	sales_price = 600
 
 /obj/item/ammo_magazine/speedloader/clip/stub/ms
 	name = "12mm MS stripper clip"
 	ammo_type = /obj/item/ammo_casing/sniper/ms
+	sales_price = 500
 
 /obj/item/ammo_magazine/speedloader/clip/sniper
 	name = "15mm stripper clip"
@@ -185,30 +213,35 @@
 	ammo_type = /obj/item/ammo_casing/shell
 	max_ammo = 7
 	multiple_sprites = 1
+	sales_price = 350
 
 /obj/item/ammo_magazine/speedloader/clip/sniper/apds
 	name = "15mm apds stripper clip"
 	desc = "A stripper clip for sniper pattern weapons."
 	ammo_type = /obj/item/ammo_casing/shell/apds
 	max_ammo = 7
+	sales_price = 650
 
 /obj/item/ammo_magazine/speedloader/clip/sniper/shred
 	name = "15mm shredder stripper clip"
 	desc = "A stripper clip for sniper pattern weapons."
 	ammo_type = /obj/item/ammo_casing/shell/shred
 	max_ammo = 7
+	sales_price = 850
 
 /obj/item/ammo_magazine/speedloader/clip/sniper/knockout
 	name = "15mm neurotoxin stripper clip"
 	desc = "A stripper clip for sniper pattern weapons."
 	ammo_type = /obj/item/ammo_casing/shell/knockout
 	max_ammo = 5
+	sales_price = 950
 
 /obj/item/ammo_magazine/speedloader/clip/sniper/xenos
 	name = "xenos munitions rod"
 	desc = "A metal munitions rod for xenos weapons."
 	ammo_type = /obj/item/ammo_casing/xenos/bos
 	max_ammo = 3
+	sales_price = 600 // It's just a special metal rod for xenos railguns.
 
 // STANDARD PATTERN
 /obj/item/ammo_magazine/speedloader
@@ -220,10 +253,12 @@
 	matter = list(MATERIAL_STEEL = 1260)
 	max_ammo = 9
 	multiple_sprites = 1
+	sales_price = 150
 
 /obj/item/ammo_magazine/speedloader/rubber
 	labels = list("rubber")
 	ammo_type = /obj/item/ammo_casing/pistol/rubber
+	sales_price = 100
 
 /obj/item/ammo_magazine/speedloader/revolver
 	name = "15mm speed loader"
@@ -234,18 +269,22 @@
 	matter = list(MATERIAL_STEEL = 1440)
 	max_ammo = 7
 	multiple_sprites = 1
+	sales_price = 200
 
 /obj/item/ammo_magazine/speedloader/revolver/ap
 	name = "15mm AP speed loader"
 	ammo_type = /obj/item/ammo_casing/magnum/ap
+	sales_price = 250
 
 /obj/item/ammo_magazine/speedloader/revolver/kp
 	name = "15mm KP speed loader"
 	ammo_type = /obj/item/ammo_casing/magnum/kp
+	sales_price = 500
 
 /obj/item/ammo_magazine/speedloader/revolver/ms
 	name = "15mm MS speed loader"
 	ammo_type = /obj/item/ammo_casing/magnum/ms
+	sales_price = 350
 
 /obj/item/ammo_magazine/speedloader/militarum
 	name = "6.8mm speed loader"
@@ -256,19 +295,22 @@
 	matter = list(MATERIAL_STEEL = 1440)
 	max_ammo = 7
 	multiple_sprites = 1
+	sales_price = 250
 
 /obj/item/ammo_magazine/speedloader/militarum/ap
 	name = "6.8mm AP speed loader"
 	ammo_type = /obj/item/ammo_casing/autogun/militarum/ap
+	sales_price = 300
 
 /obj/item/ammo_magazine/speedloader/militarum/kp
 	name = "6.8 KP speed loader"
 	ammo_type = /obj/item/ammo_casing/autogun/militarum/kp
+	sales_price = 550
 
 /obj/item/ammo_magazine/speedloader/militarum/ms
 	name = "6.8 MS speed loader"
 	ammo_type = /obj/item/ammo_casing/autogun/militarum/ms
-
+	sales_price = 400
 
 /obj/item/ammo_magazine/speedloader/small
 	name = "speed loader"
@@ -278,6 +320,7 @@
 	matter = list(MATERIAL_STEEL = 1060)
 	max_ammo = 9
 	multiple_sprites = 1
+	sales_price = 150
 
 /obj/item/ammo_magazine/pistol
 	name = "10mm slug magazine"
@@ -290,42 +333,51 @@
 	ammo_type = /obj/item/ammo_casing/pistol
 	max_ammo = 15
 	multiple_sprites = 1
+	sales_price = 250
 
 /obj/item/ammo_magazine/pistol/ap
 	name = "10mm AP speed loader"
 	desc = "An 10mm slug magazine"
 	ammo_type = /obj/item/ammo_casing/pistol/ap
+	sales_price = 300
 
 /obj/item/ammo_magazine/pistol/kp
 	name = "10mm KP speed loader"
 	desc = "An 10mm slug magazine"
 	ammo_type = /obj/item/ammo_casing/pistol/kp
+	sales_price = 450
 
 /obj/item/ammo_magazine/pistol/ms
 	name = "10mm MS speed loader"
 	desc = "An 10mm slug magazine"
 	ammo_type = /obj/item/ammo_casing/pistol/ms
+	sales_price = 375
 
 /obj/item/ammo_magazine/pistol/empty
 	initial_ammo = 0
+	sales_price = 100
 
 /obj/item/ammo_magazine/pistol/rubber
 	labels = list("rubber")
 	ammo_type = /obj/item/ammo_casing/pistol/rubber
+	sales_price = 150
 
 /obj/item/ammo_magazine/pistol/double
 	name = "doublestack pistol magazine"
 	icon_state = "pistol_mag"
 	matter = list(MATERIAL_STEEL = 1050)
 	max_ammo = 19
+	sales_price = 300
 
 /obj/item/ammo_magazine/pistol/double/rubber
 	labels = list("rubber")
 	ammo_type = /obj/item/ammo_casing/pistol/rubber
+	sales_price = 250
 
 /obj/item/ammo_magazine/pistol/double/practice
 	labels = list("practice")
 	ammo_type = /obj/item/ammo_casing/pistol/practice
+	sales_price = 220
 
 /obj/item/ammo_magazine/pistol/small
 	name = "7mm slug magazine"
@@ -335,24 +387,29 @@
 	caliber = CALIBER_SLUG_SMALL
 	ammo_type = /obj/item/ammo_casing/pistol/tech
 	max_ammo = 17
+	sales_price = 250
 
 /obj/item/ammo_magazine/pistol/small/ap
 	name = "7mm AP slug magazine"
 	desc = "An 15mm slug magazine"
 	ammo_type = /obj/item/ammo_casing/pistol/tech/ap
+	sales_price = 300
 
 /obj/item/ammo_magazine/pistol/small/kp
 	name = "7mm KP slug magazine"
 	desc = "An 15mm slug magazine"
 	ammo_type = /obj/item/ammo_casing/pistol/tech/kp
+	sales_price = 450
 
 /obj/item/ammo_magazine/pistol/small/ms
 	name = "7mm MS slug magazine"
 	desc = "An 15mm slug magazine"
 	ammo_type = /obj/item/ammo_casing/pistol/tech/ms
+	sales_price = 375
 
 /obj/item/ammo_magazine/pistol/small/empty
 	initial_ammo = 0
+	sales_price = 100
 
 /obj/item/ammo_magazine/magnum
 	name = "15mm slug magazine"
@@ -364,24 +421,29 @@
 	ammo_type = /obj/item/ammo_casing/magnum
 	max_ammo = 12
 	multiple_sprites = 1
+	sales_price = 300
 
 /obj/item/ammo_magazine/magnum/ap
 	name = "15mm AP slug magazine"
 	desc = "An 15mm slug magazine"
 	ammo_type = /obj/item/ammo_casing/magnum/ap
+	sales_price = 400
 
 /obj/item/ammo_magazine/magnum/kp
 	name = "15mm KP slug magazine"
 	desc = "An 15mm slug magazine"
 	ammo_type = /obj/item/ammo_casing/magnum/kp
+	sales_price = 600
 
 /obj/item/ammo_magazine/magnum/ms
 	name = "15mm MS slug magazine"
 	desc = "An 15mm slug magazine"
 	ammo_type = /obj/item/ammo_casing/magnum/ms
+	sales_price = 500
 
 /obj/item/ammo_magazine/magnum/empty
 	initial_ammo = 0
+	sales_price = 150
 
 
 /obj/item/ammo_magazine/autogun
@@ -393,18 +455,22 @@
 	ammo_type = /obj/item/ammo_casing/autogun
 	max_ammo = 33
 	multiple_sprites = 1
+	sales_price = 500
 
 /obj/item/ammo_magazine/autogun/ap
 	name = "AP magazine (8mm)"
 	ammo_type = /obj/item/ammo_casing/autogun/ap
+	sales_price = 700
 
 /obj/item/ammo_magazine/autogun/kp
 	name = "KP magazine (8mm)"
 	ammo_type = /obj/item/ammo_casing/autogun/kp
+	sales_price = 1000
 
 /obj/item/ammo_magazine/autogun/ms
 	name = "MS magazine (8mm)"
 	ammo_type = /obj/item/ammo_casing/autogun/ms
+	sales_price = 850
 
 /obj/item/ammo_magazine/autogun/militarum
 	name = "magazine (6.8mm)"
@@ -416,55 +482,66 @@
 	ammo_type = /obj/item/ammo_casing/autogun/militarum
 	max_ammo = 37
 	multiple_sprites = 1
+	sales_price = 550
 
 /obj/item/ammo_magazine/autogun/militarum/ap
 	name = "AP magazine (6.8mm AR)"
 	ammo_type = /obj/item/ammo_casing/autogun/militarum/ap
+	sales_price = 750
 
 /obj/item/ammo_magazine/autogun/militarum/kp
 	name = "KP magazine (6.8mm AR)"
 	ammo_type = /obj/item/ammo_casing/autogun/militarum/kp
+	sales_price = 1100
 
 /obj/item/ammo_magazine/autogun/militarum/ms
 	name = "MS magazine (6.8mm AR)"
 	ammo_type = /obj/item/ammo_casing/autogun/militarum/ms
+	sales_price = 1000
 
 /obj/item/ammo_magazine/autogunheavy
 	name = "box magazine (6.8mm)"
 	icon_state = "hmg"
 	max_ammo = 58
 	ammo_type = /obj/item/ammo_casing/autogun/militarum
+	sales_price = 700
 
 /obj/item/ammo_magazine/autogunheavy/ap
 	name = "AP box magazine (6.8mm AR)"
 	ammo_type = /obj/item/ammo_casing/autogun/militarum/ap
+	sales_price = 950
 
 /obj/item/ammo_magazine/autogunheavy/kp
 	name = "KP box magazine (6.8mm AR)"
 	ammo_type = /obj/item/ammo_casing/autogun/militarum/kp
+	sales_price = 1500
 
 /obj/item/ammo_magazine/autogunheavy/ms
 	name = "MS box magazine (6.8mm AR)"
 	ammo_type = /obj/item/ammo_casing/autogun/militarum/ms
+	sales_price = 1300
 
 /obj/item/ammo_magazine/heavy
 	name = "magazine (10mm AR)"
 	max_ammo = 25
 	icon_state = "5556"
 	ammo_type = /obj/item/ammo_casing/heavy
+	sales_price = 600
 
 /obj/item/ammo_magazine/heavy/ap
 	name = "AP magazine (10mm AR)"
 	ammo_type = /obj/item/ammo_casing/heavy/ap
+	sales_price = 800
 
 /obj/item/ammo_magazine/heavy/kp
 	name = "KP magazine (10mm AR)"
 	ammo_type = /obj/item/ammo_casing/heavy/kp
+	sales_price = 1200
 
 /obj/item/ammo_magazine/heavy/ms
 	name = "MS magazine (10mm AR)"
 	ammo_type = /obj/item/ammo_casing/heavy/ms
-
+	sales_price = 1100
 
 /obj/item/ammo_magazine/radcarbine
 	name = "Radcarbine Magazine"
@@ -476,6 +553,7 @@
 	ammo_type = /obj/item/ammo_casing/radcarbine
 	max_ammo = 20
 	multiple_sprites = 1
+	sales_price = 500
 
 /obj/item/ammo_magazine/radcarbine/radpistol
 	name = "Radpistol Magazine"
@@ -487,7 +565,7 @@
 	ammo_type = /obj/item/ammo_casing/radcarbine/radpistol
 	max_ammo = 10
 	multiple_sprites = 0
-
+	sales_price = 350
 
 /obj/item/ammo_magazine/pulsemag
 	name = "Pulse Matter Cartridge"
@@ -499,6 +577,7 @@
 	ammo_type = /obj/item/ammo_casing/pmag
 	max_ammo = 45
 	multiple_sprites = 1
+	sales_price = 1000
 
 /* ork mags */
 
@@ -512,9 +591,11 @@
 	ammo_type = /obj/item/ammo_casing/ork
 	max_ammo = 10
 	multiple_sprites = 1
+	sales_price = 100
 
 /obj/item/ammo_magazine/ork/slugga/empty
 	initial_ammo = 0
+	sales_price = 10
 
 /obj/item/ammo_magazine/ork/shoota
 	name = "shoota magazine"
@@ -526,9 +607,11 @@
 	ammo_type = /obj/item/ammo_casing/ork/shoota
 	max_ammo = 75
 	multiple_sprites = 1
+	sales_price = 200
 
 /obj/item/ammo_magazine/ork/shoota/empty
 	initial_ammo = 0
+	sales_price = 20
 
 //-----SPECIAL BOLTER MAGS-----
 /obj/item/ammo_magazine/bolt_pistol_magazine
@@ -541,9 +624,11 @@
 	ammo_type = /obj/item/ammo_casing/boltpistol
 	max_ammo = 8
 	multiple_sprites = 1
+	sales_price = 600
 
 /obj/item/ammo_magazine/bolt_pistol_magazine/empty
 	initial_ammo = 0
+	sales_price = 200
 
 /obj/item/ammo_magazine/bolt_rifle_magazine
 	name = "Bolter Magazine"
@@ -555,14 +640,15 @@
 	ammo_type = /obj/item/ammo_casing/bolter
 	max_ammo = 25
 	multiple_sprites = 1
+	sales_price = 1400
 
 /obj/item/ammo_magazine/bolt_rifle_magazine/empty
 	initial_ammo = 0
+	sales_price = 300
 
 /obj/item/ammo_magazine/bolt_rifle_magazine/sister
 	name = "Godwyn-De'az Pattern Bolter Rifle Magazine"
 	ammo_type = /obj/item/ammo_casing/bolter
-
 
 /obj/item/ammo_magazine/bolt_pistol_magazine/ms
 	name = "Metal Storm Boltpistol Magazine"
@@ -574,6 +660,7 @@
 	ammo_type = /obj/item/ammo_casing/boltpistol/ms
 	max_ammo = 8
 	multiple_sprites = 1
+	sales_price = 1000
 
 /obj/item/ammo_magazine/bolt_pistol_magazine/ms/empty
 	initial_ammo = 0
@@ -588,6 +675,7 @@
 	ammo_type = /obj/item/ammo_casing/bolter/ms
 	max_ammo = 25
 	multiple_sprites = 1
+	sales_price = 2000
 
 /obj/item/ammo_magazine/bolt_rifle_magazine/ms/empty
 	initial_ammo = 0
@@ -602,6 +690,7 @@
 	ammo_type = /obj/item/ammo_casing/boltpistol/kp
 	max_ammo = 8
 	multiple_sprites = 1
+	sales_price = 1100
 
 /obj/item/ammo_magazine/bolt_pistol_magazine/kp/empty
 	initial_ammo = 0
@@ -616,6 +705,7 @@
 	ammo_type = /obj/item/ammo_casing/bolter/kp
 	max_ammo = 25
 	multiple_sprites = 1
+	sales_price = 2200
 
 /obj/item/ammo_magazine/bolt_rifle_magazine/kp/empty
 	initial_ammo = 0
@@ -631,6 +721,7 @@
 	ammo_type = /obj/item/ammo_casing/bolter/astartes
 	max_ammo = 35
 	multiple_sprites = 1
+	sales_price = 2400
 
 /obj/item/ammo_magazine/bolt_rifle_magazine/kp/empty
 	initial_ammo = 0
@@ -663,6 +754,7 @@
 	matter = list(MATERIAL_STEEL = 1300)
 	max_ammo = 5
 	multiple_sprites = 1
+	sales_price = 300
 
 /obj/item/ammo_magazine/speedloader/hpclip
 	name = "holdout pistol stripper clip"
@@ -673,6 +765,7 @@
 	matter = list(MATERIAL_STEEL = 1800)
 	max_ammo = 10
 	multiple_sprites = TRUE
+	sales_price = 250
 
 /obj/item/ammo_magazine/smg_top
 	name = "top mounted magazine"
@@ -683,17 +776,21 @@
 	caliber = CALIBER_SLUG_SMALL
 	max_ammo = 20
 	multiple_sprites = 1
+	sales_price = 350
 
 /obj/item/ammo_magazine/smg_top/empty
 	initial_ammo = 0
+	sales_price = 100
 
 /obj/item/ammo_magazine/smg_top/rubber
 	labels = list("rubber")
 	ammo_type = /obj/item/ammo_casing/pistol/tech/rubber
+	sales_price = 200
 
 /obj/item/ammo_magazine/smg_top/practice
 	labels = list("practice")
 	ammo_type = /obj/item/ammo_casing/pistol/tech/practice
+	sales_price = 150
 
 
 
@@ -706,6 +803,7 @@
 	caliber = CALIBER_SLUG_SMALL
 	ammo_type = /obj/item/ammo_casing/pistol/tech
 	max_ammo = 30
+	sales_price = 450
 
 /obj/item/ammo_magazine/box/pistol
 	name = "ammunition box"
@@ -715,6 +813,7 @@
 	matter = list(MATERIAL_STEEL = 2250)
 	ammo_type = /obj/item/ammo_casing/pistol
 	max_ammo = 30
+	sales_price = 400
 
 /obj/item/ammo_magazine/box/pistol/empty
 	initial_ammo = 0
@@ -731,6 +830,7 @@
 	ammo_type = /obj/item/ammo_casing/pistol/emp
 	caliber = CALIBER_SLUG
 	max_ammo = 15
+	sales_price = 600
 
 /obj/item/ammo_magazine/box/emp/smallpistol
 	name = "ammunition box"
