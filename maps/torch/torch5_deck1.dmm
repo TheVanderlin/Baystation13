@@ -144,7 +144,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/warhammer/brick,
+/turf/simulated/floor/warhammer/coralg,
 /area/chapel/memorial)
 "aav" = (
 /obj/machinery/atmospherics/unary/tank/hydrogen{
@@ -676,8 +676,9 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/medical{
-	name = "Chemistry"
+/obj/machinery/door/airlock/warhammer/glass{
+	name = "Biologis Chemica";
+	req_access = list("ACCESS_MEDICAL_RESTRICTED")
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/chemistry)
@@ -1176,9 +1177,6 @@
 /turf/simulated/floor/reinforced,
 /area/thruster/d1port)
 "acy" = (
-/obj/floor_decal/corner/pink{
-	dir = 5
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
@@ -1198,20 +1196,6 @@
 "acD" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/firstdeck/centralstarboard)
-"acE" = (
-/obj/wallframe_spawn/reinforced/polarized/full{
-	id = "roboticlab_window"
-	},
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 2;
-	icon_state = "shutter0";
-	id_tag = "robotics_lab";
-	name = "Robotics Laboratory Lockdown";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/assembly/robotics/laboratory)
 "acF" = (
 /obj/structure/table/steel,
 /obj/item/device/robotanalyzer,
@@ -1231,13 +1215,6 @@
 	name = "Robotics Laboratory Hallway Door";
 	pixel_x = -34;
 	pixel_y = 5;
-	req_access = list("ACCESS_MECHANICUS_COMMAND")
-	},
-/obj/machinery/button/blast_door{
-	id_tag = "robotics_lab";
-	name = "Robotics Laboratory Lockdown";
-	pixel_x = -34;
-	pixel_y = -6;
 	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
 /turf/simulated/floor/warhammer/metal/alt,
@@ -2277,12 +2254,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/button/alternate/door/bolts{
-	id_tag = "selfddoor";
-	name = "Self Destruct Airlock Bolt Control";
-	pixel_y = -32;
-	req_access = list("ACCESS_BRIDGE")
-	},
 /obj/item/airlock_brace{
 	req_access = list("ACCESS_BRIDGE")
 	},
@@ -2672,7 +2643,6 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/floor_decal/newcorner/black/corner,
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "afb" = (
@@ -2698,9 +2668,6 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/newcorner/black{
-	dir = 4
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
@@ -2843,8 +2810,13 @@
 /turf/simulated/wall/warhammer,
 /area/chapel/memorial)
 "aft" = (
+/obj/structure/table/warhammer/big_wood_table{
+	icon = 'icons/map_project/tables.dmi';
+	icon_state = "largetable";
+	dir = 6
+	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
-/area/medical/staging)
+/area/medical/sleeper)
 "afu" = (
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/foyer)
@@ -2915,13 +2887,13 @@
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/safe_room/firstdeck)
 "afD" = (
-/obj/structure/table/steel,
 /obj/structure/torchwall{
 	dir = 1
 	},
 /obj/item/storage/candle_box/incense,
 /obj/item/storage/candle_box,
 /obj/item/flame/lighter/random,
+/obj/structure/table/warhammer/reinf_table,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/sleeper)
 "afE" = (
@@ -2942,9 +2914,9 @@
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/safe_room/firstdeck)
 "afH" = (
-/obj/structure/table/reinforced,
+/obj/structure/table/steel_reinforced,
 /obj/machinery/cell_charger,
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "afI" = (
 /turf/simulated/wall/prepainted,
@@ -2966,10 +2938,10 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/firstdeck/fore)
 "afK" = (
-/obj/structure/table/steel,
 /obj/item/storage/candle_box/incense,
 /obj/item/storage/candle_box,
 /obj/item/flame/lighter/random,
+/obj/structure/table/warhammer/reinf_table,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/sleeper)
 "afL" = (
@@ -3138,16 +3110,12 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/sleeper)
 "aga" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/multi_tile/glass/medical{
-	id_tag = "inf_stage";
-	name = "Medicae Accessway";
-	req_access = list("ACCESS_MEDICAL")
+/obj/machinery/door/airlock/warhammer/chapel_left{
+	name = "Medicae Airlock"
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "aha" = (
-/obj/machinery/door/firedoor,
 /obj/machinery/door/blast/shutters{
 	density = 0;
 	dir = 2;
@@ -3156,9 +3124,8 @@
 	name = "Infirmary Staging Lockdown";
 	opacity = 0
 	},
-/obj/machinery/door/airlock/warhammer{
-	req_access = list("ACCESS_MEDICAL");
-	name = "Medicae Clinic"
+/obj/machinery/door/airlock/warhammer/chapel_left{
+	name = "Medicae Airlock"
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
@@ -3612,9 +3579,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/safe_room/firstdeck)
 "aiO" = (
-/obj/machinery/newscaster{
-	pixel_y = 32
-	},
 /obj/floor_decal/techfloor{
 	dir = 9
 	},
@@ -4470,10 +4434,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
 "amp" = (
-/obj/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "warning"
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
@@ -4726,7 +4686,7 @@
 	pixel_y = 23
 	},
 /obj/structure/bed/chair/warhammer/padded/blue,
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "anL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4744,18 +4704,9 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/effect/floor_decal/newcorner/black{
-	dir = 8
-	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "aob" = (
-/obj/machinery/button/windowtint{
-	id = "conference_window";
-	pixel_x = 6;
-	pixel_y = -24;
-	range = 11
-	},
 /obj/machinery/light_switch{
 	pixel_x = -6;
 	pixel_y = -24
@@ -5029,7 +4980,8 @@
 	autoset_access = 0;
 	id_tag = "medsafe";
 	name = "Medicae Barracks";
-	locked = 0
+	locked = 0;
+	req_access = list("ACCESS_MEDICAL")
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5689,13 +5641,9 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/warhammer/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/chargebay)
 "auP" = (
-/obj/floor_decal/industrial/warning{
-	dir = 8;
-	icon_state = "warning"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
@@ -5792,9 +5740,18 @@
 /turf/simulated/floor/warhammer/plating,
 /area/security/wing)
 "avO" = (
-/obj/machinery/body_scanconsole{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/roller_bed,
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "avS" = (
@@ -5819,10 +5776,6 @@
 	},
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/disposal,
-/obj/structure/sign/deck/first{
-	dir = 1;
-	pixel_y = -32
-	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/firstdeck/fore)
 "avU" = (
@@ -5959,7 +5912,8 @@
 	autoset_access = 0;
 	id_tag = "medsafe_fore";
 	name = "Medicae Barracks";
-	locked = 0
+	locked = 0;
+	req_access = list("ACCESS_MEDICAL")
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/firstdeck/centralstarboard)
@@ -5982,11 +5936,12 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/firstdeck/center)
 "axB" = (
-/obj/machinery/newscaster{
-	pixel_y = 32
+/obj/floor_decal/techfloor,
+/obj/structure/bed/chair/warhammer{
+	dir = 8
 	},
 /turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/firstdeck/aft)
+/area/security/locker)
 "axD" = (
 /obj/structure/cable/green{
 	d2 = 2;
@@ -6900,7 +6855,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/security/nuke_storage)
 "aDN" = (
-/obj/machinery/status_display,
+/obj/structure/sign/inquisition,
 /turf/simulated/wall/r_wall/prepainted,
 /area/security/nuke_storage)
 "aDP" = (
@@ -7227,6 +7182,9 @@
 	},
 /obj/structure/table/steel_reinforced,
 /obj/item/device/multitool/hacktool,
+/obj/machinery/keycard_auth/torch{
+	pixel_x = 26
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/bo)
 "aFS" = (
@@ -7264,6 +7222,10 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/firstdeck/fore)
+"aGd" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/warhammer/coralg,
+/area/chapel/memorial)
 "aGe" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -7322,7 +7284,7 @@
 /obj/structure/bed/chair/warhammer/stoolw/wood{
 	color = null
 	},
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "aGE" = (
 /obj/wallframe_spawn/reinforced/no_grille,
@@ -7540,9 +7502,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/bo)
 "aIb" = (
-/obj/machinery/computer/station_alert/security{
-	dir = 8
-	},
 /obj/machinery/button/alternate/door{
 	id_tag = "prisonexit";
 	name = "Exit Doors";
@@ -7574,6 +7533,10 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/computer/modular/preset/cardslot/command_sec{
+	dir = 8;
+	icon_state = "console"
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/bo)
@@ -9892,10 +9855,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/engineering{
-	name = "Robotics"
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS_RESTRICTED");
+	name = "Servitor Labs"
 	},
-/turf/simulated/floor/warhammer/metal,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/robotics/office)
 "aTd" = (
 /obj/machinery/door/firedoor,
@@ -10628,9 +10592,6 @@
 	},
 /obj/machinery/light{
 	dir = 1
-	},
-/obj/machinery/newscaster{
-	pixel_y = 32
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/rnd/xenobiology)
@@ -11461,10 +11422,6 @@
 /turf/simulated/floor/plating,
 /area/thruster/d1port)
 "bvY" = (
-/obj/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "warning"
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -11784,9 +11741,6 @@
 /area/security/brig)
 "bSD" = (
 /obj/structure/table/steel,
-/obj/machinery/newscaster{
-	pixel_x = -32
-	},
 /obj/machinery/photocopier/faxmachine{
 	department = "Dauntless - Research Paperwork Office"
 	},
@@ -11811,6 +11765,15 @@
 /obj/structure/bed/chair/shuttle,
 /turf/simulated/floor/warhammer/brothel,
 /area/shuttle/escape_pod15/station)
+"bTD" = (
+/obj/structure/table/steel,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/item/pen/blue,
+/obj/random/clipboard,
+/obj/item/storage/medical_lolli_jar,
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "bUb" = (
 /obj/item/device/radio/intercom{
 	dir = 4;
@@ -12069,6 +12032,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan,
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/safe_room/firstdeck)
+"ckL" = (
+/turf/simulated/floor/warhammer/coralg,
+/area/chapel/memorial)
 "clG" = (
 /obj/structure/closet/crate/warhammer,
 /obj/item/reagent_containers/food/drinks/bottle/holywater,
@@ -12101,6 +12067,10 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/security/locker)
+"cpq" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "cqb" = (
 /obj/structure/table/warhammer/big_wood_table{
 	icon_state = "wood_1tileendtable";
@@ -12134,9 +12104,6 @@
 "cub" = (
 /obj/floor_decal/techfloor{
 	dir = 9
-	},
-/obj/machinery/newscaster{
-	pixel_y = 32
 	},
 /obj/machinery/button/alternate/door/bolts{
 	id_tag = "medsafe_fore";
@@ -12220,7 +12187,7 @@
 	},
 /obj/machinery/computer/shuttle_control/lift/medical,
 /turf/simulated/floor/tiled/steel_grid,
-/area/medical/morgue/autopsy)
+/area/turbolift/medical_lift)
 "cyb" = (
 /obj/floor_decal/techfloor{
 	dir = 1
@@ -12293,6 +12260,9 @@
 /obj/structure/barricade/boards,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head/deck1)
+"cCy" = (
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/safe_room/medical)
 "cDb" = (
 /obj/floor_decal/techfloor/orange,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -12339,12 +12309,30 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/safe_room/medical)
+"cFR" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/warhammer/coralg,
+/area/medical/staging)
 "cGd" = (
 /obj/floor_decal/techfloor{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/medical/morgue/autopsy)
+"cGQ" = (
+/obj/structure/sign/medposter2,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
+/area/chapel/memorial)
 "cHb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -12372,7 +12360,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_grid,
-/area/medical/morgue/autopsy)
+/area/turbolift/medical_lift)
 "cKO" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/warhammer/plating,
@@ -12458,7 +12446,6 @@
 /turf/simulated/wall/warhammer,
 /area/chapel/memorial)
 "cTb" = (
-/obj/structure/table/steel,
 /obj/item/storage/firstaid/surgery,
 /obj/floor_decal/floordetail/edgedrain{
 	dir = 1
@@ -12466,6 +12453,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/table/steel_reinforced,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery2)
 "cUb" = (
@@ -12490,9 +12478,18 @@
 /turf/simulated/floor/reinforced,
 /area/engineering/fuelbay/aux)
 "cWb" = (
-/obj/effect/floor_decal/newcorner/black{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/roller_bed,
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "cWR" = (
@@ -12769,6 +12766,11 @@
 /obj/item/stack/material/plastic/ten,
 /turf/simulated/floor/warhammer/coralg,
 /area/rnd/development)
+"doe" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
+/area/chapel/memorial)
 "doR" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -12975,6 +12977,20 @@
 /obj/machinery/atmospherics/unary/cryo_cell,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/sleeper)
+"dOf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/coralg,
+/area/medical/staging)
 "dOk" = (
 /obj/structure/closet/crate/warhammer,
 /obj/item/grenade/frag/high_yield/plasma{
@@ -13089,9 +13105,6 @@
 /area/thruster/d1starboard)
 "dWb" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/effect/floor_decal/newcorner/black/quarter{
-	dir = 1
-	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "dXM" = (
@@ -13174,9 +13187,6 @@
 /obj/structure/closet/hydrant{
 	pixel_x = 32
 	},
-/obj/effect/floor_decal/newcorner/black{
-	dir = 1
-	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "ecI" = (
@@ -13208,12 +13218,10 @@
 /area/hallway/primary/firstdeck/fore)
 "edb" = (
 /obj/structure/table/rack/dark,
-/obj/machinery/newscaster/security_unit{
-	pixel_y = 32
-	},
 /obj/floor_decal/techfloor{
 	dir = 1
 	},
+/obj/item/book/manual/law,
 /obj/item/book/manual/law,
 /obj/item/book/manual/law,
 /obj/item/book/manual/law,
@@ -13249,15 +13257,9 @@
 /turf/simulated/floor/warhammer/plating,
 /area/security/locker)
 "eim" = (
-/obj/structure/sign/poster/torch,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/ocp_wall,
 /area/security/wing)
-"ejb" = (
-/obj/effect/floor_decal/newcorner/black{
-	dir = 8
-	},
-/turf/simulated/floor/warhammer/coralg,
-/area/medical/sleeper)
 "ekb" = (
 /obj/item/storage/candle_box,
 /obj/item/storage/candle_box/incense,
@@ -13485,10 +13487,8 @@
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/rnd/office)
 "eHb" = (
-/obj/machinery/bodyscanner{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/coralg,
+/obj/structure/table/warhammer/reinf_table,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/sleeper)
 "eHp" = (
 /obj/floor_decal/techfloor{
@@ -13572,9 +13572,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/medical/morgue/autopsy)
 "ePb" = (
-/obj/machinery/door/airlock/medical{
-	name = "Operating Room 1"
-	},
 /obj/machinery/holosign/surgery{
 	dir = 4;
 	id_tag = "or1"
@@ -13590,6 +13587,10 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Surgery";
+	req_access = list("ACCESS_MEDICAL_RESTRICTED")
 	},
 /turf/simulated/floor/warhammer/metal,
 /area/medical/surgery)
@@ -13618,17 +13619,9 @@
 /area/crew_quarters/safe_room/firstdeck)
 "eRb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/newcorner/black{
-	dir = 8
-	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "eRQ" = (
-/obj/machinery/door/airlock/medical{
-	autoset_access = 0;
-	name = "Robotics Laboratory";
-	req_access = list("ACCESS_MEDICAL")
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -13641,7 +13634,11 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/warhammer/metal,
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Servitor Labs"
+	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/robotics/laboratory)
 "eRU" = (
 /turf/simulated/wall/r_wall/hull,
@@ -13724,6 +13721,16 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/firstdeck/aftstarboard)
+"fex" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/warhammer/coralg,
+/area/medical/staging)
 "fft" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -13763,10 +13770,6 @@
 /obj/item/bedsheet/hos,
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/aftport)
-"foK" = (
-/obj/wallframe_spawn/reinforced/no_grille,
-/turf/simulated/floor/plating,
-/area/assembly/robotics/office)
 "foP" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -13853,7 +13856,6 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/rnd/misc_lab)
 "fCb" = (
-/obj/structure/table/steel,
 /obj/item/storage/firstaid/surgery,
 /obj/floor_decal/floordetail/edgedrain{
 	dir = 1
@@ -13861,6 +13863,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/table/steel_reinforced,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery)
 "fDR" = (
@@ -13887,6 +13890,7 @@
 /area/engineering/fuelbay/aux)
 "fKb" = (
 /obj/machinery/hologram/holopad,
+/obj/structure/iv_stand,
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "fKJ" = (
@@ -13952,7 +13956,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/warhammer/brick,
+/turf/simulated/floor/warhammer/coralg,
 /area/chapel/memorial)
 "fTU" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -14092,18 +14096,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/security/locker)
-"ggA" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/obj/machinery/newscaster{
-	pixel_y = -32
-	},
-/obj/machinery/rotating_alarm/security_alarm{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/firstdeck/center)
 "ghb" = (
 /obj/structure/iv_stand,
 /obj/floor_decal/floordetail/edgedrain{
@@ -14165,10 +14157,11 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/robotics/office)
 "gjb" = (
-/obj/structure/table/steel,
-/obj/item/storage/firstaid/adv,
 /obj/floor_decal/floordetail/edgedrain{
 	dir = 4
+	},
+/obj/machinery/bodyscanner{
+	dir = 1
 	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery)
@@ -14297,7 +14290,6 @@
 /turf/simulated/wall/warhammer,
 /area/medical/morgue/autopsy)
 "gzb" = (
-/obj/structure/table/reinforced,
 /obj/machinery/door/blast/shutters{
 	density = 0;
 	dir = 4;
@@ -14306,12 +14298,13 @@
 	name = "Infirmary Reception Window Lockdown";
 	opacity = 0
 	},
-/obj/machinery/door/window/eastright{
-	name = "Medical Reception"
-	},
 /obj/item/storage/medical_lolli_jar,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/obj/structure/table/warhammer/big_wood_table{
+	icon_state = "wood_1tileendtable";
+	dir = 1
+	},
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "gzM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -14344,6 +14337,10 @@
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/medicalhallway)
+"gDD" = (
+/obj/structure/sign/medposte3,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
+/area/chapel/memorial)
 "gEb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -14362,7 +14359,9 @@
 /obj/structure/torchwall{
 	dir = 1
 	},
-/turf/simulated/floor/warhammer/brick,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
 /area/chapel/memorial)
 "gEY" = (
 /obj/structure/cable/green{
@@ -14386,6 +14385,9 @@
 "gFb" = (
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/medpaperworkoffice)
+"gGb" = (
+/turf/simulated/wall/warhammer,
+/area/crew_quarters/safe_room/medical)
 "gGO" = (
 /obj/item/device/radio/intercom/department/security{
 	pixel_y = 23
@@ -14469,7 +14471,7 @@
 	dir = 8;
 	pixel_x = -24
 	},
-/turf/simulated/floor/warhammer/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/chargebay)
 "gZb" = (
 /obj/structure/cable/green{
@@ -14529,6 +14531,10 @@
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
+"hdy" = (
+/obj/structure/sign/stainedglass1,
+/turf/simulated/wall/warhammer,
+/area/chapel/memorial)
 "heb" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -14666,14 +14672,14 @@
 /obj/floor_decal/floordetail/edgedrain{
 	dir = 4
 	},
+/obj/machinery/body_scanconsole{
+	dir = 1
+	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery2)
 "hlb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
-	},
-/obj/effect/floor_decal/newcorner/black{
-	dir = 1
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
@@ -14899,6 +14905,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/fore)
+"hyz" = (
+/obj/structure/sign/stainedglass4,
+/turf/simulated/wall/warhammer,
+/area/chapel/memorial)
 "hzb" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -14928,7 +14938,7 @@
 /obj/structure/torchwall{
 	dir = 8
 	},
-/turf/simulated/floor/warhammer/brick,
+/turf/simulated/floor/warhammer/coralg,
 /area/chapel/memorial)
 "hBr" = (
 /turf/simulated/wall/r_wall/hull,
@@ -15346,11 +15356,9 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/security/opscheck)
 "ilh" = (
-/obj/structure/bed/chair/warhammer/stoolw/wood{
-	color = null
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/security/locker)
+/obj/structure/sign/deck/first,
+/turf/simulated/wall/prepainted,
+/area/hallway/primary/firstdeck/fore)
 "imb" = (
 /obj/floor_decal/torchltdlogo,
 /turf/simulated/floor/warhammer/coralg,
@@ -15881,6 +15889,11 @@
 /obj/structure/torchwall{
 	dir = 4
 	},
+/obj/structure/table/warhammer/big_wood_table{
+	icon = 'icons/map_project/tables.dmi';
+	icon_state = "largetable";
+	dir = 5
+	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/sleeper)
 "jcO" = (
@@ -16054,6 +16067,23 @@
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/firstdeck/forestarboard)
+"jlB" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
+/area/chapel/memorial)
 "job" = (
 /obj/machinery/alarm{
 	dir = 1;
@@ -16076,6 +16106,13 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/security/locker)
+"jql" = (
+/obj/machinery/door/airlock/warhammer/engineering{
+	name = "Magos Biologis Office";
+	req_access = list("ACCESS_BRIDGE")
+	},
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "jqD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -16309,7 +16346,7 @@
 	pixel_y = -24;
 	req_access = list("ACCESS_MEDICAL")
 	},
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "jDX" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
@@ -16535,11 +16572,13 @@
 	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/rnd/misc_lab)
+"kbl" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
+/area/chapel/memorial)
 "kcb" = (
 /obj/floor_decal/floordetail/edgedrain{
 	dir = 4
 	},
-/obj/floor_decal/sign/or1,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -16550,6 +16589,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/body_scanconsole{
+	dir = 1
 	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery)
@@ -16602,7 +16644,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/thruster/d1starboard)
 "kgi" = (
-/obj/floor_decal/industrial/warning/corner,
 /obj/structure/disposalpipe/segment{
 	dir = 8;
 	icon_state = "pipe-c"
@@ -16754,11 +16795,15 @@
 /turf/simulated/floor/warhammer/metal/north,
 /area/security/storage)
 "kvb" = (
-/obj/wallframe_spawn/reinforced/polarized/no_grille/regular{
-	id = "roboticlab_window"
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "selfddoor";
+	name = "Self Destruct Airlock Bolt Control";
+	pixel_y = -32;
+	req_access = list("ACCESS_BRIDGE")
 	},
-/turf/simulated/floor/plating,
-/area/assembly/robotics/office)
+/obj/structure/sign/inquisition,
+/turf/simulated/wall/r_wall/prepainted,
+/area/security/nuke_storage)
 "kwb" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -16795,9 +16840,12 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/security/detectives_office)
 "kyb" = (
-/obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Servitor Labs"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/assembly/robotics/laboratory)
 "kzy" = (
@@ -16842,9 +16890,6 @@
 /turf/simulated/floor/warhammer/metal/south,
 /area/security/secure_storage)
 "kDb" = (
-/obj/floor_decal/industrial/warning{
-	icon_state = "warning"
-	},
 /obj/structure/bed/chair/warhammer{
 	dir = 8
 	},
@@ -16919,7 +16964,6 @@
 /obj/machinery/body_scan_display{
 	pixel_y = 24
 	},
-/obj/random/plushie,
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "kJb" = (
@@ -16998,9 +17042,6 @@
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d1port)
 "kQb" = (
-/obj/floor_decal/corner/pink{
-	dir = 5
-	},
 /obj/floor_decal/sign/pop,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -17016,9 +17057,6 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "kRb" = (
-/obj/floor_decal/corner/pink{
-	dir = 5
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -17039,9 +17077,6 @@
 /area/medical/staging)
 "kSb" = (
 /obj/structure/curtain/open/privacy,
-/obj/floor_decal/corner/pink{
-	dir = 5
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -17145,7 +17180,7 @@
 	},
 /obj/shuttle_landmark/lift/medical_top,
 /turf/simulated/floor/tiled/steel_grid,
-/area/medical/morgue/autopsy)
+/area/turbolift/medical_lift)
 "kZb" = (
 /obj/structure/closet/crate/warhammer,
 /obj/item/clothing/under/guard/uniform/sisterofbattle/repentia,
@@ -17222,20 +17257,12 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/bo)
 "ldb" = (
-/obj/machinery/door/airlock/medical{
-	id_tag = "roboticslab";
-	name = "Robotics Laboratory"
-	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 2;
-	icon_state = "shutter0";
-	id_tag = "robotics_lab";
-	name = "Robotics Laboratory Lockdown";
-	opacity = 0
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Servitor Labs"
 	},
-/turf/simulated/floor/warhammer/metal,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/robotics/laboratory)
 "ldP" = (
 /obj/structure/table/rack/dark,
@@ -17429,15 +17456,14 @@
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head/deck1)
 "lvb" = (
-/obj/item/device/radio/intercom/department/security{
-	dir = 4;
-	pixel_x = -21
-	},
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/floor_decal/techfloor{
 	dir = 10
+	},
+/obj/machinery/computer/station_alert/security{
+	dir = 4
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/security/locker)
@@ -17568,9 +17594,9 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/structure/table/steel,
 /obj/item/storage/box/bloodpacks,
 /obj/item/storage/box/glucose,
+/obj/structure/table/warhammer/reinf_table,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/sleeper)
 "lAC" = (
@@ -17657,6 +17683,9 @@
 /obj/structure/table/rack/dark,
 /turf/simulated/floor/warhammer/coralg,
 /area/security/evidence)
+"lKX" = (
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "lLD" = (
 /obj/machinery/computer/arcade,
 /turf/simulated/floor/plating,
@@ -17686,6 +17715,9 @@
 /area/security/locker)
 "lOb" = (
 /obj/floor_decal/techfloor,
+/obj/structure/bed/chair/warhammer{
+	dir = 4
+	},
 /turf/simulated/floor/warhammer/plating,
 /area/security/locker)
 "lRa" = (
@@ -17714,6 +17746,14 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/forestarboard)
+"lUX" = (
+/obj/structure/table/steel,
+/obj/item/reagent_containers/food/drinks/ice,
+/obj/item/reagent_containers/food/drinks/bottle/orangejuice,
+/obj/item/storage/box/cups,
+/obj/item/sticky_pad/random,
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "lVb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/warhammer{
@@ -17791,10 +17831,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralport)
 "mcA" = (
-/obj/floor_decal/industrial/warning{
-	dir = 8;
-	icon_state = "warning"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -18038,7 +18074,7 @@
 /obj/machinery/door/airlock/warhammer/chapel_right{
 	name = "Monastery Airlock"
 	},
-/turf/simulated/floor/warhammer/brick,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/medicalhallway)
 "mvl" = (
 /obj/structure/cable/green{
@@ -18089,12 +18125,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
-/area/medical/morgue/autopsy)
+/area/turbolift/medical_lift)
 "mwV" = (
 /obj/floor_decal/floordetail/edgedrain{
 	dir = 6
 	},
-/obj/floor_decal/sign/or2,
 /obj/machinery/button/holosign{
 	id_tag = "or2";
 	pixel_x = 6;
@@ -18301,9 +18336,6 @@
 /obj/floor_decal/industrial/warning{
 	dir = 9
 	},
-/obj/item/modular_computer/telescreen/preset/generic{
-	pixel_x = 32
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -18457,10 +18489,6 @@
 /obj/floor_decal/industrial/warning{
 	dir = 10
 	},
-/obj/item/modular_computer/telescreen/preset/generic{
-	pixel_x = 32;
-	pixel_y = -9
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
@@ -18491,7 +18519,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/questioning)
 "njg" = (
-/obj/structure/table/steel,
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = -5
 	},
@@ -18503,6 +18530,7 @@
 	dir = 5
 	},
 /obj/item/reagent_containers/dropper/peridaxon,
+/obj/structure/table/steel_reinforced,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery)
 "njj" = (
@@ -18571,6 +18599,28 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/security/locker)
+"nmR" = (
+/obj/machinery/light,
+/obj/machinery/keycard_auth/torch{
+	pixel_y = -24
+	},
+/obj/machinery/button/windowtint{
+	id = "cmo_windows";
+	pixel_x = 7;
+	pixel_y = -34;
+	range = 11
+	},
+/obj/structure/table/steel,
+/obj/item/device/radio{
+	frequency = 1487;
+	name = "medbay emergency radio link"
+	},
+/obj/item/stamp/cmo,
+/obj/machinery/photocopier/faxmachine{
+	department = "Dauntless - Chief Medical Officer"
+	},
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "nnb" = (
 /obj/floor_decal/industrial/warning,
 /obj/machinery/keycard_auth/torch{
@@ -18676,9 +18726,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/machinery/newscaster/security_unit{
-	pixel_x = -32
-	},
 /turf/simulated/floor/warhammer/coralg,
 /area/security/opscheck)
 "nAp" = (
@@ -18715,9 +18762,6 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/medpaperworkoffice)
 "nDx" = (
-/obj/machinery/door/airlock/medical{
-	name = "Operating Room 2"
-	},
 /obj/machinery/holosign/surgery{
 	dir = 4;
 	id_tag = "or2"
@@ -18733,6 +18777,10 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Surgery";
+	req_access = list("ACCESS_MEDICAL_RESTRICTED")
 	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery2)
@@ -18755,12 +18803,18 @@
 /obj/machinery/photocopier/faxmachine{
 	department = "Dauntless - Brig Chief"
 	},
-/obj/machinery/newscaster/security_unit{
-	pixel_x = -32
-	},
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/bo)
+"nGQ" = (
+/obj/structure/closet/secure_closet/CMO_torch,
+/obj/item/storage/belt/medical,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 21
+	},
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "nIb" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -18878,10 +18932,6 @@
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/security/opscheck)
-"nQI" = (
-/obj/effect/floor_decal/newcorner/black,
-/turf/simulated/floor/warhammer/coralg,
-/area/medical/sleeper)
 "nRb" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -18931,10 +18981,6 @@
 	},
 /obj/landmark/start{
 	name = "Cyborg"
-	},
-/obj/floor_decal/industrial/warning{
-	dir = 8;
-	icon_state = "warning"
 	},
 /obj/machinery/computer/cryopod/robot{
 	pixel_y = 30
@@ -19123,7 +19169,6 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/rnd/research)
 "ofb" = (
-/obj/structure/table/reinforced,
 /obj/machinery/door/blast/shutters{
 	density = 0;
 	dir = 4;
@@ -19132,16 +19177,14 @@
 	name = "Infirmary Reception Window Lockdown";
 	opacity = 0
 	},
-/obj/machinery/door/window/eastright{
-	base_state = "left";
-	icon_state = "left";
-	name = "Medical Reception"
-	},
 /obj/machinery/door/firedoor,
 /obj/item/modular_computer/telescreen/preset/medical{
 	pixel_y = 32
 	},
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/obj/structure/table/warhammer/big_wood_table{
+	icon_state = "wood_1tileendtable"
+	},
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "ogb" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -19154,10 +19197,6 @@
 /obj/item/pen/red,
 /obj/item/pen,
 /obj/item/device/camera,
-/obj/structure/sign/ecplaque{
-	pixel_x = 1;
-	pixel_y = 32
-	},
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/rnd/office)
 "ojb" = (
@@ -19270,7 +19309,7 @@
 	req_access = list("ACCESS_MEDICAL");
 	name = "Medicae Clinic"
 	},
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "ovZ" = (
 /obj/structure/sign/warning/nosmoking_1{
@@ -19324,7 +19363,7 @@
 /obj/machinery/door/airlock/warhammer/chapel_left{
 	name = "Monastery Airlock"
 	},
-/turf/simulated/floor/warhammer/brick,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/medicalhallway)
 "oxa" = (
 /obj/floor_decal/floordetail/edgedrain{
@@ -19422,9 +19461,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/firstdeck)
 "oCf" = (
-/obj/floor_decal/corner/pink{
-	dir = 9
-	},
 /obj/floor_decal/sign/d,
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
@@ -19475,12 +19511,23 @@
 "oJb" = (
 /turf/simulated/wall/prepainted,
 /area/assembly/robotics/laboratory)
+"oJF" = (
+/obj/structure/filingcabinet/chestdrawer{
+	dir = 1
+	},
+/obj/item/folder/white,
+/obj/item/folder/yellow,
+/obj/item/folder/nt,
+/obj/item/folder,
+/obj/item/folder/red,
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "oLK" = (
 /obj/item/device/radio/intercom/department/medbay{
 	dir = 1;
 	pixel_y = -28
 	},
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "oMb" = (
 /turf/simulated/wall/ocp_wall,
@@ -19556,11 +19603,12 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/rnd/development)
 "oPD" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Robotics"
-	},
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/warhammer/plating,
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS_RESTRICTED");
+	name = "Servitor Labs"
+	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/robotics/office)
 "oQb" = (
 /obj/structure/cable/green{
@@ -19830,9 +19878,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/wing)
 "pjV" = (
-/obj/floor_decal/corner/pink{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -19899,6 +19944,10 @@
 /obj/structure/closet/secure_closet/scientist_torch,
 /turf/simulated/floor/warhammer/coralg,
 /area/rnd/locker)
+"psa" = (
+/obj/structure/sign/stainedglass5,
+/turf/simulated/wall/warhammer,
+/area/chapel/memorial)
 "psb" = (
 /obj/structure/closet/secure_closet/secure_closet/xenoarchaeologist_torch,
 /obj/floor_decal/industrial/outline/yellow,
@@ -20046,6 +20095,11 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/brig)
+"pzx" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 4
+	},
+/area/chapel/memorial)
 "pzH" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -20057,14 +20111,12 @@
 /obj/machinery/door/airlock/warhammer/chapel_right{
 	name = "Monastery Airlock"
 	},
-/turf/space,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/medicalhallway)
 "pAb" = (
-/obj/machinery/newscaster{
-	pixel_x = -32
-	},
-/turf/simulated/floor/warhammer/coralg,
-/area/rnd/research)
+/obj/structure/sign/solgov,
+/turf/simulated/wall/prepainted,
+/area/security/processing)
 "pAg" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
 	dir = 4
@@ -20082,7 +20134,6 @@
 /turf/simulated/floor/plating,
 /area/rnd/misc_lab)
 "pBL" = (
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -20090,11 +20141,8 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/sol{
-	name = "Briefing Room"
-	},
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/wall/prepainted,
 /area/command/conference)
 "pCb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -20197,13 +20245,18 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/rnd/xenobiology/xenoflora)
 "pIk" = (
-/obj/structure/table/steel,
-/obj/item/storage/firstaid/adv,
 /obj/floor_decal/floordetail/edgedrain{
 	dir = 4
 	},
+/obj/machinery/bodyscanner{
+	dir = 1
+	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery2)
+"pIN" = (
+/obj/structure/sign/stainedglass3,
+/turf/simulated/wall/warhammer,
+/area/chapel/memorial)
 "pIW" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/visible/blue,
@@ -20276,6 +20329,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/iv_stand,
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "pPb" = (
@@ -20363,10 +20417,11 @@
 /area/medical/locker)
 "pXm" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/sol{
+/obj/machinery/door/airlock/warhammer{
+	req_access = list("ACCESS_RESTRICTED_COMMAND");
 	name = "Briefing Room"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/warhammer/coralg,
 /area/command/conference)
 "pXG" = (
 /obj/structure/table/steel,
@@ -20610,7 +20665,20 @@
 /area/rnd/research)
 "qrq" = (
 /obj/machinery/hologram/holopad,
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/turf/simulated/floor/warhammer/coralg,
+/area/medical/staging)
+"qrF" = (
+/obj/machinery/door/airlock/warhammer/chapel_right{
+	name = "Medicae Airlock"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "qsd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -21059,6 +21127,11 @@
 /obj/item/material/twohanded/ravenor/chainsword/guard,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/armoury)
+"qXS" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 1
+	},
+/area/chapel/memorial)
 "qYb" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -21184,6 +21257,11 @@
 	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/rnd/xenobiology/xenoflora)
+"reC" = (
+/obj/machinery/computer/modular/preset/cardslot/command,
+/obj/item/modular_computer/tablet/lease/preset/command,
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "rfb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -21198,6 +21276,12 @@
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/rnd/xenobiology/xenoflora)
+"rge" = (
+/obj/structure/sign/imperial,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
+/area/chapel/memorial)
 "rhb" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/floor_decal/industrial/warning{
@@ -21307,7 +21391,6 @@
 /turf/simulated/floor/warhammer/metal,
 /area/rnd/misc_lab)
 "rpn" = (
-/obj/structure/table/steel,
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = -5
 	},
@@ -21319,6 +21402,7 @@
 	dir = 5
 	},
 /obj/item/reagent_containers/dropper/peridaxon,
+/obj/structure/table/steel_reinforced,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery2)
 "rpB" = (
@@ -21645,9 +21729,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/foreport)
 "rGU" = (
-/obj/machinery/newscaster{
-	pixel_y = -32
-	},
 /obj/structure/closet{
 	name = "Prisoner's Locker"
 	},
@@ -21772,8 +21853,8 @@
 	pixel_y = 16
 	},
 /obj/item/roller_bed,
-/obj/structure/table/reinforced,
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "rQb" = (
 /obj/structure/ladder,
@@ -21969,13 +22050,39 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/forestarboard)
+"sbY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 4
+	},
+/area/chapel/memorial)
 "scb" = (
 /obj/structure/sign/warning/biohazard,
 /turf/simulated/wall/prepainted,
 /area/rnd/research)
 "scd" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/chapel/memorial)
+/obj/structure/table/steel,
+/obj/item/reagent_containers/food/snacks/cookie,
+/obj/item/reagent_containers/food/snacks/cookie,
+/obj/item/reagent_containers/food/snacks/cookie,
+/obj/item/reagent_containers/food/snacks/cookie,
+/obj/item/reagent_containers/food/snacks/cookie,
+/obj/item/storage/lunchbox/cat,
+/turf/simulated/floor/warhammer/plating,
+/area/crew_quarters/safe_room/medical)
 "scr" = (
 /obj/machinery/door/airlock/medical{
 	name = "Equipment Storage"
@@ -22104,7 +22211,7 @@
 /obj/item/bodybag/rescue/loaded,
 /obj/item/auto_cpr,
 /obj/item/auto_cpr,
-/turf/simulated/floor/warhammer/ceramic/blackstone,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "sjb" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -22267,23 +22374,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/misc_lab)
-"srR" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/newscaster{
-	pixel_y = -32
-	},
-/turf/simulated/floor/warhammer/coralg,
-/area/rnd/research)
 "ssb" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -22506,6 +22596,12 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/firstdeck/fore)
+"sEK" = (
+/obj/structure/torchwall{
+	dir = 8
+	},
+/turf/simulated/floor/warhammer/coralg,
+/area/chapel/memorial)
 "sFb" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -22575,6 +22671,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/reinforced,
 /area/rnd/xenobiology/cell_3)
+"sLJ" = (
+/obj/structure/torchwall{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/coralg,
+/area/chapel/memorial)
 "sLP" = (
 /obj/structure/bed/chair/warhammer/pew{
 	dir = 1
@@ -22789,6 +22891,10 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/rnd/xenobiology)
+"sXN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/warhammer/coralg,
+/area/chapel/memorial)
 "sYb" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -22957,7 +23063,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/warhammer{
-	name = "Sergeant's Office";
+	name = "Security Office";
 	req_access = list("ACCESS_BRIDGE")
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -23300,6 +23406,10 @@
 "tAS" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/firstdeck/foreport)
+"tCm" = (
+/obj/structure/sign/medposter,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
+/area/chapel/memorial)
 "tCu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -23344,10 +23454,10 @@
 	pixel_x = 7;
 	pixel_y = 1
 	},
-/obj/structure/table/steel,
 /obj/machinery/body_scan_display{
 	pixel_y = 24
 	},
+/obj/structure/table/warhammer/reinf_table,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/sleeper)
 "tEs" = (
@@ -23470,6 +23580,11 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/warhammer/brick,
+/area/chapel/memorial)
+"tTx" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 5
+	},
 /area/chapel/memorial)
 "tTA" = (
 /obj/structure/table/steel,
@@ -23642,13 +23757,31 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/firstdeck/center)
 "umT" = (
-/obj/structure/roller_bed,
 /obj/item/device/radio/intercom/department/medbay{
 	dir = 4;
 	pixel_x = -24
 	},
+/obj/structure/table/warhammer/big_wood_table{
+	icon = 'icons/map_project/tables.dmi';
+	icon_state = "largetable";
+	dir = 4
+	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/sleeper)
+"unu" = (
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 2;
+	icon_state = "shutter0";
+	id_tag = "infirm_stage";
+	name = "Infirmary Staging Lockdown";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/warhammer/chapel_right{
+	name = "Medicae Airlock"
+	},
+/turf/simulated/floor/warhammer/coralg,
+/area/medical/staging)
 "uoC" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/warhammer/plating,
@@ -24018,7 +24151,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/rnd/xenobiology)
 "vhs" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/hologram/holopad,
 /obj/structure/noticeboard{
 	pixel_y = 32
@@ -24219,7 +24351,7 @@
 /obj/machinery/door/airlock/warhammer/chapel_left{
 	name = "Monastery Airlock"
 	},
-/turf/space,
+/turf/simulated/floor/warhammer/coralg,
 /area/medical/medicalhallway)
 "vIP" = (
 /obj/structure/filingcabinet/chestdrawer,
@@ -24372,12 +24504,19 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/secure_storage)
-"wcQ" = (
-/obj/machinery/pager/security{
-	pixel_x = -25
+"wcw" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 9
 	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/firstdeck/fore)
+/area/chapel/memorial)
+"wcQ" = (
+/obj/structure/closet/secure_closet/cos{
+	anchored = 1;
+	density = 0;
+	pixel_y = 29
+	},
+/turf/simulated/floor/warhammer/metal/alt,
+/area/security/bo)
 "whm" = (
 /obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -24522,6 +24661,12 @@
 /obj/structure/curtain/black,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/brig)
+"wBc" = (
+/obj/structure/sign/medical1,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 4
+	},
+/area/chapel/memorial)
 "wDm" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/table/warhammer/butcher_table,
@@ -24923,9 +25068,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
 "xTh" = (
-/obj/machinery/sleeper{
-	dir = 4
-	},
+/obj/structure/roller_bed,
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/sleeper)
 "xVt" = (
@@ -31980,7 +32123,7 @@ kiR
 kiR
 kiR
 kiR
-lOb
+axB
 aCv
 sik
 tAS
@@ -32177,11 +32320,11 @@ aaa
 sik
 aCv
 okp
-ilh
-ilh
 kiR
-ilh
-ilh
+kiR
+kiR
+kiR
+kiR
 lOb
 aCv
 sik
@@ -34593,11 +34736,11 @@ lJb
 uXW
 vTH
 uGu
-oby
+eim
 cXj
 wyb
 sxG
-xRh
+pAb
 xRh
 xRh
 xRh
@@ -35412,7 +35555,7 @@ aAe
 aBf
 pUr
 cHj
-aEL
+wcQ
 aal
 aEL
 aIa
@@ -35607,7 +35750,7 @@ eim
 vJO
 oIb
 avI
-xRh
+pAb
 axO
 xRh
 xRh
@@ -35809,7 +35952,7 @@ aqd
 aqd
 ybv
 aqd
-wcQ
+aqd
 aqd
 aqd
 aqd
@@ -36213,9 +36356,9 @@ aDL
 aDL
 aDL
 aDL
-aDL
+aDN
 aez
-aDL
+kvb
 aDL
 aDL
 aDL
@@ -36824,7 +36967,7 @@ mVb
 neb
 nob
 oyb
-aDL
+aDN
 aDL
 obZ
 aqd
@@ -37224,7 +37367,7 @@ aDL
 aDL
 aDL
 aDL
-aDL
+aDN
 aDL
 aDL
 aDL
@@ -38027,7 +38170,7 @@ jkm
 afI
 aqd
 xDX
-afI
+ilh
 atC
 auG
 avU
@@ -41669,7 +41812,7 @@ amp
 mrX
 lfb
 ayi
-ggA
+adx
 aAK
 aAK
 aAK
@@ -41864,7 +42007,7 @@ xcW
 aor
 apm
 knb
-foK
+xcW
 kDb
 ajv
 lcq
@@ -42268,11 +42411,11 @@ xcW
 iyb
 kfb
 sVL
-kvb
+xcW
 auS
 kep
 acF
-acE
+oJb
 hdb
 ayj
 azp
@@ -42470,11 +42613,11 @@ xcW
 knb
 gos
 knb
-kvb
+xcW
 kWb
 kNb
 kVb
-acE
+oJb
 hdb
 ayg
 hdb
@@ -42878,7 +43021,7 @@ xcW
 wtS
 kPb
 kXb
-acE
+oJb
 lMD
 ayi
 ghI
@@ -44487,9 +44630,9 @@ ezb
 iHX
 jcu
 umT
-ezb
+aft
 bGZ
-ezb
+eHb
 lHO
 oCf
 pjV
@@ -44689,12 +44832,12 @@ dWb
 etb
 eRb
 anM
-ejb
+glb
 rzq
-ejb
+glb
 aga
 ipq
-ipq
+dOf
 ipq
 aha
 hdb
@@ -44887,18 +45030,18 @@ cFb
 deb
 poS
 dMb
+glb
 cWb
-rzq
-eHb
-avO
+glb
+xTh
 adu
 afa
 afc
+qrF
+fex
+cFR
 ipq
-ipq
-ipq
-ipq
-aha
+unu
 hdb
 ayg
 hdb
@@ -45089,12 +45232,12 @@ cNb
 dfb
 dtJ
 qGx
-cWb
+glb
 rzq
 wlP
 hdj
 rzq
-nQI
+glb
 afd
 leb
 leb
@@ -45296,12 +45439,12 @@ exb
 ixf
 anL
 adH
-nQI
+glb
 afB
 leb
-aft
+ipq
 aGx
-aft
+ipq
 leb
 hdb
 gxX
@@ -45494,16 +45637,16 @@ dgb
 poS
 sLb
 hlb
-pPa
-xTh
+avO
+glb
 xTh
 oGU
-nQI
+glb
 afD
 leb
 afH
 rPz
-aft
+ipq
 leb
 hcb
 hfb
@@ -45700,11 +45843,11 @@ pPa
 glb
 fKb
 oGU
-nQI
-ezb
-aft
-aft
-aft
+glb
+glb
+ipq
+ipq
+ipq
 oLK
 leb
 hdb
@@ -45902,7 +46045,7 @@ eAb
 eUb
 mvE
 oGU
-nQI
+glb
 afK
 leb
 siI
@@ -45921,7 +46064,7 @@ awX
 jNb
 jyb
 qrb
-pAb
+qrb
 qrb
 qrb
 qFb
@@ -46104,11 +46247,11 @@ aby
 abH
 acf
 adO
-nQI
+glb
 afY
 leb
 anH
-aft
+ipq
 jCU
 leb
 hdb
@@ -46295,10 +46438,10 @@ aaX
 afq
 afX
 cjb
-scd
-scd
-scd
-scd
+poS
+poS
+jql
+poS
 dDb
 abl
 abr
@@ -46497,10 +46640,10 @@ afq
 afq
 acH
 adt
-scd
-scd
-scd
-scd
+poS
+bTD
+lKX
+nmR
 acf
 abs
 yfd
@@ -46699,10 +46842,10 @@ cob
 cob
 cob
 afs
-cob
+gGb
 scd
-scd
-scd
+lKX
+lUX
 acf
 abn
 abt
@@ -46901,10 +47044,10 @@ htf
 sJE
 sJE
 aTD
-cob
-aOt
-aOt
-aOt
+gGb
+reC
+lKX
+oJF
 acf
 acf
 abu
@@ -47103,10 +47246,10 @@ rCL
 eLy
 acK
 rAG
-cob
-aOt
-aOt
-aOt
+gGb
+cpq
+lKX
+nGQ
 aOt
 acf
 abv
@@ -47305,10 +47448,10 @@ lzh
 qtQ
 kdx
 uwr
-cob
-aOt
-aOt
-aOt
+gGb
+cCy
+cCy
+cCy
 aOt
 acf
 mJY
@@ -47333,7 +47476,7 @@ irb
 jjb
 aCf
 dlf
-srR
+mTb
 aSK
 qtb
 qtb
@@ -47710,12 +47853,12 @@ sLP
 kdx
 bdL
 uyn
-kdx
-acS
-kdx
-kdx
-acS
-kdx
+ckL
+sLJ
+ckL
+ckL
+sLJ
+ckL
 fRX
 owp
 orb
@@ -47912,12 +48055,12 @@ sLP
 kdx
 bdL
 acR
-kdx
-qtQ
-iYM
-aaG
+ckL
+sEK
+aGd
+sXN
 hBj
-aaG
+sXN
 aau
 mua
 acI
@@ -48105,13 +48248,13 @@ kGy
 tTr
 owb
 kdx
-kdx
-sLP
-kdx
-sLP
-kdx
-sLP
-kdx
+wcw
+doe
+rge
+rge
+rge
+doe
+doe
 gEb
 cob
 cob
@@ -48307,14 +48450,14 @@ cob
 acJ
 jxa
 gdl
-kdx
-kdx
-kdx
-kdx
-kdx
-kdx
-kdx
-acP
+qXS
+kbl
+cGQ
+gDD
+tCm
+kbl
+kbl
+jlB
 gyV
 alo
 erb
@@ -48509,14 +48652,14 @@ kGy
 iaq
 owb
 kdx
-kdx
-sLP
-kdx
-sLP
-kdx
-sLP
-kdx
-acP
+tTx
+pzx
+wBc
+wBc
+wBc
+pzx
+pzx
+sbY
 gyV
 afn
 erb
@@ -48535,7 +48678,7 @@ cbj
 aub
 twz
 nCb
-axB
+tiz
 jAM
 azT
 abk
@@ -48718,7 +48861,7 @@ sLP
 kdx
 sLP
 kdx
-bGb
+acP
 gyV
 kYM
 cIb
@@ -48921,7 +49064,7 @@ qtQ
 sLP
 kdx
 bGb
-acQ
+gyV
 mww
 cxb
 cGd
@@ -49107,11 +49250,11 @@ aaa
 cZb
 cZb
 cob
+pIN
 cob
+hdy
 cob
-cob
-cob
-cob
+pIN
 cob
 cob
 cob
@@ -49711,7 +49854,7 @@ aaa
 aaa
 aaa
 cZb
-cob
+psa
 vQQ
 kdx
 cqb
@@ -50115,7 +50258,7 @@ aaa
 aaa
 aaa
 cZb
-cob
+psa
 uRZ
 kdx
 xuW
@@ -50723,11 +50866,11 @@ aaa
 cZb
 cZb
 cob
+hdy
 cob
+hyz
 cob
-cob
-cob
-cob
+hdy
 cob
 cob
 kKb

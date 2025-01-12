@@ -1,29 +1,29 @@
 /obj/item/stamp/co
-	name = "commanding officer's rubber stamp"
+	name = "rogue trader's rubber stamp"
 	icon_state = "stamp-cap"
 
 /obj/item/stamp/xo
-	name = "executive officer's rubber stamp"
+	name = "seneschal's rubber stamp"
 	icon_state = "stamp-xo"
 
 /obj/item/stamp/sea
-	name = "senior enlisted advisor's rubber stamp"
+	name = "ordinate's rubber stamp"
 	icon_state = "stamp-xo"
 
 /obj/item/stamp/cos
-	name = "chief of security's rubber stamp"
+	name = "security chief's rubber stamp"
 	icon_state = "stamp-cos"
 
 /obj/item/stamp/brig
-	name = "brig chief's rubber stamp"
+	name = "deck sergeant's rubber stamp"
 	icon_state = "stamp-brig"
 
 /obj/item/stamp/solgov
-	name = "\improper Imperial Government rubber stamp"
+	name = "\improper militarum rubber stamp"
 	icon_state = "stamp-solgov"
 
 /obj/item/stamp/nt
-	name = "corporate rubber stamp"
+	name = "landsraad rubber stamp"
 	icon_state = "stamp-corp"
 
 /obj/item/stamp/deckoff
@@ -31,9 +31,9 @@
 	icon_state = "stamp-deckchief"
 
 /obj/item/stamp/supply
-	name = "supply rubber stamp"
+	name = "munitorum rubber stamp"
 	icon_state = "stamp-cargo"
 
 /obj/item/stamp/path
-	name = "pathfinder's rubber stamp"
+	name = "explorer's rubber stamp"
 	icon_state = "stamp-pf"

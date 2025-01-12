@@ -78,5 +78,5 @@ GLOBAL_VAR(spawntypes)
 
 /datum/spawnpoint/default
 	display_name = DEFAULT_SPAWNPOINT_ID
-	msg = "has arrived on the station"
+	msg = "has arrived on the Dauntless"
 	always_visible = TRUE

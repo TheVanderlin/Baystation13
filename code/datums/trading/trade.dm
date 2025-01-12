@@ -32,7 +32,7 @@
 
 	*/
 	var/want_multiplier = 1.1                                     //How much wanted items are multiplied by when traded for
-	var/margin = 1.25											//Multiplier to price when selling to player
+	var/margin = 1.5											//Multiplier to price when selling to player
 	var/price_rng = 5                                          //Percentage max variance in sell prices.
 	var/insult_drop = 5                                         //How far disposition drops on insult
 	var/compliment_increase = 5                                 //How far compliments increase disposition

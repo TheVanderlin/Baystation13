@@ -1772,7 +1772,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/warhammer{
 	req_access = list("ACCESS_RESTRICTED");
-	name = "Magister's Office"
+	name = "Chaplain Militant's Office"
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/chief_steward)
@@ -4146,6 +4146,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3starboard)
+"ll" = (
+/obj/landmark{
+	name = "Rogue Trader"
+	},
+/turf/simulated/floor/warhammer/darkwood,
+/area/crew_quarters/mess)
 "lp" = (
 /obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
@@ -5475,9 +5481,6 @@
 /turf/simulated/floor/warhammer/metal,
 /area/crew_quarters/mess)
 "pu" = (
-/obj/machinery/newscaster{
-	pixel_y = 32
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/service_break_room)
@@ -5941,12 +5944,6 @@
 "rw" = (
 /obj/machinery/light{
 	dir = 1
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/aft)
-"rx" = (
-/obj/machinery/newscaster{
-	pixel_y = 32
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/aft)
@@ -6982,13 +6979,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
-"uu" = (
-/obj/random/trash,
-/obj/structure/sign/ecplaque{
-	pixel_x = 32
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/thirddeck/starboard)
 "uv" = (
 /obj/machinery/vending/hydroseeds,
 /turf/simulated/floor/warhammer/darkwood,
@@ -7520,12 +7510,6 @@
 "wL" = (
 /obj/machinery/light{
 	dir = 1
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
-"wN" = (
-/obj/machinery/newscaster{
-	pixel_y = 32
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
@@ -8622,9 +8606,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
 "Bv" = (
-/obj/machinery/newscaster{
-	pixel_x = -32
-	},
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 4;
 	icon_state = "console"
@@ -9693,9 +9674,6 @@
 "EV" = (
 /obj/machinery/light/spot{
 	dir = 8
-	},
-/obj/structure/sign/ecplaque{
-	pixel_y = -30
 	},
 /obj/machinery/vending/cigarette{
 	dir = 4
@@ -13452,8 +13430,10 @@
 /turf/simulated/floor/warhammer/plating,
 /area/vacant/brig)
 "QD" = (
-/obj/machinery/ship_map,
-/turf/simulated/floor/warhammer/plating,
+/obj/structure/sign/tradedepot{
+	dir = 1
+	},
+/turf/simulated/wall/prepainted,
 /area/hallway/primary/thirddeck/center)
 "QE" = (
 /obj/decal/cleanable/remains{
@@ -14938,12 +14918,6 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/thruster/d3port)
-"VC" = (
-/obj/machinery/newscaster{
-	pixel_y = 32
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/center)
 "VD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -15002,9 +14976,6 @@
 "VL" = (
 /obj/floor_decal/techfloor{
 	dir = 10
-	},
-/obj/machinery/newscaster{
-	pixel_x = -32
 	},
 /obj/structure/bed/chair/warhammer{
 	dir = 1
@@ -16149,9 +16120,9 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
-"ZQ" = (
-/obj/machinery/newscaster{
-	pixel_x = 32
+"ZM" = (
+/obj/landmark/start{
+	name = "Deck Scum"
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
@@ -27797,7 +27768,7 @@ JH
 uc
 wJ
 gB
-wN
+CD
 pq
 xH
 hv
@@ -32633,9 +32604,9 @@ bZ
 ii
 aq
 jd
+ll
 jd
-jd
-jd
+ZM
 jd
 jd
 pc
@@ -34452,7 +34423,7 @@ yG
 KZ
 YD
 jd
-ZQ
+jd
 jd
 nj
 jd
@@ -36074,7 +36045,7 @@ cl
 cl
 tX
 wD
-VC
+cV
 RQ
 cV
 uU
@@ -36274,7 +36245,7 @@ aY
 aY
 aY
 aY
-uu
+Zm
 wD
 cV
 VG
@@ -41528,7 +41499,7 @@ qd
 qd
 qd
 qd
-rx
+ji
 sF
 uk
 Yn

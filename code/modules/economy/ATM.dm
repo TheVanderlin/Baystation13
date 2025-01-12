@@ -8,8 +8,8 @@
 /obj/machinery/atm
 	name = "creditorium terminal"
 	desc = "For all your monetary needs!"
-	icon = 'icons/map_project/ship/ship_equipment.dmi'
-	icon_state = "trading"
+	icon = 'icons/map_project/ship/machines.dmi'
+	icon_state = "atm"
 	anchored = TRUE
 	idle_power_usage = 10
 	var/datum/money_account/authenticated_account

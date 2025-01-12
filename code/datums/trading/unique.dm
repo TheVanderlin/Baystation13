@@ -35,10 +35,7 @@
 							/mob/living/carbon/human                                                   = TRADER_ALL
 							)
 
-	possible_trading_items = list(/obj/item/gun/projectile/automatic                            = TRADER_SUBTYPES_ONLY,
-							/obj/item/gun/projectile/automatic/machine_pistol/usi                     = TRADER_BLACKLIST,
-							/obj/item/gun/projectile/automatic/l6_saw/mag                       = TRADER_BLACKLIST
-							)
+	possible_trading_items = list(/obj/item/gun/projectile/automatic/boltrifle                            = TRADER_SUBTYPES_ONLY)
 
 	blacklisted_trade_items = null
 
@@ -59,7 +56,7 @@
 				)
 	mob_transfer_message = "<span class='danger'>You are transported to ORIGIN, and with a sickening thud, you fall unconscious, never to wake again.</span>"
 
-
+/*
 /datum/trader/ship/unique/rock
 	name = "Bobo"
 	origin = "Floating rock"
@@ -84,8 +81,9 @@
 				TRADER_INSULT_GOOD        = "Blub do not understand. Blub thought we were briends.",
 				TRADER_INSULT_BAD         = "Blub feels bad now.",
 				)
-
+*/
 //probably could stick soem Howl references in here but like, eh. Haven't seen it in years.
+/*
 /datum/trader/ship/unique/wizard
 	name = "Sorcerer"
 	origin = "A moving castle"
@@ -131,3 +129,4 @@
 /datum/trader/ship/unique/wizard/New()
 	..()
 	speech[TRADER_HAIL_START + SPECIES_GOLEM] = "Interesting... how incredibly interesting... come! Let us do business!"
+*/

@@ -1,8 +1,8 @@
 /datum/trader/ship/gunshop
-	name = "Slug Runner"
+	name = "Tetsumoko"
 	name_language = TRADER_DEFAULT_NAME
-	origin = "Slug Hauler"
-	possible_origins = list("Slug Hauler", "Emperor's Mercy", "The Valkyrie", "Tetsumoko", "The Guanshiyin")
+	origin = "Tetsumoko"
+	possible_origins = list("Slug Hauler", "Emperor's Mercy", "The Valkyrie", "Tetsumoko")
 	speech = list(TRADER_HAIL_GENERIC    = "Welcome to the armory. What kind of firepower do you need today?",
 				TRADER_HAIL_DENY         = "You’re not authorized for this trade. Move along.",
 
@@ -28,10 +28,10 @@
 	)
 
 /datum/trader/ship/gunshop2
-	name = "Slug Seller"
+	name = "The Guanshiyin"
 	name_language = TRADER_DEFAULT_NAME
 	origin = "Slug Seller"
-	possible_origins = list("Slug Seller", "Emperor's Wrath", "The Camino", "Banderra", "Forge Wrath")
+	possible_origins = list("The Guanshiyin", "Emperor's Wrath", "The Camino", "Banderra", "Forge Wrath")
 	speech = list(TRADER_HAIL_GENERIC    = "Looking for firearms? State your request, and I’ll see what I can offer.",
 				TRADER_HAIL_DENY         = "No clearance for you. Move along.",
 
@@ -57,10 +57,10 @@
 	)
 
 /datum/trader/ship/ammoshop
-	name = "Munitorum Trader"
+	name = "Munitorum Smuggler"
 	name_language = TRADER_DEFAULT_NAME
-	origin = "Munitorum Trader"
-	possible_origins = list("Munitorum Trader", "Ghoul Smuggler", "The Supplier")
+	origin = "Munitorum Smuggler"
+	possible_origins = list("Munitorum Smuggler", "Ghoul Smuggler")
 	speech = list(TRADER_HAIL_GENERIC    = "Looking for ammo or just trouble?",
 				TRADER_HAIL_DENY         = "You’re wasting my time. Move along before you regret it.",
 
@@ -85,10 +85,10 @@
 	)
 
 /datum/trader/ship/ammoshop2
-	name = "Munition Trader"
+	name = "Munition Bulk Trader"
 	name_language = TRADER_DEFAULT_NAME
-	origin = "Munition Trader"
-	possible_origins = list("Munition Trader", "Ghoul Smuggler", "The Supplier")
+	origin = "Munition Bulk Trader"
+	possible_origins = list("Munition Bulk Trader", "The Supplier")
 	speech = list(TRADER_HAIL_GENERIC    = "Looking for ammo or just trouble?",
 				TRADER_HAIL_DENY         = "You’re wasting my time. Move along before you regret it.",
 
@@ -112,10 +112,10 @@
 	)
 
 /datum/trader/ship/ammoshop3
-	name = "Munitioner Trader"
+	name = "Militarum Trader"
 	name_language = TRADER_DEFAULT_NAME
-	origin = "Munitioner Trader"
-	possible_origins = list("Munitioner Trader", "Ghoul Smuggler", "The Supplier")
+	origin = "Militarum Trader"
+	possible_origins = list("Militarum Trader", "Naval Smuggler")
 	speech = list(TRADER_HAIL_GENERIC    = "Looking for ammo or just trouble?",
 				TRADER_HAIL_DENY         = "You’re wasting my time. Move along before you regret it.",
 
@@ -139,10 +139,10 @@
 	)
 
 /datum/trader/ship/laspacks
-	name = "Munitorum Seller"
+	name = "Mordian Smuggler"
 	name_language = TRADER_DEFAULT_NAME
-	origin = "Munitorum Seller"
-	possible_origins = list("Munitorum Seller", "Ghoul Smuggler", "The Supplier")
+	origin = "Mordian Smuggler"
+	possible_origins = list("Mordian Smuggler", "Valhallan Supplies")
 	speech = list(TRADER_HAIL_GENERIC    = "Looking for laspacks or just trouble?",
 				TRADER_HAIL_DENY         = "You’re wasting my time. Move along before you regret it.",
 
@@ -158,7 +158,6 @@
 				TRADER_INSULT_BAD           = "Say that again, and you’ll eat a charge pack."
 				)
 
-
 	possible_trading_items = list(
 		/obj/item/cell/device/high/laspack = TRADER_ALL,
 		/obj/item/cell/device/high/mechanicus = TRADER_THIS_TYPE,
@@ -167,10 +166,10 @@
 	)
 
 /datum/trader/ship/egunshop
-	name = "Energy Weapon Shop Employee"
+	name = "Lasman's Gantry"
 	name_language = TRADER_DEFAULT_NAME
-	origin = "EGun Shop"
-	possible_origins = list("The Emperor's Lasgun Shop", "Future Guns", "Astra Militarum")
+	origin = "Lasman's Gantry"
+	possible_origins = list("Lasman's Gantry", "PDF Depot #517")
 	speech = list(TRADER_HAIL_GENERIC    = "Welcome to the future of warfare! ORIGIN, your one-stop shop for energy weaponry!",
 				TRADER_HAIL_DENY         = "I'm sorry, your communication channel has been blacklisted.",
 

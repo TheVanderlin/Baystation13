@@ -253,7 +253,7 @@
 	siemens_coefficient = 0.7
 	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|BLOCKHAIR
 	body_parts_covered = FACE|EYES|HEAD
-	canremove = 0
+	canremove = 1
 	unacidable = 1
 	pull_mask = 1
 
@@ -264,7 +264,7 @@
 	item_state = "skitshoes"
 	flash_protection = FLASH_PROTECTION_MAJOR
 	siemens_coefficient = 0.7
-	canremove = 0
+	canremove = 1
 	unacidable = 1
 
 /obj/item/clothing/mask/gas/techpriest/magos

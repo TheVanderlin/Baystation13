@@ -222,7 +222,7 @@
 	icon = 'icons/obj/stock_parts.dmi'
 	icon_state = "datadisk6"
 	origin_tech = list(TECH_MATERIAL = 10, TECH_ENGINEERING = 10)
-	sales_price = 6400
+	sales_price = 5400
 
 // Power + Phoron Mixture of weaponry, vanilla SS13.
 /obj/item/rnd/power3
@@ -255,7 +255,7 @@
 	icon = 'icons/obj/stock_parts.dmi'
 	icon_state = "datadisk6"
 	origin_tech = list(TECH_POWER = 10, TECH_PHORON = 10)
-	sales_price = 8100
+	sales_price = 6100
 // Bio + Bluespace For bags/misc items, mainly vanilla SS13 Content
 
 /obj/item/rnd/biospace3
@@ -312,7 +312,7 @@
 	icon = 'icons/obj/stock_parts.dmi'
 	icon_state = "datadisk6"
 	origin_tech = list(TECH_BIO = 10, TECH_BLUESPACE = 10)
-	sales_price = 6300
+	sales_price = 5300
 
 // Combat + Magnet, Works on Weapons primarily, armor as well. (combat needed for armor)
 
@@ -346,7 +346,7 @@
 	icon = 'icons/obj/stock_parts.dmi'
 	icon_state = "datadisk5"
 	origin_tech = list(TECH_COMBAT = 10, TECH_MAGNET = 10)
-	sales_price = 7100
+	sales_price = 6100
 
 // Illegal + Data (works on very unique things, they border heretical and should be assumed to be bordering technoheresy.) Data is vanilla content from what I can see.
 
@@ -380,7 +380,7 @@
 	icon = 'icons/obj/stock_parts.dmi'
 	icon_state = "datadisk0"
 	origin_tech = list(TECH_DATA = 10, TECH_ILLEGAL = 10)
-	sales_price = 7000
+	sales_price = 6000
 //Debug
 /obj/item/rnd/debugstc
 	name = "DEBUG STC"

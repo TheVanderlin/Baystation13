@@ -122,7 +122,7 @@
 
 /*
 Sells devices, odds and ends, and medical stuff
-*/
+
 /datum/trader/devices
 	name = "Drugstore Employee"
 	name_language = TRADER_DEFAULT_NAME
@@ -184,7 +184,7 @@ Sells devices, odds and ends, and medical stuff
 /datum/trader/devices/New()
 	..()
 	speech[TRADER_HAIL_START + "silicon"] = "Ah! Hello, robot. We only sell things that, ah.... people can hold in their hands, unfortunately. You are still allowed to buy, though!"
-
+*/
 /datum/trader/ship/robots
 	name = "Robot Seller"
 	name_language = TRADER_DEFAULT_NAME
@@ -250,7 +250,7 @@ Sells devices, odds and ends, and medical stuff
 								/obj/item/device/dociler              = TRADER_THIS_TYPE,
 								/obj/item/beartrap			  = TRADER_THIS_TYPE,
 								/obj/item/device/scanner/xenobio = TRADER_THIS_TYPE)
-
+/*
 /datum/trader/medical
 	name = "Medical Supplier"
 	origin = "Infirmary of CSV Iniquity"
@@ -305,7 +305,7 @@ Sells devices, odds and ends, and medical stuff
 								  /obj/item/reagent_containers/chem_disp_cartridge/small/dexalin = TRADER_THIS_TYPE,
 								  /obj/item/sign/medipolma = TRADER_THIS_TYPE
 								)
-
+*/
 /datum/trader/mining
 	name = "Rock'n'Drill Mining Inc"
 	origin = "Automated Smelter AH-532"

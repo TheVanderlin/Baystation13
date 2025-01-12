@@ -68,8 +68,8 @@
 /obj/item/frame/intercom
 	name = "intercom frame"
 	desc = "Used for building intercoms."
-	icon = 'icons/obj/machines/radio.dmi'
-	icon_state = "intercom-f"
+	icon = 'icons/map_project/ship/machines.dmi'
+	icon_state = "scomm1"
 	build_machine_type = /obj/item/device/radio/intercom
 
 /obj/item/frame/intercom/get_mechanics_info()
