@@ -79,7 +79,7 @@
 	qdel(src)
 
 /obj/item/reagent_containers/food/snacks/poo/decker
-	name = "decker's gelato"
+	name = "despa's gelato"
 	desc = "A chocolately gelato surprise!"
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "icecream_cone_waffle"

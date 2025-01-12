@@ -55,7 +55,8 @@
 	..(newloc, MATERIAL_TITANIUM,MATERIAL_TITANIUM)
 
 /turf/simulated/wall/ocp_wall
-	icon_state = "r_ocp"
+	icon_state = "generic"
+	paint_color = COLOR_GUNMETAL
 
 /turf/simulated/wall/ocp_wall/New(newloc)
 	..(newloc, MATERIAL_CERAMITE_PLASTEEL, MATERIAL_CERAMITE_PLASTEEL)

@@ -706,6 +706,7 @@
 	unacidable = 1
 	w_class = ITEM_SIZE_GARGANTUAN
 	body_parts_covered = LEGS | ARMS | HEAD
+	flags_inv = HIDEEARS|BLOCKHEADHAIR
 	accessories = list(/obj/item/clothing/accessory/armor_plate/mechplate)
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -763,7 +764,7 @@
 	disorientation = 1 // Tech priests dont do melee.
 	brightness_on = 6
 	unacidable = 1
-	canremove = 0
+	canremove = 1
 	armor = list(
 		melee = ARMOR_MELEE_FLAK,
 		bullet = ARMOR_BALLISTIC_FLAK+1,

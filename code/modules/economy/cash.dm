@@ -151,7 +151,7 @@
 
 /obj/item/spacecash/bundle/c100
 	name = "100 Scrip"
-	icon_state = "spacecash20"
+	icon_state = "throne20"
 	desc = "It's worth 100 Scrip."
 	worth = 100
 

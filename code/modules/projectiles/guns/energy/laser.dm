@@ -660,7 +660,7 @@
 	wielded_item_state = "pulse_pistol"
 	accuracy = 0.5
 	charge_cost = 70
-	fire_delay = 17 // Tiny pistol. Shoots slower
+	fire_delay = 16 // Tiny pistol. Shoots slower
 	slowdown_general = 0
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=30, burst=1, burst_delay=2.4, fire_delay=11),
@@ -677,7 +677,7 @@
 	fire_delay = 15 // Burst delay is higher since a plasma pistol shouldnt be used to fire multiple bursts. It'll blow you up.
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=11, fire_delay=9),
-		list(mode_name="burst", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=50, burst=3, burst_delay=11, fire_delay=9),
+		list(mode_name="burst", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=100, burst=3, burst_delay=11, fire_delay=17),
 		list(mode_name="heavy", projectile_type=/obj/item/projectile/bullet/heavyplasma, charge_cost=90, burst=1, burst_delay=11, fire_delay=17)
 		)
 

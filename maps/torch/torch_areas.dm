@@ -279,7 +279,7 @@
 	name = "Bridge Substation"
 
 /area/crew_quarters/safe_room/bridge
-	name = "\improper Bridge Safe Room"
+	name = "\improper Officer's Bunkroom"
 
 /area/bridge/storage
 	name = "\improper Bridge Storage"
@@ -1002,7 +1002,7 @@
 	lighting_tone = AREA_LIGHTING_COOL
 
 /area/crew_quarters/chief_steward
-	name = "\improper Chief Steward's Office"
+	name = "\improper Chaplain Militant's Office"
 	icon_state = "kitchen"
 	sound_env = SMALL_ENCLOSED
 	lighting_tone = AREA_LIGHTING_WARM

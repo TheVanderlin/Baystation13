@@ -593,6 +593,21 @@
 	desc = "An strange metalic symbol of the dark star of chaos."
 	icon_state = "chaostar"
 
+/obj/structure/sign/chaos2
+	name = "\improper strange symbol"
+	icon = 'icons/map_project/96x96.dmi'
+	desc = "An strange metalic symbol of the dark star of chaos."
+	icon_state = "circle"
+
+/obj/structure/sign/pelt
+	name = "\improper bear pelt"
+	icon = 'icons/map_project/96x96.dmi'
+	desc = "A large bear pelt."
+	icon_state = "fur"
+
+/obj/structure/sign/pelt/two
+	icon_state = "fur_alt"
+
 /obj/structure/sign/poster
 	name = "\improper pleasure club ad"
 	icon = 'icons/map_project/furniture_and_decor.dmi'
@@ -666,6 +681,104 @@
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	desc = "A portrait of someone you dont know, the initials of a name are written 'Hippocrates D.'"
 	icon_state = "hippocrates"
+
+/obj/structure/sign/portrait_large
+	name = "\improper Grand Painting"
+	icon = 'icons/map_project/64x64.dmi'
+	desc = "A portrait of Eden Lake by Ciaphas Cain M41...'"
+	icon_state = "lake"
+
+/obj/structure/sign/portrait_large2
+	name = "\improper Grand Painting"
+	icon = 'icons/map_project/64x64.dmi'
+	desc = "A portrait of the Darkling Woods by Ciaphas Cain M41...'"
+	icon_state = "sherwoods"
+
+/obj/structure/sign/walldec1
+	name = "\improper stone decoration"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "walldec1"
+
+/obj/structure/sign/walldec2
+	name = "\improper stone decoration"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "walldec2"
+
+/obj/structure/sign/walldec3
+	name = "\improper stone decoration"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "walldec3"
+
+/obj/structure/sign/walldec4
+	name = "\improper stone decoration"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "walldec5"
+
+/obj/structure/sign/walldec5
+	name = "\improper stone decoration"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "walldec6"
+
+/obj/structure/sign/rpainting1
+	name = "\improper sombre painting"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "painting_1"
+
+/obj/structure/sign/rpainting2
+	name = "\improper sombre painting"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "painting_2"
+
+/obj/structure/sign/rpainting3
+	name = "\improper sombre painting"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "painting_3"
+
+/obj/structure/sign/medposter
+	name = "\improper medical poster"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "medposter"
+
+/obj/structure/sign/medposter2
+	name = "\improper medical poster"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "medposter2"
+
+/obj/structure/sign/medposte3
+	name = "\improper medical poster"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "medposter3"
+
+/obj/structure/sign/medposter4
+	name = "\improper medical poster"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "medposter4"
+
+/obj/structure/sign/medposter5
+	name = "\improper medical poster"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "medposter5"
+
+/obj/structure/sign/medposter6
+	name = "\improper medical poster"
+	icon = 'icons/map_project/decoration.dmi'
+	desc = "...'"
+	icon_state = "medposter6"
+
+
 
 /obj/structure/sign/banner_count
 	name = "\improper House Banner"

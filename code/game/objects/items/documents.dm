@@ -16,35 +16,36 @@
 
 /obj/item/documents/nanotrasen
 	name = "secret imperial documents"
-	desc = "\"Top Secret\" imperial documents, filled with complex diagrams, research procedures, and details on cloning or breeding rights to non-sapient species The Dauntless encounters. It seems like they will be auctioning them off to the highest private bidder."
-	description_antag = "A conglomerate of powerful corporations seems to be wanting to create weaponized xenobiological species. Probably as a form of WMD, by your best guess."
+	desc = "An Inquisitorial letter concerning Necron activity within the Ghoul Stars. It outlines dormant tomb worlds awakening and their potential threat to Imperial control."
+	description_antag = "The letter reveals Necron awakenings are accelerating, with some planetary governors hiding evidence of tomb activity to avoid scrutiny."
 	icon_state = "docs_verified"
 
 /obj/item/documents/scg/verified
 	name = "secret government documents"
-	desc = "\"Top Secret\" documents detailing Imperial IFF codes, granting The Dauntless access into restricted sectors. The majority of them are coordinates, codes for fellow ships, and clearance lists."
-	description_antag = "These codes seem very odd for an exploration vessel: a lot of them are Imperial blacksites, covered up. You've never even heard of most of these."
+	desc = "A Landsraad inquiry into the death of the previous Lord Trader, congratulating the new Lord Trader on their position but emphasizing the need to prove themselves through results."
+	description_antag = "The document subtly accuses the new Lord Trader of foul play in their predecessor's death and hints at consequences if expectations are not met."
 	icon_state = "docs_verified"
 
 /obj/item/documents/scg/brains
 	name = "secret medical documents"
-	desc = "Heavily classified medical documentation of brain scans and exploratory surgery conducted across the entire length of The Dauntless project. It seems like they have been documenting how deep-space living has altered the structure of the brain."
-	description_antag = "These studies were conducted, without consent, while the patients were under anaesthesia for some other routine medical concern. They detail some very unusual deformities within the deepest parts of the brain, correlating them with the people and places visited by The Dauntless 'for later assessment'. The findings, and any 'viable specimens', are to be delivered to a black site on S/2004 N 1."
+	desc = "Classified medical data on a mysterious pathogen of unknown origin spreading through the subsector, including symptoms, infection vectors, and mortality rates."
+	description_antag = "The pathogen appears unnatural, with veiled references to research stations in the Ghoul Stars possibly linked to its creation or spread."
 	icon_state = "docs_verified"
 
 /obj/item/documents/scg/red
 	name = "red secret documents"
-	desc = "\"Top Secret\" protocols on what to do if the ship passes into TCC sectors. The writing mostly goes over the diplomatic process, while constantly shaming the Imperials for their idiocy and needless aggression."
-	description_antag = "You notice that these protocols contain small, almost intentional snubbing efforts. Whoever wrote these may have been rooting for a war to start..."
+	desc = "An Inquisitorial letter to the Landsraad warning of Genestealer infestations spreading within rogue trader holdings and planetary territories in the Ghoul Stars."
+	description_antag = "The document suggests certain factions within the Landsraad may be exploiting or harboring Genestealer cultists for personal gain, risking catastrophic consequences."
 	icon_state = "docs_red"
 
 /obj/item/documents/scg/blue
 	name = "blue secret documents"
-	desc = "\"Top Secret\" documents detailing the Tau company Krri'gli, and their insistent requests upon specific priority sectors for The Dauntless to investigate."
-	description_antag = "Krri'gli seem to be guiding The Dauntless, subtly, to a specific unmapped sector of the galaxy. It's almost like they're too afraid to investigate it personally."
+	desc = "A secret Landsraad document outlining a covert treaty with the Tau. While officially at war, both sides agree to avoid unnecessary conflict, resolving disputes through trade or duels."
+	description_antag = "The treaty hints at Tau exploitation of Ghoul Stars resources, with the Landsraad tolerating it for mutual financial benefit."
 	icon_state = "docs_blue"
 
 /obj/item/documents/scgr
-	name = "private memos and faxes"
-	desc = "\"Top Secret\" memos and faxes between the Imperial and other officials of the Imperial. It's like a chat client ran on pure paperwork."
-	description_antag = "The Imperial's conversations contain a massive amount of dirt on politicians: drugs, sex, money..."
+	name = "incriminating evidence"
+	desc = "Confidential memos suggesting the Lord Trader is part of a secret cabal within the Landsraad, profiting from the sale of heretical artifacts from alien worlds."
+	description_antag = "These memos contain incriminating evidence of the Lord Trader's involvement in trafficking xenos artifacts, potentially jeopardizing their standing(Let an admeme know you have this)."
+	icon_state = "docs_verified"

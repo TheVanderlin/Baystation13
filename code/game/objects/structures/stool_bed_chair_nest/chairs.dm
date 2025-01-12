@@ -193,7 +193,7 @@
 	name = "comfy chair"
 
 /obj/structure/bed/chair/comfy/captain
-	name = "captain chair"
+	name = "officer's chair"
 	desc = "It's a chair. Only for the highest ranked asses."
 	icon_state = "capchair_preview"
 	base_icon = "capchair"
@@ -448,6 +448,7 @@
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	base_icon = "cave_throne"
 	icon_state = "cave_throne"
+	health_max = 1500
 
 /obj/structure/bed/chair/warhammer/throne/two
 	name = "imperial throne"
@@ -462,6 +463,14 @@
 	base_icon = "chair"
 	icon = 'icons/map_project/furniture_and_decor.dmi'
 	icon_state = "chair"
+
+/obj/structure/bed/chair/warhammer/throne/giant
+	name = "rogue throne"
+	desc = "A grand stone throne belonging to the Rogue House."
+	base_icon = "throne"
+	icon = 'icons/map_project/96x96.dmi'
+	icon_state = "throne"
+	health_max = 3500
 
 /obj/structure/bed/chair/warhammer/ancient_throne
 	name = "ancient throne"

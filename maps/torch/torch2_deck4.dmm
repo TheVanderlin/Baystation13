@@ -79,7 +79,7 @@
 /turf/simulated/wall/r_titanium,
 /area/shuttle/escape_pod7/station)
 "ax" = (
-/obj/structure/table/reinforced,
+/obj/structure/table/steel_reinforced,
 /obj/machinery/door/window/brigdoor/southright{
 	dir = 8;
 	name = "Supply Desk"
@@ -10562,7 +10562,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	level = 2
 	},
-/obj/machinery/computer/modular/preset/supply_public,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/fourthdeck/aft)
 "Rf" = (

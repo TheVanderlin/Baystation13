@@ -1636,9 +1636,6 @@
 /obj/structure/table/rack/dark,
 /obj/floor_decal/industrial/outline/yellow,
 /obj/item/stock_parts/circuitboard/rdserver,
-/obj/machinery/newscaster{
-	pixel_y = 32
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/tech)
 "dj" = (
@@ -6765,6 +6762,10 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/engineering/shieldbay)
+"qz" = (
+/obj/structure/lattice,
+/turf/space,
+/area/crew_quarters/heads/office/ce)
 "qA" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -12370,9 +12371,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/machinery/newscaster{
-	pixel_y = -32
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/prototype/control)
 "Gj" = (
@@ -13905,9 +13903,6 @@
 "Lz" = (
 /obj/machinery/vending/engivend,
 /obj/floor_decal/industrial/outline/yellow,
-/obj/machinery/newscaster{
-	pixel_y = 32
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "LD" = (
@@ -17404,6 +17399,10 @@
 /obj/structure/cable/yellow,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/prototype/control)
+"Xj" = (
+/obj/structure/lattice,
+/turf/simulated/wall/r_wall/hull,
+/area/crew_quarters/heads/office/ce)
 "Xk" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "disvent";
@@ -35788,7 +35787,7 @@ aq
 aq
 aq
 aq
-aq
+Xj
 aq
 fT
 aa
@@ -35990,7 +35989,7 @@ aq
 aq
 aq
 aq
-aq
+qz
 aq
 fT
 aa
@@ -37606,7 +37605,7 @@ aq
 aq
 aq
 aq
-aq
+qz
 aq
 cP
 ag

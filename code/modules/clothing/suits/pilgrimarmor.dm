@@ -720,6 +720,19 @@
 		bomb = ARMOR_BOMB_TEN
 		)
 
+
+/obj/item/clothing/suit/armor/grim/pilgrim/merchant/administratum
+	name = "Administratum Robes"
+	icon_state = "ordinate"
+	item_state = "ordinate"
+	desc = "Bulky layered robes, belonging to a high-ranking member of the Adpetus Administratum."
+
+/obj/item/clothing/head/helmet/guardcap/ordinate
+	name = "Ordinate Hat"
+	desc = "A humble hat for the administratum ordinate."
+	icon_state = "ordinate"
+	item_state = "ordinate"
+
 /obj/item/clothing/suit/armor/grim/pilgrim/penitent
 	name = "ragged robes"
 	desc = "Stinking, torn robes"

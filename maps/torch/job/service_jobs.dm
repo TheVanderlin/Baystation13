@@ -238,6 +238,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/service/crewman
 	alt_titles = list(
 		"Penitent",
+		"Administratum Ordinate",
 		"Pathfinder",
 		"Miner"
 
@@ -283,7 +284,7 @@
 		current_title = trimtext(H.mind.role_alt_title) // Use alt_title if selected
 	else
 		current_title = title // use default title
-	if(current_title == "Penitent" || current_title == "Deck Scum" || current_title == "Pathfinder" || current_title == "Miner")
+	if(current_title == "Penitent" || current_title == "Deck Scum" || current_title == "Administratum Ordinate" || current_title == "Pathfinder" || current_title == "Miner")
 		if(current_title == "Penitent")
 			if(prob(85))
 				to_chat(H,"<span class='danger'><b><font size=4>THE PENITENT</font></b></span>")
@@ -304,11 +305,25 @@
 				H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
 				H.equip_to_slot_or_store_or_drop(new /obj/item/gun/projectile/pistol/stub/talon, slot_in_backpack)
 				H.equip_to_slot_or_store_or_drop(new /obj/item/ammo_magazine/pistol/small/ap, slot_in_backpack)
+		else if(current_title == "Administratum Ordinate")
+			to_chat(H,"<span class='danger'><b><font size=4>THE ADMINISTRATUM ORDINATE</font></b></span>")
+			to_chat(H, "<span class='notice'><b><font size=2>As the Administratum Ordinate you have been transfered to serve the Rogue Trader as their personal link to Holy Terra herself. Trained by Prefectus Cornelius Decker who mentored you in the ways of the Adeptus Adminstratum. 'We do not traffic in the treachery of speech Scribe! Only bonds! Bonds! Chains of ink and parchment, unbreakable... we shackle The Imperium of Man to it's glorious purpose. Purity through procedure.</font></b></span>")
+			H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
+			H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/pilgrim/merchant/administratum, slot_wear_suit)
+			H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/head/helmet/guardcap/ordinate, slot_head)
+			H.equip_to_slot_or_store_or_drop(new /obj/item/book/manual/law(get_turf(src)))
+			if(prob(1))
+				H.make_genestealer()
+				to_chat(H, "<span class='notice'><b><font size=2>You are a genestealer bioform, a unique strain of tyranid genestealer capable of rapid transformation. The swarm considers you to be an abomination, but under the guidance of what you believe to be the true hivemind, you will surely succeed where the others have failed. Everything is connected.</font></b></span>")
+			else if(prob(1))
+				to_chat(H,"<span class='danger'><b><font size=4>YOUR CULT ITEMS ARE BEING SUMMONED. FIND SOMEWHERE PRIVATE TO HIDE. SUMMONING IN THIRTY SECONDS</font></b></span>")
+				spawn(30 SECONDS)
+				GLOB.cult.add_antagonist(H.mind, ignore_role = 1, do_not_equip = 0)
+				to_chat(H, "<span class='notice'><b><font size=2>You are a heretical cultist loyal to one or more of the Chaos Gods -- unlike the many pretenders you are truly blessed by the warp and can survive encounters that would boil the brains of most mortal men.</font></b></span>")
 		else if(current_title == "Pathfinder")
 			to_chat(H,"<span class='danger'><b><font size=4>THE PATHFINDER</font></b></span>")
 			to_chat(H, "<span class='notice'><b><font size=2>As the Pathfinder, you’re tasked with leading the way on deadly planets and through uncharted terrain, scouring every grim corner for threats and relics.</font></b></span>")
 			H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife/trench, slot_in_backpack)
-			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/dufflebag, slot_l_hand)
 			if(prob(1))
 				H.make_genestealer()
 				to_chat(H, "<span class='notice'><b><font size=2>You are a genestealer bioform, a unique strain of tyranid genestealer capable of rapid transformation. The swarm considers you to be an abomination, but under the guidance of what you believe to be the true hivemind, you will surely succeed where the others have failed. Everything is connected.</font></b></span>")

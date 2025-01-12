@@ -1,48 +1,3 @@
-/datum/trader/ship/toyshop
-	name = "Toy Shop Employee"
-	name_language = TRADER_DEFAULT_NAME
-	origin = "Toy Shop"
-	trade_flags = TRADER_GOODS|TRADER_MONEY|TRADER_WANTED_ONLY
-	possible_origins = list("Toys R Ours", "LEGS GO", "Kay-Cee Toys", "Build-a-Cat", "Magic Box", "The Positronic's Dungeon and Baseball Card Shop")
-	speech = list(TRADER_HAIL_GENERIC    = "Uhh... hello? Welcome to ORIGIN, I hope you have a, uhh.... good shopping trip.",
-				TRADER_HAIL_DENY         = "Nah, you're not allowed here. At all",
-
-				TRADER_TRADE_COMPLETE       = "Thanks for shopping... here... at ORIGIN.",
-				TRADER_NO_BLACKLISTED      = "Uuuhhh.... no.",
-				TRADER_FOUND_UNWANTED = "Nah! That's not what I'm looking for. Something rarer.",
-				TRADER_NOT_ENOUGH   = "Just 'cause they're made of cardboard doesn't mean they don't cost money...",
-				TRADER_HOW_MUCH          = "Uhh... I'm thinking like... VALUE. Right? Or something rare that complements my interest.",
-				TRADER_WHAT_WANT         = "Ummmm..... I guess I want",
-
-				TRADER_COMPLEMENT_FAILURE   = "Ha! Very funny! You should write your own television show.",
-				TRADER_COMPLEMENT_SUCCESS = "Why yes, I do work out.",
-				TRADER_INSULT_GOOD       = "Well, well, well. Guess we learned who was the troll here.",
-				TRADER_INSULT_BAD        = "I've already written a nasty Spacebook post in my mind about you.",
-
-				TRADER_BRIBE_FAILURE     = "Nah. I need to get moving as soon as uhh... possible.",
-				TRADER_BRIBE_SUCCESS      = "You know what, I wasn't doing anything for TIME minutes anyways.",
-				)
-
-	possible_wanted_items = list(/obj/item/toy/figure       = TRADER_THIS_TYPE,
-								/obj/item/toy/figure/ert    = TRADER_THIS_TYPE,
-								/obj/item/toy/prize/honk    = TRADER_THIS_TYPE)
-
-	possible_trading_items = list(/obj/item/toy/prize                 = TRADER_SUBTYPES_ONLY,
-								/obj/item/toy/prize/honk              = TRADER_BLACKLIST,
-								/obj/item/toy/figure                  = TRADER_SUBTYPES_ONLY,
-								/obj/item/toy/figure/ert              = TRADER_BLACKLIST,
-								/obj/item/toy/plushie                 = TRADER_SUBTYPES_ONLY,
-								/obj/item/toy/katana                  = TRADER_THIS_TYPE,
-								/obj/item/toy/sword                   = TRADER_THIS_TYPE,
-								/obj/item/toy/bosunwhistle            = TRADER_THIS_TYPE,
-								/obj/item/board                = TRADER_THIS_TYPE,
-								/obj/item/storage/box/checkers = TRADER_ALL,
-								/obj/item/deck                 = TRADER_SUBTYPES_ONLY,
-								/obj/item/pack                 = TRADER_SUBTYPES_ONLY,
-								/obj/item/dice                 = TRADER_ALL,
-								/obj/item/dice/d20/cursed      = TRADER_BLACKLIST,
-								/obj/item/gun/launcher/money   = TRADER_THIS_TYPE)
-
 /datum/trader/ship/electronics
 	name = "Electronic Shop Employee"
 	name_language = TRADER_DEFAULT_NAME
@@ -82,8 +37,6 @@
 								/obj/item/cell/standard                           = TRADER_THIS_TYPE,
 								/obj/item/cell/crap                               = TRADER_THIS_TYPE,
 								/obj/item/cell/high                               = TRADER_THIS_TYPE,
-								/obj/item/cell/super                              = TRADER_THIS_TYPE,
-								/obj/item/cell/hyper                              = TRADER_THIS_TYPE,
 								/obj/item/module                                  = TRADER_SUBTYPES_ONLY,
 								/obj/item/tracker_electronics                     = TRADER_THIS_TYPE)
 
@@ -137,19 +90,6 @@
 	..()
 	speech[TRADER_HAIL_START + SPECIES_VOX] = "Well hello, sir! I don't believe we have any clothes that fit you... but you can still look!"
 
-/datum/trader/ship/clothingshop/shoes
-	possible_origins = list("Foot Safe", "Paysmall", "Popular Footwear", "Grimbly's Shoes", "Right Steps")
-	possible_trading_items = list(/obj/item/clothing/shoes                = TRADER_SUBTYPES_ONLY,
-								/obj/item/clothing/shoes/chameleon        = TRADER_BLACKLIST,
-								/obj/item/clothing/shoes/combat           = TRADER_BLACKLIST,
-								/obj/item/clothing/shoes/clown_shoes      = TRADER_BLACKLIST,
-								/obj/item/clothing/shoes/cult             = TRADER_BLACKLIST,
-								/obj/item/clothing/shoes/cyborg           = TRADER_BLACKLIST,
-								/obj/item/clothing/shoes/lightrig         = TRADER_BLACKLIST_ALL,
-								/obj/item/clothing/shoes/magboots         = TRADER_BLACKLIST_ALL,
-								/obj/item/clothing/shoes/swat             = TRADER_BLACKLIST,
-								/obj/item/clothing/shoes/syndigaloshes    = TRADER_BLACKLIST)
-
 /datum/trader/ship/clothingshop/hatglovesaccessories
 	possible_origins = list("Baldie's Hats and Accessories", "The Right Fit", "Like a Glove", "Space Fashion")
 	possible_trading_items = list(/obj/item/clothing/accessory            = TRADER_ALL,
@@ -182,7 +122,7 @@
 
 /*
 Sells devices, odds and ends, and medical stuff
-*/
+
 /datum/trader/devices
 	name = "Drugstore Employee"
 	name_language = TRADER_DEFAULT_NAME
@@ -244,7 +184,7 @@ Sells devices, odds and ends, and medical stuff
 /datum/trader/devices/New()
 	..()
 	speech[TRADER_HAIL_START + "silicon"] = "Ah! Hello, robot. We only sell things that, ah.... people can hold in their hands, unfortunately. You are still allowed to buy, though!"
-
+*/
 /datum/trader/ship/robots
 	name = "Robot Seller"
 	name_language = TRADER_DEFAULT_NAME
@@ -310,7 +250,7 @@ Sells devices, odds and ends, and medical stuff
 								/obj/item/device/dociler              = TRADER_THIS_TYPE,
 								/obj/item/beartrap			  = TRADER_THIS_TYPE,
 								/obj/item/device/scanner/xenobio = TRADER_THIS_TYPE)
-
+/*
 /datum/trader/medical
 	name = "Medical Supplier"
 	origin = "Infirmary of CSV Iniquity"
@@ -365,7 +305,7 @@ Sells devices, odds and ends, and medical stuff
 								  /obj/item/reagent_containers/chem_disp_cartridge/small/dexalin = TRADER_THIS_TYPE,
 								  /obj/item/sign/medipolma = TRADER_THIS_TYPE
 								)
-
+*/
 /datum/trader/mining
 	name = "Rock'n'Drill Mining Inc"
 	origin = "Automated Smelter AH-532"
