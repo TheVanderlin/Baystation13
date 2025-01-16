@@ -668,6 +668,7 @@
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+100
 	slowdown_general = 0.055
+	action_button_name = "Toggle Hood"
 	hoodtype = /obj/item/clothing/head/hardhat/bondsman
 	armor = list(
 		melee = ARMOR_MELEE_FLAK,

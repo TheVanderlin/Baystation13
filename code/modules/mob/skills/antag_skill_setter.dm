@@ -17,7 +17,7 @@
 //This is the generic antag skill setter, used for most antag types.
 /datum/antag_skill_setter/generic
 	nm_type = /datum/nano_module/skill_ui/antag
-	default_value = SKILL_BASIC
+	default_value = SKILL_UNSKILLED
 
 /datum/antag_skill_setter/generic/initialize_skills(datum/skillset/skillset)
 	..()

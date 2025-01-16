@@ -80,7 +80,7 @@
 	allowed_roles = list(/datum/job/guard_captain, /datum/job/enforcer_sergeant, /datum/job/enforcer, /datum/job/guardsman)
 
 /datum/gear/accessory/skrell_badge
-	display_name = "Tau SDTF badge"
+	display_name = "Tau Empire badge"
 	path = /obj/item/clothing/accessory/badge/tags/skrell
 	whitelisted = list(SPECIES_TAU)
 	sort_category = "Xenowear"

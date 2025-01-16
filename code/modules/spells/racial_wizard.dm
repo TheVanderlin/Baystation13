@@ -10,7 +10,7 @@
 	throw_range = 3
 	force = 15
 	var/list/potentials = list(
-		SPECIES_HUMAN = /obj/item/storage/bag/cash/infinite,
+		SPECIES_HUMAN = /obj/item/storage/bag/cash/massivebundle,
 		SPECIES_VOX = /spell/targeted/shapeshift/true_form,
 		SPECIES_KROOT = /spell/moghes_blessing,
 		SPECIES_DIONA = /spell/aoe_turf/conjure/grove/gestalt,
@@ -38,16 +38,8 @@
 	to_chat(user, "\The [src] crumbles in your hands.")
 	qdel(src)
 
-/obj/item/storage/bag/cash/infinite
-	startswith = list(/obj/item/spacecash/bundle/c100 = 1)
-
-//HUMAN
-/obj/item/storage/bag/cash/infinite/remove_from_storage(obj/item/W as obj, atom/new_location)
-	. = ..()
-	if(.)
-		if(istype(W,/obj/item/spacecash)) //only matters if its spacecash.
-			var/obj/item/I = new /obj/item/spacecash/bundle/c100()
-			src.handle_item_insertion(I,1)
+/obj/item/storage/bag/cash/massivebundle
+	startswith = list(/obj/item/spacecash/bundle/c100 = 20)
 
 /spell/messa_shroud/choose_targets()
 	return list(get_turf(holder))

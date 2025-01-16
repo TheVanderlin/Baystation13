@@ -61,7 +61,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "ap" = (
 /obj/structure/grille,
@@ -85,7 +85,7 @@
 /obj/structure/bed/chair{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "av" = (
 /obj/machinery/power/tracker,
@@ -105,7 +105,7 @@
 	dir = 9
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "aA" = (
 /obj/machinery/light/small{
@@ -141,10 +141,6 @@
 /obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/abandoned_hotel/overlook)
-"aR" = (
-/obj/structure/bookcase,
-/turf/simulated/floor/carpet/blue,
-/area/abandoned_hotel/rooms)
 "aY" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -155,7 +151,7 @@
 /obj/floor_decal/corner/white{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "be" = (
 /obj/item/stack/material/tritium,
@@ -173,7 +169,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "bl" = (
 /obj/floor_decal/solarpanel,
@@ -197,7 +193,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "bp" = (
 /obj/machinery/portable_atmospherics/hydroponics,
@@ -219,12 +215,12 @@
 "bv" = (
 /obj/spider/stickyweb,
 /mob/living/simple_animal/hostile/giant_spider,
-/turf/simulated/floor/carpet/blue3,
+/turf/simulated/floor/plating,
 /area/abandoned_hotel/rooms)
 "bx" = (
 /obj/decal/cleanable/dirt,
 /mob/living/simple_animal/passive/mouse/rat,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "bA" = (
 /obj/machinery/light{
@@ -237,7 +233,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "bI" = (
 /obj/structure/table/steel_reinforced,
@@ -258,7 +254,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "bT" = (
 /obj/floor_decal/spline/fancy/black{
@@ -274,7 +270,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/blue,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "cb" = (
 /obj/floor_decal/corner/red,
@@ -282,7 +278,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "cd" = (
 /obj/floor_decal/corner/red{
@@ -294,7 +290,7 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "cf" = (
 /obj/floor_decal/solarpanel,
@@ -343,7 +339,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "cW" = (
 /obj/structure/bed/chair{
@@ -394,7 +390,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "dx" = (
 /obj/structure/cable/yellow{
@@ -414,7 +410,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "dC" = (
 /turf/simulated/wall/prepainted,
@@ -436,7 +432,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "dO" = (
 /obj/structure/window/reinforced{
@@ -464,7 +460,7 @@
 /obj/structure/bed/chair{
 	dir = 1
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "dZ" = (
 /obj/structure/cable/yellow{
@@ -530,7 +526,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "eM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -596,13 +592,13 @@
 "fj" = (
 /obj/structure/bed,
 /obj/item/bedsheet/purple,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "fk" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "fy" = (
 /turf/simulated/floor/plating,
@@ -637,7 +633,7 @@
 /area/abandoned_hotel/solar)
 "fS" = (
 /obj/structure/flora/pottedplant/drooping,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "fT" = (
 /obj/floor_decal/spline/fancy/black{
@@ -702,7 +698,8 @@
 /area/abandoned_hotel/solar)
 "ge" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/carpet/magenta,
+/obj/random/loot/randomsupply/tech,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "gh" = (
 /obj/machinery/door/unpowered/simple/ebony,
@@ -713,7 +710,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "gi" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -732,7 +729,7 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/item/tank/oxygen_emergency,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "gs" = (
 /obj/structure/cable{
@@ -740,7 +737,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "gt" = (
 /turf/simulated/wall/prepainted,
@@ -769,7 +766,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "gx" = (
 /obj/structure/cable/yellow{
@@ -822,7 +819,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "gV" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -875,7 +872,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/orange,
 /mob/living/simple_animal/hostile/giant_spider,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ha" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
@@ -897,7 +894,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "hy" = (
 /obj/floor_decal/spline/fancy/black{
@@ -922,7 +919,7 @@
 "hD" = (
 /obj/decal/cleanable/cobweb,
 /obj/structure/largecrate,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "hK" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
@@ -948,7 +945,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "hO" = (
 /obj/item/solar_assembly,
@@ -958,7 +955,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "hY" = (
 /obj/floor_decal/spline/fancy/black{
@@ -970,7 +967,8 @@
 /area/abandoned_hotel/rooms)
 "if" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/carpet/blue,
+/obj/random/loot/rarearmorbundle,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ig" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -1002,13 +1000,13 @@
 /area/abandoned_hotel/atmos)
 "io" = (
 /mob/living/simple_animal/passive/mouse/rat,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ip" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet/green,
-/area/abandoned_hotel/rooms)
+/obj/machinery/door/firedoor,
+/obj/item/material/shard,
+/turf/simulated/floor/warhammer/darkwood,
+/area/abandoned_hotel/overlook)
 "it" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -1023,14 +1021,14 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ix" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "iy" = (
 /obj/structure/cable/yellow{
@@ -1075,7 +1073,7 @@
 /area/abandoned_hotel/overlook)
 "jg" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "jh" = (
 /obj/floor_decal/solarpanel,
@@ -1086,13 +1084,13 @@
 "jv" = (
 /obj/structure/table/standard,
 /obj/structure/window/basic,
-/turf/simulated/floor/tiled/freezer,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "jx" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "jA" = (
 /obj/decal/cleanable/dirt,
@@ -1114,7 +1112,7 @@
 "jG" = (
 /obj/structure/window/reinforced/full,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "jZ" = (
 /obj/decal/cleanable/dirt,
@@ -1124,7 +1122,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "kw" = (
 /obj/structure/cable{
@@ -1134,10 +1132,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/abandoned_hotel/solar)
-"kA" = (
-/mob/living/simple_animal/passive/mouse/rat,
-/turf/simulated/floor/wood,
-/area/abandoned_hotel/rooms)
 "kM" = (
 /obj/floor_decal/spline/fancy/black{
 	dir = 1
@@ -1151,7 +1145,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "kY" = (
 /obj/decal/cleanable/dirt,
@@ -1167,7 +1161,7 @@
 	dir = 6
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ln" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1193,14 +1187,14 @@
 	dir = 8
 	},
 /obj/structure/bed/chair,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "lL" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "lW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1216,7 +1210,7 @@
 	dir = 1
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "mb" = (
 /obj/structure/cable{
@@ -1231,16 +1225,12 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "mh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet/red,
-/area/abandoned_hotel/rooms)
-"mp" = (
-/obj/structure/bookcase,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "mr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1254,19 +1244,15 @@
 	dir = 8
 	},
 /obj/structure/largecrate,
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "mz" = (
 /obj/random/bomb_supply,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "mC" = (
 /obj/random/accessory,
-/turf/simulated/floor/carpet/blue,
-/area/abandoned_hotel/rooms)
-"mO" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "mT" = (
 /obj/structure/bed/chair/comfy/green{
@@ -1281,7 +1267,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "no" = (
 /obj/structure/table/woodentable/walnut,
@@ -1289,12 +1275,12 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "nH" = (
 /obj/spider/stickyweb,
 /mob/living/simple_animal/hostile/giant_spider,
-/turf/simulated/floor/carpet/magenta,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "nM" = (
 /obj/item/material/shard,
@@ -1312,9 +1298,6 @@
 	dir = 1
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/old_cargo,
-/area/abandoned_hotel/overlook)
-"ob" = (
 /turf/simulated/floor/tiled/old_cargo,
 /area/abandoned_hotel/overlook)
 "oe" = (
@@ -1338,14 +1321,14 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "oo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ot" = (
 /obj/floor_decal/solarpanel,
@@ -1354,10 +1337,6 @@
 /obj/structure/lattice,
 /turf/space,
 /area/space)
-"oy" = (
-/obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/wood,
-/area/abandoned_hotel/rooms)
 "oB" = (
 /obj/overmap/visitable/sector/abandoned_hotel,
 /turf/space,
@@ -1374,7 +1353,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "oM" = (
 /obj/structure/railing/mapped{
@@ -1387,7 +1366,7 @@
 /obj/structure/hygiene/shower{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/freezer,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "pr" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -1412,12 +1391,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "pM" = (
 /obj/structure/closet/wardrobe,
 /obj/random/accessory,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "pY" = (
 /obj/structure/cable{
@@ -1435,7 +1414,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "qb" = (
 /obj/item/storage/mirror{
@@ -1447,14 +1426,14 @@
 	pixel_x = 11;
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled/freezer,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "qd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "qe" = (
 /obj/wallframe_spawn/reinforced,
@@ -1472,7 +1451,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "qp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1487,7 +1466,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "qt" = (
 /obj/item/frame/apc,
@@ -1495,7 +1474,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "qu" = (
 /obj/structure/hygiene/toilet,
@@ -1503,7 +1482,7 @@
 	dir = 1
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/freezer,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "qv" = (
 /obj/structure/window/reinforced{
@@ -1520,7 +1499,7 @@
 	dir = 8
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "qC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1535,10 +1514,6 @@
 /obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/abandoned_hotel/solar)
-"qJ" = (
-/obj/structure/bookcase,
-/turf/simulated/floor/carpet/magenta,
-/area/abandoned_hotel/rooms)
 "qR" = (
 /obj/floor_decal/borderfloorwhite{
 	dir = 1
@@ -1575,28 +1550,24 @@
 	dir = 8
 	},
 /obj/random/backpack,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ry" = (
 /obj/decal/cleanable/dirt,
 /obj/structure/ore_box,
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "rH" = (
 /obj/structure/hygiene/shower{
 	dir = 8
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/freezer,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "rT" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/item/material/shard,
 /turf/simulated/floor/grass/cut,
-/area/abandoned_hotel/rooms)
-"rW" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/wood,
 /area/abandoned_hotel/rooms)
 "si" = (
 /obj/decal/cleanable/dirt,
@@ -1618,21 +1589,23 @@
 /obj/item/storage/mirror{
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled/freezer,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "sA" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/carpet/blue3,
+/obj/random/loot/randomsupply/engineering,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/plating,
 /area/abandoned_hotel/rooms)
 "sB" = (
 /obj/spider/stickyweb,
-/turf/simulated/floor/carpet/magenta,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "sC" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "sH" = (
 /obj/floor_decal/spline/fancy/black{
@@ -1649,7 +1622,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/blue3,
+/turf/simulated/floor/plating,
 /area/abandoned_hotel/rooms)
 "sR" = (
 /obj/structure/bed/chair,
@@ -1660,10 +1633,7 @@
 	dir = 6
 	},
 /obj/item/paper/abandoned_hotel/note_4,
-/turf/simulated/floor/wood,
-/area/abandoned_hotel/rooms)
-"sW" = (
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "tc" = (
 /obj/structure/cable{
@@ -1671,12 +1641,12 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ti" = (
 /obj/structure/closet/wardrobe,
 /obj/random/backpack,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "tm" = (
 /obj/structure/table/standard,
@@ -1690,7 +1660,7 @@
 /obj/floor_decal/corner/white{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "tu" = (
 /obj/decal/cleanable/dirt,
@@ -1700,7 +1670,7 @@
 "tC" = (
 /obj/structure/bed/chair/comfy/green,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "tI" = (
 /obj/decal/cleanable/dirt,
@@ -1710,7 +1680,7 @@
 "tL" = (
 /obj/decal/cleanable/dirt,
 /obj/spider/stickyweb/dark,
-/turf/simulated/floor/carpet/blue3,
+/turf/simulated/floor/plating,
 /area/abandoned_hotel/rooms)
 "tW" = (
 /obj/structure/cable{
@@ -1733,7 +1703,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "tZ" = (
 /obj/structure/table/woodentable/walnut,
@@ -1768,7 +1738,7 @@
 /area/abandoned_hotel/rooms)
 "uv" = (
 /obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "uD" = (
 /obj/decal/cleanable/dirt,
@@ -1778,7 +1748,7 @@
 /obj/machinery/alarm{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "uF" = (
 /obj/floor_decal/corner/red,
@@ -1786,7 +1756,7 @@
 	dir = 4
 	},
 /obj/structure/bed/chair,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "uJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1804,7 +1774,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "uY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1813,7 +1783,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "uZ" = (
 /obj/structure/cable{
@@ -1837,7 +1807,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/spider/stickyweb,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "vj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1848,11 +1818,14 @@
 /area/abandoned_hotel/overlook)
 "vp" = (
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "vW" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet/green,
+/obj/structure/hygiene/toilet,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "vZ" = (
 /obj/structure/lattice,
@@ -1861,17 +1834,17 @@
 /area/space)
 "wt" = (
 /obj/structure/bookcase,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ww" = (
 /obj/item/paper/abandoned_hotel/note_3,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "wI" = (
 /obj/decal/cleanable/dirt,
 /obj/structure/bed,
 /obj/spider/stickyweb/dark,
-/turf/simulated/floor/carpet/blue3,
+/turf/simulated/floor/plating,
 /area/abandoned_hotel/rooms)
 "wO" = (
 /obj/floor_decal/corner/white{
@@ -1895,7 +1868,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "wQ" = (
 /obj/structure/cable{
@@ -1907,12 +1880,12 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "wS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "wW" = (
 /obj/decal/cleanable/dirt,
@@ -1927,7 +1900,7 @@
 	dir = 4
 	},
 /obj/item/material/shard,
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "xy" = (
 /obj/item/stack/material/tritium,
@@ -1955,7 +1928,7 @@
 "ym" = (
 /obj/decal/cleanable/dirt,
 /obj/item/seeds/potatoseed,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "yu" = (
 /obj/machinery/door/firedoor,
@@ -1976,7 +1949,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "yV" = (
 /obj/floor_decal/spline/fancy/black{
@@ -2007,16 +1980,12 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "zn" = (
 /obj/structure/flora/ausbushes/grassybush,
 /obj/item/material/shard,
 /turf/simulated/floor/grass/cut,
-/area/abandoned_hotel/rooms)
-"zF" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/blue,
 /area/abandoned_hotel/rooms)
 "zG" = (
 /obj/floor_decal/corner/red{
@@ -2026,7 +1995,7 @@
 	dir = 1
 	},
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "zL" = (
 /obj/structure/window/reinforced/full,
@@ -2040,7 +2009,7 @@
 "zY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Ac" = (
 /obj/structure/grille,
@@ -2051,7 +2020,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Al" = (
 /obj/machinery/light{
@@ -2062,7 +2031,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Av" = (
 /obj/item/stack/cable_coil,
@@ -2075,13 +2044,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/carpet/blue,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "AR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "AX" = (
 /obj/landmark/map_data{
@@ -2094,13 +2063,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/carpet/blue3,
+/turf/simulated/floor/plating,
 /area/abandoned_hotel/rooms)
 "Bb" = (
 /obj/item/device/oxycandle{
 	icon_state = "oxycandle_burnt"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "Bd" = (
 /obj/structure/cable{
@@ -2117,18 +2086,18 @@
 /turf/simulated/floor/wood/walnut,
 /area/abandoned_hotel/rooms)
 "Bg" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/green,
-/area/abandoned_hotel/rooms)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/darkwood,
+/area/abandoned_hotel/overlook)
 "Bo" = (
 /obj/decal/cleanable/dirt,
 /obj/spider/stickyweb,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Bu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2138,11 +2107,11 @@
 	dir = 6
 	},
 /obj/spider/stickyweb,
-/turf/simulated/floor/carpet/magenta,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Bw" = (
 /obj/structure/bed,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "BL" = (
 /obj/structure/bed/chair/comfy/green{
@@ -2151,7 +2120,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "BU" = (
 /obj/shuttle_landmark/abandoned_hotel/one,
@@ -2209,7 +2178,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "CZ" = (
 /obj/structure/hygiene/toilet,
@@ -2226,13 +2195,13 @@
 "Dk" = (
 /obj/structure/flora/pottedplant/stoutbush,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/blue,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Dp" = (
 /obj/structure/table/standard,
 /obj/machinery/alarm,
 /obj/item/storage/mrebag/menu9,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Ds" = (
 /obj/decal/cleanable/dirt,
@@ -2245,11 +2214,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "DJ" = (
 /obj/item/storage/wallet/random,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "DL" = (
 /obj/structure/lattice,
@@ -2271,7 +2240,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/barricade,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Ex" = (
 /obj/item/stool/bar/padded,
@@ -2323,7 +2292,7 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Fm" = (
 /obj/floor_decal/borderfloorwhite{
@@ -2337,7 +2306,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Fq" = (
 /obj/structure/cable{
@@ -2352,7 +2321,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/abandoned_hotel/overlook)
 "Ft" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "Fw" = (
 /obj/floor_decal/corner/red,
@@ -2363,7 +2332,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "FE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2378,7 +2347,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Gb" = (
 /turf/simulated/open,
@@ -2395,7 +2364,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "Go" = (
 /obj/structure/bed,
@@ -2406,7 +2375,7 @@
 "Gv" = (
 /obj/decal/cleanable/dirt,
 /obj/item/trash/beans,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Gx" = (
 /obj/structure/cable{
@@ -2446,14 +2415,14 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/item/trash/liquidfood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "Hy" = (
 /obj/structure/table/standard,
 /obj/machinery/chemical_dispenser/bar_coffee/full{
 	pixel_y = 7
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "HB" = (
 /obj/floor_decal/spline/fancy/black{
@@ -2477,7 +2446,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "HE" = (
 /obj/floor_decal/spline/fancy/black{
@@ -2499,7 +2468,7 @@
 	dir = 4
 	},
 /obj/item/frame/fire_alarm,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "HV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2516,7 +2485,8 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/wood,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Ie" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -2525,7 +2495,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Ii" = (
 /obj/machinery/door/firedoor,
@@ -2542,7 +2512,7 @@
 	dir = 8
 	},
 /obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "JE" = (
 /obj/structure/table/woodentable/walnut,
@@ -2550,7 +2520,8 @@
 	dir = 1
 	},
 /obj/item/storage/box/donut/empty,
-/turf/simulated/floor/wood,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Kk" = (
 /obj/machinery/light{
@@ -2564,7 +2535,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "Kn" = (
 /obj/structure/window/reinforced/full,
@@ -2587,7 +2558,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/carpet/blue3,
+/turf/simulated/floor/plating,
 /area/abandoned_hotel/rooms)
 "KX" = (
 /obj/structure/railing/mapped{
@@ -2602,35 +2573,35 @@
 /area/abandoned_hotel/rooms)
 "Ld" = (
 /obj/spider/stickyweb/dark,
-/turf/simulated/floor/carpet/blue3,
+/turf/simulated/floor/plating,
 /area/abandoned_hotel/rooms)
 "Lj" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "LE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "LI" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "LT" = (
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "Md" = (
 /obj/structure/bookcase,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "MA" = (
 /obj/structure/cable{
@@ -2639,7 +2610,7 @@
 	icon_state = "1-2"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "MD" = (
 /obj/floor_decal/corner/red,
@@ -2648,7 +2619,7 @@
 	},
 /obj/structure/flora/pottedplant/minitree,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "MJ" = (
 /obj/structure/cable{
@@ -2659,26 +2630,17 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ML" = (
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/item/paper/abandoned_hotel/note_5,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "MM" = (
-/obj/structure/bookcase,
-/turf/simulated/floor/carpet/red,
-/area/abandoned_hotel/rooms)
-"MS" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/magenta,
+/obj/machinery/door/unpowered/simple/ebony,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "MT" = (
 /obj/structure/bed/chair/comfy/green{
@@ -2689,7 +2651,7 @@
 "Nm" = (
 /obj/structure/bed,
 /obj/item/bedsheet/ce,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Np" = (
 /obj/structure/bed/chair{
@@ -2705,7 +2667,7 @@
 	dir = 4
 	},
 /obj/item/frame/air_alarm,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "NA" = (
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -2715,7 +2677,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "NH" = (
 /obj/structure/railing/mapped{
@@ -2749,11 +2711,11 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Od" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Oi" = (
 /obj/structure/cable{
@@ -2768,7 +2730,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Op" = (
 /obj/floor_decal/corner/white{
@@ -2783,7 +2745,7 @@
 /obj/machinery/alarm{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "Ov" = (
 /obj/structure/window/basic/full,
@@ -2807,13 +2769,13 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "OJ" = (
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/random/accessory,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "OM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2822,7 +2784,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Pf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2858,7 +2820,7 @@
 /area/abandoned_hotel/atmos)
 "Qf" = (
 /obj/structure/ore_box,
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "Qm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2873,11 +2835,12 @@
 /turf/simulated/floor/wood/walnut,
 /area/abandoned_hotel/rooms)
 "Qv" = (
-/turf/simulated/floor/carpet/blue3,
+/obj/decal/cleanable/dirt,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "QA" = (
 /obj/structure/flora/pottedplant/largebush,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "QJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2886,7 +2849,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "QM" = (
 /obj/structure/window/reinforced{
@@ -2896,7 +2859,7 @@
 /turf/simulated/floor/grass/cut,
 /area/abandoned_hotel/rooms)
 "QQ" = (
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "QZ" = (
 /obj/structure/cable{
@@ -2910,7 +2873,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Ri" = (
 /obj/decal/cleanable/dirt,
@@ -2918,7 +2881,8 @@
 /area/abandoned_hotel/rooms)
 "Rj" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/carpet/red,
+/obj/random/loot/raregunslug,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "RJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2935,7 +2899,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
 "Sl" = (
 /obj/structure/cable{
@@ -2953,7 +2917,7 @@
 	dir = 4
 	},
 /obj/random/bomb_supply,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Sr" = (
 /obj/structure/window/reinforced{
@@ -2962,10 +2926,10 @@
 /turf/simulated/floor/grass/cut,
 /area/abandoned_hotel/rooms)
 "Su" = (
-/obj/structure/bookcase,
-/obj/spider/stickyweb/dark,
-/turf/simulated/floor/carpet/blue3,
-/area/abandoned_hotel/rooms)
+/obj/structure/window/basic/full,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/warhammer/darkwood,
+/area/abandoned_hotel/overlook)
 "SL" = (
 /obj/structure/cable/yellow{
 	d2 = 4;
@@ -2986,7 +2950,7 @@
 "SZ" = (
 /obj/structure/bed,
 /obj/item/bedsheet/hos,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Tl" = (
 /obj/decal/cleanable/dirt,
@@ -2997,7 +2961,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Ts" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3020,7 +2984,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "TT" = (
 /obj/structure/cable{
@@ -3035,7 +2999,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "TY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3043,7 +3007,7 @@
 	dir = 6
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Uf" = (
 /obj/structure/flora/pottedplant/unusual,
@@ -3053,7 +3017,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Uo" = (
 /obj/structure/window/reinforced/full,
@@ -3081,23 +3045,19 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/green,
-/area/abandoned_hotel/rooms)
-"UZ" = (
-/obj/spider/stickyweb,
-/turf/simulated/floor/carpet/blue3,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Vh" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Vi" = (
 /obj/decal/cleanable/dirt,
 /mob/living/simple_animal/passive/mouse/rat,
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "Vp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3140,7 +3100,7 @@
 /turf/simulated/floor/plating,
 /area/abandoned_hotel/overlook)
 "VT" = (
-/turf/simulated/floor/carpet/magenta,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "VZ" = (
 /obj/floor_decal/spline/fancy/black{
@@ -3166,7 +3126,7 @@
 	dir = 8
 	},
 /obj/item/paper/abandoned_hotel/note_5,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Wy" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/blue{
@@ -3180,11 +3140,11 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "WI" = (
 /obj/random/toolbox,
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "WT" = (
 /obj/structure/cable{
@@ -3198,19 +3158,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/green,
-/area/abandoned_hotel/rooms)
-"WU" = (
-/obj/spider/stickyweb,
-/turf/simulated/floor/wood,
-/area/abandoned_hotel/rooms)
-"Xa" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Xq" = (
 /obj/structure/closet/crate/large/hydroponics,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Xr" = (
 /obj/structure/window/reinforced{
@@ -3223,20 +3175,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "XS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "XV" = (
 /obj/structure/bed/chair/comfy/green{
 	dir = 8
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Yf" = (
 /obj/machinery/light/small{
@@ -3245,7 +3197,7 @@
 /obj/item/device/oxycandle{
 	icon_state = "oxycandle_burnt"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Yo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3258,11 +3210,12 @@
 /turf/simulated/floor/wood/walnut,
 /area/abandoned_hotel/rooms)
 "Yp" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "Yu" = (
-/turf/simulated/floor/carpet/green,
-/area/abandoned_hotel/rooms)
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/warhammer/darkwood,
+/area/abandoned_hotel/overlook)
 "YC" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -3276,7 +3229,7 @@
 	dir = 8
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "YE" = (
 /obj/structure/flora/pottedplant/orientaltree,
@@ -3287,14 +3240,14 @@
 /obj/structure/table/woodentable/walnut,
 /obj/spider/stickyweb,
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/carpet/blue3,
+/turf/simulated/floor/plating,
 /area/abandoned_hotel/rooms)
 "Ze" = (
 /turf/simulated/floor/plating,
 /area/abandoned_hotel/atmos)
 "Zg" = (
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Zk" = (
 /turf/simulated/wall/prepainted,
@@ -3305,7 +3258,7 @@
 	dir = 4
 	},
 /obj/item/cell/high/empty,
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/overlook)
 "ZH" = (
 /obj/item/soap/random,
@@ -3329,7 +3282,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "ZZ" = (
 /obj/structure/cable{
@@ -3339,7 +3292,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 
 (1,1,1) = {"
@@ -20816,8 +20769,8 @@ wW
 fW
 Uq
 Bw
-QQ
-mO
+VT
+Zg
 ym
 bp
 jG
@@ -21019,7 +20972,7 @@ fX
 Uq
 Xq
 jg
-QQ
+VT
 ww
 DR
 jG
@@ -21220,9 +21173,9 @@ cN
 Uq
 Uq
 Xq
-QQ
+VT
 ym
-QQ
+VT
 Tv
 jG
 aa
@@ -21407,7 +21360,7 @@ aa
 Uq
 Uq
 fj
-QQ
+VT
 mC
 if
 Uq
@@ -21417,14 +21370,14 @@ Hp
 gY
 Uq
 fj
-QQ
-Yu
+VT
+VT
 pM
 Uq
 wt
-Yu
+VT
 Zg
-Yu
+VT
 Tv
 jG
 aa
@@ -21608,18 +21561,18 @@ aa
 aa
 Uq
 Uq
-kA
-QQ
-zF
-zF
+io
+VT
+Zg
+Zg
 Uq
 VT
 sB
-WU
-WU
+sB
+sB
 Uq
-QQ
-mO
+VT
+Zg
 io
 Zg
 Uq
@@ -21811,8 +21764,8 @@ aa
 Uq
 Uq
 hU
-mO
-zF
+Zg
+Zg
 Dk
 Uq
 aA
@@ -21821,12 +21774,12 @@ Bo
 Hp
 Uq
 no
-rW
+Od
 ix
-Yu
+VT
 Uq
 gO
-Yu
+VT
 NW
 JB
 Uq
@@ -22015,9 +21968,9 @@ Uq
 gw
 TY
 AD
-aR
+wt
 Uq
-qJ
+wt
 Bu
 vd
 BL
@@ -22217,16 +22170,16 @@ Uq
 rr
 Wp
 bZ
-aR
+wt
 Uq
-qJ
-MS
+wt
+bZ
 yR
 Fp
 Uq
-oy
-oy
-Bg
+uv
+uv
+bZ
 wt
 Uq
 QJ
@@ -22626,13 +22579,13 @@ wQ
 DA
 WT
 eJ
-Yu
+VT
 sC
-Yu
-Yu
-Bg
-Yu
-Yu
+VT
+VT
+bZ
+VT
+VT
 OM
 VZ
 uj
@@ -23016,10 +22969,10 @@ ZN
 ZN
 ZN
 ZN
-ax
+Yu
 xi
-ob
-gl
+Ft
+LT
 Ft
 Zk
 dp
@@ -23036,8 +22989,8 @@ qC
 qC
 ik
 Wj
-Yu
-Yu
+VT
+VT
 bT
 uj
 Gb
@@ -23218,12 +23171,12 @@ ZN
 ZN
 ZN
 ZN
-Ii
+ip
 jZ
 Vi
 Bb
-gl
-Ov
+LT
+Su
 qi
 Yo
 Gb
@@ -23238,7 +23191,7 @@ hL
 Ze
 il
 Wj
-Yu
+VT
 DJ
 bT
 KX
@@ -23421,11 +23374,11 @@ ZN
 ZN
 ZN
 Ov
-ok
-gl
-gl
+Bg
+LT
+LT
 Ft
-Ov
+Su
 Bd
 tW
 fU
@@ -23441,7 +23394,7 @@ ig
 UF
 Wj
 Zg
-Yu
+VT
 yV
 HE
 HE
@@ -23623,11 +23576,11 @@ ZN
 ZN
 ZN
 Ov
-ok
-gl
+Bg
+LT
 ry
-gl
-Ov
+LT
+Su
 ga
 yx
 fV
@@ -23642,8 +23595,8 @@ fd
 ii
 fC
 Wj
-Yu
-Yu
+VT
+VT
 kM
 sq
 sq
@@ -23825,11 +23778,11 @@ ZN
 ZN
 ZN
 Ov
-ok
+Bg
 LT
 WI
-ob
-Ov
+Ft
+Su
 qi
 Yo
 Gb
@@ -23845,7 +23798,7 @@ hK
 fC
 Wj
 bx
-Yu
+VT
 bT
 NH
 bJ
@@ -24027,11 +23980,11 @@ ZN
 ZN
 ZN
 Ov
-ok
+Bg
 Ft
-ob
+Ft
 Qf
-Ov
+Su
 Gx
 VC
 uk
@@ -24046,7 +23999,7 @@ Wj
 Wj
 Wj
 Wj
-Yu
+VT
 Zg
 bT
 uj
@@ -24229,27 +24182,27 @@ ZN
 ZN
 ZN
 Ov
-ok
+Bg
 WA
-ob
+Ft
 mw
-Ov
+Su
 tc
 qq
-ip
-ip
+mh
+mh
 Tr
-ip
-ip
-ip
+mh
+mh
+mh
 iu
 FW
-vW
-vW
-vW
-vW
-vW
-vW
+Od
+Od
+Od
+Od
+Od
+Od
 hy
 uj
 Gb
@@ -24449,9 +24402,9 @@ Vh
 Zg
 Zg
 Zg
-Yu
-Yu
-Yu
+VT
+VT
+VT
 VZ
 uj
 Gb
@@ -24647,7 +24600,7 @@ Uq
 Uq
 Uq
 HN
-Yu
+VT
 Uq
 fT
 fT
@@ -24843,7 +24796,7 @@ Zk
 Zk
 Zk
 QA
-QQ
+VT
 NE
 uv
 ol
@@ -25045,13 +24998,13 @@ hj
 ew
 Zk
 hU
-mO
+Zg
 XC
 XV
 bo
 Uq
 pK
-Yu
+VT
 uf
 Ri
 lr
@@ -25246,14 +25199,14 @@ Qm
 lW
 Ce
 Zk
-mp
-QQ
+wt
+VT
 qo
 Od
 cU
 Ai
 ZZ
-ip
+mh
 xZ
 FE
 gD
@@ -25448,9 +25401,9 @@ si
 mr
 si
 Zk
-mp
-mO
-sW
+wt
+Zg
+VT
 Nm
 Rj
 Uq
@@ -25651,13 +25604,13 @@ Ex
 tI
 Zk
 Uq
-cN
+MM
 Uq
 Uq
 Uq
 Uq
 ZO
-Yu
+VT
 Uq
 Uq
 Uq
@@ -25853,13 +25806,13 @@ bm
 Ce
 Zk
 sv
-wW
+Qv
 Uq
 jv
 pq
 Uq
 pK
-Yu
+VT
 Uq
 Dp
 cW
@@ -26055,10 +26008,10 @@ si
 Ce
 Zk
 qu
-wW
+Qv
 Uq
-fh
-wW
+vW
+Qv
 Uq
 UQ
 fk
@@ -26260,7 +26213,7 @@ jv
 rH
 Uq
 qb
-fH
+QQ
 Uq
 QZ
 zY
@@ -26462,13 +26415,13 @@ Uq
 Uq
 Uq
 Uq
-cN
+MM
 Uq
 pK
-Yu
+VT
 Uq
 Yf
-mO
+Zg
 tu
 CG
 QM
@@ -26660,14 +26613,14 @@ Zk
 Zk
 Zk
 Uq
-oy
-QQ
-MM
-MM
-sW
+uv
+VT
+wt
+wt
+VT
 Uq
 TT
-Yu
+VT
 Uq
 jx
 jx
@@ -27066,15 +27019,15 @@ Uq
 Uq
 no
 AR
-sW
-sW
-Xa
+VT
+VT
+Zg
 Uq
 pK
-Yu
+VT
 Uq
 sA
-UZ
+Hp
 tL
 wI
 Uq
@@ -27266,14 +27219,14 @@ dZ
 cf
 Uq
 Uq
-oy
-oy
+uv
+uv
 ti
 fS
 SZ
 Uq
 oE
-ip
+mh
 hN
 KP
 AY
@@ -27480,7 +27433,7 @@ Uq
 sN
 HV
 bv
-UZ
+Hp
 it
 bs
 aa
@@ -27677,7 +27630,7 @@ fy
 Ds
 dC
 pK
-Yu
+VT
 Uq
 YS
 jA
@@ -27879,12 +27832,12 @@ be
 fy
 dC
 pK
-Yu
+VT
 Uq
 tZ
-Qv
+Tv
 Ld
-Su
+pF
 qv
 bs
 aa
@@ -28081,7 +28034,7 @@ Tl
 gb
 pY
 OC
-Yu
+VT
 Uq
 Uq
 Uq

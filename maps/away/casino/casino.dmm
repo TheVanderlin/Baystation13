@@ -110,22 +110,22 @@
 	name = "Casino Bridge Blast Doors";
 	opacity = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bridge)
 "ap" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aq" = (
 /obj/machinery/computer/ship/engines,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "ar" = (
 /obj/machinery/computer/ship/helm,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "as" = (
 /obj/machinery/computer/ship/sensors,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "at" = (
 /obj/wallframe_spawn/reinforced,
@@ -138,19 +138,19 @@
 	name = "Casino Bridge Blast Doors";
 	opacity = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bridge)
 "au" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "av" = (
 /obj/structure/table/steel_reinforced,
-/obj/random/handgun,
-/turf/simulated/floor/tiled,
+/obj/random/loot/lootartifacts,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aw" = (
 /obj/item/wirecutters,
@@ -161,18 +161,18 @@
 /obj/machinery/computer/modular{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "ay" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aA" = (
 /obj/machinery/computer/modular{
 	dir = 8;
 	name = "Gambling console"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aB" = (
 /turf/simulated/wall/r_wall,
@@ -180,7 +180,7 @@
 "aC" = (
 /obj/machinery/door/firedoor,
 /obj/wingrille_spawn/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "aD" = (
 /obj/machinery/door/airlock/external{
@@ -189,20 +189,20 @@
 	id_tag = "casino_dock_outer";
 	name = "Docking Port Airlock"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "aE" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aF" = (
 /obj/structure/bed/chair{
 	dir = 4
 	},
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aH" = (
 /obj/floor_decal/industrial/warning{
@@ -217,7 +217,7 @@
 	},
 /obj/item/device/multitool,
 /obj/item/plastique,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "aI" = (
 /obj/floor_decal/industrial/warning{
@@ -230,24 +230,24 @@
 	dir = 8;
 	pixel_x = 22
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "aJ" = (
 /obj/structure/table/steel_reinforced,
 /obj/random/loot,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aL" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/device/radio,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aM" = (
 /obj/machinery/computer/modular{
 	dir = 8;
 	name = "Security console"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aN" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
@@ -257,7 +257,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "aO" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
@@ -269,11 +269,11 @@
 /obj/floor_decal/industrial/warning{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "aT" = (
 /obj/wingrille_spawn/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "aU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -283,7 +283,7 @@
 	id_tag = "casino_dock_inner";
 	name = "Docking Port Airlock"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "aV" = (
 /obj/machinery/light{
@@ -305,7 +305,7 @@
 	name = "west bump";
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "aW" = (
 /obj/machinery/button/blast_door{
@@ -321,7 +321,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "ba" = (
 /obj/structure/closet/warhammer/emcloset,
@@ -329,7 +329,7 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "bb" = (
 /obj/structure/lattice,
@@ -380,7 +380,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "bf" = (
 /obj/machinery/door/firedoor,
@@ -388,7 +388,7 @@
 	name = "Casino Bridge"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "bh" = (
 /turf/simulated/floor/tiled/dark,
@@ -410,13 +410,13 @@
 	pixel_y = 2
 	},
 /obj/item/gun/projectile/pistol/sec/MK,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bk" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "casino_weaponry"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -425,25 +425,25 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
 	icon_state = "6-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bn" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bo" = (
 /obj/machinery/floodlight,
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
@@ -462,13 +462,13 @@
 "bu" = (
 /obj/structure/table/rack,
 /obj/item/material/knife/combat,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -477,7 +477,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bz" = (
 /obj/structure/cable{
@@ -491,7 +491,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bA" = (
 /obj/item/trash/cigbutt/professionals{
@@ -509,7 +509,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bB" = (
 /obj/item/trash/cigbutt/professionals,
@@ -524,7 +524,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bC" = (
 /obj/machinery/light/small{
@@ -541,7 +541,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bD" = (
 /obj/item/material/shard,
@@ -554,7 +554,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bE" = (
 /obj/decal/cleanable/blood/drip,
@@ -570,7 +570,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bF" = (
 /obj/decal/cleanable/blood/drip,
@@ -585,7 +585,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bG" = (
 /obj/machinery/door/airlock{
@@ -603,7 +603,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_security)
 "bI" = (
 /obj/structure/fireaxecabinet{
@@ -620,7 +620,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "bJ" = (
 /obj/machinery/light{
@@ -635,7 +635,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "bK" = (
 /obj/structure/reagent_dispensers/peppertank{
@@ -647,7 +647,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "bL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -659,7 +659,7 @@
 /obj/machinery/alarm{
 	pixel_y = 25
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "bM" = (
 /obj/machinery/door/airlock{
@@ -673,7 +673,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "bN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -682,7 +682,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "bO" = (
 /obj/machinery/light{
@@ -694,7 +694,7 @@
 	dir = 8;
 	level = 2
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "bP" = (
 /obj/machinery/button/blast_door{
@@ -710,38 +710,38 @@
 	pixel_y = 25
 	},
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "bQ" = (
 /obj/structure/bed/chair,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "bR" = (
 /obj/machinery/alarm{
 	pixel_y = 25
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "bS" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/atmospherics/portables_connector,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "bT" = (
 /obj/machinery/atmospherics/unary/tank/nitrogen,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "bU" = (
 /obj/structure/table/rack,
 /obj/item/gun/projectile/shotgun/pump/voxlegis,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bV" = (
 /obj/random/trash,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bW" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "bZ" = (
 /turf/simulated/wall,
@@ -753,19 +753,19 @@
 /turf/simulated/wall/r_wall,
 /area/casino/casino_crew_bunk)
 "cc" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cd" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "ce" = (
 /obj/structure/cable{
 	icon_state = "4-9"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cf" = (
 /obj/structure/cable{
@@ -778,50 +778,50 @@
 	name = "east bump";
 	pixel_x = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cg" = (
 /obj/structure/table/rack,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "ch" = (
 /obj/structure/table/rack,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "ci" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/wrench,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "cj" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/device/radio,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "ck" = (
 /obj/structure/table/steel_reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "cl" = (
 /obj/machinery/atmospherics/binary/pump/high_power,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_security)
 "cm" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "cn" = (
 /obj/structure/table/rack,
 /obj/item/tank/nitrogen,
 /obj/item/tank/nitrogen,
 /obj/item/tank/nitrogen,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "co" = (
 /turf/simulated/wall/r_wall,
@@ -837,13 +837,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "cr" = (
 /obj/structure/bed,
 /obj/random/plushie,
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cs" = (
 /obj/structure/closet,
@@ -855,7 +855,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "ct" = (
 /obj/machinery/light{
@@ -868,7 +868,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cu" = (
 /obj/machinery/vending/wallmed1{
@@ -881,7 +881,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cv" = (
 /obj/structure/bed,
@@ -891,7 +891,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cw" = (
 /obj/structure/closet,
@@ -902,7 +902,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cx" = (
 /obj/machinery/light{
@@ -915,7 +915,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cy" = (
 /obj/structure/bed,
@@ -928,7 +928,7 @@
 	name = "east bump";
 	pixel_x = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cz" = (
 /obj/structure/table/steel_reinforced,
@@ -938,23 +938,24 @@
 	level = 2
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cA" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cB" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/device/radio,
-/turf/simulated/floor/tiled,
+/obj/random/loot/gunbundle,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cC" = (
 /obj/machinery/computer/modular{
 	dir = 8;
 	name = "Gambling console"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cD" = (
 /obj/wallframe_spawn/reinforced,
@@ -963,17 +964,17 @@
 	id_tag = "casino_shuttle_control"
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cE" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /turf/simulated/wall/r_wall,
 /area/casino/casino_security)
 "cF" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "cH" = (
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
 "cI" = (
 /obj/structure/cable{
@@ -992,7 +993,7 @@
 	pixel_y = 24;
 	req_access = newlist()
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
 "cJ" = (
 /obj/machinery/door/firedoor,
@@ -1010,30 +1011,31 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
 "cL" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cM" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/structure/cable{
 	icon_state = "1-10"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cN" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cO" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cP" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/obj/random/loot/rarearmorbundle,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "cQ" = (
 /obj/structure/table/steel_reinforced,
@@ -1041,14 +1043,14 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cS" = (
 /obj/structure/bed/chair{
 	dir = 4
 	},
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cT" = (
 /obj/machinery/light{
@@ -1060,18 +1062,18 @@
 	icon_state = "console";
 	name = "Cameras console"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cU" = (
 /obj/floor_decal/industrial/warning,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "cV" = (
 /obj/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "cW" = (
 /obj/floor_decal/industrial/warning,
@@ -1082,7 +1084,7 @@
 	icon_state = "map_vent_out";
 	use_power = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "cX" = (
 /obj/machinery/door/blast/regular{
@@ -1090,7 +1092,7 @@
 	id_tag = "casino_hangar";
 	name = "Hangar gate"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_hangar)
 "cY" = (
 /obj/structure/lattice,
@@ -1101,7 +1103,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
 "db" = (
 /obj/machinery/door/firedoor,
@@ -1119,7 +1121,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_maintenance)
 "dc" = (
 /obj/structure/cable{
@@ -1127,7 +1129,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "dd" = (
 /obj/structure/closet,
@@ -1135,61 +1137,61 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "de" = (
 /obj/machinery/light,
 /obj/structure/bed,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "df" = (
 /obj/structure/closet,
 /obj/random/junk,
 /obj/random/smokes,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "dg" = (
 /obj/structure/bed,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "dh" = (
 /obj/structure/bed,
 /obj/random/plushie,
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "di" = (
 /obj/machinery/light,
 /obj/structure/closet,
 /obj/random/action_figure,
 /obj/random/shoes,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "dj" = (
 /obj/machinery/vending/security{
 	req_access = list()
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "dm" = (
 /obj/machinery/computer/modular{
 	dir = 8;
 	name = "Security console"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "dn" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "dr" = (
 /obj/floor_decal/industrial/warning{
 	dir = 8;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "ds" = (
 /obj/machinery/power/tracker,
@@ -1209,13 +1211,13 @@
 	},
 /obj/item/material/knife/folding,
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
 "du" = (
 /obj/machinery/door/airlock{
 	name = "Crew toilet"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
 "dx" = (
 /turf/simulated/wall,
@@ -1223,36 +1225,30 @@
 "dy" = (
 /turf/simulated/wall/r_wall,
 /area/casino/casino_storage)
-"dz" = (
-/obj/random/ammo,
-/turf/simulated/floor/tiled,
-/area/casino/casino_security)
 "dA" = (
 /obj/structure/table/rack,
 /obj/item/gun/projectile/shotgun/pump/voxlegis,
-/obj/item/gun/projectile/shotgun/pump/voxlegis,
-/obj/item/gun/projectile/shotgun/pump/voxlegis,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "dB" = (
 /obj/structure/table/rack,
 /obj/item/storage/box/ammo/shotgunammo,
 /obj/item/storage/box/ammo/shotgunammo,
 /obj/item/storage/box/ammo/shotgunammo,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "dC" = (
 /obj/structure/table/rack,
-/obj/item/clothing/suit/armor/bulletproof/vest,
-/obj/item/clothing/suit/armor/bulletproof/vest,
-/turf/simulated/floor/tiled,
+/obj/random/loot/lootcontraband,
+/obj/random/loot/lootartifacts,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "dD" = (
 /obj/structure/table/rack,
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
 /obj/item/tank/air,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "dE" = (
 /obj/floor_decal/industrial/warning{
@@ -1261,7 +1257,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "dL" = (
 /obj/structure/cable/yellow{
@@ -1275,21 +1271,21 @@
 /obj/structure/bed/chair/comfy/red{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "dN" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/bj_table,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "dO" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/bj_table/bj_right,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "dP" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "dQ" = (
 /obj/structure/table/woodentable,
@@ -1309,26 +1305,25 @@
 	pixel_y = 5
 	},
 /obj/random/tool,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "dR" = (
 /obj/structure/bed/chair,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "dS" = (
 /obj/structure/table/woodentable,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/stack/cable_coil,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "dT" = (
 /obj/structure/bed/chair/office/light,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "dU" = (
 /obj/item/clothing/suit/armor/bulletproof/vest,
-/obj/random/ammo,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "eb" = (
 /obj/overmap/visitable/ship/casino,
@@ -1357,11 +1352,11 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
 "ef" = (
 /obj/structure/curtain/open/shower,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
 "eg" = (
 /obj/random/trash,
@@ -1372,7 +1367,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "eh" = (
 /obj/structure/table/gamblingtable,
@@ -1381,38 +1376,37 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "ei" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/roulette,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "ej" = (
 /obj/item/stock_parts/circuitboard/broken,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "ek" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "el" = (
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "em" = (
-/obj/random/ammo,
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "en" = (
 /obj/structure/safe,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_security)
 "eq" = (
 /obj/structure/cable/yellow{
@@ -1504,63 +1498,62 @@
 /area/space)
 "ew" = (
 /obj/structure/reagent_dispensers/beerkeg,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "ex" = (
 /obj/structure/casino/oh_bandit,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "ey" = (
 /obj/structure/bed/chair,
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "ez" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "eA" = (
 /obj/item/device/multitool,
 /obj/item/wirecutters,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "eB" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Safe area"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_security)
 "eC" = (
 /obj/random/coin,
 /obj/random/cash,
-/obj/random/ammo,
-/turf/simulated/floor/plating,
+/obj/random/cash,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_security)
 "eD" = (
 /obj/random/coin,
-/obj/random/ammo,
-/obj/random/ammo,
-/turf/simulated/floor/plating,
+/obj/random/cash,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_security)
 "eE" = (
 /obj/random/coin,
 /obj/random/coin,
 /obj/item/storage/bag/cash,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_security)
 "eF" = (
 /obj/machinery/light{
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "eG" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "eH" = (
 /obj/floor_decal/industrial/warning{
@@ -1572,7 +1565,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "eI" = (
 /obj/structure/cable/yellow,
@@ -1585,24 +1578,24 @@
 /area/space)
 "eJ" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "eK" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "eL" = (
 /obj/machinery/vending/generic,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "eM" = (
 /obj/machinery/vending/engineering{
 	req_access = list()
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "eN" = (
 /obj/machinery/light/small{
@@ -1615,27 +1608,27 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "eO" = (
 /obj/machinery/constructable_frame/machine_frame,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "eP" = (
 /obj/machinery/light,
 /obj/machinery/vending/tool,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "eQ" = (
 /obj/structure/table/steel_reinforced,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "eR" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/storage/toolbox/electrical,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "eS" = (
 /obj/structure/table/steel_reinforced,
@@ -1644,7 +1637,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "eT" = (
 /obj/structure/table/steel_reinforced,
@@ -1656,7 +1649,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "eU" = (
 /obj/decal/cleanable/blood/splatter,
@@ -1676,20 +1669,19 @@
 	name = "east bump";
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_storage)
 "eV" = (
-/obj/random/cash,
-/obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
-/area/casino/casino_security)
+/mob/living/simple_animal/hostile/human/heretic/trooper,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
+/area/casino/casino_mainfloor)
 "eW" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "eX" = (
 /obj/structure/cable{
@@ -1697,7 +1689,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "eY" = (
 /obj/structure/cable{
@@ -1710,7 +1702,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "eZ" = (
 /obj/structure/cable{
@@ -1721,11 +1713,11 @@
 	name = "south bump";
 	pixel_y = -24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "fa" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "fb" = (
 /obj/structure/closet/warhammer/emcloset,
@@ -1733,15 +1725,15 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_hangar)
 "fc" = (
 /obj/machinery/floodlight,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fd" = (
 /obj/structure/reagent_dispensers/beerkeg,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fe" = (
 /obj/structure/cable{
@@ -1757,7 +1749,7 @@
 	name = "east bump";
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "ff" = (
 /obj/machinery/door/firedoor,
@@ -1772,7 +1764,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_maintenance)
 "fg" = (
 /obj/machinery/door/airlock{
@@ -1780,7 +1772,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_security)
 "fh" = (
 /obj/machinery/door/firedoor,
@@ -1800,11 +1792,11 @@
 	name = "Casino Checkpoint Blast Doors";
 	opacity = 0
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fi" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1813,7 +1805,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fk" = (
 /obj/random/trash,
@@ -1826,7 +1818,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fo" = (
 /obj/machinery/door/airlock{
@@ -1841,7 +1833,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_maintenance)
 "fq" = (
 /obj/random/coin,
@@ -1860,7 +1852,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fr" = (
 /obj/machinery/door/airlock{
@@ -1879,7 +1871,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fu" = (
 /obj/structure/table/steel_reinforced,
@@ -1898,7 +1890,7 @@
 	name = "Casino Checkpoint Blast Doors";
 	opacity = 0
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fv" = (
 /obj/decal/cleanable/blood/drip,
@@ -1907,7 +1899,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fw" = (
 /obj/machinery/light{
@@ -1915,22 +1907,22 @@
 	icon_state = "tube1"
 	},
 /obj/structure/coatrack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fx" = (
 /obj/random/loot,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "fy" = (
 /obj/structure/casino/oh_bandit,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "fz" = (
 /obj/structure/casino/oh_bandit,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "fA" = (
 /obj/wallframe_spawn/reinforced,
@@ -1941,13 +1933,13 @@
 	id_tag = "casino_main"
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_mainfloor)
 "fB" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fC" = (
 /obj/structure/cable{
@@ -1955,11 +1947,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fD" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fE" = (
 /obj/machinery/door/firedoor,
@@ -1971,7 +1963,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_maintenance)
 "fF" = (
 /obj/machinery/door/airlock{
@@ -1985,7 +1977,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fH" = (
 /obj/structure/table/steel_reinforced,
@@ -1997,30 +1989,30 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fI" = (
 /obj/decal/cleanable/blood/drip,
 /obj/item/ammo_casing/shotgun,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fJ" = (
 /obj/item/material/shard,
 /obj/structure/coatrack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "fK" = (
 /obj/machinery/light{
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "fL" = (
 /obj/structure/bed/chair/office/light{
 	dir = 1
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "fM" = (
 /obj/machinery/power/solar{
@@ -2034,15 +2026,15 @@
 "fN" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fO" = (
 /obj/item/reagent_containers/glass/bucket,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fP" = (
 /obj/structure/closet/crate/trashcart,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "fQ" = (
 /turf/simulated/wall,
@@ -2055,14 +2047,14 @@
 	name = "west bump";
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "fS" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/item/material/kitchen/utensil/fork,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "fT" = (
 /obj/machinery/light{
@@ -2072,28 +2064,28 @@
 	name = "plastic table frame"
 	},
 /obj/item/trash/plate,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "fU" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "fV" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/item/reagent_containers/food/drinks/small_milk,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "fW" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/item/trash/cigbutt/professionals,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "fX" = (
 /obj/structure/table/standard{
@@ -2102,7 +2094,7 @@
 /obj/item/trash/plate,
 /obj/random/snack,
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "fY" = (
 /obj/machinery/light{
@@ -2112,11 +2104,11 @@
 	name = "plastic table frame"
 	},
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "fZ" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "ga" = (
 /turf/simulated/wall,
@@ -2126,7 +2118,7 @@
 	dir = 1;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "gc" = (
 /obj/structure/closet/warhammer/emcloset,
@@ -2137,7 +2129,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "gd" = (
 /obj/machinery/door/firedoor,
@@ -2152,14 +2144,16 @@
 	name = "Casino Checkpoint Blast Doors";
 	opacity = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_security)
 "ge" = (
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 4
+	},
 /area/casino/casino_mainfloor)
 "gf" = (
 /obj/structure/window/basic,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "gg" = (
 /turf/simulated/wall/r_wall,
@@ -2172,7 +2166,7 @@
 /obj/random/material,
 /obj/random/material,
 /obj/random/material,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "gi" = (
 /obj/structure/table/rack{
@@ -2181,41 +2175,43 @@
 /obj/random/tech_supply,
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "gj" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "gk" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "gl" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "gm" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
 /obj/item/reagent_containers/food/drinks/flask/shiny,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "gn" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "gp" = (
-/obj/random/ammo,
-/turf/simulated/floor/tiled,
+/obj/machinery/door/firedoor,
+/obj/structure/table/marble,
+/mob/living/simple_animal/hostile/human/heretic/trooper,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "gq" = (
 /obj/structure/safe,
@@ -2233,7 +2229,7 @@
 /obj/structure/fireaxecabinet{
 	pixel_y = 30
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "gr" = (
 /obj/structure/safe,
@@ -2249,7 +2245,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "gs" = (
 /obj/machinery/door/firedoor,
@@ -2258,12 +2254,12 @@
 	id_tag = "casino_main";
 	name = "Main floor Blast Doors"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "gt" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/marble,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "gu" = (
 /obj/structure/table/woodentable,
@@ -2272,7 +2268,7 @@
 	dir = 1
 	},
 /obj/item/material/ashtray/bronze,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "gv" = (
 /obj/structure/table/woodentable,
@@ -2280,7 +2276,7 @@
 /obj/item/storage/fancy/smokable/cigar{
 	pixel_y = 5
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "gw" = (
 /obj/structure/cable/yellow{
@@ -2325,7 +2321,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "gz" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
@@ -2356,7 +2352,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	id_tag = "casino_solar_pump"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "gA" = (
 /obj/structure/table/rack{
@@ -2364,43 +2360,46 @@
 	},
 /obj/item/stack/cable_coil,
 /obj/random/material,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "gB" = (
 /obj/decal/cleanable/generic,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "gC" = (
 /obj/structure/table/rack{
 	dir = 8
 	},
 /obj/random/tech_supply,
-/turf/simulated/floor/plating,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "gD" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "gE" = (
 /obj/item/trash/cigbutt/menthol,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "gG" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "gH" = (
 /obj/random/coin,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "gI" = (
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "gJ" = (
 /obj/random/cash,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 5
+	},
 /area/casino/casino_mainfloor)
 "gK" = (
 /obj/structure/cable/yellow{
@@ -2428,22 +2427,22 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "gM" = (
 /turf/simulated/wall,
 /area/casino/casino_solar_control)
 "gX" = (
 /obj/structure/bed/chair,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "gY" = (
-/obj/random/cash,
-/turf/simulated/floor/tiled,
-/area/casino/casino_mainfloor)
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/casino/casino_kitchen)
 "gZ" = (
 /obj/decal/cleanable/blood/drip,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "ha" = (
 /obj/structure/cable/yellow{
@@ -2484,7 +2483,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "hc" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
@@ -2495,7 +2494,7 @@
 	dir = 1
 	},
 /obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "hd" = (
 /obj/structure/table/rack{
@@ -2503,18 +2502,18 @@
 	},
 /obj/random/tech_supply,
 /obj/item/stack/cable_coil,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "hf" = (
 /obj/machinery/door/window/southleft,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "hg" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/marble,
 /obj/structure/flora/pottedplant/unusual,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "hi" = (
 /obj/item/storage/secure/briefcase/money,
@@ -2525,12 +2524,12 @@
 /obj/random/cash,
 /obj/random/cash,
 /obj/random/cash,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "hj" = (
-/obj/random/ammo,
-/turf/simulated/floor/carpet,
-/area/casino/casino_mainfloor)
+/obj/random/loot/lootstructureartifact,
+/turf/simulated/floor/warhammer/plate,
+/area/casino/casino_bridge)
 "hk" = (
 /obj/structure/cable/yellow,
 /obj/machinery/power/solar{
@@ -2554,7 +2553,7 @@
 	dir = 1;
 	target_pressure = 200
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "hm" = (
 /obj/machinery/power/solar_control{
@@ -2568,7 +2567,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "hn" = (
 /turf/simulated/wall,
@@ -2577,78 +2576,80 @@
 /obj/structure/hygiene/sink/kitchen{
 	pixel_y = 30
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hq" = (
 /obj/machinery/cooker/cereal,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hr" = (
 /obj/machinery/cooker/candy,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hs" = (
 /obj/machinery/cooker/fryer,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "ht" = (
 /obj/machinery/cooker/oven,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hu" = (
 /obj/machinery/cooker/grill,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hv" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hw" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hx" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock{
 	name = "Kitchen"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hy" = (
 /obj/item/material/shard,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "hz" = (
 /obj/item/device/flash,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "hA" = (
 /obj/machinery/light,
 /obj/structure/flora/pottedplant,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "hB" = (
 /obj/item/trash/cigbutt/cigarbutt,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
 /area/casino/casino_mainfloor)
 "hC" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/roulette_chart,
 /obj/random/coin,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "hD" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/roulette,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "hE" = (
 /obj/structure/flora/pottedplant/unusual,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "hF" = (
 /obj/structure/cable/yellow{
@@ -2657,7 +2658,7 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "hG" = (
 /obj/machinery/power/terminal,
@@ -2668,35 +2669,35 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "hH" = (
 /obj/random/trash,
 /obj/structure/table/rack{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "hJ" = (
 /obj/random/trash,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hK" = (
 /obj/decal/cleanable/flour,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hL" = (
 /obj/structure/table/marble,
 /obj/machinery/microwave,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hM" = (
 /obj/structure/coatrack,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "hN" = (
 /obj/decal/cleanable/generic,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "hP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -2714,7 +2715,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "hR" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -2733,7 +2734,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "hS" = (
 /obj/machinery/light/small,
@@ -2748,7 +2749,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "hT" = (
 /obj/machinery/door/firedoor,
@@ -2766,21 +2767,21 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hV" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hW" = (
 /obj/decal/cleanable/egg_smudge,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hX" = (
 /obj/structure/table/marble,
 /obj/machinery/reagentgrinder/juicer,
 /obj/item/reagent_containers/glass/beaker/large,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "hY" = (
 /obj/machinery/light{
@@ -2788,46 +2789,50 @@
 	icon_state = "tube1"
 	},
 /obj/structure/coatrack,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "hZ" = (
 /obj/structure/bed/chair/comfy/red{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
 /area/casino/casino_mainfloor)
 "ia" = (
 /obj/structure/table/woodentable,
 /obj/item/trash/plate,
 /obj/item/material/kitchen/utensil/fork,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "ib" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "ic" = (
 /obj/structure/bed/chair/comfy/red{
 	dir = 8
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 4
+	},
 /area/casino/casino_mainfloor)
 "id" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "ie" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/craps,
 /obj/random/coin,
 /obj/random/coin,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "if" = (
 /obj/random/smokes,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "ig" = (
 /obj/structure/cable/yellow{
@@ -2853,7 +2858,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "ii" = (
 /obj/machinery/door/firedoor,
@@ -2866,7 +2871,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "ij" = (
 /turf/simulated/wall/r_wall,
@@ -2884,7 +2889,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "il" = (
 /obj/structure/closet/fridge,
@@ -2900,7 +2905,7 @@
 /obj/item/storage/fancy/egg_box/full,
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/condiment/sugar,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "im" = (
 /obj/structure/closet/fridge,
@@ -2909,12 +2914,12 @@
 	},
 /obj/item/reagent_containers/food/condiment/sugar,
 /obj/item/reagent_containers/food/snacks/sliceable/bread,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "in" = (
 /obj/structure/closet/fridge,
 /obj/item/reagent_containers/food/condiment/flour,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "io" = (
 /obj/structure/table/marble,
@@ -2923,36 +2928,38 @@
 	icon_state = "tube1"
 	},
 /obj/machinery/chem_master/condimaster,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "ip" = (
 /obj/structure/bed/chair/comfy/red{
 	dir = 4
 	},
 /obj/item/material/knife/table,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
 /area/casino/casino_mainfloor)
 "iq" = (
 /obj/structure/table/woodentable,
 /obj/item/trash/plate,
 /obj/item/reagent_containers/food/snacks/applepie,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "ir" = (
 /obj/structure/table/woodentable,
 /obj/item/trash/plate,
 /obj/item/reagent_containers/food/snacks/bigbiteburger,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "is" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/craps/craps_down,
 /obj/item/dice,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "iu" = (
 /obj/structure/flora/pottedplant,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "iv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -2963,7 +2970,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -2974,7 +2981,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "ix" = (
 /obj/structure/cable{
@@ -2985,7 +2992,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iz" = (
 /obj/structure/fireaxecabinet{
@@ -3002,7 +3009,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iA" = (
 /obj/structure/cable{
@@ -3016,7 +3023,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iB" = (
 /obj/structure/cable{
@@ -3026,7 +3033,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "iC" = (
 /obj/structure/window/basic{
@@ -3061,12 +3068,12 @@
 /area/casino/casino_kitchen)
 "iF" = (
 /obj/machinery/vending/dinnerware,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "iG" = (
 /obj/structure/table/marble,
 /obj/item/trash/plate,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "iH" = (
 /obj/floor_decal/industrial/warning{
@@ -3077,7 +3084,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iI" = (
 /obj/machinery/atmospherics/unary/tank/carbon_dioxide,
@@ -3085,7 +3092,7 @@
 	dir = 1;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iJ" = (
 /obj/floor_decal/industrial/warning{
@@ -3093,13 +3100,13 @@
 	icon_state = "warning"
 	},
 /obj/machinery/floodlight,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iK" = (
 /obj/floor_decal/industrial/warning{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iL" = (
 /obj/machinery/light/small{
@@ -3113,7 +3120,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iM" = (
 /obj/structure/window/basic{
@@ -3130,29 +3137,30 @@
 /area/casino/casino_kitchen)
 "iP" = (
 /obj/decal/cleanable/pie_smudge,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "iQ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/marble,
 /obj/item/trash/tray,
 /obj/item/reagent_containers/food/snacks/stew,
-/turf/simulated/floor/tiled,
+/mob/living/simple_animal/hostile/human/heretic/trooper,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "iR" = (
 /obj/structure/table/woodentable,
 /obj/item/trash/plate,
 /obj/item/material/kitchen/utensil/spoon,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "iS" = (
 /obj/machinery/light,
 /obj/structure/flora/pottedplant/unusual,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "iT" = (
 /obj/random/coin,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "iU" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
@@ -3164,17 +3172,17 @@
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iW" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/red,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iX" = (
 /obj/machinery/atmospherics/omni/filter{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iY" = (
 /obj/floor_decal/industrial/warning{
@@ -3184,7 +3192,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "iZ" = (
 /obj/structure/cable{
@@ -3196,7 +3204,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "ja" = (
 /obj/machinery/light{
@@ -3204,7 +3212,7 @@
 	icon_state = "tube1"
 	},
 /obj/structure/flora/pottedplant/unusual,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "jb" = (
 /obj/structure/synthesized_instrument/synthesizer/piano,
@@ -3212,38 +3220,38 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "jc" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "jd" = (
-/obj/random/coin,
-/obj/random/ammo,
-/turf/simulated/floor/carpet,
-/area/casino/casino_mainfloor)
+/obj/structure/closet/warhammer/emcloset,
+/obj/random/loot/rigloot,
+/turf/simulated/floor/warhammer/plating,
+/area/casino/casino_bow)
 "je" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /turf/simulated/wall/r_wall,
 /area/casino/casino_crew_atmos)
 "jf" = (
 /obj/structure/closet/firecloset,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jg" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jh" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "ji" = (
 /obj/floor_decal/industrial/warning{
@@ -3253,7 +3261,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jj" = (
 /obj/structure/cable{
@@ -3265,7 +3273,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jk" = (
 /obj/structure/cable{
@@ -3279,7 +3287,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "jl" = (
 /obj/machinery/door/firedoor,
@@ -3292,7 +3300,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "jm" = (
 /obj/machinery/light{
@@ -3304,7 +3312,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "jn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3313,7 +3321,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "jo" = (
 /obj/machinery/door/firedoor,
@@ -3326,7 +3334,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3335,7 +3343,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jq" = (
 /obj/structure/hygiene/sink/kitchen{
@@ -3345,25 +3353,25 @@
 	dir = 8;
 	level = 2
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jr" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "js" = (
 /obj/machinery/alarm{
 	pixel_y = 25
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jt" = (
 /obj/machinery/vending/boozeomat{
 	req_access = list()
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "ju" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -3389,23 +3397,23 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jx" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/cyan,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jy" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jA" = (
 /obj/floor_decal/industrial/warning{
@@ -3415,7 +3423,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jB" = (
 /obj/machinery/light/small{
@@ -3431,7 +3439,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jC" = (
 /obj/item/broken_bottle,
@@ -3442,11 +3450,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "jD" = (
 /obj/machinery/vending/coffee,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "jE" = (
 /obj/structure/table/marble,
@@ -3464,52 +3472,52 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jF" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/bar_alc/full,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jG" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jH" = (
 /obj/structure/table/marble,
 /obj/item/material/ashtray/bronze,
 /obj/item/flame/lighter/zippo/random,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jI" = (
 /obj/item/stool/bar,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "jJ" = (
 /obj/structure/table/woodentable,
 /obj/item/material/ashtray/bronze,
 /obj/item/reagent_containers/food/snacks/cubancarp,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "jK" = (
 /obj/item/material/ashtray/bronze,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "jL" = (
 /obj/machinery/atmospherics/unary/tank/air{
 	dir = 4;
 	start_pressure = 740.5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jM" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jN" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jO" = (
 /obj/floor_decal/industrial/warning{
@@ -3519,7 +3527,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jP" = (
 /obj/decal/cleanable/generic,
@@ -3532,7 +3540,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jQ" = (
 /obj/structure/table/marble,
@@ -3542,7 +3550,7 @@
 /obj/item/storage/box/glasses/pint,
 /obj/item/storage/box/glasses/wine,
 /obj/item/device/radio,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "jR" = (
 /obj/structure/table/marble,
@@ -3553,24 +3561,24 @@
 /obj/item/reagent_containers/food/drinks/bottle/vodka{
 	pixel_x = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jS" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/bar_soft/full,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jT" = (
 /obj/structure/table/marble,
 /obj/random/coin,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "jU" = (
 /obj/structure/table/woodentable,
 /obj/item/trash/plate,
 /obj/item/reagent_containers/food/snacks/waffles,
 /obj/item/reagent_containers/food/drinks/cans/iced_tea,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "jV" = (
 /obj/structure/table/gamblingtable,
@@ -3580,7 +3588,7 @@
 	pixel_y = -5
 	},
 /obj/item/dice,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "jW" = (
 /obj/structure/table/gamblingtable,
@@ -3590,35 +3598,35 @@
 	pixel_y = -5
 	},
 /obj/random/coin,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "jX" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/bj_table/bj_right,
 /obj/item/clothing/mask/smokable/cigarette/cigar/havana,
 /obj/item/material/ashtray/bronze,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "jY" = (
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "jZ" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "ka" = (
 /obj/decal/cleanable/generic,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "kb" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "kc" = (
 /obj/structure/cable{
@@ -3628,7 +3636,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "kd" = (
 /obj/structure/table/marble,
@@ -3639,11 +3647,11 @@
 /obj/random/drinkbottle,
 /obj/random/drinkbottle,
 /obj/random/drinkbottle,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "ke" = (
 /obj/structure/reagent_dispensers/beerkeg,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "kf" = (
 /obj/structure/table/marble,
@@ -3653,38 +3661,38 @@
 /obj/random/drinkbottle,
 /obj/random/drinkbottle,
 /obj/random/drinkbottle,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "kg" = (
 /obj/item/trash/cigbutt/professionals,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "kh" = (
 /obj/structure/table/marble,
 /obj/item/reagent_containers/food/drinks/bottle/cognac,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "ki" = (
 /obj/item/stool/bar,
 /obj/random/coin,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kj" = (
 /obj/item/broken_bottle,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kk" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/craps/craps_down,
 /obj/random/coin,
 /obj/random/coin,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kl" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "km" = (
 /obj/floor_decal/industrial/warning{
@@ -3695,7 +3703,8 @@
 /obj/item/wrench,
 /obj/item/clothing/head/welding,
 /obj/item/weldingtool,
-/turf/simulated/floor/plating,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "kn" = (
 /obj/machinery/door/firedoor,
@@ -3709,52 +3718,51 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "ko" = (
 /obj/structure/table/marble,
 /obj/item/reagent_containers/food/drinks/h_chocolate,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "kp" = (
 /obj/structure/table/marble,
 /obj/item/storage/fancy/smokable/cigar{
 	pixel_y = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "kq" = (
 /obj/structure/table/marble,
 /obj/random/smokes,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "kr" = (
 /obj/structure/table/marble,
 /obj/random/loot,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "ks" = (
 /obj/structure/table/marble,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "kt" = (
 /obj/structure/table/woodentable,
 /obj/item/pizzabox/meat,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "ku" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "kv" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "kw" = (
-/obj/random/ammo,
 /obj/decal/cleanable/blood/splatter,
 /obj/structure/cable{
 	d1 = 1;
@@ -3763,29 +3771,28 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kx" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "ky" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/random/ammo,
 /obj/structure/flora/pottedplant/overgrown,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kz" = (
 /obj/structure/flora/pottedplant/overgrown,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kA" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/bj_table,
 /obj/random/coin,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "kB" = (
 /obj/structure/table/gamblingtable,
@@ -3795,14 +3802,14 @@
 	pixel_x = -2;
 	pixel_y = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "kC" = (
 /turf/simulated/wall/r_wall,
 /area/casino/casino_bow)
 "kD" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "kE" = (
 /obj/floor_decal/industrial/warning{
@@ -3815,10 +3822,10 @@
 /obj/item/clothing/mask/gas,
 /obj/item/clothing/mask/gas,
 /obj/item/device/radio,
-/turf/simulated/floor/plating,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "kG" = (
-/obj/random/ammo,
 /obj/decal/cleanable/blood/splatter,
 /obj/structure/cable{
 	d1 = 4;
@@ -3831,7 +3838,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kH" = (
 /obj/random/loot,
@@ -3846,23 +3853,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kI" = (
-/obj/random/ammo,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/carpet,
-/area/casino/casino_mainfloor)
+/obj/structure/table/rack,
+/obj/item/wrench,
+/obj/item/clothing/head/welding,
+/obj/item/weldingtool,
+/obj/random/loot/randomsupply/tech,
+/turf/simulated/floor/warhammer/plating,
+/area/casino/casino_crew_atmos)
 "kJ" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -3875,7 +3879,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kN" = (
 /obj/machinery/light,
@@ -3890,7 +3894,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kO" = (
 /obj/structure/cable{
@@ -3904,11 +3908,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kP" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "kQ" = (
 /obj/machinery/door/firedoor,
@@ -3968,7 +3972,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kY" = (
 /obj/machinery/light,
@@ -3977,7 +3981,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "kZ" = (
 /obj/structure/cable{
@@ -3985,28 +3989,28 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "la" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "ld" = (
 /obj/floor_decal/industrial/warning,
 /obj/machinery/portable_atmospherics/canister/phoron,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "le" = (
 /obj/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "lf" = (
 /obj/floor_decal/industrial/warning{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "lg" = (
 /obj/decal/cleanable/blood/splatter,
@@ -4210,20 +4214,24 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "lB" = (
 /obj/machinery/light/small,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "lD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/wood,
 /area/casino/casino_private_vip)
 "lE" = (
-/obj/random/ammo,
-/turf/simulated/floor/wood,
-/area/casino/casino_private_vip)
+/obj/structure/table/rack{
+	dir = 8
+	},
+/obj/random/tech_supply,
+/obj/random/loot/randomcolonyitems,
+/turf/simulated/floor/warhammer/plating,
+/area/casino/casino_maintenance)
 "lF" = (
 /obj/decal/cleanable/blood/drip,
 /obj/decal/cleanable/blood/splatter,
@@ -4311,11 +4319,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "lV" = (
 /obj/structure/bed/chair/comfy/black,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "lX" = (
 /obj/machinery/door/firedoor,
@@ -4329,7 +4337,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "lY" = (
 /obj/structure/bed/chair/comfy/red{
@@ -4407,28 +4415,28 @@
 /obj/item/clothing/mask/smokable/cigarette/cigar/havana,
 /obj/item/clothing/mask/smokable/cigarette/cigar/havana,
 /obj/item/flame/lighter/zippo/random,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "mk" = (
 /obj/machinery/computer/ship/engines{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "ml" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mm" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mn" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mo" = (
 /obj/decal/cleanable/blood/splatter,
@@ -4439,7 +4447,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mp" = (
 /obj/structure/bed/chair/comfy/red{
@@ -4457,6 +4465,7 @@
 /area/casino/casino_private_vip)
 "mr" = (
 /obj/structure/table/woodentable,
+/obj/random/loot/valuableloot,
 /turf/simulated/floor/wood,
 /area/casino/casino_private_vip)
 "ms" = (
@@ -4478,6 +4487,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/random/loot/tech1,
 /turf/simulated/floor/wood,
 /area/casino/casino_private1)
 "mv" = (
@@ -4496,6 +4506,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/random/loot/tech1,
 /turf/simulated/floor/wood,
 /area/casino/casino_private2)
 "my" = (
@@ -4533,7 +4544,7 @@
 /obj/structure/sign/warning/pods{
 	pixel_y = -30
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "mF" = (
 /obj/shuttle_landmark/nav_casino/nav2,
@@ -4543,23 +4554,23 @@
 /obj/machinery/computer/modular{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mH" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mI" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mJ" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mK" = (
 /obj/structure/cable,
@@ -4577,7 +4588,7 @@
 	name = "east bump";
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mL" = (
 /obj/machinery/door/firedoor,
@@ -4589,23 +4600,23 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_mainfloor)
 "mN" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mO" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mQ" = (
 /obj/structure/cable{
@@ -4616,7 +4627,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mR" = (
 /obj/structure/cable{
@@ -4624,7 +4635,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mS" = (
 /obj/structure/cable{
@@ -4632,38 +4643,38 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mU" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mV" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mW" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mX" = (
 /obj/structure/sign/warning/pods{
 	pixel_y = -30
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mY" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/door/airlock{
 	name = "Engines #1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "mZ" = (
 /obj/wallframe_spawn/reinforced,
@@ -4671,7 +4682,7 @@
 	icon_state = "pdoor0";
 	id_tag = "Starboard wide window BD"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "na" = (
 /obj/machinery/door/airlock/external{
@@ -4680,30 +4691,30 @@
 	locked = 1;
 	name = "Escape Pod"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "nb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/door/airlock{
 	name = "Engines #2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "nc" = (
 /obj/machinery/atmospherics/unary/tank/nitrogen{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "nd" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/black,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "ne" = (
 /obj/machinery/atmospherics/unary/heater{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "ng" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
@@ -4731,7 +4742,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "nk" = (
 /obj/shuttle_landmark/nav_casino/nav4,
@@ -4752,7 +4763,7 @@
 	name = "Casino escape pod Three controller";
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "nn" = (
 /obj/structure/bed/chair,
@@ -4763,7 +4774,7 @@
 	name = "Casino escape pod Two controller";
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "no" = (
 /obj/structure/bed/chair,
@@ -4774,11 +4785,11 @@
 	name = "Casino escape pod One controller";
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "nq" = (
 /obj/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
 "nr" = (
 /turf/simulated/wall/r_titanium,
@@ -4793,7 +4804,7 @@
 /obj/structure/casino/roulette_chart,
 /obj/random/coin,
 /obj/random/coin,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "oc" = (
 /obj/machinery/light{
@@ -4809,11 +4820,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
+/area/casino/casino_mainfloor)
+"oS" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/casino/casino_mainfloor)
 "pb" = (
 /obj/item/ammo_casing/magnum/used,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "pc" = (
 /obj/machinery/vending/wallmed1{
@@ -4826,12 +4840,15 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
+/area/casino/casino_mainfloor)
+"pv" = (
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "qb" = (
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "qc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4850,18 +4867,18 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "qB" = (
 /obj/machinery/radio_beacon,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "rb" = (
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "rc" = (
 /obj/machinery/computer/arcade,
@@ -4877,14 +4894,14 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "sb" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "sc" = (
 /obj/structure/reagent_dispensers/water_cooler,
@@ -4896,11 +4913,16 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
+"sk" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 9
+	},
+/area/casino/casino_mainfloor)
 "tb" = (
 /obj/item/ammo_casing/rifle/used,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "tc" = (
 /obj/machinery/vending/snack,
@@ -4909,7 +4931,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "ub" = (
 /obj/structure/cable{
@@ -4922,7 +4944,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "uc" = (
 /obj/machinery/vending/fitness,
@@ -4931,12 +4953,16 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "uL" = (
 /obj/wallframe_spawn/reinforced/titanium,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_cutter)
+"uP" = (
+/obj/structure/table/marble,
+/turf/simulated/floor/warhammer/plate,
+/area/casino/casino_mainfloor)
 "vb" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/item/ammo_casing/rifle/used,
@@ -4944,7 +4970,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "vc" = (
 /obj/machinery/vending/cola,
@@ -4953,7 +4979,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "wb" = (
 /obj/item/ammo_casing/rifle/used,
@@ -4968,7 +4994,7 @@
 	dir = 1;
 	pixel_y = -25
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "wc" = (
 /obj/machinery/vending/coffee,
@@ -4977,7 +5003,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "xb" = (
 /obj/decal/cleanable/blood/splatter,
@@ -4994,7 +5020,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "xc" = (
 /obj/machinery/vending/cigarette,
@@ -5003,25 +5029,25 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "xu" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
 "xC" = (
 /obj/structure/bed/chair/comfy/captain{
 	dir = 1
 	},
 /obj/item/storage/bag/cash,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
 "yb" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/item/ammo_casing/magnum/used,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "yc" = (
 /obj/structure/cable{
@@ -5029,8 +5055,13 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
+"yN" = (
+/obj/machinery/door/firedoor,
+/obj/structure/table/marble,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/casino/casino_mainfloor)
 "zb" = (
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
@@ -5043,7 +5074,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bunk)
 "zc" = (
 /obj/machinery/door/firedoor,
@@ -5055,7 +5086,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_mainfloor)
 "ze" = (
 /obj/structure/cable/green{
@@ -5063,13 +5094,17 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
+"zv" = (
+/obj/item/trash/cigbutt/cigarbutt,
+/turf/simulated/floor/warhammer/darkwood,
+/area/casino/casino_mainfloor)
 "Ab" = (
-/obj/item/gun/projectile/pistol/sec/MK,
 /obj/item/ammo_casing/magnum/used,
 /obj/item/ammo_casing/magnum/used,
-/turf/simulated/floor/tiled,
+/obj/random/loot/raregunslug,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "Ac" = (
 /obj/structure/cable{
@@ -5077,7 +5112,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 "AT" = (
 /obj/shuttle_landmark/nav_casino/cutter_hangar,
@@ -5089,12 +5124,12 @@
 /obj/machinery/door/airlock{
 	name = "Cutter door"
 	},
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
 "Bb" = (
 /obj/item/material/shard,
 /obj/item/ammo_casing/magnum/used,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "Bc" = (
 /obj/machinery/door/firedoor,
@@ -5106,12 +5141,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_crew_cantina)
 "Cb" = (
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
 "Cc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5121,7 +5156,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "Db" = (
 /obj/structure/cable{
@@ -5134,7 +5169,7 @@
 /obj/item/ammo_casing/rifle/used,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "Dc" = (
 /obj/structure/cable{
@@ -5150,11 +5185,10 @@
 	pixel_x = -24
 	},
 /obj/structure/cable,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
 "Eb" = (
 /obj/decal/cleanable/blood,
-/obj/item/gun/projectile/pistol/slug,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -5169,14 +5203,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/obj/random/loot/sidearmbundle,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "Ec" = (
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "Fb" = (
 /obj/structure/bed/chair{
@@ -5197,10 +5232,15 @@
 	name = "Casino Checkpoint Blast Door contol";
 	pixel_y = -25
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "Fc" = (
 /turf/simulated/wall/r_wall,
+/area/casino/casino_mainfloor)
+"Fr" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 1
+	},
 /area/casino/casino_mainfloor)
 "FM" = (
 /obj/item/storage/backpack/dufflebag,
@@ -5212,7 +5252,7 @@
 /obj/structure/bed/chair/comfy/captain{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
 "Gb" = (
 /obj/item/ammo_casing/magnum/used,
@@ -5221,7 +5261,7 @@
 	level = 2
 	},
 /obj/structure/flora/pottedplant/unusual,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "Gc" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -5240,11 +5280,22 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_kitchen)
+"Gs" = (
+/obj/random/coin,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
+/area/casino/casino_mainfloor)
+"GB" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 5
+	},
+/area/casino/casino_mainfloor)
 "Hb" = (
 /obj/item/ammo_casing/rifle/used,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "Hc" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -5261,7 +5312,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "Ic" = (
 /obj/structure/flora/pottedplant,
@@ -5269,13 +5320,13 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "Ik" = (
 /obj/structure/bed/chair/comfy/captain{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
 "In" = (
 /obj/structure/window/reinforced{
@@ -5284,8 +5335,18 @@
 /obj/structure/bed/chair/comfy/captain{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
+"ID" = (
+/obj/structure/sign/chaos2{
+	pixel_y = -9;
+	pixel_x = -35
+	},
+/turf/simulated/floor/warhammer/darkwood,
+/area/casino/casino_mainfloor)
+"IH" = (
+/turf/simulated/floor/warhammer/darkwood,
+/area/casino/casino_mainfloor)
 "Jb" = (
 /obj/machinery/power/smes/buildable{
 	RCon_tag = "Solar - Starboard"
@@ -5295,7 +5356,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_solar_control)
 "Jc" = (
 /obj/decal/cleanable/blood/splatter,
@@ -5315,14 +5376,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "Kb" = (
 /obj/machinery/computer/modular{
 	dir = 8;
 	name = "Cameras console"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
 "Kc" = (
 /obj/item/ammo_casing/rifle{
@@ -5340,7 +5401,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
+/area/casino/casino_mainfloor)
+"KW" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/simulated/floor/warhammer/fancyfloor/carpet,
 /area/casino/casino_mainfloor)
 "Lb" = (
 /obj/structure/lattice,
@@ -5363,7 +5430,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
+/area/casino/casino_mainfloor)
+"Lr" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "Mb" = (
 /obj/machinery/shipsensors,
@@ -5388,12 +5461,12 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "Nb" = (
 /obj/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "Nc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5408,10 +5481,10 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/casino/casino_mainfloor)
 "Nx" = (
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
 "NZ" = (
 /turf/simulated/wall/r_titanium,
@@ -5426,7 +5499,7 @@
 /obj/structure/cable{
 	icon_state = "4-9"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "Oc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5441,8 +5514,20 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
+"Og" = (
+/obj/decal/cleanable/generic,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 1
+	},
+/area/casino/casino_mainfloor)
+"Oj" = (
+/obj/random/coin,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 4
+	},
+/area/casino/casino_mainfloor)
 "OB" = (
 /obj/structure/window/basic{
 	dir = 4
@@ -5450,7 +5535,7 @@
 /obj/machinery/computer/shuttle_control/explore/casino_cutter{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
 "Pb" = (
 /obj/decal/cleanable/blood/splatter,
@@ -5468,7 +5553,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "Pc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5478,14 +5563,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_crew_atmos)
 "Px" = (
 /obj/machinery/light{
 	dir = 1;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
 "Qb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5495,20 +5580,25 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "Qc" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
+"Qg" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 6
+	},
+/area/casino/casino_mainfloor)
 "Qi" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_cutter)
 "QB" = (
 /obj/structure/bed/chair{
@@ -5521,8 +5611,14 @@
 	id_tag = "casino_cutter";
 	pixel_y = 25
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
+"QD" = (
+/obj/random/loot,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
+/area/casino/casino_mainfloor)
 "Rb" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -5543,7 +5639,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "Rc" = (
 /obj/structure/cable{
@@ -5554,8 +5650,18 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_bow)
+"Rs" = (
+/obj/random/cash,
+/turf/simulated/floor/warhammer/darkwood,
+/area/casino/casino_mainfloor)
+"RG" = (
+/obj/decal/cleanable/generic,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
+/area/casino/casino_mainfloor)
 "Sb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -5573,7 +5679,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "Sc" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
@@ -5585,6 +5691,12 @@
 	},
 /turf/simulated/floor,
 /area/casino/casino_bow)
+"Sm" = (
+/obj/decal/cleanable/generic,
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 4
+	},
+/area/casino/casino_mainfloor)
 "SP" = (
 /obj/structure/cable/green{
 	d2 = 2;
@@ -5596,7 +5708,7 @@
 	pixel_y = 24;
 	req_access = newlist()
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_cutter)
 "Tc" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
@@ -5607,6 +5719,11 @@
 	},
 /turf/simulated/floor,
 /area/casino/casino_bow)
+"TN" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 8
+	},
+/area/casino/casino_mainfloor)
 "Uc" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
@@ -5621,8 +5738,17 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_crew_bathroom)
+"UC" = (
+/obj/rune/chaos/armor,
+/turf/simulated/floor/warhammer/plating,
+/area/casino/casino_storage)
+"UQ" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet{
+	dir = 10
+	},
+/area/casino/casino_mainfloor)
 "Vb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -5636,7 +5762,8 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/mob/living/simple_animal/hostile/human/heretic/berserker,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "Vc" = (
 /obj/structure/hygiene/sink{
@@ -5681,7 +5808,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/casino/casino_maintenance)
 "Wc" = (
 /obj/structure/hygiene/sink{
@@ -5710,7 +5837,11 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
+/area/casino/casino_maintenance)
+"XN" = (
+/obj/structure/sign/chaos,
+/turf/simulated/wall/r_wall,
 /area/casino/casino_maintenance)
 "Yb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -5734,8 +5865,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
+"YR" = (
+/turf/simulated/floor/warhammer/fancyfloor/carpet,
+/area/casino/casino_mainfloor)
 "Zb" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5752,7 +5886,7 @@
 	icon_state = "0-2";
 	pixel_y = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plate,
 /area/casino/casino_mainfloor)
 
 (1,1,1) = {"
@@ -9962,7 +10096,7 @@ aa
 aa
 aa
 an
-ap
+hj
 ap
 ap
 aF
@@ -10000,14 +10134,14 @@ ji
 jA
 jO
 kb
-km
+kI
 km
 kE
 kb
 lf
 jN
 kC
-mn
+jd
 mJ
 mP
 mV
@@ -10088,7 +10222,7 @@ Vb
 fD
 fD
 gi
-gC
+lE
 gi
 hd
 gC
@@ -10399,7 +10533,7 @@ rc
 fQ
 hp
 hJ
-hw
+gY
 il
 iC
 iM
@@ -10413,7 +10547,7 @@ kx
 kG
 kR
 lh
-lE
+lI
 lZ
 mq
 kC
@@ -10678,13 +10812,13 @@ aa
 aa
 aa
 aw
+XN
 aB
 aB
 aB
 aB
 aB
-aB
-aB
+XN
 bC
 ca
 cv
@@ -10716,7 +10850,7 @@ ga
 ga
 ga
 kz
-kI
+kJ
 kR
 lh
 lH
@@ -10811,7 +10945,7 @@ hw
 hV
 hw
 hw
-gt
+yN
 jp
 jE
 jR
@@ -10984,13 +11118,13 @@ aa
 aa
 aa
 aa
+XN
 aB
 aB
 aB
 aB
 aB
-aB
-aB
+XN
 bE
 ca
 cx
@@ -10998,7 +11132,7 @@ cO
 di
 dx
 dT
-ek
+UC
 ez
 eT
 bZ
@@ -11302,11 +11436,11 @@ cc
 cc
 cc
 cc
-dz
+cc
 dU
 em
 eA
-eV
+cA
 fg
 Yb
 fF
@@ -11315,19 +11449,19 @@ oc
 pc
 Ac
 hf
-ge
+IH
 hM
 hY
 hM
 hM
-ge
+IH
 ja
-ge
+IH
 jI
 jI
 ki
 jI
-ge
+IH
 kN
 kT
 ln
@@ -11413,23 +11547,23 @@ bq
 fq
 bq
 gc
-gp
-gG
-ks
+pv
+pv
+uP
 gt
 hy
-ge
-ge
-ge
-ge
-ge
-ge
-ge
-ge
-ge
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
 kj
-hB
-ge
+zv
+IH
 kJ
 kT
 lo
@@ -11519,19 +11653,19 @@ gq
 gH
 gX
 gt
-ge
-ge
+IH
+sk
 hZ
 ip
-ge
+TN
 hZ
 hZ
-ge
+TN
 hZ
 hZ
-ge
+TN
 hZ
-ge
+UQ
 kJ
 kT
 kT
@@ -11618,22 +11752,22 @@ Eb
 Gb
 bq
 gr
-gG
-gG
+pv
+pv
 gt
-ge
-hN
+IH
+Og
 ia
 iq
-ge
+oS
 iR
 ib
-ge
+oS
 ib
 jU
-ge
+oS
 kt
-ge
+YR
 Mc
 kU
 lp
@@ -11721,21 +11855,21 @@ fH
 bq
 gs
 gI
-gY
-gt
-ge
-ge
+pv
+gp
+IH
+Fr
 ib
 ir
-ge
+oS
 iR
 ib
-ge
+oS
 jJ
 ib
-ge
+oS
 ia
-ge
+YR
 kJ
 kV
 lq
@@ -11825,7 +11959,7 @@ gt
 gt
 gt
 hg
-ge
+IH
 gJ
 ic
 ic
@@ -11837,7 +11971,7 @@ ic
 ic
 ge
 ic
-ge
+Qg
 kJ
 kV
 lr
@@ -11923,23 +12057,23 @@ fh
 fv
 fI
 gd
-ge
-ge
-gJ
+IH
+IH
+Rs
 Hb
 hz
 Ec
-ge
-ge
+IH
+IH
 hN
-ge
+IH
 Ec
-ge
-ge
-ge
-ge
+IH
+IH
+IH
+IH
 Ec
-hj
+IH
 kJ
 kV
 ls
@@ -12026,19 +12160,19 @@ fw
 fJ
 bq
 gu
-gJ
+Rs
 gZ
 hi
 hA
 ga
 id
-ge
-ge
+IH
+IH
 iS
 ga
 id
-hj
-ge
+IH
+ID
 hA
 ga
 id
@@ -12128,22 +12262,22 @@ bq
 bq
 bq
 gv
-ge
-ge
-ge
-hB
+IH
+IH
+IH
+zv
 fK
-ge
-ge
-ge
+IH
+IH
+IH
 fx
 jb
-ge
-ge
-ge
-ge
+IH
+IH
+IH
+IH
 fK
-ge
+IH
 kO
 Nc
 lt
@@ -12228,25 +12362,25 @@ eY
 br
 fx
 fK
-ge
-ge
-ge
-ge
-hj
-ge
+IH
+IH
+IH
+IH
+IH
+IH
 hN
 ie
 is
-ge
-ge
+IH
+IH
 jc
-ge
-ge
+IH
+IH
 jV
 kk
-ge
-ge
-ge
+IH
+IH
+IH
 kX
 lu
 lR
@@ -12334,21 +12468,21 @@ gf
 fz
 fL
 gf
-ge
+IH
 hy
-ge
-ge
-ge
-ge
+IH
+IH
+IH
+IH
 hN
-ge
-ge
+IH
+IH
 jK
 hN
-ge
-ge
-ge
-ge
+IH
+IH
+IH
+IH
 kY
 lu
 lS
@@ -12436,21 +12570,21 @@ gf
 fz
 fL
 gf
-ge
-fx
-ge
-hN
-hN
-ge
-ge
-jd
+sk
+QD
+TN
+RG
+RG
+TN
+TN
+Gs
 hB
-ge
+TN
 hZ
-ge
-ge
+TN
+TN
 hZ
-ge
+UQ
 kZ
 lu
 lT
@@ -12538,21 +12672,21 @@ gf
 fz
 fL
 gf
-ge
+Fr
 hC
-ge
-ge
+oS
+oS
 ob
-ge
+oS
 iT
 hC
-ge
-ge
+oS
+eV
 jW
 kl
-ge
+oS
 kA
-kl
+KW
 kZ
 lu
 lu
@@ -12640,21 +12774,21 @@ gf
 fz
 fL
 gf
-ge
+Fr
 hD
-ge
+oS
 if
 hD
-ge
-ge
+oS
+oS
 hD
 iT
-ge
+oS
 jX
 kl
-ge
+oS
 kB
-kl
+KW
 la
 lv
 lU
@@ -12742,25 +12876,25 @@ gf
 fz
 fL
 gf
+GB
 ge
 ge
 ge
 ge
+Sm
 ge
-hN
-ge
-iT
-ge
-ge
-ic
+Oj
 ge
 ge
 ic
 ge
 ge
-ge
-hB
-ge
+ic
+Qg
+IH
+IH
+zv
+IH
 mE
 kC
 mH
@@ -12844,26 +12978,26 @@ gf
 fz
 fL
 gf
-ge
+IH
 hE
 Ec
-ge
+IH
 iu
-ge
-ge
+IH
+IH
 Ic
 hN
 hN
 hE
-ge
+IH
 Ec
 iu
-ge
-ge
-ge
+IH
+IH
+IH
 lV
 mj
-kl
+Lr
 kC
 kC
 kC

@@ -13,6 +13,7 @@
 	w_class = ITEM_SIZE_HUGE
 	slot_flags = SLOT_BACK
 	loaded = /obj/item/rcd_ammo/large // ~30 shots
+	removable_components = TRUE
 	combustion = 1
 	bulk = GUN_BULK_RIFLE
 
@@ -107,9 +108,8 @@
 	desc = "The Vostroyan Arms LMRA-14A Meteor. Originally a vehicle-mounted turret weapon used by the Tau in the Ultramar Conflict for anti-vehicular operations, the fact that it was made man-portable is mindboggling in itself."
 	icon = 'icons/obj/guns/railgun_heavy.dmi'
 	icon_state = "heavy_railgun"
-	removable_components = FALSE // Absolutely not. This has an infinity cell.
 
-	cell = /obj/item/cell/infinite
+	cell = /obj/item/cell/hyper
 	capacitor = /obj/item/stock_parts/capacitor/super
 
 	fire_delay =  5
@@ -163,7 +163,7 @@
 
 /obj/item/gun/magnetic/railgun/flechette/skrell
 	name = "Tau rifle"
-	desc = "The Zquiv*Tzuuli-8, or ZT-8, is a railgun rarely seen by anyone other than those within Tau SDTF ranks. The rotary magazine houses a cylinder with individual chambers, that press against the barrel when loaded."
+	desc = "The Zquiv*Tzuuli-8, or ZT-8, is a railgun rarely seen by anyone other than those within Tau Empire ranks. The rotary magazine houses a cylinder with individual chambers, that press against the barrel when loaded."
 	icon = 'icons/obj/guns/skrell_rifle.dmi'
 	icon_state = "skrell_rifle"
 	item_state = "skrell_rifle"

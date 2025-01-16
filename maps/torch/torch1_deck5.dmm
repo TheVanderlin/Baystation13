@@ -2358,6 +2358,16 @@
 /obj/paint/sfv_arbiter,
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/power)
+"fw" = (
+/obj/paint/meatstation,
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "petrov_shuttle_sensor";
+	pixel_x = -8;
+	pixel_y = -9
+	},
+/turf/simulated/wall/titanium,
+/area/shuttle/petrov/hallwaya)
 "fx" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -5167,6 +5177,17 @@
 /obj/machinery/oxygen_pump{
 	pixel_y = 32
 	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 4;
+	display_name = "Aft Dock (Petrov)";
+	frequency = 1380;
+	id_tag = "petrov_shuttle_dock_airlock";
+	pixel_x = -24;
+	tag_airpump = "petrov_shuttle_dock_pump";
+	tag_chamber_sensor = "petrov_shuttle_dock_sensor";
+	tag_exterior_door = "petrov_shuttle_dock_outer";
+	tag_interior_door = "petrov_shuttle_dock_inner"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fifthdeck/aft)
 "mw" = (
@@ -6604,11 +6625,6 @@
 	},
 /obj/floor_decal/techfloor{
 	dir = 1
-	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22;
-	pixel_y = 4
 	},
 /obj/machinery/light/small{
 	dir = 1
@@ -12894,6 +12910,17 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 8;
+	display_name = "Aft Dock (Petrov)";
+	frequency = 1380;
+	id_tag = "petrov_shuttle_airlock";
+	pixel_x = 24;
+	tag_airpump = "petrov_shuttle_dock_pump";
+	tag_chamber_sensor = "petrov_shuttle_dock_sensor";
+	tag_exterior_door = "petrov_shuttle_dock_outer";
+	tag_interior_door = "petrov_shuttle_dock_inner"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/petrov/hallwaya)
 "Jx" = (
@@ -14415,10 +14442,10 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/shuttle/petrov/isolation)
 "Pt" = (
+/obj/paint/meatstation,
 /obj/structure/sign/warning/airlock{
 	dir = 8
 	},
-/obj/paint/meatstation,
 /turf/simulated/wall/titanium,
 /area/shuttle/petrov/hallwaya)
 "Px" = (
@@ -15735,7 +15762,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/shuttle/petrov/hallwaya)
 "UU" = (
-/obj/structure/ladder/up,
 /obj/structure/railing/mapped{
 	dir = 8;
 	icon_state = "railing0-1"
@@ -40731,7 +40757,7 @@ bP
 bP
 aa
 Al
-Al
+fw
 ML
 Tr
 Al
@@ -40936,7 +40962,7 @@ Al
 Va
 Gh
 Zw
-Al
+Pt
 aa
 xh
 FX
@@ -41138,7 +41164,7 @@ Al
 Jv
 yL
 Zc
-Al
+Pt
 Jk
 xh
 Wp
@@ -41337,7 +41363,7 @@ HJ
 Uy
 NO
 Al
-Pt
+Al
 Hf
 Bf
 Al

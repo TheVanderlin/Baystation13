@@ -256,6 +256,20 @@
 	ruin_template = null
 	. = ..()
 
+/obj/random/randomchaos
+	name = "random chaos daemon"
+	desc = "Spawns a random chaos daemon."
+	icon = 'icons/map_project/fluff_items.dmi'
+	icon_state = "paper3"
+
+/obj/random/exploration/spawn_choices()
+	return list(/mob/living/simple_animal/hostile/daemon/headcrab/infestor = 1,
+				/mob/living/simple_animal/hostile/daemon/minion = 1,
+				/mob/living/simple_animal/hostile/daemon/hulk = 1,
+				/mob/living/simple_animal/hostile/daemon/large = 1)
+
+
+
 /obj/random/exploration
 	name = "random exploration loot"
 	desc = "Low grade loot that is often around 50-100 thrones worth."
@@ -503,6 +517,7 @@
 		/obj/landmark/rav/sawnshotgun = 2,
 		/obj/landmark/rav/imperialsniper = 5,
 		/obj/landmark/rav/cruciblesniper = 2,
+		/obj/item/gun/magnetic/railgun = 2,
 		/obj/landmark/rav/triangongsniper = 2,
 	)
 	var/list/picked_choice = pickweight(choices)
@@ -776,19 +791,22 @@
 	icon_state = "randomsupply"
 
 /obj/random/loot/randomcolonyitems/spawn_choices()
-	return list(/obj/item/device/eftpos = 2,
-				/obj/landmark/rav/colitems3 = 2,
-				/obj/item/device/binoculars = 2,
-				/obj/item/stack/material/steel/twenty = 4,
-				/obj/item/stack/material/glass/fifty = 3,
-				/obj/item/device/bot_kit = 1,
-				/obj/landmark/rav/colitems4 = 1,
+	return list(/obj/item/device/eftpos = 6,
+				/obj/landmark/rav/colitems3 = 4,
+				/obj/item/grenade/frag/homemade = 2,
+				/obj/item/grenade/frag/high_yield = 1,
+				/obj/item/grenade/frag/high_yield/krak = 1,
+				/obj/item/device/binoculars = 4,
+				/obj/item/stack/material/steel/twenty = 6,
+				/obj/item/stack/material/glass/fifty = 5,
+				/obj/item/device/bot_kit = 2,
+				/obj/landmark/rav/colitems4 = 3,
 				/obj/item/device/synthesized_instrument/guitar = 1,
 				/obj/item/device/synthesized_instrument/violin = 1,
 				/obj/item/device/synthesized_instrument/trumpet = 1,
 				/obj/item/clothing/accessory/armor_plate/bodyglove2 = 1,
-				/obj/landmark/rav/colitems2 = 1,
-				/obj/landmark/rav/colitems1 = 3)
+				/obj/landmark/rav/colitems2 = 3,
+				/obj/landmark/rav/colitems1 = 6)
 
 /obj/landmark/rav/colitems1/New()
 	new /obj/item/device/geiger(src.loc)
@@ -818,16 +836,18 @@
 	icon_state = "randomsupply" // Add explosives like grenades. also fix grenades.
 
 /obj/random/loot/randomsupply/engineering/spawn_choices()
-	return list(/obj/item/stack/material/steel/fifty = 3,
-				/obj/landmark/rav/engitems1 = 3,
-				/obj/landmark/rav/engitems2 = 1,
-				/obj/landmark/rav/engitems3 = 2,
-				/obj/landmark/rav/engitems4 = 2,
-				/obj/landmark/rav/engitems5 = 1,
-				/obj/landmark/rav/engitems6 = 1,
-				/obj/landmark/rav/engitems7 = 1,
-				/obj/landmark/rav/engitems8 = 1,
-				/obj/item/cell/alien = 1)
+	return list(/obj/item/stack/material/steel/fifty = 6,
+				/obj/landmark/rav/engitems1 = 6,
+				/obj/landmark/rav/engitems2 = 2,
+				/obj/landmark/rav/engitems3 = 4,
+				/obj/landmark/rav/engitems4 = 4,
+				/obj/landmark/rav/engitems5 = 2,
+				/obj/landmark/rav/engitems6 = 2,
+				/obj/landmark/rav/engitems7 = 2,
+				/obj/item/grenade/frag/high_yield/plasma = 1,
+				/obj/item/grenade/frag/high_yield/krak = 2,
+				/obj/landmark/rav/engitems8 = 2,
+				/obj/item/cell/alien = 2)
 
 /obj/landmark/rav/engitems1/New()
 	new /obj/item/stack/barbwire(src.loc)

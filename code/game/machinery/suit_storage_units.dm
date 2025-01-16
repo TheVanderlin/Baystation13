@@ -34,9 +34,10 @@
 	islocked = 0
 
 /obj/machinery/suit_storage_unit/engineering/alt
-	suit= /obj/item/clothing/suit/space/void/engineering/alt
-	helmet = /obj/item/clothing/head/helmet/space/void/engineering/alt
-	mask = /obj/item/clothing/mask/breath
+	name = "hazard suit storage"
+	suit = /obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman
+	helmet = null
+	mask = /obj/item/clothing/mask/gas/explorer
 
 /obj/machinery/suit_storage_unit/engineering/salvage
 	suit= /obj/item/clothing/suit/space/void/engineering/salvage

@@ -1251,8 +1251,11 @@
 "cs" = (
 /obj/structure/table/rack/dark,
 /obj/floor_decal/industrial/outline/grey,
-/obj/item/stock_parts/circuitboard/arcade/battle,
-/obj/item/stock_parts/circuitboard/arcade/orion_trail,
+/obj/item/grenade/frag/high_yield/krak2,
+/obj/item/grenade/frag/high_yield/krak2,
+/obj/item/grenade/frag/high_yield/plasma,
+/obj/item/grenade/frag/high_yield/plasma,
+/obj/item/grenade/frag/high_yield/plasma,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/tech)
 "ct" = (
@@ -1984,6 +1987,7 @@
 "dY" = (
 /obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/engineering_senior,
+/obj/random/loot/lasbundle,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "ea" = (
@@ -4702,12 +4706,14 @@
 	},
 /area/engineering/storage)
 "kG" = (
-/obj/machinery/tele_pad,
+/obj/gibspawner/robot,
+/obj/gibspawner/human,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/teleporter/seconddeck)
 "kH" = (
 /obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/engineering_torch,
+/obj/random/loot/sidearmbundle,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "kJ" = (
@@ -5871,7 +5877,7 @@
 	},
 /obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/portable_atmospherics/powered/pump/filled,
-/turf/simulated/floor/warhammer/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/atmos)
 "nW" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -6871,6 +6877,12 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/engineering/foyer)
+"qJ" = (
+/obj/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/secure_closet/engineering_senior,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engineering_bay)
 "qK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -7978,10 +7990,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/engine_monitoring)
 "tD" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
 /obj/structure/table/steel,
 /obj/random/maintenance/solgov,
 /obj/machinery/camera/network/engineering{
@@ -9112,7 +9120,7 @@
 	},
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/warhammer/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/atmos)
 "wY" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/black{
@@ -9266,6 +9274,13 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/engineering/prototype/engine)
+"xx" = (
+/obj/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/secure_closet/engineering_senior,
+/obj/item/gun/energy/lasgun/laspistol/lucius,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engineering_bay)
 "xy" = (
 /obj/machinery/light,
 /obj/structure/catwalk,
@@ -10029,7 +10044,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/teleporter/seconddeck)
 "Aa" = (
-/obj/structure/ladder/up,
 /obj/structure/railing/mapped{
 	dir = 4;
 	icon_state = "railing0-1"
@@ -10762,6 +10776,7 @@
 /obj/random/bomb_supply,
 /obj/random/bomb_supply,
 /obj/random/maintenance/solgov,
+/obj/random/loot/randomsupply/engineering,
 /turf/simulated/floor/warhammer/plating,
 /area/vacant/cargo)
 "BW" = (
@@ -11164,6 +11179,7 @@
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
+/obj/random/loot/rigloot,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/vacant/cargo)
 "CY" = (
@@ -11911,7 +11927,7 @@
 	dir = 4
 	},
 /obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/warhammer/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/atmos)
 "EU" = (
 /turf/simulated/wall/ocp_wall,
@@ -13006,6 +13022,7 @@
 /obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/light,
 /obj/structure/closet/secure_closet/engineering_torch,
+/obj/random/loot/gunbundle,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "Il" = (
@@ -13096,7 +13113,7 @@
 	dir = 8
 	},
 /obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/warhammer/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/atmos)
 "Iz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -13882,7 +13899,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/floor/warhammer/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/atmos)
 "Ls" = (
 /turf/simulated/floor/reinforced,
@@ -14371,10 +14388,7 @@
 	},
 /area/engineering/prototype/engine)
 "Nk" = (
-/obj/structure/sign/directions/infirmary{
-	dir = 1;
-	pixel_z = -6
-	},
+/obj/structure/sign/mechanicus,
 /turf/simulated/wall/ocp_wall,
 /area/hallway/primary/seconddeck/center)
 "Nl" = (
@@ -14795,6 +14809,7 @@
 	pixel_y = 32
 	},
 /obj/structure/closet/secure_closet/engineering_senior,
+/obj/random/loot/randomsupply/engineering,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "Ou" = (
@@ -15855,6 +15870,7 @@
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/engineering_senior,
+/obj/item/gun/energy/lasgun/laspistol/militarum,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "RX" = (
@@ -17308,6 +17324,7 @@
 /obj/machinery/firealarm{
 	pixel_y = 21
 	},
+/obj/random/loot/randomcolonyitems,
 /turf/simulated/floor/warhammer/plating,
 /area/vacant/cargo)
 "WU" = (
@@ -17745,12 +17762,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/forestarboard)
 "YA" = (
-/obj/structure/ladder,
 /obj/structure/railing/mapped{
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/obj/structure/catwalk,
 /turf/simulated/floor/warhammer/plating,
 /area/engineering/foyer)
 "YG" = (
@@ -17797,6 +17812,10 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/maintenance/seconddeck/central)
+"YT" = (
+/obj/structure/sign/mechanicus,
+/turf/simulated/wall/ocp_wall,
+/area/engineering/bluespacebay)
 "YU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -17867,6 +17886,7 @@
 /obj/item/sticky_pad/random,
 /obj/item/stamp/ce,
 /obj/item/pen,
+/obj/item/stamp/rd,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/maintenance/seconddeck/central)
 "Ze" = (
@@ -30757,16 +30777,16 @@ iu
 hC
 pA
 kD
-kD
+Nk
 mi
 Nk
 kD
 VR
 nk
 gV
-gV
+YT
 gr
-gV
+YT
 gV
 dX
 aK
@@ -37219,7 +37239,7 @@ ax
 ax
 kS
 iN
-dY
+qJ
 wK
 ly
 nz
@@ -38027,7 +38047,7 @@ Wv
 QJ
 hj
 iN
-dY
+xx
 zc
 Fc
 rw
@@ -39244,7 +39264,7 @@ FL
 kU
 fW
 iN
-iw
+nr
 sS
 qO
 iw
@@ -40055,7 +40075,7 @@ iN
 iN
 qK
 mW
-iN
+ow
 ll
 sQ
 ur

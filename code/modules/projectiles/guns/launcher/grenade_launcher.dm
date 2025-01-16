@@ -18,11 +18,16 @@
 	var/list/grenades = list()
 	var/max_grenades = 5 //holds this + one in the chamber
 	var/whitelisted_grenades = list(
-		/obj/item/grenade/frag/shell)
+		/obj/item/grenade/frag/shell,
+		/obj/item/grenade/frag,
+		/obj/item/grenade/frag/high_yield,
+		/obj/item/grenade/frag/homemade)
 
 	var/blacklisted_grenades = list(
 		/obj/item/grenade/flashbang/clusterbang,
-		/obj/item/grenade/frag)
+		/obj/item/grenade/frag/high_yield/krak,
+		/obj/item/grenade/frag/high_yield/krak2,
+		/obj/item/grenade/frag/high_yield/plasma)
 
 	matter = list(MATERIAL_STEEL = 2000)
 

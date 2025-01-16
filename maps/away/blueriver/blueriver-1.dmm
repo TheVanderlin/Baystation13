@@ -17,31 +17,29 @@
 	color = "BLUE";
 	desc = "Slightly transparent. You are not sure what it is."
 	},
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "f" = (
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "g" = (
-/obj/machinery/replicator{
-	alpha = 150;
-	anchored = 1;
-	color = "BLUE"
+/mob/living/simple_animal/hostile/daemon/minion,
+/turf/unsimulated/mineral{
+	temperature = 233
 	},
-/turf/simulated/floor/away/blueriver/alienfloor,
 /area/bluespaceriver/underground)
 "h" = (
 /obj/item/pickaxe/xeno/brush,
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "i" = (
 /obj/item/pickaxe/xeno/six_pick,
 /obj/item/device/measuring_tape,
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "j" = (
 /obj/item/device/camera,
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "k" = (
 /turf/simulated/floor/asteroid,
@@ -50,30 +48,42 @@
 /obj/item/gun/energy/plasmacutter,
 /obj/item/device/depth_scanner,
 /turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
 /area/bluespaceriver/underground)
 "m" = (
 /mob/living/simple_animal/hostile/hive_alien/defender,
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
+/turf/simulated/floor/warhammer/basalt/two,
 /area/bluespaceriver/underground)
 "n" = (
 /obj/item/roller_bed,
 /turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "o" = (
 /obj/structure/ladder/up,
 /turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "p" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/two,
 /area/bluespaceriver/underground)
 "q" = (
 /obj/item/crowbar,
 /turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt/four,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "r" = (
 /obj/structure/barricade,
 /turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt/four,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "s" = (
 /obj/item/cell/infinite{
@@ -84,15 +94,20 @@
 	icon_state = "delivery";
 	name = "alien power cell"
 	},
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "t" = (
 /obj/item/device/geiger,
 /turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt/four,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
 /area/bluespaceriver/underground)
 "u" = (
 /obj/item/pickaxe/drill,
 /turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt/four,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "v" = (
 /obj/structure/deity{
@@ -105,11 +120,12 @@
 	desc = "A strange unerganomic pistol clearly not designed for a human hand. You are surprised that it actually has a trigger.";
 	name = "strange gun"
 	},
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "w" = (
 /obj/structure/closet/excavation,
 /turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
 "x" = (
 /obj/machinery/crystal_static{
@@ -119,20 +135,93 @@
 	desc = "Slightly transparent. You are not sure what it is."
 	},
 /turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
 /area/bluespaceriver/underground)
 "y" = (
 /obj/machinery/giga_drill{
 	alpha = 129;
 	color = "BLUE"
 	},
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
 /area/bluespaceriver/underground)
 "z" = (
 /obj/machinery/artifact{
 	alpha = 123;
 	color = "BLUE"
 	},
-/turf/simulated/floor/away/blueriver/alienfloor,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
+/area/bluespaceriver/underground)
+"A" = (
+/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
+/area/bluespaceriver/underground)
+"C" = (
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/two,
+/area/bluespaceriver/underground)
+"E" = (
+/obj/random/loot/tech2,
+/turf/simulated/floor/warhammer/basalt,
+/area/bluespaceriver/underground)
+"F" = (
+/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt,
+/area/bluespaceriver/underground)
+"K" = (
+/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt/four,
+/turf/simulated/floor/warhammer/basalt,
+/area/bluespaceriver/underground)
+"M" = (
+/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
+/area/bluespaceriver/underground)
+"S" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/basalt,
+/area/bluespaceriver/underground)
+"T" = (
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
+/area/bluespaceriver/underground)
+"U" = (
+/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/two,
+/area/bluespaceriver/underground)
+"V" = (
+/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt/four,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt,
+/area/bluespaceriver/underground)
+"X" = (
+/obj/machinery/crystal_static{
+	alpha = 120;
+	anchored = 1;
+	color = "BLUE";
+	desc = "Slightly transparent. You are not sure what it is."
+	},
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
+/area/bluespaceriver/underground)
+"Y" = (
+/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt/four,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/one,
+/area/bluespaceriver/underground)
+"Z" = (
+/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt/four,
+/turf/simulated/floor/warhammer/basalt,
+/turf/simulated/floor/warhammer/basalt/two,
 /area/bluespaceriver/underground)
 
 (1,1,1) = {"
@@ -2333,9 +2422,9 @@ a
 a
 a
 a
-k
-k
-k
+A
+M
+M
 w
 a
 a
@@ -2435,10 +2524,10 @@ a
 a
 a
 a
-k
+M
 o
-k
-k
+M
+M
 a
 a
 a
@@ -2537,10 +2626,10 @@ a
 a
 a
 a
-k
-k
-k
-k
+M
+M
+M
+A
 a
 a
 a
@@ -2639,10 +2728,10 @@ a
 a
 a
 a
-k
-k
-k
-k
+U
+M
+M
+F
 a
 a
 a
@@ -2742,9 +2831,9 @@ b
 b
 b
 b
-k
-k
-k
+M
+M
+U
 a
 a
 a
@@ -2844,8 +2933,8 @@ b
 b
 b
 b
-k
-k
+A
+M
 b
 b
 b
@@ -2946,7 +3035,7 @@ b
 b
 b
 b
-p
+S
 b
 b
 b
@@ -3048,7 +3137,7 @@ b
 b
 b
 b
-p
+S
 b
 b
 b
@@ -3150,7 +3239,7 @@ c
 b
 b
 b
-p
+S
 b
 b
 b
@@ -3354,7 +3443,7 @@ b
 b
 b
 b
-p
+S
 b
 b
 b
@@ -3456,7 +3545,7 @@ b
 b
 b
 b
-p
+S
 b
 b
 b
@@ -3558,7 +3647,7 @@ b
 b
 b
 b
-p
+S
 b
 b
 b
@@ -3762,7 +3851,7 @@ b
 b
 b
 b
-p
+S
 b
 b
 b
@@ -3864,7 +3953,7 @@ b
 b
 b
 b
-p
+S
 b
 b
 b
@@ -3966,7 +4055,7 @@ b
 a
 b
 b
-p
+S
 b
 b
 b
@@ -4068,7 +4157,7 @@ a
 a
 b
 b
-p
+S
 b
 b
 b
@@ -4170,7 +4259,7 @@ a
 a
 a
 a
-k
+K
 t
 a
 a
@@ -4272,8 +4361,8 @@ a
 a
 a
 a
-k
-k
+K
+K
 a
 a
 a
@@ -4361,26 +4450,26 @@ b
 b
 b
 e
+E
 f
 f
 f
 f
 f
 f
-k
-k
-k
-k
-k
-k
-k
-k
-k
+M
+M
+U
+M
+M
+M
+V
+V
 x
-k
-k
-k
-k
+M
+M
+M
+M
 a
 a
 a
@@ -4466,23 +4555,23 @@ e
 h
 j
 f
+T
 f
 f
 f
-c
 l
-k
-k
-k
-k
+M
+M
+M
+M
 n
-k
-k
-k
-k
-k
-k
-k
+V
+V
+M
+M
+M
+U
+M
 a
 a
 a
@@ -4564,24 +4653,24 @@ a
 c
 c
 f
-g
+f
 i
 f
 f
 f
 e
+C
 f
-c
 a
 a
 a
 a
 a
 a
-k
-k
+K
+K
 a
-a
+g
 a
 a
 a
@@ -4673,17 +4762,17 @@ f
 f
 f
 f
-c
+f
 a
 a
 a
 a
 a
+a
+K
+Z
 a
 k
-k
-a
-a
 a
 a
 a
@@ -4770,8 +4859,8 @@ c
 c
 c
 f
-c
-c
+f
+T
 e
 f
 e
@@ -4782,8 +4871,8 @@ a
 a
 a
 a
-k
-k
+K
+K
 a
 a
 a
@@ -4872,8 +4961,8 @@ a
 c
 c
 c
-c
-c
+f
+f
 c
 f
 f
@@ -4884,8 +4973,8 @@ a
 a
 a
 a
-k
-k
+K
+K
 a
 a
 a
@@ -4972,22 +5061,22 @@ a
 a
 a
 a
-a
-c
-c
-c
-c
-c
+g
+f
+f
 f
 c
+c
+T
+c
 a
 a
 a
 a
 a
 a
-k
-k
+Y
+K
 a
 a
 a
@@ -5074,22 +5163,22 @@ a
 a
 a
 a
-a
-a
-c
-c
-c
-c
-c
-c
-a
-a
-a
-a
-a
-a
 k
-k
+a
+c
+c
+c
+c
+c
+c
+a
+a
+a
+a
+a
+a
+K
+K
 a
 a
 a
@@ -5190,8 +5279,8 @@ a
 a
 a
 a
-k
-k
+K
+K
 a
 a
 a
@@ -5494,13 +5583,13 @@ a
 a
 c
 c
-c
+f
 e
 f
 f
 e
-c
-c
+f
+f
 c
 a
 a
@@ -5596,13 +5685,13 @@ a
 a
 c
 c
-c
+f
 f
 f
 f
 y
 f
-c
+f
 c
 a
 a
@@ -5697,8 +5786,8 @@ a
 a
 a
 c
-e
-c
+X
+f
 f
 f
 f
@@ -5803,7 +5892,7 @@ e
 e
 f
 f
-f
+C
 f
 f
 z
@@ -5907,8 +5996,8 @@ f
 f
 f
 f
-c
-c
+f
+f
 c
 a
 a
@@ -6008,9 +6097,9 @@ m
 e
 s
 v
-c
-c
-c
+f
+f
+f
 c
 a
 a
@@ -6107,12 +6196,12 @@ a
 c
 f
 f
-c
-c
-c
-c
-c
-c
+f
+f
+f
+f
+f
+f
 c
 c
 a

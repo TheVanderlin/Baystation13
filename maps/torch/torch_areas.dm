@@ -238,7 +238,7 @@
 	icon_state = "hallA"
 
 /area/crew_quarters/safe_room/firstdeck
-	name = "\improper First Deck Safe Room"
+	name = "\improper Officer Bunkroom"
 
 /area/crew_quarters/safe_room/medical
 	name = "\improper Medical Safe Room"
@@ -282,7 +282,7 @@
 	name = "\improper Officer's Bunkroom"
 
 /area/bridge/storage
-	name = "\improper Bridge Storage"
+	name = "\improper Rogue Sanctum"
 	req_access = list(access_bridge)
 
 // Shuttles
@@ -605,7 +605,7 @@
 	holomap_color = HOLOMAP_AREACOLOR_COMMAND
 
 /area/command/conference
-	name = "Briefing Room"
+	name = "Meeting Room"
 	icon_state = "briefing_room"
 	sound_env = MEDIUM_SOFTFLOOR
 
@@ -654,21 +654,21 @@
 
 /area/crew_quarters/heads/cobed
 	icon_state = "heads_cap"
-	name = "\improper Command - CO's Quarters"
+	name = "\improper Rogue Quarters"
 	sound_env = MEDIUM_SOFTFLOOR
 	req_access = list(access_roguetrader)
 	lighting_tone = AREA_LIGHTING_WARM
 
 /area/crew_quarters/heads/office/co
 	icon_state = "heads_cap"
-	name = "\improper Command - CO's Office"
+	name = "\improper Rogue Hall"
 	sound_env = MEDIUM_SOFTFLOOR
 	req_access = list(access_roguetrader)
 	lighting_tone = AREA_LIGHTING_WARM
 
 /area/crew_quarters/heads/office/xo
 	icon_state = "heads_hop"
-	name = "\improper Command - XO's Office"
+	name = "\improper Seneschal's Office"
 	req_access = list(access_dauntless)
 	lighting_tone = AREA_LIGHTING_WARM
 
@@ -705,7 +705,7 @@
 
 /area/crew_quarters/heads/office/sgr
 	icon_state = "heads_sr"
-	name = "\improper Command - ImperiumR's Office"
+	name = "\improper Navigator's Sanctum"
 	lighting_tone = AREA_LIGHTING_WARM
 
 /area/crew_quarters/heads/office/sea
@@ -1060,45 +1060,45 @@
 // Security
 
 /area/security/bo
-	name = "\improper Security - Brig Chief"
+	name = "\improper Dauntless - Security Office"
 	icon_state = "Warden"
 	req_access = list(access_restricted_command)
 
 /area/security/storage
-	name = "\improper Security - Equipment Storage"
+	name = "\improper Dauntless - Equipment Storage"
 	icon_state = "security"
 	req_access = list(access_restricted)
 
 /area/security/secure_storage
-	name = "\improper Security - Secure Storage"
+	name = "\improper Dauntless - Secure Storage"
 	icon_state = "security"
 	req_access = list(access_restricted_command)
 
 /area/security/armoury
-	name = "\improper Security - Armory"
+	name = "\improper Dauntless - Armory"
 	icon_state = "Warden"
 	req_access = list(access_restricted_command)
 
 /area/security/detectives_office
-	name = "\improper Security - Investigations Office"
+	name = "\improper Dauntless - Mortis Investigator's Office"
 	icon_state = "detective"
 	sound_env = MEDIUM_SOFTFLOOR
 	lighting_tone = AREA_LIGHTING_COOL
 
 /area/security/locker
-	name = "\improper Security - Locker Room"
+	name = "\improper Dauntless - Enforcer Barracks"
 	icon_state = "security"
 
 /area/security/evidence
-	name = "\improper Security - Evidence Storage"
+	name = "\improper Dauntless - Evidence Storage"
 	icon_state = "security"
 
 /area/security/processing
-	name = "\improper Security - Processing"
+	name = "\improper Dauntless - Processing"
 	icon_state = "security"
 
 /area/security/questioning
-	name = "\improper Security - Interview Room"
+	name = "\improper Dauntless - Interrogation"
 	icon_state = "security"
 
 /area/security/wing
@@ -1301,13 +1301,13 @@
 	name = "\improper Bridge Starboard Access Hallway"
 
 /area/bridge/meeting_room
-	name = "\improper Command Meeting Room"
+	name = "\improper Feast Hall"
 	icon_state = "bridge_meeting"
 	ambience = list()
 	sound_env = MEDIUM_SOFTFLOOR
 
 /area/bridge/disciplinary_board_room
-	name = "\improper Disciplinary Board Room"
+	name = "\improper Administratum Office"
 	sound_env = SMALL_ENCLOSED
 
 /area/bridge/disciplinary_board_room/deliberation

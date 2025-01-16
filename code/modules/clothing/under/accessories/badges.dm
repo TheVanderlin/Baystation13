@@ -231,7 +231,7 @@
 
 
 /obj/item/clothing/accessory/badge/tags/skrell/verb/set_sdtf()
-	set name = "Set SDTF Name"
+	set name = "Set Empire Name"
 	set category = "Object"
 	set src in usr
 	if (!ishuman(usr) || usr.stat)
@@ -244,7 +244,7 @@
 	if (usr.get_active_hand() != B)
 		to_chat(usr, SPAN_WARNING("You must be holding \the [src] to modify it."))
 		return
-	var/value = input(usr, "Input your SDTF.", "SDTF Holobadge") as null | text
+	var/value = input(usr, "Input your Empire.", "Empire Holobadge") as null | text
 	if (isnull(value))
 		return
 	if (usr.stat || usr.get_active_hand() != B)

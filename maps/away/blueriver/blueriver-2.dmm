@@ -83,19 +83,19 @@
 /area/bluespaceriver/ship)
 "ao" = (
 /obj/machinery/computer/power_monitor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "ap" = (
 /obj/machinery/computer/ship/helm,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aq" = (
 /obj/machinery/computer/ship/sensors,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "ar" = (
 /obj/machinery/computer/ship/engines,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "as" = (
 /obj/machinery/light,
@@ -116,28 +116,28 @@
 /obj/item/paper{
 	info = "We've landed, and aside from the permafrost, there's not a lot to mention on this rock. The readings are strongest in the middle of an open field near the ship, but there's nothing there, meaning we really only have one choice. Digging down. One of the others thinks theres a good chance that it's underground, so we might as well see if they're onto something. We don't have any other decent plans, and we need this find. Fortunate we brought the larger scale excavation equipment."
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "au" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "av" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aw" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "ax" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "ay" = (
 /turf/simulated/wall/titanium,
@@ -152,7 +152,7 @@
 /area/bluespaceriver/ship)
 "aB" = (
 /obj/machinery/door/airlock/command,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aC" = (
 /obj/machinery/vending/boozeomat{
@@ -162,28 +162,28 @@
 /area/bluespaceriver/ship)
 "aD" = (
 /obj/machinery/computer/rdconsole,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aE" = (
 /obj/machinery/r_n_d/server,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aF" = (
 /obj/structure/handrail,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aG" = (
 /obj/machinery/door/airlock/science,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/handrail,
 /obj/item/stool/padded,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aI" = (
 /obj/machinery/vending/wallmed1{
@@ -199,32 +199,32 @@
 /obj/item/paper{
 	info = "Well, it didn't take the three days I was betting on, so i'm out twenty bucks, but we managed to punch through into a cave of some sort with the drilling equipment. We're lowering a ladder down now and sending one of the guards down to check that there's no spiders in there or anything. Once they report back, we'll Move the whole basecamp down there, and- SO, We've moved down into the cave now, and what we've found is astounding! It looks a LOT like a lake or river of blue goo, but... not? I took some scans, but couldn't pick anything up aside from radiation spikes from the pool. I also lowered a swab into the fluid to take a sample, but when I touched the swab to the surface of the... Fluid? the Swab just... Ceased And yes, that's the best way to describe it. it just stopped existing in my hand. We figure it's best we DON'T touch the blue stuff for now. one of our help has started moving supplies down into the cave to build a bridge of sorts though across the pool. We spotted some sort of structure on the far side, and the bridge is the only way to get to it, so now we wait."
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/item/stool/padded,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aK" = (
-/obj/random/maintenance/clean,
-/turf/simulated/floor/tiled,
+/obj/structure/bookcase/manuals/research_and_development,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "aL" = (
 /obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_coffee,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aM" = (
 /obj/machinery/r_n_d/protolathe,
 /obj/item/paper{
 	info = "Well, it only took three weeks... this trip... but we finally found something worth investigating! An energy signature, just on or under the planet's surface. It's bizarre, similar to a bluespace signature, but... not. I'll need to get down there to really get a reading on it, but this could be the kind of discovery that makes a career. We've identified a landing site, so our pilot is setting the ship down there in the next couple of hours. it'll take some more time after that to set up a base camp and such."
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aN" = (
 /obj/structure/bed/chair/office/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aO" = (
 /obj/machinery/smartfridge/chemistry,
@@ -233,34 +233,34 @@
 "aP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/item/stool/padded,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aQ" = (
 /obj/structure/table/woodentable,
 /obj/item/storage/lunchbox/nt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aR" = (
 /obj/structure/table/steel,
 /obj/item/storage/box/glasses/mug,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aS" = (
 /obj/structure/table/steel,
 /obj/machinery/microwave,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aT" = (
 /obj/machinery/r_n_d/destructive_analyzer,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aU" = (
 /obj/machinery/chemical_dispenser,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aV" = (
 /obj/machinery/chem_master,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -269,15 +269,15 @@
 	pixel_x = -25;
 	rcon_setting = 3
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "aY" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "aZ" = (
 /obj/structure/table/steel,
@@ -287,7 +287,8 @@
 	icon_state = "tube1"
 	},
 /obj/random/maintenance/clean,
-/turf/simulated/floor/tiled,
+/obj/random/loot/valuableloot,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "ba" = (
 /obj/wallframe_spawn/reinforced,
@@ -299,14 +300,14 @@
 /obj/item/paper{
 	info = "I don't understand where they could have gone, but one of the researchers and a guard disappeared last night. We've started looking for them, figuring maybe they got trapped somewhere in the ruins, maybe a booby trap or something that was still functioning, but we haven't seen any sign of them. Their equipment, both of their equipment, is still in the ship, and there's no signs of anything grabbing them in the night, they're just... Gone.  Tomorrow morning we head back into space to go resupply and submit what we've found so far, but when we come back we'll have more than enough manpower to really dig into this place."
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bc" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
 /obj/item/reagent_containers/spray,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bd" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -316,7 +317,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "be" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -330,7 +331,7 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -346,7 +347,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -356,14 +357,14 @@
 	dir = 1
 	},
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bj" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -372,7 +373,7 @@
 	},
 /obj/machinery/light,
 /obj/structure/filingcabinet,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -381,14 +382,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bl" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -403,7 +404,7 @@
 	dir = 8;
 	level = 2
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bo" = (
 /obj/machinery/light{
@@ -416,16 +417,16 @@
 /area/bluespaceriver/ship)
 "bp" = (
 /obj/machinery/fabricator,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bq" = (
 /obj/structure/bed/chair/office/light,
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "br" = (
 /obj/machinery/artifact_analyser,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bs" = (
 /obj/structure/hygiene/toilet{
@@ -442,22 +443,22 @@
 /area/bluespaceriver/ship)
 "bt" = (
 /obj/machinery/door/airlock,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bv" = (
 /obj/structure/curtain/open/bed,
 /obj/structure/bed/padded,
 /obj/item/bedsheet/brown,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bw" = (
 /obj/structure/curtain/open/bed,
 /obj/structure/bed/padded,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bx" = (
 /obj/structure/closet/hydrant,
@@ -468,13 +469,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bz" = (
 /obj/structure/bed/chair/comfy/red{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bA" = (
 /obj/structure/table/glass,
@@ -483,13 +484,13 @@
 	code = "63214"
 	},
 /obj/item/form_printer,
-/obj/item/gun/energy/lasgun/laspistol/grim,
 /obj/item/rig/hazmat/equipped,
 /obj/random/cash,
 /obj/item/paper{
 	info = "We've finished the bridge and began our initial investigation into the site. Thus far, we're finding a lot of structures clearly made by a sapient species, one that from all indications was relatively advanced, but no signs of what actually happened to them. There's clear signs of habitation, but no signs of what caused abandonment. We're setting up camp in the ruins tonight so that we can continue studying as long as possible before our scheduled departure for refueling, but I feel confident we'll have enough to secure funds for the forseeable future at least!"
 	},
-/turf/simulated/floor/tiled,
+/obj/random/loot/raresidearmbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bB" = (
 /obj/machinery/light{
@@ -513,7 +514,7 @@
 "bE" = (
 /obj/machinery/door/airlock,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -522,14 +523,14 @@
 	icon_state = "tube1"
 	},
 /obj/random/toolbox,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bG" = (
 /turf/simulated/floor/reinforced,
 /area/bluespaceriver/ship)
 "bH" = (
 /obj/structure/bookcase/manuals/research_and_development,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/bloodbar/off,
 /area/bluespaceriver/ship)
 "bI" = (
 /obj/structure/bed/padded,
@@ -537,25 +538,25 @@
 /obj/item/storage/secure/safe{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bJ" = (
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bL" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
 /obj/structure/handrail,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bM" = (
 /obj/structure/bed/padded,
@@ -563,7 +564,7 @@
 /obj/item/storage/secure/safe{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -575,13 +576,13 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bO" = (
 /obj/machinery/atmospherics/unary/tank/air{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bP" = (
 /obj/structure/fuel_port,
@@ -595,7 +596,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bS" = (
 /obj/machinery/vending/wallmed1{
@@ -609,7 +610,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/item/mop,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -619,7 +620,7 @@
 /obj/machinery/power/smes/buildable{
 	RCon_tag = "Solar - Port"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "bU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -648,7 +649,7 @@
 /obj/item/storage/secure/safe{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bY" = (
 /obj/structure/bed/padded,
@@ -656,67 +657,65 @@
 /obj/item/storage/secure/safe{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "bZ" = (
 /obj/structure/table/woodentable,
 /obj/random/energy,
 /obj/item/storage/pill_bottle/happy,
 /obj/random/contraband,
-/turf/simulated/floor/tiled,
+/obj/random/loot/valuableloot,
+/turf/simulated/floor/warhammer/darkwood,
 /area/bluespaceriver/ship)
 "ca" = (
 /obj/machinery/door/blast/shutters,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cb" = (
 /obj/machinery/door/blast/shutters,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cc" = (
 /obj/structure/closet/excavation,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cd" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/structure/closet/wardrobe/science_white,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "ce" = (
 /obj/structure/closet/radiation,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark,
-/area/bluespaceriver/ship)
-"ch" = (
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "ci" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/random/maintenance/clean,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/shieldwallgen,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "ck" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/shieldwallgen,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cl" = (
 /obj/structure/sign/warning/vacuum,
@@ -724,11 +723,11 @@
 /area/bluespaceriver/ship)
 "cm" = (
 /obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cn" = (
 /obj/structure/closet/secure_closet/scientist,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "co" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -736,14 +735,14 @@
 	level = 2
 	},
 /obj/machinery/floodlight,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cp" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
 /obj/machinery/suspension_gen,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cq" = (
 /obj/structure/dispenser/oxygen,
@@ -751,25 +750,25 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cr" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cs" = (
 /obj/random/maintenance/clean,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "ct" = (
 /obj/structure/ore_box,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cu" = (
 /obj/machinery/door/blast/regular,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "cv" = (
 /obj/machinery/mining/brace,
@@ -834,7 +833,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 "Co" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
@@ -842,7 +841,7 @@
 /area/bluespaceriver/ship)
 "Lk" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/bluespaceriver/ship)
 
 (1,1,1) = {"
@@ -2829,14 +2828,14 @@ aU
 bf
 ay
 ay
-bH
+aK
 ay
-bH
+aK
 ay
 cc
-ch
+au
 cm
-ch
+au
 cm
 ac
 ac
@@ -2936,7 +2935,7 @@ ay
 bX
 ay
 cd
-ch
+au
 ay
 cl
 ay
@@ -3038,7 +3037,7 @@ ay
 bJ
 ay
 ce
-ch
+au
 cn
 cr
 cu
@@ -3133,7 +3132,7 @@ aH
 aP
 aW
 bg
-bu
+cf
 bE
 bK
 bR
@@ -3142,7 +3141,7 @@ ca
 cf
 cj
 co
-ch
+au
 cu
 ac
 ac
@@ -3335,7 +3334,7 @@ ax
 aA
 aJ
 aJ
-aX
+cg
 bi
 bv
 ay
@@ -3343,7 +3342,7 @@ bJ
 ay
 bJ
 ay
-ch
+au
 cl
 ay
 ay
@@ -3447,8 +3446,8 @@ bY
 ay
 ci
 cm
-ch
-ch
+au
+au
 cm
 ac
 ac
@@ -3537,7 +3536,7 @@ ac
 an
 an
 aC
-aK
+cs
 au
 au
 bk
@@ -3547,7 +3546,7 @@ bH
 ay
 bZ
 ay
-ch
+au
 cm
 cq
 ct
