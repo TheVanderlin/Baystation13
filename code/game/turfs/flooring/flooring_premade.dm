@@ -799,13 +799,13 @@
 	name = "grey ceramic flooring"
 	icon = 'icons/turf/flooring/plating.dmi'
 	icon_state = "surgery"
-	initial_flooring = /singleton/flooring/warhammer/ceramic/surgery
+	initial_flooring = /singleton/flooring/warhammer/surgerynew
 
 /turf/simulated/floor/warhammer/ceramic/surgery2
 	name = "grey ceramic flooring"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "surgery2"
-	initial_flooring = /singleton/flooring/warhammer/ceramic/surgery2
+	initial_flooring = /singleton/flooring/warhammer/surgerynew
 
 /turf/simulated/floor/warhammer/ceramic/old
 	name = "ceramic flooring"

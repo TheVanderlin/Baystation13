@@ -49,15 +49,11 @@
 "ak" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/surgery,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "al" = (
 /obj/machinery/optable,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "am" = (
 /obj/structure/closet/medical_wall{
@@ -74,9 +70,7 @@
 /obj/item/reagent_containers/glass/bottle/stoxin,
 /obj/item/reagent_containers/glass/bottle/stoxin,
 /obj/item/reagent_containers/syringe,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "an" = (
 /obj/structure/table/glass,
@@ -90,42 +84,30 @@
 /obj/structure/window/reinforced/crescent{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ao" = (
 /obj/machinery/atmospherics/unary/cryo_cell,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ap" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/oxygen/prechilled,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aq" = (
 /obj/item/reagent_containers/glass/beaker/cryoxadone,
 /obj/structure/table/glass,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ar" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/spray/sterilizine,
 /obj/item/reagent_containers/spray/cleaner,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "as" = (
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "at" = (
 /obj/structure/table/glass,
@@ -139,18 +121,14 @@
 /obj/structure/window/reinforced/crescent{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "au" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
 	},
 /obj/floor_decal/corner/blue,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "av" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -159,16 +137,12 @@
 /obj/floor_decal/corner/blue{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aw" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/beakers,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ax" = (
 /obj/machinery/computer/teleporter,
@@ -196,9 +170,7 @@
 /obj/floor_decal/corner/black/border{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aB" = (
 /obj/structure/table/glass,
@@ -208,9 +180,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aC" = (
 /obj/structure/table/glass,
@@ -225,9 +195,7 @@
 /obj/structure/window/reinforced/crescent{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aD" = (
 /obj/item/reagent_containers/glass/beaker/large,
@@ -235,17 +203,13 @@
 	dir = 4
 	},
 /obj/machinery/chemical_dispenser/full,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aE" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aF" = (
 /obj/floor_decal/industrial/warning{
@@ -255,9 +219,7 @@
 	dir = 8;
 	pixel_x = 22
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aG" = (
 /obj/machinery/cryopod{
@@ -284,9 +246,7 @@
 "aI" = (
 /obj/structure/iv_stand,
 /obj/structure/window/reinforced/crescent,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aJ" = (
 /obj/structure/table/glass,
@@ -296,17 +256,13 @@
 	dir = 4
 	},
 /obj/structure/window/reinforced/crescent,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aK" = (
 /obj/floor_decal/corner/blue{
 	dir = 6
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aL" = (
 /obj/machinery/door/blast/regular/open{
@@ -321,25 +277,19 @@
 "aM" = (
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/machinery/chem_master,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aN" = (
 /obj/floor_decal/corner/black/border{
 	dir = 7
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aO" = (
 /obj/floor_decal/corner/blue{
 	dir = 9
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aQ" = (
 /obj/structure/table/glass,
@@ -348,15 +298,13 @@
 	},
 /obj/item/paper_bin,
 /obj/item/pen,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aR" = (
 /obj/machinery/bodyscanner{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aS" = (
 /obj/machinery/body_scanconsole{
@@ -365,9 +313,7 @@
 /obj/floor_decal/corner/blue{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aT" = (
 /obj/floor_decal/corner/blue{
@@ -379,33 +325,25 @@
 /obj/floor_decal/corner/blue{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aU" = (
 /obj/floor_decal/industrial/outline/blue,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aV" = (
 /obj/floor_decal/corner/black/border{
 	dir = 10
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aW" = (
 /obj/structure/table/rack,
 /obj/item/tank/oxygen,
 /obj/item/tank/oxygen,
 /obj/item/tank/oxygen,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "aX" = (
 /obj/machinery/door/blast/regular/open{
@@ -414,42 +352,28 @@
 	},
 /turf/unsimulated/wall,
 /area/map_template/ninja_dojo/dojo)
-"aY" = (
-/turf/unsimulated/floor{
-	dir = 9;
-	icon_state = "vault"
-	},
-/area/map_template/ninja_dojo/dojo)
 "aZ" = (
 /obj/structure/table/rack,
 /obj/item/storage/belt/medical/emt,
 /obj/item/storage/firstaid/adv,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ba" = (
 /obj/floor_decal/corner/black/border{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bb" = (
 /obj/floor_decal/industrial/outline/blue,
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bc" = (
 /obj/floor_decal/corner/black/border{
 	dir = 6
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bd" = (
 /turf/simulated/wall/prepainted,
@@ -480,18 +404,14 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bi" = (
 /obj/machinery/light,
 /obj/floor_decal/corner/black/bordercorner{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bj" = (
 /obj/structure/bed/chair/office/dark,
@@ -499,7 +419,7 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bl" = (
 /obj/floor_decal/industrial/warning{
@@ -516,9 +436,7 @@
 /obj/item/tank/nitrogen,
 /obj/item/tank/nitrogen,
 /obj/item/tank/nitrogen,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bn" = (
 /turf/unsimulated/floor{
@@ -548,7 +466,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "br" = (
 /obj/floor_decal/corner/black/border{
@@ -557,9 +475,7 @@
 /obj/floor_decal/corner/black/border{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bs" = (
 /obj/machinery/light{
@@ -571,9 +487,7 @@
 /obj/floor_decal/corner/black/border{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bt" = (
 /obj/structure/pit/closed/grave,
@@ -588,23 +502,11 @@
 /obj/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bv" = (
 /obj/floor_decal/corner/blue,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
-/area/map_template/ninja_dojo/dojo)
-"bw" = (
-/obj/floor_decal/corner/black/border{
-	dir = 7
-	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bx" = (
 /obj/machinery/recharger/wallcharger{
@@ -612,9 +514,7 @@
 	pixel_x = -23;
 	pixel_y = -3
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "by" = (
 /obj/landmark{
@@ -637,17 +537,13 @@
 	dir = 6;
 	icon_state = "warning"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bA" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bB" = (
 /obj/floor_decal/corner/black/bordercorner{
@@ -656,9 +552,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bC" = (
 /obj/machinery/door/airlock/centcom{
@@ -675,9 +569,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bE" = (
 /obj/floor_decal/corner/black/border{
@@ -688,17 +580,13 @@
 	name = "emergency alarm";
 	on = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bF" = (
 /obj/floor_decal/corner/black/border{
 	dir = 9
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bG" = (
 /obj/floor_decal/corner/black/bordercorner{
@@ -707,9 +595,7 @@
 /obj/floor_decal/corner/black/bordercorner{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bH" = (
 /obj/floor_decal/industrial/warning{
@@ -732,17 +618,13 @@
 	id_tag = "prototype_chamber_blast"
 	},
 /obj/floor_decal/floordetail/tiled,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bJ" = (
 /obj/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bK" = (
 /obj/floor_decal/corner/black/bordercorner{
@@ -751,9 +633,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bL" = (
 /obj/floor_decal/industrial/warning{
@@ -774,9 +654,7 @@
 	name = "emergency alarm";
 	on = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bN" = (
 /obj/machinery/cryopod{
@@ -793,32 +671,22 @@
 	name = "plating"
 	},
 /area/map_template/ninja_dojo/dojo)
-"bO" = (
-/obj/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/map_template/ninja_dojo/dojo)
 "bP" = (
 /obj/floor_decal/corner/black/border{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bQ" = (
 /obj/floor_decal/corner/black/border{
 	dir = 5
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bR" = (
 /obj/structure/table/rack,
 /obj/item/storage/box/contraband/chameleon,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bS" = (
 /obj/floor_decal/asteroid,
@@ -833,9 +701,7 @@
 	dir = 4;
 	icon_state = "warningcorner"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bU" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -854,9 +720,7 @@
 	dir = 4;
 	icon_state = "warningcorner"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bW" = (
 /obj/machinery/light{
@@ -866,28 +730,24 @@
 	dir = 2;
 	icon_state = "warningcorner"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bX" = (
 /obj/floor_decal/industrial/warning{
 	icon_state = "warning"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "bZ" = (
 /obj/wallframe_spawn/reinforced,
-/turf/space,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ca" = (
 /obj/structure/table/glass,
 /obj/floor_decal/corner/black/border{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cb" = (
 /obj/machinery/computer/modular/preset/medical,
@@ -895,25 +755,20 @@
 /obj/floor_decal/corner/black/border{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ce" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Equipment"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cf" = (
 /obj/floor_decal/corner/black/bordercorner{
 	dir = 7
 	},
 /obj/machinery/light,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
-/area/map_template/ninja_dojo/dojo)
-"cg" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ch" = (
 /obj/structure/bed/chair/office/dark{
@@ -923,7 +778,7 @@
 	dir = 8;
 	pixel_x = 22
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ci" = (
 /obj/floor_decal/corner/black/border{
@@ -938,9 +793,7 @@
 /obj/item/stack/material/steel/fifty,
 /obj/item/stack/material/titanium/fifty,
 /obj/item/stack/material/glass/fifty,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cj" = (
 /obj/machinery/rotating_alarm/supermatter{
@@ -948,9 +801,7 @@
 	name = "emergency alarm";
 	on = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ck" = (
 /obj/paint/black,
@@ -961,18 +812,14 @@
 	dir = 9
 	},
 /obj/machinery/fabricator/hacked,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cm" = (
 /obj/floor_decal/corner/black/border{
 	dir = 10
 	},
 /obj/machinery/fabricator/hacked,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cn" = (
 /obj/floor_decal/industrial/warning{
@@ -993,20 +840,13 @@
 	dir = 5;
 	icon_state = "warning"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
-/area/map_template/ninja_dojo/dojo)
-"cp" = (
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cq" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cr" = (
 /obj/machinery/rotating_alarm/supermatter{
@@ -1014,9 +854,7 @@
 	name = "emergency alarm";
 	on = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cs" = (
 /obj/structure/table/rack,
@@ -1024,9 +862,7 @@
 	pixel_x = 9;
 	pixel_y = 9
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cu" = (
 /obj/floor_decal/industrial/warning{
@@ -1045,27 +881,21 @@
 	dir = 1;
 	icon_state = "warning"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cw" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4;
 	icon_state = "warning"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cy" = (
 /obj/structure/table/rack,
 /obj/item/storage/belt/utility/full,
 /obj/item/device/multitool,
 /obj/item/tape_roll,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cz" = (
 /obj/floor_decal/snow,
@@ -1081,9 +911,7 @@
 /obj/structure/table/rack,
 /obj/item/storage/box/flashbangs,
 /obj/item/storage/box/smokes,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cB" = (
 /obj/machinery/light,
@@ -1110,9 +938,7 @@
 /obj/floor_decal/corner/black/bordercorner{
 	dir = 3
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "cE" = (
 /obj/machinery/door/blast/regular/open{
@@ -1120,12 +946,6 @@
 	name = "Operative Cryo Chamber"
 	},
 /turf/unsimulated/wall,
-/area/map_template/ninja_dojo/dojo)
-"cF" = (
-/obj/wallframe_spawn/reinforced,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
 /area/map_template/ninja_dojo/dojo)
 "cG" = (
 /obj/floor_decal/industrial/warning{
@@ -1136,9 +956,7 @@
 	dir = 1
 	},
 /obj/structure/table/rack,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cH" = (
 /obj/machinery/computer/teleporter,
@@ -1164,9 +982,7 @@
 	dir = 8;
 	icon_state = "warning"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cL" = (
 /obj/structure/bed/chair{
@@ -1177,40 +993,30 @@
 	icon_state = "tube1"
 	},
 /obj/floor_decal/industrial/outline/grey,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cM" = (
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cN" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 4;
 	icon_state = "warningcorner"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cO" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cP" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cQ" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
@@ -1224,9 +1030,7 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cR" = (
 /obj/machinery/door/airlock/external{
@@ -1241,24 +1045,18 @@
 	name = "Blast Door";
 	opacity = 0
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cS" = (
 /obj/machinery/sleeper{
 	dir = 4
 	},
 /obj/floor_decal/industrial/outline/grey,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cT" = (
 /obj/shuttle_landmark/ninja/start,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -1273,9 +1071,7 @@
 	pixel_y = 25;
 	req_access = list("ACCESS_SYNDICATE")
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -1286,9 +1082,7 @@
 	id_tag = "ninja_shuttle_inner";
 	name = "Ship External Access"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cW" = (
 /obj/machinery/airlock_sensor{
@@ -1306,9 +1100,7 @@
 	name = "remote shutter control";
 	pixel_x = 25
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cX" = (
 /obj/structure/closet,
@@ -1317,16 +1109,12 @@
 	icon_state = "tube1"
 	},
 /obj/floor_decal/industrial/outline/grey,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cY" = (
 /obj/structure/table/rack,
 /obj/floor_decal/industrial/outline/grey,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "cZ" = (
 /obj/structure/table/steel_reinforced,
@@ -1342,15 +1130,11 @@
 /obj/item/screwdriver,
 /obj/floor_decal/industrial/outline/grey,
 /obj/item/toy/figure/ninja,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "da" = (
 /obj/structure/bed/chair/shuttle,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "db" = (
 /obj/machinery/button/blast_door{
@@ -1364,9 +1148,7 @@
 	pixel_x = -24;
 	pixel_y = -25
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "dc" = (
 /obj/structure/table/steel_reinforced,
@@ -1377,27 +1159,21 @@
 	icon_state = "tube1"
 	},
 /obj/floor_decal/industrial/outline/grey,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "dd" = (
 /obj/floor_decal/industrial/outline/grey,
 /obj/machinery/computer/station_alert/all{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "de" = (
 /obj/floor_decal/industrial/outline/grey,
 /obj/machinery/computer/shuttle_control/multi/ninja{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "df" = (
 /obj/floor_decal/industrial/outline/grey,
@@ -1405,9 +1181,7 @@
 	dir = 1;
 	icon_state = "console"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/start)
 "dg" = (
 /obj/machinery/door/blast/regular{
@@ -1424,9 +1198,7 @@
 /obj/structure/table/rack,
 /obj/item/clothing/mask/gas/swat/vox,
 /obj/item/clothing/mask/gas/swat/vox,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "qc" = (
 /obj/floor_decal/corner/blue{
@@ -1436,9 +1208,7 @@
 	dir = 5
 	},
 /obj/floor_decal/corner/blue,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "ss" = (
 /turf/unsimulated/wall,
@@ -1448,18 +1218,14 @@
 	dir = 8
 	},
 /obj/floor_decal/corner/blue,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "vP" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 1;
 	icon_state = "warningcorner"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "vQ" = (
 /obj/machinery/light{
@@ -1469,9 +1235,7 @@
 	dir = 1;
 	icon_state = "warningcorner"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "wG" = (
 /obj/floor_decal/corner/black/border{
@@ -1486,9 +1250,7 @@
 /obj/item/stack/material/steel/fifty,
 /obj/item/stack/material/titanium/fifty,
 /obj/item/stack/material/plastic/fifty,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "wX" = (
 /obj/structure/table/glass,
@@ -1496,7 +1258,7 @@
 	dir = 1
 	},
 /obj/item/newspaper,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "zr" = (
 /obj/floor_decal/snow,
@@ -1507,31 +1269,38 @@
 	dir = 8
 	},
 /obj/machinery/light,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "Cj" = (
 /obj/structure/table/rack,
-/obj/random/biggun,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/obj/random/loot/swordmelee,
+/obj/random/loot/raresidearmbundle,
+/obj/random/loot/raresidearmbundle,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/map_template/ninja_dojo/dojo)
+"Fw" = (
+/obj/structure/table/rack,
+/obj/random/loot/swordmelee,
+/obj/random/loot/randomsupply/engineering,
+/obj/random/loot/randomsupply/tech,
+/obj/random/loot/raregunslug,
+/obj/random/loot/raregunslug,
+/obj/random/loot/lootcontraband,
+/obj/random/loot/lootartifacts,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "Hl" = (
 /obj/structure/table/glass,
 /obj/floor_decal/corner/black/border{
 	dir = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "JH" = (
 /obj/structure/table/rack,
 /obj/item/clothing/mask/gas/swat,
 /obj/item/clothing/mask/gas/swat,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "JM" = (
 /obj/machinery/door/blast/regular/open{
@@ -1539,48 +1308,36 @@
 	id_tag = "prototype_chamber_blast"
 	},
 /obj/floor_decal/floordetail/tiled,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "KK" = (
 /obj/floor_decal/corner/black/bordercorner{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "LW" = (
 /obj/structure/table/rack,
 /obj/item/storage/box/handcuffs,
 /obj/item/storage/box/handcuffs,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "MC" = (
 /obj/floor_decal/corner/blue{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "Oo" = (
 /obj/machinery/light,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "OL" = (
 /obj/floor_decal/corner/black/border{
 	dir = 7
 	},
 /obj/machinery/light,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "PF" = (
 /obj/machinery/computer/modular/preset/civilian{
@@ -1590,7 +1347,7 @@
 /obj/floor_decal/corner/black/border{
 	dir = 9
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "RX" = (
 /obj/floor_decal/corner/black/border{
@@ -1599,17 +1356,13 @@
 /obj/floor_decal/corner/blue{
 	dir = 5
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "TP" = (
 /obj/floor_decal/corner/blue{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 "UV" = (
 /obj/structure/table/rack,
@@ -1627,9 +1380,7 @@
 	},
 /obj/item/clothing/accessory/storage/holster/thigh,
 /obj/item/clothing/accessory/storage/holster/thigh,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/ninja_dojo/dojo)
 
 (1,1,1) = {"
@@ -2032,17 +1783,17 @@ TP
 aO
 aO
 qc
-bw
+aN
 aL
 bF
-cp
-cp
+as
+as
 aV
 ba
 bG
 ba
 bF
-cp
+as
 cu
 be
 bn
@@ -2078,12 +1829,12 @@ uZ
 RX
 aL
 bQ
-cp
-cp
+as
+as
 bc
-cp
-cp
-cp
+as
+as
+as
 bQ
 bn
 bf
@@ -2297,7 +2048,7 @@ ad
 ad
 ad
 bd
-cp
+as
 bd
 ad
 ad
@@ -2340,7 +2091,7 @@ ad
 ad
 ad
 bd
-cp
+as
 bd
 ad
 ad
@@ -2507,7 +2258,7 @@ ad
 ad
 ad
 bd
-Cj
+Fw
 bP
 aW
 bd
@@ -2555,7 +2306,7 @@ bP
 bb
 bd
 bD
-cp
+as
 OL
 bd
 aU
@@ -2598,7 +2349,7 @@ br
 bX
 JM
 cv
-cp
+as
 bX
 JM
 cv
@@ -2639,11 +2390,11 @@ aj
 cA
 bP
 bA
-cF
+bZ
 bP
-cp
+as
 aN
-cF
+bZ
 vP
 aN
 cA
@@ -2681,13 +2432,13 @@ ad
 bd
 UV
 bP
-cp
-cF
+as
+bZ
 bP
-cp
+as
 aN
-cF
-cp
+bZ
+as
 aN
 UV
 bd
@@ -2725,11 +2476,11 @@ bd
 ci
 aZ
 cy
-cF
+bZ
 bP
-cp
+as
 aN
-cF
+bZ
 cy
 aZ
 wG
@@ -2770,7 +2521,7 @@ bd
 bd
 bd
 bD
-cp
+as
 OL
 bd
 bd
@@ -2855,9 +2606,9 @@ ad
 ad
 ad
 bd
-aY
-aY
-aY
+as
+as
+as
 bd
 ad
 ad
@@ -2941,9 +2692,9 @@ ad
 bd
 bd
 cr
-cp
-cp
-cp
+as
+as
+as
 cr
 bd
 bd
@@ -2983,15 +2734,15 @@ bd
 bd
 bd
 bV
-cp
+as
 bF
 ba
 aV
-cp
+as
 bW
 bd
 cq
-cg
+as
 bd
 ad
 ad
@@ -3026,15 +2777,15 @@ bj
 PF
 bZ
 cv
-cp
-bO
+as
+bd
 bl
-bO
-cp
+bd
+as
 bX
 bZ
 ca
-cg
+as
 bd
 ad
 ad
@@ -3065,7 +2816,7 @@ ad
 ad
 ad
 bd
-cg
+as
 wX
 bZ
 cv
@@ -3077,7 +2828,7 @@ cC
 bX
 bZ
 aQ
-cg
+as
 bd
 ad
 ad
@@ -3108,15 +2859,15 @@ ad
 ad
 ad
 bd
-cg
+as
 Hl
 bZ
 cv
-cp
-bO
+as
+bd
 bL
-bO
-cp
+bd
+as
 bX
 bZ
 cb
@@ -3151,15 +2902,15 @@ ad
 ad
 ad
 bd
-cg
+as
 bq
 bd
 vQ
-cp
+as
 bQ
 aA
 bc
-cp
+as
 bu
 bd
 bd
@@ -3199,9 +2950,9 @@ bd
 bd
 bd
 cj
-aY
-aY
-aY
+as
+as
+as
 cj
 bd
 bd
@@ -3286,7 +3037,7 @@ ac
 ac
 bd
 bh
-cp
+as
 Oo
 bd
 ad
@@ -3329,7 +3080,7 @@ ad
 ad
 bd
 bz
-cp
+as
 co
 bd
 ac

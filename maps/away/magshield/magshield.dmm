@@ -20,7 +20,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "af" = (
 /obj/structure/cable/yellow{
@@ -32,7 +32,7 @@
 	name = "Starboard Auxiliary Solar Array"
 	},
 /obj/floor_decal/solarpanel,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "ag" = (
 /obj/structure/cable/yellow{
@@ -40,7 +40,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "ah" = (
 /obj/structure/cable/yellow{
@@ -53,7 +53,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "ai" = (
 /obj/structure/cable/yellow{
@@ -71,7 +71,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "aj" = (
 /obj/structure/cable/yellow{
@@ -79,7 +79,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "ak" = (
 /obj/structure/cable/yellow{
@@ -97,7 +97,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "al" = (
 /obj/structure/cable/yellow{
@@ -115,7 +115,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "am" = (
 /obj/structure/cable/yellow{
@@ -128,7 +128,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "an" = (
 /obj/structure/cable/yellow,
@@ -137,14 +137,14 @@
 	name = "Starboard Auxiliary Solar Array"
 	},
 /obj/floor_decal/solarpanel,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "ao" = (
 /obj/item/stack/material/rods,
 /turf/space,
 /area/space)
 "ap" = (
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "aq" = (
 /obj/machinery/power/solar{
@@ -153,7 +153,7 @@
 	},
 /obj/structure/cable/yellow,
 /obj/floor_decal/solarpanel,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "ar" = (
 /turf/simulated/wall/r_wall,
@@ -168,7 +168,7 @@
 	pixel_x = -25;
 	pixel_y = -25
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "at" = (
 /obj/machinery/light/small,
@@ -184,7 +184,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aw" = (
 /turf/simulated/wall/r_wall,
@@ -203,30 +203,30 @@
 /obj/machinery/airlock_sensor{
 	pixel_x = -25
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "ay" = (
 /obj/structure/table/steel,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "az" = (
 /obj/structure/table/steel,
 /obj/random/tool,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aA" = (
 /obj/structure/table/steel,
 /obj/random/junk,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aB" = (
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aC" = (
 /obj/structure/table/rack,
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aD" = (
 /obj/machinery/door/airlock/external/bolted_open,
@@ -236,10 +236,10 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aE" = (
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "aF" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
@@ -247,11 +247,11 @@
 	dir = 4;
 	icon_state = "warning"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "aG" = (
 /obj/machinery/atmospherics/unary/tank/carbon_dioxide,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "aH" = (
 /obj/wingrille_spawn/reinforced_phoron/full,
@@ -260,7 +260,7 @@
 	icon_state = "pdoor0";
 	id_tag = "prototype_chamber_blast"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "aI" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -290,7 +290,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aN" = (
 /obj/structure/cable/yellow{
@@ -312,7 +312,7 @@
 	pump_direction = 0;
 	use_power = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aO" = (
 /obj/structure/cable/yellow{
@@ -320,7 +320,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aP" = (
 /obj/structure/cable/yellow{
@@ -334,7 +334,7 @@
 	icon_state = "2-4"
 	},
 /obj/item/ore,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aQ" = (
 /obj/structure/cable/yellow{
@@ -347,7 +347,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aR" = (
 /obj/structure/cable/yellow{
@@ -355,17 +355,18 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aS" = (
 /obj/random/junk,
-/turf/simulated/floor,
+/mob/living/simple_animal/hostile/meat/abomination,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aT" = (
 /obj/structure/sign/warning/airlock{
 	pixel_y = 30
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -374,27 +375,27 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "aV" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "aW" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 5
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "aX" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/black,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "aY" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 9
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "aZ" = (
 /obj/machinery/door/airlock/hatch,
@@ -403,21 +404,21 @@
 	icon_state = "pdoor0";
 	id_tag = "prototype_chamber_blast"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "ba" = (
 /obj/machinery/mass_driver{
 	dir = 4;
 	id_tag = "enginecore"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bb" = (
 /obj/machinery/door/blast/regular/open{
 	icon_state = "pdoor0";
 	id_tag = "prototype_chamber_blast"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bc" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
@@ -427,12 +428,12 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "be" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable/yellow,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bf" = (
 /obj/structure/cable/yellow{
@@ -440,7 +441,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bg" = (
 /turf/space,
@@ -453,7 +454,7 @@
 	icon_state = "4-8"
 	},
 /obj/random/loot,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -467,28 +468,28 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bj" = (
 /obj/machinery/light/small{
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bk" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bl" = (
 /obj/machinery/atmospherics/unary/vent_pump,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bm" = (
 /obj/machinery/atmospherics/unary/outlet_injector,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bn" = (
 /obj/machinery/power/smes/buildable/outpost_substation,
@@ -496,11 +497,11 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bo" = (
 /obj/item/ore,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bp" = (
 /obj/structure/lattice,
@@ -509,26 +510,26 @@
 "bq" = (
 /obj/structure/closet,
 /obj/random/junk,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "br" = (
 /obj/machinery/portable_atmospherics/canister,
 /obj/floor_decal/industrial/warning,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bs" = (
 /obj/floor_decal/industrial/warning{
 	dir = 6;
 	icon_state = "warning"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bt" = (
 /obj/machinery/light/small{
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bu" = (
 /obj/wingrille_spawn/reinforced_phoron/full,
@@ -537,7 +538,7 @@
 	id_tag = "prototype_chamber_blast"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bv" = (
 /obj/wingrille_spawn/reinforced_phoron/full,
@@ -545,7 +546,7 @@
 	icon_state = "pdoor0";
 	id_tag = "prototype_chamber_blast"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bw" = (
 /obj/shuttle_landmark/nav_magshield/nav2,
@@ -557,7 +558,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "by" = (
 /obj/structure/cable{
@@ -570,7 +571,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bz" = (
 /obj/structure/cable{
@@ -578,29 +579,29 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bA" = (
 /obj/structure/closet,
 /obj/item/toy/therapy_purple,
 /obj/random/hat,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bB" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bC" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 6
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 9
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bE" = (
 /obj/item/ore,
@@ -613,31 +614,31 @@
 "bG" = (
 /obj/structure/closet,
 /obj/item/device/flashlight/flare/glowstick/random,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bH" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bI" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bJ" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bK" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 6
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bL" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
@@ -664,7 +665,7 @@
 /area/space)
 "bP" = (
 /obj/structure/girder/displaced,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bQ" = (
 /obj/structure/table/steel,
@@ -673,29 +674,29 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bR" = (
 /obj/structure/table/steel,
 /obj/random/drinkbottle,
 /obj/random/tool,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bS" = (
 /obj/structure/closet/crate/trashcart,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bT" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bU" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bV" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
@@ -703,7 +704,7 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "bW" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -720,7 +721,7 @@
 /obj/machinery/computer/modular{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bY" = (
 /obj/structure/bed/chair{
@@ -730,7 +731,7 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "bZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -740,19 +741,19 @@
 	icon_state = "1-2"
 	},
 /obj/random/junk,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "ca" = (
 /obj/structure/table/steel,
 /obj/item/device/geiger,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cb" = (
 /obj/machinery/computer/modular{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cc" = (
 /obj/machinery/door/blast/regular{
@@ -778,13 +779,13 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cf" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 9
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cg" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -807,7 +808,8 @@
 	icon_state = "2-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor,
+/mob/living/simple_animal/hostile/meat/strippedhuman,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cj" = (
 /obj/structure/cable/yellow{
@@ -818,7 +820,7 @@
 /obj/machinery/computer/modular{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "ck" = (
 /obj/machinery/door/blast/regular{
@@ -843,7 +845,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cm" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
@@ -852,7 +854,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cn" = (
 /obj/machinery/atmospherics/binary/pump,
@@ -861,7 +863,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "co" = (
 /obj/structure/cable/yellow{
@@ -879,7 +881,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cq" = (
 /obj/structure/cable/yellow{
@@ -893,7 +895,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cr" = (
 /obj/structure/cable/yellow{
@@ -907,17 +909,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cs" = (
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "ct" = (
 /obj/structure/cable/yellow{
@@ -931,7 +933,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cu" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -941,20 +943,20 @@
 /obj/machinery/computer/modular{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cv" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 5
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cw" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cx" = (
 /obj/machinery/atmospherics/binary/circulator{
@@ -974,7 +976,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cz" = (
 /obj/structure/cable{
@@ -982,24 +984,24 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cA" = (
 /obj/item/device/flashlight/flare/glowstick/yellow,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cC" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cD" = (
 /obj/machinery/atmospherics/portables_connector,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cE" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -1021,7 +1023,7 @@
 	icon_state = "1-2"
 	},
 /obj/item/ore,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cG" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -1032,7 +1034,7 @@
 	pixel_y = 1;
 	use_power = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cH" = (
 /obj/machinery/power/apc{
@@ -1044,12 +1046,12 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cI" = (
 /obj/structure/closet,
 /obj/random/gloves,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cJ" = (
 /obj/machinery/light/small{
@@ -1057,7 +1059,7 @@
 	icon_state = "bulb1"
 	},
 /obj/random/junk,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cK" = (
 /obj/structure/table/steel,
@@ -1066,21 +1068,21 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cL" = (
 /obj/structure/closet,
 /obj/item/clothing/suit/radiation,
 /obj/item/device/flashlight,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cM" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cN" = (
 /obj/machinery/atmospherics/binary/pump,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cO" = (
 /obj/structure/girder/displaced,
@@ -1096,7 +1098,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cQ" = (
 /obj/structure/table/steel,
@@ -1112,7 +1114,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cR" = (
 /obj/structure/cable{
@@ -1131,10 +1133,10 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cS" = (
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -1146,7 +1148,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cT" = (
 /obj/structure/cable{
@@ -1160,7 +1162,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cU" = (
 /obj/structure/cable{
@@ -1173,7 +1175,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1187,7 +1189,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/smes_storage)
 "cW" = (
 /obj/machinery/door/airlock/hatch,
@@ -1202,7 +1204,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1216,7 +1218,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1231,7 +1233,7 @@
 	icon_state = "4-8"
 	},
 /mob/living/simple_animal/hostile/carp,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "cZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1245,7 +1247,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "da" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -1260,23 +1262,23 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "db" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 5
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "dc" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "dd" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/red,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/engine)
 "de" = (
 /turf/simulated/wall/r_wall,
@@ -1288,8 +1290,8 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock,
-/turf/simulated/floor,
+/obj/machinery/door/airlock/warhammer/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dg" = (
 /turf/space,
@@ -1302,55 +1304,55 @@
 	icon_state = "1-2"
 	},
 /obj/random/obstruction,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "di" = (
 /obj/item/ore,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dj" = (
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dk" = (
 /obj/floor_decal/industrial/warning{
 	dir = 8;
 	icon_state = "warning"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dl" = (
 /obj/machinery/portable_atmospherics/canister,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dm" = (
 /obj/random/junk,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dn" = (
 /obj/item/storage/wallet/random,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "do" = (
 /obj/structure/largecrate,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dp" = (
 /obj/random/shoes,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dq" = (
 /obj/machinery/portable_atmospherics/hydroponics,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dr" = (
 /obj/structure/iv_stand,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ds" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dt" = (
 /turf/simulated/wall,
@@ -1362,40 +1364,40 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dv" = (
 /obj/random/tool,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dw" = (
 /obj/random/tank,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dx" = (
 /obj/structure/table/steel,
 /obj/random/tool,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dy" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dz" = (
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dA" = (
 /obj/structure/closet,
 /obj/random/toolbox,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dB" = (
 /obj/structure/closet,
 /obj/random/suit,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dC" = (
 /obj/structure/closet,
@@ -1403,25 +1405,26 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dD" = (
 /obj/structure/closet,
 /obj/structure/plushie/ian,
 /obj/random/drinkbottle,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dE" = (
 /obj/random/material,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dF" = (
 /obj/item/stack/material/rods,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dG" = (
 /obj/structure/girder/displaced,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dH" = (
 /obj/structure/lattice,
@@ -1429,26 +1432,26 @@
 /area/magshield/north)
 "dI" = (
 /obj/item/clothing/under/color/lightpurple,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dJ" = (
 /obj/random/firstaid,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dK" = (
 /obj/random/toolbox,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dL" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4
 	},
 /obj/structure/largecrate,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dM" = (
 /obj/random/obstruction,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dN" = (
 /obj/machinery/power/apc{
@@ -1461,52 +1464,52 @@
 	icon_state = "0-2";
 	pixel_y = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dO" = (
 /obj/machinery/computer/modular{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dP" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dQ" = (
 /obj/machinery/field_generator,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dR" = (
 /obj/floor_decal/industrial/warning,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dS" = (
 /obj/floor_decal/industrial/warning,
 /obj/random/loot,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dT" = (
 /obj/floor_decal/industrial/warning,
 /obj/structure/largecrate,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dU" = (
 /obj/floor_decal/industrial/warning,
 /obj/random/junk,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dV" = (
 /obj/floor_decal/industrial/warning,
 /obj/item/flame/lighter/random,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dW" = (
 /obj/floor_decal/industrial/warning,
 /obj/random/tank,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dX" = (
 /obj/floor_decal/industrial/warning{
@@ -1514,7 +1517,7 @@
 	icon_state = "warning"
 	},
 /obj/random/toolbox,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dY" = (
 /obj/structure/cable{
@@ -1522,35 +1525,35 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "dZ" = (
 /obj/structure/table/steel,
 /obj/random/powercell,
 /obj/machinery/cell_charger,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ea" = (
 /obj/machinery/power/port_gen/pacman/mrs,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eb" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ec" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ed" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ee" = (
 /obj/structure/table/rack,
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ef" = (
 /obj/structure/grille,
@@ -1562,7 +1565,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eh" = (
 /obj/structure/cable{
@@ -1570,7 +1573,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ei" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1581,7 +1584,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ej" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1592,7 +1595,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ek" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1606,7 +1609,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "el" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -1618,7 +1621,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "em" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1627,13 +1630,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "en" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -1648,7 +1651,7 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1662,7 +1665,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ep" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1674,7 +1677,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1693,7 +1696,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "er" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1705,13 +1708,13 @@
 /obj/structure/cable{
 	icon_state = "6-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "es" = (
 /obj/structure/sign/warning/airlock{
 	pixel_x = 30
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "et" = (
 /obj/machinery/light/small{
@@ -1721,7 +1724,7 @@
 /area/space)
 "eu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ev" = (
 /obj/structure/sign/warning/airlock{
@@ -1733,7 +1736,7 @@
 /obj/structure/sign/warning/docking_area{
 	pixel_y = -30
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ex" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1745,7 +1748,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ey" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1757,7 +1760,7 @@
 /obj/structure/cable{
 	icon_state = "4-9"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "ez" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1770,7 +1773,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eA" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -1783,7 +1786,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1798,7 +1801,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eC" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -1818,7 +1821,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eD" = (
 /obj/machinery/door/airlock/external/bolted,
@@ -1830,7 +1833,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eE" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -1847,7 +1850,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eF" = (
 /obj/machinery/door/airlock/external/bolted,
@@ -1856,7 +1859,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eG" = (
 /obj/machinery/access_button{
@@ -1868,7 +1871,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eI" = (
 /obj/structure/magshield/maggen,
@@ -1876,7 +1879,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "eJ" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
@@ -1888,7 +1891,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1904,48 +1907,48 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/item/newspaper,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eO" = (
 /obj/machinery/light_construct/small,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eP" = (
 /obj/structure/table,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eQ" = (
 /obj/structure/table/steel,
 /obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eR" = (
 /obj/structure/table/steel,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eS" = (
 /obj/structure/table/steel,
 /obj/item/storage/box/lights,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eT" = (
 /obj/machinery/door/airlock/external/bolted_open,
@@ -1954,50 +1957,53 @@
 	pixel_x = -25;
 	pixel_y = 25
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eU" = (
 /obj/machinery/light/small,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eV" = (
 /obj/structure/closet,
 /obj/random/material,
 /obj/random/material,
-/turf/simulated/floor,
+/obj/random/loot/randomsupply/tech,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eW" = (
 /obj/structure/closet,
 /obj/random/material,
-/turf/simulated/floor,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eX" = (
 /obj/structure/closet,
 /obj/random/tool,
-/turf/simulated/floor,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eY" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "eZ" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "fa" = (
 /obj/structure/janitorialcart,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "fb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "fc" = (
 /obj/machinery/light/small{
@@ -2017,7 +2023,7 @@
 /obj/machinery/airlock_sensor{
 	pixel_x = -25
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "fe" = (
 /turf/simulated/wall,
@@ -2027,22 +2033,23 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fg" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 10
 	},
-/turf/simulated/floor,
+/mob/living/simple_animal/hostile/meat/horrorsmall,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fh" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fi" = (
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2052,7 +2059,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fk" = (
 /turf/simulated/wall/r_wall,
@@ -2063,27 +2070,27 @@
 /area/magshield/north)
 "fm" = (
 /obj/item/mop,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "fn" = (
 /obj/machinery/door/airlock/external/bolted_open,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "fo" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/black,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fp" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fr" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -2093,14 +2100,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fs" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8;
 	level = 2
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "ft" = (
 /obj/shuttle_landmark/nav_magshield/nav5,
@@ -2111,20 +2118,20 @@
 /area/magshield/west)
 "fv" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fw" = (
 /obj/machinery/access_button{
 	pixel_x = -25;
 	pixel_y = 25
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "fx" = (
 /obj/machinery/atmospherics/unary/tank,
@@ -2134,35 +2141,34 @@
 /obj/machinery/light_construct{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fy" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/black{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fz" = (
 /obj/machinery/light_construct{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fA" = (
-/turf/simulated/floor/tiled,
+/mob/living/simple_animal/hostile/meatstation/wormscientist,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fB" = (
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fC" = (
-/obj/machinery/light_construct{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
+/mob/living/simple_animal/hostile/meat/horrorsmall,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fD" = (
 /obj/random/junk,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fE" = (
 /obj/structure/cable{
@@ -2173,27 +2179,27 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fF" = (
 /obj/machinery/light_construct{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fG" = (
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fH" = (
 /obj/overmap/visitable/sector/magshield,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/north)
 "fI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fJ" = (
 /obj/structure/grille,
@@ -2203,7 +2209,7 @@
 /obj/structure/cable{
 	icon_state = "4-10"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fL" = (
 /obj/structure/table/steel,
@@ -2212,7 +2218,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fM" = (
 /obj/structure/cable{
@@ -2223,31 +2229,23 @@
 /obj/machinery/computer/modular{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fN" = (
 /obj/structure/cable{
 	icon_state = "5-8"
 	},
-/turf/simulated/floor/tiled,
-/area/magshield/west)
-"fO" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fP" = (
 /obj/item/newspaper,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fQ" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fR" = (
 /obj/machinery/atmospherics/omni/mixer{
@@ -2257,7 +2255,7 @@
 	tag_south = 1;
 	tag_south_con = 0.79
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2270,7 +2268,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fT" = (
 /obj/machinery/atmospherics/omni/filter{
@@ -2278,19 +2276,19 @@
 	tag_south = 1;
 	tag_west = 3
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fU" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fV" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/red{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fW" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
@@ -2306,46 +2304,46 @@
 	id = "d_n2_in";
 	use_power = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "fY" = (
 /obj/structure/cable{
 	icon_state = "2-5"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "fZ" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "ga" = (
-/obj/machinery/computer/modular{
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/magshield/west)
+/obj/structure/closet,
+/obj/random/clothing,
+/obj/random/loot/basicarmorbundle,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/magshield/south)
 "gb" = (
 /obj/structure/table/steel,
 /obj/item/material/ashtray/plastic,
 /obj/random/smokes,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gc" = (
 /obj/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gd" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "ge" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gf" = (
 /obj/structure/cable{
@@ -2353,42 +2351,43 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gg" = (
 /obj/structure/table/steel,
 /obj/random/toy,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gh" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gi" = (
 /obj/floor_decal/industrial/warning{
 	dir = 5;
 	icon_state = "warning"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gj" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gk" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 5
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gl" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 9
 	},
-/turf/simulated/floor,
+/mob/living/simple_animal/hostile/meat/horrorsmall,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gm" = (
 /obj/structure/cable{
@@ -2399,34 +2398,34 @@
 /obj/machinery/light_construct{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gn" = (
 /obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/coffee,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "go" = (
 /obj/structure/table/steel,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gp" = (
 /obj/structure/magshield/nav_light/red{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "gq" = (
 /obj/structure/magshield/nav_light{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "gr" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gs" = (
 /obj/structure/closet,
@@ -2434,6 +2433,7 @@
 /obj/random/cash,
 /obj/random/clothing,
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/random/loot/randomsupply,
 /turf/simulated/floor/carpet/blue,
 /area/magshield/west)
 "gt" = (
@@ -2441,6 +2441,7 @@
 /obj/item/storage/wallet,
 /obj/random/clothing,
 /obj/random/smokes,
+/obj/random/loot/randomsupply,
 /turf/simulated/floor/carpet/blue,
 /area/magshield/west)
 "gu" = (
@@ -2460,18 +2461,18 @@
 /obj/machinery/light_construct{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gy" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2480,7 +2481,7 @@
 "gB" = (
 /obj/floor_decal/industrial/warning,
 /obj/machinery/portable_atmospherics/canister,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gC" = (
 /obj/floor_decal/industrial/warning{
@@ -2488,7 +2489,7 @@
 	icon_state = "warning"
 	},
 /obj/machinery/portable_atmospherics/canister,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2500,17 +2501,17 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gE" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gF" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2558,7 +2559,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2572,7 +2573,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2584,13 +2585,13 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gO" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gP" = (
 /turf/simulated/wall,
@@ -2602,10 +2603,7 @@
 	pixel_x = -24
 	},
 /obj/structure/cable,
-/turf/simulated/floor/tiled/white,
-/area/magshield/west)
-"gR" = (
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gS" = (
 /obj/structure/cable{
@@ -2614,57 +2612,57 @@
 	icon_state = "1-2"
 	},
 /obj/random/junk,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "gU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gV" = (
 /obj/structure/bookcase/manuals/xenoarchaeology,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gW" = (
 /obj/structure/bookcase/manuals/engineering,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gX" = (
 /obj/structure/bookcase/manuals/medical,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gY" = (
 /obj/structure/table/woodentable,
 /obj/random/action_figure,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "gZ" = (
 /obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/coffee,
 /obj/random/smokes,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "ha" = (
 /obj/machinery/computer/modular{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hb" = (
 /obj/structure/table/steel,
 /obj/random/glasses,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hc" = (
 /obj/shuttle_landmark/nav_magshield/nav1,
@@ -2672,13 +2670,13 @@
 /area/space)
 "hd" = (
 /obj/machinery/portable_atmospherics/hydroponics,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "he" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hf" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -2690,14 +2688,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hg" = (
 /obj/machinery/door/airlock/external/bolted_open,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hh" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
@@ -2706,7 +2704,7 @@
 /obj/machinery/airlock_sensor{
 	pixel_y = -25
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hi" = (
 /obj/structure/lattice,
@@ -2726,7 +2724,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "hl" = (
 /obj/structure/magshield/rad_sensor,
@@ -2734,7 +2732,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "hm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2743,64 +2741,65 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hn" = (
 /obj/structure/table/woodentable,
 /obj/item/material/sword/replica,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "ho" = (
-/obj/machinery/light_construct{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
-/area/magshield/west)
+/mob/living/simple_animal/hostile/meatstation/meatball,
+/turf/simulated/floor/warhammer/plating,
+/area/magshield/north)
 "hp" = (
 /obj/structure/bed/chair/comfy/captain,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hq" = (
 /obj/item/paper/magshield/log,
 /obj/machinery/computer/modular{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hr" = (
-/obj/random/junk,
-/turf/simulated/floor/tiled,
-/area/magshield/west)
-"hs" = (
-/turf/simulated/floor/tiled,
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 10
+	},
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
+"hs" = (
+/mob/living/simple_animal/hostile/meatstation/meatmound,
+/turf/simulated/floor/warhammer/plating,
+/area/magshield/smes_storage)
 "ht" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hu" = (
 /turf/space,
 /area/magshield/east)
 "hv" = (
 /obj/item/ore/slag,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "hw" = (
 /obj/structure/table/woodentable,
 /obj/random/plushie/large,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hx" = (
 /obj/structure/table/steel,
 /obj/item/material/ashtray/bronze,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hy" = (
 /obj/structure/table/steel,
 /obj/random/smokes,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2808,13 +2807,13 @@
 /obj/structure/cable{
 	icon_state = "1-10"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hA" = (
 /obj/structure/table/rack,
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hB" = (
 /obj/structure/safe,
@@ -2827,24 +2826,20 @@
 /obj/random/cash,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hC" = (
 /obj/structure/table/woodentable,
 /obj/item/toy/torchmodel,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hD" = (
 /obj/item/book/manual/magshield_manual,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hE" = (
 /obj/structure/lattice,
 /turf/space,
-/area/magshield/west)
-"hF" = (
-/obj/item/ore,
-/turf/simulated/floor/tiled,
 /area/magshield/west)
 "hG" = (
 /obj/machinery/power/apc{
@@ -2858,7 +2853,7 @@
 	dir = 4;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hH" = (
 /obj/structure/cable{
@@ -2867,12 +2862,12 @@
 /obj/structure/cable{
 	icon_state = "2-5"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hJ" = (
 /obj/structure/filingcabinet/chestdrawer,
@@ -2883,22 +2878,23 @@
 "hK" = (
 /obj/structure/table/woodentable,
 /obj/item/book/manual/supermatter_engine,
+/obj/random/loot/raresidearmbundle,
 /turf/simulated/floor/carpet/blue,
 /area/magshield/west)
 "hL" = (
 /obj/item/ore,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hM" = (
 /turf/space,
 /area/magshield/west)
 "hN" = (
 /obj/item/reagent_containers/glass/bucket,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hO" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hP" = (
 /obj/structure/cable{
@@ -2906,14 +2902,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hQ" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light_construct{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "hR" = (
 /obj/structure/filingcabinet/chestdrawer,
@@ -2953,18 +2949,18 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hV" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2973,8 +2969,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
-/area/magshield/west)
+/obj/machinery/light,
+/mob/living/simple_animal/hostile/meatstation/wormguard,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/magshield/south)
 "hX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2983,7 +2981,7 @@
 	dir = 4
 	},
 /obj/item/paper/magshield/tornpage,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hY" = (
 /obj/structure/table/steel,
@@ -2994,7 +2992,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "hZ" = (
 /obj/structure/table/woodentable,
@@ -3021,7 +3019,7 @@
 /area/magshield/west)
 "ic" = (
 /obj/item/stack/material/rods,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "id" = (
 /obj/item/stack/material/rods,
@@ -3029,25 +3027,25 @@
 /area/magshield/west)
 "ie" = (
 /obj/machinery/seed_storage,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "if" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/reagent_containers/glass/bucket,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "ig" = (
 /obj/structure/cable{
 	icon_state = "1-10"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "ih" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "ii" = (
 /obj/item/material/minihoe,
@@ -3055,7 +3053,7 @@
 	dir = 4
 	},
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "ij" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3064,7 +3062,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "ik" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3073,7 +3071,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "il" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -3085,7 +3083,7 @@
 /obj/structure/cable{
 	icon_state = "2-5"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "im" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3094,7 +3092,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "in" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3103,13 +3101,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 "io" = (
 /obj/machinery/light_construct{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "ip" = (
 /turf/simulated/wall/r_wall,
@@ -3119,7 +3117,7 @@
 /area/magshield/south)
 "ir" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
@@ -3127,7 +3125,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "is" = (
 /obj/item/ore/slag,
@@ -3141,14 +3139,15 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "iu" = (
-/turf/simulated/floor/tiled/white,
-/area/magshield/south)
+/mob/living/simple_animal/hostile/meat/humansecurity,
+/turf/simulated/floor/warhammer/plating,
+/area/magshield/north)
 "iv" = (
 /obj/structure/curtain/open/shower,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iw" = (
 /obj/structure/hygiene/shower{
@@ -3157,7 +3156,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ix" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -3167,29 +3166,25 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iy" = (
 /obj/structure/table,
 /obj/random/firstaid,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iz" = (
 /obj/machinery/light_construct{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
-/area/magshield/south)
-"iA" = (
-/obj/structure/bed,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iB" = (
 /obj/random/material,
 /turf/space,
 /area/space)
 "iC" = (
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/west)
 "iD" = (
 /obj/structure/table/steel,
@@ -3206,26 +3201,26 @@
 	pixel_x = -2;
 	pixel_y = -4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "iE" = (
 /obj/structure/iv_stand,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iF" = (
 /obj/random/medical/lite,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iG" = (
 /obj/machinery/light_construct,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "iH" = (
 /obj/machinery/light{
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iI" = (
 /obj/structure/hygiene/shower{
@@ -3235,15 +3230,16 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/obj/random/loot/lootcontraband,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iJ" = (
 /obj/item/bedsheet,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iK" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
@@ -3251,18 +3247,19 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "iL" = (
 /obj/structure/hygiene/toilet,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iM" = (
 /obj/structure/hygiene/urinal{
 	pixel_y = 25
 	},
 /obj/random/trash,
-/turf/simulated/floor/tiled/white,
+/obj/decal/cleanable/blood/gibs/body,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -3274,30 +3271,30 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iP" = (
 /obj/machinery/vending/coffee,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iQ" = (
 /obj/machinery/vending/cola,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iR" = (
 /obj/machinery/vending/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iS" = (
 /obj/wallframe_spawn/reinforced,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iT" = (
-/obj/machinery/door/airlock,
-/turf/simulated/floor/tiled/white,
+/obj/machinery/door/airlock/warhammer/engineering,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iU" = (
 /obj/structure/hygiene/toilet{
@@ -3306,7 +3303,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -3319,41 +3316,43 @@
 /obj/machinery/light_construct{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iW" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iX" = (
 /obj/item/ore/slag,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iY" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "iZ" = (
 /obj/machinery/light,
-/turf/simulated/floor/tiled/white,
+/obj/random/loot/raregunslug,
+/obj/decal/cleanable/blood/gibs/limb,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ja" = (
-/mob/living/simple_animal/hostile/carp,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jd" = (
-/turf/simulated/floor/tiled,
+/mob/living/simple_animal/hostile/meatstation/wormguard,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "je" = (
 /obj/structure/bed/chair,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jf" = (
 /obj/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jg" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -3367,7 +3366,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3376,7 +3375,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ji" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3385,20 +3384,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jk" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8;
 	level = 2
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jl" = (
 /turf/space,
@@ -3408,48 +3407,48 @@
 	name = "plastic table frame"
 	},
 /obj/random/smokes,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jn" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/random/firstaid,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jo" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jp" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jq" = (
 /obj/structure/bed,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jr" = (
 /obj/random/trash,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "js" = (
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jt" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ju" = (
 /obj/structure/bed/chair{
@@ -3458,7 +3457,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jv" = (
 /obj/structure/table/standard{
@@ -3466,31 +3465,31 @@
 	},
 /obj/item/trash/plate,
 /obj/item/reagent_containers/food/snacks/flatbread,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jw" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jx" = (
 /obj/structure/table/marble,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jy" = (
 /obj/structure/table/marble,
 /obj/item/material/knife/kitchen/cleaver,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jz" = (
 /obj/structure/hygiene/sink{
 	pixel_y = 25
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jA" = (
 /obj/machinery/light/small{
@@ -3504,7 +3503,7 @@
 /area/magshield/south)
 "jC" = (
 /obj/machinery/washing_machine,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jD" = (
 /obj/structure/lattice,
@@ -3512,11 +3511,11 @@
 /area/magshield/south)
 "jE" = (
 /obj/structure/magshield/maggen,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "jF" = (
 /obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/south)
 "jG" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
@@ -3529,20 +3528,14 @@
 /obj/machinery/airlock_sensor{
 	pixel_y = -25
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/south)
 "jH" = (
 /obj/machinery/door/airlock/external/bolted,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor,
-/area/magshield/south)
-"jI" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/south)
 "jJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3559,7 +3552,7 @@
 	dir = 4;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jK" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -3571,7 +3564,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jL" = (
 /obj/structure/table/standard{
@@ -3579,7 +3572,7 @@
 	},
 /obj/random/plushie/large,
 /obj/random/smokes,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jM" = (
 /obj/structure/table/standard{
@@ -3588,62 +3581,67 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jN" = (
 /obj/structure/closet,
 /obj/random/glasses,
 /obj/random/hat,
 /obj/random/cash,
-/turf/simulated/floor/tiled,
+/obj/random/loot/raresidearmbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jO" = (
 /obj/structure/closet,
 /obj/random/clothing,
 /obj/random/accessory,
 /obj/random/smokes,
-/turf/simulated/floor/tiled,
+/obj/random/loot/valuableloot,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jP" = (
 /obj/structure/closet,
 /obj/random/junk,
-/turf/simulated/floor/tiled,
+/obj/random/loot/tech2,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jQ" = (
 /obj/structure/closet,
 /obj/random/clothing,
-/turf/simulated/floor/tiled,
+/obj/random/loot/valuableloot,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jR" = (
 /obj/structure/closet,
 /obj/random/clothing,
 /obj/random/cash,
-/turf/simulated/floor/tiled,
+/obj/random/loot/rarearmorbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jS" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/item/trash/plate,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jT" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/item/material/knife/table,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jU" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jV" = (
 /obj/structure/table/marble,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jW" = (
 /obj/item/material/knife/hook,
@@ -3655,7 +3653,7 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jY" = (
 /obj/structure/hygiene/sink{
@@ -3663,7 +3661,7 @@
 	pixel_x = 11
 	},
 /obj/item/soap,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "jZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3680,7 +3678,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ka" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3691,7 +3689,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/south)
 "kb" = (
 /obj/structure/cable{
@@ -3699,14 +3697,14 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/south)
 "kc" = (
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/south)
 "kd" = (
 /obj/structure/roller_bed,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "ke" = (
 /obj/structure/cable{
@@ -3714,49 +3712,51 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "kf" = (
 /obj/structure/sign/warning/airlock{
 	pixel_x = -30
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kh" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ki" = (
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kj" = (
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kk" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kl" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled,
-/area/magshield/south)
+/obj/structure/closet,
+/obj/random/toolbox,
+/obj/random/loot/randomsupply/tech,
+/turf/simulated/floor/warhammer/plating,
+/area/magshield/north)
 "km" = (
 /obj/machinery/vending/dinnerware,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kn" = (
 /obj/structure/table/marble,
 /obj/machinery/microwave,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ko" = (
 /turf/simulated/floor/tiled/freezer,
@@ -3771,20 +3771,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kr" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ks" = (
 /obj/structure/hygiene/sink{
 	dir = 4;
 	pixel_x = 11
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -3797,19 +3797,16 @@
 /obj/machinery/light_construct{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ku" = (
 /obj/item/ore,
 /turf/space,
 /area/magshield/south)
 "kv" = (
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/tiled,
-/area/magshield/south)
+/mob/living/simple_animal/hostile/meatstation/meatworm,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/magshield/west)
 "kw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -3817,17 +3814,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kx" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/magshield/south)
+/obj/random/junk,
+/turf/simulated/floor/warhammer/plating,
+/area/magshield/smes_storage)
 "ky" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -3835,18 +3827,18 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kz" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3856,7 +3848,7 @@
 	dir = 4
 	},
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kB" = (
 /obj/item/flame/match,
@@ -3866,7 +3858,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kC" = (
 /obj/machinery/door/firedoor,
@@ -3876,7 +3868,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kD" = (
 /obj/item/material/kitchen/utensil/fork/plastic,
@@ -3886,21 +3878,21 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kE" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kG" = (
 /obj/random/trash,
@@ -3910,7 +3902,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/obj/random/loot/rigloot,
+/obj/random/loot/heavymelee,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3919,17 +3913,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kI" = (
 /obj/structure/table/marble,
 /obj/item/reagent_containers/food/snacks/chips,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kJ" = (
 /obj/structure/table/marble,
 /obj/item/material/knife/table,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kK" = (
 /obj/structure/kitchenspike,
@@ -3945,37 +3939,37 @@
 /turf/simulated/floor/tiled/freezer,
 /area/magshield/south)
 "kM" = (
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kN" = (
 /obj/structure/window/basic{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kO" = (
 /obj/structure/fitness/weightlifter,
 /obj/structure/window/basic{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kP" = (
 /obj/structure/window/basic{
 	dir = 1
 	},
 /obj/item/towel/random,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kQ" = (
 /obj/structure/window/basic{
 	dir = 1
 	},
 /obj/structure/fitness/punchingbag,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kR" = (
 /obj/structure/window/basic{
@@ -3984,19 +3978,19 @@
 /obj/structure/window/basic{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kS" = (
 /obj/machinery/computer/arcade,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kT" = (
 /obj/structure/curtain/open/bed,
 /obj/item/material/knife/table,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kU" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -4005,51 +3999,53 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kV" = (
 /obj/item/towel/random,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kW" = (
 /obj/machinery/computer/arcade,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kX" = (
 /obj/structure/closet,
 /obj/random/accessory,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kY" = (
 /obj/structure/closet,
 /obj/random/tool,
 /obj/random/smokes,
-/turf/simulated/floor/tiled,
+/obj/random/loot/basicarmorbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "kZ" = (
 /obj/structure/closet,
 /obj/random/firstaid,
 /obj/random/junk,
-/turf/simulated/floor/tiled,
+/obj/random/loot/basicarmorbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "la" = (
 /obj/structure/closet,
 /obj/random/loot,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lb" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/random/hat,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lc" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/item/deck/cards,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ld" = (
 /obj/structure/table/standard{
@@ -4057,15 +4053,15 @@
 	},
 /obj/item/material/kitchen/utensil/fork/plastic,
 /obj/item/trash/plate,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "le" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock,
+/obj/machinery/door/airlock/warhammer/engineering,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4074,7 +4070,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lg" = (
 /obj/item/stack/material/rods,
@@ -4082,62 +4078,62 @@
 /area/magshield/south)
 "lh" = (
 /obj/structure/fitness/weightlifter,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "li" = (
 /obj/structure/fitness/punchingbag,
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lj" = (
 /obj/structure/window/basic{
 	dir = 4
 	},
 /obj/random/trash,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lk" = (
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ll" = (
 /obj/random/trash,
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lm" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ln" = (
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lo" = (
 /obj/machinery/vending/cigarette,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lp" = (
 /obj/machinery/vending/cola,
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lq" = (
 /obj/machinery/vending/fitness,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lr" = (
 /obj/machinery/light_construct{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "ls" = (
 /obj/structure/girder/displaced,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/south)
 "lt" = (
 /obj/shuttle_landmark/nav_magshield/nav4,
@@ -4152,7 +4148,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "lv" = (
 /obj/structure/cable/yellow{
@@ -4160,7 +4156,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "lw" = (
 /obj/structure/cable/yellow{
@@ -4172,7 +4168,7 @@
 	name = "Port Auxiliary Solar Array"
 	},
 /obj/floor_decal/solarpanel,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "lx" = (
 /obj/structure/cable/yellow{
@@ -4190,7 +4186,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "ly" = (
 /obj/structure/cable/yellow,
@@ -4199,7 +4195,7 @@
 	name = "Port Auxiliary Solar Array"
 	},
 /obj/floor_decal/solarpanel,
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "lz" = (
 /obj/structure/cable/yellow{
@@ -4217,7 +4213,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/space)
 "lA" = (
 /obj/shuttle_landmark/nav_magshield/nav3,
@@ -4225,7 +4221,7 @@
 /area/space)
 "uL" = (
 /obj/wallframe_spawn/reinforced,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/magshield/west)
 "Eo" = (
 /obj/machinery/atmospherics/omni/filter{
@@ -4233,7 +4229,7 @@
 	tag_south = 1;
 	tag_west = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/warhammer/plating,
 /area/magshield/east)
 
 (1,1,1) = {"
@@ -17669,9 +17665,9 @@ gv
 gH
 gP
 gV
-fA
-fA
-fA
+fB
+fB
+fB
 gv
 hS
 ia
@@ -17871,9 +17867,9 @@ gv
 gI
 gP
 gW
-fA
-fA
-fA
+fB
+fB
+fB
 hK
 hT
 ib
@@ -18073,12 +18069,12 @@ gv
 gJ
 gP
 gX
-fA
-fA
-fA
-fA
+fB
+fC
+fB
+fB
 hU
-fA
+fB
 fu
 fu
 aa
@@ -18278,9 +18274,9 @@ gY
 hn
 hw
 hC
-fA
+fB
 hU
-fA
+fB
 fu
 fu
 aa
@@ -18669,8 +18665,8 @@ eJ
 dH
 dj
 fu
-fA
-fA
+fB
+fB
 fY
 gf
 gm
@@ -18678,18 +18674,18 @@ gf
 gf
 gf
 gQ
-gR
-ho
-gR
-hD
-fA
-hW
-fA
-hF
+fB
 io
-fA
-fA
-hF
+fB
+hD
+fB
+hU
+fB
+hL
+io
+fB
+fB
+hL
 fu
 iL
 iY
@@ -18879,11 +18875,11 @@ fB
 fB
 fB
 fB
-gR
+fB
 gZ
 hp
 hx
-gR
+fB
 fB
 hX
 ic
@@ -19073,7 +19069,7 @@ ej
 dj
 di
 fu
-fC
+fF
 fL
 fZ
 gg
@@ -19081,11 +19077,11 @@ gn
 fZ
 go
 fB
-gR
+fB
 ha
 hq
 ha
-gR
+fB
 hL
 hY
 fZ
@@ -19098,9 +19094,9 @@ fu
 iM
 iZ
 iq
-jI
+jj
 kf
-kv
+iH
 ip
 ip
 ip
@@ -19277,32 +19273,32 @@ eO
 fu
 fB
 fM
-ga
-ga
-ga
-ga
-ga
+ha
+ha
+ha
+ha
+ha
 fB
 fB
-fA
-hr
-fA
+fB
+fD
+fB
 fB
 hM
 hM
 hE
-ga
-ga
-ga
-ga
+ha
+ha
+ha
+ha
 fB
 fu
 jz
 ja
 iq
-jI
-jd
-jd
+jj
+ja
+ja
 kN
 kV
 ip
@@ -19479,34 +19475,34 @@ dj
 fu
 fD
 fN
-fA
-fA
-fA
-fA
-fA
-fA
 fB
-fA
-fA
-fA
+fB
+fB
+fB
+fB
+fB
+fB
+fB
+kv
+fB
 hE
 hM
 hM
 hM
-hF
-fA
-fA
-fA
+hL
+fB
+fB
+fB
 fB
 fu
 iq
 iT
 iq
 jJ
-jd
-jd
+ja
+ja
 kO
-jd
+ja
 lh
 ip
 ip
@@ -19680,18 +19676,18 @@ dY
 dY
 fv
 fE
-fO
-fO
-fO
-fO
-fO
-fO
-fO
+gf
+gf
+gf
+gf
+gf
+gf
+gf
 gS
-fO
-fO
-fO
-fO
+gf
+gf
+gf
+gf
 hM
 hM
 hM
@@ -19708,8 +19704,8 @@ jK
 kg
 kw
 kP
-jd
-jd
+ja
+ja
 jf
 iS
 aa
@@ -19881,36 +19877,36 @@ eL
 dj
 dj
 fu
-fA
-fA
-fA
 fB
-fA
-fA
 fB
-fA
-fA
-fA
 fB
-fA
-hF
+fB
+fB
+fB
+fB
+fB
+fB
+fB
+fB
+fB
+hL
 hE
 hM
 id
 hM
 hE
+fB
 fA
-fA
-fA
+fB
 fu
 iP
-jd
-jd
-jd
-jd
-kx
+ja
+ja
+ja
+ja
+jh
 kQ
-jd
+ja
 li
 ip
 ip
@@ -20091,28 +20087,28 @@ go
 go
 fZ
 go
-fA
+fB
 hb
 fZ
 hy
-fA
+fB
 go
 fZ
 go
 hy
 fZ
 gn
-fA
+fB
 iG
 fu
 iQ
-jd
-jd
-jd
-jd
-kx
+ja
+ja
+ja
+ja
+jh
 kR
-jd
+ja
 lj
 ip
 ip
@@ -20286,25 +20282,25 @@ dj
 fm
 fu
 fG
-fA
-ga
-ga
-ga
-ga
-ga
-ga
-fA
-ga
-ga
-ga
+fB
+ha
+ha
+ha
+ha
+ha
+ha
+fB
+ha
+ha
+ha
 fF
-ga
-ga
-ga
-ga
-ga
-ga
-fA
+ha
+ha
+ha
+ha
+ha
+ha
+fB
 fG
 fu
 iR
@@ -20312,10 +20308,10 @@ je
 jm
 jL
 kh
-kx
-jd
-jd
-jd
+jh
+ja
+ja
+ja
 jf
 iS
 aa
@@ -20916,11 +20912,11 @@ aa
 ip
 ip
 jo
-jd
+ja
 ki
-kx
+jh
 ki
-jd
+ja
 lk
 ip
 ip
@@ -21522,11 +21518,11 @@ aa
 ip
 ip
 jo
-jd
+ja
 ki
-kx
+jh
 ki
-jd
+ja
 ll
 ip
 ip
@@ -21726,7 +21722,7 @@ ip
 jq
 jO
 iq
-kx
+jh
 iq
 kY
 jq
@@ -21928,7 +21924,7 @@ ip
 iq
 iq
 iq
-kx
+jh
 iq
 iq
 iq
@@ -22128,11 +22124,11 @@ aa
 ip
 ip
 jo
-jd
+ja
 ki
-kx
+jh
 ki
-jd
+ja
 lk
 ip
 ip
@@ -22332,9 +22328,9 @@ ip
 jq
 jP
 iq
-kA
+hW
 iq
-jQ
+ga
 jq
 ip
 ip
@@ -22534,7 +22530,7 @@ ip
 iq
 iq
 iq
-kx
+jh
 iq
 iq
 iq
@@ -22734,11 +22730,11 @@ aa
 ip
 ip
 jr
-jd
+ja
 ki
-kx
+jh
 ki
-jd
+ja
 lk
 ip
 ip
@@ -22896,7 +22892,7 @@ bQ
 bX
 aB
 aB
-aB
+hs
 aB
 cQ
 de
@@ -22938,7 +22934,7 @@ ip
 jp
 jQ
 iq
-kx
+jh
 iq
 kZ
 jq
@@ -23140,7 +23136,7 @@ ip
 iq
 iq
 iq
-kx
+jh
 iq
 iq
 iq
@@ -23340,11 +23336,11 @@ aa
 ip
 ip
 jo
-jd
+ja
 ki
-kx
+jh
 kT
-jd
+ja
 lk
 ip
 ip
@@ -23493,7 +23489,7 @@ aa
 au
 au
 aC
-aS
+kx
 bg
 bp
 bo
@@ -23699,11 +23695,11 @@ aT
 bh
 bg
 aB
-aS
+kx
 aB
 bo
 aB
-aS
+kx
 aB
 aB
 cT
@@ -23947,9 +23943,9 @@ ip
 ip
 js
 js
-jd
-kx
-jd
+ja
+jh
+ja
 js
 js
 ip
@@ -24106,7 +24102,7 @@ bA
 bG
 aB
 bj
-aS
+kx
 cr
 aB
 cJ
@@ -24149,9 +24145,9 @@ iS
 jf
 jt
 jS
-jd
+ja
 kD
-jd
+ja
 lb
 jt
 ip
@@ -24352,8 +24348,8 @@ jf
 jt
 jT
 kj
-kx
-jd
+jh
+ja
 lc
 lm
 ip
@@ -24555,7 +24551,7 @@ ju
 jw
 kk
 kE
-jd
+ja
 jw
 jw
 ip
@@ -24755,9 +24751,9 @@ ip
 ip
 js
 js
-kl
+iW
 kF
-jd
+ja
 js
 js
 ip
@@ -24923,7 +24919,7 @@ de
 de
 dw
 dj
-dj
+ho
 dM
 eo
 dj
@@ -24957,7 +24953,7 @@ iS
 jf
 jt
 jt
-jd
+ja
 kG
 jd
 ld
@@ -25159,9 +25155,9 @@ iS
 jf
 jv
 jU
-jd
-kx
-jd
+ja
+jh
+ja
 jU
 jt
 ip
@@ -25361,9 +25357,9 @@ ip
 ip
 jw
 jw
-jd
-kx
-jd
+ja
+jh
+ja
 jw
 jw
 ip
@@ -25561,9 +25557,9 @@ ac
 aa
 ip
 ip
-jd
-jd
-jd
+ja
+ja
+ja
 kH
 kg
 kw
@@ -25731,7 +25727,7 @@ de
 de
 dj
 dM
-dj
+iu
 dj
 eo
 dj
@@ -25768,7 +25764,7 @@ jV
 km
 iq
 iq
-kx
+jh
 kW
 ip
 ip
@@ -25966,11 +25962,11 @@ aa
 ip
 ip
 jy
-iu
-iu
-iu
+ja
+ja
+ja
 iT
-kx
+jh
 kW
 ip
 ip
@@ -26168,11 +26164,11 @@ aa
 ip
 ip
 jz
-iu
-iu
+ja
+ja
 jV
 iq
-kx
+jh
 kW
 ip
 ip
@@ -26369,12 +26365,12 @@ ac
 aa
 ip
 ip
-iu
-iu
-iu
+ja
+ja
+ja
 kI
 iq
-kx
+jh
 kW
 ip
 ip
@@ -26571,12 +26567,12 @@ ac
 aa
 ip
 ip
-iu
+ja
 jV
 kn
 kJ
 iq
-kx
+jh
 lo
 ip
 ip
@@ -26778,7 +26774,7 @@ iq
 iq
 iq
 iq
-kx
+jh
 iR
 ip
 ip
@@ -26980,7 +26976,7 @@ jW
 ko
 kK
 iq
-kx
+jh
 lp
 ip
 ip
@@ -27182,7 +27178,7 @@ jB
 kp
 kL
 iq
-kx
+jh
 lq
 ip
 ip
@@ -27575,13 +27571,13 @@ hd
 hd
 ih
 iq
-iu
-iu
+ja
+ja
 iH
-iu
-iu
-iu
-iu
+ja
+ja
+ja
+ja
 jX
 kq
 kM
@@ -27749,14 +27745,14 @@ bN
 bN
 de
 de
-dA
+kl
 dj
 dj
 dj
 dj
 eo
 dt
-fg
+hr
 fo
 fy
 fo
@@ -27769,12 +27765,12 @@ gC
 fi
 fe
 he
-hs
-hs
-hs
+fi
+fi
+fi
 hN
-hs
-hs
+fi
+fi
 ii
 iq
 iv
@@ -27783,13 +27779,13 @@ iv
 iq
 iT
 iq
-iu
-iu
+ja
+ja
 kr
 iq
-kx
-jd
-jd
+jh
+ja
+ja
 ip
 ip
 aa
@@ -27989,8 +27985,8 @@ jC
 jY
 ks
 iq
-kx
-jd
+jh
+ja
 ls
 jl
 aa
@@ -28191,7 +28187,7 @@ iq
 iq
 iq
 iq
-kx
+jh
 ip
 jl
 jl
@@ -28789,7 +28785,7 @@ in
 iq
 iy
 iE
-iu
+ja
 iF
 iW
 ji
@@ -28992,7 +28988,7 @@ iq
 iz
 iF
 iJ
-iu
+ja
 iX
 jj
 jD
@@ -29191,11 +29187,11 @@ gj
 fi
 fi
 iq
-iA
-iu
+jq
+ja
 iF
-iu
-iu
+ja
+ja
 jk
 jl
 kc

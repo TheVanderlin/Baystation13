@@ -14,67 +14,32 @@
 "ae" = (
 /turf/unsimulated/wall,
 /area/map_template/syndicate_mothership/raider_base)
-"af" = (
-/obj/random/junk,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
-/area/map_template/syndicate_mothership/raider_base)
 "ag" = (
 /obj/structure/closet/kitchen,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ah" = (
 /obj/structure/table/reinforced,
 /obj/item/tray{
 	pixel_y = 5
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ai" = (
 /obj/structure/table/standard,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"aj" = (
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ak" = (
 /obj/structure/closet/fridge,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"al" = (
-/obj/random/trash,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "am" = (
 /obj/structure/table/standard,
 /obj/machinery/chemical_dispenser/bar_soft/full,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"an" = (
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ao" = (
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ap" = (
 /obj/structure/table/reinforced,
@@ -82,107 +47,63 @@
 	pixel_x = -1;
 	pixel_y = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"aq" = (
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ar" = (
 /obj/machinery/door/airlock/hatch{
 	name = "\improper NO DUST BREATHER ALLOWED"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "as" = (
 /obj/machinery/vending/snack{
 	name = "Getmore Chocolate Corp";
 	prices = list()
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "at" = (
 /obj/structure/kitchenspike,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"aw" = (
-/obj/random/trash,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ax" = (
 /obj/item/device/radio/intercom/raider{
 	dir = 4;
 	pixel_x = -22
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"ay" = (
-/obj/random/junk,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "az" = (
 /obj/random/trash,
 /obj/item/reagent_containers/glass/bucket,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aA" = (
 /obj/structure/aliumizer,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aB" = (
 /obj/random/coin,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aC" = (
 /turf/simulated/mineral,
 /area/map_template/syndicate_mothership/raider_base)
 "aD" = (
 /obj/machinery/door/airlock/hatch,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aE" = (
 /obj/decal/cleanable/blood,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aF" = (
 /obj/machinery/gibber,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aG" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aH" = (
 /obj/structure/hygiene/urinal{
@@ -194,26 +115,20 @@
 	},
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket,
-/turf/unsimulated/floor{
-	icon_state = "freezerfloor"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aI" = (
 /obj/structure/hygiene/urinal{
 	pixel_y = 32
 	},
-/turf/unsimulated/floor{
-	icon_state = "freezerfloor"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aJ" = (
 /obj/structure/hygiene/urinal{
 	pixel_y = 32
 	},
 /obj/random/trash,
-/turf/unsimulated/floor{
-	icon_state = "freezerfloor"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aK" = (
 /obj/structure/bed,
@@ -233,10 +148,7 @@
 	},
 /obj/item/bedsheet/green,
 /obj/structure/curtain/open/bed,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aL" = (
 /obj/landmark{
@@ -245,29 +157,20 @@
 /obj/floor_decal/carpet{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aM" = (
 /obj/floor_decal/carpet{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aN" = (
 /obj/floor_decal/carpet{
 	dir = 1
 	},
 /obj/random/trash,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aO" = (
 /obj/structure/bed,
@@ -282,57 +185,28 @@
 	},
 /obj/item/bedsheet/rd,
 /obj/structure/curtain/open/bed,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"aP" = (
-/obj/machinery/door/airlock/hatch,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aQ" = (
 /obj/random/junk,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aR" = (
 /obj/random/ammo,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"aS" = (
-/turf/unsimulated/floor{
-	icon_state = "freezerfloor"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"aT" = (
-/obj/decal/cleanable/blood,
-/turf/unsimulated/floor{
-	icon_state = "freezerfloor"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aU" = (
 /obj/machinery/door/airlock/hatch{
 	name = "\improper LITTLE VOX ROOM"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aV" = (
 /obj/item/device/radio/intercom/raider{
 	dir = 8;
 	pixel_x = 22
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aW" = (
 /obj/structure/bed,
@@ -341,25 +215,13 @@
 	},
 /obj/item/bedsheet/hos,
 /obj/structure/curtain/open/bed,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aX" = (
 /obj/landmark{
 	name = "voxstart"
 	},
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"aY" = (
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "aZ" = (
 /obj/structure/bed,
@@ -368,10 +230,7 @@
 	},
 /obj/item/bedsheet/rainbow,
 /obj/structure/curtain/open/bed,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ba" = (
 /obj/structure/hygiene/sink{
@@ -382,9 +241,7 @@
 /obj/item/vox_changer/raider{
 	pixel_x = -28
 	},
-/turf/unsimulated/floor{
-	icon_state = "freezerfloor"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bb" = (
 /obj/structure/bed,
@@ -393,10 +250,7 @@
 	},
 /obj/item/bedsheet/clown,
 /obj/structure/curtain/open/bed,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bc" = (
 /obj/structure/bed,
@@ -405,33 +259,21 @@
 	},
 /obj/item/bedsheet/orange,
 /obj/structure/curtain/open/bed,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bd" = (
 /obj/decal/cleanable/cobweb,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "be" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bf" = (
 /obj/decal/cleanable/dirt,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bg" = (
 /obj/structure/sign/warning/nosmoking_1{
@@ -439,39 +281,26 @@
 	pixel_y = 32
 	},
 /obj/item/storage/fancy/smokable/dromedaryco,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bh" = (
 /obj/decal/cleanable/blood/oil,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bi" = (
 /obj/decal/cleanable/cobweb2{
 	icon_state = "spiderling";
 	name = "dead spider"
 	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bj" = (
 /obj/item/clothing/head/xenos,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bk" = (
 /obj/random/trash,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bl" = (
 /obj/structure/hygiene/sink{
@@ -483,26 +312,13 @@
 	dir = 4;
 	pixel_x = -28
 	},
-/turf/unsimulated/floor{
-	icon_state = "freezerfloor"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"bm" = (
-/obj/structure/hygiene/shower{
-	dir = 1
-	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bn" = (
 /obj/structure/hygiene/shower{
 	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "freezerfloor"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bo" = (
 /obj/structure/table/woodentable,
@@ -511,10 +327,7 @@
 	},
 /obj/random/junk,
 /obj/random/maintenance,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bp" = (
 /obj/structure/table/woodentable,
@@ -524,42 +337,21 @@
 /obj/floor_decal/carpet{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bq" = (
 /obj/wingrille_spawn/reinforced/crescent,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"br" = (
-/obj/item/device/radio/intercom/raider{
-	dir = 4;
-	pixel_x = -22
-	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bs" = (
 /obj/decal/cleanable/spiderling_remains,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bt" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 6
 	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bu" = (
 /obj/structure/window/reinforced{
@@ -569,10 +361,7 @@
 	dir = 8
 	},
 /obj/random/toolbox,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bv" = (
 /obj/decal/cleanable/dirt,
@@ -581,42 +370,29 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bw" = (
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bx" = (
 /obj/decal/cleanable/dirt,
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "by" = (
 /obj/item/clothing/mask/gas/swat{
 	desc = "A close-fitting mask clearly not made for a human face.";
 	name = "\improper alien mask"
 	},
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bz" = (
 /obj/item/xenos_claw,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bA" = (
 /obj/structure/table/rack,
@@ -625,9 +401,7 @@
 /obj/item/clothing/shoes/magboots/vox,
 /obj/item/clothing/gloves/vox,
 /obj/item/clothing/under/vox/vox_casual,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bB" = (
 /obj/structure/table/rack,
@@ -637,18 +411,7 @@
 /obj/item/clothing/gloves/vox,
 /obj/item/clothing/under/vox/vox_robes,
 /obj/item/gun/energy/darkmatter,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"bC" = (
-/obj/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	name = "dead spider"
-	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bD" = (
 /obj/item/device/radio/intercom/raider{
@@ -662,17 +425,11 @@
 /obj/floor_decal/carpet{
 	dir = 10
 	},
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bE" = (
 /obj/floor_decal/carpet,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bF" = (
 /obj/structure/closet{
@@ -684,26 +441,22 @@
 /obj/item/clothing/under/rank/mailman,
 /obj/item/clothing/accessory/storage/webbing_large,
 /obj/item/clothing/under/rank/dispatch,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/obj/random/loot/randomsupply/engineering,
+/obj/random/loot/randomsupply,
+/obj/random/loot/randomsupply/tech,
+/obj/random/loot/randomsupply/tech,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bG" = (
 /obj/structure/undies_wardrobe,
 /obj/floor_decal/carpet,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bH" = (
 /obj/random/junk,
 /obj/floor_decal/carpet,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bI" = (
 /obj/floor_decal/carpet{
@@ -713,21 +466,7 @@
 /obj/floor_decal/carpet{
 	dir = 6
 	},
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"bJ" = (
-/turf/unsimulated/floor{
-	icon_state = "wood"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"bK" = (
-/turf/unsimulated/floor{
-	icon = 'icons/turf/flooring/wood.dmi';
-	icon_state = "wood_broken2"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bL" = (
 /obj/structure/table/woodentable,
@@ -735,42 +474,30 @@
 	pixel_y = 5
 	},
 /obj/random/backpack,
-/turf/unsimulated/floor{
-	icon_state = "wood"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bM" = (
 /obj/structure/table/woodentable,
 /obj/item/storage/box/glasses/rocks,
-/turf/unsimulated/floor{
-	icon_state = "wood"
-	},
+/obj/random/loot/rarearmorbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bN" = (
 /obj/structure/table/woodentable,
 /obj/machinery/chemical_dispenser/bar_soft/full,
-/turf/unsimulated/floor{
-	icon = 'icons/turf/flooring/wood.dmi';
-	icon_state = "wood_broken6"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bO" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/washing_machine,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bP" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bQ" = (
 /obj/machinery/atmospherics/omni/mixer{
@@ -783,10 +510,7 @@
 	tag_west_con = 0.5;
 	use_power = 0
 	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bR" = (
 /obj/structure/window/reinforced{
@@ -796,25 +520,17 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bS" = (
 /obj/decal/cleanable/dirt,
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bT" = (
 /obj/item/pizzabox/meat,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bU" = (
 /obj/structure/table/rack,
@@ -825,22 +541,12 @@
 /obj/item/clothing/under/vox/vox_robes,
 /obj/item/gun/projectile/dartgun/vox/raider,
 /obj/item/gun/energy/sonic,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"bV" = (
-/obj/item/stool/padded,
-/turf/unsimulated/floor{
-	icon_state = "wood"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bW" = (
 /obj/decal/cleanable/generic,
 /obj/item/stool/padded,
-/turf/unsimulated/floor{
-	icon_state = "wood"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bX" = (
 /obj/structure/table/rack,
@@ -850,9 +556,7 @@
 /obj/item/clothing/gloves/vox,
 /obj/item/clothing/under/vox/vox_casual,
 /obj/item/gun/projectile/dartgun/vox/raider,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bY" = (
 /obj/structure/table/rack,
@@ -863,38 +567,32 @@
 /obj/random/glasses,
 /obj/item/clothing/under/vox/vox_robes,
 /obj/item/gun/projectile/dartgun/vox/medical,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "bZ" = (
 /obj/machinery/acting/changer,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ca" = (
 /obj/structure/table/woodentable,
 /obj/item/pizzabox/meat,
-/turf/unsimulated/floor{
-	icon_state = "wood"
-	},
+/obj/random/loot/basicarmorbundle,
+/obj/random/loot/basicarmorbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cb" = (
 /obj/structure/table/woodentable,
 /obj/item/material/ashtray/bronze,
 /obj/item/trash/cigbutt/cigarbutt,
-/turf/unsimulated/floor{
-	icon_state = "wood"
-	},
+/obj/random/loot/rarearmorbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cc" = (
 /obj/structure/table/woodentable,
 /obj/item/reagent_containers/glass/rag,
 /obj/random/ammo,
-/turf/unsimulated/floor{
-	icon_state = "wood"
-	},
+/obj/random/loot/rarearmorbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cd" = (
 /obj/machinery/vending/cigarette{
@@ -902,42 +600,25 @@
 	prices = list();
 	products = list(/obj/item/storage/fancy/smokable/transstellar=10,/obj/item/storage/fancy/matches/matchbox=10,/obj/item/flame/lighter/zippo/random=4,/obj/item/clothing/mask/smokable/cigarette/cigar/havana=2)
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ce" = (
-/obj/item/tank/nitrogen,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/obj/item/tank/oxygen_emergency_extended,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cf" = (
 /obj/random/backpack,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cg" = (
 /obj/structure/sign/poster{
 	pixel_y = -32
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
-/area/map_template/syndicate_mothership/raider_base)
-"ch" = (
-/turf/unsimulated/floor{
-	icon = 'icons/turf/flooring/wood.dmi';
-	icon_state = "wood_broken1"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ci" = (
 /obj/item/stool/padded,
-/turf/unsimulated/floor{
-	icon = 'icons/turf/flooring/wood.dmi';
-	icon_state = "wood_broken1"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cj" = (
 /mob/living/simple_animal/hostile/retaliate/parrot{
@@ -945,9 +626,7 @@
 	name = "\proper Meatbag";
 	say_list_type = /datum/say_list/parrot/heist
 	},
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ck" = (
 /obj/structure/grille,
@@ -960,9 +639,7 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cm" = (
 /obj/item/device/radio/intercom/raider{
@@ -974,16 +651,11 @@
 	icon_state = "plant-25";
 	name = "Jamie"
 	},
-/turf/unsimulated/floor{
-	icon_state = "wood"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cn" = (
 /obj/structure/reagent_dispensers/beerkeg,
-/turf/unsimulated/floor{
-	icon = 'icons/turf/flooring/wood.dmi';
-	icon_state = "wood_broken1"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "co" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
@@ -992,39 +664,31 @@
 	pixel_x = -25;
 	pixel_y = -5
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cp" = (
 /obj/structure/closet/crate,
-/obj/item/tank/nitrogen,
-/obj/item/tank/nitrogen,
-/obj/item/tank/nitrogen,
-/obj/item/tank/nitrogen,
-/obj/item/tank/nitrogen,
-/obj/item/tank/nitrogen,
+/obj/item/tank/oxygen_emergency_extended,
+/obj/item/tank/oxygen_emergency_extended,
+/obj/item/tank/oxygen_emergency_extended,
+/obj/item/tank/oxygen_emergency_extended,
+/obj/item/tank/oxygen_emergency_extended,
+/obj/item/tank/oxygen_emergency_extended,
 /obj/item/clothing/mask/gas/swat/vox,
 /obj/item/clothing/mask/gas/swat/vox,
 /obj/item/clothing/mask/gas/swat/vox,
 /obj/item/clothing/mask/gas/swat/vox,
 /obj/item/clothing/mask/gas/swat/vox,
 /obj/item/clothing/mask/gas/swat/vox,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cq" = (
-/obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
-/area/map_template/syndicate_mothership/raider_base)
+/obj/machinery/portable_atmospherics/canister/phoron,
+/turf/simulated/floor/shuttle/black,
+/area/map_template/skipjack_station/start)
 "cr" = (
 /obj/item/clothing/head/philosopher_wig,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cs" = (
 /obj/structure/lattice,
@@ -1032,18 +696,14 @@
 /area/space)
 "ct" = (
 /obj/machinery/door/airlock/external,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cu" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
 	id_tag = "skipjack_base_hatch"
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "cv" = (
 /obj/item/trash/cheesie,
@@ -1261,6 +921,7 @@
 /obj/item/device/suit_cooling_unit,
 /obj/item/device/suit_cooling_unit,
 /obj/random/glasses,
+/obj/random/loot/raresidearmbundle,
 /turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cU" = (
@@ -1279,6 +940,7 @@
 /obj/random/raider/hardsuit,
 /obj/item/clothing/head/pirate,
 /obj/item/gun/launcher/money,
+/obj/random/loot/raresidearmbundle,
 /turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cY" = (
@@ -1309,7 +971,7 @@
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
 /obj/item/material/harpoon,
-/obj/random/lilgun,
+/obj/random/loot/sidearmbundle,
 /turf/simulated/floor/plating,
 /area/map_template/skipjack_station/start)
 "db" = (
@@ -1346,6 +1008,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/random/loot/raresidearmbundle,
 /turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "df" = (
@@ -1362,6 +1025,7 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
+/obj/random/loot/raresidearmbundle,
 /turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dg" = (
@@ -1404,7 +1068,7 @@
 /obj/item/tank/oxygen,
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
-/obj/random/biggun,
+/obj/random/loot/raresidearmbundle,
 /turf/simulated/floor/plating,
 /area/map_template/skipjack_station/start)
 "dk" = (
@@ -1453,16 +1117,9 @@
 /obj/item/tank/oxygen,
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
-/obj/random/lilgun,
+/obj/random/loot/sidearmbundle,
 /turf/simulated/floor/plating,
 /area/map_template/skipjack_station/start)
-"dr" = (
-/obj/random/ammo,
-/turf/unsimulated/floor{
-	icon_state = "carpet";
-	name = "carpet"
-	},
-/area/map_template/syndicate_mothership/raider_base)
 "ds" = (
 /obj/item/robot_parts/head,
 /turf/simulated/floor/plating,
@@ -1540,7 +1197,8 @@
 /obj/item/grenade/empgrenade,
 /obj/item/grenade/flashbang,
 /obj/item/grenade/spawnergrenade/viscerator,
-/obj/random/biggun,
+/obj/random/loot/raregunsenergy,
+/obj/random/loot/raregunslug,
 /turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dD" = (
@@ -1590,10 +1248,7 @@
 /obj/random/donkpocket_box,
 /obj/item/reagent_containers/food/snacks/tastybread,
 /obj/item/reagent_containers/food/snacks/tastybread,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/skipjack_station/start)
 "dL" = (
 /obj/machinery/door/airlock/hatch,
@@ -1676,6 +1331,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/shuttle/black,
 /area/map_template/skipjack_station/start)
 "dW" = (
@@ -1692,7 +1348,7 @@
 "dY" = (
 /obj/item/deck/cards,
 /obj/structure/table/steel,
-/obj/random/lilgun,
+/obj/random/loot/lasbundle,
 /turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dZ" = (
@@ -1727,7 +1383,7 @@
 /area/map_template/skipjack_station/start)
 "ee" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/obj/item/tank/nitrogen,
+/obj/item/tank/oxygen_emergency_extended,
 /turf/simulated/floor/plating,
 /area/map_template/skipjack_station/start)
 "ef" = (
@@ -1754,7 +1410,7 @@
 /area/map_template/skipjack_station/start)
 "ei" = (
 /obj/structure/table/steel,
-/obj/random/lilgun,
+/obj/random/loot/lasbundle,
 /turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "ej" = (
@@ -1918,10 +1574,7 @@
 /obj/machinery/telecomms/allinone{
 	intercept = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ho" = (
 /obj/machinery/constructable_frame/computerframe,
@@ -1939,9 +1592,7 @@
 /obj/item/clothing/gloves/vox,
 /obj/item/clothing/under/vox/vox_casual,
 /obj/item/gun/launcher/alien/slugsling,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 
 (1,1,1) = {"
@@ -2762,10 +2413,10 @@ ab
 ab
 ab
 aQ
-aq
+ao
 bz
-aq
-aq
+ao
+ao
 ce
 bk
 ab
@@ -2834,13 +2485,13 @@ ab
 ab
 ab
 aR
-aq
+ao
 VK
 bU
 bX
-aq
-aq
-aq
+ao
+ao
+ao
 ab
 ab
 ab
@@ -2903,14 +2554,14 @@ ab
 ab
 ab
 aA
-aq
+ao
 aQ
-aq
+ao
 bk
-aq
-aq
-aq
-aq
+ao
+ao
+ao
+ao
 aQ
 cp
 ab
@@ -2972,19 +2623,19 @@ ab
 ab
 ab
 ab
-an
-aq
-aq
-aq
-aq
-aq
-aq
+ao
+ao
+ao
+ao
+ao
+ao
+ao
 bB
 bA
 bY
-aq
-aq
-cq
+ao
+ao
+ao
 ab
 ab
 ab
@@ -3044,16 +2695,16 @@ ab
 ab
 ab
 ab
-aq
-aq
+ao
+ao
 aB
 aC
-aq
-aq
-aq
+ao
+ao
+ao
 aR
-aq
-aq
+ao
+ao
 cf
 cj
 cr
@@ -3116,17 +2767,17 @@ ab
 ab
 ab
 ab
-aq
-aq
+ao
+ao
 aC
 aC
-aq
-aq
+ao
+ao
 ab
-aq
+ao
 aQ
-aq
-aq
+ao
+ao
 ab
 ab
 ab
@@ -3188,11 +2839,11 @@ ab
 ab
 ab
 ab
-aj
-aq
+ao
+ao
 aC
 aC
-aq
+ao
 ab
 ab
 ab
@@ -3260,11 +2911,11 @@ ab
 ab
 ab
 ab
-aj
-aw
+ao
+bk
 aC
 aC
-aq
+ao
 ab
 ab
 ab
@@ -3332,11 +2983,11 @@ ab
 ab
 ab
 ab
-af
-aj
+aQ
+ao
 ae
 ae
-aj
+ao
 ae
 ae
 ae
@@ -3404,11 +3055,11 @@ ab
 ab
 ab
 ad
-an
-an
+ao
+ao
 ae
 aH
-aS
+ao
 ba
 bl
 ae
@@ -3480,9 +3131,9 @@ ar
 ar
 ae
 aI
-aT
-aj
-bm
+aE
+ao
+bn
 ae
 ab
 aa
@@ -3548,12 +3199,12 @@ ab
 ab
 ab
 ad
-aj
-an
+ao
+ao
 ae
 aJ
-aS
-aS
+ao
+ao
 bn
 ae
 aC
@@ -3620,8 +3271,8 @@ ab
 ab
 ab
 ad
-an
-aj
+ao
+ao
 ae
 ae
 aU
@@ -3692,14 +3343,14 @@ ab
 ab
 ab
 ad
-af
-an
-an
-an
-an
-an
-an
-bC
+aQ
+ao
+ao
+ao
+ao
+ao
+ao
+bi
 aC
 aC
 aa
@@ -3764,14 +3415,14 @@ ab
 ab
 ab
 ad
-an
-an
-an
-an
+ao
+ao
+ao
+ao
 aV
-af
-an
-aj
+aQ
+ao
+ao
 aC
 aC
 aC
@@ -3836,8 +3487,8 @@ ab
 ab
 ab
 ad
-an
-an
+ao
+ao
 ae
 ae
 ae
@@ -3908,8 +3559,8 @@ ab
 ab
 ab
 ad
-an
-an
+ao
+ao
 ae
 aK
 aW
@@ -3918,11 +3569,11 @@ bo
 bD
 ae
 bZ
-aj
+ao
 cl
 ct
-an
-an
+ao
+ao
 ct
 cx
 cB
@@ -3980,21 +3631,21 @@ ab
 ab
 ab
 ad
-an
-an
+ao
+ao
 ae
 aL
 aX
 aX
-aY
+ao
 bE
 bq
-an
-aj
-aj
+ao
+ao
+ao
 ct
-an
-an
+ao
+ao
 bq
 cy
 cC
@@ -4052,16 +3703,16 @@ ad
 ad
 ad
 ad
-aj
-an
+ao
+ao
 aD
 aM
-aY
-aY
-aY
+ao
+ao
+ao
 bF
 bq
-an
+ao
 cg
 ae
 ae
@@ -4121,20 +3772,20 @@ ab
 ab
 ab
 ab
-af
-aj
-an
-an
-an
+aQ
+ao
+ao
+ao
+ao
 aD
 aN
-aY
-aY
-dr
+ao
+ao
+aR
 bG
 bq
-af
-an
+aQ
+ao
 bq
 aa
 aa
@@ -4195,18 +3846,18 @@ ab
 ab
 ab
 ab
-aj
-an
-an
+ao
+ao
+ao
 ae
 aL
 aX
 aX
-aY
+ao
 bH
 bq
-aj
-an
+ao
+ao
 bq
 aa
 cv
@@ -4268,8 +3919,8 @@ ae
 ae
 ae
 ae
-an
-an
+ao
+ao
 ae
 aO
 aZ
@@ -4277,8 +3928,8 @@ bc
 bp
 bI
 ae
-an
-an
+ao
+ao
 bq
 aa
 aa
@@ -4340,8 +3991,8 @@ ab
 ab
 ab
 ae
-af
-an
+aQ
+ao
 ae
 ae
 ae
@@ -4365,7 +4016,7 @@ do
 cU
 dB
 cR
-dU
+cq
 dU
 dU
 er
@@ -4412,17 +4063,17 @@ ab
 ab
 ab
 ae
-an
-an
-an
-an
-an
-an
+ao
+ao
+ao
+ao
+ao
+ao
 aD
-bJ
-bJ
-bJ
-ch
+ao
+ao
+ao
+ao
 cm
 ae
 aa
@@ -4485,17 +4136,17 @@ ae
 ae
 ae
 as
-an
-an
-an
-an
-an
+ao
+ao
+ao
+ao
+ao
 ae
-bK
-bV
+ao
+ci
 ca
-bV
-bJ
+ci
+ao
 bq
 aa
 aa
@@ -4560,14 +4211,14 @@ ae
 ae
 ae
 ae
-an
-an
+ao
+ao
 ae
 bL
 bW
 cb
 ci
-bJ
+ao
 bq
 aa
 aa
@@ -4626,20 +4277,20 @@ ab
 ab
 ae
 ah
-al
+bk
 ao
 ao
 ax
 aE
 aD
-an
-an
+ao
+ao
 bq
 bM
-bV
+ci
 cc
-bV
-bJ
+ci
+ao
 bq
 aa
 aa
@@ -4701,16 +4352,16 @@ ai
 am
 ap
 ao
-ay
+aQ
 ao
 aD
-af
-an
+aQ
+ao
 bq
 bN
-bJ
-bJ
-bJ
+ao
+ao
+ao
 cn
 ae
 aa
@@ -4776,8 +4427,8 @@ ao
 ao
 aF
 ae
-an
-an
+ao
+ao
 ae
 bq
 bq
@@ -4848,13 +4499,13 @@ at
 at
 ae
 ae
-an
-aj
-br
-an
-an
-an
-an
+ao
+ao
+ax
+ao
+ao
+ao
+ao
 bq
 aa
 aa
@@ -4919,14 +4570,14 @@ ae
 ae
 ae
 ae
-an
-an
-an
-aj
-aj
-aj
-an
-af
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+aQ
 bq
 aa
 aa
@@ -4991,14 +4642,14 @@ ae
 ae
 ae
 ae
-aP
+aD
 ae
 ae
-aP
+aD
 ae
 ae
-an
-an
+ao
+ao
 bq
 aa
 aa
@@ -5060,17 +4711,17 @@ ab
 ab
 ab
 ae
-aw
-aj
-aj
-aw
+bk
+ao
+ao
+bk
 ae
 bd
-aj
+ao
 bO
 ae
-an
-an
+ao
+ao
 ae
 ae
 bq
@@ -5132,21 +4783,21 @@ ab
 ab
 ab
 ae
-aj
-aj
+ao
+ao
 aG
-aj
+ao
 ae
 be
 bs
 bP
 ae
-an
-af
+ao
+aQ
 co
 cu
-an
-an
+ao
+ao
 bq
 cw
 cG
@@ -5204,21 +4855,21 @@ ab
 ab
 ab
 ae
-aj
+ao
 az
-aj
-aj
+ao
+ao
 ae
 bf
 bt
 bQ
 ae
 cd
-an
-an
+ao
+ao
 cu
-an
-an
+ao
+ao
 cu
 cA
 cH
@@ -5277,9 +4928,9 @@ ab
 ab
 ae
 eI
-aj
-aj
-aj
+ao
+ao
+ao
 ae
 bg
 bu

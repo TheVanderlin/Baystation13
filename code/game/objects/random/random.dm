@@ -107,13 +107,13 @@
 	icon_state = "hcell"
 
 /obj/random/powercell/spawn_choices()
-	return list(/obj/item/cell/crap = 1,
+	return list(/obj/item/cell/device/high/laspack = 3,
 				/obj/item/cell/standard = 8,
 				/obj/item/cell/high = 5,
 				/obj/item/cell/super = 2,
 				/obj/item/cell/hyper = 1,
 				/obj/item/cell/device/standard = 7,
-				/obj/item/cell/device/high = 5)
+				/obj/item/cell/device/high/laspack/hotshot = 1)
 
 /obj/random/bomb_supply
 	name = "bomb supply"
@@ -135,9 +135,9 @@
 	icon_state = "red"
 
 /obj/random/toolbox/spawn_choices()
-	return list(/obj/item/storage/toolbox/mechanical = 30,
-				/obj/item/storage/toolbox/electrical = 20,
-				/obj/item/storage/toolbox/emergency = 20,
+	return list(/obj/item/storage/toolbox/mechanical = 5,
+				/obj/item/storage/toolbox/electrical = 5,
+				/obj/item/storage/toolbox/emergency = 5,
 				/obj/item/storage/toolbox/syndicate = 1)
 
 /obj/random/tech_supply
@@ -170,11 +170,11 @@
 	icon_state = "pack0"
 
 /obj/random/medical/spawn_choices()
-	return list(/obj/random/medical/lite = 21,
-				/obj/item/bodybag = 2,
+	return list(/obj/random/medical/lite = 10,
+				/obj/item/bodybag = 4,
 				/obj/item/reagent_containers/glass/bottle/inaprovaline = 2,
 				/obj/item/reagent_containers/glass/bottle/antitoxin = 2,
-				/obj/item/storage/pill_bottle = 2,
+				/obj/item/storage/pill_bottle = 8,
 				/obj/item/storage/pill_bottle/tramadol = 1,
 				/obj/item/storage/pill_bottle/citalopram = 2,
 				/obj/item/storage/pill_bottle/dexalin_plus = 1,
@@ -195,6 +195,7 @@
 
 /obj/random/medical/lite/spawn_choices()
 	return list(/obj/item/stack/medical/bruise_pack = 4,
+				/obj/item/storage/pill_bottle = 12,
 				/obj/item/stack/medical/ointment = 4,
 				/obj/item/storage/pill_bottle/antidexafen = 2,
 				/obj/item/storage/pill_bottle/paracetamol = 2,

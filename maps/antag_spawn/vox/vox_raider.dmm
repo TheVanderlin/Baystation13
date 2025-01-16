@@ -30,6 +30,14 @@
 /obj/item/material/knife/combat,
 /obj/item/material/knife/combat,
 /obj/item/material/sword/makeshift,
+/obj/random/loot/rarearmorbundle,
+/obj/random/loot/rarearmorbundle,
+/obj/random/loot/rarearmorbundle,
+/obj/random/loot/swordmelee,
+/obj/random/loot/swordmelee,
+/obj/random/loot/swordmelee,
+/obj/random/loot/basicarmorbundle,
+/obj/random/loot/basicarmorbundle,
 /turf/simulated/floor/tiled/dark/monotile/vox,
 /area/map_template/vox_raider)
 "ae" = (
@@ -47,9 +55,9 @@
 "ag" = (
 /obj/structure/table/rack,
 /obj/floor_decal/corner/b_green/mono,
-/obj/item/gun/projectile/heavysniper/boltaction,
-/obj/item/gun/projectile/pistol/bolt_pistol/drusian,
-/obj/item/gun/projectile/pistol/slug/old,
+/obj/random/loot/lootartifacts,
+/obj/random/loot/lootcontraband,
+/obj/random/loot/lootcontraband,
 /turf/simulated/floor/tiled/dark/monotile/vox,
 /area/map_template/vox_raider)
 "ah" = (
@@ -57,7 +65,8 @@
 /obj/item/clothing/mask/gas/swat/vox,
 /obj/item/clothing/under/vox/vox_casual,
 /obj/item/clothing/suit/armor/vox_scrap,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/obj/random/loot/raregunslug,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "ai" = (
 /obj/structure/table/rack,
@@ -65,7 +74,8 @@
 /obj/item/clothing/under/vox/vox_casual,
 /obj/machinery/light/vox,
 /obj/item/clothing/suit/armor/vox_scrap,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/obj/random/loot/raregunslug,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "aj" = (
 /obj/wallframe_spawn/reinforced/titanium,
@@ -78,16 +88,12 @@
 /obj/item/reagent_containers/ivbag/blood/vox/oneg,
 /obj/structure/iv_stand,
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "al" = (
 /obj/machinery/optable,
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "am" = (
 /obj/structure/table/rack,
@@ -95,13 +101,20 @@
 /obj/item/clothing/under/vox/vox_casual,
 /obj/decal/cleanable/filth,
 /obj/item/clothing/suit/armor/vox_scrap,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/obj/random/loot/raregunslug,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "an" = (
 /obj/structure/table/rack,
 /obj/floor_decal/corner/b_green/mono,
 /obj/item/material/harpoon,
 /obj/item/material/harpoon,
+/obj/random/loot/randomcolonyitems,
+/obj/random/loot/randomcolonyitems,
+/obj/random/loot/randomsupply,
+/obj/random/loot/randomcolonyitems,
+/obj/random/loot/randomcolonyitems,
+/obj/random/loot/randomsupply/tech,
 /turf/simulated/floor/tiled/dark/monotile/vox,
 /area/map_template/vox_raider)
 "ao" = (
@@ -109,7 +122,9 @@
 /obj/item/clothing/mask/gas/swat/vox,
 /obj/item/clothing/under/vox/vox_casual,
 /obj/item/clothing/suit/armor/makeshift,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/obj/random/loot/raresidearmbundle,
+/obj/random/loot/raresidearmbundle,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "ap" = (
 /obj/structure/closet/crate{
@@ -139,9 +154,7 @@
 /obj/item/storage/firstaid/surgery,
 /obj/item/stack/nanopaste,
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "ax" = (
 /turf/space,
@@ -151,27 +164,21 @@
 	dir = 8
 	},
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "bb" = (
 /obj/machinery/body_scanconsole{
 	dir = 8
 	},
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "be" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "bi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -181,9 +188,7 @@
 	dir = 10
 	},
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "bk" = (
 /obj/structure/closet/medical_wall/filled{
@@ -208,9 +213,7 @@
 	dir = 4
 	},
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "bP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -227,9 +230,7 @@
 	},
 /obj/machinery/light/vox,
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "ck" = (
 /obj/structure/closet/crate/warhammer/freezer,
@@ -248,18 +249,14 @@
 /obj/floor_decal/corner/yellow/full,
 /obj/item/storage/box/detergent,
 /obj/item/storage/box/detergent,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "cm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "cB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -269,9 +266,7 @@
 	name = "Vox-Spawn"
 	},
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "cJ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -279,9 +274,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "cU" = (
 /obj/machinery/vending/medical{
@@ -292,9 +285,7 @@
 	dir = 4
 	},
 /obj/floor_decal/corner/yellow/full,
-/turf/simulated/floor/tiled/freezer{
-	initial_gas = list("nitrogen" = 101.383)
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "dj" = (
 /obj/machinery/atmospherics/unary/tank/oxygen{
@@ -307,10 +298,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/floor_decal/corner/b_green{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "dr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -328,16 +316,14 @@
 /turf/simulated/floor/shuttle_ceiling/vox,
 /area/map_template/vox_raider)
 "ee" = (
-/obj/floor_decal/corner/b_green/half,
 /obj/machinery/door/airlock/hatch,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "ej" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/floor_decal/corner/b_green/half,
 /obj/machinery/door/airlock/hatch,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "ek" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -360,14 +346,11 @@
 /obj/machinery/light/vox{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "eB" = (
 /obj/machinery/computer/shuttle_control/explore/vox_raider,
-/turf/simulated/floor/tiled/dark/monotile/vox,
-/area/map_template/vox_raider)
-"eE" = (
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "eF" = (
 /obj/machinery/fabricator/hacked,
@@ -381,10 +364,7 @@
 "eG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/floor_decal/corner/b_green{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "eH" = (
 /obj/machinery/alarm/vox{
@@ -396,7 +376,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "eM" = (
 /obj/machinery/power/smes/buildable/preset/admin,
@@ -416,43 +396,24 @@
 /obj/floor_decal/industrial/hatch/orange,
 /turf/simulated/floor/tiled/dark/monotile/vox,
 /area/map_template/vox_raider)
-"eQ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/floor_decal/corner/b_green{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark/monotile/vox,
-/area/map_template/vox_raider)
-"eW" = (
-/obj/floor_decal/corner/b_green/three_quarters{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/vox,
-/area/map_template/vox_raider)
 "ff" = (
 /obj/machinery/computer/ship/helm{
 	dir = 4;
 	req_access = list("ACCESS_SYNDICATE")
 	},
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "fi" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/floor_decal/corner/b_green{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "fl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/obj/floor_decal/corner/b_green/three_quarters{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "fo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -462,8 +423,7 @@
 /obj/landmark{
 	name = "Vox-Spawn"
 	},
-/obj/floor_decal/corner/b_green/three_quarters,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "fV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -472,10 +432,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/floor_decal/corner/b_green/three_quarters{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "kF" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -486,10 +443,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/floor_decal/corner/b_green{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "kI" = (
 /obj/machinery/power/terminal{
@@ -499,10 +453,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/floor_decal/corner/b_green{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "nN" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
@@ -515,8 +466,7 @@
 /obj/structure/bed/chair/comfy/green{
 	dir = 8
 	},
-/obj/floor_decal/corner/b_green,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "pU" = (
 /obj/structure/cable/yellow{
@@ -524,15 +474,11 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/obj/floor_decal/corner/b_green{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "qj" = (
-/obj/floor_decal/corner/b_green/three_quarters,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "rM" = (
 /obj/paint/vox,
@@ -548,8 +494,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/obj/floor_decal/corner/b_green/full,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "tN" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -558,15 +503,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/floor_decal/corner/b_green/full,
-/turf/simulated/floor/tiled/dark/vox,
-/area/map_template/vox_raider)
-"tW" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/floor_decal/corner/b_green/full,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "vU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -578,7 +515,7 @@
 /obj/structure/table/steel,
 /obj/item/clothing/glasses/hud/health/goggle,
 /obj/item/clothing/glasses/meson,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "vX" = (
 /obj/overmap/visitable/sector/vox_start,
@@ -588,7 +525,7 @@
 /obj/machinery/computer/ship/sensors/vox{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "ww" = (
 /obj/machinery/light/vox,
@@ -598,20 +535,14 @@
 /obj/structure/bed/chair/comfy/green{
 	dir = 8
 	},
-/obj/floor_decal/corner/b_green{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "wz" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4;
 	level = 2
 	},
-/obj/floor_decal/corner/b_green{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "wG" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/black,
@@ -635,10 +566,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/obj/floor_decal/corner/b_green/three_quarters{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "xE" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -648,7 +576,7 @@
 /obj/structure/closet/crate/radiation,
 /obj/item/stack/material/phoron/ten,
 /obj/item/stack/material/phoron/ten,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "xK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -657,13 +585,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/floor_decal/corner/b_green/half{
-	dir = 1
-	},
 /obj/machinery/door/airlock/multi_tile{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "yA" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -672,22 +597,13 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/obj/floor_decal/corner/b_green/three_quarters{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "yQ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/floor_decal/corner/b_green{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark/vox,
-/area/map_template/vox_raider)
-"zx" = (
-/obj/floor_decal/corner/b_green/full,
-/turf/simulated/floor/tiled/dark/vox,
+/obj/random/loot/lootstructureartifact,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Ah" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -701,28 +617,10 @@
 	},
 /obj/shuttle_landmark/vox_raider/start,
 /obj/overmap/visitable/ship/landable/vox_raider,
-/obj/floor_decal/corner/b_green{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Am" = (
-/obj/floor_decal/corner/b_green{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark/vox,
-/area/map_template/vox_raider)
-"Av" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/floor_decal/corner/b_green{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "BI" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -731,15 +629,14 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/obj/floor_decal/corner/b_green/full,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Db" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Dm" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
@@ -751,21 +648,18 @@
 /area/map_template/vox_raider)
 "DZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/floor_decal/corner/b_green{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "EG" = (
 /obj/machinery/light/vox,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "GJ" = (
 /obj/structure/cable/green,
 /obj/machinery/power/apc/hyper{
 	req_access = list("ACCESS_SYNDICATE")
 	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "HJ" = (
 /obj/machinery/access_button{
@@ -780,10 +674,7 @@
 /obj/landmark{
 	name = "Vox-Spawn"
 	},
-/obj/floor_decal/corner/b_green{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "IF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -792,10 +683,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/floor_decal/corner/b_green/three_quarters{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Jj" = (
 /obj/machinery/door/airlock/external/bolted{
@@ -807,28 +695,13 @@
 "JN" = (
 /obj/machinery/door/airlock/hatch,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/floor_decal/corner/b_green/half{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "KM" = (
 /obj/machinery/door/airlock/hatch,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/floor_decal/corner/b_green/half{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/monotile/vox,
-/area/map_template/vox_raider)
-"KQ" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Lc" = (
 /obj/machinery/door/airlock/external/bolted_open{
@@ -876,35 +749,30 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Pk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/obj/floor_decal/corner/b_green{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Rn" = (
 /obj/machinery/light/vox{
 	dir = 1
 	},
-/obj/floor_decal/corner/b_green/full,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Ry" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/floor_decal/corner/b_green/half,
 /obj/machinery/door/airlock/hatch,
-/turf/simulated/floor/tiled/dark/monotile/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "RP" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "Tw" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
@@ -923,7 +791,7 @@
 /obj/landmark{
 	name = "Vox-Spawn"
 	},
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "UC" = (
 /obj/wallframe_spawn/reinforced/titanium,
@@ -939,10 +807,6 @@
 	},
 /obj/structure/handrail,
 /turf/simulated/floor/plating/vox,
-/area/map_template/vox_raider)
-"Vf" = (
-/obj/floor_decal/corner/b_green/half,
-/turf/simulated/floor/tiled/dark/monotile/vox,
 /area/map_template/vox_raider)
 "Ww" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
@@ -981,11 +845,11 @@
 /obj/item/reagent_containers/food/snacks/meat/beef,
 /obj/item/reagent_containers/food/snacks/meat/beef,
 /obj/item/reagent_containers/food/snacks/meat/beef,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 "ZC" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/tiled/dark/vox,
+/turf/simulated/floor/warhammer/plating,
 /area/map_template/vox_raider)
 
 (1,1,1) = {"
@@ -1271,7 +1135,7 @@ bb
 bU
 ae
 ae
-Vf
+Am
 xK
 ae
 ae
@@ -1380,8 +1244,8 @@ ae
 ae
 eM
 kI
-Av
-eE
+fV
+Am
 ae
 UY
 Tw
@@ -1433,7 +1297,7 @@ ab
 ek
 ae
 ae
-Vf
+Am
 xK
 ae
 ae
@@ -1459,7 +1323,7 @@ bP
 dH
 dr
 Ry
-eQ
+qj
 qj
 dq
 ao
@@ -1486,7 +1350,7 @@ ae
 ae
 ae
 ae
-eW
+Am
 sE
 BI
 IF
@@ -1514,7 +1378,7 @@ dZ
 dZ
 ae
 ad
-KQ
+tN
 Dm
 tN
 ai
@@ -1543,7 +1407,7 @@ ae
 ag
 RP
 af
-tW
+RP
 ah
 ae
 ax
@@ -1568,9 +1432,9 @@ ax
 ax
 ae
 an
-eE
+Am
 ap
-zx
+Am
 am
 ae
 ax

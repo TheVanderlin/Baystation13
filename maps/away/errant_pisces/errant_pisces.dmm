@@ -907,6 +907,7 @@
 "cC" = (
 /obj/landmark/corpse/engineer,
 /obj/decal/cleanable/blood,
+/obj/random/loot/raregunslug,
 /turf/simulated/floor/plating,
 /area/errant_pisces/enginering)
 "cD" = (
@@ -1717,16 +1718,16 @@
 "ek" = (
 /obj/structure/table/standard,
 /obj/item/towel/random,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "el" = (
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "em" = (
 /obj/machinery/door/airlock,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "en" = (
 /obj/machinery/alarm{
@@ -1734,11 +1735,12 @@
 	},
 /obj/landmark/corpse/carp_fisher,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/obj/item/grenade/frag/homemade,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "eo" = (
 /obj/machinery/door/airlock,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "ep" = (
 /obj/structure/hygiene/toilet{
@@ -1747,7 +1749,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "eq" = (
 /obj/structure/cable{
@@ -1808,27 +1810,27 @@
 /obj/structure/hygiene/toilet{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "ew" = (
 /obj/machinery/door/airlock,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "ex" = (
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "ey" = (
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "ez" = (
 /obj/structure/table/standard,
 /obj/item/towel/random,
 /obj/item/towel/random,
 /obj/item/towel/random,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "eA" = (
 /obj/structure/cable{
@@ -1866,7 +1868,6 @@
 	id_tag = "xyn_solar_port_sensor";
 	pixel_y = 25
 	},
-/mob/living/simple_animal/hostile/carp/shark,
 /turf/simulated/floor/plating,
 /area/errant_pisces/solar_port)
 "eC" = (
@@ -1967,7 +1968,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "eJ" = (
 /turf/simulated/wall,
@@ -1977,7 +1978,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "eL" = (
 /obj/machinery/light/small{
@@ -1987,7 +1988,7 @@
 	dir = 10
 	},
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "eM" = (
 /obj/machinery/power/terminal,
@@ -2077,20 +2078,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "eT" = (
 /obj/structure/closet/athletic_mixed,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "eU" = (
 /obj/structure/hygiene/shower{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "eV" = (
 /obj/machinery/door/airlock/external{
@@ -2137,8 +2138,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/blood,
-/mob/living/simple_animal/hostile/carp/shark,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "eZ" = (
 /obj/structure/closet/athletic_mixed,
@@ -2146,7 +2146,8 @@
 	dir = 4;
 	level = 2
 	},
-/turf/simulated/floor/tiled/white,
+/obj/random/loot/randomcolonyitems,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "fa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2154,7 +2155,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "fb" = (
 /obj/structure/cable{
@@ -2222,20 +2223,21 @@
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "fh" = (
 /obj/structure/closet/athletic_mixed,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "fi" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "fj" = (
 /obj/structure/cable{
@@ -2365,7 +2367,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "fu" = (
 /turf/simulated/floor/plating,
@@ -2398,7 +2400,7 @@
 "fy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "fA" = (
 /obj/structure/cable{
@@ -2527,7 +2529,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "fK" = (
 /obj/machinery/light/small{
@@ -2568,13 +2570,14 @@
 /obj/structure/closet/crate/radiation,
 /obj/item/stack/material/tritium/ten,
 /obj/item/stack/material/tritium/ten,
+/obj/random/loot/randomcolonyitems,
 /turf/simulated/floor/plating,
 /area/errant_pisces/smes_room)
 "fO" = (
 /obj/structure/hygiene/urinal{
 	pixel_y = 30
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "fP" = (
 /obj/structure/cable/green{
@@ -2584,7 +2587,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "fR" = (
 /obj/item/stool,
@@ -2666,10 +2669,10 @@
 	icon_state = "tube1"
 	},
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "fZ" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "ga" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2678,7 +2681,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2687,7 +2690,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gc" = (
 /obj/machinery/light,
@@ -2698,7 +2701,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gd" = (
 /obj/structure/cable/green{
@@ -2712,7 +2715,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "ge" = (
 /obj/structure/cable/green{
@@ -2732,7 +2735,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gf" = (
 /obj/machinery/light,
@@ -2743,7 +2746,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2752,7 +2755,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gh" = (
 /obj/machinery/light{
@@ -2760,7 +2763,7 @@
 	icon_state = "tube1"
 	},
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gi" = (
 /turf/simulated/wall/r_wall,
@@ -2774,7 +2777,7 @@
 	pixel_x = -32
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gl" = (
 /obj/structure/cable/green{
@@ -2790,7 +2793,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gm" = (
 /obj/machinery/power/apc{
@@ -2803,7 +2806,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gn" = (
 /turf/simulated/wall,
@@ -2814,27 +2817,27 @@
 "gp" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/rainbow,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gq" = (
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gr" = (
 /obj/machinery/computer/modular{
 	dir = 8
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gs" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/orange,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gt" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 1
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gu" = (
 /obj/machinery/light{
@@ -2842,20 +2845,20 @@
 	icon_state = "tube1"
 	},
 /obj/machinery/jukebox,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gv" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gw" = (
 /obj/structure/table/woodentable,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	level = 2
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gx" = (
 /obj/wallframe_spawn/reinforced,
@@ -2867,7 +2870,7 @@
 	dir = 4;
 	level = 2
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gz" = (
 /obj/structure/cable/green{
@@ -2881,13 +2884,13 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gB" = (
 /obj/wallframe_spawn/reinforced,
@@ -2899,7 +2902,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	level = 2
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gD" = (
 /obj/machinery/vending/fitness,
@@ -2907,38 +2910,38 @@
 	dir = 1;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gE" = (
 /obj/machinery/vending/cola,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gF" = (
 /obj/structure/closet,
 /obj/random/clothing,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gG" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gH" = (
 /obj/structure/closet,
 /obj/random/accessory,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gI" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet,
 /obj/random/plushie,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gJ" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gK" = (
 /obj/structure/cable/yellow{
@@ -2959,17 +2962,23 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gM" = (
-/mob/living/simple_animal/hostile/carp/shark,
-/turf/simulated/floor/wood,
-/area/errant_pisces/rooms)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/daemon/headcrab/infestor,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/errant_pisces/science_wing)
 "gN" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/suit/armor/vest,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gO" = (
 /obj/structure/bed/chair/comfy/teal,
@@ -2977,23 +2986,23 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gP" = (
 /obj/structure/filingcabinet/chestdrawer,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gQ" = (
 /obj/structure/table/gamblingtable,
 /obj/item/deck/cards,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gR" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "gS" = (
 /obj/structure/cable/green{
@@ -3003,14 +3012,14 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "gT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gU" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gV" = (
 /obj/machinery/power/apc{
@@ -3022,55 +3031,57 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gW" = (
 /obj/structure/closet,
 /obj/random/cash,
 /obj/random/drinkbottle,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gX" = (
 /obj/structure/closet,
 /obj/random/hat,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gY" = (
 /obj/structure/curtain/black,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "gZ" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "ha" = (
 /obj/structure/closet,
 /obj/random/smokes,
-/obj/random/projectile,
-/turf/simulated/floor/wood,
+/obj/random/loot/armorinsertsrare,
+/obj/random/loot/raresidearmbundle,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hb" = (
 /obj/structure/table/woodentable,
 /obj/item/paper_bin,
 /obj/item/device/flashlight/lamp,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hc" = (
 /obj/structure/closet,
 /obj/random/snack,
 /obj/random/tool,
-/obj/random/suit,
-/turf/simulated/floor/wood,
+/obj/random/loot/armorinsertsrare,
+/obj/random/loot/rigloot,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hd" = (
 /obj/structure/table/gamblingtable,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "he" = (
 /obj/structure/table/woodentable,
 /obj/item/material/ashtray/bronze,
 /obj/random/smokes,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hf" = (
 /obj/structure/cable/green{
@@ -3084,7 +3095,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hg" = (
 /obj/machinery/door/airlock,
@@ -3100,7 +3111,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/rooms)
 "hi" = (
 /obj/structure/cable/green{
@@ -3120,7 +3131,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "hj" = (
 /obj/machinery/door/airlock,
@@ -3136,7 +3147,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hk" = (
 /obj/structure/cable/green{
@@ -3150,7 +3161,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hl" = (
 /obj/structure/cable/green{
@@ -3158,7 +3169,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hm" = (
 /obj/structure/cable/green{
@@ -3166,18 +3177,18 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hn" = (
 /obj/machinery/door/airlock,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "ho" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hp" = (
 /obj/floor_decal/solarpanel,
@@ -3198,12 +3209,11 @@
 /area/errant_pisces/infirmary)
 "hr" = (
 /obj/machinery/door/airlock,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hs" = (
-/obj/landmark/corpse/bridgeofficer,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "ht" = (
 /obj/structure/bed/chair/comfy/brown,
@@ -3213,33 +3223,34 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hu" = (
 /obj/machinery/vending/coffee,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hv" = (
 /obj/machinery/vending/cigarette,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hw" = (
 /obj/structure/closet,
-/turf/simulated/floor/tiled,
+/obj/random/loot/randomsupply/tech,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hx" = (
-/obj/decal/cleanable/blood,
-/turf/simulated/floor/wood,
-/area/errant_pisces/rooms)
+/mob/living/simple_animal/hostile/daemon/large,
+/turf/simulated/floor/tiled/freezer,
+/area/errant_pisces/fishing_wing)
 "hy" = (
 /obj/machinery/light{
 	dir = 1;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hz" = (
 /obj/machinery/alarm{
@@ -3250,7 +3261,7 @@
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hA" = (
 /obj/machinery/power/apc{
@@ -3263,25 +3274,25 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/rooms)
 "hB" = (
 /obj/machinery/vending/games,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hC" = (
 /obj/machinery/vending/generic,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hD" = (
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hE" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet,
 /obj/random/plushie/large,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hF" = (
 /turf/simulated/wall/r_wall,
@@ -3327,11 +3338,11 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "hN" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hO" = (
 /obj/machinery/light{
@@ -3339,7 +3350,7 @@
 	icon_state = "tube1"
 	},
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "hP" = (
 /obj/structure/crematorium,
@@ -3368,7 +3379,6 @@
 /turf/simulated/floor/tiled/white,
 /area/errant_pisces/infirmary)
 "hU" = (
-/mob/living/simple_animal/hostile/carp/shark,
 /turf/simulated/floor/tiled/white,
 /area/errant_pisces/infirmary)
 "hV" = (
@@ -3378,17 +3388,17 @@
 "hW" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "hX" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "hY" = (
 /obj/structure/bed/chair,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "hZ" = (
 /obj/structure/table/standard,
@@ -3396,7 +3406,7 @@
 /obj/structure/window/basic{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "ia" = (
 /obj/structure/table/standard,
@@ -3404,26 +3414,26 @@
 /obj/structure/window/basic{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "ib" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "ic" = (
 /obj/machinery/door/airlock,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "id" = (
 /obj/machinery/light{
 	dir = 1;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "ie" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "if" = (
 /obj/wallframe_spawn/reinforced,
@@ -3432,34 +3442,35 @@
 /area/errant_pisces/infirmary)
 "ig" = (
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "ih" = (
 /obj/item/material/knife/table,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "ii" = (
 /obj/item/stool,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "ij" = (
 /obj/structure/table/standard,
-/turf/simulated/floor/tiled,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "ik" = (
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "il" = (
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "im" = (
 /obj/landmark/corpse/chef,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "in" = (
 /obj/machinery/door/airlock/freezer,
@@ -3528,7 +3539,7 @@
 "iz" = (
 /obj/machinery/door/airlock,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iA" = (
 /obj/wallframe_spawn/reinforced,
@@ -3536,42 +3547,42 @@
 /area/errant_pisces/infirmary)
 "iB" = (
 /obj/structure/curtain/medical,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iC" = (
 /obj/structure/window/basic,
 /obj/structure/window/basic{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iD" = (
 /obj/structure/closet,
 /obj/random/firstaid,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iE" = (
 /obj/machinery/computer/modular,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iF" = (
 /obj/structure/table/standard,
 /obj/item/trash/plate,
 /obj/item/material/kitchen/utensil/fork,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "iG" = (
 /obj/structure/table/marble,
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "iH" = (
 /obj/structure/table/marble,
 /obj/item/trash/plate,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "iI" = (
-/mob/living/simple_animal/hostile/carp/shark,
+/obj/item/grenade/frag/homemade,
 /turf/simulated/floor/tiled/freezer,
 /area/errant_pisces/dorms)
 "iJ" = (
@@ -3601,9 +3612,9 @@
 /turf/simulated/floor/plating,
 /area/errant_pisces/infirmary)
 "iO" = (
-/mob/living/simple_animal/hostile/carp/shark,
-/turf/simulated/floor/plating,
-/area/errant_pisces/infirmary)
+/mob/living/simple_animal/hostile/daemon/headcrab/infestor,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/errant_pisces/bridge)
 "iP" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -3628,7 +3639,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3637,7 +3648,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iT" = (
 /obj/machinery/light{
@@ -3655,7 +3666,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3666,7 +3677,7 @@
 	},
 /obj/landmark/corpse/doctor,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3676,7 +3687,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iW" = (
 /obj/machinery/door/firedoor,
@@ -3686,7 +3697,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3695,7 +3706,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iY" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -3704,7 +3715,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3713,7 +3724,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "ja" = (
 /obj/machinery/body_scanconsole,
@@ -3721,20 +3732,20 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jb" = (
 /obj/structure/table/standard,
 /obj/item/paper_bin,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jc" = (
 /obj/structure/table/standard,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jd" = (
 /obj/structure/table/marble,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "je" = (
 /obj/machinery/light/small{
@@ -3766,24 +3777,24 @@
 /area/errant_pisces/infirmary)
 "jj" = (
 /obj/structure/iv_stand,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jn" = (
 /obj/machinery/bodyscanner,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3792,7 +3803,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jp" = (
 /obj/structure/cable/green{
@@ -3806,7 +3817,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jq" = (
 /obj/machinery/door/airlock,
@@ -3822,7 +3833,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jr" = (
 /obj/structure/cable/green{
@@ -3841,24 +3852,24 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "js" = (
 /obj/structure/table/standard,
 /obj/item/material/kitchen/utensil/fork/plastic,
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "jt" = (
 /obj/structure/table/marble,
 /obj/machinery/microwave,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "ju" = (
 /obj/structure/table/marble,
 /obj/machinery/reagentgrinder/juicer,
 /obj/item/reagent_containers/glass/beaker/large,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "jv" = (
 /obj/landmark/corpse/carp_fisher,
@@ -3897,12 +3908,12 @@
 /area/errant_pisces/science_wing)
 "jB" = (
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jC" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/freezer,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jD" = (
 /obj/structure/table/standard,
@@ -3911,7 +3922,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jE" = (
 /obj/structure/table/standard,
@@ -3919,7 +3930,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3928,7 +3939,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jG" = (
 /obj/machinery/door/airlock,
@@ -3948,7 +3959,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jI" = (
 /obj/item/stool,
@@ -3960,7 +3971,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jJ" = (
 /obj/machinery/power/apc{
@@ -3972,25 +3983,25 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jK" = (
 /obj/structure/table/standard,
 /obj/item/material/kitchen/utensil/fork,
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "jL" = (
 /obj/machinery/vending/dinnerware,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "jM" = (
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "jN" = (
 /obj/machinery/cooker/oven,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "jO" = (
 /obj/decal/cleanable/blood,
@@ -4018,7 +4029,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "jT" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -4029,29 +4040,29 @@
 	},
 /obj/structure/closet,
 /obj/item/clothing/under/carp,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "jU" = (
 /obj/structure/table/standard,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "jV" = (
 /obj/structure/table/standard,
 /obj/item/paper_bin,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "jW" = (
 /obj/machinery/photocopier,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "jX" = (
 /obj/structure/filingcabinet/chestdrawer,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "jY" = (
 /obj/machinery/door/airlock,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "jZ" = (
 /obj/machinery/door/airlock,
@@ -4063,7 +4074,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "ka" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -4097,7 +4108,7 @@
 	dir = 8
 	},
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "ke" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -4105,27 +4116,27 @@
 	},
 /obj/structure/closet,
 /obj/item/clothing/suit/armor/grim/toggle/labcoat/genetics,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kf" = (
 /obj/machinery/computer/modular,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kg" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kh" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "ki" = (
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kj" = (
 /turf/simulated/wall/r_wall,
@@ -4134,14 +4145,14 @@
 /obj/machinery/sleeper{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kl" = (
 /obj/machinery/light{
 	dir = 1;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "km" = (
 /obj/machinery/alarm{
@@ -4150,13 +4161,13 @@
 /obj/structure/window/basic{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kn" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "ko" = (
 /obj/structure/cable/green{
@@ -4175,7 +4186,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kp" = (
 /obj/structure/cable/green{
@@ -4186,7 +4197,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kq" = (
 /obj/machinery/power/apc{
@@ -4201,13 +4212,13 @@
 /obj/structure/window/basic{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kr" = (
 /obj/machinery/sleeper{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "ks" = (
 /turf/simulated/wall/r_wall,
@@ -4235,7 +4246,7 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4245,7 +4256,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4254,7 +4265,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "ky" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4265,7 +4276,7 @@
 	},
 /obj/machinery/door/airlock,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4277,7 +4288,7 @@
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -4289,24 +4300,24 @@
 /obj/structure/bookcase,
 /obj/item/book/manual/anomaly_testing,
 /obj/item/book/manual/anomaly_spectroscopy,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kB" = (
 /obj/structure/bookcase,
 /obj/item/book/manual/mass_spectrometry,
 /obj/item/book/manual/research_and_development,
 /obj/item/book/manual/engineering_guide,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kC" = (
 /obj/structure/bookcase,
 /obj/item/book/manual/materials_chemistry_analysis,
 /obj/item/book/manual/hydroponics_pod_people,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kD" = (
 /obj/machinery/vending/generic,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kE" = (
 /obj/machinery/light{
@@ -4315,33 +4326,33 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kF" = (
 /obj/structure/closet/fridge,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "kG" = (
 /obj/structure/closet,
 /obj/item/clothing/suit/armor/grim/toggle/labcoat/blue,
 /obj/random/coin,
 /obj/random/coin,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kH" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kI" = (
 /obj/structure/closet,
 /obj/item/clothing/suit/apron/overalls,
 /obj/random/drinkbottle,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kJ" = (
 /obj/structure/window/basic{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4351,23 +4362,23 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kL" = (
 /obj/structure/window/basic{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kM" = (
 /obj/structure/closet,
 /obj/item/clothing/suit/armor/grim/toggle/labcoat/xyn_machine,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kN" = (
 /obj/structure/closet,
 /obj/item/clothing/suit/apron/overalls,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "kO" = (
 /obj/structure/closet/crate/warhammer/freezer/rations,
@@ -4452,24 +4463,24 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/table/rack,
 /obj/item/material/harpoon,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "le" = (
 /obj/landmark/corpse/scientist,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lf" = (
 /obj/structure/table/rack,
 /obj/item/gun/launcher/net,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lg" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1;
 	level = 2
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lh" = (
 /obj/machinery/light/small{
@@ -4526,49 +4537,49 @@
 	dir = 5
 	},
 /obj/structure/closet/firecloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lr" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "ls" = (
 /turf/simulated/wall,
 /area/errant_pisces/science_wing)
 "lt" = (
 /obj/machinery/door/airlock,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lu" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/freezer,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lv" = (
 /obj/structure/table/standard,
 /obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lw" = (
 /obj/structure/table/standard,
 /obj/item/storage/toolbox/electrical,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lx" = (
 /obj/structure/table/standard,
 /obj/item/tape_roll,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "ly" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/latexgloves,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lz" = (
 /obj/structure/closet,
@@ -4578,18 +4589,18 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "lA" = (
 /obj/structure/closet,
 /obj/random/loot,
 /obj/random/soap,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "lB" = (
 /obj/structure/closet,
 /obj/item/clothing/under/hazard,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "lC" = (
 /obj/structure/closet,
@@ -4599,7 +4610,7 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "lD" = (
 /obj/structure/table/rack,
@@ -4637,24 +4648,24 @@
 /area/errant_pisces/science_wing)
 "lK" = (
 /obj/structure/closet/l3closet/scientist,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lL" = (
 /obj/structure/closet/secure_closet/scientist{
 	req_access = newlist()
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lM" = (
 /obj/structure/closet/secure_closet/hydroponics,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lN" = (
 /obj/machinery/door/window/northright,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lO" = (
 /obj/machinery/vending/hydronutrients,
@@ -4664,7 +4675,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lP" = (
 /obj/structure/window/reinforced{
@@ -4674,7 +4685,7 @@
 	dir = 1
 	},
 /obj/machinery/chem_master,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lQ" = (
 /obj/structure/window/reinforced{
@@ -4682,7 +4693,7 @@
 	},
 /obj/machinery/reagentgrinder,
 /obj/item/reagent_containers/glass/beaker/large,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lR" = (
 /obj/structure/window/reinforced{
@@ -4694,7 +4705,7 @@
 /obj/structure/table/standard,
 /obj/item/book/manual/mass_spectrometry,
 /obj/item/device/scanner/spectrometer,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lS" = (
 /obj/structure/window/reinforced{
@@ -4814,7 +4825,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mi" = (
 /obj/structure/closet/secure_closet/scientist{
@@ -4824,31 +4835,31 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mj" = (
 /obj/machinery/portable_atmospherics/hydroponics,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mk" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "ml" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/machinery/chemical_dispenser/full,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mm" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mn" = (
 /obj/structure/window/reinforced{
@@ -4869,12 +4880,13 @@
 "mp" = (
 /obj/structure/closet,
 /obj/item/clothing/suit/armor/grim/storage/hooded/wintercoat,
-/turf/simulated/floor/tiled,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "mq" = (
 /obj/structure/closet,
 /obj/random/plushie,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "mr" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -4905,9 +4917,10 @@
 /turf/simulated/floor/tiled/freezer,
 /area/errant_pisces/prod_storage)
 "mv" = (
-/mob/living/simple_animal/hostile/carp/shark,
-/turf/simulated/floor/tiled/freezer,
-/area/errant_pisces/prod_storage)
+/obj/structure/table/steel,
+/obj/random/loot/tech2,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/errant_pisces/bridge)
 "mw" = (
 /obj/structure/window/basic{
 	dir = 8
@@ -4952,7 +4965,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mD" = (
 /obj/machinery/power/apc{
@@ -4966,11 +4979,11 @@
 /obj/structure/closet/secure_closet/scientist{
 	req_access = newlist()
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mE" = (
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mF" = (
 /obj/structure/window/reinforced{
@@ -4979,11 +4992,11 @@
 /obj/structure/table/standard,
 /obj/item/storage/box/beakers,
 /obj/item/reagent_containers/dropper,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mG" = (
 /obj/machinery/biogenerator,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mH" = (
 /obj/structure/window/reinforced{
@@ -4992,7 +5005,7 @@
 /obj/machinery/computer/modular{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mI" = (
 /obj/machinery/optable,
@@ -5004,15 +5017,16 @@
 /obj/machinery/light,
 /obj/landmark/corpse/carp_fisher,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/obj/item/grenade/frag/homemade,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "mK" = (
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "mL" = (
 /obj/machinery/light,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "mM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5130,13 +5144,13 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "mY" = (
 /obj/machinery/door/airlock,
 /obj/machinery/door/firedoor,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "mZ" = (
 /obj/machinery/door/airlock,
@@ -5148,7 +5162,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/cryo)
 "na" = (
 /obj/machinery/door/airlock,
@@ -5308,7 +5322,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "np" = (
 /obj/structure/cable/green{
@@ -5322,7 +5336,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nq" = (
 /obj/structure/cable/green{
@@ -5336,7 +5350,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nr" = (
 /obj/structure/cable/green{
@@ -5353,7 +5367,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "ns" = (
 /obj/structure/cable/green{
@@ -5370,7 +5384,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nt" = (
 /obj/structure/cable/green{
@@ -5389,7 +5403,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nu" = (
 /obj/machinery/door/firedoor,
@@ -5404,7 +5418,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5418,7 +5432,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5435,7 +5449,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nx" = (
 /obj/machinery/alarm{
@@ -5457,7 +5471,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "ny" = (
 /obj/structure/cable/green{
@@ -5471,7 +5485,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nz" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -5487,7 +5501,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5501,7 +5515,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5516,7 +5530,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nC" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -5531,7 +5545,7 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5548,7 +5562,7 @@
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nE" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -5570,7 +5584,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nF" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -5586,7 +5600,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nG" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -5598,20 +5612,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nI" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nJ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -5669,24 +5683,24 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nP" = (
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nR" = (
 /obj/landmark/corpse/scientist,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nS" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nU" = (
 /obj/machinery/power/apc{
@@ -5694,23 +5708,23 @@
 	pixel_y = -24
 	},
 /obj/structure/cable/green,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nV" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nW" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nX" = (
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5720,18 +5734,18 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "nZ" = (
 /obj/machinery/door/firedoor,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "oa" = (
-/obj/landmark/corpse/bridgeofficer,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
-/area/errant_pisces/aft_hallway)
+/mob/living/simple_animal/hostile/daemon/large,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/errant_pisces/dorms)
 "ob" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
@@ -5773,7 +5787,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "og" = (
 /turf/simulated/wall/r_wall,
@@ -5799,7 +5813,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "ok" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5900,7 +5914,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "ot" = (
 /turf/simulated/wall,
@@ -5980,8 +5994,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/landmark/corpse/bridgeofficer,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oH" = (
 /obj/structure/cable/green{
@@ -6006,7 +6019,7 @@
 	pixel_x = -25;
 	rcon_setting = 3
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "oJ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -6033,23 +6046,24 @@
 	},
 /obj/structure/cable/green,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oM" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
 /obj/structure/closet/firecloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oN" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/obj/random/loot/tech1,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oO" = (
 /obj/structure/table/steel,
 /obj/random/drinkbottle,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oP" = (
 /obj/machinery/light{
@@ -6057,39 +6071,41 @@
 	},
 /obj/structure/table/steel,
 /obj/random/drinkbottle,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oQ" = (
-/obj/structure/bookcase/manuals/engineering,
-/turf/simulated/floor/tiled,
-/area/errant_pisces/bridge)
+/obj/structure/closet,
+/obj/item/clothing/under/hazard,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/errant_pisces/cryo)
 "oR" = (
-/obj/structure/bookcase/manuals/research_and_development,
-/turf/simulated/floor/tiled,
+/obj/random/loot/lootstructureartifact,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oS" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oT" = (
 /obj/structure/bed/chair/comfy/captain,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oU" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "oV" = (
 /obj/machinery/door/airlock,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "oW" = (
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "oX" = (
 /obj/machinery/light{
@@ -6101,7 +6117,7 @@
 /obj/random/ammo,
 /obj/random/cash,
 /obj/random/cash,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "oY" = (
 /obj/machinery/computer/modular/preset/filemanager{
@@ -6110,13 +6126,13 @@
 	name = "command terminal"
 	},
 /obj/computer_file_creator/ahabs_harpoon01,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "oZ" = (
 /obj/machinery/vending/medical{
 	req_access = newlist()
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pa" = (
 /obj/structure/cable/green{
@@ -6124,7 +6140,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pb" = (
 /obj/structure/cable/green{
@@ -6133,7 +6149,7 @@
 	icon_state = "4-8"
 	},
 /obj/landmark/corpse/carp_fisher,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pc" = (
 /obj/structure/cable/green{
@@ -6141,7 +6157,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pd" = (
 /obj/structure/cable/green{
@@ -6159,7 +6175,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pe" = (
 /obj/structure/closet/crate/secure/biohazard,
@@ -6173,38 +6189,38 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "ph" = (
 /obj/random/tool,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pi" = (
 /obj/machinery/computer/ship/navigation{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pj" = (
 /obj/machinery/computer/modular/preset/filemanager{
 	dir = 1
 	},
 /obj/computer_file_creator/ahabs_harpoon01,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pk" = (
 /obj/structure/table/steel,
 /obj/random/toy,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pl" = (
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "pm" = (
 /obj/structure/bed/chair/office/light{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "pn" = (
 /obj/structure/table/woodentable,
@@ -6212,7 +6228,7 @@
 	desc = "A small, portable microcomputer. This one has a Xynergy logo in purple, and a serial number stamped into the case."
 	},
 /obj/computer_file_creator/ahabs_harpoon03,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "po" = (
 /obj/wallframe_spawn/reinforced,
@@ -6238,7 +6254,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "ps" = (
 /obj/structure/cable/green,
@@ -6251,7 +6267,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pt" = (
 /obj/structure/kitchenspike,
@@ -6276,51 +6292,50 @@
 	pixel_x = -25;
 	rcon_setting = 3
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "py" = (
 /obj/random/junk,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pz" = (
 /obj/overmap/visitable/ship/errant_pisces,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pA" = (
 /obj/structure/table/steel,
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pB" = (
 /obj/structure/bookcase/manuals/engineering,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "pC" = (
 /obj/structure/table/woodentable,
 /obj/random/toy,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "pD" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/fishing_wing)
 "pE" = (
-/mob/living/simple_animal/hostile/carp/shark,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/fishing_wing)
 "pF" = (
 /obj/machinery/door/airlock,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/fishing_wing)
 "pG" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pI" = (
 /obj/machinery/door/airlock/freezer,
@@ -6334,16 +6349,16 @@
 	},
 /obj/structure/table/steel,
 /obj/random/snack,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pK" = (
 /obj/structure/table/steel,
 /obj/random/firstaid,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pL" = (
 /obj/structure/bed/chair/office/dark,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pM" = (
 /obj/machinery/light{
@@ -6352,31 +6367,31 @@
 	},
 /obj/structure/table/steel,
 /obj/random/handgun,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "pN" = (
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "pO" = (
 /obj/structure/hygiene/shower{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/fishing_wing)
 "pP" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4;
 	level = 2
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pQ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "pR" = (
 /obj/machinery/door/airlock,
@@ -6458,35 +6473,34 @@
 /turf/simulated/floor/plating,
 /area/errant_pisces/fishing_wing)
 "pZ" = (
-/obj/structure/net,
-/mob/living/simple_animal/hostile/carp,
-/turf/space,
-/area/space)
+/obj/structure/table/standard,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/errant_pisces/dorms)
 "qa" = (
 /obj/machinery/computer/ship/sensors{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "qb" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "qc" = (
 /obj/structure/table/steel,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "qd" = (
 /obj/structure/table/steel,
 /obj/random/toolbox,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "qe" = (
 /obj/structure/table/steel,
 /obj/random/advdevice,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "qf" = (
 /obj/structure/table/steel,
@@ -6494,24 +6508,24 @@
 	id_tag = "xynergy_perimeter_blast";
 	name = "perimeter blast door-control"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "qg" = (
 /obj/machinery/computer/ship/helm{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "qh" = (
 /obj/machinery/computer/ship/engines{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/bridge)
 "qi" = (
 /obj/item/bedsheet/captain,
 /obj/structure/bed/padded,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/errant_pisces/bridge)
 "qj" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -6532,6 +6546,7 @@
 /area/errant_pisces/fishing_wing)
 "qm" = (
 /obj/structure/closet/l3closet/janitor,
+/obj/random/loot/rarearmorbundle,
 /turf/simulated/floor/plating,
 /area/errant_pisces/fishing_wing)
 "qn" = (
@@ -6564,13 +6579,13 @@
 "qq" = (
 /obj/structure/janitorialcart,
 /obj/item/mop,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "qr" = (
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "qs" = (
 /obj/machinery/light/small{
@@ -6610,11 +6625,11 @@
 /area/errant_pisces/bridge)
 "qy" = (
 /obj/structure/closet/firecloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "qz" = (
 /obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/fishing_wing)
 "qA" = (
 /obj/structure/table/rack,
@@ -6830,10 +6845,10 @@
 /turf/space,
 /area/space)
 "rc" = (
-/obj/structure/net,
-/mob/living/simple_animal/hostile/carp/shark,
-/turf/space,
-/area/space)
+/obj/structure/closet/firecloset,
+/obj/random/loot/lootcontraband,
+/turf/simulated/floor/plating,
+/area/errant_pisces/bow_maint)
 "sb" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
@@ -6843,7 +6858,7 @@
 /obj/item/storage/mirror{
 	pixel_x = -30
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
 "si" = (
 /obj/machinery/radio_beacon,
@@ -6857,7 +6872,7 @@
 /obj/item/storage/mirror{
 	pixel_x = 30
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "ub" = (
 /obj/structure/hygiene/sink{
@@ -6875,21 +6890,43 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
+"JG" = (
+/obj/structure/hygiene/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/item/storage/mirror{
+	pixel_x = -30
+	},
+/mob/living/simple_animal/hostile/daemon/headcrab/infestor,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
+/area/errant_pisces/head_f)
+"JP" = (
+/obj/structure/closet/crate,
+/obj/random/loot/swordmelee,
+/turf/simulated/floor/tiled/freezer,
+/area/errant_pisces/fishing_wing)
+"MA" = (
+/obj/structure/closet,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/errant_pisces/dorms)
 "Ph" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/multi_tile{
 	dir = 4;
 	name = "Airlock"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/aft_hallway)
 "Ti" = (
 /obj/machinery/computer/modular{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 
 (1,1,1) = {"
@@ -21534,7 +21571,7 @@ hq
 hq
 hQ
 iw
-iO
+hS
 hq
 jz
 jR
@@ -22953,7 +22990,7 @@ hq
 jz
 jV
 kh
-kx
+gM
 jX
 ls
 lK
@@ -23166,7 +23203,7 @@ nt
 nS
 og
 oy
-oC
+JP
 oK
 pt
 og
@@ -23369,7 +23406,7 @@ nS
 og
 oz
 oK
-oK
+hx
 pt
 og
 pV
@@ -24153,10 +24190,10 @@ dR
 fZ
 gj
 gq
-gM
+gq
 gq
 hr
-hx
+hs
 hI
 hX
 iB
@@ -24346,7 +24383,7 @@ aW
 dt
 dF
 dS
-ei
+rc
 dR
 dR
 fq
@@ -24358,7 +24395,7 @@ gr
 gN
 ha
 gj
-hx
+hs
 hI
 hW
 iA
@@ -24762,7 +24799,7 @@ gs
 gO
 hb
 gj
-hx
+hs
 hI
 hY
 ib
@@ -24802,7 +24839,7 @@ pf
 pf
 pf
 pf
-rc
+pf
 pf
 pf
 pf
@@ -25166,7 +25203,7 @@ gr
 gP
 hc
 gj
-hx
+hs
 hI
 hY
 ib
@@ -25368,7 +25405,7 @@ gj
 gj
 gj
 gj
-hx
+hs
 hI
 ia
 iC
@@ -25561,7 +25598,7 @@ dU
 el
 eK
 eZ
-sb
+JG
 sb
 eJ
 gb
@@ -25772,7 +25809,7 @@ gq
 gq
 gq
 gq
-hx
+hs
 hI
 ic
 hI
@@ -25802,7 +25839,7 @@ pf
 pf
 pf
 pf
-pZ
+pf
 pf
 pw
 aa
@@ -25999,7 +26036,7 @@ aa
 pw
 pf
 pf
-pZ
+pf
 pf
 pf
 pf
@@ -26407,7 +26444,7 @@ pf
 pf
 pf
 pf
-pZ
+pf
 pf
 pf
 pw
@@ -26604,7 +26641,7 @@ aa
 aa
 pw
 pf
-pZ
+pf
 pf
 pf
 pf
@@ -26810,7 +26847,7 @@ pf
 pf
 pf
 pf
-pZ
+pf
 pf
 pf
 pf
@@ -27212,7 +27249,7 @@ pw
 pf
 pf
 pf
-pZ
+pf
 pf
 pf
 pf
@@ -27601,7 +27638,7 @@ go
 kr
 kM
 kr
-lB
+oQ
 kr
 mq
 kH
@@ -27614,12 +27651,12 @@ aa
 aa
 pw
 pf
-pZ
 pf
 pf
 pf
 pf
-pZ
+pf
+pf
 pf
 pf
 pw
@@ -27999,7 +28036,7 @@ hO
 ii
 ii
 gU
-ij
+pZ
 jK
 go
 kr
@@ -28198,7 +28235,7 @@ hn
 gn
 gn
 gn
-ij
+pZ
 iF
 gU
 js
@@ -28400,8 +28437,8 @@ gU
 hw
 gF
 gn
-ij
-ij
+pZ
+pZ
 gU
 ii
 ii
@@ -28604,7 +28641,7 @@ hD
 gn
 ii
 ii
-il
+oa
 gU
 gU
 go
@@ -28802,7 +28839,7 @@ gH
 gX
 gU
 gF
-hw
+MA
 gn
 ik
 il
@@ -30016,7 +30053,7 @@ ho
 gY
 gJ
 gn
-io
+iI
 iJ
 iJ
 jw
@@ -30034,9 +30071,9 @@ nv
 nS
 oi
 oi
-oQ
+qc
 oS
-oS
+iO
 oS
 qd
 po
@@ -30455,7 +30492,7 @@ aa
 pw
 pf
 pf
-rc
+pf
 pf
 pf
 pf
@@ -30637,7 +30674,7 @@ kV
 mR
 nb
 nF
-oa
+nP
 oi
 oi
 oS
@@ -31037,7 +31074,7 @@ kW
 kU
 kW
 kW
-mv
+kV
 kV
 la
 nv
@@ -32058,7 +32095,7 @@ oS
 pk
 pA
 pM
-qc
+mv
 po
 pp
 pq

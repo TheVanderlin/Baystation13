@@ -9,7 +9,7 @@
 	var/spawn_positions = 0               // How many players can spawn in as this job. Set to -1 for unlimited.
 	var/current_positions = 0             // How many players have this job
 	var/availablity_chance = 100          // Percentage chance job is available each round
-
+	var/datum/antag_skill_setter/skill_setter = /datum/antag_skill_setter/generic
 	var/supervisors = null                // Supervisors, who this person answers to directly
 	var/selection_color = "#515151"       // Selection screen color
 	var/list/alt_titles                   // List of alternate titles, if any and any potential alt. outfits as assoc values.
@@ -104,6 +104,8 @@
 	if(faction)
 		H.faction = faction
 		H.last_faction = faction
+	if(ispath(skill_setter))
+		skill_setter = new skill_setter
 
 /datum/job/proc/get_outfit(mob/living/carbon/human/H, alt_title, datum/mil_branch/branch, datum/mil_rank/grade)
 	if(alt_title && alt_titles)

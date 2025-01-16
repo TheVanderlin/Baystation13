@@ -28,6 +28,25 @@
 	//The radius of the circle used to launch projectiles. Lower values mean less projectiles are used but if set too low gaps may appear in the spread pattern
 	var/spread_range = 7 //leave as is, for some reason setting this higher makes the spread pattern have gaps close to the epicenter
 
+/obj/item/grenade/frag/attack_self(mob/living/user)
+	if(!active)
+		if(clown_check(user))
+			to_chat(user, SPAN_WARNING("You prime \the [name]! [det_time/10] seconds!"))
+			activater(user)
+			add_fingerprint(user)
+			if(iscarbon(user))
+				var/mob/living/carbon/C = user
+				C.throw_mode_on()
+
+/obj/item/grenade/frag/proc/activater(mob/living/user)
+	if (active)
+		return
+	if (user)
+		msg_admin_attack("[user.name] ([user.ckey]) primed \a [src] (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[user.x];Y=[user.y];Z=[user.z]'>JMP</a>)")
+	active = TRUE
+	playsound(loc, arm_sound, 75, 0, -3)
+	addtimer(new Callback(src, .proc/detonate, user), det_time)
+
 /obj/item/grenade/frag/detonate(mob/living/user)
 	..()
 

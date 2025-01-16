@@ -2,7 +2,7 @@
 	name = OUTFIT_JOB_NAME("Torch Command Outfit")
 	hierarchy_type = /singleton/hierarchy/outfit/job/torch/crew/command
 	l_ear = /obj/item/device/radio/headset/headset_com
-	l_pocket = /obj/item/device/flashlight/maglight
+	l_pocket = /obj/item/device/flashlight/lantern
 
 /singleton/hierarchy/outfit/job/torch/crew/command/roguetrader
 	name = OUTFIT_JOB_NAME("Rogue Trader")
@@ -59,7 +59,7 @@
 	id_types = list(/obj/item/card/id/torch/silver/kroot)
 	pda_type = /obj/item/modular_computer/pda/heads
 	back = /obj/item/storage/backpack/satchel/explorer
-	l_pocket = /obj/item/device/flashlight/maglight
+	l_pocket = /obj/item/device/flashlight/lantern
 	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1, /obj/item/gun/projectile/pistol/slug/old = 1, /obj/item/ammo_magazine/speedloader/clip/sniper/xenos = 4)
 
 /singleton/hierarchy/outfit/job/torch/crew/command/biologis

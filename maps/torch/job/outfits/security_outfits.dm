@@ -2,7 +2,7 @@
 	hierarchy_type = /singleton/hierarchy/outfit/job/torch/crew/security
 	l_ear = /obj/item/device/radio/headset/headset_sec
 	pda_slot = slot_l_store
-	l_pocket = /obj/item/device/flashlight/maglight
+	l_pocket = /obj/item/device/flashlight/lantern
 
 /singleton/hierarchy/outfit/job/torch/crew/security/deck_sergeant
 	name = OUTFIT_JOB_NAME("Enforcer Sergeant")

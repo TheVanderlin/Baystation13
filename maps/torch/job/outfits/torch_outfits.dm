@@ -8,7 +8,7 @@
 /singleton/hierarchy/outfit/job/torch/crew
 	name = OUTFIT_JOB_NAME("Dauntless Crew Outfit")
 	hierarchy_type = /singleton/hierarchy/outfit/job/torch/crew
-	l_pocket = /obj/item/device/flashlight/maglight
+	l_pocket = /obj/item/device/flashlight/lantern
 
 /singleton/hierarchy/outfit/job/torch/crew/fleet
 	name = OUTFIT_JOB_NAME("Dauntless Imperial Navy Outfit")
