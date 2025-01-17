@@ -501,7 +501,7 @@
 	},
 /area/centcom/evac)
 "acJ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/toxin{
 	pixel_x = -2;
 	pixel_y = 4
@@ -513,7 +513,7 @@
 	},
 /area/centcom/evac)
 "acK" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/fire{
 	pixel_x = -2;
@@ -525,7 +525,7 @@
 	},
 /area/centcom/evac)
 "acL" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/regular{
 	pixel_x = 2
 	},
@@ -802,7 +802,7 @@
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_courtroom)
 "ael" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/shuttle.dmi';
 	icon_state = "floor"
@@ -907,7 +907,7 @@
 /turf/space,
 /area/shuttle/escape_pod5/centcom)
 "aeC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/hand_labeler,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/shuttle.dmi';
@@ -1749,7 +1749,7 @@
 	},
 /area/centcom/evac)
 "ais" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/handcuffs,
 /obj/item/device/flash,
 /turf/unsimulated/floor{
@@ -2034,7 +2034,7 @@
 /turf/unsimulated/beach/sand,
 /area/beach)
 "ano" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer,
@@ -2045,7 +2045,7 @@
 /turf/unsimulated/beach/sand,
 /area/beach)
 "anp" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/clothing/glasses/sunglasses,
 /obj/item/clothing/head/collectable/petehat{
 	pixel_y = 5
@@ -2053,12 +2053,12 @@
 /turf/unsimulated/beach/sand,
 /area/beach)
 "anP" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/snacks/chips,
 /turf/unsimulated/beach/sand,
 /area/beach)
 "anQ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/cans/cola,
 /obj/item/reagent_containers/food/drinks/cans/cola,
 /obj/item/reagent_containers/food/drinks/cans/cola,
@@ -2247,7 +2247,7 @@
 /turf/simulated/floor/shuttle/red,
 /area/shuttle/administration/centcom)
 "att" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "carpet"
 	},
@@ -2354,14 +2354,14 @@
 	pixel_x = 2;
 	pixel_y = 6
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "steel"
 	},
 /area/centcom/living)
 "atN" = (
 /obj/item/reagent_containers/food/drinks/cans/cola,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "steel"
 	},
@@ -2419,13 +2419,13 @@
 /area/centcom)
 "atY" = (
 /obj/item/reagent_containers/food/drinks/bottle/small/beer,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "steel"
 	},
 /area/centcom/living)
 "atZ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "steel"
 	},
@@ -2634,7 +2634,7 @@
 /obj/item/reagent_containers/food/condiment/small/saltshaker{
 	pixel_x = -6
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "steel"
 	},
@@ -2703,14 +2703,14 @@
 /turf/simulated/floor/shuttle/red,
 /area/shuttle/administration/centcom)
 "avg" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/shaker,
 /turf/unsimulated/floor{
 	icon_state = "white"
 	},
 /area/centcom/living)
 "avh" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "white"
 	},
@@ -2830,7 +2830,7 @@
 	},
 /area/centcom/living)
 "avz" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/donkpocket_box,
 /obj/item/material/kitchen/rollingpin,
 /turf/unsimulated/floor{
@@ -2907,7 +2907,7 @@
 	},
 /area/centcom/living)
 "avN" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/card/id/centcom,
 /turf/unsimulated/floor{
 	dir = 8;
@@ -2921,7 +2921,7 @@
 	},
 /area/centcom/living)
 "avP" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/glass/beaker,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/unsimulated/floor{
@@ -2929,7 +2929,7 @@
 	},
 /area/centcom/living)
 "avQ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/microwave{
 	pixel_x = -3;
 	pixel_y = 6
@@ -4517,7 +4517,7 @@
 	},
 /area/centcom/specops)
 "aAH" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/recharger{
 	pixel_y = 4
 	},
@@ -5630,7 +5630,7 @@
 	},
 /area/centcom/ferry)
 "aFC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper,
 /obj/item/pen,
 /turf/unsimulated/floor{
@@ -6449,7 +6449,7 @@
 	},
 /area/tdome)
 "aIA" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/glass/beaker/cryoxadone{
 	pixel_x = 5;
 	pixel_y = 5
@@ -6498,7 +6498,7 @@
 	},
 /area/centcom/holding)
 "aIH" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	dir = 5;
 	icon_state = "vault"
@@ -6568,7 +6568,7 @@
 	},
 /area/tdome)
 "aIU" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/FixOVein{
 	pixel_x = -6;
 	pixel_y = 1
@@ -6578,7 +6578,7 @@
 	},
 /area/centcom/holding)
 "aIV" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/cautery{
 	pixel_y = 4
 	},
@@ -6590,7 +6590,7 @@
 	},
 /area/centcom/holding)
 "aIW" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/retractor{
 	pixel_y = 6
 	},
@@ -6600,7 +6600,7 @@
 	},
 /area/centcom/holding)
 "aIX" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/bonesetter,
 /obj/item/bonegel{
 	pixel_x = 4;
@@ -6611,7 +6611,7 @@
 	},
 /area/centcom/holding)
 "aIY" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/surgicaldrill,
 /obj/item/circular_saw,
 /turf/unsimulated/floor{
@@ -6680,7 +6680,7 @@
 	},
 /area/centcom/holding)
 "aJo" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/latexgloves{
 	pixel_x = 3;
 	pixel_y = 4
@@ -6725,7 +6725,7 @@
 	},
 /area/tdome)
 "aJw" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/latexgloves{
 	pixel_x = 3;
 	pixel_y = 4
@@ -6751,7 +6751,7 @@
 	},
 /area/centcom/holding)
 "aJz" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/ivbag/blood/human/opos{
 	pixel_x = 4;
 	pixel_y = 2
@@ -6789,7 +6789,7 @@
 	},
 /area/centcom/holding)
 "aJC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/regular{
 	pixel_x = 2;
 	pixel_y = 6
@@ -6810,7 +6810,7 @@
 	},
 /area/centcom/holding)
 "aJD" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/o2{
 	pixel_x = 4;
 	pixel_y = 6
@@ -6825,7 +6825,7 @@
 	},
 /area/centcom/holding)
 "aJE" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/clothing/glasses/hud/health,
 /obj/item/clothing/glasses/hud/health,
 /obj/item/reagent_containers/spray/cleaner,
@@ -6935,7 +6935,7 @@
 	},
 /area/tdome/tdomeobserve)
 "aKm" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer,
@@ -6949,7 +6949,7 @@
 /obj/item/reagent_containers/food/drinks/cans/cola,
 /obj/item/reagent_containers/food/drinks/cans/cola,
 /obj/item/reagent_containers/food/drinks/cans/cola,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
@@ -7013,13 +7013,13 @@
 /obj/random/donkpocket_box,
 /obj/random/donkpocket_box,
 /obj/random/donkpocket_box,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "white"
 	},
 /area/tdome)
 "aKB" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/microwave,
 /turf/unsimulated/floor{
 	icon_state = "white"
@@ -8640,7 +8640,7 @@
 	},
 /area/acting/backstage)
 "aPH" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/recharger{
 	pixel_y = 4
 	},
@@ -8659,7 +8659,7 @@
 /obj/item/grenade/chem_grenade/cleaner,
 /obj/item/grenade/chem_grenade/cleaner,
 /obj/item/grenade/chem_grenade/cleaner,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
@@ -8699,13 +8699,13 @@
 /obj/item/stack/medical/ointment,
 /obj/item/stack/medical/ointment,
 /obj/item/stack/medical/ointment,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
 "aPO" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/stack/medical/bruise_pack,
 /obj/item/stack/medical/bruise_pack,
 /obj/item/stack/medical/bruise_pack,
@@ -8714,27 +8714,27 @@
 	},
 /area/tdome/tdomeadmin)
 "aPP" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/handcuffs,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
 "aPQ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
 "aPR" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/toolbox/electrical,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
 "aPS" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/toolbox/mechanical,
 /turf/unsimulated/floor{
 	icon_state = "lino"

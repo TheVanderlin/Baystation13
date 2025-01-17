@@ -58,13 +58,13 @@
 /turf/simulated/floor/tiled,
 /area/map_template/deepmaint)
 "l" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/floor_decal/corner/brown/mono,
 /obj/random/firstaid,
 /turf/simulated/floor/tiled/monotile,
 /area/map_template/deepmaint)
 "m" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/recharger/wallcharger{
 	dir = 8;
 	pixel_x = 22
@@ -232,7 +232,7 @@
 /turf/simulated/floor/plating,
 /area/map_template/deepmaint)
 "O" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/floor_decal/corner/brown/mono,
 /obj/random/loot,
 /turf/simulated/floor/tiled/monotile,

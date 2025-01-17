@@ -892,7 +892,7 @@
 /obj/floor_decal/corner/lightgrey{
 	dir = 5
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/snack,
 /turf/simulated/floor/tiled,
 /area/scavver/hab)
@@ -3524,7 +3524,7 @@
 /obj/floor_decal/corner/lightgrey{
 	dir = 5
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/material/ashtray/plastic,
 /turf/simulated/floor/tiled,
 /area/scavver/hab)

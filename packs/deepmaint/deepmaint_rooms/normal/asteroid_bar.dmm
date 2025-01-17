@@ -89,7 +89,7 @@
 	},
 /area/map_template/deepmaint)
 "p" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/floor_decal/corner/lightgrey/mono,
 /obj/item/reagent_containers/food/drinks/cans/dr_gibb,
 /turf/simulated/floor/tiled/monotile,
@@ -257,7 +257,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/map_template/deepmaint)
 "P" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/floor_decal/corner/lightgrey/mono,
 /obj/random/drinkbottle,
 /turf/simulated/floor/tiled/monotile,
@@ -283,7 +283,7 @@
 /turf/simulated/floor/tiled,
 /area/map_template/deepmaint)
 "T" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/floor_decal/corner/lightgrey/mono,
 /obj/machinery/fabricator/micro/bartender,
 /obj/item/stack/material/steel/ten,
@@ -292,7 +292,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/map_template/deepmaint)
 "U" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/floor_decal/corner/lightgrey/mono,
 /obj/item/reagent_containers/food/drinks/coffee,
 /turf/simulated/floor/tiled/monotile,

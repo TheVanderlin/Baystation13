@@ -573,7 +573,7 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/map_template/rescue_base/base)
 "bI" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper,
 /obj/item/pen,
 /turf/simulated/floor/warhammer/coralg,

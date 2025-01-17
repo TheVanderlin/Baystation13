@@ -589,7 +589,7 @@
 	fire_delay = 16
 	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 2)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
-	projectile_type = /obj/item/projectile/bullet/heavyplasma
+	projectile_type = /obj/item/projectile/energy/ion/plasma
 	cell_type = /obj/item/cell/device/high/mechanicus
 	charge_cost = 60
 	wielded_item_state = "plasmarifle-wielded"
@@ -614,9 +614,9 @@
 	accuracy = -0.5 //it a pistol, but giga cool plasma
 	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 2)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
-	projectile_type = /obj/item/projectile/bullet/heavyplasma
+	projectile_type = /obj/item/projectile/energy/ion/plasma
 	cell_type = /obj/item/cell/device/high/mechanicus
-	charge_cost = 90
+	charge_cost = 50
 	wielded_item_state = "plasmapistol"
 	sales_price = 85 // Plasma Pistols are basically DAOT tech.
 	slowdown_general = 0.03
@@ -629,7 +629,7 @@
 	name = "heretic plasma pistol"
 	desc = "A plasma pistol blessed by the ruinous powers. You can feel the warp energy going trough it. It has an overheat scale and on the end of it is written 'Boom!'."
 	icon_state = "chaosppistol"
-	charge_cost = 75 // magek
+	charge_cost = 35 // magek
 	accuracy = 0.5
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=35, burst=1, burst_delay=2.4, fire_delay=10),
@@ -659,7 +659,7 @@
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
 	wielded_item_state = "pulse_pistol"
 	accuracy = 0.5
-	charge_cost = 70
+	charge_cost = 30
 	fire_delay = 16 // Tiny pistol. Shoots slower
 	slowdown_general = 0
 	firemodes = list(

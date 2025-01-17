@@ -12,32 +12,28 @@
 /obj/structure/table/rack,
 /obj/random/tech_supply,
 /obj/random/bomb_supply,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ah" = (
 /obj/structure/table/rack,
 /obj/random/tech_supply,
 /obj/random/loot,
 /obj/random/loot,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ai" = (
 /obj/structure/table/steel_reinforced,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/abandoned)
-"aj" = (
-/obj/machinery/porta_turret/stationary,
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ak" = (
 /obj/structure/table/rack,
 /obj/item/cell/hyper,
 /obj/item/cell/hyper,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "am" = (
 /obj/structure/table/rack,
-/obj/random/energy,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -45,7 +41,8 @@
 	dir = 4
 	},
 /obj/machinery/door/window/brigdoor/southleft,
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/random/loot/lootcontraband,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "an" = (
 /obj/machinery/mech_recharger,
@@ -53,18 +50,16 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/abandoned)
-"ao" = (
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/random/loot/tech2,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ap" = (
 /obj/structure/table,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "aq" = (
 /obj/machinery/constructable_frame/machine_frame,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "ar" = (
 /obj/machinery/constructable_frame/computerframe,
@@ -81,7 +76,7 @@
 "au" = (
 /obj/structure/table,
 /obj/random/toolbox,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "av" = (
 /turf/unsimulated/mask,
@@ -89,91 +84,72 @@
 "aw" = (
 /obj/structure/table/glass,
 /obj/item/newspaper,
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ax" = (
 /obj/structure/table/glass,
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ay" = (
 /obj/structure/table,
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"az" = (
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aA" = (
 /turf/simulated/floor/diona,
 /area/outpost/abandoned)
 "aB" = (
 /obj/machinery/papershredder,
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aC" = (
 /obj/structure/table/glass,
-/obj/floor_decal/corner/paleblue/diagonal,
 /obj/random/loot,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aD" = (
 /obj/machinery/light/small/emergency{
 	dir = 8;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/abandoned)
-"aE" = (
-/obj/random/trash,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aF" = (
 /obj/random/technology_scanner,
-/obj/machinery/porta_turret/stationary,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aG" = (
 /obj/machinery/light/small/emergency{
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/abandoned)
-"aH" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aI" = (
-/turf/simulated/floor/tiled,
+/mob/living/simple_animal/hostile/daemon/headcrab/infestor,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aK" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8;
 	icon_state = "officechair_dark"
 	},
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aL" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4;
 	icon_state = "officechair_dark"
 	},
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aM" = (
 /obj/structure/table/glass,
 /obj/item/pen,
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aN" = (
 /obj/machinery/door/airlock/highsecurity,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aO" = (
 /obj/decal/cleanable/blood,
@@ -187,31 +163,31 @@
 /area/outpost/abandoned)
 "aQ" = (
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aR" = (
 /obj/machinery/mech_recharger,
 /obj/structure/mech_wreckage/powerloader,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aS" = (
 /obj/machinery/light/small/emergency{
 	dir = 8;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "aT" = (
 /obj/random/tool,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aU" = (
 /obj/random/material,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "aV" = (
 /obj/machinery/constructable_frame/computerframe,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aW" = (
 /obj/structure/table/glass,
@@ -219,18 +195,15 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aX" = (
-/obj/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/r_n_d/circuit_imprinter,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aY" = (
-/obj/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/r_n_d/protolathe,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "aZ" = (
 /obj/structure/table/glass,
@@ -238,8 +211,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ba" = (
 /obj/machinery/door/window/brigdoor/northleft,
@@ -253,7 +225,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "be" = (
 /obj/decal/cleanable/blood,
@@ -263,17 +235,16 @@
 "bf" = (
 /obj/structure/table/glass,
 /obj/item/cell/potato,
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bg" = (
 /obj/item/pen,
-/obj/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bh" = (
 /obj/structure/table/rack,
 /obj/item/rig/hazmat,
+/obj/random/loot/valuableloot,
 /turf/simulated/floor/tiled/freezer,
 /area/outpost/abandoned)
 "bi" = (
@@ -287,86 +258,53 @@
 /area/outpost/abandoned)
 "bk" = (
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bl" = (
 /obj/machinery/light/small/emergency,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bm" = (
-/obj/machinery/door/airlock/glass/science,
-/turf/simulated/floor/tiled/white,
+/obj/structure/table/steel_reinforced,
+/obj/random/loot/rarearmorbundle,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bn" = (
 /obj/machinery/door/airlock/vault/bolted,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bo" = (
 /obj/machinery/door/blast/shutters{
 	dir = 2
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bp" = (
-/obj/machinery/door/airlock/glass/science,
-/turf/simulated/floor/tiled,
+/obj/machinery/door/airlock/warhammer/engineering,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bq" = (
 /obj/machinery/door/airlock/glass/science,
 /obj/structure/barricade,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "br" = (
 /obj/structure/table/steel,
-/obj/floor_decal/corner/purple/three_quarters{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bs" = (
-/obj/structure/bed/chair,
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bt" = (
-/obj/decal/cleanable/dirt,
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bu" = (
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/dirt,
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bv" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bw" = (
 /obj/random/trash,
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bx" = (
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "by" = (
 /obj/decal/cleanable/dirt,
@@ -381,10 +319,7 @@
 /obj/decal/cleanable/blood{
 	pixel_y = 32
 	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bA" = (
 /obj/item/ammo_casing/shotgun/pellet{
@@ -393,27 +328,14 @@
 /obj/decal/cleanable/blood{
 	pixel_x = -32
 	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bB" = (
 /obj/decal/cleanable/dirt,
 /obj/structure/noticeboard/anomaly{
 	pixel_y = 32
 	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bC" = (
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bD" = (
 /obj/machinery/light/small{
@@ -422,30 +344,10 @@
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/diona,
 /area/outpost/abandoned)
-"bE" = (
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bF" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
 "bG" = (
 /obj/structure/table/steel,
-/obj/floor_decal/corner/purple{
-	dir = 9
-	},
 /obj/random/loot,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bI" = (
 /obj/decal/cleanable/dirt,
@@ -455,38 +357,21 @@
 /area/outpost/abandoned)
 "bK" = (
 /obj/gibspawner/human,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bL" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bM" = (
-/obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bN" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bO" = (
-/obj/floor_decal/corner/purple/three_quarters,
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bP" = (
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bQ" = (
 /obj/decal/cleanable/dirt,
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bR" = (
 /obj/decal/cleanable/dirt,
@@ -495,52 +380,26 @@
 /area/outpost/abandoned)
 "bS" = (
 /obj/random/trash,
+/obj/structure/mine,
 /turf/simulated/floor/diona,
-/area/outpost/abandoned)
-"bT" = (
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bU" = (
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bV" = (
-/obj/machinery/light/small,
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
 /area/outpost/abandoned)
 "bW" = (
 /obj/machinery/door/airlock/security,
 /obj/machinery/door/blast/regular{
 	id_tag = "mars_blast"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bX" = (
 /obj/machinery/door/airlock/science,
 /obj/machinery/door/blast/regular{
 	id_tag = "mars_blast"
 	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"bY" = (
-/obj/machinery/door/airlock/glass,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "bZ" = (
 /obj/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "ca" = (
 /obj/structure/table/steel,
@@ -548,7 +407,7 @@
 	dir = 8
 	},
 /obj/random/loot,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cb" = (
 /obj/structure/table/steel,
@@ -556,7 +415,7 @@
 	dir = 5
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cc" = (
 /obj/machinery/optable,
@@ -568,7 +427,7 @@
 	icon_state = "bulb1"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cd" = (
 /obj/machinery/computer/operating,
@@ -577,45 +436,35 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ce" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/floor_decal/corner/paleblue/three_quarters{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cf" = (
-/obj/floor_decal/corner/red/three_quarters{
-	dir = 8
-	},
-/obj/decal/cleanable/dirt,
-/obj/item/ammo_casing/magnum,
-/turf/simulated/floor/tiled/dark,
+/obj/random/loot/randomcolonyitems,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cg" = (
-/obj/floor_decal/corner/red{
-	dir = 5
-	},
 /obj/decal/cleanable/dirt,
 /obj/item/ammo_casing/magnum,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "ch" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/embedded_controller/radio/airlock/access_controller,
-/obj/floor_decal/corner/red/three_quarters{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cj" = (
 /obj/floor_decal/industrial/warning{
 	dir = 9;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ck" = (
 /obj/decal/cleanable/dirt,
@@ -637,83 +486,75 @@
 /obj/structure/sign/warning/secure_area{
 	pixel_y = 32
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cm" = (
 /obj/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cn" = (
 /obj/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood{
-	icon_state = "wood_broken3"
-	},
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "co" = (
 /obj/structure/table/woodentable,
 /obj/decal/cleanable/dirt,
 /obj/random/trash,
-/turf/simulated/floor/wood,
+/obj/random/loot/valuableloot,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cp" = (
 /obj/structure/table/woodentable,
 /obj/item/board,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cq" = (
 /obj/structure/table/woodentable,
 /obj/random/loot,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cr" = (
 /obj/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/wood{
-	icon_state = "wood_broken2"
-	},
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cs" = (
 /obj/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "ct" = (
 /obj/machinery/door/airlock/glass/science,
 /obj/machinery/door/blast/regular{
 	id_tag = "mars_blast"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cu" = (
 /obj/floor_decal/corner/paleblue{
 	dir = 9
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cv" = (
 /obj/decal/cleanable/blood,
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
-/area/outpost/abandoned)
-"cw" = (
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cx" = (
 /obj/floor_decal/corner/paleblue{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cy" = (
 /obj/decal/cleanable/blood,
@@ -729,74 +570,65 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cI" = (
 /obj/decal/cleanable/dirt,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood,
+/obj/decal/cleanable/liquid_fuel,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "cJ" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood{
-	icon_state = "wood_broken4"
-	},
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cK" = (
 /obj/floor_decal/plaque,
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cL" = (
 /obj/decal/cleanable/dirt,
 /obj/random/trash,
-/turf/simulated/floor/wood{
-	icon_state = "wood_broken0"
-	},
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cM" = (
 /obj/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cN" = (
 /obj/structure/filingcabinet/filingcabinet,
-/turf/simulated/floor/carpet/blue,
-/area/outpost/abandoned)
-"cO" = (
-/obj/structure/table/woodentable,
-/obj/random/loot,
-/turf/simulated/floor/carpet/blue,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cP" = (
 /obj/structure/bed/chair,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/blue,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cQ" = (
-/turf/simulated/floor/carpet/blue,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "cR" = (
 /obj/structure/girder,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cS" = (
 /obj/structure/filingcabinet/filingcabinet,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cT" = (
 /obj/structure/foamedmetal,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cU" = (
 /obj/floor_decal/corner/paleblue/three_quarters,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cV" = (
 /obj/floor_decal/corner/paleblue{
@@ -804,11 +636,7 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
-/area/outpost/abandoned)
-"cW" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cX" = (
 /obj/decal/cleanable/blood,
@@ -817,46 +645,40 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/random/loot,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cY" = (
 /obj/floor_decal/corner/paleblue/three_quarters{
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "cZ" = (
-/obj/floor_decal/corner/red/three_quarters,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "da" = (
 /obj/structure/sign/poster{
 	pixel_y = -32
 	},
-/obj/floor_decal/corner/red{
-	dir = 10
-	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "db" = (
-/obj/floor_decal/corner/red/three_quarters{
-	dir = 4
-	},
 /obj/machinery/computer/modular/preset/security{
 	dir = 8;
 	icon_state = "console"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "dc" = (
 /obj/floor_decal/industrial/warning{
 	dir = 10;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dd" = (
 /obj/structure/barricade,
@@ -879,50 +701,45 @@
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dg" = (
 /obj/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet,
-/area/outpost/abandoned)
-"dj" = (
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "dl" = (
 /obj/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "dm" = (
 /obj/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular{
 	id_tag = "mars_blast"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "do" = (
 /obj/decal/cleanable/blood/gibs/limb,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/carpet/blue,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "dp" = (
 /obj/structure/janitorialcart,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dq" = (
 /obj/structure/dispenser,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dr" = (
 /obj/structure/barricade,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ds" = (
 /obj/machinery/door/airlock/medical{
@@ -931,7 +748,7 @@
 	opacity = 0
 	},
 /obj/machinery/holosign/surgery,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dt" = (
 /obj/structure/door_assembly{
@@ -949,30 +766,33 @@
 	},
 /obj/structure/table/woodentable,
 /obj/random/loot,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "dx" = (
 /obj/floor_decal/spline/fancy/wood,
 /obj/structure/table/woodentable,
-/turf/simulated/floor/carpet,
+/obj/random/loot/randomcolonyitems,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "dA" = (
 /obj/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
 /obj/structure/table/woodentable,
-/turf/simulated/floor/carpet,
+/obj/random/loot/raresidearmbundle,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "dC" = (
 /obj/machinery/vending/coffee{
 	icon_state = "coffee-broken";
 	prices = list()
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dD" = (
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
+/mob/living/simple_animal/hostile/daemon/headcrab/infestor,
+/turf/simulated/floor/asteroid,
+/area/mine/explored)
 "dE" = (
 /obj/decal/remains,
 /obj/structure/table,
@@ -980,7 +800,7 @@
 	icon_state = "shardlarge"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dF" = (
 /obj/structure/table,
@@ -991,13 +811,13 @@
 	dir = 5
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dG" = (
 /obj/floor_decal/corner/paleblue{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dI" = (
 /obj/decal/cleanable/cobweb,
@@ -1006,18 +826,18 @@
 	icon_state = "alarmx";
 	pixel_x = -23
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dJ" = (
 /obj/decal/cleanable/liquid_fuel,
 /obj/structure/table/steel,
 /obj/random/bomb_supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dK" = (
 /obj/decal/cleanable/liquid_fuel,
 /obj/structure/bed/chair,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dL" = (
 /obj/decal/cleanable/liquid_fuel,
@@ -1026,18 +846,18 @@
 	dir = 1;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dM" = (
 /obj/structure/bed/chair,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dN" = (
 /obj/machinery/vending/snack{
 	icon_state = "snack-broken";
 	reason_broken = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dO" = (
 /obj/structure/ore_box,
@@ -1045,7 +865,8 @@
 /area/outpost/abandoned)
 "dP" = (
 /obj/structure/closet/crate/large,
-/turf/simulated/floor/tiled,
+/obj/random/loot/randomcolonyitems,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dQ" = (
 /obj/structure/sign/directions/science{
@@ -1058,16 +879,13 @@
 /obj/structure/table/woodentable{
 	icon_state = "solid_flip0"
 	},
-/turf/simulated/floor/carpet/blue,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "dS" = (
 /obj/item/material/shard{
 	icon_state = "splinterslarge"
 	},
-/turf/simulated/floor/carpet/blue,
-/area/outpost/abandoned)
-"dT" = (
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "dU" = (
 /obj/floor_decal/corner/paleblue{
@@ -1077,18 +895,12 @@
 	dir = 8
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dV" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	icon_state = "dmg1"
-	},
-/area/outpost/abandoned)
-"dW" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "dY" = (
 /obj/structure/extinguisher_cabinet{
@@ -1100,7 +912,7 @@
 	icon_state = "bulb1"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "dZ" = (
 /obj/decal/cleanable/liquid_fuel,
@@ -1110,40 +922,39 @@
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/liquid_fuel,
 /obj/decal/cleanable/liquid_fuel,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eb" = (
 /obj/decal/cleanable/dirt,
 /obj/item/mop,
-/turf/simulated/floor/plating{
-	icon_state = "dmg2"
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "ec" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/liquid_fuel,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ed" = (
 /obj/decal/cleanable/liquid_fuel,
 /obj/decal/cleanable/blood/oil,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ee" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ef" = (
 /obj/machinery/light/small/emergency{
 	dir = 1;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/tiled,
+/obj/random/loot/raregunslug,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eg" = (
 /obj/decal/cleanable/cobweb2,
 /obj/item/ammo_magazine/pistol/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eh" = (
 /obj/structure/hygiene/sink/puddle,
@@ -1169,17 +980,17 @@
 	anchored = 1
 	},
 /obj/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "em" = (
 /obj/structure/wall_frame,
 /obj/structure/grille/broken,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "en" = (
-/obj/machinery/door/airlock/glass/science,
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/door/airlock/warhammer/engineering,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "ep" = (
 /obj/machinery/newscaster,
@@ -1190,7 +1001,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "er" = (
 /obj/floor_decal/corner/paleblue{
@@ -1200,13 +1011,13 @@
 	dir = 9
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "es" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "et" = (
 /obj/decal/cleanable/liquid_fuel,
@@ -1218,18 +1029,18 @@
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eu" = (
 /obj/decal/cleanable/liquid_fuel,
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
 /mob/living/bot/medbot,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ev" = (
 /obj/decal/cleanable/liquid_fuel,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ex" = (
 /obj/structure/sign/directions/medical{
@@ -1237,33 +1048,25 @@
 	},
 /turf/simulated/wall/titanium,
 /area/outpost/abandoned)
-"ez" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	icon_state = "dmg1"
-	},
-/area/outpost/abandoned)
 "eA" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
 /obj/gibspawner/human,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red,
 /obj/item/ammo_magazine/pistol/small,
-/turf/simulated/floor/plating{
-	icon_state = "dmg1"
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "eC" = (
 /obj/item/ammo_magazine/pistol/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eD" = (
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eE" = (
 /obj/machinery/door/blast/regular{
@@ -1271,7 +1074,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "eF" = (
 /obj/decal/cleanable/blood,
@@ -1283,7 +1086,7 @@
 /area/mine/explored)
 "eG" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "eH" = (
 /obj/floor_decal/industrial/warning/cee{
@@ -1291,12 +1094,12 @@
 	icon_state = "warningcee"
 	},
 /obj/floor_decal/industrial/warning/cee,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "eI" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "eJ" = (
 /obj/item/material/shard{
@@ -1304,7 +1107,7 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eK" = (
 /obj/item/material/shard{
@@ -1312,18 +1115,14 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
-/area/outpost/abandoned)
-"eL" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eM" = (
 /obj/floor_decal/corner/paleblue{
 	dir = 9
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eO" = (
 /obj/structure/table/glass,
@@ -1332,19 +1131,17 @@
 	},
 /obj/structure/window/reinforced,
 /obj/random/loot,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eP" = (
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	icon_state = "dmg4"
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "eQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eR" = (
 /obj/structure/door_assembly,
@@ -1352,7 +1149,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eS" = (
 /obj/decal/cleanable/blood,
@@ -1362,29 +1159,21 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
 /obj/random/trash,
-/turf/simulated/floor/tiled,
-/area/outpost/abandoned)
-"eU" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/green{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eV" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
-/turf/simulated/floor/plating{
-	icon_state = "dmg1"
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "eW" = (
 /obj/decal/cleanable/dirt,
@@ -1393,7 +1182,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eX" = (
 /obj/decal/cleanable/dirt,
@@ -1403,7 +1192,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eY" = (
 /obj/decal/cleanable/dirt,
@@ -1412,21 +1201,21 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "eZ" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fa" = (
 /obj/decal/cleanable/ash,
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fb" = (
 /obj/decal/cleanable/dirt,
@@ -1434,37 +1223,27 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/red,
-/turf/simulated/floor/plating{
-	icon_state = "dmg1"
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "fc" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/blood,
 /obj/item/ammo_magazine/pistol/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fd" = (
 /obj/decal/cleanable/blood,
 /obj/item/ammo_magazine/pistol/small,
-/turf/simulated/floor/tiled,
-/area/outpost/abandoned)
-"fe" = (
-/turf/simulated/floor/tiled,
-/area/mine/explored)
-"fh" = (
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fi" = (
 /obj/item/pen,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fj" = (
 /obj/decal/cleanable/blood/gibs/limb,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fk" = (
 /obj/machinery/alarm{
@@ -1472,30 +1251,25 @@
 	icon_state = "alarmx";
 	pixel_x = 24
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fl" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"fm" = (
-/turf/simulated/floor/plating{
-	icon_state = "dmg3"
-	},
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fo" = (
 /obj/random/medical,
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fq" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fr" = (
 /obj/structure/window/basic{
@@ -1510,50 +1284,40 @@
 "fs" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/vomit,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ft" = (
 /obj/decal/cleanable/dirt,
 /obj/random/medical,
-/turf/simulated/floor/plating{
-	icon_state = "dmg4"
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "fu" = (
 /obj/decal/cleanable/dirt,
 /obj/structure/mopbucket,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fv" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/remains,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fw" = (
 /obj/decal/cleanable/dirt,
 /obj/random/trash,
-/turf/simulated/floor/plating{
-	icon_state = "dmg1"
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "fx" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
 /obj/item/ammo_magazine/pistol/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fy" = (
 /obj/floor_decal/asteroid,
 /turf/simulated/floor/asteroid,
 /area/mine/explored)
-"fz" = (
-/obj/floor_decal/asteroid,
-/turf/simulated/floor/plating{
-	icon_state = "dmg2"
-	},
-/area/mine/explored)
 "fA" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -1561,40 +1325,32 @@
 	dir = 8
 	},
 /obj/random/loot,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fB" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper_bin,
 /obj/machinery/door/window/northleft,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/item/gun/energy/taser,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fD" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/table,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fE" = (
 /obj/floor_decal/corner/paleblue/three_quarters,
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"fF" = (
-/obj/floor_decal/corner/paleblue{
-	dir = 10
-	},
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fG" = (
 /obj/structure/mech_wreckage/powerloader,
@@ -1603,11 +1359,11 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fH" = (
 /obj/random/firstaid,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fI" = (
 /turf/simulated/floor/grass,
@@ -1625,19 +1381,11 @@
 /area/outpost/abandoned)
 "fK" = (
 /obj/decal/cleanable/blood/gibs/down,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fL" = (
 /obj/item/newspaper,
-/turf/simulated/floor/tiled,
-/area/outpost/abandoned)
-"fM" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	icon_state = "firex";
-	pixel_y = -24
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fN" = (
 /obj/machinery/requests_console{
@@ -1645,7 +1393,8 @@
 	pixel_y = -32;
 	reason_broken = 1
 	},
-/turf/simulated/floor/tiled,
+/mob/living/simple_animal/hostile/daemon/zygote,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fO" = (
 /obj/decal/cleanable/dirt,
@@ -1659,7 +1408,7 @@
 	name = "south bump";
 	pixel_y = -24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fP" = (
 /obj/decal/cleanable/dirt,
@@ -1670,38 +1419,34 @@
 	dir = 4;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fQ" = (
 /obj/decal/cleanable/generic,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
-"fR" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
-/area/mine/explored)
 "fS" = (
 /obj/decal/cleanable/blood,
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fU" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/item/reagent_containers/food/drinks/flask/vacuumflask,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fV" = (
 /obj/structure/bed/chair/office/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "fW" = (
-/obj/machinery/door/airlock/hatch,
-/turf/simulated/floor/plating,
+/obj/machinery/door/airlock/warhammer/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "fX" = (
 /obj/structure/cable{
@@ -1742,11 +1487,8 @@
 	dir = 8
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
-"gb" = (
-/turf/simulated/floor/plating,
-/area/mine/explored)
 "gc" = (
 /obj/item/solar_assembly,
 /obj/decal/cleanable/dirt,
@@ -1757,39 +1499,29 @@
 	anchored = 1;
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
-/area/outpost/abandoned)
-"ge" = (
-/obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gf" = (
 /obj/structure/cable,
 /obj/machinery/power/smes/batteryrack,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gg" = (
 /obj/decal/cleanable/cobweb2,
 /obj/structure/cable,
 /obj/machinery/computer/modular/preset/engineering,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gh" = (
 /obj/structure/barricade,
 /obj/machinery/door/firedoor,
 /obj/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
-"gi" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled{
-	icon_state = "steel_broken0"
-	},
-/area/mine/explored)
 "gj" = (
-/obj/machinery/door/airlock/hatch,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/obj/machinery/door/airlock/warhammer/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gk" = (
 /obj/decal/cleanable/dirt,
@@ -1799,16 +1531,14 @@
 /obj/structure/cable/orange{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gl" = (
 /obj/structure/girder,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gm" = (
-/turf/simulated/floor/plating{
-	icon_state = "dmg2"
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gn" = (
 /obj/decal/cleanable/dirt,
@@ -1816,7 +1546,7 @@
 	dir = 4;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "go" = (
 /obj/machinery/door/airlock/external,
@@ -1824,14 +1554,14 @@
 	id_tag = "mars_blast"
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gp" = (
 /obj/floor_decal/industrial/warning/dust{
 	dir = 9
 	},
 /obj/random/loot,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gq" = (
 /obj/floor_decal/industrial/warning/dust{
@@ -1841,13 +1571,13 @@
 	dir = 1;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gr" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/door/blast/regular/open,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gs" = (
 /obj/floor_decal/industrial/warning/dust{
@@ -1861,14 +1591,10 @@
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/asteroid,
 /area/mine/explored)
-"gu" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
-/area/outpost/abandoned)
 "gv" = (
 /obj/random/closet,
 /obj/random/loot,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gw" = (
 /obj/structure/cable/orange{
@@ -1881,14 +1607,14 @@
 	icon_state = "2-4"
 	},
 /obj/random/trash,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gx" = (
 /obj/structure/cable/orange{
 	dir = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gy" = (
 /obj/decal/cleanable/dirt,
@@ -1896,7 +1622,7 @@
 	dir = 8;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gz" = (
 /obj/machinery/door/airlock/external{
@@ -1906,50 +1632,45 @@
 	},
 /obj/machinery/door/blast/regular/open,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gA" = (
 /obj/floor_decal/industrial/warning/dust{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gB" = (
 /obj/floor_decal/industrial/warning/dust{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
-"gC" = (
-/turf/simulated/floor/tiled{
-	icon_state = "steel_broken4"
-	},
-/area/mine/explored)
 "gD" = (
 /obj/floor_decal/industrial/hatch,
 /obj/structure/cable/orange{
 	dir = 1;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gE" = (
 /obj/decal/cleanable/blood/tracks/footprints,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gF" = (
 /obj/structure/sign/warning/vacuum{
 	pixel_x = 32
 	},
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gH" = (
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gI" = (
 /obj/structure/cable/orange{
@@ -1957,7 +1678,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gJ" = (
 /obj/machinery/door/airlock/hatch,
@@ -1966,7 +1687,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gK" = (
 /obj/decal/cleanable/dirt,
@@ -1976,11 +1697,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gL" = (
 /obj/decal/cleanable/blood/tracks/footprints,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gM" = (
 /obj/item/solar_assembly,
@@ -1994,7 +1715,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gO" = (
 /obj/decal/cleanable/blood/tracks/footprints,
@@ -2002,14 +1723,12 @@
 /obj/structure/firedoor_assembly{
 	anchored = 1
 	},
-/turf/simulated/floor/plating{
-	icon_state = "dmg2"
-	},
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gP" = (
 /obj/decal/cleanable/blood/gibs/limb,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gQ" = (
 /obj/structure/cable/orange{
@@ -2025,7 +1744,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gS" = (
 /obj/machinery/firealarm{
@@ -2033,14 +1752,14 @@
 	icon_state = "firex";
 	pixel_x = 26
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gT" = (
 /obj/floor_decal/solarpanel,
 /obj/structure/cable/orange{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gU" = (
 /obj/structure/cable/orange{
@@ -2053,14 +1772,14 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gV" = (
 /obj/floor_decal/solarpanel,
 /obj/structure/cable/orange{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gW" = (
 /obj/structure/cable/orange{
@@ -2068,7 +1787,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gX" = (
 /obj/structure/cable/orange{
@@ -2086,7 +1805,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "gY" = (
 /obj/floor_decal/solarpanel,
@@ -2094,11 +1813,11 @@
 	dir = 4
 	},
 /obj/machinery/power/solar,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "gZ" = (
 /obj/random/junk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "ha" = (
 /obj/machinery/newscaster{
@@ -2116,7 +1835,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hb" = (
 /obj/structure/bed/chair,
@@ -2124,7 +1843,7 @@
 	dir = 1;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hc" = (
 /obj/structure/table/steel,
@@ -2134,7 +1853,7 @@
 	dir = 5;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "he" = (
 /obj/floor_decal/solarpanel,
@@ -2142,7 +1861,7 @@
 /obj/structure/cable/orange{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hf" = (
 /obj/floor_decal/solarpanel,
@@ -2150,12 +1869,12 @@
 /obj/structure/cable/orange{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hg" = (
 /obj/structure/closet/crate/trashcart,
 /obj/random/loot,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hh" = (
 /obj/machinery/washing_machine,
@@ -2164,11 +1883,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hj" = (
 /obj/decal/cleanable/blood/gibs/body,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hk" = (
 /obj/structure/bed/chair{
@@ -2178,17 +1897,13 @@
 	dir = 4;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled,
-/area/outpost/abandoned)
-"hl" = (
-/obj/random/trash,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hm" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hn" = (
 /obj/floor_decal/solarpanel,
@@ -2196,30 +1911,32 @@
 	dir = 8
 	},
 /obj/machinery/power/solar,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "ho" = (
 /obj/structure/table/rack,
 /obj/random/toolbox,
 /obj/decal/cleanable/cobweb,
-/turf/simulated/floor/plating,
+/obj/random/loot/randomsupply/tech,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hp" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/liquid_fuel,
-/turf/simulated/floor/plating,
+/mob/living/simple_animal/hostile/daemon/headcrab/infestor,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hq" = (
 /obj/structure/table/reinforced,
 /obj/random/contraband,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hr" = (
 /obj/random/junk,
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hs" = (
 /obj/structure/cable/orange{
@@ -2228,7 +1945,7 @@
 	icon_state = "4-8"
 	},
 /obj/random/loot,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ht" = (
 /obj/structure/cable/orange{
@@ -2236,7 +1953,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hu" = (
 /obj/machinery/light/small/emergency,
@@ -2245,7 +1962,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hv" = (
 /obj/item/gun/energy/plasmacutter,
@@ -2254,7 +1971,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hw" = (
 /obj/structure/cable/orange{
@@ -2268,7 +1985,7 @@
 /obj/machinery/power/solar_control/autostart{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hx" = (
 /obj/structure/cable/orange{
@@ -2277,14 +1994,6 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/wall/titanium,
-/area/outpost/abandoned)
-"hy" = (
-/obj/structure/cable/orange{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/unsimulated/mask,
 /area/outpost/abandoned)
 "hz" = (
 /obj/structure/cable/orange{
@@ -2296,7 +2005,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/unsimulated/mask,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hA" = (
 /obj/structure/cable/orange{
@@ -2308,53 +2017,55 @@
 	dir = 4;
 	icon_state = "1-4"
 	},
-/turf/unsimulated/mask,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hB" = (
 /obj/structure/cable/orange{
 	dir = 4;
 	icon_state = "1-4"
 	},
-/turf/unsimulated/mask,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "hC" = (
 /obj/structure/table/rack,
 /obj/random/tool,
-/turf/simulated/floor/plating,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hD" = (
 /obj/random/junk,
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/liquid_fuel,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hE" = (
 /obj/structure/table/reinforced,
 /obj/random/material,
 /obj/decal/cleanable/liquid_fuel,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hF" = (
 /obj/structure/table/rack,
 /obj/random/powercell,
-/turf/simulated/floor/plating,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hG" = (
 /obj/decal/cleanable/liquid_fuel,
 /obj/structure/closet/crate/radiation,
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hH" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/decal/cleanable/liquid_fuel,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "hL" = (
 /obj/decal/cleanable/dirt,
 /obj/overmap/visitable/sector/away,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "ib" = (
 /obj/shuttle_landmark/away/nav7,
@@ -2367,7 +2078,7 @@
 	dir = 4;
 	id_tag = "mars_blast"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "jb" = (
 /obj/shuttle_landmark/away/nav1,
@@ -2391,7 +2102,7 @@
 	icon_state = "plant-25"
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "nb" = (
 /obj/shuttle_landmark/away/nav5,
@@ -2409,12 +2120,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 4
 	},
-/obj/floor_decal/corner/red{
-	dir = 9
-	},
 /obj/decal/cleanable/dirt,
 /obj/item/ammo_casing/magnum,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "rb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
@@ -2425,27 +2133,24 @@
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
 /obj/item/ammo_casing/magnum,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "sb" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 4
 	},
-/obj/floor_decal/corner/red{
-	dir = 6
-	},
 /obj/machinery/button/blast_door{
 	id_tag = "mars_blast"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "tb" = (
 /obj/wallframe_spawn/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "ub" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
@@ -2469,7 +2174,7 @@
 	dir = 4;
 	icon_state = "console"
 	},
-/turf/simulated/floor/carpet/blue,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "yb" = (
 /obj/item/storage/mirror{
@@ -2488,7 +2193,7 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/outpost/abandoned)
 "Bp" = (
 /obj/wallframe_spawn/reinforced,
@@ -2496,30 +2201,30 @@
 	dir = 4;
 	id_tag = "mars_blast"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "IX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open,
 /obj/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/abandoned)
 "JD" = (
 /obj/decal/cleanable/dirt,
 /obj/floor_decal/spline/fancy/wood/corner,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "Kt" = (
 /obj/floor_decal/spline/fancy/wood/corner{
 	dir = 8
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 "XS" = (
 /obj/floor_decal/spline/fancy/wood,
 /obj/structure/table/woodentable,
 /obj/random/loot,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/darkwood,
 /area/outpost/abandoned)
 
 (1,1,1) = {"
@@ -11710,7 +11415,7 @@ af
 af
 af
 af
-dD
+bx
 dU
 er
 eM
@@ -11913,11 +11618,11 @@ cu
 cU
 af
 dE
-cW
-dD
-dW
-fm
-dD
+bQ
+bx
+bQ
+gm
+bx
 cG
 aa
 aa
@@ -12119,7 +11824,7 @@ dV
 es
 bL
 bL
-fF
+cV
 cG
 aa
 aa
@@ -12313,11 +12018,11 @@ aa
 aa
 af
 cc
-cw
-cW
+bL
+bQ
 ds
-dD
-dW
+bx
+bQ
 et
 eO
 fo
@@ -12515,15 +12220,15 @@ aa
 aa
 af
 cd
-cw
+bL
 cX
 af
 dG
-dW
+bQ
 eu
-dW
-dD
-dD
+bQ
+bx
+bx
 af
 aa
 aa
@@ -12720,7 +12425,7 @@ ce
 cx
 cY
 cG
-aI
+bx
 dY
 ev
 eP
@@ -13335,17 +13040,17 @@ af
 af
 aa
 af
-aH
-gu
-aH
+gm
+eP
+gm
 aS
-aH
-aH
+gm
+gm
 hg
 fW
-gu
+eP
 hD
-gu
+eP
 af
 aa
 aa
@@ -13537,15 +13242,15 @@ fI
 af
 aa
 af
-gu
-gu
-gu
-gu
-aH
+eP
+eP
+eP
+eP
+gm
 gZ
-aH
+gm
 fW
-hp
+cI
 hp
 hG
 af
@@ -13733,14 +13438,14 @@ af
 af
 dZ
 ex
-eU
+eQ
 fs
 fJ
 af
 aa
 af
-aH
-gu
+gm
+eP
 af
 af
 af
@@ -13934,15 +13639,15 @@ aa
 af
 dI
 ea
-aI
+bx
 eV
-cW
+bQ
 fK
 af
 aa
 aa
 gv
-gu
+eP
 cG
 aa
 aa
@@ -14135,16 +13840,16 @@ aa
 aa
 af
 dJ
-cW
-ez
+bQ
+eP
 eW
-cW
+bQ
 fL
 af
 aa
 aa
 aa
-gu
+eP
 cG
 aa
 aa
@@ -14337,16 +14042,16 @@ cy
 af
 af
 dK
-cW
-aI
+bQ
+bx
 eX
-cW
-fM
+bQ
+bx
 af
 af
 af
-aH
-gu
+gm
+eP
 af
 af
 aa
@@ -14532,24 +14237,24 @@ af
 af
 br
 bG
-bO
+bx
 bW
-cf
+cg
 qb
 cZ
 cG
 dL
 eb
-cW
+bQ
 eY
 ft
-aI
+bx
 fW
-aH
-aH
-aH
-gu
-aH
+gm
+gm
+gm
+eP
+gm
 af
 aa
 aa
@@ -14732,9 +14437,9 @@ ay
 aW
 bf
 af
-bs
-dD
-bP
+dM
+bx
+bx
 af
 cg
 rb
@@ -14745,13 +14450,13 @@ ec
 eA
 eW
 fu
-aI
+bx
 af
 af
 gj
 gl
 cG
-aH
+gm
 af
 aa
 aa
@@ -14931,20 +14636,20 @@ aa
 af
 ax
 aK
-az
-az
+bx
+bx
 af
-bs
+dM
 bI
-bP
+bx
 af
 ch
 sb
 db
 af
 dN
-cW
-cw
+bQ
+bL
 eZ
 fv
 fN
@@ -15132,23 +14837,23 @@ aa
 aa
 af
 ay
-az
-az
+bx
+bx
 bg
 af
-bt
-dW
+bQ
+bQ
 aA
 af
 bZ
 tb
 bZ
 cy
-aI
-cW
-cw
+bx
+bQ
+bL
 fa
-cW
+bQ
 fO
 fY
 gf
@@ -15333,12 +15038,12 @@ aa
 aa
 aa
 af
-az
-az
+bx
+bx
 aX
-az
-bm
-bu
+bx
+bp
+bL
 bK
 bQ
 bX
@@ -15348,14 +15053,14 @@ dc
 dt
 dO
 ed
-cw
-eU
+bL
+eQ
 fw
 fP
 fZ
 gg
-aH
-aH
+gm
+gm
 gl
 gI
 af
@@ -15538,10 +15243,10 @@ af
 aA
 aA
 aY
-az
+bx
 af
 bv
-dW
+bQ
 bQ
 bX
 ck
@@ -15549,11 +15254,11 @@ vb
 dd
 dt
 dP
-aI
-cW
+bx
+bQ
 eZ
-cW
-aI
+bQ
+bx
 af
 af
 gl
@@ -15740,8 +15445,8 @@ af
 aB
 aA
 aA
-az
-bm
+bx
+bp
 bw
 hL
 bQ
@@ -15754,13 +15459,13 @@ dQ
 ee
 eB
 fb
-cw
+bL
 fQ
-aI
-aI
-cW
+bx
+bx
+bQ
 gy
-cw
+bL
 gK
 gN
 gR
@@ -15942,11 +15647,11 @@ af
 ax
 aL
 aA
-az
+bx
 af
 bx
-dW
-bP
+bQ
+bx
 af
 af
 cG
@@ -15957,11 +15662,11 @@ ef
 eC
 fc
 fx
-cw
-cW
-cW
+bL
+bQ
+bQ
 gm
-aI
+bx
 gE
 gL
 gO
@@ -16147,8 +15852,8 @@ aZ
 ax
 af
 aA
-dD
-bP
+bx
+bx
 af
 aa
 aa
@@ -16159,18 +15864,18 @@ eg
 eD
 fd
 eD
-cW
+bQ
 ga
 ga
 gn
 gn
 gF
-aI
+bx
 gP
-cW
-cW
+bQ
+bQ
 gL
-hl
+bw
 ht
 cy
 aa
@@ -16350,7 +16055,7 @@ af
 af
 by
 by
-bP
+bx
 af
 aa
 aa
@@ -16370,9 +16075,9 @@ af
 af
 cy
 gS
-cW
+bQ
 gL
-aI
+bx
 hu
 af
 aa
@@ -16544,9 +16249,9 @@ aa
 aa
 af
 ag
-ao
+bx
 aD
-ao
+bx
 ba
 bh
 af
@@ -16574,7 +16279,7 @@ af
 cy
 dM
 eD
-aI
+bx
 hv
 af
 aa
@@ -16746,14 +16451,14 @@ aa
 aa
 af
 ah
-ao
-ao
-ao
+bx
+bx
+bx
 bb
 bi
 af
 bA
-dD
+bx
 bQ
 af
 aa
@@ -16776,7 +16481,7 @@ ab
 IX
 hb
 hj
-aI
+bx
 ht
 af
 aa
@@ -16948,14 +16653,14 @@ aa
 aa
 af
 ai
-ao
-aj
+bx
+bx
 af
 af
 af
 af
-bu
-dW
+bL
+bQ
 bQ
 af
 af
@@ -17149,17 +16854,17 @@ aa
 aa
 aa
 af
-aj
-ao
-ao
+bx
+bx
+bx
 af
-ao
-ao
+bx
+bx
 af
 bB
-dW
-bP
-bY
+bQ
+bx
+bp
 cm
 cH
 dg
@@ -17352,18 +17057,18 @@ aa
 aa
 af
 ak
-ao
-aE
+bx
+bw
 aN
-ao
-ao
+bx
+bx
 bn
 bx
-dD
+bx
 bS
 bZ
 cn
-cI
+cJ
 Kt
 dw
 dm
@@ -17383,7 +17088,7 @@ ab
 ab
 ab
 ab
-hy
+ht
 aa
 aa
 aa
@@ -17553,20 +17258,20 @@ aa
 aa
 aa
 af
-aj
-ao
-ao
+bx
+bx
+bx
 af
 bc
-ao
+bx
 af
-bC
+bQ
 bL
-bT
+bx
 bZ
 co
 cJ
-dj
+cJ
 dx
 dm
 ei
@@ -17574,10 +17279,10 @@ ab
 ab
 ab
 ab
-gb
+ab
 ej
 gt
-fe
+ab
 ab
 gM
 ab
@@ -17585,7 +17290,7 @@ ab
 ab
 ab
 ab
-hy
+ht
 aa
 aa
 aa
@@ -17755,8 +17460,8 @@ aa
 aa
 aa
 af
-ai
-ao
+bm
+bx
 aF
 af
 af
@@ -17764,17 +17469,17 @@ af
 af
 bD
 by
-bP
+bx
 bZ
 cp
 cK
-dj
+cJ
 mk
 dm
 ab
 ab
 ab
-fz
+fy
 ab
 ab
 ej
@@ -17787,7 +17492,7 @@ gT
 he
 he
 gT
-hy
+ht
 aa
 aa
 aa
@@ -17958,19 +17663,19 @@ aa
 aa
 af
 am
-ao
-ao
+bx
+bx
 aO
 pb
 bj
 af
-bC
-bM
-bP
+bQ
+eD
+bx
 bZ
 cq
-cI
-dj
+cJ
+cJ
 XS
 dm
 ab
@@ -18160,7 +17865,7 @@ aa
 aa
 af
 an
-ao
+bx
 aG
 aP
 be
@@ -18168,7 +17873,7 @@ bj
 af
 bx
 bN
-bP
+bx
 bZ
 cr
 cL
@@ -18181,9 +17886,9 @@ ej
 ej
 ab
 ej
-gi
+ej
 ab
-gC
+ab
 ab
 ab
 ab
@@ -18191,7 +17896,7 @@ gV
 hf
 hf
 hf
-hy
+ht
 aa
 aa
 aa
@@ -18368,10 +18073,10 @@ af
 af
 af
 af
-bC
-dW
-bP
-bY
+bQ
+bQ
+bx
+bp
 cs
 cM
 dl
@@ -18381,7 +18086,7 @@ ab
 ab
 ej
 ab
-fR
+ej
 ab
 ab
 ab
@@ -18567,12 +18272,12 @@ aa
 aa
 af
 aQ
-aI
+bx
 aQ
 af
-bC
-dW
-bU
+bQ
+bQ
+bQ
 af
 af
 af
@@ -18595,7 +18300,7 @@ gT
 he
 gT
 hn
-hy
+ht
 aa
 aa
 aa
@@ -18768,13 +18473,13 @@ aa
 aa
 aa
 af
+bx
 aI
-aI
-aI
+bx
 bo
 by
-dD
-bU
+bx
+bQ
 af
 aa
 af
@@ -18783,7 +18488,7 @@ ab
 ab
 ej
 ej
-fe
+ab
 ej
 ab
 ab
@@ -18971,12 +18676,12 @@ aa
 aa
 af
 aR
-aI
-aI
+bx
+bx
 bo
-bC
-bM
-bU
+bQ
+eD
+bQ
 af
 aa
 af
@@ -19172,13 +18877,13 @@ aa
 aa
 aa
 af
-aI
-aI
-aI
+bx
+bx
+bx
 bo
 bx
-dW
-bU
+bQ
+bQ
 af
 aa
 aa
@@ -19375,12 +19080,12 @@ aa
 aa
 af
 aQ
-aI
+bx
 bk
 af
 bx
-dW
-bV
+bQ
+bk
 af
 aa
 aa
@@ -19576,13 +19281,13 @@ aa
 aa
 aa
 af
-aI
-aI
-aI
+bx
+bx
+bx
 bp
 bx
-dD
-bP
+bx
+bx
 af
 af
 af
@@ -19783,9 +19488,9 @@ af
 af
 af
 bx
-dW
-dW
-bO
+bQ
+bQ
+bx
 af
 cN
 cQ
@@ -19793,9 +19498,9 @@ cQ
 dR
 el
 eJ
-dT
-dT
-eL
+bx
+bx
+bQ
 af
 aa
 aa
@@ -19982,21 +19687,21 @@ ap
 ap
 aS
 ap
-aH
+gm
 af
 aA
-dD
+bx
 aA
-bP
+bx
 af
-cO
+cq
 wb
 cQ
 dS
 em
 eK
-fh
-dT
+bL
+bx
 fS
 af
 aa
@@ -20181,13 +19886,13 @@ aa
 aa
 af
 aq
-aH
+gm
 aT
-aI
+bx
 aa
 aa
 aa
-dD
+bx
 aA
 aA
 af
@@ -20196,10 +19901,10 @@ do
 cQ
 cQ
 af
-eL
-fh
-fh
-eL
+bQ
+bL
+bL
+bQ
 af
 aa
 aa
@@ -20383,25 +20088,25 @@ aa
 aa
 af
 ar
-aH
-aH
-aI
+gm
+gm
+bx
 aa
 aa
 aa
 aa
-dD
-bP
+bx
+bx
 af
 cQ
 cQ
 cQ
 dR
 en
-dT
-dT
-dT
-eL
+bx
+bx
+bx
+bQ
 af
 af
 aa
@@ -20585,26 +20290,26 @@ aa
 aa
 af
 as
-aH
-aH
-aI
-aI
+gm
+gm
+bx
+bx
 aa
 aa
 aa
-dD
-bU
+bx
+bQ
 af
-cQ
+cf
 cQ
 cQ
 dR
-bZ
-dT
+af
+bx
 fi
-eL
-dT
-dT
+bQ
+bx
+bx
 af
 aa
 aa
@@ -20787,23 +20492,23 @@ aa
 aa
 af
 at
-aH
+gm
 aU
-aI
-aH
+bx
+gm
 af
 bx
 bN
 bL
-bU
+bQ
 af
 af
 af
 af
 af
 ep
-dT
-dT
+bx
+bx
 fA
 fU
 gd
@@ -20989,26 +20694,26 @@ aa
 aa
 af
 au
-aI
-aH
-aH
-aI
+bx
+gm
+gm
+bx
 bq
-bE
-dW
-dW
-bP
+bL
+bQ
+bQ
+bx
 af
 cR
 dp
 dC
-dT
-dT
-dT
+bx
+bx
+bx
 fj
 fB
 fV
-ge
+eD
 cy
 aa
 aa
@@ -21191,26 +20896,26 @@ aa
 aa
 af
 av
-aI
-aI
-aH
-aI
+bx
+bx
+gm
+bx
 af
-bF
-aH
-dD
-bP
+bc
+gm
+bx
+bx
 ct
 cS
 dq
 dr
-dT
-dT
-dT
-dT
+bx
+bx
+bx
+bx
 fC
-dT
-dT
+bx
+bx
 cy
 aa
 aa
@@ -21395,24 +21100,24 @@ af
 av
 av
 aV
-aH
+gm
 bl
 af
-aH
+gm
 aa
 aa
-aH
+gm
 af
 cT
 dr
 cR
-dT
+bx
 eq
-dT
+bx
 fk
 fD
-dT
-dT
+bx
+bx
 af
 aa
 aa
@@ -21597,13 +21302,13 @@ af
 av
 av
 av
-aH
-aI
+gm
+bx
 af
 af
 aa
-aH
-aH
+gm
+gm
 af
 af
 af
@@ -21800,7 +21505,7 @@ af
 af
 af
 af
-aI
+bx
 af
 aa
 aa
@@ -23056,7 +22761,7 @@ aa
 ab
 ab
 ab
-ab
+dD
 aa
 aa
 aa

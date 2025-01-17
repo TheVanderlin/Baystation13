@@ -81,7 +81,7 @@
 /area/map_template/deepmaint)
 "cB" = (
 /obj/machinery/fabricator/micro/bartender,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/deepmaint)
 "cL" = (
@@ -132,7 +132,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/map_template/deepmaint)
 "ld" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_alc/full,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/deepmaint)
@@ -304,7 +304,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "Is" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_soft/full,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/deepmaint)
@@ -418,7 +418,7 @@
 /turf/simulated/floor/lino,
 /area/map_template/deepmaint)
 "TA" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_coffee/full,
 /obj/machinery/light{
 	dir = 4

@@ -12,7 +12,7 @@
 /turf/simulated/floor/plating,
 /area/bluespace_interlude/platform)
 "br" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/structure/noticeboard/anomaly{
@@ -31,7 +31,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/bluespace_interlude/platform)
 "ha" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/surgery,
 /turf/simulated/floor/tiled/white,
 /area/bluespace_interlude/platform)
@@ -145,13 +145,13 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/bluespace_interlude/platform)
 "wA" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/ammo,
 /obj/random/ammo,
 /turf/simulated/floor/tiled/dark,
 /area/bluespace_interlude/platform)
 "wL" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/modular_computer/laptop,
 /obj/machinery/light/small{
 	dir = 4
@@ -208,7 +208,7 @@
 /turf/simulated/floor/plating,
 /area/bluespace_interlude/platform)
 "IP" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/spray/cleaner,
 /turf/simulated/floor/tiled/white,
 /area/bluespace_interlude/platform)
@@ -237,7 +237,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/bluespace_interlude/platform)
 "SR" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/handgun,
 /turf/simulated/floor/tiled/dark,
 /area/bluespace_interlude/platform)
@@ -250,7 +250,7 @@
 /area/bluespace_interlude/surroundings)
 "Wl" = (
 /obj/random/documents,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
 /area/bluespace_interlude/platform)
 "XN" = (

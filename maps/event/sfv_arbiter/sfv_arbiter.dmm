@@ -37,7 +37,7 @@
 /turf/simulated/floor/plating,
 /area/map_template/sfv_arbiter)
 "by" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/adv,
 /obj/item/storage/firstaid/adv,
 /obj/item/storage/firstaid/adv,
@@ -45,7 +45,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/sfv_arbiter)
 "bM" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/defibrillator/loaded{
 	pixel_y = 7
 	},
@@ -127,7 +127,7 @@
 /turf/simulated/floor/tiled,
 /area/map_template/sfv_arbiter)
 "dn" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/belt/medical/emt,
 /obj/item/storage/belt/medical/emt,
 /turf/simulated/floor/tiled/white,
@@ -775,7 +775,7 @@
 /turf/simulated/floor/tiled,
 /area/map_template/sfv_arbiter)
 "xv" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/closet/medical_wall{
 	pixel_y = -32
 	},
@@ -2360,7 +2360,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/map_template/sfv_arbiter)
 "XC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = -6;
 	pixel_y = 8
@@ -2473,7 +2473,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/sfv_arbiter)
 "YL" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/surgery{
 	pixel_y = 9
 	},

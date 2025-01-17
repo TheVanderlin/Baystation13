@@ -285,7 +285,7 @@
 /turf/simulated/floor/exoplanet/concrete/reinforced,
 /area/map_template/biodome/engineering)
 "iL" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/tau/green,
 /area/map_template/biodome/living)
 "jM" = (
@@ -900,7 +900,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/mop/advanced,
 /turf/simulated/floor/tiled/tau/green,
 /area/map_template/biodome/living)
@@ -1020,7 +1020,7 @@
 /turf/simulated/floor/tiled/tau/orange,
 /area/map_template/biodome/engineering)
 "LY" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/light/tau{
 	dir = 1
 	},

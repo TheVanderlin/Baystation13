@@ -145,7 +145,7 @@
 /turf/simulated/floor/tiled/dark/monotile/vox,
 /area/map_template/vox_raider)
 "at" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/item/stack/medical/advanced/bruise_pack,
@@ -204,7 +204,7 @@
 /obj/item/reagent_containers/ivbag/blood/vox/oneg,
 /obj/item/reagent_containers/ivbag/blood/vox/oneg,
 /obj/item/storage/firstaid/adv,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8;
 	level = 2

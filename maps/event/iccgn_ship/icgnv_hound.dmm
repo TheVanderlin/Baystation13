@@ -729,7 +729,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/icgnv_hound)
 "Jg" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/surgery,
 /obj/item/storage/firstaid/adv,
 /obj/machinery/vending/wallmed1{

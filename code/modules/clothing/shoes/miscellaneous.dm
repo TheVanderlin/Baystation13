@@ -309,7 +309,7 @@
 /obj/item/clothing/shoes/jackboots/skitshoes/techpriest
 	name = "techno-boots"
 	desc = "Cybernetic legs scurry the Tech-priest where he is needed."
-	icon_state = "techpriest"
+	icon_state = "merc_rig"
 	item_state = "techpriest"
 	siemens_coefficient = 0.7
 	unacidable = 1

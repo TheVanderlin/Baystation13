@@ -253,8 +253,8 @@
 	construct_state = /singleton/machine_construction/default/panel_closed
 	health_max = 3500
 	health_min_damage = 35
-	var/critical_heat = 700 // sparks and takes damage when active & above this heat
-	var/heat_reduction = 2 // mitigates this much heat per tick
+	var/critical_heat = 900 // sparks and takes damage when active & above this heat
+	var/heat_reduction = 5 // mitigates this much heat per tick
 	var/sensor_strength //used for detecting ships via contacts
 	var/heat = 0
 	var/range = 1
@@ -346,7 +346,7 @@
 
 /obj/machinery/shipsensors/RefreshParts()
 	..()
-	heat_reduction = round(total_component_rating_of_type(/obj/item/stock_parts/manipulator) / 3)
+	heat_reduction = round(total_component_rating_of_type(/obj/item/stock_parts/manipulator) / 3) + 3
 
 
 /obj/item/stock_parts/circuitboard/shipsensors

@@ -5,9 +5,9 @@
 # Ranks can be anything defined in admin_ranks.txt           ~Carn   #
 ######################################################################
 
-TheBananaBunch - DevAdmin
-Alanii - Host
-WoodenTucker - Host
+TheBananaBunch - Suzerain
+Alanii - Saintess
+WoodenTucker - Archon
 
 Somenerd - RetiredAdmin
 Rushodan - RetiredAdmin
@@ -15,40 +15,36 @@ okithedoki - RetiredAdmin
 blankcat - RetiredAdmin
 Alexeivichi - RetiredAdmin
 budgetcommander - RetiredAdmin
+Daelso - Magos
 
-thebananabunch - HeadDeveloper
-Hans Nacht - Developer
-Daelso - Developer
-Scott45 - Developer
+Koshi Kaiser - Librarian
+Lord inquisitor plasmaman - Librarian
 
-Koshi Kaiser - Mentor
-Lord inquisitor plasmaman - Mentor
+#Fauxvail - Librarian
 
-#Fauxvail - Mentor
+Atomic Galaxy - Librarian
 
-Atomic Galaxy - Mentor
+Antifort - Librarian
 
-Antifort - Mentor
+Invyicta - Librarian
 
-Invyicta - Mentor
+EclipseNutellabrot - Librarian
 
-EclipseNutellabrot - Mentor
+Mwhite11 - RetiredAdmin
 
-Mwhite11 - GameAdmin
+Magisterium - Magos
 
-Magisterium - GameAdmin
-
-Oprime - HeadAdmin
+Oprime - Inquisitor
 
 
-Schwimmbadpommes - Moderator
+Schwimmbadpommes - Castellan
 
-Mamuliano - Moderator
+Mamuliano - Castellan
 
-Yacobpo157 - Moderator
+Yacobpo157 - Castellan
 
-Blackwombat - Moderator
+Blackwombat - Enforcer
 
-Gruesomeborg68915 - Moderator
-Mishuliny - Moderator
-PlagueOfTime - Moderator
+Gruesomeborg68915 - Arbitrator
+Mishuliny - Castellan
+PlagueOfTime - Enforcer

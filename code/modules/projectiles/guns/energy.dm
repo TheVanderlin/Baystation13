@@ -114,7 +114,7 @@
 		if (power_supply)
 			playsound(src, 'sound/weapons/guns/interaction/pistol_magout.ogg', 70)
 			power_supply.update_icon()
-			power_supply.loc = user.loc
+			user.put_in_hands(power_supply)
 			power_supply = null
 			to_chat(user, SPAN_NOTICE("You remove the cell from [src]."))
 			update_icon()

@@ -959,6 +959,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/petrov/maint)
+"bR" = (
+/obj/machinery/ion_engine{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/exploration_shuttle/fuel)
 "bS" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/plating,
@@ -16475,6 +16481,12 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/shuttle/petrov/control)
+"Yh" = (
+/obj/machinery/ion_engine{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/exploration_shuttle/atmos)
 "Yi" = (
 /obj/item/stack/material/steel{
 	amount = 30
@@ -32890,7 +32902,7 @@ KE
 KE
 KE
 KE
-KE
+Yh
 fS
 aX
 ee
@@ -33496,7 +33508,7 @@ ia
 mA
 uN
 fZ
-fZ
+Yh
 fS
 aX
 lX
@@ -34910,7 +34922,7 @@ kK
 rs
 wM
 pX
-pX
+bR
 fS
 Bm
 VN
@@ -35516,7 +35528,7 @@ zh
 zh
 zh
 zh
-zh
+bR
 fS
 Bm
 ee

@@ -26,7 +26,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ai" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "ak" = (
@@ -34,7 +34,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
 "am" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_soft/full,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/syndicate_mothership/raider_base)
@@ -1048,7 +1048,7 @@
 /turf/simulated/floor/plating,
 /area/map_template/skipjack_station/start)
 "di" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/fancy/smokable/transstellar,
 /obj/item/flame/lighter/zippo/random,
 /obj/item/clothing/gloves/insulated,
@@ -1430,12 +1430,12 @@
 /turf/simulated/wall/voxshuttle,
 /area/map_template/skipjack_station/start)
 "em" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/maintenance,
 /turf/simulated/floor/shuttle/black,
 /area/map_template/skipjack_station/start)
 "en" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/deck/cards,
 /turf/simulated/floor/shuttle/black,
 /area/map_template/skipjack_station/start)
@@ -1448,7 +1448,7 @@
 /turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "eq" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/circular_saw{
 	pixel_y = 8
 	},
@@ -1467,7 +1467,7 @@
 /turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "et" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/cautery,
 /obj/item/retractor,
 /obj/item/reagent_containers/glass/bottle/stoxin,
@@ -1499,7 +1499,7 @@
 /turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "ey" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/bonesetter,
 /obj/item/bonegel,
 /obj/item/FixOVein,
@@ -1531,7 +1531,7 @@
 /turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "eC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/fire{
 	pixel_x = 1
 	},
@@ -1542,7 +1542,7 @@
 /turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "eD" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/adv{
 	pixel_x = 1
 	},

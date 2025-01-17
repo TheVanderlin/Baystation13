@@ -16,7 +16,6 @@
 	material = SSmaterials.get_material_by_name("[material_name]")
 	if(!material)
 		return INITIALIZE_HINT_QDEL
-	SetName("[material.display_name] barricade")
 	desc = "A heavy, solid barrier made of [material.display_name]."
 	color = material.icon_colour
 	set_max_health(round(material.integrity * 1.33)) // Equivalent to a global resistance value of 0.75
@@ -268,7 +267,7 @@
 				new /obj/structure/barricade/barbed(T)
 				return
 			else
-				playsound(loc, 'sound/effects/glass_step.ogg', 50, TRUE)
+				playsound(loc, 'sound/weapons/stab2.ogg', 50, TRUE)
 				H.apply_damage(14, DAMAGE_BRUTE, target_zone, damage_flags = DAMAGE_FLAG_SHARP, used_weapon = src)
 				to_chat(H, "You fail to assemble the [src], cutting your hand!")
 

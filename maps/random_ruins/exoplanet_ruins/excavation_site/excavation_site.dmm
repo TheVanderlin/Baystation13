@@ -79,7 +79,7 @@
 /turf/simulated/floor/exoplanet/barren,
 /area/template_noop)
 "C" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/tool,
 /obj/item/taperoll/research,
 /obj/landmark/clear,
@@ -89,14 +89,14 @@
 /turf/simulated/mineral,
 /area/template_noop)
 "O" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/medical,
 /obj/random/medical,
 /obj/landmark/clear,
 /turf/template_noop,
 /area/template_noop)
 "R" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/device/gps,
 /obj/landmark/clear,
 /turf/template_noop,

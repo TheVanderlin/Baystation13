@@ -23,22 +23,27 @@
 
 /obj/shuttle_landmark/nav_meatstation/nav1
 	name = "Navpoint #1"
+	warpspace = TRUE
 	landmark_tag = "nav_meatstation_1"
 
 /obj/shuttle_landmark/nav_meatstation/nav2
 	name = "Navpoint #2"
+	warpspace = TRUE
 	landmark_tag = "nav_meatstation_2"
 
 /obj/shuttle_landmark/nav_meatstation/nav3
 	name = "Navpoint #3"
+	warpspace = TRUE
 	landmark_tag = "nav_meatstation_3"
 
 /obj/shuttle_landmark/nav_meatstation/nav4
 	name = "Navpoint #4"
+	warpspace = TRUE
 	landmark_tag = "nav_meatstation_4"
 
 /obj/shuttle_landmark/nav_meatstation/nav5
 	name = "Navpoint #5"
+	warpspace = TRUE
 	landmark_tag = "nav_meatstation_antag"
 
 //structural
@@ -194,13 +199,13 @@
 	icon = 'maps/away/meatstation/meatstation_sprites.dmi'
 	icon_state = "meatchunk"
 
-/obj/item/cell/infinite/meatstation
+/obj/item/cell/meatstation
 	name = "biological power cell"
 	desc = "A throbbing, biological power cell."
 	icon = 'maps/away/meatstation/meatstation_sprites.dmi'
 	icon_state = "biocell"
 	origin_tech =  list(TECH_ENGINEERING = 3, TECH_MATERIAL = 4, TECH_BIO = 7)
-	maxcharge = 500
+	maxcharge = 7000
 	matter = null
 
 //notes
@@ -250,7 +255,7 @@
 
 /obj/random/single/meatstation/cell
 	icon_state = "biocell50"
-	spawn_object = /obj/item/cell/infinite/meatstation
+	spawn_object = /obj/item/cell/meatstation
 
 /obj/random/single/meatstation/laser
 	icon_state = "laser50"
@@ -258,7 +263,7 @@
 
 /obj/random/single/meatstation/low/biocell
 	icon_state = "biocell10"
-	spawn_object = /obj/item/cell/infinite/meatstation
+	spawn_object = /obj/item/cell/meatstation
 
 /obj/random/single/meatstation/low/wormguard
 	icon_state = "wormguard10"

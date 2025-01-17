@@ -69,10 +69,6 @@
 		else
 			T.energy_fail(10 * severity * rand(severity * 2, severity * 4))
 
-		// Very tiny chance to completely break the APC. Has a check to ensure we don't break critical APCs such as the Engine room, or AI core. Does not occur on Mundane severity.
-		if(prob((0.2 * severity) - 0.2))
-			T.set_broken()
-
 
 
 /datum/event/electrical_storm/end()

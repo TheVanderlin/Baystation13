@@ -23,6 +23,21 @@
 	anchored = TRUE
 	init_color = COLOR_GUNMETAL
 
+/obj/structure/railing/mapped/wood
+	icon = 'icons/map_project/roguefloor.dmi'
+	icon_state = "borderfall"
+	health_max = 1500
+	material = MATERIAL_WOOD
+	anchored = TRUE
+	layer = 2.9
+	init_color = "grey"
+	color = "grey"
+
+/obj/structure/railing/mapped/wood/on_update_icon()
+	ClearOverlays()
+	icon_state = "borderfall"
+
+
 
 /obj/structure/railing/mapped/no_density
 	density = FALSE
