@@ -2011,7 +2011,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/hand_labeler,
 /turf/simulated/floor/carpet/magenta,
 /area/ship/tauscoutship/wings/starboard)
@@ -2068,7 +2068,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/tape_roll/tau,
 /turf/simulated/floor/carpet/magenta,
 /area/ship/tauscoutship/wings/starboard)
@@ -2140,7 +2140,7 @@
 /turf/simulated/floor/tiled/tau,
 /area/ship/tauscoutship/wings/starboard)
 "gE" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper_bin{
 	pixel_x = -1;
 	pixel_y = 5
@@ -2273,7 +2273,7 @@
 /obj/machinery/alarm/tau{
 	pixel_y = 14
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/bottle/thoom{
 	pixel_x = 4;
 	pixel_y = 8
@@ -2334,11 +2334,11 @@
 /turf/simulated/floor/tiled/tau/blue,
 /area/ship/tauscoutship/crew/rec)
 "he" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/tau/blue,
 /area/ship/tauscoutship/crew/rec)
 "hf" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_soft/full,
 /obj/machinery/light/tau{
 	dir = 4;
@@ -2347,7 +2347,7 @@
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/crew/rec)
 "hi" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/device/integrated_circuit_printer,
 /obj/item/stack/cable_coil/yellow,
 /obj/structure/window/reinforced{
@@ -2865,7 +2865,7 @@
 /turf/simulated/floor/tiled/tau,
 /area/ship/tauscoutship/wings/port)
 "ix" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/pen,
 /obj/item/paper_bin{
 	pixel_x = -3;
@@ -2886,7 +2886,7 @@
 /turf/simulated/floor/tiled/tau,
 /area/ship/tauscoutship/wings/port)
 "iz" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/folder,
 /obj/item/folder,
 /obj/item/pen,
@@ -2931,7 +2931,7 @@
 /turf/simulated/floor/carpet/blue,
 /area/ship/tauscoutship/wings/port)
 "iJ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper_bin{
 	pixel_x = -3;
 	pixel_y = 7
@@ -3024,7 +3024,7 @@
 /turf/simulated/floor/carpet/blue,
 /area/ship/tauscoutship/wings/port)
 "iQ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/folder,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -3659,7 +3659,7 @@
 /turf/simulated/floor/tiled/tau,
 /area/ship/tauscoutshuttle)
 "kR" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/device/scanner/spectrometer/adv,
 /obj/item/device/scanner/reagent,
 /obj/machinery/recharger,
@@ -4444,7 +4444,7 @@
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/command/bridge)
 "xa" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/folder/blue,
 /obj/item/folder/blue,
 /obj/machinery/light/tau{
@@ -4475,7 +4475,7 @@
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/hangar)
 "xF" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/microwave,
 /turf/simulated/floor/tiled/tau/blue,
 /area/ship/tauscoutship/crew/rec)
@@ -4665,7 +4665,7 @@
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/crew/medbay)
 "Al" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/crew/labs)
 "An" = (
@@ -4725,7 +4725,7 @@
 /turf/simulated/wall/ocp_wall,
 /area/ship/tauscoutship/crew/rec)
 "BH" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/reagent_temperature,
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/crew/labs)
@@ -4792,7 +4792,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/tauscoutship/robotics)
 "CA" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_alc/full,
 /turf/simulated/floor/tiled/tau/blue,
 /area/ship/tauscoutship/crew/rec)
@@ -5141,7 +5141,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/tauscoutship/wings/port)
 "JN" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/cell_charger,
 /obj/item/cell/hyper{
 	pixel_x = 6;
@@ -5327,7 +5327,7 @@
 /turf/simulated/floor/tiled/tau/orange,
 /area/ship/tauscoutship/maintenance/atmos)
 "LV" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/snacks/liquidfood,
 /obj/item/reagent_containers/food/snacks/liquidfood,
 /obj/item/reagent_containers/food/snacks/liquidfood,
@@ -5346,7 +5346,7 @@
 /turf/simulated/floor/tiled/tau/orange,
 /area/ship/tauscoutship/wings/starboard)
 "Mm" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/reagentgrinder/juicer,
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/material/hatchet,
@@ -5582,7 +5582,7 @@
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/command/bridge)
 "OC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/light/tau{
 	dir = 8
 	},
@@ -5689,7 +5689,7 @@
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/command/bridge)
 "PG" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/button/blast_door{
 	id_tag = "main_airlock_window";
 	name = "Airlock Window Doors";
@@ -5717,7 +5717,7 @@
 /turf/simulated/floor/tiled/tau,
 /area/ship/tauscoutshuttle)
 "PJ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/recharger,
 /turf/simulated/floor/tiled/tau,
 /area/ship/tauscoutship/dock)
@@ -5754,7 +5754,7 @@
 /area/ship/tauscoutshuttle)
 "Ql" = (
 /obj/machinery/artifact_analyser,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/crew/labs)
 "Qp" = (
@@ -6033,7 +6033,7 @@
 /area/ship/tauscoutship/wings/port)
 "Uu" = (
 /obj/machinery/artifact_harvester,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/tau/red,
 /area/ship/tauscoutship/crew/labs)
 "UD" = (

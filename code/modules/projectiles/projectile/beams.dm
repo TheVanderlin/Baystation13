@@ -2,7 +2,7 @@
 	name = "laser"
 	icon_state = "laser"
 	temperature = T0C + 300
-	fire_sound='sound/weapons/Laser.ogg'
+	fire_sound = 'sound/warhammer/gunshot/lasgun.ogg'
 	impact_sounds = list(BULLET_IMPACT_MEAT = SOUNDS_LASER_MEAT, BULLET_IMPACT_METAL = SOUNDS_LASER_METAL)
 	pass_flags = PASS_FLAG_TABLE
 	damage = 26
@@ -339,6 +339,7 @@
 	damage = 5
 	no_attack_log = TRUE
 	damage_type = DAMAGE_BURN
+	fire_sound = 'sound/warhammer/gunshot/lasgun2.ogg'
 
 	muzzle_type = /obj/projectile/laser/blue/muzzle
 	tracer_type = /obj/projectile/laser/blue/tracer
@@ -357,6 +358,7 @@
 	pass_flags = PASS_FLAG_TABLE | PASS_FLAG_GLASS | PASS_FLAG_GRILLE
 	damage = 5
 	no_attack_log = TRUE
+	fire_sound = 'sound/warhammer/gunshot/lasgun2.ogg'
 	damage_type = DAMAGE_BURN
 
 /obj/item/projectile/beam/lastertag/red/on_hit(atom/target, blocked = 0)

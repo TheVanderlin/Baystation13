@@ -109,7 +109,7 @@
 /turf/simulated/floor/wood,
 /area/map_template/deepmaint)
 "jw" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -211,7 +211,7 @@
 /turf/simulated/floor,
 /area/map_template/deepmaint)
 "uZ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/loot,
 /turf/simulated/floor/steel_dirty,
 /area/map_template/deepmaint)
@@ -292,7 +292,7 @@
 /turf/simulated/floor/plating,
 /area/map_template/deepmaint)
 "Ar" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -384,7 +384,7 @@
 /turf/simulated/floor/steel_dirty,
 /area/map_template/deepmaint)
 "Ku" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/light/small{
 	dir = 1
 	},

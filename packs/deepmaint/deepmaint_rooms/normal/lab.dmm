@@ -68,7 +68,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "fC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/scalpel/basic,
 /obj/floor_decal/corner/lime/mono,
 /turf/simulated/floor/tiled/white/monotile,
@@ -113,7 +113,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/map_template/deepmaint)
 "ix" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/pen/red,
 /obj/item/folder/red,
 /obj/floor_decal/corner/lime/mono,
@@ -180,7 +180,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "of" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/glass/beaker/vial/random,
 /obj/item/reagent_containers/glass/beaker/vial/random,
 /obj/floor_decal/corner/lime/mono,
@@ -188,7 +188,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/map_template/deepmaint)
 "pm" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/junkfood,
 /obj/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/white/monotile,
@@ -219,7 +219,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "so" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/ammo_magazine/speedloader/revolver,
 /obj/item/gun/projectile/revolver{
 	starts_loaded = 0
@@ -247,7 +247,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/map_template/deepmaint)
 "we" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/donkpocket_box,
 /obj/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/white/monotile,
@@ -303,7 +303,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "BI" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/microwave,
 /obj/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/white/monotile,
@@ -316,7 +316,7 @@
 /turf/simulated/floor/tiled,
 /area/map_template/deepmaint)
 "CB" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/freezer,
 /obj/floor_decal/corner/lime/mono,
 /turf/simulated/floor/tiled/white/monotile,
@@ -335,7 +335,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "CP" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/material/clipboard/plastic,
 /obj/floor_decal/corner/lime/mono,
 /turf/simulated/floor/tiled/white/monotile,
@@ -347,7 +347,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "Eh" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/monkeycubes,
 /obj/item/storage/box/monkeycubes,
 /obj/item/reagent_containers/food/drinks/cans/waterbottle,
@@ -356,7 +356,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/map_template/deepmaint)
 "Em" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/lockbox/vials,
 /obj/floor_decal/corner/lime/mono,
 /turf/simulated/floor/tiled/white/monotile,
@@ -429,13 +429,13 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "Ms" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/junk,
 /obj/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/white/monotile,
 /area/map_template/deepmaint)
 "MZ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/glass/beaker/vial,
 /obj/item/reagent_containers/dropper,
 /obj/machinery/light/spot{
@@ -450,7 +450,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/map_template/deepmaint)
 "Og" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/floor_decal/corner/purple/mono,
 /obj/random/junk,
 /turf/simulated/floor/tiled/white/monotile,
@@ -482,7 +482,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "Tg" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/device/radio/phone,
 /obj/floor_decal/corner/lime/mono,
 /turf/simulated/floor/tiled/white/monotile,
@@ -494,7 +494,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "TR" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/dice/d100,
 /obj/machinery/light/spot,
 /obj/floor_decal/corner/purple/mono,

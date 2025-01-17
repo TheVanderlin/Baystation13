@@ -786,17 +786,17 @@
 /turf/simulated/floor/tiled,
 /area/smugglers/office)
 "bR" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/tech_supply,
 /turf/simulated/floor,
 /area/smugglers/base)
 "bS" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/toolbox,
 /turf/simulated/floor,
 /area/smugglers/base)
 "bT" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/firstaid,
 /turf/simulated/floor,
 /area/smugglers/base)
@@ -862,7 +862,7 @@
 	pixel_y = 30
 	},
 /obj/decal/cleanable/dirt,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/microwave{
 	pixel_y = 10
 	},
@@ -946,7 +946,7 @@
 /turf/simulated/floor/tiled,
 /area/smugglers/dorms)
 "cs" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/decal/cleanable/dirt,
 /obj/item/paper/smug_3,
 /obj/item/flame/lighter,
@@ -954,7 +954,7 @@
 /turf/simulated/floor/tiled,
 /area/smugglers/dorms)
 "ct" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/decal/cleanable/dirt,
 /obj/item/spacecash/bundle/c10,
 /obj/random/smokes,

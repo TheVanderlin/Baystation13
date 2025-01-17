@@ -3341,12 +3341,12 @@
 /turf/simulated/floor/warhammer,
 /area/slavers_base/maint)
 "kM" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/device/radio,
 /turf/simulated/floor/ceiling,
 /area/slavers_base/maint)
 "kN" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/loot/sidearmbundle,
 /turf/simulated/floor/ceiling,
 /area/slavers_base/maint)
@@ -3360,7 +3360,7 @@
 /turf/simulated/floor/warhammer,
 /area/slavers_base/maint)
 "kQ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/junk,
 /turf/simulated/floor/ceiling,
 /area/slavers_base/maint)
@@ -3375,7 +3375,7 @@
 /turf/simulated/floor/warhammer,
 /area/slavers_base/maint)
 "kT" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/loot,
 /turf/simulated/floor/ceiling,
 /area/slavers_base/maint)

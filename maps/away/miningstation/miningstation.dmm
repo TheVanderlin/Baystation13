@@ -3485,7 +3485,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/miningstation/chief2)
 "ih" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/detergent,
 /obj/structure/bedsheetbin,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{

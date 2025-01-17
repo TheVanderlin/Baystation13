@@ -142,6 +142,8 @@
 		return 1
 	if(shoes && (shoes.item_flags & ITEM_FLAG_NOSLIP) && istype(shoes, /obj/item/clothing/shoes/magboots))  //magboots + dense_object = no floating
 		return 1
+	if(shoes && (shoes.item_flags & ITEM_FLAG_NOSLIP) && istype(shoes, /obj/item/clothing/shoes/jackboots))  //magboots + dense_object = no floating
+		return 1
 	return 0
 
 /mob/living/carbon/human/Move()

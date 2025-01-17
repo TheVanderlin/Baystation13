@@ -6,11 +6,11 @@ GLOBAL_DATUM_INIT(provocateurs, /datum/antagonist/provocateur, new)
 	role_text_plural = "Deuteragonists"
 	antaghud_indicator = "hud_traitor"
 	flags = ANTAG_RANDOM_EXCEPTED
-	antag_text = "This role grants you the freedom to pursue your own goals, even if they challenge the God Emperor himself. Your path is yours to shape—be it loyal, heretical, or self-serving. Just remember, your actions have consequences!"
-	welcome_text = "You are a character in a side story!"
+	antag_text = "..."
+	welcome_text = "You are a character within the timeline of 41st millenium."
 	blacklisted_jobs = list()
-	skill_setter = null
 	min_player_age = 0
+	skill_setter = null
 
 	var/antag_text_updated
 	no_prior_faction = TRUE

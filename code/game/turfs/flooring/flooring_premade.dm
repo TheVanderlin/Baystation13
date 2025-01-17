@@ -320,8 +320,9 @@
 	initial_flooring = /singleton/flooring/pool
 
 /turf/simulated/floor/bluespace
-	name = "bluespace"
+	name = "warp"
 	icon = 'icons/turf/space.dmi'
+	color = "#ca0054"
 	icon_state = "bluespace"
 	initial_flooring = /singleton/flooring/bluespace
 

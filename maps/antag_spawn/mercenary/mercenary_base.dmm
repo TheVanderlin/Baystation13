@@ -1310,7 +1310,7 @@
 /turf/simulated/floor/plating,
 /area/map_template/merc_spawn)
 "oK" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper/merc/tutorial_1,
 /obj/machinery/light,
 /turf/simulated/floor/warhammer/plating,
@@ -1965,7 +1965,7 @@
 /obj/item/bodybag/cryobag,
 /obj/item/reagent_containers/ivbag/nanoblood,
 /obj/item/storage/firstaid/adv,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/warhammer/surgerynew,
 /area/map_template/merc_shuttle)
 "xD" = (
@@ -2073,7 +2073,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 10
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/item/stack/medical/advanced/bruise_pack,
@@ -2217,7 +2217,7 @@
 "AZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/gas_setup,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/belt/medical/emt,
 /obj/item/storage/belt/medical/emt,
 /obj/item/defibrillator/compact,
@@ -2638,7 +2638,7 @@
 /turf/simulated/floor/plating,
 /area/map_template/merc_spawn)
 "Mp" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/crowbar,
 /obj/item/wrench,
 /obj/item/paper/merc/tutorial_3,

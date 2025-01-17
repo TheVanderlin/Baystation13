@@ -675,7 +675,7 @@
 /obj/structure/window/basic{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/freezer,
 /area/abandoned_hotel/rooms)
 "ga" = (
@@ -1082,7 +1082,7 @@
 /turf/space,
 /area/space)
 "jv" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/window/basic,
 /turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/rooms)
@@ -1649,7 +1649,7 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "tm" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -1853,7 +1853,7 @@
 /obj/floor_decal/corner/red{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -2198,7 +2198,7 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/abandoned_hotel/rooms)
 "Dp" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/alarm,
 /obj/item/storage/mrebag/menu9,
 /turf/simulated/floor/warhammer/darkwood,
@@ -2328,7 +2328,7 @@
 /obj/floor_decal/corner/white{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
@@ -2418,7 +2418,7 @@
 /turf/simulated/floor/warhammer/brick,
 /area/abandoned_hotel/evac)
 "Hy" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_coffee/full{
 	pixel_y = 7
 	},
@@ -2942,7 +2942,7 @@
 /obj/structure/window/basic{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/decal/cleanable/dirt,
 /obj/item/haircomb/random,
 /turf/simulated/floor/tiled/freezer,

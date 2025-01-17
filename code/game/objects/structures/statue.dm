@@ -713,7 +713,7 @@
 	var/self_lighting = 0
 
 /obj/item/pyre/self_lit
-	name = "Self-igniting Pyre"
+	name = "Pyre"
 	desc = "In radiance may we find victory. This pyre provides its own."
 	self_lighting = 1
 	anchored = 1
@@ -816,11 +816,25 @@
 		light()
 
 /obj/item/pyre/self_lit/church // Pyre specially for the catacombs since it looks nicer than the standard one
-	name = "Church pyre"
-	desc = "A pyre mostly used for funerals or to decorate religious sites."
+	name = "Pyre"
 	icon = 'icons/map_project/fluff_items.dmi'
 	icon_state = "pyreplace1"
 	item_state = "pyreplace1"
+
+/obj/item/pyre/self_lit/church/update_icon()
+	..()
+	overlays = overlays.Cut()
+	if(lit)
+		icon_state = "pyreplace1"
+		item_state = "pyreplace1"
+		set_light(5, 4, "#E38F46")
+	else
+		icon_state = "pyreplace0"
+		item_state = "pyreplace0"
+		set_light(0,0)
+		if(self_lighting == 1)
+			overlays += overlay_image(icon, "lighter")
+	update_held_icon()
 
 /obj/item/campfire
 	icon = 'icons/obj/firepit.dmi'

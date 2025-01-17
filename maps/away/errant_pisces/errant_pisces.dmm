@@ -1716,7 +1716,7 @@
 /turf/simulated/floor/plating,
 /area/errant_pisces/bow_maint)
 "ek" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/towel/random,
 /turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_f)
@@ -1826,7 +1826,7 @@
 /turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/errant_pisces/head_m)
 "ez" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/towel/random,
 /obj/item/towel/random,
 /obj/item/towel/random,
@@ -3306,7 +3306,7 @@
 /turf/simulated/floor/plating,
 /area/errant_pisces/infirmary)
 "hH" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/firstaid,
 /obj/item/storage/box/bodybags,
 /turf/simulated/floor/plating,
@@ -3401,7 +3401,7 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "hZ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/firstaid,
 /obj/structure/window/basic{
 	dir = 4
@@ -3409,7 +3409,7 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "ia" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/glasses,
 /obj/structure/window/basic{
 	dir = 4
@@ -3453,7 +3453,7 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "ij" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/loot/randomsupply,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
@@ -3566,7 +3566,7 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "iF" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/trash/plate,
 /obj/item/material/kitchen/utensil/fork,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
@@ -3735,12 +3735,12 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jb" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper_bin,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jc" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jd" = (
@@ -3855,7 +3855,7 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/hallway)
 "js" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/material/kitchen/utensil/fork/plastic,
 /obj/random/snack,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
@@ -3911,12 +3911,12 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/freezer,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jD" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/firstaid,
 /obj/item/clothing/under/rank/medical/paramedic,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -3925,7 +3925,7 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jE" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/roller_bed,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -3986,7 +3986,7 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/infirmary)
 "jK" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/material/kitchen/utensil/fork,
 /obj/machinery/light,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
@@ -4043,11 +4043,11 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "jU" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "jV" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper_bin,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
@@ -4557,27 +4557,27 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lu" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/freezer,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lv" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lw" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/toolbox/electrical,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "lx" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/tape_roll,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
 "ly" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/latexgloves,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/science_wing)
@@ -4702,7 +4702,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/book/manual/mass_spectrometry,
 /obj/item/device/scanner/spectrometer,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
@@ -4989,7 +4989,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/beakers,
 /obj/item/reagent_containers/dropper,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
@@ -6473,7 +6473,7 @@
 /turf/simulated/floor/plating,
 /area/errant_pisces/fishing_wing)
 "pZ" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/errant_pisces/dorms)
 "qa" = (

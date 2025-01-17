@@ -50,10 +50,13 @@
 		if(shit != src)
 			qdel(shit)
 
-/obj/decal/cleanable/poo/Crossed(AM as mob|obj)
-	if (istype(AM, /mob/living/carbon))
-		var/mob/living/carbon/M =	AM
-
+/obj/decal/cleanable/poo/Crossed(mob/living/user)
+	if(istype(user, /mob/living/carbon))
+		var/mob/living/carbon/M = user
+		if(prob(M.skill_fail_chance(SKILL_VIGOR, 4, SKILL_MASTER)))
+			M.vomit()
+		if(prob(M.skill_fail_chance(SKILL_VIGOR, 2, SKILL_EXPERIENCED)))
+			M.vomit()
 		if(prob(3))
 			M.slip("poo")
 
@@ -77,6 +80,14 @@
 	if(!istype(T, /turf/space))
 		new /obj/decal/cleanable/poo(T)
 	qdel(src)
+
+/obj/item/reagent_containers/food/snacks/poo/Crossed(mob/living/user)
+	if(istype(user, /mob/living/carbon))
+		var/mob/living/carbon/M = user
+		if(prob(M.skill_fail_chance(SKILL_VIGOR, 5, SKILL_MASTER)))
+			M.vomit()
+		if(prob(M.skill_fail_chance(SKILL_VIGOR, 3, SKILL_EXPERIENCED)))
+			M.vomit()
 
 /obj/item/reagent_containers/food/snacks/poo/decker
 	name = "despa's gelato"

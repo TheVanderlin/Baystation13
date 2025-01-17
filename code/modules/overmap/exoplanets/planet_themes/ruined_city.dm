@@ -18,7 +18,7 @@
 		)
 
 /datum/exoplanet_theme/ruined_city/before_map_generation(obj/overmap/visitable/sector/exoplanet/E)
-	E.ruin_tags_whitelist |= RUIN_ALIEN
+	// E.ruin_tags_whitelist |= RUIN_ALIEN
 	for (var/zlevel in E.map_z)
 		new /datum/random_map/city(null,1,1,zlevel,E.maxx,E.maxy,0,1,1, E.planetary_area)
 

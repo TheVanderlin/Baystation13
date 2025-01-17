@@ -196,3 +196,6 @@
 	var/pronouns = null
 
 	var/list/additional_vision_handlers = list() //Basically a list of atoms from which additional vision data is retrieved
+
+	var/offset_overhead_text_x = 0
+	var/offset_overhead_text_y = 0

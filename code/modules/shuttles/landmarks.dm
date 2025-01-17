@@ -7,6 +7,9 @@
 	unacidable = TRUE
 	simulated = FALSE
 	invisibility = INVISIBILITY_ABSTRACT
+	var/warpspace = FALSE
+	var/list/valid_apcs
+	var/list/affecting_z
 
 	var/landmark_tag
 	//ID of the controller on the dock side
@@ -26,6 +29,12 @@
 
 /obj/shuttle_landmark/Initialize()
 	. = ..()
+	if(warpspace)
+		SSskybox.rebuild_skyboxes(affecting_z)
+		valid_apcs = list()
+		for(var/obj/machinery/power/apc/A in SSmachines.machinery)
+			if(A.z in affecting_z)
+				valid_apcs.Add(A)
 	if(docking_controller)
 		. = INITIALIZE_HINT_LATELOAD
 	if(flags & SLANDMARK_FLAG_AUTOSET)
@@ -87,8 +96,33 @@
 
 
 /obj/shuttle_landmark/proc/shuttle_arrived(datum/shuttle/shuttle)
-	return
+	..()  // Call any base functionality
 
+	// If this landmark is set for warp events, trigger APC failures
+	if(warpspace)
+		var/list/picked_apcs = list()
+		for(var/i=0, i< 3*2, i++) // up to 2/4/6 APCs per tick depending
+			picked_apcs |= pick(valid_apcs)
+
+		for(var/obj/machinery/power/apc/T in picked_apcs)
+			// Main breaker is turned off. Consider this APC protected.
+			if(!T.operating)
+				continue
+
+			// Decent chance to overload lighting circuit.
+			if(prob(3 * 3))
+				T.overload_lighting()
+
+			// Relatively small chance to emag the apc as apc_damage event does.
+			if(prob(0.2 * 3))
+				T.emagged = TRUE
+				T.update_icon()
+
+			if(T.is_critical)
+				T.energy_fail(10 * 3)
+				continue
+			else
+				T.energy_fail(10 * 3 * rand(3 * 2, 3 * 4))
 
 /proc/check_collision(area/target_area, list/target_turfs)
 	for(var/target_turf in target_turfs)

@@ -135,7 +135,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/microscope{
 	pixel_x = -8
 	},
@@ -231,7 +231,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/reagent_temperature{
 	pixel_y = 5
 	},
@@ -319,7 +319,7 @@
 /area/map_template/oldlab2/living6)
 "cl" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/hall)
 "cm" = (
@@ -488,7 +488,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/mess)
 "cW" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/artifact_analyser{
 	pixel_y = 10
 	},
@@ -1417,7 +1417,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/device/integrated_circuit_printer,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/lab)
@@ -1490,7 +1490,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab2/server)
 "hX" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/clothing/accessory/stethoscope,
 /obj/item/device/flashlight/pen{
 	pixel_x = -4;
@@ -1564,7 +1564,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/hall)
 "iI" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/bodybag/rescue/loaded,
 /obj/item/device/radio/intercom{
 	dir = 4;
@@ -1716,7 +1716,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/beakers,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/chem)
@@ -2727,7 +2727,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/glass/beaker/insulated/large,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/chem)
@@ -3809,7 +3809,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/chem)
 "ui" = (
@@ -4281,7 +4281,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab2/test2)
 "wH" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/lockbox/vials,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/chem)
@@ -5597,7 +5597,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/hand_labeler,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/chem)
@@ -5794,7 +5794,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/floor_decal/corner/research{
 	dir = 9
 	},
@@ -6088,7 +6088,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/glass/beaker/large{
 	pixel_x = 4;
 	pixel_y = 10
@@ -6373,7 +6373,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/glass/beaker/large{
 	pixel_x = -4;
 	pixel_y = 13
@@ -7109,7 +7109,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/living4)
 "Lo" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/medical/lite,
 /obj/item/storage/belt/medical,
 /obj/structure/sign/warning/nosmoking_1{
@@ -8149,7 +8149,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/alarm{
 	dir = 1;
 	pixel_y = -25
@@ -8444,7 +8444,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/map_template/oldlab2/recandlockers)
 "SP" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
@@ -8615,7 +8615,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/test1)
 "Tv" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/roller_bed{
 	pixel_y = 16
 	},
@@ -8784,7 +8784,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/lab)
 "Ut" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/closet/secure_closet/medical_wall{
 	pixel_x = -28
 	},

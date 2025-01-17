@@ -85,37 +85,31 @@
 	dir = 1;
 	icon_state = "map"
 	},
-/obj/floor_decal/corner/brown{
-	dir = 6
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "al" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/suit_storage_unit{
 	name = "Mining Voidsuit Storage Unit"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "am" = (
 /obj/machinery/suit_storage_unit{
 	isopen = 1;
 	name = "Mining Voidsuit Storage Unit"
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "an" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = 24
 	},
 /obj/machinery/suit_storage_unit/mining/alt,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "ao" = (
 /obj/shuttle_landmark/corporate/nav1,
@@ -125,9 +119,9 @@
 /turf/simulated/floor/asteroid,
 /area/mine/unexplored)
 "aq" = (
-/mob/living/simple_animal/hostile/carp,
-/turf/simulated/floor/asteroid,
-/area/mine/unexplored)
+/mob/living/simple_animal/hostile/daemon/large,
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
 "ar" = (
 /obj/structure/grille/broken,
 /obj/structure/lattice,
@@ -247,49 +241,43 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/outpost/mining/hangar)
 "aG" = (
-/obj/floor_decal/corner/brown/three_quarters{
-	dir = 8;
-	icon_state = "corner_white_three_quarters"
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "aH" = (
-/obj/floor_decal/corner/brown{
-	dir = 5;
-	icon_state = "corner_white"
-	},
-/turf/simulated/floor/tiled,
-/area/outpost/mining/hangar)
+/obj/structure/closet/cabinet,
+/obj/random/loot/sidearmbundle,
+/turf/simulated/floor/warhammer/plating,
+/area/outpost/mining/recreation)
 "aI" = (
-/obj/floor_decal/corner/brown{
-	dir = 5;
-	icon_state = "corner_white"
-	},
 /obj/machinery/light/small{
 	dir = 1;
 	icon_state = "bulb_map"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "aJ" = (
-/obj/floor_decal/corner/brown/three_quarters{
-	dir = 1;
-	icon_state = "corner_white_three_quarters"
-	},
-/turf/simulated/floor/tiled,
-/area/outpost/mining/hangar)
+/turf/space/bluespace,
+/area/mine/unexplored)
 "aK" = (
-/obj/floor_decal/corner/brown{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
-/area/outpost/mining/hangar)
-"aO" = (
-/obj/floor_decal/corner/brown{
+/obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
-/area/outpost/mining/hangar)
+/obj/paint/merc,
+/turf/simulated/wall/ocp_wall,
+/area/shuttle/abadoned_data_capsule)
+"aO" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 5;
+	icon_state = "intact"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
 "aP" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -301,26 +289,30 @@
 /turf/simulated/floor/plating,
 /area/outpost/mining/hangar)
 "aS" = (
-/turf/simulated/floor/tiled/monotile,
-/area/outpost/mining/hangar)
-"aT" = (
-/obj/floor_decal/corner/brown{
-	dir = 9
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
+/obj/structure/AIcore/deactivated,
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/greengrid,
+/area/shuttle/abadoned_data_capsule)
+"aT" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "aU" = (
-/obj/floor_decal/corner/brown{
-	dir = 6
-	},
 /obj/machinery/light/small{
 	dir = 4;
 	icon_state = "bulb_map"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "aV" = (
 /obj/catwalk_plated,
@@ -337,7 +329,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "aX" = (
 /obj/structure/grille,
@@ -596,7 +588,7 @@
 /area/outpost/mining/cenral)
 "bB" = (
 /obj/structure/closet/cabinet,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -608,7 +600,7 @@
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bD" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -621,7 +613,7 @@
 	pixel_x = 24
 	},
 /obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bE" = (
 /turf/simulated/wall/prepainted/mining_corporate,
@@ -631,7 +623,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bG" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -645,7 +637,7 @@
 	pixel_x = 24
 	},
 /obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bH" = (
 /obj/machinery/alarm{
@@ -655,7 +647,7 @@
 	},
 /obj/structure/bed/padded,
 /obj/item/bedsheet/mime,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bI" = (
 /obj/structure/catwalk,
@@ -745,7 +737,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "bN" = (
 /obj/machinery/door/airlock/external/glass/bolted/cycling{
@@ -767,7 +759,7 @@
 	dir = 8
 	},
 /obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -777,7 +769,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bQ" = (
 /obj/machinery/alarm{
@@ -787,7 +779,7 @@
 	},
 /obj/structure/bed/padded,
 /obj/item/bedsheet/yellow,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -797,7 +789,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "bS" = (
 /obj/structure/catwalk,
@@ -840,8 +832,7 @@
 /area/outpost/mining/hangar)
 "bW" = (
 /obj/structure/closet/warhammer/emcloset,
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "bX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow{
@@ -859,23 +850,20 @@
 	pixel_y = 26
 	},
 /obj/machinery/recharge_station,
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "bZ" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/atmospherics/portables_connector,
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "ca" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/stack/material/wood/walnut/twentyfive,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cb" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
@@ -956,8 +944,7 @@
 /turf/simulated/floor/plating,
 /area/outpost/mining/hangar)
 "ch" = (
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "ci" = (
 /obj/catwalk_plated,
@@ -1006,11 +993,10 @@
 "cn" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/atmospherics/portables_connector,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/sign/poster{
 	pixel_y = 32
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "co" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1018,85 +1004,74 @@
 	dir = 8;
 	icon_state = "map-scrubbers"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cp" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cq" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/alarm{
 	pixel_y = 30
 	},
 /obj/item/newspaper,
 /obj/item/pen,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cr" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4;
 	icon_state = "map_scrubber_on"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "ct" = (
-/turf/simulated/floor/tiled,
+/obj/random/loot/gunbundle,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cu" = (
 /obj/machinery/washing_machine,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cv" = (
 /turf/simulated/wall/prepainted/mining_corporate,
 /area/outpost/mining/medical)
 "cw" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/firealarm{
 	dir = 2;
 	pixel_y = 24
 	},
-/obj/floor_decal/corner/paleblue/three_quarters{
-	dir = 8;
-	icon_state = "corner_white_three_quarters"
-	},
 /obj/item/storage/firstaid/trauma,
 /obj/item/storage/firstaid/fire,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "cx" = (
-/obj/structure/table/standard,
-/obj/floor_decal/corner/paleblue{
-	dir = 5;
-	icon_state = "corner_white"
-	},
+/obj/structure/table/steel,
 /obj/item/storage/firstaid/toxin,
 /obj/item/storage/firstaid/o2,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "cy" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/closet/medical_wall/filled{
 	pixel_y = 30
 	},
-/obj/floor_decal/corner/paleblue/three_quarters{
-	dir = 1;
-	icon_state = "corner_white_three_quarters"
-	},
-/turf/simulated/floor/tiled/white,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "cz" = (
 /obj/floor_decal/industrial/warning{
@@ -1147,32 +1122,33 @@
 /area/outpost/mining/hangar)
 "cD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "cF" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "cG" = (
-/obj/floor_decal/corner/brown{
-	dir = 9
+/obj/machinery/atmospherics/pipe/manifold/visible/black{
+	dir = 4
 	},
-/turf/simulated/floor/tiled,
-/area/outpost/mining/recreation)
+/obj/paint/merc,
+/turf/simulated/wall/ocp_wall,
+/area/shuttle/abadoned_data_capsule)
 "cH" = (
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = -24
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "cI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "cJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
@@ -1186,24 +1162,25 @@
 	dir = 4;
 	target_pressure = 200
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "cL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow{
 	dir = 9;
 	icon_state = "intact"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "cM" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "cN" = (
-/obj/machinery/door/firedoor,
-/obj/wallframe_spawn/no_grille,
-/turf/simulated/floor/plating,
-/area/outpost/mining/recreation)
+/obj/machinery/door/airlock/hatch{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/airmix,
+/area/shuttle/abadoned_data_capsule)
 "cO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1214,67 +1191,62 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "cP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cQ" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cR" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/trash/snack_bowl,
 /obj/item/material/kitchen/utensil/spoon,
 /obj/item/reagent_containers/food/drinks/glass2/shot,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cS" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cU" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/detergent,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/item/ironing_board,
 /obj/item/ironing_iron,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "cV" = (
-/obj/machinery/door/firedoor,
-/obj/wallframe_spawn/no_grille,
-/turf/simulated/floor/plating,
-/area/outpost/mining/medical)
-"cW" = (
-/obj/floor_decal/corner/paleblue{
-	dir = 1
+/obj/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
 	},
-/turf/simulated/floor/tiled/white,
+/obj/machinery/power/shield_generator,
+/turf/simulated/floor/greengrid,
+/area/shuttle/abadoned_data_capsule)
+"cW" = (
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "cX" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "cY" = (
 /obj/machinery/sleeper,
-/obj/floor_decal/corner/paleblue{
-	dir = 6;
-	icon_state = "corner_white"
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "cZ" = (
 /obj/machinery/door/firedoor,
@@ -1284,6 +1256,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/maintenance,
+/mob/living/simple_animal/hostile/daemon/zygote,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/outpost/mining/power)
 "da" = (
@@ -1438,7 +1411,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "dj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1452,7 +1425,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "dk" = (
 /obj/machinery/door/airlock/mining{
@@ -1471,7 +1444,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "dl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1483,7 +1456,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "dm" = (
 /obj/structure/cable{
@@ -1550,12 +1523,9 @@
 /turf/simulated/floor/plating,
 /area/outpost/mining/cenral)
 "dq" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/bedsheetbin,
-/obj/floor_decal/corner/brown{
-	dir = 10
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "dr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1574,7 +1544,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "ds" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1588,7 +1558,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dt" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -1603,7 +1573,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "du" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1623,7 +1593,7 @@
 	icon_state = "2-8"
 	},
 /obj/machinery/hologram/holopad/longrange,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dv" = (
 /obj/structure/cable{
@@ -1633,7 +1603,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dw" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -1652,7 +1622,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1666,7 +1636,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1684,7 +1654,8 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/white/monotile,
+/mob/living/simple_animal/hostile/daemon/zygote,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "dz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1698,7 +1669,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "dA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1707,24 +1678,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "dB" = (
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube_map"
 	},
-/obj/floor_decal/corner/paleblue{
-	dir = 6;
-	icon_state = "corner_white"
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "dC" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/structure/bed/chair,
+/obj/decal/remains,
 /turf/simulated/floor/airless,
 /area/outpost/mining)
 "dD" = (
@@ -1778,9 +1745,8 @@
 /obj/structure/table/steel,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/stack/cable_coil,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "dK" = (
 /obj/structure/cable,
@@ -1798,42 +1764,34 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "dM" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "dN" = (
 /obj/structure/reagent_dispensers/fueltank,
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/hangar)
 "dO" = (
 /obj/machinery/light/small,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/obj/floor_decal/corner/brown{
-	dir = 10
-	},
 /obj/machinery/disposal,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "dP" = (
 /obj/structure/cable{
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/floor_decal/corner/brown{
-	dir = 10
-	},
 /obj/machinery/power/apc/inactive{
 	name = "south bump";
 	pixel_y = -25
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "dQ" = (
 /obj/structure/cable{
@@ -1848,37 +1806,25 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "dR" = (
 /obj/item/storage/toolbox/mechanical,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/light/small,
-/obj/floor_decal/corner/brown{
-	dir = 10
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "dS" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/recharger,
-/obj/floor_decal/corner/brown{
-	dir = 10
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/cenral)
 "dT" = (
-/obj/floor_decal/corner/brown{
-	dir = 9
-	},
 /obj/structure/flora/pottedplant/dead,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dU" = (
-/obj/floor_decal/corner/brown{
-	dir = 6
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1888,7 +1834,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dW" = (
 /obj/structure/cable{
@@ -1896,17 +1842,16 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dY" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/box/checkers,
 /obj/item/board,
-/obj/floor_decal/corner/brown/half,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "dZ" = (
 /obj/structure/cable,
@@ -1917,23 +1862,15 @@
 	pixel_y = -24
 	},
 /obj/item/storage/box/freezer/blood/human,
-/obj/floor_decal/corner/paleblue{
-	dir = 10;
-	icon_state = "corner_white"
-	},
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled/white,
+/obj/structure/table/steel,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "ea" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/floor_decal/corner/paleblue{
-	dir = 10;
-	icon_state = "corner_white"
-	},
 /obj/structure/roller_bed,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "eb" = (
 /obj/structure/iv_stand,
@@ -1941,11 +1878,7 @@
 	dir = 1;
 	pixel_y = -20
 	},
-/obj/floor_decal/corner/paleblue/three_quarters{
-	dir = 4;
-	icon_state = "corner_white_three_quarters"
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "ec" = (
 /obj/structure/girder,
@@ -2031,16 +1964,16 @@
 	name = "Mining Equipment"
 	},
 /obj/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "en" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = -24
 	},
 /obj/structure/closet/firecloset,
-/turf/simulated/floor/tiled/monotile,
+/obj/random/loot/randomcolonyitems,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "eo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2053,7 +1986,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "ep" = (
 /obj/floor_decal/industrial/warning/full,
@@ -2068,11 +2001,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/paper_bin,
 /obj/machinery/light,
-/obj/floor_decal/corner/brown/half,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "er" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2081,8 +2013,7 @@
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 1
 	},
-/obj/floor_decal/corner/brown/half,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "es" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2094,7 +2025,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "et" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2107,12 +2038,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "eu" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/flora/pottedplant/stoutbush,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "ev" = (
 /obj/structure/mopbucket,
@@ -2164,6 +2094,7 @@
 "eA" = (
 /obj/structure/table/rack,
 /obj/random/maintenance,
+/obj/random/loot/randomsupply/engineering,
 /turf/simulated/floor/plating,
 /area/outpost/mining/maints)
 "eB" = (
@@ -2175,11 +2106,7 @@
 	pixel_y = 24
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/floor_decal/corner/brown/three_quarters{
-	dir = 8;
-	icon_state = "corner_white_three_quarters"
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "eD" = (
 /obj/structure/cable{
@@ -2187,26 +2114,24 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "eE" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
 /obj/machinery/alarm{
 	pixel_y = 30
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "eF" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/ore_box,
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow{
 	dir = 10;
 	icon_state = "intact"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "eG" = (
 /turf/simulated/wall/prepainted/mining_corporate,
@@ -2223,13 +2148,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "eI" = (
-/obj/machinery/door/firedoor,
-/obj/wallframe_spawn/no_grille,
-/turf/simulated/floor/plating,
-/area/outpost/mining/kitchen)
+/obj/structure/lattice,
+/turf/simulated/floor/warhammer/necro2,
+/area/mine/unexplored)
 "eJ" = (
 /obj/structure/girder,
 /obj/item/stack/material/plasteel,
@@ -2349,7 +2273,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "eU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2363,7 +2287,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "eV" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -2376,7 +2300,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "eW" = (
 /obj/machinery/door/firedoor,
@@ -2395,7 +2319,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/monotile,
+/mob/living/simple_animal/hostile/daemon/zygote,
+/mob/living/simple_animal/hostile/daemon/zygote,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "eX" = (
 /obj/overmap/visitable/sector/corporate,
@@ -2430,7 +2356,7 @@
 	dir = 8;
 	target_pressure = 200
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "fa" = (
 /obj/machinery/light/small{
@@ -2441,7 +2367,7 @@
 	dir = 9;
 	icon_state = "intact"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "fb" = (
 /obj/structure/closet/fridge,
@@ -2456,7 +2382,7 @@
 /obj/item/reagent_containers/food/drinks/glass2/shot,
 /obj/item/reagent_containers/food/drinks/glass2/shot,
 /obj/random/drinkbottle,
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2468,21 +2394,21 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fd" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fe" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "ff" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -2561,8 +2487,7 @@
 /obj/structure/dispenser/oxygen{
 	oxygentanks = 3
 	},
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "fp" = (
 /obj/machinery/door/firedoor,
@@ -2573,10 +2498,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/floor_decal/corner/brown{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "fr" = (
 /obj/catwalk_plated,
@@ -2589,12 +2511,11 @@
 /turf/simulated/floor/plating,
 /area/outpost/mining)
 "fs" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "ft" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/material/kitchen/utensil/fork,
 /obj/item/material/kitchen/utensil/fork,
 /obj/item/material/kitchen/utensil/spoon,
@@ -2607,7 +2528,7 @@
 	name = "west bump";
 	pixel_x = -25
 	},
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2618,17 +2539,19 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled/old_tile,
+/mob/living/simple_animal/hostile/daemon/zygote,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fv" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fw" = (
 /obj/structure/table/reinforced,
-/turf/simulated/floor/tiled/old_tile,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fx" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2668,6 +2591,7 @@
 	master_tag = "mbase_airlock";
 	pixel_y = 28
 	},
+/obj/decal/remains,
 /turf/simulated/floor/airless,
 /area/mine/unexplored)
 "fB" = (
@@ -2675,31 +2599,26 @@
 	isopen = 1;
 	name = "Mining Voidsuit Storage Unit"
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "fC" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "fD" = (
 /obj/structure/cable{
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/floor_decal/corner/brown{
-	dir = 9
-	},
 /obj/machinery/power/apc/inactive{
 	dir = 8;
 	name = "west bump";
 	pixel_x = -25
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "fE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow,
@@ -2719,21 +2638,17 @@
 	dir = 8;
 	icon_state = "map"
 	},
-/obj/floor_decal/corner/brown{
-	dir = 6
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "fG" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "fH" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/glass2,
 /obj/item/reagent_containers/food/drinks/glass2,
 /obj/machinery/alarm{
@@ -2741,23 +2656,23 @@
 	icon_state = "alarm0";
 	pixel_x = -23
 	},
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fI" = (
 /obj/structure/hygiene/sink,
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fJ" = (
 /obj/structure/table/reinforced,
 /obj/item/trash/snack_bowl,
 /obj/machinery/light,
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fK" = (
 /obj/structure/table/reinforced,
 /obj/item/material/kitchen/rollingpin,
 /obj/item/material/knife/kitchen,
-/turf/simulated/floor/tiled/old_tile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/kitchen)
 "fL" = (
 /obj/structure/flora/pottedplant/aquatic,
@@ -2833,8 +2748,7 @@
 	isopen = 1;
 	name = "Mining Voidsuit Storage Unit"
 	},
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "fS" = (
 /obj/catwalk_plated,
@@ -2854,10 +2768,7 @@
 	dir = 8
 	},
 /obj/machinery/suit_cycler/mining,
-/obj/floor_decal/corner/brown{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "fU" = (
 /obj/machinery/light/small{
@@ -2866,10 +2777,7 @@
 /obj/item/stack/flag/yellow,
 /obj/item/stack/flag/yellow,
 /obj/structure/table/rack,
-/obj/floor_decal/corner/brown{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "fV" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/yellow,
@@ -2890,7 +2798,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "fX" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
@@ -2901,8 +2809,7 @@
 	dir = 4;
 	pixel_y = 0
 	},
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "fY" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -2915,8 +2822,8 @@
 	icon_state = "alarm0";
 	pixel_x = -23
 	},
-/obj/floor_decal/corner/brown/three_quarters,
-/turf/simulated/floor/tiled/monotile,
+/obj/random/loot/tech1,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "gb" = (
 /obj/structure/table/steel,
@@ -2932,10 +2839,8 @@
 /obj/machinery/light/small,
 /obj/item/device/radio/off,
 /obj/item/device/radio/off,
-/obj/floor_decal/corner/brown{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/monotile,
+/obj/random/loot/randomsupply/tech,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "gc" = (
 /obj/structure/table/steel,
@@ -2944,21 +2849,16 @@
 	icon_state = "0-8"
 	},
 /obj/item/pickaxe,
-/obj/floor_decal/corner/brown/three_quarters{
-	dir = 4;
-	icon_state = "corner_white_three_quarters"
-	},
 /obj/machinery/power/apc/inactive{
 	dir = 4;
 	name = "east bump";
 	pixel_x = 25
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "gd" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "ge" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
@@ -2976,18 +2876,14 @@
 	master_tag = "mbase_airlock";
 	pixel_y = -21
 	},
-/obj/floor_decal/corner/brown{
-	dir = 6
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "gg" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining)
 "gh" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
@@ -3050,7 +2946,6 @@
 /turf/simulated/floor/plating,
 /area/outpost/mining)
 "gl" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/suit_storage_unit{
 	name = "Mining Voidsuit Storage Unit"
 	},
@@ -3058,7 +2953,7 @@
 	pixel_x = -32;
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/voidsuits)
 "gm" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
@@ -3094,22 +2989,44 @@
 /turf/simulated/floor/plating,
 /area/outpost/mining)
 "go" = (
-/obj/structure/sign/warning/detailed{
-	dir = 4;
-	name = "\improper COMMUNICATION STATION";
-	pixel_x = -32;
-	pixel_y = 0
-	},
-/obj/machinery/light/small/red{
+/obj/floor_decal/techfloor,
+/obj/floor_decal/techfloor{
 	dir = 1;
-	icon_state = "bulb_map"
+	icon_state = "techfloor_edges"
 	},
-/obj/structure/bed/chair{
+/obj/machinery/power/apc/inactive{
 	dir = 4;
-	icon_state = "chair_preview"
+	name = "east bump";
+	pixel_x = 25
 	},
-/turf/simulated/floor/airless,
-/area/outpost/mining/relay)
+/obj/machinery/button/blast_door{
+	dir = 8;
+	id_tag = "data_capsule_door_protect";
+	name = "Entrance Protection";
+	pixel_x = 24;
+	pixel_y = 36
+	},
+/obj/machinery/button/blast_door{
+	dir = 8;
+	id_tag = "data_capsule_sensors";
+	name = "Sensors' Seal";
+	pixel_x = 24;
+	pixel_y = 16
+	},
+/obj/machinery/button/blast_door{
+	dir = 8;
+	id_tag = "data_capsule_shield";
+	name = "Pilot's Shielding";
+	pixel_x = 24;
+	pixel_y = 26
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/item/clothing/mask/gas/half/cadianrespirator/inquis,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/abadoned_data_capsule)
 "gp" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
 	dir = 8;
@@ -3132,9 +3049,7 @@
 /turf/space,
 /area/space)
 "gr" = (
-/obj/machinery/hologram/holopad/longrange/remoteship,
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/warhammer/necro2,
 /area/outpost/mining/relay)
 "gs" = (
 /obj/structure/cable{
@@ -3146,13 +3061,14 @@
 /turf/simulated/floor/airless,
 /area/mine/unexplored)
 "gt" = (
-/obj/structure/table/steel,
-/obj/machinery/photocopier/faxmachine,
-/obj/machinery/alarm/server{
-	pixel_y = 32
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/outpost/mining/relay)
+/obj/structure/catwalk,
+/turf/simulated/floor/warhammer/necro2,
+/area/mine/unexplored)
 "gu" = (
 /turf/simulated/floor/asteroid,
 /area/mine/explored)
@@ -3187,33 +3103,32 @@
 /turf/simulated/floor/airless,
 /area/mine/unexplored)
 "gA" = (
-/obj/shuttle_landmark/corporate/nav5,
-/turf/simulated/floor/asteroid,
-/area/mine/explored)
+/obj/machinery/alarm/server{
+	pixel_y = 32
+	},
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
 "gB" = (
 /turf/space,
 /area/space)
 "gC" = (
-/obj/wallframe_spawn/reinforced/no_grille,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/blast/shutters/open{
-	dir = 4;
-	id_tag = "mbase_roomrelay_shutters"
+/obj/floor_decal/techfloor{
+	dir = 8;
+	icon_state = "techfloor_edges"
 	},
-/turf/simulated/floor/plating,
-/area/outpost/mining/relay)
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/obj/structure/broken_cryo{
+	dir = 4
+	},
+/turf/simulated/floor/greengrid,
+/area/shuttle/abadoned_data_capsule)
 "gD" = (
-/obj/machinery/portable_atmospherics/powered/pump/filled,
-/obj/floor_decal/industrial/outline/grey,
-/obj/machinery/button/blast_door{
-	dir = 2;
-	id_tag = "mbase_roomrelay_shutters";
-	name = "Space Shutters Control";
-	pixel_x = 0;
-	pixel_y = 26
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/outpost/mining/relay)
+/obj/paint/merc,
+/obj/structure/sign/inquisition,
+/turf/simulated/wall/ocp_wall,
+/area/shuttle/abadoned_data_capsule)
 "gE" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -3224,30 +3139,46 @@
 /turf/simulated/floor/airless,
 /area/mine/unexplored)
 "gF" = (
-/turf/simulated/floor/tiled/techfloor,
-/area/outpost/mining/relay)
-"gG" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/machinery/portable_atmospherics/canister/air,
-/obj/floor_decal/industrial/outline/grey,
-/obj/machinery/light/small/red{
-	dir = 1;
-	icon_state = "bulb_map"
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/outpost/mining/relay)
-"gH" = (
-/obj/machinery/access_button/airlock_exterior{
-	master_tag = "mbaserelay_airlock";
+/obj/structure/catwalk,
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	id_tag = "mbaserelay_airlock";
 	pixel_x = -24
 	},
-/turf/simulated/floor/airless,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
+	dir = 1;
+	id_tag = "mbaserelay_airlock_pump"
+	},
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
+"gG" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/warhammer/necro2,
+/area/mine/unexplored)
+"gH" = (
+/turf/simulated/floor/warhammer/necro2,
 /area/mine/unexplored)
 "gI" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/obj/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/techfloor,
-/area/outpost/mining/relay)
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24;
+	pixel_y = 0
+	},
+/obj/floor_decal/techfloor{
+	dir = 5
+	},
+/obj/machinery/light/small,
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/smes/buildable/preset/tau,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/abadoned_data_capsule)
 "gJ" = (
 /obj/random/junk,
 /turf/simulated/floor/asteroid,
@@ -3259,71 +3190,38 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/necro2,
 /area/outpost/mining/relay)
 "gL" = (
-/obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 5;
-	icon_state = "intact"
+/obj/floor_decal/techfloor{
+	dir = 1
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/outpost/mining/relay)
+/obj/random/loot/tech2,
+/turf/simulated/floor/greengrid,
+/area/shuttle/abadoned_data_capsule)
 "gM" = (
-/obj/machinery/door/airlock/external/bolted/cycling{
-	id_tag = "mbaserelay_airlock_inner"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 4;
-	icon_state = "intact"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/unsimulated/mask,
 /area/outpost/mining/relay)
 "gN" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
-	dir = 1;
-	icon_state = "map"
-	},
+/obj/structure/catwalk,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/random/junk,
+/obj/item/material/twohanded/ravenor/chainsword/drusian,
+/turf/simulated/floor/warhammer/necro2,
 /area/outpost/mining/relay)
 "gO" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 10;
-	icon_state = "intact"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/outpost/mining/relay)
+/obj/item/stack/material/plasteel,
+/turf/simulated/wall/ocp_wall,
+/area/shuttle/abadoned_data_capsule)
 "gP" = (
-/obj/machinery/door/airlock/external/bolted/cycling{
-	id_tag = "mbaserelay_airlock_outer"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/outpost/mining/relay)
+/obj/structure/fuel_port,
+/obj/paint/merc,
+/turf/simulated/wall/ocp_wall,
+/area/shuttle/abadoned_data_capsule)
 "gQ" = (
 /obj/catwalk_plated,
 /obj/structure/cable{
@@ -3339,122 +3237,124 @@
 /turf/simulated/floor/plating,
 /area/outpost/mining/hangar)
 "gR" = (
-/obj/structure/catwalk,
-/obj/machinery/power/apc{
-	dir = 2;
-	name = "south bump";
-	operating = 1;
-	pixel_y = -24
-	},
-/obj/structure/cable,
-/obj/structure/bed/chair{
-	dir = 4;
-	icon_state = "chair_preview"
-	},
-/turf/simulated/floor/plating,
-/area/outpost/mining/relay)
+/obj/structure/grille/broken,
+/obj/structure/lattice,
+/turf/simulated/floor/warhammer/necro2,
+/area/mine/unexplored)
 "gS" = (
-/obj/structure/table/steel,
-/turf/simulated/floor/tiled/techfloor,
+/obj/random/trash,
+/turf/simulated/floor/warhammer/necro2,
 /area/outpost/mining/relay)
 "gT" = (
-/obj/machinery/access_button/airlock_interior{
-	master_tag = "mbaserelay_airlock";
-	pixel_x = 23
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/structure/bed/chair{
-	dir = 8;
-	icon_state = "chair_preview"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/outpost/mining/relay)
+/obj/structure/catwalk,
+/mob/living/simple_animal/hostile/daemon/large,
+/turf/simulated/floor/airless,
+/area/mine/unexplored)
 "gU" = (
-/obj/structure/catwalk,
-/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	id_tag = "mbaserelay_airlock";
-	pixel_x = -24
+/obj/machinery/ion_engine{
+	dir = 1
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
-	dir = 1;
-	id_tag = "mbaserelay_airlock_pump"
+/turf/simulated/floor/reinforced{
+	map_airless = 1
 	},
-/turf/simulated/floor/plating,
-/area/outpost/mining/relay)
+/area/shuttle/abadoned_data_capsule)
 "gV" = (
-/obj/structure/catwalk,
-/obj/machinery/airlock_sensor{
-	id_tag = "mbaserelay_airlock_sensor";
-	master_tag = "mbaserelay_airlock";
-	pixel_x = 24
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
-	dir = 1;
-	id_tag = "mbaserelay_airlock_pump"
-	},
-/turf/simulated/floor/plating,
-/area/outpost/mining/relay)
+/turf/simulated/mineral,
+/area/space)
 "gY" = (
-/mob/living/simple_animal/hostile/hivebot,
-/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/necro3,
 /area/mine/unexplored)
 "gZ" = (
-/obj/random/single/hivebot,
+/obj/decal/remains,
+/obj/item/clothing/head/helmet/inquisition/ordos/hereticus,
+/obj/random/loot/raresidearmbundle,
 /turf/simulated/floor/asteroid,
 /area/mine/unexplored)
 "ha" = (
-/mob/living/simple_animal/hostile/carp,
-/turf/simulated/floor/asteroid,
-/area/mine/explored)
+/obj/item/clothing/shoes/scion,
+/turf/simulated/floor/warhammer/necro3,
+/area/mine/unexplored)
 "hb" = (
-/obj/random/trash,
-/turf/simulated/floor/tiled/techfloor,
+/obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
+	dir = 1;
+	icon_state = "map"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/barricade/barbed{
+	icon = 'icons/map_project/eldritch/Flesh_Ground.dmi';
+	icon_state = "flesh_floor-3";
+	name = "flesh mouth";
+	damage_hitsound = 'sound/weapons/stab2.ogg'
+	},
+/turf/simulated/floor/warhammer/necro3,
 /area/outpost/mining/relay)
 "hc" = (
-/turf/simulated/floor/airless,
-/area/mine/unexplored)
+/obj/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/obj/machinery/light/small/emergency{
+	dir = 4;
+	icon_state = "bulb_map"
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/port_gen/pacman,
+/obj/machinery/door/window{
+	dir = 8
+	},
+/obj/structure/window/boron_reinforced{
+	dir = 1
+	},
+/obj/structure/window/boron_reinforced,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/stack/material/uranium/ten,
+/turf/simulated/floor/greengrid,
+/area/shuttle/abadoned_data_capsule)
 "hd" = (
-/obj/structure/table/steel,
-/obj/item/pen,
-/obj/item/paper,
-/obj/machinery/light/small/red,
-/obj/item/reagent_containers/food/drinks/glass2/shot,
-/turf/simulated/floor/tiled/techfloor,
+/obj/structure/grille,
+/turf/simulated/floor/warhammer/necro2,
 /area/outpost/mining/relay)
 "he" = (
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 1
 	},
 /obj/structure/cable,
-/obj/floor_decal/corner/brown/half,
 /obj/machinery/power/apc/inactive{
 	name = "south bump";
 	pixel_y = -25
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/warhammer/plating,
 /area/outpost/mining/recreation)
 "hg" = (
-/obj/structure/catwalk,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/floor_decal/techfloor{
+	dir = 1
 	},
-/obj/random/junk,
-/turf/simulated/floor/plating,
-/area/outpost/mining/relay)
+/obj/random/loot/lootartifacts,
+/turf/simulated/floor/greengrid,
+/area/shuttle/abadoned_data_capsule)
 "hi" = (
 /obj/structure/mech_wreckage/powerloader,
 /turf/simulated/floor/asteroid,
 /area/mine/unexplored)
 "hk" = (
-/obj/wallframe_spawn/reinforced_phoron/titanium,
-/obj/machinery/door/blast/regular{
-	id_tag = "data_capsule_shield";
-	name = "shield blast door"
+/obj/machinery/atmospherics/pipe/manifold/visible/black{
+	dir = 1;
+	icon_state = "map"
 	},
 /obj/paint/merc,
-/obj/paint_stripe/green,
-/turf/simulated/floor/plating,
+/turf/simulated/wall/ocp_wall,
 /area/shuttle/abadoned_data_capsule)
 "hl" = (
 /turf/simulated/wall/prepainted/mining_corporate,
@@ -3508,7 +3408,6 @@
 /area/shuttle/abadoned_data_capsule)
 "hr" = (
 /obj/paint/merc,
-/obj/paint_stripe/green,
 /turf/simulated/wall/ocp_wall,
 /area/shuttle/abadoned_data_capsule)
 "hs" = (
@@ -3548,43 +3447,12 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/abadoned_data_capsule)
 "hv" = (
-/obj/floor_decal/techfloor,
-/obj/floor_decal/techfloor{
-	dir = 1;
-	icon_state = "techfloor_edges"
+/obj/machinery/access_button/airlock_exterior{
+	master_tag = "mbaserelay_airlock";
+	pixel_x = -24
 	},
-/obj/machinery/power/apc/inactive{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 25
-	},
-/obj/machinery/button/blast_door{
-	dir = 8;
-	id_tag = "data_capsule_door_protect";
-	name = "Entrance Protection";
-	pixel_x = 24;
-	pixel_y = 36
-	},
-/obj/machinery/button/blast_door{
-	dir = 8;
-	id_tag = "data_capsule_sensors";
-	name = "Sensors' Seal";
-	pixel_x = 24;
-	pixel_y = 16
-	},
-/obj/machinery/button/blast_door{
-	dir = 8;
-	id_tag = "data_capsule_shield";
-	name = "Pilot's Shielding";
-	pixel_x = 24;
-	pixel_y = 26
-	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/abadoned_data_capsule)
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
 "hw" = (
 /obj/machinery/shipsensors,
 /obj/machinery/door/blast/regular{
@@ -3594,24 +3462,16 @@
 /turf/simulated/floor/plating,
 /area/shuttle/abadoned_data_capsule)
 "hx" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24;
-	pixel_y = 0
+/obj/machinery/door/airlock/external/bolted/cycling{
+	id_tag = "mbaserelay_airlock_outer"
 	},
-/obj/machinery/power/smes/buildable{
-	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil/super_io=2,/obj/item/stock_parts/smes_coil/super_capacity=2)
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/floor_decal/techfloor{
-	dir = 5
-	},
-/obj/machinery/light/small,
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/abadoned_data_capsule)
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
 "hy" = (
 /obj/floor_decal/techfloor{
 	dir = 8
@@ -3680,10 +3540,13 @@
 /turf/simulated/floor/greengrid,
 /area/shuttle/abadoned_data_capsule)
 "hE" = (
-/obj/floor_decal/techfloor{
-	dir = 1
+/obj/wallframe_spawn/reinforced_phoron/titanium,
+/obj/machinery/door/blast/regular{
+	id_tag = "data_capsule_shield";
+	name = "shield blast door"
 	},
-/turf/simulated/floor/greengrid,
+/obj/paint/merc,
+/turf/simulated/floor/plating,
 /area/shuttle/abadoned_data_capsule)
 "hF" = (
 /obj/floor_decal/techfloor{
@@ -3708,27 +3571,13 @@
 /turf/simulated/floor/greengrid,
 /area/shuttle/abadoned_data_capsule)
 "hH" = (
-/obj/floor_decal/techfloor{
-	dir = 8;
-	icon_state = "techfloor_edges"
-	},
-/obj/machinery/light/small/emergency{
-	dir = 8
-	},
-/obj/structure/broken_cryo{
-	dir = 4
-	},
-/obj/structure/closet/walllocker/emerglocker/west{
-	amount = 3;
-	spawnitems = list(/obj/item/tank/emergency/oxygen,/obj/item/clothing/mask/breath,/obj/item/inflatable/door,/obj/item/inflatable/wall,/obj/item/inflatable/door,/obj/item/inflatable/wall)
-	},
-/turf/simulated/floor/greengrid,
-/area/shuttle/abadoned_data_capsule)
+/obj/structure/grille,
+/obj/structure/lattice,
+/turf/space/bluespace,
+/area/mine/unexplored)
 "hI" = (
-/obj/floor_decal/corner_techfloor_grid,
-/obj/floor_decal/techfloor/corner,
-/turf/simulated/floor/greengrid,
-/area/shuttle/abadoned_data_capsule)
+/turf/simulated/mineral,
+/area/outpost/mining/relay)
 "hJ" = (
 /obj/structure/railing/mapped,
 /obj/floor_decal/techfloor,
@@ -3752,27 +3601,29 @@
 /turf/simulated/floor/greengrid,
 /area/shuttle/abadoned_data_capsule)
 "hL" = (
-/obj/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/machinery/light/small/emergency{
-	dir = 4;
-	icon_state = "bulb_map"
-	},
-/obj/structure/plushie/drone,
-/turf/simulated/floor/greengrid,
-/area/shuttle/abadoned_data_capsule)
+/obj/structure/catwalk,
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
 "hM" = (
-/obj/machinery/door/airlock/hatch{
-	dir = 4
+/obj/machinery/door/airlock/external/bolted/cycling{
+	id_tag = "mbaserelay_airlock_inner"
 	},
-/obj/machinery/door/blast/regular{
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
 	dir = 4;
-	id_tag = "data_capsule_door_protect"
+	icon_state = "intact"
 	},
-/turf/simulated/floor/reinforced/airmix,
-/area/shuttle/abadoned_data_capsule)
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
 "hN" = (
 /obj/floor_decal/techfloor{
 	dir = 8;
@@ -3792,16 +3643,7 @@
 /turf/simulated/floor/greengrid,
 /area/shuttle/abadoned_data_capsule)
 "hP" = (
-/obj/structure/decoy{
-	icon_state = "ai-empty";
-	name = "V.I.K.A. (Sleep mode)"
-	},
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/greengrid,
+/turf/simulated/wall/ocp_wall,
 /area/shuttle/abadoned_data_capsule)
 "hQ" = (
 /obj/structure/railing/mapped{
@@ -3860,32 +3702,8 @@
 /turf/simulated/floor/greengrid,
 /area/shuttle/abadoned_data_capsule)
 "hV" = (
-/obj/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
-	},
-/obj/machinery/light/small/emergency{
-	dir = 4;
-	icon_state = "bulb_map"
-	},
-/obj/structure/cable/yellow{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/power/port_gen/pacman,
-/obj/structure/closet/walllocker{
-	dir = 4;
-	pixel_x = 32
-	},
-/obj/item/stack/material/phoron/fifty,
-/obj/machinery/door/window{
-	dir = 8
-	},
-/obj/structure/window/boron_reinforced{
-	dir = 1
-	},
-/obj/structure/window/boron_reinforced,
-/obj/item/storage/toolbox/syndicate,
+/obj/floor_decal/techfloor,
+/obj/machinery/nuclearbomb,
 /turf/simulated/floor/greengrid,
 /area/shuttle/abadoned_data_capsule)
 "hW" = (
@@ -3903,9 +3721,14 @@
 /turf/simulated/floor/greengrid,
 /area/shuttle/abadoned_data_capsule)
 "hY" = (
-/obj/floor_decal/techfloor,
-/turf/simulated/floor/greengrid,
-/area/shuttle/abadoned_data_capsule)
+/obj/structure/barricade/barbed{
+	icon = 'icons/map_project/eldritch/Flesh_Ground.dmi';
+	icon_state = "flesh_floor-3";
+	name = "flesh mouth";
+	damage_hitsound = 'sound/weapons/stab2.ogg'
+	},
+/turf/simulated/floor/warhammer/necro2,
+/area/mine/unexplored)
 "hZ" = (
 /obj/floor_decal/techfloor{
 	dir = 6;
@@ -3916,11 +3739,10 @@
 /turf/simulated/floor/greengrid,
 /area/shuttle/abadoned_data_capsule)
 "ia" = (
-/obj/structure/fuel_port,
-/obj/paint/merc,
-/obj/paint_stripe/green,
-/turf/simulated/wall/ocp_wall,
-/area/shuttle/abadoned_data_capsule)
+/obj/structure/table/rack,
+/obj/random/loot/randomcolonyitems,
+/turf/simulated/floor/plating,
+/area/outpost/mining/maints)
 "ib" = (
 /obj/machinery/door/airlock/highsecurity{
 	dir = 2
@@ -3928,13 +3750,16 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/abadoned_data_capsule)
 "ic" = (
-/obj/item/stack/material/plasteel,
+/obj/random/junk,
+/obj/item/clothing/glasses/scion,
 /turf/simulated/floor/asteroid,
 /area/mine/unexplored)
 "id" = (
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/shuttle/abadoned_data_capsule)
+/obj/random/loot/raregunsenergy,
+/obj/item/clothing/head/helmet/flak/tempestus,
+/obj/decal/cleanable/remains,
+/turf/simulated/floor/warhammer/necro2,
+/area/mine/unexplored)
 "ie" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3956,30 +3781,20 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/abadoned_data_capsule)
 "ih" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 6
-	},
-/obj/paint/merc,
-/obj/paint_stripe/green,
-/turf/simulated/wall/ocp_wall,
-/area/shuttle/abadoned_data_capsule)
+/obj/item/clothing/under/guard/uniform/scion,
+/obj/item/clothing/gloves/thick/swat/cadian/scion,
+/obj/item/clothing/mask/gas/half/cadianrespirator/inquis,
+/turf/simulated/floor/warhammer/necro4,
+/area/mine/unexplored)
 "ii" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/black{
-	dir = 1;
-	icon_state = "map"
-	},
-/obj/paint/merc,
-/obj/paint_stripe/green,
-/turf/simulated/wall/ocp_wall,
-/area/shuttle/abadoned_data_capsule)
+/mob/living/simple_animal/hostile/daemon/zygote/worm,
+/turf/simulated/floor/warhammer/necro2,
+/area/mine/unexplored)
 "ij" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/black{
-	dir = 4
-	},
-/obj/paint/merc,
-/obj/paint_stripe/green,
-/turf/simulated/wall/ocp_wall,
-/area/shuttle/abadoned_data_capsule)
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/space/bluespace,
+/area/mine/unexplored)
 "ik" = (
 /obj/machinery/atmospherics/unary/engine{
 	dir = 1
@@ -3991,6 +3806,102 @@
 	map_airless = 1
 	},
 /area/shuttle/abadoned_data_capsule)
+"kW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
+"mm" = (
+/obj/structure/table/rack,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/plating,
+/area/outpost/mining/maints)
+"pU" = (
+/obj/machinery/light/small/red{
+	dir = 1;
+	icon_state = "bulb_map"
+	},
+/obj/item/clothing/suit/armor/grim/agent/inquisitor,
+/obj/decal/cleanable/remains,
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
+"sj" = (
+/obj/machinery/access_button/airlock_interior{
+	master_tag = "mbaserelay_airlock";
+	pixel_x = 23
+	},
+/mob/living/simple_animal/hostile/daemon/large,
+/turf/simulated/floor/warhammer/necro4,
+/area/outpost/mining/relay)
+"vt" = (
+/obj/machinery/hologram/holopad/longrange/remoteship,
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
+"wj" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/warhammer/necro2,
+/area/mine/unexplored)
+"Ax" = (
+/obj/floor_decal/corner_techfloor_grid,
+/obj/floor_decal/techfloor/corner,
+/obj/item/grenade/frag/high_yield/krak/detpack{
+	icon = 'icons/obj/machines/nuclear_cylinder.dmi';
+	icon_state = "nuclear_cylinder";
+	name = "Hacked Nuclear Cylinder";
+	desc = "This nuclear cylinder has a fuse attached to it, possibly the most dangerous IED currently in existence within the sub-sector... don't pull the pin!";
+	explosion_size = 10;
+	num_fragments = 100;
+	w_class = 6;
+	slowdown_general = 0.05
+	},
+/turf/simulated/floor/greengrid,
+/area/shuttle/abadoned_data_capsule)
+"Fl" = (
+/obj/structure/catwalk,
+/obj/machinery/airlock_sensor{
+	id_tag = "mbaserelay_airlock_sensor";
+	master_tag = "mbaserelay_airlock";
+	pixel_x = 24
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
+	dir = 1;
+	id_tag = "mbaserelay_airlock_pump"
+	},
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
+"KR" = (
+/obj/structure/sign/warning/detailed{
+	dir = 4;
+	name = "\improper COMMUNICATION STATION";
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/obj/machinery/light/small/red{
+	dir = 1;
+	icon_state = "bulb_map"
+	},
+/obj/structure/bed/chair{
+	dir = 4;
+	icon_state = "chair_preview"
+	},
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
+"LB" = (
+/obj/shuttle_landmark/corporate/nav5,
+/turf/space,
+/area/space)
 "QI" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
 	dir = 4;
@@ -4003,6 +3914,33 @@
 /obj/floor_decal/industrial/warning/cee,
 /turf/simulated/floor/plating,
 /area/outpost/mining)
+"WW" = (
+/obj/item/pen,
+/obj/machinery/light/small/red,
+/obj/item/reagent_containers/food/drinks/glass2/shot,
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
+"WY" = (
+/obj/structure/catwalk,
+/obj/machinery/power/apc{
+	dir = 2;
+	name = "south bump";
+	operating = 1;
+	pixel_y = -24
+	},
+/obj/structure/cable,
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
+"XC" = (
+/obj/machinery/button/blast_door{
+	dir = 2;
+	id_tag = "mbase_roomrelay_shutters";
+	name = "Space Shutters Control";
+	pixel_x = 0;
+	pixel_y = 26
+	},
+/turf/simulated/floor/warhammer/necro2,
+/area/outpost/mining/relay)
 
 (1,1,1) = {"
 gB
@@ -6456,7 +6394,7 @@ ab
 ab
 ab
 ab
-aq
+ap
 ap
 ab
 ab
@@ -7206,12 +7144,12 @@ ab
 ab
 ab
 ab
-aa
-aa
-ap
-ap
-aa
 ab
+ab
+ab
+ab
+ab
+aa
 ab
 gB
 gB
@@ -7274,23 +7212,10 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-ab
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -7299,84 +7224,6 @@ gB
 gB
 gB
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-gB
-gB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
 gB
 gB
 gB
@@ -7399,6 +7246,19 @@ ab
 ab
 ab
 ab
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+ab
+ab
+ab
+ab
+gB
+gB
 ab
 ab
 ab
@@ -7408,10 +7268,88 @@ ab
 ab
 ab
 ab
-aa
-ap
-ap
-aa
+ab
+ab
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 aa
 ab
 ab
@@ -7476,26 +7414,11 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-ab
-ab
-ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -7503,11 +7426,6 @@ gB
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
 gB
 gB
 gB
@@ -7520,12 +7438,6 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-ab
-ab
 ab
 ab
 ab
@@ -7550,50 +7462,73 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
 ab
 ab
 ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
 ab
 ab
 ab
@@ -7610,10 +7545,13 @@ ab
 ab
 ab
 aa
-aa
-ap
-ap
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -7796,25 +7734,25 @@ ap
 ab
 ab
 ab
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ab
 ab
 ab
 ab
-aa
-ap
-ap
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 aa
 ab
 ab
@@ -7898,13 +7836,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -7956,7 +7894,7 @@ gB
 gB
 gB
 gB
-gv
+gB
 gB
 gB
 gB
@@ -7995,32 +7933,32 @@ gB
 gB
 gB
 ap
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ab
-ab
-ap
-ap
-aa
-aa
 ab
 ab
 ab
 ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
 gB
 gB
 gB
@@ -8100,13 +8038,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -8197,33 +8135,33 @@ gB
 gB
 gB
 ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 aa
-aa
-aa
-aa
-aa
-hw
-hr
-hr
-hr
-hM
-hr
-eJ
-eJ
-hr
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ab
-ap
-ap
-ap
 gB
 gB
 gB
@@ -8275,8 +8213,8 @@ ab
 ab
 ab
 ab
-gB
-gB
+gV
+gV
 gB
 gB
 gB
@@ -8298,20 +8236,20 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -8399,33 +8337,33 @@ gB
 gB
 gB
 ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 aa
-aa
-eJ
-eJ
-eJ
-hr
-hr
-hD
-hH
-hN
-hH
-hW
-hr
-hr
-hr
-id
-ap
-ab
-ap
-ap
-ab
-ic
-ap
-ap
-ap
-ap
-ap
 gB
 gB
 gB
@@ -8477,8 +8415,8 @@ ab
 ab
 ab
 gB
-gB
-gB
+gV
+gV
 gB
 gB
 gB
@@ -8500,21 +8438,21 @@ ab
 ab
 ab
 ab
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
 gB
 gB
 ab
@@ -8601,33 +8539,33 @@ gB
 gB
 gB
 aa
-aa
-aa
-hk
-ho
-hs
-hx
-hr
-hE
-hI
-hO
-hS
-hX
-ia
-ie
-ih
-ik
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
 ab
-ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+ab
+ab
+ab
+ab
+ab
+aa
 gB
 gB
 gB
@@ -8651,16 +8589,40 @@ gB
 gB
 "}
 (24,1,1) = {"
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 gB
 gB
+gV
+gV
+ab
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
+ab
 gB
 gB
 gB
@@ -8677,45 +8639,21 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
-gB
-ab
-gB
-gB
-ab
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
 ab
 ab
 gB
@@ -8803,33 +8741,33 @@ gB
 gB
 gB
 aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 aa
 aa
-hk
-hp
-hu
-hy
-hC
-hF
-hJ
-hP
-hT
-hY
-ib
-if
-ii
-ik
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
+ab
+ab
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 gB
 gB
 gB
@@ -8853,20 +8791,20 @@ gB
 gB
 "}
 (25,1,1) = {"
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -8904,6 +8842,11 @@ ab
 ab
 ab
 ab
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -8912,12 +8855,7 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
 ab
 ab
 ab
@@ -9005,33 +8943,33 @@ gB
 gB
 aa
 aa
-aa
-aa
-hk
-hq
-hv
-hz
-hr
-hE
-hK
-hQ
-hU
-hX
-hr
-ig
-ij
-ik
-ap
-ap
 ab
-ap
-ap
 ab
-ap
-ap
 ab
-ap
-ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ap
 gB
 gB
@@ -9055,19 +8993,19 @@ gB
 gB
 "}
 (26,1,1) = {"
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -9105,7 +9043,7 @@ ab
 ab
 ab
 ab
-gB
+hn
 gB
 gB
 gB
@@ -9208,32 +9146,32 @@ gB
 ap
 aa
 aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 aa
-eJ
-hr
-hr
-hr
-hr
-hG
-hL
-hR
-hV
-hZ
-hr
-hr
-eJ
-hr
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
+ab
+ab
+ab
+ab
+ab
+ab
 ap
 gB
 gB
@@ -9257,21 +9195,21 @@ gB
 gB
 "}
 (27,1,1) = {"
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -9410,32 +9348,32 @@ gB
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-hB
-eJ
-hr
-hr
-hM
-hr
-hr
-id
-id
-ap
-ap
-ap
-ap
-ic
 ab
-ap
-ap
-ap
-ap
-ap
 ab
-ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ap
 gB
 gB
@@ -9459,20 +9397,20 @@ gB
 gB
 "}
 (28,1,1) = {"
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -9490,144 +9428,144 @@ ab
 ab
 ab
 ab
-aq
-ap
-ab
-gB
-gB
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ap
 ap
-ap
-ap
-ap
-ap
-ic
-ap
+ab
+gB
+gB
+gB
+gB
+gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -9661,20 +9599,20 @@ gB
 gB
 "}
 (29,1,1) = {"
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -9821,12 +9759,12 @@ ab
 ab
 ab
 ab
-aa
-aa
-ap
-ap
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -9863,15 +9801,15 @@ gB
 gB
 "}
 (30,1,1) = {"
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -10024,12 +9962,12 @@ ab
 ab
 ab
 ab
-aa
-aa
-ap
-ap
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -10227,12 +10165,12 @@ ab
 ab
 ab
 ab
-aa
-aa
-ap
-ap
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -10339,7 +10277,7 @@ ab
 ab
 ab
 ab
-gB
+gV
 ab
 gB
 gB
@@ -10417,11 +10355,6 @@ gB
 gB
 gB
 gB
-ab
-ab
-ab
-ab
-ab
 ab
 ab
 ab
@@ -10431,10 +10364,15 @@ ab
 ab
 ab
 aa
-aa
-ap
-ap
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -10540,8 +10478,18 @@ ab
 ab
 ab
 ab
+gV
+gV
+gV
 gB
 gB
+gB
+ab
+ab
+ab
+ab
+ab
+ab
 gB
 gB
 gB
@@ -10556,16 +10504,6 @@ gB
 gB
 gB
 gB
-ab
-ab
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-gB
 gB
 gB
 gB
@@ -10635,8 +10573,8 @@ ab
 ab
 ab
 ab
-aa
-aa
+ab
+ab
 ab
 ab
 ab
@@ -10742,9 +10680,9 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
+gV
+gV
+gV
 gB
 gB
 ab
@@ -10944,7 +10882,7 @@ gB
 gB
 gB
 gB
-gB
+gV
 ab
 ab
 ab
@@ -11428,7 +11366,7 @@ gB
 gB
 gB
 gB
-ap
+ab
 ab
 ab
 ab
@@ -12357,10 +12295,10 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -12561,8 +12499,8 @@ gB
 ab
 ab
 ab
-gB
-gB
+gV
+gV
 gB
 gB
 gB
@@ -12727,9 +12665,9 @@ ab
 ap
 ab
 ab
-gB
-gB
-gB
+gV
+gV
+gV
 ab
 ab
 ab
@@ -12833,13 +12771,13 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+hn
+hn
+hn
+hn
+hn
+hn
+hn
 gB
 gB
 gB
@@ -12929,9 +12867,9 @@ ab
 ap
 ab
 ab
-gB
-gB
-gB
+gV
+gV
+gV
 ab
 ab
 ab
@@ -13037,11 +12975,11 @@ ab
 ab
 ab
 ab
-aa
-gB
-gB
-gB
-gB
+ab
+hn
+hn
+hn
+hn
 gB
 gB
 gB
@@ -13131,9 +13069,9 @@ ab
 ap
 ab
 ab
-gB
-gB
-gB
+gV
+gV
+gV
 ab
 ab
 ab
@@ -13212,9 +13150,6 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
 ab
 ab
 ab
@@ -13239,18 +13174,21 @@ ab
 ab
 ab
 ab
-aa
-aa
-aa
-ac
-ar
-ar
-ac
-ac
-ar
-ar
-gB
-gB
+ab
+ab
+ab
+ab
+ab
+ab
+hn
+hn
+hn
+hn
+hn
+hn
+hn
+hn
+hn
 gB
 gB
 gB
@@ -13414,9 +13352,6 @@ ab
 ab
 ab
 ab
-ap
-gY
-ap
 ab
 ab
 ab
@@ -13441,18 +13376,21 @@ ab
 ab
 ab
 ab
-aa
-aa
-aa
-aa
-gB
-au
-gB
-au
-gB
-ac
-gB
-gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+hn
+hn
+hn
+hn
+hn
+hn
+hn
+hn
 gB
 gB
 gB
@@ -13532,130 +13470,130 @@ ab
 ab
 ab
 ab
-aq
-ab
-ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ap
-ap
-ap
 ap
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-aa
-aa
-aa
-aa
-hl
-gC
-gC
-gC
-hl
-aa
-aa
 gB
 gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+gB
+gB
+gB
+ab
+ab
+ab
+ab
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+hn
+hn
 gB
 gB
 gB
@@ -13818,11 +13756,6 @@ ab
 ab
 ab
 ab
-ap
-ab
-ab
-ap
-ap
 ab
 ab
 ab
@@ -13845,19 +13778,24 @@ ab
 ab
 ab
 ab
-aa
-aa
-aa
-hl
-hl
-gD
-gI
-hd
-hl
-aa
-aa
-gB
-gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+hn
+hn
 gB
 gB
 gB
@@ -13977,6 +13915,14 @@ ab
 ab
 ab
 ab
+gV
+gB
+gB
+gB
+ab
+ab
+ab
+ab
 gB
 gB
 gB
@@ -13985,10 +13931,6 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
-gB
 ab
 ab
 ab
@@ -14019,17 +13961,6 @@ ab
 ab
 ab
 ab
-ap
-ap
-ab
-ab
-ab
-ap
-ap
-ap
-ap
-ap
-ap
 ab
 ab
 ab
@@ -14048,18 +13979,25 @@ ab
 ab
 ab
 ab
-aa
-aa
-hl
-gr
-gF
-hg
-gR
-hl
-aa
-aa
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 gB
 gB
@@ -14177,13 +14115,13 @@ gB
 gB
 gB
 gB
+gV
+gV
+gV
 gB
 gB
 gB
 gB
-gB
-gB
-gB
 ab
 ab
 gB
@@ -14221,21 +14159,6 @@ ab
 ab
 ab
 ab
-ap
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ap
-ap
-ap
-ap
-ap
 ab
 ab
 ab
@@ -14250,18 +14173,33 @@ ab
 ab
 ab
 ab
-aa
-aa
-hl
-gt
-hb
-gK
-gS
-hl
-aa
-aa
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 gB
 gB
@@ -14380,9 +14318,9 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
+gV
+gV
+gV
 gB
 gB
 gB
@@ -14422,22 +14360,6 @@ ab
 ab
 ab
 ab
-ap
-ap
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ap
 ab
 ab
 ab
@@ -14452,17 +14374,33 @@ ab
 ab
 ab
 ab
-aa
-aa
-hl
-hl
-gG
-gL
-gT
-hl
-aa
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 gB
@@ -14582,9 +14520,9 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
+gV
+gV
+gV
 ab
 gB
 gB
@@ -14597,32 +14535,6 @@ ab
 ab
 ab
 ap
-gY
-ap
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
 ap
 ap
 ab
@@ -14639,12 +14551,6 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
-ap
-ap
-ap
 ab
 ab
 ab
@@ -14655,16 +14561,48 @@ ab
 ab
 ab
 ab
-aa
-aa
-hl
-hl
-gM
-hl
-hl
-aa
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ap
 gB
@@ -14824,8 +14762,6 @@ ab
 ab
 ab
 ab
-ap
-ap
 ab
 ab
 ab
@@ -14846,7 +14782,6 @@ ab
 ab
 ab
 ab
-ap
 ab
 ab
 ab
@@ -14857,15 +14792,18 @@ ab
 ab
 ab
 ab
-aa
-aa
-aa
-hl
-gN
-gU
-hl
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ap
@@ -15026,8 +14964,6 @@ ab
 ab
 ab
 ab
-ap
-ap
 ab
 ab
 ab
@@ -15048,9 +14984,6 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
 ab
 ab
 ab
@@ -15059,15 +14992,20 @@ ab
 ab
 ab
 ab
-aa
-aa
-aa
-hl
-gO
-gV
-hl
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ap
@@ -15227,8 +15165,6 @@ ab
 ab
 ab
 ab
-ap
-ap
 ab
 ab
 ab
@@ -15252,24 +15188,26 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
-ap
 ab
 ab
 ab
 ab
 ab
-aa
-aa
-hl
-hl
-gP
-hl
-hl
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -15428,8 +15366,6 @@ ab
 ab
 ab
 ab
-ap
-ap
 ab
 ab
 ab
@@ -15455,22 +15391,24 @@ ab
 ab
 ab
 ab
-ap
-gY
-ap
 ab
 ab
 ab
 ab
 ab
-aa
-aa
-hl
-go
-gE
-gH
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -15629,8 +15567,6 @@ ab
 ab
 ab
 ab
-ap
-ap
 ab
 ab
 ab
@@ -15657,22 +15593,24 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
 ab
 ab
 ab
 ab
 ab
-aa
-aa
-aa
-hc
-gE
-ap
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -15831,7 +15769,6 @@ ab
 ab
 ab
 ab
-ap
 ab
 ab
 ab
@@ -15867,14 +15804,15 @@ ab
 ab
 ab
 ab
-aa
-gJ
-ap
-ap
-gE
-ap
-aa
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -16033,7 +15971,6 @@ ab
 ab
 ab
 ab
-ap
 ab
 ab
 ab
@@ -16069,13 +16006,14 @@ ab
 ab
 ab
 ab
-gJ
-ap
-ap
-ap
-gE
-ap
-aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -16234,8 +16172,6 @@ ab
 ab
 ab
 ab
-ap
-ap
 ab
 ab
 ab
@@ -16270,13 +16206,15 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
-ap
-ap
-gE
-ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -16437,21 +16375,6 @@ ab
 ab
 ab
 ab
-ap
-ap
-ab
-ab
-ab
-ab
-ab
-ab
-ap
-ap
-ab
-ab
-ab
-ap
-ap
 ab
 ab
 ab
@@ -16472,13 +16395,28 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
-ap
-ap
-gE
-ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -16604,18 +16542,6 @@ ab
 ab
 ab
 ap
-gY
-ap
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
 ap
 ap
 ab
@@ -16628,6 +16554,8 @@ ab
 ab
 ab
 ab
+ap
+ap
 ab
 ab
 ab
@@ -16640,47 +16568,57 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-gE
-ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -16842,48 +16780,48 @@ ab
 ab
 ab
 ab
-ap
-ap
-gy
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gs
-gz
-ap
-ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ap
 ap
 gB
@@ -17045,45 +16983,45 @@ ab
 ab
 ab
 ab
-ap
-gE
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-gJ
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ap
 ap
 ap
@@ -17247,9 +17185,6 @@ ab
 ab
 ab
 ab
-ap
-gE
-ap
 ab
 ab
 ab
@@ -17280,9 +17215,12 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
+ab
+ab
+ab
+ab
+ab
+ab
 ap
 ap
 ap
@@ -17446,14 +17384,14 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ap
-gE
-ap
-ab
-ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 ab
 ab
 ab
@@ -17648,15 +17586,15 @@ ab
 ab
 ab
 ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 ab
-ab
-ab
-ap
-gE
-ap
-ap
-gY
-ap
 ab
 ab
 ab
@@ -17850,15 +17788,15 @@ ab
 ab
 ab
 ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 ab
-ab
-ab
-ap
-gE
-ap
-ap
-ap
-ap
 ab
 ab
 ab
@@ -18052,15 +17990,15 @@ ab
 ab
 ab
 ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 ab
-ab
-ab
-ap
-gE
-ap
-ab
-ap
-ap
 ab
 ab
 ab
@@ -18254,15 +18192,15 @@ ab
 ab
 ab
 ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 ab
-ab
-ab
-ap
-gE
-ap
-ab
-ap
-ap
 ab
 ab
 ab
@@ -18447,24 +18385,24 @@ ab
 ab
 ab
 ab
-gY
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ap
-gE
 ap
 ab
-ap
-ap
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+ab
 ab
 ab
 ab
@@ -18658,16 +18596,16 @@ ab
 ab
 ab
 ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 ab
 ab
-ab
-ap
-gE
-ap
-ab
-ab
-ap
-ap
 ab
 ab
 ab
@@ -18860,16 +18798,16 @@ ab
 ab
 ab
 ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 ab
 ab
-ab
-ap
-gE
-ap
-ab
-ab
-ap
-ap
 ab
 ab
 ab
@@ -19062,49 +19000,49 @@ ab
 ab
 ab
 ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+gB
+gB
+gB
+gB
+gB
+gB
+ab
 ab
 ab
 ab
 ap
-gE
-ap
-ab
-ab
-ab
-ap
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-aq
 ap
 ap
 ab
@@ -19264,16 +19202,16 @@ ab
 ab
 ab
 ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 ab
 ab
-ab
-ap
-gE
-ap
-ab
-ab
-ab
-ap
 ab
 ab
 ab
@@ -19466,24 +19404,24 @@ ab
 ab
 ab
 ab
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 ab
 ab
 ab
-ap
-gE
-ap
-ab
-ab
-ab
-ap
-ap
 ab
 ab
 ab
 ab
-ap
-ap
-gZ
+ab
+ab
+ab
 ab
 ab
 ab
@@ -19669,22 +19607,22 @@ ab
 ab
 ab
 ab
+hH
+gR
+gR
+hH
+hH
+gR
+gR
+aJ
 ab
 ab
-ap
-gE
-ap
 ab
 ab
 ab
 ab
-ap
 ab
 ab
-ab
-ap
-ap
-ap
 ab
 ab
 ab
@@ -19871,21 +19809,21 @@ ab
 ab
 ab
 ab
+aa
+gH
+ij
+gH
+eI
+gH
+hH
+aJ
 ab
 ab
-ap
-gE
-ap
-ap
-ap
-ab
-ab
-ap
 ab
 ab
 ab
-ap
-ap
+ab
+ab
 ab
 ab
 ab
@@ -20073,20 +20011,20 @@ ab
 ab
 ab
 ab
+aa
+hl
+aq
+hd
+gr
+hl
+aa
+aa
 ab
 ab
-ap
-gE
-ap
-ab
-ab
-ap
-ap
-ap
 ab
 ab
 ab
-ap
+ab
 ab
 ab
 ab
@@ -20275,20 +20213,20 @@ ab
 ab
 ab
 ab
+hl
+hl
+XC
+hd
+WW
+hl
+aa
+aa
 ab
 ab
-ap
-gE
-ap
 ab
 ab
 ab
-ap
-ap
-ap
 ab
-ab
-ap
 ab
 ab
 ab
@@ -20477,20 +20415,20 @@ ab
 ab
 ab
 ab
+hl
+vt
+gr
+gN
+WY
+hl
+aa
+aa
 ab
 ab
-ap
-gE
-ap
 ab
 ab
 ab
 ab
-ab
-ap
-ap
-ap
-ap
 ab
 ab
 ab
@@ -20679,19 +20617,19 @@ ab
 ab
 ab
 ab
+hl
+gA
+gS
+gK
+gr
+hl
+aa
+aa
 ab
 ab
-ap
-gE
-ap
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ap
 ab
 ab
 ab
@@ -20729,7 +20667,7 @@ ab
 ab
 ab
 ap
-aq
+ap
 gB
 gB
 gB
@@ -20881,19 +20819,19 @@ ab
 ab
 ab
 ab
+hl
+hl
+pU
+aO
+sj
+hl
+aa
+aa
 ab
 ab
-gJ
-gE
-ap
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ap
 ab
 ab
 ab
@@ -21083,20 +21021,20 @@ ab
 ab
 ab
 ab
+aa
+hl
+hl
+hM
+hl
+hl
+aa
+aa
 ab
 ab
-ap
-gE
-ap
 ab
 ab
 ab
 ab
-ab
-ab
-ab
-ap
-ap
 ab
 ab
 ab
@@ -21285,20 +21223,20 @@ ab
 ab
 ab
 ab
+aa
+hI
+hl
+hb
+gF
+hl
+aa
+aa
 ab
 ab
-ap
-gE
-ap
-ap
 ab
 ab
 ab
 ab
-ab
-ab
-ab
-ap
 ab
 ab
 ab
@@ -21487,21 +21425,21 @@ ab
 ab
 ab
 ab
+aa
+hI
+hl
+kW
+Fl
+hl
+aa
+aa
 ab
 ab
-ap
-gE
-ap
-ap
 ab
 ab
 ab
 ab
 ab
-ab
-ab
-ap
-ap
 ab
 ab
 ab
@@ -21636,8 +21574,8 @@ ax
 aB
 aF
 aG
-aK
-aK
+aG
+aG
 aT
 aV
 aY
@@ -21689,21 +21627,21 @@ ab
 ab
 ab
 ab
-ab
-ab
-ap
-gE
-ap
-ap
-ab
-ab
-ab
-ab
-ab
+aa
+hl
+hl
+hx
+hl
+hl
+aa
+aa
 ab
 ab
 ab
-ap
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -21837,19 +21775,19 @@ ah
 gB
 aA
 aF
-aH
-aS
-aS
-aS
+aG
+aG
+aG
+aG
 aW
-aS
+aG
 aW
-aS
-aS
-aS
-aS
-aS
-aS
+aG
+aG
+aG
+aG
+aG
+aG
 cD
 db
 dH
@@ -21865,7 +21803,7 @@ aa
 aa
 ap
 ap
-aq
+ap
 ap
 ap
 aa
@@ -21891,22 +21829,22 @@ ab
 ab
 ab
 ab
-ab
-ab
-ap
-gE
-ap
-ab
-ab
-ab
-ab
-ab
+aa
+hl
+KR
+hL
+hv
+aa
+aa
 ab
 ab
 ab
 ab
-ap
-ap
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -22040,7 +21978,7 @@ aw
 aA
 aF
 aI
-aS
+aG
 aR
 aR
 aR
@@ -22052,7 +21990,7 @@ aR
 aR
 aR
 aR
-aS
+aG
 dc
 dI
 eg
@@ -22095,9 +22033,9 @@ ab
 ab
 ab
 ab
-ap
-gE
-ap
+gH
+gt
+gH
 ab
 ab
 ab
@@ -22108,7 +22046,7 @@ ab
 ab
 ab
 ab
-ap
+ab
 ab
 ab
 ab
@@ -22241,8 +22179,8 @@ ag
 gB
 aA
 aF
-aH
-aS
+aG
+aG
 aR
 aR
 aR
@@ -22254,7 +22192,7 @@ aR
 aR
 aR
 aR
-aS
+aG
 dd
 dG
 eh
@@ -22295,11 +22233,11 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
-gE
-ap
+gH
+gH
+gH
+gt
+hY
 ab
 ab
 ab
@@ -22309,8 +22247,8 @@ ab
 ab
 ab
 ab
-ap
-ap
+ab
+ab
 ab
 ab
 ab
@@ -22418,7 +22356,7 @@ gB
 gB
 gB
 gB
-gB
+gv
 gB
 gB
 gB
@@ -22443,8 +22381,8 @@ av
 ax
 aB
 aF
-aH
-aS
+aG
+aG
 aR
 aR
 aR
@@ -22456,7 +22394,7 @@ aR
 aR
 aR
 aR
-aS
+aG
 de
 dG
 dG
@@ -22497,20 +22435,20 @@ ab
 ab
 ab
 ab
-ap
+gH
 gY
-ap
-gE
-ap
+gH
+gt
+gH
 ab
 ab
 ab
 ab
 ab
-ap
-ap
-ap
-ap
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -22645,8 +22583,8 @@ ah
 gB
 aA
 aF
-aH
-aS
+aG
+aG
 aR
 aR
 aR
@@ -22658,11 +22596,11 @@ aR
 aR
 aR
 aR
-aS
+aG
 df
 dJ
 cA
-eA
+mm
 eQ
 ew
 ew
@@ -22699,17 +22637,17 @@ ab
 ab
 ab
 ab
-ap
-ap
-ap
-gE
-ap
+ii
+gH
+gH
+gt
+gH
 ab
 ab
 ab
 ab
 ab
-ap
+ab
 ab
 ab
 ab
@@ -22848,7 +22786,7 @@ aw
 aA
 aF
 aI
-aS
+aG
 aR
 aR
 aR
@@ -22860,7 +22798,7 @@ aR
 aR
 aR
 aR
-aS
+aG
 dg
 dK
 cA
@@ -22903,15 +22841,15 @@ ab
 ab
 ab
 ab
-ap
-gE
-ap
+gH
+gt
+gH
 ab
 ab
 ab
 ab
-ap
-ap
+ab
+ab
 ab
 ab
 ab
@@ -23049,8 +22987,8 @@ ag
 gB
 aA
 aF
-aH
-aS
+aG
+aG
 aR
 aR
 aR
@@ -23062,13 +23000,13 @@ aR
 aR
 aR
 aR
-aS
+aG
 dh
 dL
 ej
 ew
 eR
-eA
+ia
 cA
 aa
 aa
@@ -23105,66 +23043,66 @@ ab
 ab
 ab
 ab
+gH
+gt
+gH
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+gB
+gB
+gB
+gB
+gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+gB
+gB
+gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 ap
-gE
 ap
-ab
-ab
-ab
-ab
-ap
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-gB
-gB
-gB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ap
-gY
 ap
 ab
 ab
@@ -23251,19 +23189,19 @@ av
 ax
 aC
 aF
-aH
-aS
-aS
-aS
-aS
-aS
-aS
-aS
-aS
-aS
-aS
-aS
-aS
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
 cF
 di
 dM
@@ -23307,14 +23245,14 @@ ab
 ab
 ab
 ab
-ap
-gE
-ap
+gH
+gt
+gH
 ab
 ab
 ab
-ap
-ap
+ab
+ab
 ab
 ab
 ab
@@ -23453,19 +23391,19 @@ ah
 gB
 au
 aF
-aJ
-aO
-aO
+aG
+aG
+aG
 aU
-aO
-aO
-aO
-aO
+aG
+aG
+aG
+aG
 aU
-aO
-aO
-aO
-aO
+aG
+aG
+aG
+aG
 aU
 dj
 dN
@@ -23508,13 +23446,13 @@ ab
 ab
 ab
 ab
-ap
-ap
-gE
-ap
-ap
-ap
-ap
+gH
+gH
+gt
+gH
+id
+ab
+ab
 ab
 ab
 ab
@@ -23709,12 +23647,12 @@ ap
 ap
 ap
 ap
-ap
-ap
-ap
-gE
-ap
-ap
+ih
+gH
+gH
+gt
+gH
+gH
 ab
 ab
 ab
@@ -23910,13 +23848,13 @@ gs
 gs
 gs
 gs
-gs
-gs
-gs
-gs
-gz
-ap
-ap
+gG
+gG
+gG
+gG
+wj
+gH
+gH
 ab
 ab
 ab
@@ -23959,7 +23897,7 @@ gB
 gB
 ab
 ap
-gY
+ap
 ap
 ab
 ab
@@ -24113,13 +24051,13 @@ ap
 ap
 ap
 ap
-ap
-ap
-ap
-ap
-ap
-ap
-ab
+gH
+gH
+gH
+gH
+gH
+ha
+gH
 ab
 ab
 ab
@@ -24320,8 +24258,8 @@ ab
 ab
 ab
 ab
-ap
-ab
+gH
+gH
 ab
 ab
 ab
@@ -24495,7 +24433,7 @@ gi
 gs
 gs
 gs
-gs
+gT
 gz
 ap
 ap
@@ -24506,7 +24444,7 @@ ap
 ap
 ap
 ap
-gJ
+ic
 ap
 ap
 ab
@@ -24522,8 +24460,8 @@ ab
 ab
 ab
 ab
-ap
-ab
+gH
+gH
 ab
 ab
 ab
@@ -24699,7 +24637,7 @@ ap
 ap
 ap
 ap
-ap
+gZ
 aa
 aa
 aa
@@ -24715,6 +24653,7 @@ ab
 ab
 ab
 ap
+gM
 ab
 ab
 ab
@@ -24723,19 +24662,8 @@ ab
 ab
 ab
 ab
-ab
-ap
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+gH
+hY
 ab
 ab
 ab
@@ -24747,8 +24675,18 @@ ab
 ab
 ab
 ab
-gB
-gB
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+gV
+gV
 gB
 gB
 gB
@@ -24926,8 +24864,8 @@ ab
 ab
 ab
 ab
-ap
-ap
+gH
+gH
 ab
 ab
 ab
@@ -24948,9 +24886,9 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
+gV
+gV
+gV
 gB
 gB
 gB
@@ -25082,9 +25020,9 @@ bs
 bs
 bE
 bE
-cN
+bE
 dr
-cN
+bE
 ek
 ek
 ek
@@ -25128,7 +25066,7 @@ ab
 ab
 ab
 ab
-ab
+ap
 ap
 ab
 ab
@@ -25150,10 +25088,10 @@ ab
 ab
 ab
 au
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
 gB
 ab
 ab
@@ -25284,7 +25222,7 @@ bB
 bH
 bE
 ca
-cG
+dU
 ds
 dT
 en
@@ -25330,7 +25268,7 @@ ab
 ab
 ab
 ab
-ab
+ap
 gu
 gu
 gu
@@ -25345,17 +25283,17 @@ gu
 gu
 gu
 gu
-ha
+gu
 gu
 gu
 gu
 gu
 ab
 au
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -25554,8 +25492,8 @@ au
 au
 au
 au
-gB
-gB
+gV
+gV
 ab
 ab
 ab
@@ -25690,9 +25628,9 @@ bE
 cp
 cQ
 ds
-ct
+dU
 dY
-eI
+el
 fd
 fv
 fJ
@@ -25903,18 +25841,18 @@ aa
 ap
 gJ
 gJ
-ap
-ap
-ap
 aa
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
+aa
+aa
+hw
+hr
+hr
+gD
+cN
+gD
+gO
+hr
+gU
 ap
 ap
 ap
@@ -26088,13 +26026,13 @@ gB
 au
 gB
 bs
-bB
+aH
 bQ
 bE
 cr
 cS
 ds
-ct
+dU
 eq
 eG
 eG
@@ -26105,20 +26043,20 @@ aa
 aa
 ap
 ap
-ap
-ap
-aa
-aa
-ap
-ap
-ap
-ap
-ap
-aa
-ap
-ap
-ap
-ap
+hr
+hr
+hr
+hr
+hr
+hD
+gC
+hN
+gC
+hW
+hr
+hr
+hr
+hP
 ap
 ap
 ap
@@ -26296,7 +26234,7 @@ bR
 cs
 cT
 dv
-ct
+dU
 er
 eG
 ff
@@ -26307,20 +26245,20 @@ aa
 aa
 ap
 aa
-ap
-ap
-ap
-aa
-aa
-ap
-ap
-ap
-ap
-aa
-aa
-aa
-ap
-ap
+hE
+ho
+hs
+gI
+hr
+gL
+Ax
+hO
+hS
+hX
+gP
+ie
+aK
+ik
 ap
 ap
 ap
@@ -26496,7 +26434,7 @@ bG
 bO
 bE
 ct
-ct
+dU
 dw
 dV
 et
@@ -26509,20 +26447,20 @@ aa
 aa
 ap
 aa
-aa
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-aa
-aa
-aa
-ap
+hE
+hp
+hu
+hy
+hC
+hF
+hJ
+aS
+hT
+hV
+ib
+if
+hk
+ik
 ap
 ap
 ap
@@ -26711,20 +26649,20 @@ aa
 aa
 ap
 aa
-aa
-aa
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-ap
-aa
-aa
-aa
-ap
+hE
+hq
+go
+hz
+hr
+hg
+hK
+hQ
+hU
+hX
+hr
+ig
+cG
+ik
 ap
 ap
 ap
@@ -26796,7 +26734,7 @@ ab
 ab
 ab
 ap
-gY
+ap
 ap
 ab
 ab
@@ -26900,9 +26838,9 @@ au
 au
 cc
 cv
-cV
+cv
 dy
-cV
+cv
 cv
 eG
 eG
@@ -26913,20 +26851,20 @@ aa
 ap
 ap
 ap
-aa
-ap
-ap
-ap
-ap
-ap
-ap
-ab
-ap
-ap
-aa
-aa
-aa
-ap
+hr
+hr
+hr
+hr
+hr
+hG
+cV
+hR
+hc
+hZ
+hr
+hr
+hP
+hr
 ap
 ap
 ap
@@ -26952,7 +26890,7 @@ gu
 gu
 gu
 gu
-ha
+gu
 gu
 gu
 gu
@@ -27116,17 +27054,17 @@ ap
 ap
 aa
 aa
-ap
-ap
-ap
-ap
-ap
-ap
-ab
-ap
-ap
-ap
-ap
+aa
+aa
+hB
+eJ
+hr
+gD
+cN
+gD
+hr
+hr
+gU
 ap
 ap
 ap
@@ -28528,7 +28466,7 @@ ab
 ab
 ab
 ap
-aq
+ap
 ap
 ap
 ab
@@ -28742,7 +28680,7 @@ ab
 ab
 ab
 ap
-aq
+ap
 ab
 ab
 ab
@@ -29367,9 +29305,9 @@ ab
 ab
 ab
 ap
-ab
-ab
-ab
+ap
+ap
+ap
 gu
 gB
 gB
@@ -29569,9 +29507,9 @@ gB
 gB
 gB
 ap
-ab
-ab
-ab
+ap
+ap
+ap
 gu
 gB
 gB
@@ -29773,7 +29711,7 @@ gB
 gB
 gB
 gB
-ab
+ap
 gB
 gB
 gB
@@ -29785,7 +29723,7 @@ ht
 ht
 ht
 ht
-ht
+gu
 gu
 gB
 gB
@@ -30217,7 +30155,7 @@ ab
 ab
 ab
 ab
-gB
+gV
 gB
 gB
 gB
@@ -30418,9 +30356,9 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
+gV
+gV
+gV
 gB
 gB
 gB
@@ -30618,11 +30556,11 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -30809,7 +30747,7 @@ ab
 ab
 ab
 ab
-aq
+ap
 ab
 ab
 ab
@@ -30819,12 +30757,12 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -31019,15 +30957,15 @@ ab
 ap
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -31222,14 +31160,14 @@ ab
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -31425,14 +31363,14 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -31627,15 +31565,15 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -31831,14 +31769,14 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -31898,7 +31836,7 @@ gB
 gB
 gB
 gB
-gB
+gx
 gB
 gB
 gB
@@ -32034,13 +31972,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -32237,13 +32175,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 ab
@@ -32440,13 +32378,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -32562,7 +32500,7 @@ ab
 ab
 ab
 ap
-aq
+ap
 ap
 ab
 ab
@@ -32642,10 +32580,10 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -32845,8 +32783,8 @@ gB
 gB
 gB
 gB
-gB
-gB
+gV
+gV
 ab
 ab
 ab
@@ -34473,7 +34411,7 @@ gu
 gu
 gu
 gu
-ha
+gu
 gu
 gu
 ab
@@ -34832,7 +34770,7 @@ gB
 gB
 gB
 gB
-gx
+gB
 gB
 gB
 gB
@@ -36282,7 +36220,7 @@ gu
 gu
 gu
 gu
-gA
+gu
 gu
 gu
 gu
@@ -37375,7 +37313,7 @@ gB
 gB
 gB
 gB
-gB
+LB
 gB
 gB
 gB
@@ -39700,9 +39638,9 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
+gV
+gV
+gV
 ab
 ab
 ab
@@ -39901,11 +39839,11 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
 ab
 ab
 ab
@@ -40101,12 +40039,12 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 ab
 ab
@@ -40302,11 +40240,11 @@ ab
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -40503,11 +40441,11 @@ ab
 ab
 ab
 gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -40704,10 +40642,10 @@ ab
 ab
 ab
 ab
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -40745,7 +40683,7 @@ ab
 ab
 ab
 gu
-ha
+gu
 gu
 ab
 ab
@@ -40907,8 +40845,8 @@ ab
 ab
 ab
 ab
-gB
-gB
+gV
+gV
 gB
 gB
 gB
@@ -41109,7 +41047,7 @@ ab
 ab
 ab
 ab
-gB
+gV
 gB
 gB
 gB
@@ -41686,13 +41624,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -41888,13 +41826,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -42089,13 +42027,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -42291,13 +42229,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -42492,14 +42430,14 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -42694,13 +42632,13 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -42895,14 +42833,14 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -43096,15 +43034,15 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -43298,14 +43236,14 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -43499,15 +43437,15 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -43700,15 +43638,15 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -43901,16 +43839,16 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -44102,16 +44040,16 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB
@@ -44303,17 +44241,17 @@ gB
 gB
 gB
 gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
-gB
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
+gV
 gB
 gB
 gB

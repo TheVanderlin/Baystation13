@@ -20,7 +20,7 @@
 	var/minimum_character_age			  // List of species = age, if species is not here, it's auto-pass
 	var/ideal_character_age = 30
 	var/create_record = 1                 // Do we announce/make records for people who spawn on this job?
-	var/is_semi_antagonist = FALSE        // Whether or not this job is given semi-antagonist status.
+	var/is_semi_antagonist = TRUE        // Whether or not this job is given semi-antagonist status.
 	var/account_allowed = 1               // Does this job type come with a station account?
 	var/economic_power = 2             // With how much does this job modify the initial account amount?
 
@@ -71,7 +71,6 @@
 	return title
 
 /datum/job/proc/equip(mob/living/carbon/human/H, alt_title, datum/mil_branch/branch, datum/mil_rank/grade)
-
 	if (required_language)
 		H.add_language(required_language)
 		H.set_default_language(all_languages[required_language])
@@ -104,8 +103,6 @@
 	if(faction)
 		H.faction = faction
 		H.last_faction = faction
-	if(ispath(skill_setter))
-		skill_setter = new skill_setter
 
 /datum/job/proc/get_outfit(mob/living/carbon/human/H, alt_title, datum/mil_branch/branch, datum/mil_rank/grade)
 	if(alt_title && alt_titles)

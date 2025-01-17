@@ -118,7 +118,7 @@
 		access_dauntless, access_tavern, access_tavernback, access_tavern2, access_tavern3, access_tavern4, access_mechanicus, access_medical)
 
 /datum/job/chamber_magister/get_description_blurb()
-	return "The Tavern Keeper, master of the ship’s notorious two-level hab bar and motel, ensures the establishment thrives as a haven for revelry, intrigue, and shady dealings. Responsible for managing the flow of drinks, maintaining order among the unruly patrons, and overseeing the hab quarters, they balance the demands of the crew’s indulgences with a firm grip on the chaos."
+	return "The Tavern Keeper, master of the ship’s notorious two-level hab bar and motel, ensures the establishment thrives as a haven for revelry, intrigue, and shady dealings."
 
 /datum/job/chamber_magister/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name

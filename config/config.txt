@@ -208,7 +208,7 @@ GUEST_BAN
 
 ## Rules address
 ## Where your server's rules can be found
-RULES_URL https://discord.gg/Kd8FVrcC
+RULES_URL https://discord.gg/dfJ4pXNy
 
 ## Lore address
 ## Where your server's scintillating background material can be read
@@ -228,11 +228,11 @@ RULES_URL https://discord.gg/Kd8FVrcC
 
 ## Discord address
 ## Where your users can go to complain at each other in real time
-DISCORD_URL https://discord.gg/Kd8FVrcC
+DISCORD_URL https://discord.gg/dfJ4pXNy
 
 ## Ban appeals URL
 ## Where your users can go to tell you they've changed
-BANAPPEALS https://discord.gg/Kd8FVrcC
+BANAPPEALS https://discord.gg/dfJ4pXNy
 
 ## Comment this out to disable automuting
 #AUTOMUTE_ON

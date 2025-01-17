@@ -74,7 +74,7 @@
 /area/abandoned_hotel/pool)
 "aO" = (
 /obj/structure/bedsheetbin,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/freezer,
 /area/abandoned_hotel/lobby)
 "aQ" = (
@@ -850,7 +850,7 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/abandoned_hotel/lobby)
 "iR" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/freezer,
 /area/abandoned_hotel/lobby)
 "iS" = (
@@ -1898,7 +1898,7 @@
 /area/abandoned_hotel/lobby)
 "Cb" = (
 /obj/structure/bedsheetbin,
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -2465,7 +2465,7 @@
 /turf/simulated/floor/grass/cut,
 /area/abandoned_hotel/pool)
 "Lv" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/ironing_board/fancy,
 /turf/simulated/floor/tiled/freezer,
 /area/abandoned_hotel/lobby)
@@ -2675,7 +2675,7 @@
 /obj/structure/window/basic{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/freezer,
 /area/abandoned_hotel/lobby)
 "Pv" = (

@@ -837,8 +837,7 @@
 /turf/simulated/floor/warhammer/necro1,
 /area/voxship/thrusters)
 "cs" = (
-/obj/machinery/computer/ship/engines{
-	},
+/obj/machinery/computer/ship/engines,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/engineering)
 "ct" = (
@@ -1173,8 +1172,7 @@
 	pixel_x = -26;
 	pixel_y = -8
 	},
-/obj/machinery/computer/ship/engines{
-	},
+/obj/machinery/computer/ship/engines,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/fore)
 "cV" = (
@@ -1327,6 +1325,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/item/pyre/self_lit/church,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/scavship)
 "dh" = (
@@ -2433,7 +2432,7 @@
 	dir = 4
 	},
 /obj/machinery/computer/ship/helm{
-	dir = 4;
+	dir = 4
 	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/fore)
@@ -2566,9 +2565,6 @@
 /obj/floor_decal/industrial/warning/corner{
 	dir = 4
 	},
-/obj/machinery/alarm{
-	pixel_y = 24;
-	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -2625,7 +2621,7 @@
 	},
 /obj/machinery/alarm{
 	dir = 4;
-	pixel_x = -21;
+	pixel_x = -21
 	},
 /obj/item/clothing/suit/space/syndicate/black,
 /obj/item/clothing/head/helmet/space/void,
@@ -2716,9 +2712,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/alarm{
-	pixel_y = 24;
-	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -2750,10 +2743,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4;
 	level = 2
-	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
 	},
 /obj/overmap/visitable/ship/landable/vox_scavshuttle,
 /turf/simulated/floor/seolite,
@@ -2866,6 +2855,7 @@
 	dir = 6
 	},
 /obj/decal/cleanable/blood,
+/obj/decal/cleanable/remains,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -2873,10 +2863,6 @@
 "gY" = (
 /obj/machinery/computer/ship/sensors{
 	dir = 4
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22;
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -2958,10 +2944,6 @@
 	},
 /obj/structure/bed/chair/shuttle/blue{
 	dir = 1
-	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -3049,17 +3031,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/seolite,
 /area/voxship/shuttle)
-"hN" = (
-/obj/structure/cable/cyan{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/mob/living/simple_animal/passive/mouse/brown/Tom,
-/turf/simulated/floor/selfestructgrid{
-	name = "xenos plating"
-	},
-/area/voxship/shuttle)
 "hS" = (
 /obj/decal/cleanable/dirt,
 /obj/item/toy/figure/engineer,
@@ -3118,16 +3089,14 @@
 	},
 /area/voxship/shuttle)
 "iK" = (
-/obj/structure/table/steel_reinforced,
 /obj/item/device/radio/hailing,
 /obj/item/device/radio/hailing,
 /obj/item/device/radio/hailing,
 /obj/item/device/radio/hailing,
 /obj/item/device/radio/hailing,
 /obj/item/paper_bin,
-/obj/machinery/alarm{
-	pixel_y = 24;
-	},
+/obj/item/welder_tank/huge,
+/obj/structure/table/warhammer/shrine,
 /turf/simulated/floor/seolite,
 /area/voxship/shuttle)
 "iM" = (
@@ -3290,12 +3259,13 @@
 /area/voxship/shuttle)
 "mF" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/table/steel_reinforced,
 /obj/structure/cable/cyan{
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/cell_charger,
+/obj/machinery/cell_charger{
+	pixel_y = 8
+	},
 /obj/machinery/light_switch{
 	dir = 4;
 	pixel_x = -22;
@@ -3305,6 +3275,7 @@
 	dir = 1;
 	pixel_y = 24
 	},
+/obj/structure/table/warhammer/shrine,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3503,7 +3474,7 @@
 /obj/machinery/light,
 /obj/machinery/alarm{
 	dir = 4;
-	pixel_x = -21;
+	pixel_x = -21
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -3575,12 +3546,6 @@
 	id_tag = "charon_cargo_exterior";
 	pixel_x = 24;
 	pixel_y = 8
-	},
-/obj/machinery/access_button/airlock_interior{
-	frequency = 1380;
-	master_tag = "crashedpodEast";
-	pixel_x = 22;
-	pixel_y = -10
 	},
 /turf/simulated/floor/plating,
 /area/voxship/shuttle)
@@ -3655,7 +3620,6 @@
 "xu" = (
 /obj/item/storage/pill_bottle/antidexafen,
 /obj/item/storage/med_pouch/radiation,
-/obj/item/storage/med_pouch/radiation,
 /obj/item/storage/pill_bottle/assorted,
 /obj/structure/closet/crate/warhammer/xenos,
 /turf/simulated/floor/selfestructgrid{
@@ -3663,14 +3627,14 @@
 	},
 /area/voxship/shuttle)
 "xC" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22;
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "crashedpodEast";
+	pixel_x = -5;
+	pixel_y = 21
 	},
-/turf/simulated/floor/selfestructgrid{
-	name = "xenos plating"
-	},
-/area/voxship/shuttle)
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/voxship/engineering)
 "yA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
@@ -3703,8 +3667,8 @@
 /area/voxship/shuttle)
 "yR" = (
 /obj/machinery/light,
-/obj/structure/table/steel_reinforced,
 /obj/machinery/recharger,
+/obj/structure/table/warhammer/reinf_table,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3717,7 +3681,7 @@
 	dir = 1
 	},
 /obj/machinery/alarm{
-	pixel_y = 24;
+	pixel_y = 24
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -3765,8 +3729,10 @@
 /turf/simulated/floor/seolite,
 /area/voxship/shuttle)
 "zP" = (
-/obj/structure/table/steel_reinforced,
-/obj/machinery/cell_charger,
+/obj/machinery/cell_charger{
+	pixel_y = 8
+	},
+/obj/structure/table/warhammer/shrine,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3973,9 +3939,6 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
 /obj/machinery/radio_beacon,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -3988,10 +3951,6 @@
 "Hh" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 4
-	},
-/obj/item/device/radio/intercom/hailing{
-	dir = 4;
-	pixel_x = -24
 	},
 /obj/machinery/pointdefense_control{
 	initial_id_tag = "Xenos"
@@ -4053,7 +4012,8 @@
 /obj/machinery/button/blast_door{
 	id_tag = "col_shutters";
 	name = "Protective Shutters Control";
-	pixel_y = -25
+	pixel_y = -23;
+	pixel_x = 5
 	},
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -4167,6 +4127,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/mob/living/simple_animal/passive/mouse/brown/Tom,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -4329,10 +4290,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
 /turf/simulated/floor/seolite,
 /area/voxship/shuttle)
 "PH" = (
@@ -4443,10 +4400,10 @@
 /obj/machinery/light/spot{
 	dir = 1
 	},
-/obj/structure/table/steel,
 /obj/item/device/drone_designator{
 	network = "torch_transport"
 	},
+/obj/structure/table/warhammer/shrine,
 /turf/simulated/floor/seolite,
 /area/voxship/shuttle)
 "Rh" = (
@@ -4571,11 +4528,11 @@
 	},
 /area/voxship/shuttle)
 "Uz" = (
-/obj/structure/table/steel_reinforced,
 /obj/structure/closet/secure_closet/explo_gun{
 	pixel_x = -32
 	},
 /obj/machinery/recharger,
+/obj/structure/table/warhammer/reinf_table,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -4609,7 +4566,6 @@
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
-/obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/seolite,
 /area/voxship/shuttle)
 "Wc" = (
@@ -9922,7 +9878,7 @@ gL
 gL
 gL
 iM
-aA
+xC
 Ps
 ac
 ac
@@ -10209,7 +10165,7 @@ fX
 fX
 Qt
 sp
-hN
+wH
 he
 gL
 hk
@@ -10414,7 +10370,7 @@ fX
 Qt
 KM
 Bf
-xC
+gW
 gL
 VL
 pD

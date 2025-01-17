@@ -68,7 +68,7 @@
 
 	use_power = POWER_USE_OFF
 	power_channel = EQUIP
-	idle_power_usage = 21600 //6 Wh per tick for default 2 capacitor. Gives them a reason to turn it off, really to nerf backup battery
+	idle_power_usage = 11600 //6 Wh per tick for default 2 capacitor. Gives them a reason to turn it off, really to nerf backup battery
 
 	machine_name = "gas thruster"
 	machine_desc = "A heavy-duty spaceship thruster that throws gas out of its nozzle to allow propulsion."
@@ -76,7 +76,7 @@
 	var/datum/ship_engine/gas_thruster/controller
 	var/thrust_limit = 1	//Value between 1 and 0 to limit the resulting thrust
 	var/moles_per_burn = 5.0
-	var/charge_per_burn = 12000 //10Wh/2 for default 2 capacitor, chews through that battery power! Makes a trade off of fuel efficient vs energy efficient
+	var/charge_per_burn = 10000 //10Wh/2 for default 2 capacitor, chews through that battery power! Makes a trade off of fuel efficient vs energy efficient
 	var/boot_time = 35
 	var/next_on
 	var/blockage
@@ -172,6 +172,7 @@
 	if(!removed)
 		return 0
 	. = calculate_thrust(removed)
+	. *= 2 // artifically doubles burn after calcs.
 	playsound(loc, 'sound/machines/thruster.ogg', 100 * thrust_limit, 0, world.view * 4, 0.1)
 	if(network)
 		network.update = 1

@@ -30,7 +30,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/deepmaint)
 "ah" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/microwave{
 	pixel_x = -3;
 	pixel_y = 6
@@ -43,7 +43,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/map_template/deepmaint)
 "aj" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/reagent_containers/glass/beaker{
 	pixel_x = 5
 	},
@@ -138,7 +138,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/map_template/deepmaint)
 "aC" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/junkfood,
 /obj/random/junkfood,
 /turf/simulated/floor/tiled/white,

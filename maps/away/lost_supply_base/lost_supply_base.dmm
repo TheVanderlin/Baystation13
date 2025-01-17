@@ -948,7 +948,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/lost_supply_base/common)
 "cx" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
@@ -1114,7 +1114,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/lost_supply_base/common)
 "dc" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/trash/tray{
 	pixel_x = 10
 	},
@@ -1122,16 +1122,16 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/lost_supply_base/common)
 "dd" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/lost_supply_base/common)
 "de" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/material/kitchen/utensil/fork,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/lost_supply_base/common)
 "df" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/machinery/microwave,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/lost_supply_base/common)
@@ -1621,7 +1621,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/lost_supply_base/supply)
 "ft" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/random/smokes,
 /obj/item/device/radio,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -1651,7 +1651,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/lost_supply_base/supply)
 "fA" = (
-/obj/structure/table/standard,
+/obj/structure/table/steel,
 /obj/item/storage/briefcase,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/lost_supply_base/supply)

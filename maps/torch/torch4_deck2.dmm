@@ -1988,6 +1988,11 @@
 /obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/engineering_senior,
 /obj/random/loot/lasbundle,
+/obj/item/book/manual/engineering_particle_accelerator,
+/obj/item/book/manual/engineering_guide,
+/obj/item/book/manual/medical_diagnostics_manual,
+/obj/item/book/manual/supermatter_engine,
+/obj/item/book/manual/materials_chemistry_analysis,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "ea" = (
@@ -4714,6 +4719,7 @@
 /obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/engineering_torch,
 /obj/random/loot/sidearmbundle,
+/obj/item/book/manual/engineering_guide,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "kJ" = (
@@ -6881,6 +6887,10 @@
 /obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/engineering_senior,
 /obj/random/loot/randomsupply/engineering,
+/obj/item/book/manual/engineering_particle_accelerator,
+/obj/item/book/manual/engineering_guide,
+/obj/item/book/manual/medical_cloning,
+/obj/item/book/manual/supermatter_engine,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "qK" = (
@@ -9279,6 +9289,8 @@
 /obj/structure/closet/secure_closet/engineering_senior,
 /obj/item/gun/energy/lasgun/laspistol/lucius,
 /obj/random/loot/randomsupply/engineering,
+/obj/item/book/manual/engineering_singularity_safety,
+/obj/item/book/manual/anomaly_testing,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "xy" = (
@@ -13023,6 +13035,8 @@
 /obj/machinery/light,
 /obj/structure/closet/secure_closet/engineering_torch,
 /obj/random/loot/gunbundle,
+/obj/item/book/manual/engineering_guide,
+/obj/item/book/manual/atmospipes,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "Il" = (
@@ -13463,6 +13477,8 @@
 "Jv" = (
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/closet/secure_closet/engineering_torch,
+/obj/item/book/manual/engineering_construction,
+/obj/item/book/manual/engineering_construction,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "Jx" = (
@@ -14810,6 +14826,11 @@
 	},
 /obj/structure/closet/secure_closet/engineering_senior,
 /obj/random/loot/randomsupply/engineering,
+/obj/item/book/manual/engineering_hacking,
+/obj/item/book/manual/engineering_construction,
+/obj/item/book/manual/research_and_development,
+/obj/item/book/manual/supermatter_engine,
+/obj/item/book/manual/mass_spectrometry,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "Ou" = (
@@ -15871,6 +15892,12 @@
 	},
 /obj/structure/closet/secure_closet/engineering_senior,
 /obj/item/gun/energy/lasgun/laspistol/militarum,
+/obj/item/book/manual/engineering_hacking,
+/obj/item/book/manual/engineering_singularity_safety,
+/obj/item/book/manual/engineering_construction,
+/obj/item/book/manual/anomaly_testing,
+/obj/item/book/manual/ripley_build_and_repair,
+/obj/item/book/manual/atmospipes,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "RX" = (

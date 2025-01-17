@@ -200,12 +200,13 @@
 		if (!IsFlameSource(weapon))
 			USE_FEEDBACK_FAILURE("\The [weapon] isn't hot enough anymore.")
 			return TRUE
-		log_and_message_admins("triggered a fuel tank explosion with \the [weapon] in [get_area(src)]", user, get_turf(src))
 		user.visible_message(
-			SPAN_DANGER("\The [user] holds \a [weapon] against \the [src], causing it to explode!"),
-			SPAN_DANGER("You hold \the [weapon] against \the [src], causing it to explode!")
+			SPAN_DANGER("\The [user] holds \a [weapon] against \the [src], they're heating it up!"),
+			SPAN_DANGER("You hold \the [weapon] against \the [src], they're heating it up!")
 		)
-		explode()
+		if(prob(70))
+			explode()
+			log_and_message_admins("triggered a fuel tank explosion with \the [weapon] in [get_area(src)]", user, get_turf(src))
 		return TRUE
 
 	return ..()
@@ -241,9 +242,7 @@
 		return TRUE
 
 	// Flame Source - Warn against kaboom
-	if (IsFlameSource(tool))
-		USE_FEEDBACK_FAILURE("You refrain from heating up \the [src] with \the [tool].")
-		return TRUE
+
 
 	// Wrench - Toggle valve
 	if (isWrench(tool))
@@ -280,7 +279,8 @@
 				log_and_message_admins("shot a fuel tank outside the world.", Proj.firer, loc)
 
 		if(!istype(Proj ,/obj/item/projectile/beam/lastertag) && !istype(Proj ,/obj/item/projectile/beam/practice) )
-			explode()
+			if(prob(37))
+				explode()
 
 /obj/structure/reagent_dispensers/fueltank/proc/explode()
 	for(var/datum/reagent/R in reagents.reagent_list)
@@ -289,9 +289,11 @@
 
 /obj/structure/reagent_dispensers/fueltank/fire_act(datum/gas_mixture/air, exposed_temperature, exposed_volume)
 	if (modded)
-		explode()
+		if(prob(25))
+			explode()
 	else if (exposed_temperature > T0C+500)
-		explode()
+		if(prob(25))
+			explode()
 	return ..()
 
 /obj/structure/reagent_dispensers/fueltank/Move()
