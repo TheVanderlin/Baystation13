@@ -2314,7 +2314,6 @@
 	},
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
-/obj/random/loot/gunbundle,
 /turf/simulated/floor,
 /area/constructionsite/atmospherics)
 "ie" = (
@@ -3519,6 +3518,11 @@
 /obj/structure/wall_frame,
 /turf/simulated/floor,
 /area/constructionsite/hallway/fore)
+"RZ" = (
+/obj/machinery/porta_turret_construct,
+/obj/random/loot/randomsupply/tech,
+/turf/simulated/floor/warhammer/plating,
+/area/constructionsite/ai)
 "SC" = (
 /obj/structure/table/rack,
 /obj/random/maintenance,
@@ -23800,7 +23804,7 @@ aR
 aR
 gg
 gg
-gp
+RZ
 gi
 gh
 gi

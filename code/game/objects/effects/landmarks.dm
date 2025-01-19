@@ -657,6 +657,40 @@
 	var/list/picked_choice = pickweight(choices)
 	return picked_choice
 
+/obj/random/loot/superrarearmor
+	name = "Super Rare Armor Bundle"
+	desc = "This is a SUPER rare armor bundle spawner which spawns an incredibly rare armor."
+	icon_state = "randomarmor"
+
+/obj/random/loot/superrarearmor/spawn_choices()
+	var/list/choices = list(
+	/obj/landmark/rav/superrare1 = 4,
+	/obj/landmark/rav/superrare2 = 1,
+	/obj/landmark/rav/superrare3 = 1,
+	/obj/landmark/rav/superrare4 = 1,
+	/obj/landmark/rav/superrare5 = 4,
+	/obj/landmark/rav/superrare5a = 1,
+	/obj/landmark/rav/superrare6 = 4,
+	/obj/landmark/rav/superrare7 = 4,
+	/obj/landmark/rav/superrare8 = 3,
+	/obj/landmark/rav/superrare9 = 3,
+	/obj/landmark/rav/superrare10 = 1,
+	/obj/landmark/rav/superrare11 = 3,
+	/obj/landmark/rav/superrare12 = 1,
+	/obj/landmark/rav/superrare13 = 1,
+	/obj/landmark/rav/superrare14 = 1,
+	/obj/landmark/rav/superrare15 = 4,
+	/obj/landmark/rav/superrare16 = 1,
+	/obj/landmark/rav/superrare17 = 1,
+	/obj/landmark/rav/superrare18 = 1,
+	/obj/landmark/rav/superrare19 = 1,
+	/obj/landmark/rav/superrare20 = 3,
+	/obj/landmark/rav/superrare21 = 3,
+	/obj/landmark/rav/superrare22 = 3,
+	)
+	var/list/picked_choice = pickweight(choices)
+	return picked_choice
+
 /obj/random/loot/armorinserts
 	name = "Basic Armor accessories"
 	desc = "This is a loot spawner that chest inserts and bodygloves."

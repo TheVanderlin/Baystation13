@@ -947,7 +947,7 @@
 "cB" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/device/radio,
-/obj/random/loot/gunbundle,
+/obj/random/loot/superrarearmor,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "cC" = (
@@ -1240,7 +1240,6 @@
 "dC" = (
 /obj/structure/table/rack,
 /obj/random/loot/lootcontraband,
-/obj/random/loot/lootartifacts,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/casino/casino_security)
 "dD" = (

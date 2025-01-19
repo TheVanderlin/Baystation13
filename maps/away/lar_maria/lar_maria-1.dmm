@@ -1885,7 +1885,7 @@
 /area/lar_maria/sec_wing)
 "fh" = (
 /obj/structure/table/rack/dark,
-/obj/random/loot/rarearmorbundle,
+/obj/random/loot/superrarearmor,
 /turf/simulated/floor/warhammer/brick,
 /area/lar_maria/sec_wing)
 "fi" = (

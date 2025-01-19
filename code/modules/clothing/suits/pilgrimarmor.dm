@@ -461,6 +461,39 @@
 		bomb = ARMOR_BOMB_TEN-7
 	)
 
+/obj/item/clothing/suit/armor/feudal/cuirass/shadowcurse
+	name = "Cursed Robes."
+	desc = "DO YOU SEE ME."
+	icon_state = "shadow"
+	item_state = "shadow"
+	body_parts_covered = LEGS|ARMS|FULL_TORSO|HEAD
+	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
+	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+1000
+	armor = list(
+		melee = ARMOR_MELEE_POWER_ARM,
+		bullet = ARMOR_BALLISTIC_POWER_ARMOUR,
+		laser = ARMOR_LASER_POWER_ARMOUR,
+		energy = ARMOR_ENERGY_SHIELDED,
+		bio = ARMOR_BIO_SHIELDED,
+		rad = ARMOR_RAD_SHIELDED,
+		bomb = ARMOR_BOMB_SHIELDED
+	)
+
+/obj/item/clothing/suit/armor/feudal/cuirass/shadowcurse/mob_can_equip(mob/living/carbon/human/user, slot)
+	if(user.get_equipped_item(slot_head))
+		to_chat(user, "You are already wearing headgear, you cannot wear the tech priest robes over it.")
+		return FALSE
+	if(slot == slot_head)
+		to_chat(user, "Your mechanicus robes already cover your head, you cannot wear a helmet.")
+		return FALSE
+	return ..()
+
+/obj/item/clothing/suit/armor/feudal/cuirass/shadowcurse/equipped(mob/living/M)
+	M.adjustBruteLoss(100)
+	if(needs_vision_update())
+		update_vision()
+	return ..()
+
 /obj/item/clothing/suit/armor/feudal/breastplate
 	name = "breastplate"
 	desc = "A rough-hewn plasteel-alloy breastplate, its craftsmanship dubious, yet the exotic xenos alloy grants it unexpected resilience."

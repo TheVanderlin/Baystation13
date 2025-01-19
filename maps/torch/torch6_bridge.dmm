@@ -70,6 +70,8 @@
 	},
 /obj/structure/table/rack/dark,
 /obj/random/loot/rarearmorbundle,
+/obj/item/clothing/suit/armor/grim/noble/rtcloak,
+/obj/item/clothing/suit/armor/grim/noble/rtarmor,
 /turf/simulated/floor/warhammer/coralg,
 /area/bridge/storage)
 "ak" = (
@@ -3822,6 +3824,9 @@
 "mI" = (
 /obj/structure/table/rack/dark,
 /obj/random/loot/basicarmorbundle,
+/obj/item/clothing/suit/armor/grim/noble/ladycoat,
+/obj/item/clothing/suit/armor/grim/noble/ladycoat/grey,
+/obj/item/clothing/suit/armor/grim/noble/ladycoat/red,
 /turf/simulated/floor/warhammer/coralg,
 /area/bridge/storage)
 "mJ" = (
@@ -4628,6 +4633,7 @@
 "pJ" = (
 /obj/structure/table/rack/dark,
 /obj/random/loot/rarearmorbundle,
+/obj/item/clothing/suit/armor/grim/noble/rtmantle,
 /turf/simulated/floor/warhammer/coralg,
 /area/bridge/storage)
 "pL" = (
@@ -5610,7 +5616,6 @@
 /area/crew_quarters/heads/office/sgr)
 "tC" = (
 /obj/machinery/hologram/holopad,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;

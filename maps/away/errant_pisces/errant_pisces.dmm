@@ -6546,7 +6546,7 @@
 /area/errant_pisces/fishing_wing)
 "qm" = (
 /obj/structure/closet/l3closet/janitor,
-/obj/random/loot/rarearmorbundle,
+/obj/random/loot/superrarearmor,
 /turf/simulated/floor/plating,
 /area/errant_pisces/fishing_wing)
 "qn" = (
