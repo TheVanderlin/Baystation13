@@ -326,6 +326,7 @@
 	name = "emitter beam"
 	icon_state = "emitter"
 	fire_sound = 'sound/weapons/emitter.ogg'
+	pass_flags = PASS_FLAG_TABLE | PASS_FLAG_GLASS | PASS_FLAG_GRILLE
 	damage = 0 // The actual damage is computed in `/obj/machinery/power/emitter/proc/get_emitter_damage()`
 
 	muzzle_type = /obj/projectile/laser/emitter/muzzle
