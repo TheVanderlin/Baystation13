@@ -181,6 +181,12 @@
 /turf/simulated/floor/asteroid,
 /turf/simulated/floor/warhammer/basalt,
 /area/bluespaceriver/underground)
+"N" = (
+/obj/random/loot/superrarearmor,
+/obj/decal/cleanable/remains,
+/turf/simulated/floor/asteroid,
+/turf/simulated/floor/warhammer/basalt,
+/area/bluespaceriver/underground)
 "S" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -4561,7 +4567,7 @@ f
 f
 l
 M
-M
+N
 M
 M
 n

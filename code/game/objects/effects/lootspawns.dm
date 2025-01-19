@@ -384,6 +384,7 @@
 
 /obj/landmark/rav/hiver/New()
 	new /obj/item/clothing/suit/armor/grim/hiver(src.loc)
+	new /obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman(src.loc)
 	qdel(src)
 
 /obj/landmark/rav/hiverleather/New()
@@ -505,3 +506,94 @@
 	new /obj/item/clothing/suit/armor/grim/ghillieflak(src.loc)
 	new /obj/item/clothing/head/helmet/pilgrimhelm/flak/foxhelm(src.loc)
 	qdel(src)
+
+/obj/landmark/rav/superrare1/New()
+	new /obj/item/clothing/suit/armor/grim/agent(src.loc)
+	new /obj/item/clothing/head/helmet/inquisition/acolyte(src.loc)
+
+/obj/landmark/rav/superrare2/New()
+	new /obj/item/clothing/suit/armor/greypa(src.loc)
+	new /obj/item/clothing/head/helmet/pilgrimhelm/poweredhelm(src.loc)
+
+/obj/landmark/rav/superrare3/New()
+	new /obj/item/clothing/suit/armor/ancientpowerarmor(src.loc)
+	new /obj/item/clothing/head/helmet/pilgrimhelm/poweredhelm(src.loc)
+
+/obj/landmark/rav/superrare4/New()
+	new /obj/item/clothing/suit/armor/renegadepowerarmour(src.loc)
+	new /obj/item/clothing/head/helmet/pilgrimhelm/flak/ranger/alt(src.loc)
+
+/obj/landmark/rav/superrare5/New()
+	new /obj/item/clothing/suit/armor/seolarmor(src.loc)
+	new /obj/item/clothing/head/helmet/pilgrimhelm/xenos(src.loc)
+
+/obj/landmark/rav/superrare5a/New()
+	new /obj/item/clothing/suit/armor/seolsuit(src.loc)
+
+/obj/landmark/rav/superrare6/New()
+	new /obj/item/clothing/suit/armor/grim/cadian/conscript/pdf(src.loc)
+	new /obj/item/clothing/head/helmet/flak/conscript/pdf(src.loc)
+
+/obj/landmark/rav/superrare7/New()
+	new /obj/item/clothing/suit/armor/grim/cadian/conscript/heavy(src.loc)
+	new /obj/item/clothing/head/helmet/flak/conscript/pdf/heavy(src.loc)
+
+/obj/landmark/rav/superrare8/New()
+	new /obj/item/clothing/suit/armor/grim/cadian/heavy(src.loc)
+	new /obj/item/clothing/head/helmet/flak(src.loc)
+
+/obj/landmark/rav/superrare9/New()
+	new /obj/item/clothing/suit/armor/grim/krieger(src.loc)
+	new /obj/item/clothing/head/helmet/flak/krieg(src.loc)
+
+/obj/landmark/rav/superrare10/New()
+	new /obj/item/clothing/suit/armor/grim/krieger/grenadier(src.loc)
+	new /obj/item/clothing/head/helmet/flak/krieg/grenadier(src.loc)
+
+/obj/landmark/rav/superrare11/New()
+	new /obj/item/clothing/suit/armor/grim/mordian(src.loc)
+	new /obj/item/clothing/head/helmet/guardcap/mordian(src.loc)
+
+/obj/landmark/rav/superrare12/New()
+	new /obj/item/clothing/suit/armor/grim/maccabian(src.loc)
+	new /obj/item/clothing/head/helmet/flak/maccabian(src.loc)
+
+/obj/landmark/rav/superrare13/New()
+	new /obj/item/clothing/suit/armor/stormtrooper(src.loc)
+	new /obj/item/clothing/head/helmet/flak/tempestus(src.loc)
+
+/obj/landmark/rav/superrare14/New()
+	new /obj/item/clothing/suit/armor/kasrkin(src.loc)
+	new /obj/item/clothing/head/helmet/flak/kasrkin(src.loc)
+
+/obj/landmark/rav/superrare15/New()
+	new /obj/item/clothing/suit/armor/grim/cadian/officer_formal(src.loc)
+	new /obj/item/clothing/head/helmet/guardcap/sergeant(src.loc)
+
+/obj/landmark/rav/superrare16/New()
+	new /obj/item/clothing/suit/armor/sister/sacredrosepower(src.loc)
+	new /obj/item/clothing/head/helmet/sisterofbattle(src.loc)
+
+/obj/landmark/rav/superrare17/New()
+	new /obj/item/clothing/suit/armor/sister/sacredrosepower(src.loc)
+	new /obj/item/clothing/head/helmet/sisterofbattle(src.loc)
+
+/obj/landmark/rav/superrare18/New()
+	new /obj/item/clothing/suit/armor/sister/bloodyrosepower(src.loc)
+	new /obj/item/clothing/head/helmet/sisterofbattle/brsister(src.loc)
+
+/obj/landmark/rav/superrare19/New()
+	new /obj/item/clothing/suit/armor/sister/martyredpower(src.loc)
+	new /obj/item/clothing/head/helmet/sisterofbattle/mlsister(src.loc)
+
+/obj/landmark/rav/superrare20/New()
+	new /obj/item/clothing/suit/armor/sister/repentia(src.loc)
+	new /obj/item/clothing/head/helmet/sisterofbattle/repentia(src.loc)
+
+/obj/landmark/rav/superrare21/New()
+	new /obj/item/clothing/suit/armor/sister/novitae(src.loc)
+	new /obj/item/clothing/head/helmet/pilgrimcap/hospitallerhelm(src.loc)
+
+/obj/landmark/rav/superrare22/New()
+	new /obj/item/clothing/suit/armor/sister/hospitaller(src.loc)
+	new /obj/item/clothing/head/helmet/pilgrimcap/hospitallerhelm(src.loc)

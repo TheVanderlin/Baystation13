@@ -265,7 +265,7 @@
 /area/ship/scrap/escape_port)
 "aG" = (
 /obj/decal/cleanable/dirt,
-/obj/item/stool/padded,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/cargo/lower)
 "aH" = (
@@ -377,7 +377,7 @@
 /area/ship/scrap/gambling)
 "aW" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/holostool,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /obj/machinery/light/small{
 	dir = 1;
 	icon_state = "bulb1"
@@ -480,7 +480,7 @@
 /area/ship/scrap/crew/dorms1)
 "bg" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/holostool,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /obj/machinery/light/small{
 	dir = 1;
 	icon_state = "bulb1"
@@ -512,7 +512,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/gambling)
 "bj" = (
-/obj/structure/holostool,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /obj/item/hand/missing_card,
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/gambling)
@@ -540,7 +540,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/structure/holostool,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /obj/item/hand/missing_card,
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/gambling)
@@ -727,7 +727,7 @@
 	dir = 1;
 	level = 2
 	},
-/obj/structure/holostool,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /obj/item/hand/missing_card,
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/gambling)
@@ -820,7 +820,7 @@
 	dir = 1;
 	level = 2
 	},
-/obj/structure/holostool,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/crew/dorms1)
 "bO" = (
@@ -997,7 +997,7 @@
 /area/ship/scrap/crew/dorms2)
 "cj" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/holostool,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /obj/machinery/light/small{
 	dir = 1;
 	icon_state = "bulb1"
@@ -1405,7 +1405,7 @@
 /area/ship/scrap/crew/dorms3)
 "di" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/holostool,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /obj/machinery/light/small{
 	dir = 1;
 	icon_state = "bulb1"
@@ -1636,7 +1636,7 @@
 	dir = 1;
 	level = 2
 	},
-/obj/structure/holostool,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /obj/machinery/light_switch{
 	pixel_y = -25
 	},
@@ -1653,7 +1653,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/broken1)
 "dI" = (
-/obj/item/stool/padded,
+/obj/structure/bed/chair/warhammer/stoolw/wood,
 /obj/machinery/power/apc/derelict,
 /obj/structure/cable/green,
 /turf/simulated/floor/warhammer/metal/alt,
