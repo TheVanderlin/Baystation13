@@ -14,19 +14,15 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 18
+	skill_points = 10
 	min_skill = list(
 		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
-		SKILL_FINANCE = SKILL_TRAINED,
+		SKILL_FINANCE = SKILL_EXPERIENCED,
 		SKILL_PILOT = SKILL_EXPERIENCED,
-		SKILL_VIGOR = SKILL_TRAINED,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_DEVICES = SKILL_BASIC,
-		SKILL_COMBAT = SKILL_EXPERIENCED,
-		SKILL_GUNS = SKILL_EXPERIENCED,
-		SKILL_MECH = SKILL_TRAINED,
-		SKILL_COMPUTER = SKILL_TRAINED,
-		SKILL_EVA = SKILL_TRAINED
+		SKILL_VIGOR = SKILL_EXPERIENCED,
+		SKILL_DEVICES = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_MASTER,
+		SKILL_GUNS = SKILL_MASTER,
 	)
 	access = list(
 		access_dauntless, access_restricted, access_restricted_command, access_mechanicus, access_mechanicus_command, access_medical,
@@ -98,19 +94,15 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 16
+	skill_points = 8
 	min_skill = list(
 		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
-		SKILL_FINANCE = SKILL_TRAINED,
-		SKILL_PILOT = SKILL_TRAINED,
-		SKILL_VIGOR = SKILL_TRAINED,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_DEVICES = SKILL_BASIC,
-		SKILL_COMBAT = SKILL_EXPERIENCED,
-		SKILL_GUNS = SKILL_EXPERIENCED,
-		SKILL_MECH = SKILL_TRAINED,
-		SKILL_COMPUTER = SKILL_TRAINED,
-		SKILL_EVA = SKILL_TRAINED
+		SKILL_FINANCE = SKILL_EXPERIENCED,
+		SKILL_PILOT = SKILL_EXPERIENCED,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
+		SKILL_DEVICES = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_MASTER,
+		SKILL_GUNS = SKILL_MASTER,
 	)
 
 	max_skill = list(	SKILL_BUREAUCRACY = SKILL_MASTER,
@@ -176,19 +168,13 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 17
+	skill_points = 8
 	min_skill = list(
 		SKILL_BUREAUCRACY = SKILL_TRAINED,
-		SKILL_FINANCE = SKILL_BASIC,
-		SKILL_PILOT = SKILL_TRAINED,
-		SKILL_VIGOR = SKILL_BASIC,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_DEVICES = SKILL_BASIC,
-		SKILL_COMBAT = SKILL_BASIC,
-		SKILL_GUNS = SKILL_TRAINED,
-		SKILL_MECH = SKILL_TRAINED,
-		SKILL_COMPUTER = SKILL_TRAINED,
-		SKILL_EVA = SKILL_TRAINED
+		SKILL_FINANCE = SKILL_EXPERIENCED,
+		SKILL_PILOT = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
+		SKILL_GUNS = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_BUREAUCRACY = SKILL_MASTER,
@@ -251,9 +237,9 @@
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/krootmerc
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/civ)
-	skill_points = 18
+	skill_points = 9
 	min_skill = list(SKILL_VIGOR = SKILL_MASTER,
-					SKILL_COMBAT = SKILL_MASTER, // Worse skills then imperials. Since they are more primitive bioforms.
+					SKILL_COMBAT = SKILL_LEGEND, // Worse skills then imperials. Since they are more primitive bioforms.
 					SKILL_GUNS = SKILL_EXPERIENCED,
 				)
 	max_skill = list(	SKILL_VIGOR = SKILL_MASTER,

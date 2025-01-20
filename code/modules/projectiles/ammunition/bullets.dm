@@ -183,7 +183,7 @@
 
 /obj/item/ammo_casing/heavy
 	desc = "An 10mm AR slug casing."
-	caliber = CALIBER_AUTOGUN_HEAVY
+	caliber = CALIBER_AUTOHEAVY
 	projectile_type = /obj/item/projectile/bullet/rifle/heavy
 	icon_state = "rifle-casing"
 	spent_icon = "rifle-casing-spent"

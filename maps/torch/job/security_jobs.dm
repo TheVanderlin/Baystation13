@@ -22,15 +22,10 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 12
-	min_skill = list(SKILL_VIGOR = SKILL_EXPERIENCED,
-					SKILL_MEDICAL = SKILL_BASIC,
-					SKILL_PILOT = SKILL_TRAINED,
-					SKILL_DEVICES = SKILL_BASIC,
+	skill_points = 10
+	min_skill = list(SKILL_VIGOR = SKILL_MASTER,
 					SKILL_COMBAT = SKILL_MASTER,
 					SKILL_GUNS = SKILL_MASTER,
-					SKILL_MECH = SKILL_TRAINED,
-					SKILL_EVA = SKILL_TRAINED
 				)
 
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,
@@ -126,15 +121,11 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 16
+	skill_points = 10
 	min_skill = list(SKILL_VIGOR = SKILL_EXPERIENCED,
-					SKILL_MEDICAL = SKILL_BASIC,
-					SKILL_DEVICES = SKILL_BASIC,
 					SKILL_COMBAT = SKILL_EXPERIENCED,
 					SKILL_GUNS = SKILL_EXPERIENCED,
-					SKILL_MECH = SKILL_TRAINED,
 					SKILL_FORENSICS = SKILL_EXPERIENCED,
-					SKILL_EVA = SKILL_TRAINED
 				)
 	max_skill = list(	SKILL_VIGOR = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
@@ -192,15 +183,11 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 12
+	skill_points = 8
 	min_skill = list(SKILL_VIGOR = SKILL_EXPERIENCED,
-					SKILL_MEDICAL = SKILL_BASIC,
-					SKILL_DEVICES = SKILL_BASIC,
 					SKILL_COMBAT = SKILL_EXPERIENCED,
 					SKILL_GUNS = SKILL_EXPERIENCED,
-					SKILL_MECH = SKILL_TRAINED,
 					SKILL_FORENSICS = SKILL_EXPERIENCED,
-					SKILL_EVA = SKILL_TRAINED
 				)
 	max_skill = list(	SKILL_VIGOR = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
@@ -260,12 +247,10 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 12
+	skill_points = 8
 	min_skill = list(SKILL_VIGOR = SKILL_EXPERIENCED,
-					SKILL_MEDICAL = SKILL_BASIC,
 					SKILL_COMBAT = SKILL_MASTER,
 					SKILL_GUNS = SKILL_MASTER,
-					SKILL_EVA = SKILL_TRAINED
 				)
 	max_skill = list(	SKILL_VIGOR = SKILL_MASTER,
 						SKILL_GUNS = SKILL_LEGEND,

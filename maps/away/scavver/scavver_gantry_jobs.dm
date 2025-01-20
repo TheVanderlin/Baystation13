@@ -26,11 +26,11 @@
 	few remaining souls. It’s time to choose an acting captain and salvage what little remains—before the darkness claims \
 	the rest."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 19
+	skill_points = 10
 	min_skill = list(
-		SKILL_VIGOR = SKILL_TRAINED,
-		SKILL_GUNS = SKILL_TRAINED,
-		SKILL_COMBAT = SKILL_TRAINED,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -62,6 +62,7 @@
 	H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife/bowie, slot_in_backpack)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/tactical, slot_w_uniform)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/leather, slot_back)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	if(prob(20))
 		if(prob(50))
 			H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/scrapforged/flakcuirass, slot_wear_suit)
@@ -92,7 +93,7 @@
 
 /datum/job/submap/scavver_noble
 	title = "Bounty Hunter"
-	total_positions = 1
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/scavver
 	supervisors = "yourself"
 	info = "You are one of the last breathing souls aboard the Scavv Gantry, a battered star-hauler adrift in the cold void of \
@@ -100,11 +101,11 @@
 	few remaining souls. It’s time to choose an acting captain and salvage what little remains—before the darkness claims \
 	the rest."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 21 // Superior to merc for skills due to worse gear.
+	skill_points = 12 // Superior to merc for skills due to worse gear.
 	min_skill = list(
-		SKILL_VIGOR = SKILL_TRAINED,
-		SKILL_GUNS = SKILL_TRAINED,
-		SKILL_COMBAT = SKILL_TRAINED,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -132,6 +133,7 @@
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/head/helmet/pilgrimhelm/bountyhead, slot_head)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/leather, slot_back)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/briefcase/crimekit, slot_r_hand)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	if(prob(50))
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/victorian, slot_w_uniform)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/projectile/revolver/imperial, slot_belt)
@@ -148,15 +150,16 @@
 /datum/job/submap/scavver_crew
 	title = "Scavver"
 	supervisors = "yourself"
-	total_positions = 2
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/scavver/bondsman
 	info = "You are a scavver on the Gantry, a battered scavenger vessel drifting far from \
 	Imperial trade routes. It’s time to choose a leader amongst yourselves and start your journey into the void."
-	skill_points = 20 // Superior skills to average crew since Scavvers need to be capable of piloting ships + maintaining them in groups of 2-3.
+	skill_points = 10 // Superior skills to average crew since Scavvers need to be capable of piloting ships + maintaining them in groups of 2-3.
 	min_skill = list(
 		SKILL_PILOT = SKILL_EXPERIENCED,
-		SKILL_CONSTRUCTION = SKILL_TRAINED,
-		SKILL_ELECTRICAL = SKILL_BASIC,
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
+		SKILL_ELECTRICAL = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -197,6 +200,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/reagent_containers/hypospray/autoinjector/combatpain, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/reagent_containers/hypospray/autoinjector/antirad, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/explorer, slot_back)
+		H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 		if(prob(50))
 			H.equip_to_slot_or_store_or_drop(new /obj/item/gun/energy/plasma/pistol, slot_r_hand)
 		else
@@ -226,23 +230,23 @@
 /datum/job/submap/scavver_priest
 	title = "Scavver Heretek"
 	supervisors = "yourself"
-	total_positions = 1
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/scavver
 	info = "You are a scavver on the Gantry, a battered scavenger vessel drifting far from \
 	Imperial trade routes. It’s time to choose a leader amongst yourselves and start your journey into the void."
-	skill_points = 21
+	skill_points = 10
 	min_skill = list(
-		SKILL_GUNS = SKILL_BASIC,
-		SKILL_SCIENCE = SKILL_BASIC,
-		SKILL_DEVICES = SKILL_TRAINED,
-		SKILL_MECH = SKILL_TRAINED,
-		SKILL_COMPUTER = SKILL_TRAINED,
-		SKILL_EVA = SKILL_TRAINED,
-		SKILL_CONSTRUCTION = SKILL_TRAINED,
-		SKILL_ELECTRICAL = SKILL_TRAINED,
-		SKILL_ATMOS = SKILL_BASIC,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_ENGINES = SKILL_TRAINED
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_SCIENCE = SKILL_EXPERIENCED,
+		SKILL_DEVICES = SKILL_EXPERIENCED,
+		SKILL_COMPUTER = SKILL_EXPERIENCED,
+		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
+		SKILL_ELECTRICAL = SKILL_EXPERIENCED,
+		SKILL_ATMOS = SKILL_EXPERIENCED,
+		SKILL_MEDICAL = SKILL_EXPERIENCED,
+		SKILL_CHEMISTRY = SKILL_EXPERIENCED,
+		SKILL_ANATOMY = SKILL_EXPERIENCED,
+		SKILL_ENGINES = SKILL_EXPERIENCED
 	)
 
 	max_skill = list(	SKILL_DEVICES = SKILL_MASTER,
@@ -281,12 +285,13 @@
 	H.species.hunger_factor = DEFAULT_HUNGER_FACTOR * 0.5
 	H.species.species_flags = SPECIES_FLAG_LOW_GRAV_ADAPTED | SPECIES_FLAG_NO_EMBED
 	H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
-	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/mechanicus/techpriest, slot_wear_suit)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/mask/gas/techpriest, slot_wear_mask)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/shoes/jackboots/skitshoes/techpriest, slot_shoes)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/engineer, slot_w_uniform)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/gloves/thick/swat/techpriest, slot_gloves)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/techpriest, slot_back)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/mechanicus/techpriest, slot_wear_suit)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	if(prob(50))
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/augment_implanter/wrist_blade, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/organ/internal/augment/active/iatric_monitor, slot_in_backpack)
@@ -304,9 +309,9 @@
 	outfit_type = /singleton/hierarchy/outfit/job/scavver
 	info = "You are a scavver on the Gantry, a battered scavenger vessel drifting far from \
 	Imperial trade routes. It’s time to choose a leader amongst yourselves and start your journey into the void."
-	skill_points = 25
+	skill_points = 12
 	min_skill = list(
-		SKILL_COMBAT = SKILL_BASIC,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 	)
 
@@ -338,6 +343,7 @@
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/pilgrim/musician, slot_wear_suit)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/thief3, slot_r_hand)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/secure/briefcase/money2, slot_r_hand)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	if(prob(50))
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/victorian/black, slot_w_uniform)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/synthesized_instrument/violin, slot_wear_suit)

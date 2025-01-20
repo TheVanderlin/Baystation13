@@ -64,7 +64,7 @@
 	landmark_transition = "nav_transit_demeter"
 	range = 1
 	knockdown = FALSE
-	fuel_consumption = 2
+	fuel_consumption = 0.5
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 	flags = SHUTTLE_FLAGS_PROCESS
 	defer_initialisation = TRUE

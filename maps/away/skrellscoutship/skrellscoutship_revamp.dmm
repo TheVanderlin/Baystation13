@@ -4325,12 +4325,6 @@
 "uZ" = (
 /obj/machinery/light/tau,
 /obj/structure/table/rack/dark,
-/obj/item/rig/skrell/sec{
-	pixel_x = -7
-	},
-/obj/item/rig/skrell/sec{
-	pixel_x = 8
-	},
 /turf/simulated/floor/tiled/tau/orange,
 /area/ship/tauscoutship/wings/starboard)
 "va" = (
@@ -4561,7 +4555,6 @@
 	dir = 4
 	},
 /obj/floor_decal/industrial/outline/red,
-/obj/item/rig/skrell,
 /obj/item/rig_module/grenade_launcher,
 /obj/item/rig_module/vision/nvg,
 /obj/item/rig_module/device/defib,
@@ -5398,12 +5391,6 @@
 /area/ship/tauscoutship/dock)
 "MS" = (
 /obj/structure/table/rack/dark,
-/obj/item/rig/skrell/med{
-	pixel_x = -7
-	},
-/obj/item/rig/skrell/med{
-	pixel_x = 7
-	},
 /obj/item/device/radio/intercom/map_preset/tauscoutship{
 	dir = 1;
 	pixel_y = -32
@@ -5749,7 +5736,7 @@
 /turf/simulated/wall/ocp_wall,
 /area/ship/tauscoutship/robotics)
 "Qg" = (
-/obj/machinery/shipsensors,
+/obj/machinery/shipsensors/upgraded,
 /turf/simulated/floor/plating,
 /area/ship/tauscoutshuttle)
 "Ql" = (
@@ -5844,12 +5831,6 @@
 /obj/structure/table/rack/dark,
 /obj/structure/window/reinforced{
 	dir = 8
-	},
-/obj/item/rig/skrell/eng{
-	pixel_x = -5
-	},
-/obj/item/rig/skrell/eng{
-	pixel_x = 7
 	},
 /turf/simulated/floor/tiled/tau/orange,
 /area/ship/tauscoutship/wings/starboard)

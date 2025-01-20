@@ -47,7 +47,7 @@
 	current_location = "nav_oldsnz_start"
 	range = 1
 	shuttle_area = /area/map_template/transshipment/old_snz
-	fuel_consumption = 2
+	fuel_consumption = 0.5
 	defer_initialisation = TRUE
 	flags = SHUTTLE_FLAGS_PROCESS
 	skill_needed = SKILL_MIN

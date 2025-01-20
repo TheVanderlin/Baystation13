@@ -801,6 +801,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/merchant_pad,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/cargo/lower)
 "bL" = (
@@ -879,6 +880,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/computer/modular/preset/merchant,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/cargo/lower)
 "bU" = (

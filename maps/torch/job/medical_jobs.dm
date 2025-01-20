@@ -16,22 +16,18 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 16
+	skill_points = 14
 	min_skill = list(
-		SKILL_BUREAUCRACY = SKILL_TRAINED,
 		SKILL_MEDICAL = SKILL_MASTER,
 		SKILL_ANATOMY = SKILL_MASTER,
 		SKILL_CHEMISTRY = SKILL_MASTER,
 		SKILL_DEVICES = SKILL_EXPERIENCED,
-		SKILL_COMBAT = SKILL_TRAINED,
-		SKILL_GUNS = SKILL_TRAINED,
-		SKILL_FORENSICS = SKILL_TRAINED,
-		SKILL_SCIENCE = SKILL_TRAINED,
-		SKILL_MECH = SKILL_TRAINED,
-		SKILL_COMPUTER = SKILL_TRAINED,
-		SKILL_EVA = SKILL_TRAINED,
-		SKILL_CONSTRUCTION = SKILL_TRAINED,
-		SKILL_ELECTRICAL = SKILL_TRAINED
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_FORENSICS = SKILL_EXPERIENCED,
+		SKILL_SCIENCE = SKILL_EXPERIENCED,
+		SKILL_COMPUTER = SKILL_EXPERIENCED,
+		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
+		SKILL_ELECTRICAL = SKILL_EXPERIENCED
 	)
 
 	max_skill = list(	SKILL_MEDICAL = SKILL_MASTER,
@@ -102,7 +98,7 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 10
+	skill_points = 8
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_MEDICAL = SKILL_EXPERIENCED,
@@ -111,7 +107,6 @@
 		SKILL_COMBAT = SKILL_EXPERIENCED,
 		SKILL_GUNS = SKILL_EXPERIENCED,
 		SKILL_FORENSICS = SKILL_EXPERIENCED,
-		SKILL_EVA = SKILL_TRAINED
 	)
 
 	max_skill = list(	SKILL_MEDICAL = SKILL_MASTER,
@@ -164,7 +159,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/medical/pharmacologis
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/civ)
-	skill_points = 16
+	skill_points = 13
 	min_skill = list(
 		SKILL_MEDICAL = SKILL_EXPERIENCED,
 		SKILL_ANATOMY = SKILL_EXPERIENCED,
@@ -215,11 +210,8 @@
 	)
 	skill_points = 12
 	min_skill = list(
-		SKILL_VIGOR = SKILL_TRAINED,
 		SKILL_MEDICAL = SKILL_EXPERIENCED,
 		SKILL_ANATOMY = SKILL_EXPERIENCED,
-		SKILL_CHEMISTRY = SKILL_TRAINED,
-		SKILL_COMBAT = SKILL_BASIC, // Surgery skill overlap
 		SKILL_FORENSICS = SKILL_EXPERIENCED,
 	)
 
@@ -279,15 +271,10 @@
 		/datum/mil_rank/civ/civ
 	)
 
-	skill_points = 16
+	skill_points = 12
 	min_skill = list(
-		SKILL_VIGOR = SKILL_BASIC,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_ANATOMY = SKILL_BASIC,
-		SKILL_CHEMISTRY = SKILL_TRAINED,
-		SKILL_GUNS = SKILL_BASIC, // Training from hospitaller
-		SKILL_COMBAT = SKILL_BASIC,
-		SKILL_FORENSICS = SKILL_BASIC,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
+		SKILL_MEDICAL = SKILL_EXPERIENCED,
 	) // max skill list is currently wip
 
 	access = list(

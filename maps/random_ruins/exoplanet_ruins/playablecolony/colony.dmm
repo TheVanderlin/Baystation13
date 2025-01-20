@@ -69,7 +69,7 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/exoplanet/concrete,
-/area/map_template/colony/command)
+/area/map_template/colony)
 "al" = (
 /obj/machinery/power/solar,
 /obj/structure/cable{
@@ -155,7 +155,7 @@
 	pixel_y = 28
 	},
 /obj/machinery/door/blast/shutters{
-	id_tag = "colsen";
+	id_tag = "colsen3";
 	name = "Hard Storage Shutter"
 	},
 /obj/machinery/door/airlock/warhammer/command,
@@ -972,8 +972,8 @@
 /obj/machinery/power/emitter/gyrotron{
 	req_lock_access = list()
 	},
-/turf/simulated/floor/exoplanet/concrete,
-/area/map_template/colony/command)
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/colony)
 "cg" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1464,8 +1464,8 @@
 /obj/structure/catwalk,
 /obj/machinery/power/rad_collector,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/exoplanet/concrete,
-/area/map_template/colony/command)
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/colony)
 "do" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2139,11 +2139,22 @@
 /turf/simulated/floor/lino,
 /area/map_template/colony/messhall)
 "eD" = (
-/obj/structure/catwalk,
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/exoplanet/concrete,
-/area/map_template/colony/command)
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "colsen3";
+	name = "Hard Equipment Storage";
+	pixel_y = 32;
+	pixel_x = 22
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/colony)
 "eE" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
@@ -2177,7 +2188,7 @@
 	name = "Hard Storage Shutter"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/map_template/colony/command)
+/area/map_template/colony)
 "eH" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2530,7 +2541,7 @@
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techfloor,
-/area/map_template/colony/command)
+/area/map_template/colony)
 "fp" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -3539,8 +3550,8 @@
 "gW" = (
 /obj/structure/catwalk,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/exoplanet/concrete,
-/area/map_template/colony/command)
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/colony)
 "gX" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -6697,7 +6708,7 @@
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techfloor,
-/area/map_template/colony/command)
+/area/map_template/colony)
 "mD" = (
 /obj/structure/table/rack,
 /obj/item/clothing/shoes/magboots,
@@ -9467,7 +9478,7 @@ ac
 dc
 bV
 dE
-dO
+eD
 et
 dO
 fx
@@ -9505,7 +9516,7 @@ aY
 bo
 ac
 ac
-ac
+hr
 az
 au
 cc
@@ -9587,7 +9598,7 @@ ae
 mz
 ae
 ae
-ac
+hr
 mC
 bz
 dU
@@ -9629,7 +9640,7 @@ bu
 bX
 ae
 cf
-eD
+fo
 bz
 dV
 eg
@@ -9670,7 +9681,7 @@ bv
 bG
 ae
 dn
-eD
+fo
 au
 dW
 ez
@@ -9793,7 +9804,7 @@ tG
 NN
 ae
 dn
-eD
+fo
 bZ
 dK
 dC
@@ -9833,7 +9844,7 @@ ae
 ae
 ae
 ae
-ac
+hr
 ak
 aw
 dL

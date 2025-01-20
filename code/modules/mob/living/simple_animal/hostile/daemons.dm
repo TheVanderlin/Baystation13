@@ -25,6 +25,7 @@
 	break_stuff_probability = 20
 	pry_time = 10 SECONDS
 	pry_desc = "clawing"
+	minbodytemp = 0
 	min_gas = null
 	max_gas = null
 	meat_type = null // need to meat this boy UP. Also make it have poison in it.

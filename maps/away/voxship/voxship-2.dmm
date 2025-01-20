@@ -2639,8 +2639,7 @@
 /obj/machinery/shield_diffuser,
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	id_tag = "crashedpodWest_exterior_door";
-	locked = 1
+	id_tag = "crashedpodWest_exterior_door"
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"

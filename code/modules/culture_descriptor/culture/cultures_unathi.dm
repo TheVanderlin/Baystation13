@@ -4,9 +4,9 @@
 	The harsh desert makes them masters of endurance, constantly moving to survive under the unyielding sun and scarce resources. \
 	Their culture prizes resilience and adaptability, often forming tight-knit communities focused on survival and combat skills."
 	language = LANGUAGE_KROOT
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_SIGN,
-		LANGUAGE_HIGH_GOTHIC,
+		LANGUAGE_TAU,
 		LANGUAGE_LOW_GOTHIC
 	)
 
@@ -16,9 +16,9 @@
 	The swamps are rich with life but demand constant vigilance, sharpening their instincts and sense of patience. \
 	They live closely with nature, using the swamp's abundance of resources for sustenance and developing a keen sense of ambush tactics."
 	language = LANGUAGE_KROOT
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_SIGN,
-		LANGUAGE_HIGH_GOTHIC,
+		LANGUAGE_TAU,
 		LANGUAGE_LOW_GOTHIC
 	)
 
@@ -28,8 +28,8 @@
 	Despite being far from their homeworlds, they maintain their tribal structures and use their adaptability to thrive in the void. \
 	Kroot in space often serve as mercenaries, traders, or explorers, making use of their skills in navigating hostile environments and complex social dynamics."
 	language = LANGUAGE_KROOT
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_SIGN,
-		LANGUAGE_HIGH_GOTHIC,
+		LANGUAGE_TAU,
 		LANGUAGE_LOW_GOTHIC
 	)

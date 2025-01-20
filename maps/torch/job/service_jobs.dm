@@ -15,10 +15,10 @@
 		/datum/mil_branch/civilian)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ)
-	skill_points = 20
+	skill_points = 10
 	min_skill = list(
+		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
 		SKILL_COMBAT = SKILL_EXPERIENCED,
-		SKILL_MEDICAL = SKILL_BASIC,
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 	)
 
@@ -41,6 +41,7 @@
 		current_title = trimtext(H.mind.role_alt_title) // Use alt_title if selected
 	else
 		current_title = title // use default title
+	return ..()
 
 
 /datum/job/chamber_assistant
@@ -60,12 +61,7 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 22
-	min_skill = list(
-		SKILL_COMBAT = SKILL_BASIC,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_VIGOR = SKILL_BASIC,
-	)
+	skill_points = 10
 
 	max_skill = list(	SKILL_DEVICES = SKILL_MASTER,
 						SKILL_VIGOR = SKILL_MASTER,
@@ -87,6 +83,7 @@
 	else
 		current_title = title // use default title
 	H.verbs += /mob/living/proc/set_ambition
+	return ..()
 
 /datum/job/chamber_magister
 	title = "Tavern Keeper" // alt_titles; innkeeper. gets shotgun. magister has a las pistol.
@@ -103,11 +100,10 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 26
+	skill_points = 10
 	min_skill = list(
-		SKILL_COMBAT = SKILL_BASIC,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_VIGOR = SKILL_BASIC,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_DEVICES = SKILL_MASTER,
@@ -130,6 +126,7 @@
 	else
 		current_title = title // use default title
 	H.verbs += /mob/living/proc/set_ambition
+	return ..()
 
 /datum/job/noble_guest
 	title = "Noble Heir" // alt titles; noble heir, planetary governor, xenos ambassador(use the tithe to_world stuff for this)
@@ -151,11 +148,10 @@
 		/datum/mil_rank/fleet/e7,
 		/datum/mil_rank/fleet/e8
 	)
-	skill_points = 26
+	skill_points = 14
 	min_skill = list(
-		SKILL_COMBAT = SKILL_BASIC,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_VIGOR = SKILL_BASIC,
+		SKILL_FINANCE = SKILL_EXPERIENCED,
+		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_DEVICES = SKILL_MASTER,
@@ -183,7 +179,7 @@
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/contractor)
 	economic_power = 7
-	skill_points = 20
+	skill_points = 12
 	min_skill = list(
 		SKILL_COMBAT = SKILL_EXPERIENCED,
 		SKILL_GUNS = SKILL_EXPERIENCED,
@@ -231,8 +227,8 @@
 	title = "Deck Scum"
 	department = "Supply"
 	department_flag = SUP
-	total_positions = 10
-	spawn_positions = 10
+	total_positions = 12
+	spawn_positions = 12
 	create_record = FALSE
 	supervisors = "..."
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/service/crewman
@@ -253,12 +249,11 @@
 	access = list(
 		access_dauntless, access_medical, access_mechanicus)
 
-	skill_points = 18
+	skill_points = 14
 	min_skill = list(
-		SKILL_VIGOR = SKILL_TRAINED,
-		SKILL_CONSTRUCTION = SKILL_TRAINED,
-		SKILL_EVA = SKILL_TRAINED,
-		SKILL_ELECTRICAL = SKILL_TRAINED
+		SKILL_VIGOR = SKILL_EXPERIENCED,
+		SKILL_CONSTRUCTION = SKILL_EVA,
+		SKILL_ELECTRICAL = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,

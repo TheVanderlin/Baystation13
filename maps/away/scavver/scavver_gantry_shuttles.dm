@@ -52,7 +52,7 @@
 	current_location = "nav_hangar_gantry_one"
 	landmark_transition = "nav_transit_gantry_one"
 	range = 1
-	fuel_consumption = 3
+	fuel_consumption = 0.5
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 	flags = SHUTTLE_FLAGS_PROCESS
 	defer_initialisation = TRUE
@@ -65,7 +65,7 @@
 	current_location = "nav_hangar_gantry_two"
 	landmark_transition = "nav_transit_gantry_two"
 	range = 1
-	fuel_consumption = 2
+	fuel_consumption = 0.5
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 	flags = SHUTTLE_FLAGS_PROCESS
 	defer_initialisation = TRUE
@@ -78,7 +78,7 @@
 	current_location = "nav_hangar_gantry_three"
 	landmark_transition = "nav_transit_gantry_three"
 	range = 1
-	fuel_consumption = 3
+	fuel_consumption = 0.5
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 	flags = SHUTTLE_FLAGS_PROCESS
 	defer_initialisation = TRUE

@@ -354,7 +354,7 @@ TORCH_ESCAPE_POD(17)
 	current_location = "nav_hangar_charon"
 	landmark_transition = "nav_transit_charon"
 	range = 1
-	fuel_consumption = 3
+	fuel_consumption = 0.5
 	logging_home_tag = "nav_hangar_charon"
 	logging_access = access_expedition_shuttle_helm
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
@@ -399,7 +399,7 @@ TORCH_ESCAPE_POD(17)
 	landmark_transition = "nav_transit_guppy"
 	sound_takeoff = 'sound/effects/rocket.ogg'
 	sound_landing = 'sound/effects/rocket_backwards.ogg'
-	fuel_consumption = 2
+	fuel_consumption = 0.5
 	logging_home_tag = "nav_hangar_guppy"
 	logging_access = access_guppy_helm
 	skill_needed = SKILL_BASIC

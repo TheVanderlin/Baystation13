@@ -44,7 +44,7 @@
 	current_location = "nav_hangar_voxship"
 	landmark_transition = "nav_transit_voxship"
 	range = 1
-	fuel_consumption = 3
+	fuel_consumption = 0.5
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 	defer_initialisation = TRUE
 
@@ -75,7 +75,7 @@
 	current_location = "nav_hangar_scavshuttle"
 	landmark_transition = "nav_transit_scavshuttle"
 	range = 1
-	fuel_consumption = 2
+	fuel_consumption = 0.5
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 	defer_initialisation = TRUE
 	flags = SHUTTLE_FLAGS_PROCESS
@@ -204,7 +204,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/kasrkin
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 16
+	skill_points = 10
 	min_skill = list(
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
@@ -249,8 +249,8 @@
 	info = "Abducted during transit, you awaken on a xenos space station. Your captors lie dead, their cause of death unknown, leaving you alone in the silent, alien corridors of an abandoned space station."
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/sister/martyr
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	total_positions = 1
-	skill_points = 15
+	total_positions = 0
+	skill_points = 10
 	min_skill = list(
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
@@ -294,9 +294,9 @@
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/devil
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 14
+	skill_points = 6
 	min_skill = list(
-		SKILL_COMBAT = SKILL_MASTER,
+		SKILL_COMBAT = SKILL_PRIMARIS,
 		SKILL_GUNS = SKILL_MASTER,
 		SKILL_VIGOR = SKILL_MASTER,
 	)
@@ -342,12 +342,12 @@
 	info = "Abducted during transit, you awaken on a xenos space station. Your captors lie dead, their cause of death unknown, leaving you alone in the silent, alien corridors of an abandoned space station."
 	outfit_type = /singleton/hierarchy/outfit/job/survivor
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	total_positions = 1
-	skill_points = 19
+	total_positions = 0
+	skill_points = 10
 	min_skill = list(
-		SKILL_VIGOR = SKILL_TRAINED,
-		SKILL_GUNS = SKILL_TRAINED,
-		SKILL_COMBAT = SKILL_TRAINED,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -411,20 +411,20 @@
 	info = "Abducted during transit, you awaken on a xenos space station. Your captors lie dead, their cause of death unknown, leaving you alone in the silent, alien corridors of an abandoned space station."
 	outfit_type = /singleton/hierarchy/outfit/job/survivor
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	total_positions = 1
-	skill_points = 21
+	total_positions = 0
+	skill_points = 10
 	min_skill = list(
-		SKILL_GUNS = SKILL_BASIC,
-		SKILL_SCIENCE = SKILL_BASIC,
-		SKILL_DEVICES = SKILL_TRAINED,
-		SKILL_MECH = SKILL_TRAINED,
-		SKILL_COMPUTER = SKILL_TRAINED,
-		SKILL_EVA = SKILL_TRAINED,
-		SKILL_CONSTRUCTION = SKILL_TRAINED,
-		SKILL_ELECTRICAL = SKILL_TRAINED,
-		SKILL_ATMOS = SKILL_BASIC,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_ENGINES = SKILL_TRAINED
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_SCIENCE = SKILL_EXPERIENCED,
+		SKILL_DEVICES = SKILL_EXPERIENCED,
+		SKILL_COMPUTER = SKILL_EXPERIENCED,
+		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
+		SKILL_ELECTRICAL = SKILL_EXPERIENCED,
+		SKILL_ATMOS = SKILL_EXPERIENCED,
+		SKILL_MEDICAL = SKILL_EXPERIENCED,
+		SKILL_CHEMISTRY = SKILL_EXPERIENCED,
+		SKILL_ANATOMY = SKILL_EXPERIENCED,
+		SKILL_ENGINES = SKILL_EXPERIENCED
 	)
 
 	max_skill = list(	SKILL_DEVICES = SKILL_MASTER,
@@ -463,12 +463,12 @@
 	H.species.hunger_factor = DEFAULT_HUNGER_FACTOR * 0.5
 	H.species.species_flags = SPECIES_FLAG_LOW_GRAV_ADAPTED | SPECIES_FLAG_NO_EMBED
 	H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
-	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/mechanicus/techpriest, slot_wear_suit)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/mask/gas/techpriest, slot_wear_mask)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/shoes/jackboots/skitshoes/techpriest, slot_shoes)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/engineer, slot_w_uniform)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/gloves/thick/swat/techpriest, slot_gloves)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/techpriest, slot_back)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/mechanicus/techpriest, slot_wear_suit)
 	if(prob(50))
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/augment_implanter/wrist_blade, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/organ/internal/augment/active/iatric_monitor, slot_in_backpack)

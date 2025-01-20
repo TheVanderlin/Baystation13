@@ -434,7 +434,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "abb" = (
 /obj/machinery/access_button{
@@ -450,7 +450,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "abc" = (
 /obj/structure/cable/green{
@@ -468,7 +468,7 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "abd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -482,7 +482,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "abe" = (
 /obj/structure/cable/green{
@@ -502,7 +502,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "abf" = (
 /obj/machinery/pager/robotics{
@@ -550,7 +550,7 @@
 "abj" = (
 /obj/structure/table/steel,
 /obj/random/maintenance/solgov,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "abk" = (
 /turf/simulated/wall/prepainted,
@@ -585,7 +585,7 @@
 /obj/structure/bed/chair/office/light{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "abq" = (
 /obj/random_multi/single_item/skelestand,
@@ -661,7 +661,7 @@
 /obj/decal/cleanable/cobweb{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "aby" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -678,7 +678,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/warhammer/glass{
 	name = "Biologis Chemica";
-	req_access = list("ACCESS_MEDICAL_RESTRICTED")
+	req_access = list("ACCESS_MEDICAL_COMMAND")
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/chemistry)
@@ -768,7 +768,7 @@
 	dir = 1;
 	req_access = list("ACCESS_MEDICAL_COMMAND")
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/medical/chemistry)
 "abI" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -782,7 +782,7 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "abJ" = (
 /obj/machinery/power/apc{
@@ -940,7 +940,7 @@
 /obj/machinery/atmospherics/unary/engine{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1starboard)
 "acb" = (
 /obj/structure/sign/warning/airlock,
@@ -990,7 +990,7 @@
 	icon_state = "2-4"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1starboard)
 "ach" = (
 /obj/structure/cable/green{
@@ -1003,7 +1003,7 @@
 	dir = 4;
 	target_pressure = 15000
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1starboard)
 "aci" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -1015,7 +1015,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1starboard)
 "acj" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -1226,7 +1226,7 @@
 /obj/structure/sign/warning/airlock{
 	pixel_y = 32
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "acI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1389,7 +1389,7 @@
 /obj/structure/barricade/spike{
 	layer = 2.2
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/medical/chemistry)
 "acV" = (
 /obj/structure/bed/chair/warhammer/cage,
@@ -1618,7 +1618,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1starboard)
 "adt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1636,7 +1636,7 @@
 	dir = 5
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "adu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1687,7 +1687,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "adz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1711,7 +1711,7 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "adA" = (
 /obj/structure/lattice,
@@ -1868,7 +1868,7 @@
 	},
 /obj/decal/cleanable/cobweb2,
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "adS" = (
 /turf/simulated/wall/prepainted,
@@ -1923,12 +1923,12 @@
 /area/maintenance/firstdeck/forestarboard)
 "aea" = (
 /obj/machinery/shieldgen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "aeb" = (
 /obj/machinery/space_heater,
 /obj/decal/cleanable/cobweb2,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "aec" = (
 /obj/structure/cable/green{
@@ -1974,7 +1974,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/firstdeck/centralstarboard)
 "aeg" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "aeh" = (
 /obj/structure/dispenser{
@@ -2168,7 +2168,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "aes" = (
 /obj/structure/closet/warhammer/emcloset,
@@ -2344,7 +2344,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "aeH" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -2368,7 +2368,7 @@
 	dir = 4;
 	target_pressure = 200
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "aeJ" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
@@ -2400,7 +2400,7 @@
 	dir = 1
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "aeK" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -2424,7 +2424,7 @@
 	dir = 1
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "aeL" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -2445,7 +2445,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "aeM" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -2466,7 +2466,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "aeN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2484,7 +2484,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "aeO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2503,7 +2503,7 @@
 	icon_state = "2-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "aeP" = (
 /obj/structure/closet/warhammer/emcloset,
@@ -2513,7 +2513,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "aeR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2522,7 +2522,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "aeS" = (
 /obj/structure/shuttle/engine/propulsion,
@@ -2536,7 +2536,7 @@
 	locked = 1;
 	name = "Escape Pod Seven Hatch"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/shuttle/escape_pod12/station)
 "aeU" = (
 /obj/structure/shuttle/engine/propulsion,
@@ -2550,7 +2550,7 @@
 	locked = 1;
 	name = "Escape Pod Eight Hatch"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/shuttle/escape_pod13/station)
 "aeW" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -2784,7 +2784,7 @@
 	dir = 5
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "afs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2948,7 +2948,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "afM" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
@@ -2979,7 +2979,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "afQ" = (
 /obj/structure/cable/green{
@@ -2997,7 +2997,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "afR" = (
 /obj/structure/cable/green{
@@ -3014,7 +3014,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "afS" = (
 /obj/structure/cable/green{
@@ -3032,7 +3032,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "afT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3051,7 +3051,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "afU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3070,7 +3070,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "afV" = (
 /obj/machinery/door/airlock/external/escapepod{
@@ -3079,7 +3079,7 @@
 	name = "Escape Pod Seven"
 	},
 /obj/machinery/shield_diffuser,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "afW" = (
 /obj/machinery/door/airlock/external/escapepod{
@@ -3088,7 +3088,7 @@
 	name = "Escape Pod Eight"
 	},
 /obj/machinery/shield_diffuser,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "afX" = (
 /obj/floor_decal/industrial/shutoff,
@@ -3127,7 +3127,7 @@
 /obj/structure/ladder,
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ahd" = (
 /turf/simulated/wall/ocp_wall,
@@ -3153,7 +3153,7 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "ahy" = (
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
@@ -3216,7 +3216,7 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/barricade/sandbagwall,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "ahM" = (
 /obj/structure/cable/green{
@@ -3234,7 +3234,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "ahN" = (
 /obj/structure/cable/green{
@@ -3257,7 +3257,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "ahO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3298,7 +3298,7 @@
 	dir = 9
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ahQ" = (
 /obj/structure/sign/warning/high_voltage,
@@ -3320,7 +3320,7 @@
 /obj/structure/cable/green,
 /obj/floor_decal/industrial/warning,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/substation/firstdeck)
 "ahS" = (
 /obj/structure/cable/green{
@@ -3344,7 +3344,7 @@
 	icon_state = "warningcorner"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/substation/firstdeck)
 "ahT" = (
 /obj/structure/cable/green{
@@ -3361,7 +3361,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ahV" = (
 /obj/structure/cable/green{
@@ -3370,7 +3370,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ahW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3389,7 +3389,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ahX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3404,7 +3404,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ahY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3423,7 +3423,7 @@
 	pixel_y = -24
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ahZ" = (
 /turf/simulated/floor/warhammer/plating,
@@ -3444,7 +3444,7 @@
 	pixel_y = -32
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "aib" = (
 /obj/structure/grille/warhammer/cell,
@@ -3529,7 +3529,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "aiI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
@@ -3649,7 +3649,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "aiX" = (
 /obj/random/junk,
@@ -3660,7 +3660,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "aiY" = (
 /obj/random/obstruction,
@@ -3700,7 +3700,7 @@
 /obj/machinery/power/smes/buildable/preset/torch/substation{
 	RCon_tag = "Substation - 1st Deck"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/substation/firstdeck)
 "ajf" = (
 /obj/structure/cable{
@@ -3719,7 +3719,7 @@
 	icon_state = "warning"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/substation/firstdeck)
 "ajg" = (
 /obj/structure/catwalk,
@@ -3727,7 +3727,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "ajh" = (
 /obj/structure/sign/warning/high_voltage,
@@ -3757,7 +3757,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "ajH" = (
 /obj/machinery/atmospherics/valve/shutoff/supply{
@@ -3771,7 +3771,7 @@
 /obj/machinery/atmospherics/valve/shutoff/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "ajI" = (
 /obj/structure/cable/green{
@@ -3790,7 +3790,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "ajJ" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -3960,7 +3960,7 @@
 	icon_state = "2-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "ajW" = (
 /obj/structure/cable/green{
@@ -3989,7 +3989,7 @@
 	RCon_tag = "First Deck Substation Bypass"
 	},
 /obj/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/substation/firstdeck)
 "akf" = (
 /obj/structure/cable{
@@ -4011,7 +4011,7 @@
 	dir = 10
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/substation/firstdeck)
 "akg" = (
 /obj/structure/cable{
@@ -4044,7 +4044,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "aki" = (
 /obj/structure/cable{
@@ -4071,7 +4071,7 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "akj" = (
 /obj/structure/cable{
@@ -4089,7 +4089,7 @@
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "akl" = (
 /obj/structure/table/steel,
@@ -4118,7 +4118,7 @@
 	pixel_x = -24;
 	pixel_y = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/auxpower)
 "akn" = (
 /obj/structure/cable{
@@ -4128,7 +4128,7 @@
 /obj/machinery/power/smes/buildable/preset/torch/substation{
 	RCon_tag = "Utility - Backup"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/auxpower)
 "akp" = (
 /obj/floor_decal/techfloor{
@@ -4158,7 +4158,7 @@
 	dir = 5
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "akL" = (
 /obj/structure/cable/green{
@@ -4170,7 +4170,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "akM" = (
 /obj/structure/cable/green{
@@ -4193,7 +4193,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "akN" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -4219,7 +4219,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "akZ" = (
 /obj/structure/hygiene/sink{
@@ -4261,7 +4261,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "alj" = (
 /obj/structure/cable{
@@ -4277,14 +4277,14 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "alk" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "all" = (
 /obj/structure/table/steel,
@@ -4295,7 +4295,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/auxpower)
 "alm" = (
 /obj/floor_decal/industrial/warning/corner{
@@ -4303,7 +4303,7 @@
 	icon_state = "warningcorner"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/auxpower)
 "aln" = (
 /obj/structure/cable{
@@ -4318,7 +4318,7 @@
 	icon_state = "warning"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/auxpower)
 "alo" = (
 /obj/structure/closet/l3closet/general,
@@ -4328,13 +4328,13 @@
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "alq" = (
 /obj/machinery/atmospherics/binary/passive_gate{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "alr" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
@@ -4344,7 +4344,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "alv" = (
 /obj/structure/ladder/up,
@@ -4387,7 +4387,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "alS" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -4439,7 +4439,7 @@
 /area/crew_quarters/head/deck1)
 "amn" = (
 /obj/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "amp" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -4467,7 +4467,7 @@
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ams" = (
 /obj/structure/cable{
@@ -4476,7 +4476,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "amt" = (
 /obj/machinery/door/firedoor,
@@ -4503,7 +4503,7 @@
 	icon_state = "1-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/auxpower)
 "amv" = (
 /obj/structure/cable{
@@ -4513,7 +4513,7 @@
 	},
 /obj/machinery/light/small,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/auxpower)
 "amw" = (
 /obj/structure/cable{
@@ -4527,27 +4527,27 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/closet/secure_closet/engineering_electrical,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/auxpower)
 "amy" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
 	},
 /obj/random_multi/single_item/poppy,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "amz" = (
 /obj/machinery/atmospherics/tvalve/bypass{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "amA" = (
 /obj/machinery/atmospherics/unary/tank/air{
 	dir = 1
 	},
 /obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "amP" = (
 /obj/structure/table/rack/dark,
@@ -4632,7 +4632,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "anr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4650,7 +4650,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ans" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4669,7 +4669,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "anH" = (
 /obj/machinery/button/alternate/door{
@@ -4757,7 +4757,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "aop" = (
 /obj/floor_decal/techfloor{
@@ -4788,7 +4788,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "aph" = (
 /obj/machinery/door/firedoor,
@@ -4815,7 +4815,7 @@
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1port)
 "apm" = (
 /obj/structure/disposalpipe/segment{
@@ -4871,7 +4871,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "aqa" = (
 /obj/structure/extinguisher_cabinet{
@@ -5055,7 +5055,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "art" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5093,7 +5093,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "arx" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -5110,7 +5110,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "ary" = (
 /obj/structure/cable/green{
@@ -5136,7 +5136,7 @@
 /area/hallway/primary/firstdeck/fore)
 "arA" = (
 /obj/random/obstruction,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "arT" = (
 /obj/floor_decal/sign/ex,
@@ -5170,7 +5170,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "asq" = (
 /obj/structure/disposalpipe/segment{
@@ -5190,7 +5190,7 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "asv" = (
 /obj/wallframe_spawn/reinforced,
@@ -5209,7 +5209,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/brig)
 "asx" = (
 /obj/structure/table/steel,
@@ -5241,7 +5241,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "asF" = (
 /obj/machinery/atmospherics/valve/shutoff/supply{
@@ -5250,7 +5250,7 @@
 /obj/machinery/atmospherics/valve/shutoff/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ata" = (
 /obj/machinery/light_switch{
@@ -5326,7 +5326,7 @@
 	dir = 6
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "ato" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5344,7 +5344,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "ats" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -5406,7 +5406,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "atH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5416,7 +5416,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "atK" = (
 /obj/machinery/light{
@@ -5489,7 +5489,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "auy" = (
 /obj/structure/cable/green{
@@ -5616,7 +5616,7 @@
 	icon_state = "pipe-j2"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "auL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6056,7 +6056,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "axZ" = (
 /obj/structure/cable/green{
@@ -6102,7 +6102,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "ayd" = (
 /obj/structure/cable/green{
@@ -6115,7 +6115,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "aye" = (
 /obj/structure/cable/green{
@@ -6130,7 +6130,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "ayf" = (
 /obj/structure/cable/green{
@@ -6155,7 +6155,7 @@
 	icon_state = "1-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "ayg" = (
 /obj/structure/disposalpipe/segment{
@@ -6173,7 +6173,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "ayh" = (
 /obj/structure/disposalpipe/segment{
@@ -6228,7 +6228,7 @@
 	dir = 1
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "aym" = (
 /obj/structure/cable/green{
@@ -6282,7 +6282,7 @@
 	sort_type = "Xenobotany"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "ayy" = (
 /obj/structure/cable/green{
@@ -6300,7 +6300,7 @@
 	sort_type = "Research and Development"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "ayz" = (
 /obj/structure/cable/green{
@@ -6342,7 +6342,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/aft)
 "ayC" = (
 /obj/structure/cable/green{
@@ -6365,7 +6365,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/aft)
 "ayG" = (
 /obj/structure/cable/green{
@@ -6675,7 +6675,7 @@
 	dir = 4;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aBO" = (
 /obj/structure/closet/warhammer/emcloset,
@@ -6783,13 +6783,13 @@
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aCN" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aCZ" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aDA" = (
 /obj/structure/cable/green{
@@ -6850,7 +6850,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/bo)
 "aDK" = (
 /obj/structure/cable/green{
@@ -6864,7 +6864,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "aDL" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -6897,7 +6897,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aEa" = (
 /obj/structure/railing/mapped{
@@ -6915,7 +6915,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aEb" = (
 /obj/structure/railing/mapped{
@@ -6923,7 +6923,7 @@
 	icon_state = "railing0-1"
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aEw" = (
 /obj/structure/cable/green{
@@ -6946,7 +6946,7 @@
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aED" = (
 /obj/structure/largecrate,
@@ -7008,7 +7008,7 @@
 	dir = 5
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "aEU" = (
 /obj/structure/catwalk,
@@ -7026,7 +7026,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "aEW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7044,7 +7044,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "aEY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7063,7 +7063,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "aEZ" = (
 /obj/item/device/radio/intercom{
@@ -7088,7 +7088,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aFf" = (
 /obj/machinery/atmospherics/valve/shutoff/supply,
@@ -7097,7 +7097,7 @@
 	icon_state = "railing0-1"
 	},
 /obj/machinery/atmospherics/valve/shutoff/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aFl" = (
 /obj/structure/table/rack/dark,
@@ -7112,7 +7112,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aFo" = (
 /obj/structure/closet/firecloset,
@@ -7143,7 +7143,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aFM" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
@@ -7245,7 +7245,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aGq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7259,7 +7259,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aGw" = (
 /obj/machinery/atmospherics/valve/shutoff/supply,
@@ -7269,7 +7269,7 @@
 	},
 /obj/structure/railing/mapped,
 /obj/machinery/atmospherics/valve/shutoff/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aGx" = (
 /obj/structure/bed/chair/warhammer/stoolw/wood{
@@ -7299,7 +7299,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "aGM" = (
 /obj/structure/bed/chair/warhammer/padded/red{
@@ -7350,7 +7350,7 @@
 	dir = 4;
 	pixel_x = -23
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aHb" = (
 /obj/machinery/power/apc{
@@ -7369,7 +7369,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aHi" = (
 /turf/simulated/wall/prepainted,
@@ -7395,7 +7395,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aHS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7412,7 +7412,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aHX" = (
 /obj/structure/catwalk,
@@ -7437,7 +7437,7 @@
 	name = "Brig Chief";
 	sort_type = "Brig Chief"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "aHY" = (
 /obj/structure/disposalpipe/segment{
@@ -7637,7 +7637,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aIG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7680,7 +7680,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aJj" = (
 /obj/machinery/atmospherics/valve/shutoff/supply,
@@ -7693,7 +7693,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aJn" = (
 /obj/structure/cable/green{
@@ -7852,7 +7852,7 @@
 	dir = 6
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aJL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7867,7 +7867,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aJS" = (
 /turf/simulated/wall/prepainted,
@@ -7941,7 +7941,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/bo)
 "aKG" = (
 /obj/structure/closet/hydrant{
@@ -7978,7 +7978,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aKY" = (
 /obj/structure/disposalpipe/segment,
@@ -7990,14 +7990,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aLj" = (
 /obj/structure/grille,
 /turf/simulated/floor/reinforced,
 /area/space)
 "aLu" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aLv" = (
 /obj/machinery/flasher/portable,
@@ -8078,7 +8078,7 @@
 /obj/machinery/computer/guestpass{
 	pixel_y = 32
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "aLG" = (
 /obj/structure/cable/green{
@@ -8104,7 +8104,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "aLL" = (
 /obj/machinery/camera/network/security{
@@ -8117,7 +8117,7 @@
 /obj/structure/disposalpipe/up{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aLO" = (
 /obj/structure/disposalpipe/segment{
@@ -8131,7 +8131,7 @@
 	dir = 4;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aLP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -8147,7 +8147,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aLQ" = (
 /obj/structure/grille,
@@ -8157,7 +8157,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aLR" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -8167,14 +8167,14 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aLS" = (
 /obj/structure/largecrate,
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aLT" = (
 /obj/machinery/atmospherics/unary/tank/air{
@@ -8184,7 +8184,7 @@
 	dir = 9;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aMy" = (
 /obj/structure/closet,
@@ -8333,7 +8333,7 @@
 /obj/structure/disposalpipe/up,
 /obj/floor_decal/industrial/warning,
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aMW" = (
 /obj/floor_decal/industrial/warning{
@@ -8345,24 +8345,24 @@
 	dir = 4;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aMX" = (
 /obj/structure/grille/broken,
 /obj/structure/closet/crate,
 /obj/random/material,
 /obj/random/material,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aMY" = (
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aMZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aNa" = (
 /obj/machinery/atmospherics/unary/tank/air{
@@ -8371,7 +8371,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aNy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -8392,7 +8392,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aNA" = (
 /obj/structure/table/rack/dark,
@@ -8469,18 +8469,18 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aNY" = (
 /obj/floor_decal/industrial/warning/corner,
 /obj/structure/grille/broken,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aNZ" = (
 /obj/structure/grille,
 /obj/floor_decal/industrial/warning,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aOj" = (
 /obj/structure/bookcase/manuals/xenoarchaeology,
@@ -8507,7 +8507,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aOD" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -8600,7 +8600,7 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aOO" = (
 /obj/structure/disposalpipe/down{
@@ -8613,7 +8613,7 @@
 "aOP" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/decal/cleanable/cobweb,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPb" = (
 /obj/machinery/computer/modular{
@@ -8669,7 +8669,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aPE" = (
 /turf/simulated/wall/r_wall/hull,
@@ -8692,7 +8692,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aPG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -8707,7 +8707,7 @@
 	icon_state = "2-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aPH" = (
 /obj/random/junk,
@@ -8720,14 +8720,14 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aPI" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aPJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8742,7 +8742,7 @@
 	icon_state = "2-4"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8767,7 +8767,7 @@
 	tag_door = "escape_pod_15_berth_hatch"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8788,7 +8788,7 @@
 	pixel_y = 23
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8806,7 +8806,7 @@
 	pixel_y = 32
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8822,7 +8822,7 @@
 	},
 /obj/floor_decal/industrial/warning/corner,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8847,7 +8847,7 @@
 	tag_door = "escape_pod_16_berth_hatch"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8865,7 +8865,7 @@
 	dir = 8
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8890,7 +8890,7 @@
 	tag_door = "escape_pod_17_berth_hatch"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPS" = (
 /obj/structure/disposalpipe/segment,
@@ -8911,7 +8911,7 @@
 	icon_state = "1-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aPU" = (
 /obj/structure/ladder,
@@ -8950,7 +8950,7 @@
 /obj/machinery/atmospherics/unary/engine{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1port)
 "aQx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -8969,7 +8969,7 @@
 /obj/machinery/atmospherics/valve/shutoff/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aQz" = (
 /obj/structure/cable/green{
@@ -9003,7 +9003,7 @@
 	},
 /obj/floor_decal/industrial/warning/corner,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aQD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9019,7 +9019,7 @@
 	},
 /obj/floor_decal/industrial/warning,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aQE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9038,7 +9038,7 @@
 	icon_state = "warningcorner"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aQF" = (
 /obj/machinery/door/firedoor,
@@ -9072,7 +9072,7 @@
 	icon_state = "1-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aQI" = (
 /obj/machinery/door/airlock/external/escapepod{
@@ -9081,7 +9081,7 @@
 	name = "Escape Pod Ten"
 	},
 /obj/machinery/shield_diffuser,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aQJ" = (
 /obj/machinery/door/airlock/external/escapepod{
@@ -9090,7 +9090,7 @@
 	name = "Escape Pod Eleven"
 	},
 /obj/machinery/shield_diffuser,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aQK" = (
 /obj/machinery/door/airlock/external/escapepod{
@@ -9099,7 +9099,7 @@
 	name = "Escape Pod Twelve"
 	},
 /obj/machinery/shield_diffuser,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aRb" = (
 /obj/structure/closet/wardrobe/robotics_black,
@@ -9164,7 +9164,7 @@
 	dir = 6
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aRg" = (
 /obj/machinery/sparker{
@@ -9252,7 +9252,7 @@
 	dir = 1;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aRs" = (
 /obj/machinery/access_button{
@@ -9283,7 +9283,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aRt" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -9308,7 +9308,7 @@
 	icon_state = "warningcorner"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aRu" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -9329,7 +9329,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aRv" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -9362,7 +9362,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aRy" = (
 /obj/structure/cable/green{
@@ -9403,7 +9403,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aRB" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -9419,7 +9419,7 @@
 	locked = 1;
 	name = "Escape Pod Ten Hatch"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/shuttle/escape_pod15/station)
 "aRD" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -9435,7 +9435,7 @@
 	locked = 1;
 	name = "Escape Pod Eleven Hatch"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/shuttle/escape_pod16/station)
 "aRF" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -9451,7 +9451,7 @@
 	locked = 1;
 	name = "Escape Pod Twelve Hatch"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/shuttle/escape_pod17/station)
 "aRH" = (
 /obj/structure/disposalpipe/segment{
@@ -9469,8 +9469,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/wall/prepainted,
 /area/maintenance/firstdeck/centralport)
 "aRI" = (
 /obj/structure/disposalpipe/segment{
@@ -9487,8 +9486,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/wall/prepainted,
 /area/maintenance/firstdeck/centralport)
 "aRJ" = (
 /obj/structure/disposalpipe/segment{
@@ -9511,7 +9509,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aRK" = (
 /obj/structure/disposalpipe/segment{
@@ -9523,7 +9521,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aRL" = (
 /obj/structure/disposalpipe/segment{
@@ -9541,7 +9539,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aRM" = (
 /obj/structure/disposalpipe/segment{
@@ -9560,7 +9558,7 @@
 	dir = 10
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aRX" = (
 /obj/machinery/atmospherics/valve,
@@ -9667,7 +9665,7 @@
 	name = "Engineering External Access"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "aSs" = (
 /obj/floor_decal/industrial/hatch/yellow,
@@ -9729,7 +9727,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aSE" = (
 /obj/machinery/alarm{
@@ -9746,7 +9744,7 @@
 /obj/machinery/atmospherics/valve/shutoff/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aSK" = (
 /turf/simulated/wall/prepainted,
@@ -9794,7 +9792,7 @@
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aSZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9812,7 +9810,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "aTa" = (
 /obj/machinery/door/firedoor,
@@ -9846,7 +9844,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/warhammer/engineering{
-	req_access = list("ACCESS_MECHANICUS_RESTRICTED");
+	req_access = list("ACCESS_MECHANICUS_COMMAND");
 	name = "Servitor Labs"
 	},
 /turf/simulated/floor/warhammer/metal/alt,
@@ -9883,7 +9881,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aTg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9909,7 +9907,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aTh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9930,7 +9928,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aTi" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -10022,16 +10020,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/firstdeck/centralport)
 "aTB" = (
-/obj/machinery/embedded_controller/radio/airlock/access_controller{
-	dir = 4;
-	id_tag = "xeno_airlock_control";
-	name = "Xenobiology Access Console";
-	pixel_x = -24;
-	pixel_y = -24;
-	req_access = list("ACCESS_MECHANICUS_COMMAND");
-	tag_exterior_door = "xeno_airlock_exterior";
-	tag_interior_door = "xeno_airlock_interior"
-	},
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
@@ -10095,7 +10083,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aTI" = (
 /obj/random/trash,
@@ -10103,7 +10091,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "aTK" = (
 /turf/simulated/wall/prepainted,
@@ -10235,8 +10223,8 @@
 "aUb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/warhammer/command{
-	id_tag = "xeno_airlock_exterior";
-	locked = 1
+	req_access = list("ACCESS_MEDICAL_COMMAND");
+	name = "Xenobiology"
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/rnd/xenobiology/entry)
@@ -10251,8 +10239,8 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/warhammer/command{
-	id_tag = "xeno_airlock_exterior";
-	locked = 1
+	req_access = list("ACCESS_MEDICAL_COMMAND");
+	name = "Xenobiology"
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/rnd/xenobiology/entry)
@@ -10266,7 +10254,7 @@
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1port)
 "aUe" = (
 /obj/structure/cable/green{
@@ -10279,7 +10267,7 @@
 	dir = 4;
 	target_pressure = 15000
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1port)
 "aUf" = (
 /obj/structure/cable/green{
@@ -10291,7 +10279,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1port)
 "aUg" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -10304,7 +10292,7 @@
 	},
 /obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1port)
 "aUh" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -10492,15 +10480,6 @@
 	},
 /area/maintenance/firstdeck/foreport)
 "aUA" = (
-/obj/machinery/embedded_controller/radio/airlock/access_controller{
-	dir = 1;
-	id_tag = "xeno_airlock_control";
-	name = "Xenobiology Access Console";
-	pixel_x = 8;
-	pixel_y = -24;
-	tag_exterior_door = "xeno_airlock_exterior";
-	tag_interior_door = "xeno_airlock_interior"
-	},
 /obj/structure/hygiene/shower{
 	dir = 4
 	},
@@ -10542,8 +10521,8 @@
 "aUF" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/warhammer/command{
-	id_tag = "xeno_airlock_interior";
-	locked = 1
+	req_access = list("ACCESS_MEDICAL_COMMAND");
+	name = "Xenobiology"
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/rnd/xenobiology)
@@ -10558,8 +10537,8 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/warhammer/command{
-	id_tag = "xeno_airlock_interior";
-	locked = 1
+	req_access = list("ACCESS_MEDICAL_COMMAND");
+	name = "Xenobiology"
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/rnd/xenobiology)
@@ -11127,7 +11106,7 @@
 	dir = 8
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "bbb" = (
 /obj/machinery/atmospherics/binary/pump/high_power/on{
@@ -11225,7 +11204,7 @@
 	dir = 1;
 	icon_state = "warningcorner"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "bkb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -11290,7 +11269,7 @@
 	pixel_y = 26;
 	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "bpb" = (
 /obj/structure/catwalk,
@@ -11308,7 +11287,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "bqb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -11355,7 +11334,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "brN" = (
 /obj/machinery/barrier,
@@ -11399,7 +11378,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d1port)
 "bvY" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -11500,7 +11479,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "bFb" = (
 /obj/machinery/door/blast/regular{
@@ -11577,7 +11556,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "bHQ" = (
 /obj/structure/curtain/open/shower,
@@ -11627,7 +11606,7 @@
 	pixel_x = -24
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "bLJ" = (
 /obj/item/paper_bin,
@@ -11731,7 +11710,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/brig)
 "bSD" = (
 /obj/structure/table/steel,
@@ -11807,7 +11786,7 @@
 	name = "xeno_spawn";
 	pixel_x = -1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "bVb" = (
 /obj/item/device/radio/intercom{
@@ -11925,17 +11904,17 @@
 "ccb" = (
 /obj/shuttle_landmark/escape_pod/start/pod15,
 /obj/wallframe_spawn/reinforced/titanium,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/shuttle/escape_pod15/station)
 "cdb" = (
 /obj/shuttle_landmark/escape_pod/start/pod16,
 /obj/wallframe_spawn/reinforced/titanium,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/shuttle/escape_pod16/station)
 "ceb" = (
 /obj/shuttle_landmark/escape_pod/start/pod17,
 /obj/wallframe_spawn/reinforced/titanium,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/shuttle/escape_pod17/station)
 "cfn" = (
 /obj/structure/cable/green{
@@ -11997,7 +11976,7 @@
 	dir = 6
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "cix" = (
 /obj/machinery/vending/wallmed1{
@@ -12020,7 +11999,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ckb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan,
@@ -12300,6 +12279,17 @@
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/medical/morgue/autopsy)
+"cEY" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/wall/prepainted,
+/area/maintenance/firstdeck/centralport)
 "cFb" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/warhammer/plating,
@@ -12373,7 +12363,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "cMb" = (
 /obj/floor_decal/techfloor/orange{
@@ -12513,7 +12503,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "cXj" = (
 /obj/structure/cable/green{
@@ -12723,7 +12713,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "dkV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -12743,7 +12733,7 @@
 /obj/machinery/recharger,
 /obj/structure/table/steel,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/auxpower)
 "dlf" = (
 /obj/machinery/computer/guestpass{
@@ -12795,7 +12785,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "dsd" = (
 /obj/machinery/meter,
@@ -13083,6 +13073,18 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/medical/morgue/autopsy)
+"dUB" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/catwalk,
+/turf/simulated/floor/warhammer/plating,
+/area/maintenance/firstdeck/centralport)
 "dUZ" = (
 /obj/structure/sign/warning/vent_port,
 /turf/simulated/wall/r_wall/hull,
@@ -13227,7 +13229,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "edT" = (
 /obj/structure/sign/warning/high_voltage{
@@ -13237,7 +13239,7 @@
 /area/security/brig)
 "ehT" = (
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "ehZ" = (
 /obj/random_multi/single_item/punitelli,
@@ -13566,7 +13568,7 @@
 	},
 /obj/machinery/door/airlock/warhammer/command/ancient{
 	name = "Surgery";
-	req_access = list("ACCESS_MEDICAL_RESTRICTED")
+	req_access = list("ACCESS_MEDICAL_COMMAND")
 	},
 /turf/simulated/floor/warhammer/metal,
 /area/medical/surgery)
@@ -13742,7 +13744,7 @@
 "fnR" = (
 /obj/structure/bed,
 /obj/item/bedsheet/hos,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "foP" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -13764,7 +13766,7 @@
 	dir = 8
 	},
 /obj/machinery/meter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "fpu" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -13837,7 +13839,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "fHk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -13914,7 +13916,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "fRX" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -13966,7 +13968,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "fWb" = (
 /obj/structure/disposalpipe/segment,
@@ -14239,11 +14241,11 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "gyj" = (
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "gyP" = (
 /obj/structure/closet/l3closet/security,
@@ -14280,7 +14282,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "gAU" = (
 /obj/structure/disposalpipe/segment{
@@ -14338,7 +14340,7 @@
 /obj/machinery/rotating_alarm/security_alarm{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "gFb" = (
 /turf/simulated/floor/warhammer/coralg,
@@ -14509,7 +14511,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "hfb" = (
 /obj/structure/cable/green{
@@ -14527,7 +14529,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "hfH" = (
 /obj/structure/hygiene/toilet{
@@ -14551,7 +14553,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "hgt" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -14597,7 +14599,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "hhB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -14620,7 +14622,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/aft)
 "hjk" = (
 /obj/structure/closet/secure_closet/brig,
@@ -14676,7 +14678,7 @@
 	autoset_name = 0;
 	beacon_name = "Security - Lobby"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "hnN" = (
 /obj/structure/cable/green{
@@ -14694,7 +14696,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/aft)
 "hom" = (
 /obj/structure/table/warhammer/rich_table,
@@ -14826,7 +14828,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "hyz" = (
 /obj/structure/sign/stainedglass4,
@@ -15010,7 +15012,7 @@
 /area/rnd/xenobiology/cell_4)
 "hOZ" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "hPb" = (
 /obj/structure/cable/green{
@@ -15027,7 +15029,7 @@
 	dir = 8
 	},
 /obj/random_multi/single_item/runtime,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "hPt" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -15120,6 +15122,24 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/armoury)
+"hWW" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/maintenance/firstdeck/centralport)
 "hYM" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -15182,7 +15202,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "igp" = (
 /obj/structure/cable/green{
@@ -15394,7 +15414,7 @@
 	dir = 9
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "ixf" = (
 /obj/structure/cable/green{
@@ -15451,7 +15471,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "iBT" = (
 /turf/simulated/floor/reinforced/hydrogen,
@@ -15461,7 +15481,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "iDb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -15534,7 +15554,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "iLb" = (
 /turf/simulated/floor/warhammer/coralg,
@@ -15558,7 +15578,7 @@
 	req_access = list("ACCESS_MECHANICUS");
 	name = "Servitor Labs"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "iMW" = (
 /obj/structure/cable/green{
@@ -15576,11 +15596,21 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "iOh" = (
-/obj/random_multi/single_item/piano,
-/turf/simulated/floor/warhammer/plating,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/wall/prepainted,
 /area/maintenance/firstdeck/centralport)
 "iPb" = (
 /obj/machinery/door/blast/regular{
@@ -15618,7 +15648,7 @@
 	icon_state = "pipe-c"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "iQb" = (
 /obj/machinery/door/firedoor,
@@ -15658,7 +15688,7 @@
 	dir = 1;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "iTP" = (
 /obj/structure/cable/green{
@@ -15812,7 +15842,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "jfb" = (
 /obj/structure/cable/green{
@@ -15929,7 +15959,7 @@
 	},
 /obj/structure/catwalk,
 /obj/machinery/meter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "jkb" = (
 /obj/structure/disposalpipe/segment{
@@ -16021,7 +16051,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "jtb" = (
 /obj/structure/cable/green{
@@ -16257,7 +16287,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "jIb" = (
 /obj/structure/closet/bombcloset,
@@ -16276,7 +16306,7 @@
 	dir = 9
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "jKb" = (
 /obj/structure/cable/green{
@@ -16593,7 +16623,7 @@
 	dir = 4
 	},
 /obj/machinery/rotating_alarm/security_alarm,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "knb" = (
 /turf/simulated/floor/warhammer/metal/alt,
@@ -17136,7 +17166,7 @@
 "ldP" = (
 /obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "leb" = (
 /turf/simulated/wall/prepainted,
@@ -17193,7 +17223,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "ljb" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -17335,7 +17365,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "lwb" = (
 /obj/structure/table/steel,
@@ -17486,7 +17516,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "lCb" = (
 /obj/structure/closet/secure_closet/security_torch,
@@ -17549,7 +17579,7 @@
 /area/crew_quarters/safe_room/medical)
 "lLD" = (
 /obj/machinery/computer/arcade,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "lMb" = (
 /obj/structure/closet/secure_closet/security_torch,
@@ -17605,7 +17635,7 @@
 	dir = 5
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "lUX" = (
 /obj/structure/table/steel,
@@ -17662,7 +17692,7 @@
 /obj/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "mav" = (
 /turf/simulated/wall/prepainted,
@@ -17689,7 +17719,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "mcA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -17757,7 +17787,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
 /obj/structure/barricade/sandbagwall,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "mhb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -17773,7 +17803,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "mib" = (
 /obj/structure/disposalpipe/segment{
@@ -17791,7 +17821,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "mig" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -17819,7 +17849,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "mjt" = (
 /obj/machinery/portable_atmospherics/canister/air,
@@ -17848,7 +17878,7 @@
 /obj/machinery/rotating_alarm/security_alarm{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "mlb" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -17975,7 +18005,7 @@
 	name = "Robotics";
 	sort_type = "Robotics"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "mvE" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -18166,7 +18196,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "mLb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -18188,7 +18218,7 @@
 /area/hallway/primary/firstdeck/fore)
 "mLu" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "mMb" = (
 /obj/floor_decal/industrial/warning{
@@ -18581,7 +18611,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "nys" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -18663,7 +18693,7 @@
 	},
 /obj/machinery/door/airlock/warhammer/command/ancient{
 	name = "Surgery";
-	req_access = list("ACCESS_MEDICAL_RESTRICTED")
+	req_access = list("ACCESS_MEDICAL_COMMAND")
 	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/medical/surgery2)
@@ -18680,7 +18710,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "nFh" = (
 /obj/machinery/photocopier/faxmachine{
@@ -18795,7 +18825,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "nQb" = (
 /obj/structure/cable/green{
@@ -18885,7 +18915,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "nWl" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -18906,7 +18936,7 @@
 "nXk" = (
 /obj/floor_decal/industrial/warning,
 /obj/random/assembly,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "nZb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -18988,7 +19018,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "ocb" = (
 /obj/machinery/pager/science{
@@ -19129,7 +19159,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "orb" = (
 /turf/simulated/floor/warhammer/coralg,
@@ -19174,7 +19204,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "ovb" = (
 /obj/machinery/door/firedoor,
@@ -19299,7 +19329,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "ozG" = (
 /obj/structure/table/rack/dark,
@@ -19481,7 +19511,7 @@
 "oPD" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/warhammer/engineering{
-	req_access = list("ACCESS_MECHANICUS_RESTRICTED");
+	req_access = list("ACCESS_MECHANICUS_COMMAND");
 	name = "Servitor Labs"
 	},
 /turf/simulated/floor/warhammer/metal/alt,
@@ -19538,7 +19568,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "oSD" = (
 /turf/space,
@@ -19585,7 +19615,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/brig)
 "oVC" = (
 /obj/machinery/door/airlock/warhammer/command/ancient{
@@ -19874,7 +19904,7 @@
 "pvb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /obj/machinery/smartfridge,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/rnd/xenobiology/xenoflora)
 "pwb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -19912,7 +19942,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "pxv" = (
 /obj/structure/table/warhammer/reinf_table,
@@ -19941,7 +19971,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "pyd" = (
 /obj/structure/closet/crate/warhammer,
@@ -20350,7 +20380,7 @@
 /area/security/wing)
 "pZE" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "qab" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -20714,7 +20744,7 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "qDb" = (
 /obj/machinery/chemical_dispenser/full,
@@ -21579,7 +21609,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "rGU" = (
 /obj/structure/closet{
@@ -21619,11 +21649,11 @@
 /area/rnd/misc_lab)
 "rKD" = (
 /obj/random/torchcloset,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "rKL" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "rKP" = (
 /obj/structure/sign/warning/secure_area/armory{
@@ -21839,7 +21869,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "saS" = (
 /obj/floor_decal/techfloor{
@@ -21890,7 +21920,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "sbY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -21973,7 +22003,7 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/rnd/research)
 "sde" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "seb" = (
 /obj/machinery/door/firedoor,
@@ -22141,7 +22171,7 @@
 "smX" = (
 /obj/structure/closet/crate/solar,
 /obj/random/tech_supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "snb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -22182,7 +22212,7 @@
 	dir = 1
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "sob" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
@@ -22280,7 +22310,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "swN" = (
 /obj/structure/table/warhammer/rich_table,
@@ -22411,7 +22441,7 @@
 	icon_state = "railing0-1"
 	},
 /obj/machinery/atmospherics/valve/shutoff/fuel,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "sCx" = (
 /obj/machinery/atmospherics/valve/digital{
@@ -22451,7 +22481,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "sFY" = (
 /obj/structure/sign/medposte3,
@@ -22599,18 +22629,9 @@
 	dir = 9
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "sPb" = (
-/obj/machinery/embedded_controller/radio/airlock/access_controller{
-	id_tag = "xeno_airlock_control";
-	name = "Xenobiology Access Console";
-	pixel_x = 8;
-	pixel_y = 24;
-	req_access = list("ACCESS_MECHANICUS_COMMAND");
-	tag_exterior_door = "xeno_airlock_exterior";
-	tag_interior_door = "xeno_airlock_interior"
-	},
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -22969,7 +22990,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "tib" = (
 /obj/structure/table/steel,
@@ -23082,7 +23103,7 @@
 	dir = 4
 	},
 /obj/machinery/meter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "tob" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -23282,7 +23303,7 @@
 	dir = 8;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "tCw" = (
 /obj/floor_decal/floordetail/edgedrain{
@@ -23354,7 +23375,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "tIF" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -23386,7 +23407,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "tJO" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -23414,7 +23435,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "tTr" = (
 /obj/structure/statue/guardshrine{
@@ -23459,7 +23480,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "tUl" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -23558,7 +23579,7 @@
 	dir = 1
 	},
 /obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "ugg" = (
 /obj/structure/cable/green{
@@ -23590,7 +23611,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "uie" = (
 /obj/machinery/camera/network/security{
@@ -23658,7 +23679,7 @@
 	icon_state = "railing0-1"
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "urA" = (
 /obj/structure/table/warhammer/reinf_table,
@@ -23682,7 +23703,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "uvj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -23805,7 +23826,7 @@
 /area/rnd/xenobiology/cell_2)
 "uKa" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
 "uKs" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -23940,7 +23961,7 @@
 /obj/structure/closet/firecloset,
 /obj/item/storage/briefcase/inflatable,
 /obj/item/wrench,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "uWu" = (
 /obj/machinery/atmospherics/unary/vent_scrubber,
@@ -23972,7 +23993,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/forestarboard)
 "uXW" = (
 /obj/machinery/light_switch{
@@ -24131,7 +24152,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "vzr" = (
 /obj/machinery/firealarm{
@@ -24168,7 +24189,7 @@
 /area/thruster/d1starboard)
 "vBV" = (
 /obj/random/obstruction,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "vCN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -24325,7 +24346,7 @@
 	name = "Security Blast Door";
 	opacity = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/processing)
 "vUl" = (
 /obj/structure/cable/green{
@@ -24432,7 +24453,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "wlG" = (
 /obj/structure/table/rack/dark,
@@ -24481,7 +24502,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "wol" = (
 /obj/machinery/rotating_alarm/security_alarm,
@@ -24597,7 +24618,7 @@
 	dir = 1;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "wUg" = (
 /obj/floor_decal/techfloor{
@@ -24640,7 +24661,7 @@
 /obj/machinery/rotating_alarm/security_alarm{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/wing)
 "wXN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -24662,7 +24683,7 @@
 	icon_state = "1-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "xcW" = (
 /turf/simulated/wall/prepainted,
@@ -24695,7 +24716,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/center)
 "xoo" = (
 /obj/wallframe_spawn/reinforced,
@@ -24714,7 +24735,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/security/brig)
 "xtq" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -24724,7 +24745,7 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "xuW" = (
 /obj/structure/table/warhammer/big_wood_table{
@@ -24759,7 +24780,7 @@
 /area/rnd/xenobiology/cell_4)
 "xxB" = (
 /obj/machinery/constructable_frame/computerframe,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftport)
 "xxY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -24798,7 +24819,7 @@
 	dir = 4;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/aftstarboard)
 "xCf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -24840,7 +24861,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/fore)
 "xEq" = (
 /obj/structure/sign/warning/pods/south,
@@ -24893,7 +24914,7 @@
 	dir = 6
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralport)
 "xMy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -24950,7 +24971,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
 "xTh" = (
 /obj/structure/roller_bed,
@@ -25022,7 +25043,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/firstdeck/aft)
 "yii" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -43530,7 +43551,7 @@ aJS
 aJS
 aJS
 aJS
-aIB
+iOh
 jjh
 jjh
 jjh
@@ -43726,16 +43747,16 @@ ixb
 iNb
 xMx
 jsb
+cEY
 aKY
 aKY
 aKY
-aKY
-aKY
+cEY
 aKY
 aPS
 aKY
 aRH
-cQo
+aJS
 jjh
 jjh
 jjh
@@ -43937,7 +43958,7 @@ aJS
 aJS
 aJS
 aRI
-cQo
+aJS
 jjh
 jjh
 jjh
@@ -44336,7 +44357,7 @@ aHn
 aHn
 cQo
 cQo
-iOh
+cQo
 aJS
 aPU
 cQo
@@ -44744,7 +44765,7 @@ eGY
 bSD
 mav
 aJS
-aRI
+hWW
 cQo
 jjh
 jjh
@@ -44946,7 +44967,7 @@ xxY
 tLL
 mav
 aCZ
-aRI
+hWW
 cQo
 jjh
 jjh
@@ -45148,7 +45169,7 @@ dfZ
 rYN
 mav
 nAp
-aRI
+hWW
 cQo
 jjh
 jjh
@@ -45351,7 +45372,7 @@ gig
 mav
 bPR
 aRM
-aKY
+dUB
 aSY
 jjh
 jjh

@@ -7,13 +7,8 @@
 	actions and reactions. First generation positronics are a rare sight in the current year; most have ceased functioning due to \
 	failures in the original hardware designs."
 	language = LANGUAGE_MECHANICUS
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_HIGH_GOTHIC,
-		LANGUAGE_HUMAN_CHINESE,
-		LANGUAGE_HUMAN_ARABIC,
-		LANGUAGE_HUMAN_INDIAN,
-		LANGUAGE_HUMAN_IBERIAN,
-		LANGUAGE_HUMAN_RUSSIAN,
 		LANGUAGE_LOW_GOTHIC,
 		LANGUAGE_SIGN
 	)

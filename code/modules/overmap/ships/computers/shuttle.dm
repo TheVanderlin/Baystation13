@@ -27,7 +27,7 @@
 		. += list(
 			"destination_name" = shuttle.get_destination_name(),
 			"can_pick" = shuttle.moving_status == SHUTTLE_IDLE,
-			"fuel_usage" = shuttle.fuel_consumption * 100,
+			"fuel_usage" = shuttle.fuel_consumption * 10,
 			"remaining_fuel" = round(total_gas, 0.01) * 100,
 			"fuel_span" = fuel_span
 		)

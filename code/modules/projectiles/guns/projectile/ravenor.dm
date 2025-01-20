@@ -187,7 +187,7 @@
 	fire_sound = 'sound/warhammer/gunshot/auto3.ogg'
 	ammo_type = /obj/item/ammo_casing/autogun
 	magazine_type = /obj/item/ammo_magazine/autogun
-	allowed_magazines = list(/obj/item/ammo_magazine/autogun)
+	allowed_magazines = /obj/item/ammo_magazine/autogun
 	firemodes = list(
 		list(mode_name="semi-automatic", burst=1, fire_delay=3.2, burst_delay=2.2, burst_accuracy=null, dispersion=null),
 		list(mode_name="3-round bursts", burst=3, fire_delay=3.2, burst_delay=2.2, burst_accuracy=list(-1,-1,-2), dispersion=null)
@@ -269,8 +269,8 @@
 	wielded_item_state = "auto_grim_wielded"
 	ammo_type = /obj/item/ammo_casing/heavy
 	magazine_type = /obj/item/ammo_magazine/heavy/ap
-	allowed_magazines = list(/obj/item/ammo_magazine/heavy) // This is inbetween 5.56 and 12.77mm in terms of power.
-	caliber = CALIBER_AUTOGUN_HEAVY
+	allowed_magazines = /obj/item/ammo_magazine/heavy
+	caliber = CALIBER_AUTOHEAVY
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
 	w_class = ITEM_SIZE_HUGE
 	one_hand_penalty = 1
@@ -311,10 +311,10 @@
 	accuracy = 1
 	sales_price = 16
 	slowdown_general = 0.045
-	caliber = CALIBER_AUTOGUN_HEAVY
+	caliber = CALIBER_AUTOHEAVY
 	ammo_type = /obj/item/ammo_casing/heavy
 	magazine_type = /obj/item/ammo_magazine/heavy/ap
-	allowed_magazines = list(/obj/item/ammo_magazine/heavy)
+	allowed_magazines = /obj/item/ammo_magazine/heavy
 
 /obj/item/gun/projectile/automatic/slugrifle/on_update_icon()
 	..()
@@ -470,7 +470,7 @@
 	ammo_type = /obj/item/ammo_casing/bolter/astartes
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/bolt_rifle_magazine_astartes
-	allowed_magazines = list(/obj/item/ammo_magazine/bolt_rifle_magazine_astartes)
+	allowed_magazines = /obj/item/ammo_magazine/bolt_rifle_magazine_astartes
 	fire_sound = 'sound/warhammer/gunshot/loudbolt.ogg'
 	mag_remove_sound = 'sound/warhammer/guns/interact/ltrifle_magout.ogg'
 	mag_insert_sound = 'sound/warhammer/guns/interact/ltrifle_magin.ogg'
@@ -561,7 +561,7 @@
 	caliber = ".75"
 	ammo_type = /obj/item/ammo_casing/bolter
 	magazine_type = /obj/item/ammo_magazine/bolt_rifle_magazine
-	allowed_magazines = list(/obj/item/ammo_magazine/bolt_rifle_magazine)
+	allowed_magazines = /obj/item/ammo_magazine/bolt_rifle_magazine
 	fire_delay = 3.6
 	burst = 1
 	accuracy = -1.25
@@ -635,7 +635,7 @@
 	fire_delay = 3.2
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
 	magazine_type = /obj/item/ammo_magazine/radcarbine
-	allowed_magazines = list(/obj/item/ammo_magazine/radcarbine)
+	allowed_magazines = /obj/item/ammo_magazine/radcarbine
 	firemodes = list()
 	w_class = ITEM_SIZE_HUGE
 
@@ -663,7 +663,7 @@
 	slowdown_general = 0
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_BACK
 	magazine_type = /obj/item/ammo_magazine/radcarbine/radpistol
-	allowed_magazines = list(/obj/item/ammo_magazine/radcarbine/radpistol)
+	allowed_magazines = /obj/item/ammo_magazine/radcarbine/radpistol
 	firemodes = list()
 	w_class = ITEM_SIZE_LARGE
 
@@ -692,7 +692,7 @@
 	fire_delay = 2.8
 	slot_flags = SLOT_BACK
 	magazine_type = /obj/item/ammo_magazine/pulsemag
-	allowed_magazines = list(/obj/item/ammo_magazine/pulsemag)
+	allowed_magazines = /obj/item/ammo_magazine/pulsemag
 	w_class = ITEM_SIZE_GARGANTUAN
 	slowdown_general = 0.07
 
