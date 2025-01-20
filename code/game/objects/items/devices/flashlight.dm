@@ -209,7 +209,7 @@
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
 	slot_flags = SLOT_BELT
 	matter = list(MATERIAL_STEEL = 200,MATERIAL_GLASS = 100)
-	flashlight_range = 4
+	flashlight_range = 5
 	light_wedge = LIGHT_OMNI
 	light_color = COLOR_ORANGE
 	flashlight_power = 1
@@ -230,7 +230,7 @@
 	item_state = ""
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
 	w_class = ITEM_SIZE_TINY
-	flashlight_range = 2
+	flashlight_range = 3
 	flashlight_flags = FLASHLIGHT_CANNOT_BLIND
 
 
@@ -242,7 +242,7 @@
 	icon_state = "0candelabrum3"
 	item_state = "lantern"
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
-	flashlight_range = 3
+	flashlight_range = 4
 	light_wedge = LIGHT_OMNI
 	light_color = COLOR_ORANGE
 	flashlight_power = 1

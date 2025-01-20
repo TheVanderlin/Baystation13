@@ -4,7 +4,7 @@
 
 	description = "You have been trained to Xynergy Grade PLACEHOLDER."
 	language = LANGUAGE_NABBER
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_HIGH_GOTHIC,
 		LANGUAGE_LOW_GOTHIC,
 	)

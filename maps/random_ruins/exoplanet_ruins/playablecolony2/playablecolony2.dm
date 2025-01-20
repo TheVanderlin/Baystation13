@@ -41,10 +41,11 @@
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/sister/repentia
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 15
+	skill_points = 8
 	min_skill = list(
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
+		SKILL_MEDICAL = SKILL_EXPERIENCED,
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 	)
 
@@ -76,20 +77,21 @@
 	H.species.slowdown = -0.2
 	H.species.toxins_mod = 0.6
 	H.species.radiation_mod = 0.55
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	return ..()
 
 /datum/job/submap/colonist2_pdf
 	title = "Deserter"
 	supervisors = "the trust of your fellow Colonists"
 	info = "Once bound for a new world, your colony ship was torn from the warp and crashed on an uncharted planet. Now stranded in the Ghoul Stars, you face an unforgiving wilderness and the unknown horrors that await."
-	total_positions = 1
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/colonist2
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 17 // PDF do a lot of drills so physically fit but not much practical combat experience.
+	skill_points = 8 // PDF do a lot of drills so physically fit but not much practical combat experience.
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
-		SKILL_GUNS = SKILL_TRAINED,
-		SKILL_COMBAT = SKILL_TRAINED,
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -122,6 +124,7 @@
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/guard/uniform, slot_w_uniform)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/heavy, slot_back)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/deserter, slot_l_hand) // has gloves, mask, shoes and detpack
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	if(prob(15))
 		H.equip_to_slot_or_store_or_drop(new /obj/item/card/emag, slot_in_backpack)
 	else if(prob(30))
@@ -152,22 +155,20 @@
 	title = "Ship Heretek" // Plan make the crashed ship technical roles. Landed colony tribals.
 	supervisors = "the trust of your fellow Colonists"
 	info = "Once bound for a new world, your colony ship was torn from the warp and crashed on an uncharted planet. Now stranded in the Ghoul Stars, you face an unforgiving wilderness and the unknown horrors that await."
-	total_positions = 1
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/colonist2
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 21
+	skill_points = 8
 	min_skill = list(
-		SKILL_GUNS = SKILL_BASIC,
-		SKILL_SCIENCE = SKILL_BASIC,
-		SKILL_DEVICES = SKILL_TRAINED,
-		SKILL_MECH = SKILL_TRAINED,
-		SKILL_COMPUTER = SKILL_TRAINED,
-		SKILL_EVA = SKILL_TRAINED,
-		SKILL_CONSTRUCTION = SKILL_TRAINED,
-		SKILL_ELECTRICAL = SKILL_TRAINED,
-		SKILL_ATMOS = SKILL_BASIC,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_ENGINES = SKILL_TRAINED
+		SKILL_SCIENCE = SKILL_EXPERIENCED,
+		SKILL_DEVICES = SKILL_EXPERIENCED,
+		SKILL_COMPUTER = SKILL_EXPERIENCED,
+		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
+		SKILL_ELECTRICAL = SKILL_EXPERIENCED,
+		SKILL_ATMOS = SKILL_EXPERIENCED,
+		SKILL_MEDICAL = SKILL_EXPERIENCED,
+		SKILL_PILOT = SKILL_EXPERIENCED,
+		SKILL_ENGINES = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_DEVICES = SKILL_MASTER,
@@ -205,12 +206,13 @@
 	H.species.hunger_factor = DEFAULT_HUNGER_FACTOR * 0.5
 	H.species.species_flags = SPECIES_FLAG_LOW_GRAV_ADAPTED | SPECIES_FLAG_NO_EMBED
 	H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
-	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/mechanicus/techpriest, slot_wear_suit)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/mask/gas/techpriest, slot_wear_mask)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/shoes/jackboots/skitshoes/techpriest, slot_shoes)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/engineer, slot_w_uniform)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/gloves/thick/swat/techpriest, slot_gloves)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/techpriest, slot_back)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/mechanicus/techpriest, slot_wear_suit)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	if(prob(50))
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/augment_implanter/wrist_blade, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/organ/internal/augment/active/iatric_monitor, slot_in_backpack)
@@ -225,14 +227,15 @@
 	title = "Ship Colonist" // Plan make the crashed ship technical roles. Landed colony tribals.
 	supervisors = "the trust of your fellow Colonists"
 	info = "Once bound for a new world, your colony ship was torn from the warp and crashed on an uncharted planet. Now stranded in the Ghoul Stars, you face an unforgiving wilderness and the unknown horrors that await."
-	total_positions = 2
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/colonist2
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 18
+	skill_points = 8
 	min_skill = list(
-		SKILL_VIGOR = SKILL_TRAINED,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
-		SKILL_ELECTRICAL = SKILL_TRAINED,
+		SKILL_ELECTRICAL = SKILL_EXPERIENCED,
+		SKILL_PILOT = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -264,6 +267,7 @@
 	H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife/trench, slot_in_backpack)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/reagent_containers/hypospray/autoinjector/combatpain, slot_in_backpack)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/explorer, slot_back)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	if(prob(6))
 		H.make_genestealer()
 		to_chat(H, "<span class='notice'><b><font size=2>You are a genestealer bioform, a unique strain of tyranid genestealer capable of rapid transformation. The swarm considers you to be an abomination, but under the guidance of what you believe to be the true hivemind, you will surely succeed where the others have failed. Everything is connected.</font></b></span>")

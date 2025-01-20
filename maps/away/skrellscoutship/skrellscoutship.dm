@@ -82,13 +82,13 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 	rank = /datum/mil_rank/tau_fleet/shas
 	allowed_branches = list(/datum/mil_branch/tau_fleet)
 	allowed_ranks = list(/datum/mil_rank/tau_fleet/shas)
-	skill_points = 20
+	skill_points = 12
 	is_semi_antagonist = TRUE
 	min_skill = list(
-		SKILL_COMBAT = SKILL_EXPERIENCED,
-		SKILL_PILOT = SKILL_TRAINED,
+		SKILL_COMBAT = SKILL_MASTER,
+		SKILL_PILOT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
-		SKILL_VIGOR = SKILL_EXPERIENCED
+		SKILL_VIGOR = SKILL_MASTER
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -127,12 +127,12 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 	rank = /datum/mil_rank/tau_fleet/shas
 	allowed_branches = list(/datum/mil_branch/tau_fleet)
 	allowed_ranks = list(/datum/mil_rank/tau_fleet/shas)
-	skill_points = 20
+	skill_points = 10
 	is_semi_antagonist = TRUE
 	min_skill = list(
-		SKILL_COMBAT = SKILL_EXPERIENCED,
-		SKILL_PILOT = SKILL_TRAINED,
-		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_MASTER,
+		SKILL_PILOT = SKILL_EXPERIENCED,
+		SKILL_GUNS = SKILL_MASTER,
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 	)
 
@@ -168,11 +168,15 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 	rank = /datum/mil_rank/tau_fleet/shas
 	allowed_branches = list(/datum/mil_branch/tau_fleet)
 	allowed_ranks = list(/datum/mil_rank/tau_fleet/shas)
-	skill_points = 29
 	is_semi_antagonist = TRUE
+	skill_points = 8
 	min_skill = list(
-		SKILL_PILOT = SKILL_TRAINED,
-		SKILL_GUNS = SKILL_TRAINED,
+		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
+		SKILL_FINANCE = SKILL_EXPERIENCED,
+		SKILL_PILOT = SKILL_EXPERIENCED,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
+		SKILL_DEVICES = SKILL_EXPERIENCED,
+		SKILL_GUNS = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -211,13 +215,12 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 	rank = /datum/mil_rank/tau_fleet
 	allowed_branches = list(/datum/mil_branch/tau_fleet)
 	allowed_ranks = list(/datum/mil_rank/tau_fleet)
-	skill_points = 18
+	skill_points = 12
 	is_semi_antagonist = TRUE
 	min_skill = list(
-		SKILL_COMBAT = SKILL_TRAINED,
-		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
+		SKILL_GUNS = SKILL_MASTER,
 		SKILL_VIGOR = SKILL_EXPERIENCED,
-		SKILL_PILOT = SKILL_BASIC,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -628,11 +631,11 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 /obj/machinery/suit_storage_unit/skrell/black
 	boots = /obj/item/clothing/shoes/magboots;
 	color = "#00e1ff";
-	helmet = /obj/item/clothing/head/helmet/space/void/skrell/black;
+	helmet = /obj/item/clothing/head/helmet/tau;
 	islocked = 1;
 	name = "Tau Suit Storage Unit (Black)";
 	req_access = list("ACCESS_TAUSCOUT");
-	suit = /obj/item/clothing/suit/space/void/skrell/black
+	suit = /obj/item/clothing/suit/armor/tau
 
 //Tau Devices
 

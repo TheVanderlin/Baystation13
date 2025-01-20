@@ -8,9 +8,9 @@
 /obj/item/reagent_containers/syringe
 	name = "syringe"
 	desc = "A syringe."
-	icon = 'icons/obj/tools/syringe.dmi'
+	icon = 'icons/obj/syringe.dmi'
+	icon_state = "0"
 	item_state = "rg0"
-	icon_state = "rg"
 	matter = list(MATERIAL_GLASS = 150)
 	amount_per_transfer_from_this = 5
 	possible_transfer_amounts = "1;2;5"
@@ -92,16 +92,8 @@
 			if (SYRINGE_INJECT)
 				injoverlay = "inject"
 		AddOverlays(injoverlay)
-	icon_state = "[initial(icon_state)][rounded_vol]"
+	icon_state = "[rounded_vol]"
 	item_state = "syringe_[rounded_vol]"
-
-	if(reagents.total_volume)
-		filling = image('icons/obj/reagentfillings.dmi', src, "syringe10")
-
-		filling.icon_state = "syringe[rounded_vol]"
-
-		filling.color = reagents.get_color()
-		underlays += filling
 
 /obj/item/reagent_containers/syringe/proc/handleTarget(atom/target, mob/user)
 	switch(mode)
@@ -456,11 +448,3 @@
 		AddOverlays(injoverlay)
 	icon_state = "[rounded_vol]"
 	item_state = "syringe_[rounded_vol]"
-
-	if(reagents.total_volume)
-		filling = image('icons/obj/reagentfillings.dmi', src, "syringe10")
-
-		filling.icon_state = "syringe[rounded_vol]"
-
-		filling.color = reagents.get_color()
-		underlays += filling

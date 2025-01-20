@@ -15,7 +15,7 @@
 	desc = "Has a valve and pump attached to it."
 	use_power = POWER_USE_OFF
 	idle_power_usage = 150		//internal circuitry, friction losses and stuff
-	power_rating = 30000			// 30000 W ~ 40 HP
+	power_rating = 35000			// 30000 W ~ 40 HP
 
 	connect_types = CONNECT_TYPE_REGULAR|CONNECT_TYPE_SUPPLY|CONNECT_TYPE_FUEL //connects to regular, supply pipes, and fuel pipes
 	level = ATOM_LEVEL_UNDER_TILE
@@ -100,7 +100,7 @@
 	var/area/area = get_area(src)
 	if (area)
 		LAZYADD(area.vent_pumps, src)
-	air_contents.volume = ATMOS_DEFAULT_VOLUME_PUMP
+	air_contents.volume = ATMOS_DEFAULT_VOLUME_PUMP+600
 	icon = null
 
 /obj/machinery/atmospherics/unary/vent_pump/Destroy()
@@ -118,7 +118,7 @@
 
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/Initialize()
 	. = ..()
-	air_contents.volume = ATMOS_DEFAULT_VOLUME_PUMP + 800
+	air_contents.volume = ATMOS_DEFAULT_VOLUME_PUMP + 1200
 
 
 /obj/machinery/atmospherics/unary/vent_pump/on_update_icon(safety = 0)
@@ -195,6 +195,7 @@
 	if((environment.temperature || air_contents.temperature) && pressure_delta > 0.5)
 		if(pump_direction) //internal -> external
 			var/transfer_moles = calculate_transfer_moles(air_contents, environment, pressure_delta)
+			transfer_moles *= 1.6 // 60 percent less time spent waiting for to EVA.
 			power_draw = pump_gas(src, air_contents, environment, transfer_moles, power_rating)
 		else //external -> internal
 			var/transfer_moles = calculate_transfer_moles(environment, air_contents, pressure_delta, (network)? network.volume : 0)
@@ -207,7 +208,7 @@
 		//If we're in an area that is fucking ideal, and we don't have to do anything, chances are we won't next tick either so why redo these calculations?
 		//JESUS FUCK.  THERE ARE LITERALLY 250 OF YOU MOTHERFUCKERS ON ZLEVEL ONE AND YOU DO THIS SHIT EVERY TICK WHEN VERY OFTEN THERE IS NO REASON TO
 		if(pump_direction && pressure_checks == PRESSURE_CHECK_EXTERNAL) //99% of all vents
-			hibernate = world.time + (rand(100,200))
+			hibernate = world.time + (rand(50,120))
 
 
 	if (power_draw >= 0)

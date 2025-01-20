@@ -50,7 +50,7 @@ else if(current_title == "Bounty Hunter")
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/kasrkin
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 16
+	skill_points = 12
 	min_skill = list(
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
@@ -100,11 +100,11 @@ else if(current_title == "Bounty Hunter")
 	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/colonist2
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 17 // PDF do a lot of drills so physically fit but not much practical combat experience.
+	skill_points = 10 // PDF do a lot of drills so physically fit but not much practical combat experience.
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
-		SKILL_GUNS = SKILL_TRAINED,
-		SKILL_COMBAT = SKILL_TRAINED,
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -164,7 +164,7 @@ else if(current_title == "Bounty Hunter")
 
 /datum/job/submap/merchant
 	title = "Merchant" // The only semi-free roles left to assign to Demeter is Witch Hunter and Deserter. Also something else somewhere maybe?
-	total_positions = 1
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/demeter/crew
 	supervisors = "yourself"
 	info = "You are one of the last breathing souls aboard the Demeter, a battered star-hauler adrift in the cold void of \
@@ -172,12 +172,10 @@ else if(current_title == "Bounty Hunter")
 	few remaining souls. It’s time to choose an acting captain and salvage what little remains—before the darkness claims \
 	the rest."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 20
+	skill_points = 15
 	min_skill = list(
 		SKILL_FINANCE = SKILL_EXPERIENCED,
 		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
-		SKILL_MEDICAL = SKILL_BASIC,
-		SKILL_VIGOR = SKILL_BASIC,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -228,7 +226,7 @@ else if(current_title == "Bounty Hunter")
 
 /datum/job/submap/noble
 	title = "Witch Hunter" // The only semi-free roles left to assign to Demeter is Witch Hunter and Deserter. Also something else somewhere maybe?
-	total_positions = 1
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/demeter/crew
 	supervisors = "yourself"
 	info = "You are one of the last breathing souls aboard the Demeter, a battered star-hauler adrift in the cold void of \
@@ -236,11 +234,10 @@ else if(current_title == "Bounty Hunter")
 	few remaining souls. It’s time to choose an acting captain and salvage what little remains—before the darkness claims \
 	the rest."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 16
+	skill_points = 10
 	min_skill = list(
-		SKILL_VIGOR = SKILL_TRAINED,
-		SKILL_GUNS = SKILL_TRAINED,
-		SKILL_COMBAT = SKILL_EXPERIENCED,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_MASTER,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -284,17 +281,17 @@ else if(current_title == "Bounty Hunter")
 /datum/job/submap/demeter_crew
 	title = "Crewman"
 	supervisors = "yourself"
-	total_positions = 2
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/demeter/bondsman
 	info = "You are one of the last breathing souls aboard the Demeter, a battered star-hauler drifting far from \
 	Imperial trade routes. With the captain lost and the true crew mostly dead, the task of holding this broken ship \
 	together falls on you and the few survivors. It’s time to choose an acting captain and salvage what little remains \
 	—before the dark claims the rest."
-	skill_points = 20
+	skill_points = 13
 	min_skill = list(
-		SKILL_PILOT = SKILL_TRAINED,
-		SKILL_CONSTRUCTION = SKILL_TRAINED,
-		SKILL_ELECTRICAL = SKILL_TRAINED,
+		SKILL_PILOT = SKILL_EXPERIENCED,
+		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
+		SKILL_ELECTRICAL = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -365,11 +362,11 @@ else if(current_title == "Bounty Hunter")
 	Imperial trade routes. With the captain lost and the true crew mostly dead, the task of holding this broken ship \
 	together falls on you and the few survivors. It’s time to choose an acting captain and salvage what little remains \
 	—before the dark claims the rest."
-	skill_points = 20
+	skill_points = 12
 	min_skill = list(
-		SKILL_GUNS = SKILL_BASIC,
-		SKILL_MEDICAL = SKILL_TRAINED,
-		SKILL_FORENSICS = SKILL_EXPERIENCED,
+		SKILL_GUNS = SKILL_EXPERIENCED,
+		SKILL_MEDICAL = SKILL_EXPERIENCED,
+		SKILL_FORENSICS = SKILL_MASTER,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,

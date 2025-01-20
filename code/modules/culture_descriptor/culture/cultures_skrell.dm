@@ -11,7 +11,7 @@
 		that are long and flowing, often compared by human scholars to the attire of ancient Terra nobility. Their skin is generally light blue."
 	economic_power = 1.4
 	language = LANGUAGE_TAU
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_SIGN,
 		LANGUAGE_HIGH_GOTHIC,
 		LANGUAGE_LOW_GOTHIC
@@ -28,7 +28,7 @@
 		from the same refined materials as the Tau, though simplified—white tunics and black trousers, with minimalistic jewelry for decoration. \
 		Their skin is generally a pale blue or gray."
 	economic_power = 1.3
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_SIGN,
 		LANGUAGE_HIGH_GOTHIC,
 		LANGUAGE_LOW_GOTHIC
@@ -45,7 +45,7 @@
 		The Por caste is among the less wealthy members of the Empire, but they find satisfaction in their crucial role as the lifeblood of Tau civilization. \
 		Their clothing is made to last, with personality often expressed through subtle adornments or functional accessories. Their skin is generally a darker shade of blue."
 	economic_power = 1.2
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_SIGN,
 		LANGUAGE_HIGH_GOTHIC,
 		LANGUAGE_LOW_GOTHIC
@@ -63,7 +63,7 @@
 		often with various partners, which can strain their finances. Their attire is an eclectic mix of styles, incorporating both elaborate and practical elements, \
 		with bright colors and artistic embellishments. Their skin tones range from light blue to white, often with unique patterns."
 	economic_power = 1.3
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_SIGN,
 		LANGUAGE_HIGH_GOTHIC,
 		LANGUAGE_LOW_GOTHIC
@@ -79,7 +79,7 @@
 		While generally wealthier than the Por caste, they are still among the less affluent castes, and their large families, often consisting of three or four bondings, can strain their resources. \
 		When off-duty, they tend to blend in with civilians, wearing simple, utilitarian clothing in muted colors. Their skin is usually a deep blue, gray, or black."
 	economic_power = 1.2
-	secondary_langs = list(
+	additional_langs = list(
 		LANGUAGE_SIGN,
 		LANGUAGE_HIGH_GOTHIC,
 		LANGUAGE_LOW_GOTHIC

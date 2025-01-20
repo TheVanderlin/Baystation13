@@ -5,7 +5,8 @@
 /singleton/cultural_info/culture/human
 	name = CULTURE_HUMAN
 	description = "You are from one of various planetary cultures of mankind."
-	secondary_langs = list(
+	language = LANGUAGE_HIGH_GOTHIC
+	additional_langs = list(
 		LANGUAGE_HIGH_GOTHIC,
 		LANGUAGE_LOW_GOTHIC,
 		LANGUAGE_SIGN
@@ -22,7 +23,7 @@
 	name = CULTURE_HUMAN_OTHER
 	description = "Some people are from places no one has ever heard of or places too wild and fantastical to make it into Encyclopedia Galactica. You are one of these. "
 	economic_power = 1
-	secondary_langs = list (LANGUAGE_HIGH_GOTHIC,
+	additional_langs = list (LANGUAGE_HIGH_GOTHIC,
 		LANGUAGE_LOW_GOTHIC,
 		LANGUAGE_GUTTER,
 		LANGUAGE_SIGN)

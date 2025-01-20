@@ -9,7 +9,7 @@
 #define HAS_PERK          SKILL_UNSKILLED + 1
 
 /// Min skill value selectable
-#define SKILL_MIN      SKILL_UNSKILLED
+#define SKILL_MIN      SKILL_TRAINED
 /// Max skill value selectable
 #define SKILL_MAX      SKILL_DEMIGOD
 /// Default skill value for mobs

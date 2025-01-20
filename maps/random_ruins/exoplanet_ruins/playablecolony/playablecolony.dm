@@ -41,7 +41,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/sister
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 15
+	skill_points = 10
 	min_skill = list(
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
@@ -87,10 +87,10 @@
 	outfit_type = /singleton/hierarchy/outfit/job/colonist
 	skill_points = 27 // 3 more points then deck scum
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 16
+	skill_points = 8
 	min_skill = list(
-		SKILL_VIGOR = SKILL_EXPERIENCED,
-		SKILL_COMBAT = SKILL_EXPERIENCED,
+		SKILL_VIGOR = SKILL_MASTER,
+		SKILL_COMBAT = SKILL_MASTER,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -163,11 +163,10 @@
 	total_positions = 1
 	outfit_type = /singleton/hierarchy/outfit/job/colonist
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 20
-	min_skill = list(
-		SKILL_PILOT = SKILL_TRAINED,
-		SKILL_VIGOR = SKILL_EXPERIENCED,
-		SKILL_GUNS = SKILL_TRAINED,
+	skill_points = 10
+	min_skill = list(,
+		SKILL_VIGOR = SKILL_MASTER,
+		SKILL_GUNS = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
@@ -224,12 +223,11 @@
 	total_positions = 1
 	outfit_type = /singleton/hierarchy/outfit/job/colonist
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 17
+	skill_points = 10
 	min_skill = list(
-		SKILL_CONSTRUCTION = SKILL_TRAINED,
+		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
 		SKILL_VIGOR = SKILL_EXPERIENCED,
-		SKILL_COMBAT = SKILL_TRAINED,
-		SKILL_ELECTRICAL = SKILL_BASIC,
+		SKILL_COMBAT = SKILL_EXPERIENCED,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,

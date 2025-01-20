@@ -123,7 +123,7 @@
 	sound_landing = 'sound/effects/rocket_backwards.ogg'
 
 	range = 1
-	fuel_consumption = 2
+	fuel_consumption = 0.5
 	warmup_time = 5
 	defer_initialisation = TRUE
 	skill_needed = SKILL_BASIC
