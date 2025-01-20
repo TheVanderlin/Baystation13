@@ -483,7 +483,6 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/engineering)
 "br" = (
@@ -660,6 +659,8 @@
 /area/voxship/scavship)
 "bO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/item/paper/abductor/note_1,
+/obj/decal/remains,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/scavship)
 "bP" = (
@@ -1265,6 +1266,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/warhammer/command/ancient,
+/obj/structure/barricade/boards,
 /turf/simulated/floor/plating/vox,
 /area/voxship/fore)
 "db" = (
@@ -2123,7 +2125,6 @@
 /obj/machinery/body_scanconsole{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/daemon/zygote,
 /turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/voxship/fore)
 "fl" = (
@@ -2251,7 +2252,6 @@
 /area/voxship/fore)
 "fA" = (
 /obj/decal/cleanable/filth,
-/mob/living/simple_animal/hostile/daemon/zygote,
 /turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/voxship/fore)
 "fB" = (
@@ -2733,7 +2733,6 @@
 "gN" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/atmospherics/portables_connector,
-/obj/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3045,7 +3044,6 @@
 	dir = 1;
 	start_pressure = 4559.63
 	},
-/obj/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3296,10 +3294,9 @@
 	},
 /area/voxship/shuttle)
 "ny" = (
-/obj/structure/table/rack,
 /obj/item/storage/belt/utility/full,
 /obj/item/storage/box/glowsticks,
-/obj/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack/dark,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3682,6 +3679,8 @@
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/obj/floor_decal/industrial/outline/orange,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3772,13 +3771,12 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/scavship)
 "AQ" = (
-/obj/structure/table/rack,
 /obj/item/device/radio,
 /obj/item/device/radio,
 /obj/item/device/radio,
 /obj/item/shuttle_beacon,
 /obj/item/shuttle_beacon,
-/obj/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack/dark,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -4029,7 +4027,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/handrail{
 	dir = 8
 	},
@@ -4126,7 +4123,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/mob/living/simple_animal/passive/mouse/brown/Tom,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -4147,7 +4143,6 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
-/obj/floor_decal/industrial/outline/red,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -4157,7 +4152,6 @@
 /area/space)
 "Ln" = (
 /obj/machinery/recharge_station,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -4311,7 +4305,6 @@
 /area/voxship/shuttle)
 "PN" = (
 /obj/machinery/telecomms/receiver/map_preset/voxship,
-/mob/living/simple_animal/hostile/daemon/zygote,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/thrusters)
 "PR" = (
@@ -4365,9 +4358,6 @@
 	},
 /area/voxship/shuttle)
 "Qn" = (
-/obj/floor_decal/industrial/warning/corner{
-	dir = 4
-	},
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 8;
@@ -4541,7 +4531,6 @@
 	dir = 1;
 	start_pressure = 4559.63
 	},
-/obj/floor_decal/industrial/outline/blue,
 /obj/machinery/light{
 	dir = 8
 	},

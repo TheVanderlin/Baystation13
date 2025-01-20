@@ -21,6 +21,7 @@
 /obj/structure/railing/mapped
 	material = MATERIAL_ALUMINIUM
 	anchored = TRUE
+	health_max = 1100
 	init_color = COLOR_GUNMETAL
 
 /obj/structure/railing/mapped/wood
@@ -299,7 +300,7 @@
 			SPAN_NOTICE("\The [user] starts dismantling \the [src] with \a [tool]."),
 			SPAN_NOTICE("You start dismantling \the [src] with \the [tool].")
 		)
-		if (!user.do_skilled((tool.toolspeed * 2) SECONDS, SKILL_CONSTRUCTION, src, do_flags = DO_REPAIR_CONSTRUCT) || !user.use_sanity_check(src, tool))
+		if (!user.do_skilled(10 SECONDS, SKILL_CONSTRUCTION, src, do_flags = DO_REPAIR_CONSTRUCT) || !user.use_sanity_check(src, tool))
 			return TRUE
 		if (anchored)
 			USE_FEEDBACK_FAILURE("\The [src]'s state has changed.")
@@ -307,11 +308,17 @@
 		playsound(src, 'sound/items/Ratchet.ogg', 50, TRUE)
 		var/obj/new_sheet = material.place_sheet(loc, 2)
 		transfer_fingerprints_to(new_sheet)
-		user.visible_message(
-			SPAN_NOTICE("\The [user] dismantles \the [src] with \a [tool]."),
-			SPAN_NOTICE("You dismantle \the [src] with \the [tool].")
-		)
-		qdel_self()
+		if(prob(50))
+			user.visible_message(
+				SPAN_NOTICE("\The [user] dismantles \the [src] with \a [tool]."),
+				SPAN_NOTICE("You dismantle \the [src] with \the [tool].")
+			)
+			qdel_self()
+		else
+			user.visible_message(
+			SPAN_NOTICE("\The [user] fails to dismantle \the [src] with \a [tool]. Try again bragg."),
+			SPAN_NOTICE("You fail to dismantle \the [src] with \the [tool]. Try again bragg.")
+			)
 		return TRUE
 
 	// Screwdriver - Toggle Anchored

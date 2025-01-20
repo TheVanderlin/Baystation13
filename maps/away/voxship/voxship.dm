@@ -66,6 +66,13 @@
 	fore_dir = WEST
 	vessel_size = SHIP_SIZE_SMALL
 
+/obj/item/paper/abductor/note_1
+	name = "paper note"
+	info = {"<center><b><span style='color: green'>WARNING</span></b></center>
+			<center><span style='color: red'><small>CONFIDENTIAL USE ONLY</small></span></center>
+			This is Captain Dalin of the 182nd Dragoon Rifle Company... I'm bleeding out, not much longer now. I leave now a warning to you, the others... you will soon awaken from your pods. I've discovered this station it's not pilotable, make no attempt to do so. Instead I recommend the light-shuttle to far north of the station, though I've no strength left to make it myself...
+			"}
+
 //Ship's little lander defined here
 /datum/shuttle/autodock/overmap/vox_lander
 	name = "Amun-Ra"

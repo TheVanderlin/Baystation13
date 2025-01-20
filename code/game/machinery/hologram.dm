@@ -107,7 +107,7 @@ var/global/const/HOLOPAD_MODE = RANGE_BASED
 
 	switch(handle_type)
 		if("Machine Spirit")
-			if(last_request + 200 < world.time) //don't spam the AI with requests you jerk!
+			if(last_request + 100 < world.time) //don't spam the AI with requests you jerk!
 				last_request = world.time
 				to_chat(user, SPAN_NOTICE("You request an AI's presence."))
 				var/area/area = get_area(src)
@@ -122,7 +122,7 @@ var/global/const/HOLOPAD_MODE = RANGE_BASED
 			if(user.loc != src.loc)
 				to_chat(user, SPAN_INFO("Please step onto the holopad."))
 				return
-			if(last_request + 200 < world.time) //don't spam other people with requests either, you jerk!
+			if(last_request + 100 < world.time) //don't spam other people with requests either, you jerk!
 				last_request = world.time
 				var/list/holopadlist = list()
 				var/zlevels = GetConnectedZlevels(z)

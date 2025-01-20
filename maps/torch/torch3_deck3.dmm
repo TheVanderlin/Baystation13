@@ -3094,6 +3094,10 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/ship_munition/ap_slug{
+	dir = 1;
+	anchored = 1
+	},
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/mess)
 "iw" = (
@@ -7125,6 +7129,10 @@
 /obj/structure/closet/crate/warhammer/xenos/chest3,
 /obj/item/trash/warfare_can/flower,
 /obj/item/material/knife/folding/combat/balisong,
+/obj/item/card/id/key/grand{
+	name = "Backrooms Key";
+	access = list("ACCESS_TAVERNBACK")
+	},
 /obj/item/card/id/key/grand{
 	name = "Backrooms Key";
 	access = list("ACCESS_TAVERNBACK")
@@ -13998,8 +14006,10 @@
 /turf/simulated/floor/warhammer/plating,
 /area/storage/tools)
 "TW" = (
-/obj/machinery/vending/dinnerware,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/merchant_pad{
+	pixel_y = -4
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
 "TZ" = (
@@ -14571,9 +14581,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "VK" = (
-/obj/machinery/vending/coffee{
-	dir = 1
-	},
+/obj/machinery/vending/boozeomat,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
 "VL" = (
@@ -15053,7 +15061,10 @@
 /area/crew_quarters/mess)
 "Xo" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/vending/boozeomat,
+/obj/machinery/computer/modular/preset/merchant{
+	dir = 1;
+	pixel_y = -6
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
 "Xp" = (
