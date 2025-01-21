@@ -498,7 +498,6 @@
 		if("Compliance")
 			command_announcement.Announce(input, customname, new_sound = GLOB.using_map.command_report_sound, msg_sanitized = 1);
 			for (var/mob/T as mob in SSmobs.mob_list)
-				to_chat(T, "<br><center>[SPAN_NOTICE("<b>[FONT_HUGE("Man up.<br> Deal with it.")]</b><br>Move on.")]</center><br>")
 				if(prob(30))
 					sound_to(T, 'sound/items/cult/praise.ogg')
 				else if(prob(30))

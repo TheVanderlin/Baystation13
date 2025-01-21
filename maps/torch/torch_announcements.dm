@@ -7,7 +7,7 @@
 
 	emergency_shuttle_recall_message = "Attention all hands: emergency evacuation sequence aborted. Return to normal operating conditions."
 
-	command_report_sound = sound('sound/AI/torch/commandreport.ogg', volume = 45)
+	command_report_sound = sound('sound/items/cult/tesa.ogg', volume = 65)
 
 	grid_check_message = "Abnormal activity detected in the %STATION_NAME%'s power network. As a precaution, the %STATION_NAME%'s power must be shut down for an indefinite duration."
 	grid_check_sound = sound('sound/AI/torch/poweroff.ogg', volume = 45)
