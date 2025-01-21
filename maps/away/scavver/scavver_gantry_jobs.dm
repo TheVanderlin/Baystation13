@@ -305,7 +305,7 @@
 /datum/job/submap/scavver_bard
 	title = "Scavver Bard"
 	supervisors = "yourself"
-	total_positions = 1
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/scavver
 	info = "You are a scavver on the Gantry, a battered scavenger vessel drifting far from \
 	Imperial trade routes. It’s time to choose a leader amongst yourselves and start your journey into the void."
@@ -339,7 +339,7 @@
 	to_chat(H, "<span class='notice'><b><font size=2>As the Bard aboard the Demeter, you're a con artist gone merc peddling your talents in song and charm. Using your wit and cunning, you spin tales to manipulate and con, seeking to charm your way into opportunities and gain favors from the crew.</font></b></span>")
 	H.species.silent_steps = TRUE
 	H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
-	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/flat, slot_back)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/heavy, slot_back)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/pilgrim/musician, slot_wear_suit)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/thief3, slot_r_hand)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/secure/briefcase/money2, slot_r_hand)
@@ -408,7 +408,7 @@
 	id_types = null
 	back = /obj/item/storage/backpack/satchel/warfare
 	pda_type = /obj/item/modular_computer/pda
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/spacecash/bundle/c500 = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/spacecash/bundle/c500 = 1)
 
 /singleton/hierarchy/outfit/scavver/bondsman
 	name = ("Scavver Bondsman")
@@ -421,7 +421,7 @@
 	uniform = /obj/item/clothing/under/rank/victorian/black
 	gloves = /obj/item/clothing/gloves/thick/duty
 	back = /obj/item/storage/backpack/satchel/warfare/heavy
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1)
 
 /singleton/hierarchy/outfit/job/scavver/engineer
 	name = "Salvage Engineer"

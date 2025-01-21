@@ -301,7 +301,7 @@
 	back = /obj/item/storage/backpack/satchel/leather
 	id_types = null
 	pda_type = /obj/item/modular_computer/pda
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/spacecash/bundle/c500 = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/spacecash/bundle/c500 = 1)
 
 // Areas //
 /area/map_template/colony2

@@ -1442,6 +1442,7 @@
 	dir = 8
 	},
 /obj/floor_decal/corner/blue/mono,
+/obj/machinery/hologram/holopad/longrange/voxcaster,
 /turf/simulated/floor/tiled/monotile,
 /area/scavver/calypso)
 "xQ" = (

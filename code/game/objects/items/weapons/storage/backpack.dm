@@ -719,7 +719,6 @@
 	desc = "BZZZRRRRT."
 	icon_state = "warfare_satchel"
 	max_storage_space = DEFAULT_BACKPACK_STORAGE+3
-	canremove = FALSE
 	max_w_class = ITEM_SIZE_HUGE
 	// var/can_toggle = 1
 

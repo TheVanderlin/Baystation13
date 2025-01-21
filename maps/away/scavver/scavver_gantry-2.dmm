@@ -836,7 +836,7 @@
 "hB" = (
 /obj/machinery/alarm{
 	dir = 1;
-	pixel_y = -28;
+	pixel_y = -28
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -4454,6 +4454,7 @@
 	pixel_y = -3
 	},
 /obj/decal/cleanable/dirt,
+/obj/machinery/hologram/holopad/longrange/voxcaster,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/scavver/lifepod)
 "Mg" = (

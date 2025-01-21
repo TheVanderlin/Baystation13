@@ -37,9 +37,7 @@ var/global/const/HOLOPAD_MODE = RANGE_BASED
 	icon_state = "holopad-B0"
 	icon = 'icons/obj/machines/holopads.dmi'
 	layer = ABOVE_TILE_LAYER
-
-	var/power_per_hologram = 500 //per usage per hologram
-	idle_power_usage = 5
+	idle_power_usage = 50
 
 	var/list/mob/living/silicon/ai/masters = new() //List of AIs that use the holopad
 	var/last_request = 0 //to prevent request spam. ~Carn
@@ -391,7 +389,6 @@ For the other part of the code, check silicon say.dm. Particularly robot talk.*/
 			clear_holo(master)
 			continue
 
-		use_power_oneoff(power_per_hologram)
 	if(last_request + 200 < world.time&&incoming_connection==1)
 		if(sourcepad)
 			sourcepad.audible_message("<i>[SPAN_CLASS("game say", "The holopad connection timed out")]</i>")
@@ -494,20 +491,36 @@ Holographic project of everything else.
 /obj/machinery/hologram/projector
 	name = "hologram projector"
 	desc = "It makes a hologram appear...with magnets or something..."
-	icon = 'icons/obj/structures/coatrack.dmi'
 	icon_state = "hologram0"
 
 /obj/machinery/hologram/holopad/longrange
 	name = "long range holopad"
 	desc = "It's a floor-mounted device for projecting holographic images. This one utilizes bluespace transmitter to communicate with far away locations."
 	icon_state = "holopad-Y0"
-	power_per_hologram = 1000 //per usage per hologram
 	holopadType = HOLOPAD_LONG_RANGE
 	base_icon = "holopad-Y"
 
 // Used for overmap capable ships that should have communications, but not be AI accessible
 /obj/machinery/hologram/holopad/longrange/remoteship
 	allow_ai = FALSE
+
+/obj/machinery/hologram/holopad/longrange/voxcaster
+	name = "voxcaster"
+	desc = "It's a heavy radio backpack used by militarum personnel. These are incredibly sensitive vox-systems and long range communications will be disrupted with the slightest movement..."
+	icon = 'icons/map_project/ship/ship_equipment.dmi'
+	base_icon = "voxcaster"
+	icon_state = "voxcaster0"
+	allow_ai = FALSE
+	density = FALSE
+	anchored = FALSE
+	w_class = ITEM_SIZE_HUGE
+	layer = 4
+	idle_power_usage = 0
+	use_power = POWER_USE_OFF
+
+
+
+
 
 #undef RANGE_BASED
 #undef AREA_BASED

@@ -906,7 +906,7 @@
 	gloves = /obj/item/clothing/gloves/thick
 	back = /obj/item/storage/backpack/satchel/warfare
 	pda_type = /obj/item/modular_computer/pda
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/spacecash/bundle/c1000 = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/spacecash/bundle/c1000 = 1)
 
 /singleton/hierarchy/outfit/job/survivor/devil
 	name = OUTFIT_JOB_NAME("Catachan Survivor")
@@ -925,7 +925,7 @@
 	id_types = /obj/item/card/id/torch/crew/security
 	pda_type = /obj/item/modular_computer/pda
 	back = /obj/item/storage/backpack/satchel/warfare
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/catachan = 1, /obj/item/ammo_magazine/speedloader/revolver/ms = 2, /obj/item/ammo_magazine/heavy/kp = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/catachan = 1, /obj/item/ammo_magazine/speedloader/revolver/ms = 2, /obj/item/ammo_magazine/heavy/kp = 1)
 
 /singleton/hierarchy/outfit/job/survivor/kasrkin
 	name = OUTFIT_JOB_NAME("Kasrkin Survivor")
@@ -943,7 +943,7 @@
 	back = /obj/item/storage/backpack/satchel/warfare
 	id_types = /obj/item/card/id/torch/crew/security
 	pda_type = /obj/item/modular_computer/pda
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1, /obj/item/cell/device/high/laspack = 1, /obj/item/cell/device/high/laspack/hotshot = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1, /obj/item/cell/device/high/laspack = 1, /obj/item/cell/device/high/laspack/hotshot = 1)
 
 /singleton/hierarchy/outfit/job/survivor/interrogator
 	name = OUTFIT_JOB_NAME("Interrogator Survivor")
@@ -957,7 +957,7 @@
 	back = /obj/item/storage/backpack/satchel/leather/black
 	id_types = /obj/item/card/id/syndicate
 	pda_type = /obj/item/modular_computer/pda/security
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/implant/translator = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/implant/translator = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1)
 
 /singleton/hierarchy/outfit/job/survivor/commi
 	name = OUTFIT_JOB_NAME("Commissar Survivor")
@@ -975,7 +975,7 @@
 	back = /obj/item/storage/backpack/satchel/warfare
 	id_types = /obj/item/card/id/torch/crew/security
 	pda_type = /obj/item/modular_computer/pda
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1, /obj/item/cell/device/high/mechanicus = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1, /obj/item/cell/device/high/mechanicus = 1)
 
 /singleton/hierarchy/outfit/job/survivor/kriegcommi
 	name = OUTFIT_JOB_NAME("Krieg Commissar Survivor")
@@ -994,7 +994,7 @@
 	back = /obj/item/storage/backpack/satchel/krieger
 	id_types = /obj/item/card/id/torch/crew/security
 	pda_type = /obj/item/modular_computer/pda
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1, /obj/item/cell/device/high/mechanicus = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1, /obj/item/cell/device/high/mechanicus = 1)
 
 /singleton/hierarchy/outfit/job/survivor/sister
 	name = OUTFIT_JOB_NAME("Sister Survivor")
@@ -1012,7 +1012,7 @@
 	back = /obj/item/storage/backpack/satchel/warfare/sisterofbattle
 	id_types = /obj/item/card/id/medical
 	pda_type = /obj/item/modular_computer/pda/medical
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/bowie = 1, /obj/item/ammo_magazine/bolt_rifle_magazine/sister = 1, /obj/item/ammo_magazine/bolt_pistol_magazine = 2)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/bowie = 1, /obj/item/ammo_magazine/bolt_rifle_magazine/sister = 1, /obj/item/ammo_magazine/bolt_pistol_magazine = 2)
 
 /singleton/hierarchy/outfit/job/survivor/sister/bloody
 	name = OUTFIT_JOB_NAME("Bloody Sister Survivor")
@@ -1030,7 +1030,7 @@
 	back = /obj/item/storage/backpack/satchel/warfare/sisterofbattle/brsister
 	id_types = /obj/item/card/id/medical
 	pda_type = /obj/item/modular_computer/pda/medical
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/bowie = 1, /obj/item/ammo_magazine/bolt_rifle_magazine/sister = 2)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/bowie = 1, /obj/item/ammo_magazine/bolt_rifle_magazine/sister = 2)
 
 /singleton/hierarchy/outfit/job/survivor/sister/martyr
 	name = OUTFIT_JOB_NAME("Martyred Sister Survivor")
@@ -1048,7 +1048,7 @@
 	back = /obj/item/storage/backpack/satchel/warfare/sisterofbattle/mlsister
 	id_types = /obj/item/card/id/medical
 	pda_type = /obj/item/modular_computer/pda/medical
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/bowie = 1, /obj/item/ammo_magazine/bolt_rifle_magazine/sister = 2)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/bowie = 1, /obj/item/ammo_magazine/bolt_rifle_magazine/sister = 2)
 
 /singleton/hierarchy/outfit/job/survivor/sister/repentia
 	name = OUTFIT_JOB_NAME("Repentia Survivor")
@@ -1066,7 +1066,7 @@
 	back = /obj/item/storage/backpack/satchel/leather/black
 	id_types = /obj/item/card/id/medical
 	pda_type = /obj/item/modular_computer/pda/medical
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/bowie = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/bowie = 1)
 
 
 

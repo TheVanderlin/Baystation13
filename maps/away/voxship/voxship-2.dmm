@@ -868,7 +868,7 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/fore)
 "cw" = (
-/obj/machinery/radio_beacon,
+/obj/machinery/hologram/holopad/longrange/voxcaster,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/voxship/fore)
 "cx" = (

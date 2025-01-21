@@ -209,7 +209,7 @@ else if(current_title == "Bounty Hunter")
 		GLOB.cult.add_antagonist(H.mind, ignore_role = 1, do_not_equip = 0)
 		to_chat(H, "<span class='notice'><b><font size=2>You are a heretical cultist loyal to one or more of the Chaos Gods -- unlike the many pretenders you are truly blessed by the warp and can survive encounters that would boil the brains of most mortal men.</font></b></span>")
 	H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
-	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/flat, slot_back)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/heavy, slot_back)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/pilgrim/merchant, slot_wear_suit)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/head/bowlerhat/razor, slot_head)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/contraband/clerical, slot_in_backpack)
@@ -394,7 +394,7 @@ else if(current_title == "Bounty Hunter")
 	H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/briefcase/crimekit, slot_l_hand)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/hiver/carapace, slot_wear_suit)
-	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/flat, slot_back)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/heavy, slot_back)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/contraband/spy, slot_in_backpack) // Kind of like a shittier Thief class but more respectable and with a big revolver.
 	if(prob(50))
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/victorian/black, slot_w_uniform)
@@ -414,7 +414,7 @@ else if(current_title == "Bounty Hunter")
 			H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/briefcase/crimekit, slot_l_hand)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/hiver/carapace, slot_wear_suit)
-			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/flat, slot_back)
+			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/heavy, slot_back)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/contraband/spy, slot_in_backpack) // Kind of like a shittier Thief class but more respectable and with a big revolver.
 			if(prob(50))
 				H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/victorian/black, slot_w_uniform)
@@ -438,7 +438,7 @@ else if(current_title == "Bounty Hunter")
 				GLOB.cult.add_antagonist(H.mind, ignore_role = 1, do_not_equip = 0)
 				to_chat(H, "<span class='notice'><b><font size=2>You are a heretical cultist loyal to one or more of the Chaos Gods -- unlike the many pretenders you are truly blessed by the warp and can survive encounters that would boil the brains of most mortal men.</font></b></span>")
 			H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
-			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/flat, slot_back)
+			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/heavy, slot_back)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/pilgrim/merchant, slot_wear_suit)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/head/bowlerhat/razor, slot_head)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/contraband/clerical, slot_in_backpack)
@@ -456,7 +456,7 @@ else if(current_title == "Bounty Hunter")
 			to_chat(H, "<span class='notice'><b><font size=2>As the Bard aboard the Demeter, you're a passenger peddling your talents in song and charm. Using your wit and cunning, you spin tales to manipulate and con, seeking to charm your way into opportunities and gain favors from the crew.</font></b></span>")
 			H.species.silent_steps = TRUE
 			H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife, slot_in_backpack)
-			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/flat, slot_back)
+			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/heavy, slot_back)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/pilgrim/musician, slot_wear_suit)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/thief3, slot_r_hand)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/secure/briefcase/money2, slot_r_hand)
@@ -479,7 +479,7 @@ else if(current_title == "Bounty Hunter")
 	l_ear = /obj/item/device/radio/headset/map_preset/demeter
 	r_ear = null
 	l_pocket = /obj/item/device/flashlight/lantern
-	backpack_contents = list(/obj/item/spacecash/bundle/c1000 = 1)
+	backpack_contents = list(/obj/item/spacecash/bundle/c1000 = 1, /obj/item/device/flashlight/lantern = 1)
 
 /singleton/hierarchy/outfit/job/demeter/bondsman
 	name = ("Demeter Bondsman")
@@ -499,7 +499,7 @@ else if(current_title == "Bounty Hunter")
 	pda_slot = slot_l_store
 	l_pocket = /obj/item/device/flashlight/lantern
 	back = /obj/item/storage/backpack/satchel/warfare/heavy
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/trench = 1)
 
 /singleton/hierarchy/outfit/job/demeter/crew
 	name = ("Demeter Crew")
@@ -509,7 +509,7 @@ else if(current_title == "Bounty Hunter")
 	pda_type = /obj/item/modular_computer/pda
 	back = /obj/item/storage/backpack/satchel/leather
 	l_pocket = /obj/item/device/flashlight/lantern
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/device/radio/map_preset/demeter = 1, /obj/item/spacecash/bundle/c500 = 1)
+	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/device/radio/map_preset/demeter = 1, /obj/item/spacecash/bundle/c500 = 1)
 
 /singleton/hierarchy/outfit/job/demeter/captain
 	name = ("Demeter Captain")

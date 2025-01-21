@@ -31,7 +31,6 @@
 "ah" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/empty,
-/obj/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/tau/orange,
 /area/ship/tauscoutship/maintenance/atmos)
 "aj" = (
@@ -674,7 +673,6 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
-/obj/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/tau,
 /area/ship/tauscoutshuttle)
 "cp" = (
@@ -1379,14 +1377,6 @@
 	},
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
-"eB" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/tau/green,
-/area/ship/tauscoutship/command/armory)
 "eC" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1397,10 +1387,6 @@
 /obj/item/gun/energy/tau/pulsepistol,
 /obj/item/gun/energy/tau/pulsepistol,
 /obj/random/loot/raresidearmbundle,
-/obj/structure/window/reinforced{
-	dir = 1;
-	color = "grey"
-	},
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eD" = (
@@ -1410,27 +1396,13 @@
 /obj/structure/window/boron_reinforced{
 	dir = 8
 	},
-/obj/floor_decal/industrial/outline/red,
 /obj/random/loot/randomsupply/engineering,
 /obj/random/loot/randomsupply/tech,
 /obj/random/loot/arminserts,
 /obj/random/loot/leginserts,
-/obj/structure/window/reinforced{
-	dir = 1;
-	color = "grey"
-	},
-/turf/simulated/floor/tiled/tau/green,
-/area/ship/tauscoutship/command/armory)
-"eE" = (
-/obj/machinery/door/window/brigdoor/northleft{
-	name = "War Gear locker";
-	color = "grey"
-	},
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eF" = (
-/obj/structure/table/rack/dark,
-/obj/floor_decal/industrial/outline/red,
 /obj/item/device/gps,
 /obj/item/device/gps,
 /obj/item/device/gps,
@@ -1448,10 +1420,7 @@
 	},
 /obj/random/loot/raregunsenergy,
 /obj/random/loot/swordmelee,
-/obj/structure/window/reinforced{
-	dir = 1;
-	color = "grey"
-	},
+/obj/structure/table/warhammer/shrine,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eG" = (
@@ -1463,14 +1432,7 @@
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eI" = (
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/turf/simulated/floor/tiled/tau/green,
-/area/ship/tauscoutship/command/armory)
-"eJ" = (
-/obj/structure/window/reinforced{
-	dir = 8;
-	color = "grey"
-	},
+/obj/machinery/hologram/holopad/longrange/voxcaster,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eL" = (
@@ -1478,10 +1440,6 @@
 /obj/random/loot/lootartifacts,
 /obj/random/loot/lootcontraband,
 /obj/random/loot/rigloot,
-/obj/structure/window/reinforced{
-	dir = 1;
-	color = "grey"
-	},
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eN" = (
@@ -1489,41 +1447,33 @@
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eP" = (
-/obj/structure/table/rack/dark,
 /obj/item/tank/jetpack/carbondioxide,
 /obj/item/tank/jetpack/carbondioxide,
 /obj/item/tank/jetpack/carbondioxide,
+/obj/structure/table/warhammer/shrine,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eQ" = (
-/obj/floor_decal/industrial/outline/red,
 /obj/structure/table/warhammer/shrine,
 /obj/item/gun/energy/tau/ionrifle,
-/obj/structure/window/reinforced{
-	dir = 8;
-	color = "grey"
-	},
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eS" = (
-/obj/floor_decal/industrial/outline/red,
 /obj/structure/table/warhammer/shrine,
 /obj/item/gun/energy/tau/pulserifle,
-/obj/item/cell/device/high/xenos,
+/obj/item/gun/energy/tau/pulserifle,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eT" = (
 /obj/item/gun/energy/tau/pulserifle,
-/obj/floor_decal/industrial/outline/red,
 /obj/structure/table/warhammer/shrine,
-/obj/item/cell/device/high/xenos,
+/obj/item/gun/energy/tau/pulserifle,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eU" = (
-/obj/structure/table/rack/dark,
-/obj/floor_decal/industrial/outline/red,
 /obj/item/cell/device/high/xenos,
 /obj/item/gun/energy/tau/railgun,
+/obj/structure/table/warhammer/shrine,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "eV" = (
@@ -1709,7 +1659,6 @@
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/robotics)
 "fy" = (
-/obj/floor_decal/industrial/outline/red,
 /obj/machinery/stasis_cage,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/robotics)
@@ -2230,7 +2179,6 @@
 /obj/item/storage/belt/holster/tau,
 /obj/item/storage/belt/holster/tau,
 /obj/item/storage/belt/holster/tau,
-/obj/floor_decal/industrial/outline/red,
 /obj/item/material/twohanded/ravenor/knife/tau,
 /obj/item/material/twohanded/ravenor/knife/tau,
 /obj/structure/table/warhammer/shrine,
@@ -3307,7 +3255,6 @@
 /obj/machinery/light/tau{
 	dir = 8
 	},
-/obj/floor_decal/industrial/outline/red,
 /obj/item/rig/hazard,
 /obj/item/rig_module/electrowarfare_suite,
 /obj/item/rig_module/personal_shield,
@@ -3343,7 +3290,6 @@
 /area/ship/tauscoutship/robotics)
 "jW" = (
 /obj/structure/table/rack/dark,
-/obj/floor_decal/industrial/outline/red,
 /obj/item/rig/hazmat,
 /obj/item/rig_module/mounted/energy/energy_blade,
 /obj/item/rig_module/vision/meson,
@@ -3386,7 +3332,6 @@
 /area/ship/tauscoutship/command/bridge)
 "ke" = (
 /obj/structure/table/rack/dark,
-/obj/floor_decal/industrial/outline/red,
 /obj/item/tank/jetpack/carbondioxide,
 /obj/random/loot/basicarmorbundle,
 /turf/simulated/floor/tiled/tau/green,
@@ -3396,7 +3341,6 @@
 /obj/structure/window/boron_reinforced{
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/red,
 /obj/item/tank/jetpack/carbondioxide,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/robotics)
@@ -3877,7 +3821,6 @@
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/empty,
-/obj/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/tau,
 /area/ship/tauscoutshuttle)
 "nG" = (
@@ -4337,13 +4280,12 @@
 /turf/simulated/floor/plating,
 /area/ship/tauscoutship/maintenance/power)
 "vh" = (
-/obj/structure/table/rack/dark,
 /obj/machinery/light/tau{
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/red,
 /obj/item/cell/device/high/xenos,
 /obj/item/gun/energy/tau/railgun,
+/obj/structure/table/warhammer/shrine,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "vI" = (
@@ -4554,7 +4496,6 @@
 /obj/structure/window/boron_reinforced{
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/red,
 /obj/item/rig_module/grenade_launcher,
 /obj/item/rig_module/vision/nvg,
 /obj/item/rig_module/device/defib,
@@ -5311,6 +5252,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "LI" = (
@@ -6286,23 +6228,14 @@
 	icon_state = "4-8"
 	},
 /obj/structure/table/rack/dark,
-/obj/item/gun/energy/tau/pulserifle,
 /obj/item/cell/device/high/xenos,
-/obj/structure/window/reinforced{
-	dir = 1;
-	color = "grey"
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	color = "grey"
-	},
+/obj/item/cell/device/high/xenos,
 /turf/simulated/floor/tiled/tau/green,
 /area/ship/tauscoutship/command/armory)
 "Xw" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
-/obj/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/tau/orange,
 /area/ship/tauscoutship/maintenance/atmos)
 "XD" = (
@@ -13513,8 +13446,8 @@ gm
 PK
 eo
 eu
-eB
-eI
+Xs
+eu
 eP
 Fl
 jD
@@ -13616,7 +13549,7 @@ Fl
 ep
 eu
 Xs
-eJ
+eu
 eQ
 Fl
 Oh
@@ -14023,7 +13956,7 @@ tL
 PK
 Gq
 eu
-eE
+eu
 eu
 eu
 Fl
@@ -14124,7 +14057,7 @@ fZ
 gt
 Fl
 Aq
-eu
+eI
 eF
 vh
 eU

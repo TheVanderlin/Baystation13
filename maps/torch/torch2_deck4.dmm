@@ -227,10 +227,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/fourthdeck/aft)
 "be" = (
@@ -1136,10 +1132,6 @@
 	tag_interior_door = "merchant_shuttle_station_interior"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/fore)
 "en" = (
@@ -1390,20 +1382,7 @@
 	c_tag = "Fourth Deck - Fore Starboard Airlock";
 	dir = 4
 	},
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
-	},
 /turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/fourthdeck/fore)
-"fk" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/fourthdeck/fore)
 "fl" = (
 /turf/simulated/wall/ocp_wall,
@@ -1695,11 +1674,6 @@
 /turf/simulated/floor/warhammer/brick,
 /area/crew_quarters/galley)
 "gw" = (
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22;
-	pixel_y = 4
-	},
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -2145,14 +2119,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/galley)
-"jr" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24;
-	pixel_y = 6
-	},
-/turf/simulated/floor/warhammer/coralg,
-/area/crew_quarters/lounge)
 "js" = (
 /obj/structure/catwalk,
 /obj/machinery/light,
@@ -2271,10 +2237,6 @@
 /area/crew_quarters/galley)
 "kc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 21
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/eva)
 "kd" = (
@@ -2315,10 +2277,6 @@
 	dir = 4
 	},
 /obj/structure/table/steel,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
 /obj/item/folder/yellow,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/tcommsat/chamber)
@@ -2503,11 +2461,6 @@
 /obj/machinery/camera/network/fourth_deck{
 	c_tag = "Fourth Deck - EVA";
 	dir = 4
-	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24;
-	pixel_y = 6
 	},
 /turf/simulated/floor/warhammer/newsteel/dark2,
 /area/eva)
@@ -2734,10 +2687,6 @@
 "md" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
-	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 21
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/eva)
@@ -3079,18 +3028,7 @@
 	},
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/crew_quarters/galley)
-"nq" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/fourthdeck/fore)
 "nr" = (
-/obj/item/device/radio/intercom{
-	dir = 1;
-	pixel_y = -28
-	},
 /obj/machinery/camera/network/fourth_deck{
 	c_tag = "Fourth Deck Hallway - Fore Starboard";
 	dir = 1
@@ -3203,10 +3141,6 @@
 /area/hallway/primary/fourthdeck/aft)
 "nT" = (
 /obj/random/ironing_board_structure,
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -22
-	},
 /obj/item/ironing_iron,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/crew_quarters/laundry)
@@ -3569,9 +3503,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/storage/primary)
 "pS" = (
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
 /obj/machinery/vending/tool{
 	dir = 8
 	},
@@ -3742,10 +3673,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/storage/primary)
 "rb" = (
@@ -3762,18 +3689,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/storage/primary)
-"re" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/structure/disposalpipe/segment,
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/hallway/primary/fourthdeck/fore)
 "ri" = (
 /turf/simulated/wall/r_wall/hull,
 /area/crew_quarters/galleybackroom)
@@ -4031,10 +3946,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/fore)
 "sq" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
 /obj/machinery/camera/network/fourth_deck{
 	c_tag = "Fourth Deck Hallway - Primary Docking Port";
 	dir = 8
@@ -4583,10 +4494,6 @@
 "tU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 21
-	},
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/fourthdeck/fore)
@@ -4669,10 +4576,6 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/item/device/radio/intercom{
-	dir = 1;
-	pixel_y = -28
-	},
 /obj/machinery/camera/network/fourth_deck{
 	c_tag = "Fourth Deck Hallway - Lift";
 	dir = 1
@@ -4729,10 +4632,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
 	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 21
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/eva)
 "uw" = (
@@ -4787,10 +4686,6 @@
 	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
-	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/aft)
@@ -5627,19 +5522,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/fourthdeck/fore)
-"xU" = (
-/obj/item/device/radio/intercom{
-	pixel_y = 23
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/hallway/primary/fourthdeck/fore)
 "xV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5651,19 +5533,6 @@
 	dir = 1
 	},
 /turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/fourthdeck/fore)
-"xW" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/fourthdeck/fore)
 "xX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -5843,18 +5712,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/aft)
-"yG" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "packageSort1"
-	},
-/obj/random/junk,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/quartermaster/sorting)
 "yH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -6154,10 +6011,6 @@
 "Ae" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
-	},
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -6648,10 +6501,6 @@
 /turf/simulated/floor/warhammer/basalt/three,
 /area/crew_quarters/adherent)
 "CD" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 21
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/fourthdeck/aft)
 "CG" = (
@@ -6673,16 +6522,6 @@
 "CL" = (
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/aft)
-"CT" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 21
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/hallway/primary/fourthdeck/fore)
 "CU" = (
 /obj/structure/table/steel,
 /obj/item/frame/fire_alarm,
@@ -8146,10 +7985,6 @@
 /area/hallway/primary/fourthdeck/aft)
 "IC" = (
 /obj/structure/adherent_bath,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
 /obj/machinery/light{
 	dir = 4
 	},
@@ -8298,18 +8133,6 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/tcommsat/chamber)
-"Jn" = (
-/obj/item/device/radio/intercom{
-	dir = 1;
-	pixel_y = -28
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 1;
-	id_tag = "eva_airlock_pump"
-	},
-/obj/floor_decal/techfloor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/eva)
 "Jo" = (
 /obj/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -8547,10 +8370,6 @@
 "Kj" = (
 /obj/machinery/light{
 	dir = 4
-	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
 	},
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -9610,10 +9429,6 @@
 /area/hallway/primary/fourthdeck/aft)
 "NT" = (
 /obj/machinery/cryopod,
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 21
-	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
 	dir = 1;
 	frequency = 1380;
@@ -10492,22 +10307,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/fourthdeck/aft)
-"Rf" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/item/device/radio/intercom{
-	dir = 1;
-	pixel_y = -28
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/fancyfloor/carpet,
-/area/crew_quarters/lounge)
 "Rk" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -10572,13 +10371,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/fore)
-"Rv" = (
-/obj/item/device/radio/intercom{
-	dir = 1;
-	pixel_y = -28
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/eva)
 "Rw" = (
 /obj/structure/flora/pottedplant/crystal,
 /obj/machinery/power/apc{
@@ -10620,22 +10412,8 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/fourthdeck/fore)
-"RC" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/obj/effect/floor_decal/newcorner/polar{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/galley)
 "RD" = (
 /obj/machinery/hologram/holopad,
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
-	},
 /obj/structure/railing/mapped{
 	dir = 1;
 	icon_state = "railing0-1"
@@ -10862,10 +10640,6 @@
 	name = "escape pod four controller";
 	pixel_y = -32;
 	tag_door = "escape_pod_9_hatch"
-	},
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
 	},
 /turf/simulated/floor/warhammer/brothel,
 /area/shuttle/escape_pod9/station)
@@ -11094,10 +10868,6 @@
 	pixel_x = 6;
 	pixel_y = 24
 	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22
-	},
 /turf/simulated/floor/warhammer/ceramic,
 /area/quartermaster/deckchief)
 "SW" = (
@@ -11291,22 +11061,8 @@
 	pixel_y = 32;
 	tag_door = "escape_pod_6_hatch"
 	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 21
-	},
 /turf/simulated/floor/warhammer/brothel,
 /area/shuttle/escape_pod6/station)
-"Tx" = (
-/obj/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/warhammer/coralg,
-/area/crew_quarters/lounge)
 "TA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -11563,9 +11319,6 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/item/device/radio/intercom{
-	pixel_y = 23
-	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/fore)
 "UD" = (
@@ -11904,9 +11657,6 @@
 	pixel_x = 4;
 	pixel_y = -2
 	},
-/obj/item/device/radio/intercom{
-	pixel_y = 23
-	},
 /obj/machinery/light{
 	dir = 1
 	},
@@ -11990,18 +11740,6 @@
 	},
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/crew_quarters/galley)
-"VS" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/structure/disposalpipe/segment,
-/obj/structure/catwalk,
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/hallway/primary/fourthdeck/fore)
 "VW" = (
 /turf/simulated/wall/ocp_wall,
 /area/maintenance/waterstore)
@@ -12045,12 +11783,6 @@
 /obj/machinery/telecomms/server/presets/command,
 /turf/simulated/floor/bluegrid,
 /area/tcommsat/chamber)
-"Wd" = (
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
-/turf/simulated/open,
-/area/quartermaster/storage/upper)
 "We" = (
 /obj/structure/cable/green{
 	d2 = 4;
@@ -12442,13 +12174,6 @@
 "Xn" = (
 /turf/simulated/wall/prepainted,
 /area/hallway/primary/fourthdeck/aft)
-"Xr" = (
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/quartermaster/storage/upper)
 "Xs" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -12586,10 +12311,6 @@
 "XP" = (
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/disposal,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
@@ -12902,10 +12623,6 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fourthdeck/port)
 "YG" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 21
-	},
 /obj/structure/hygiene/sink{
 	dir = 4;
 	pixel_x = 11;
@@ -12961,9 +12678,6 @@
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/galleybackroom)
 "YS" = (
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
 /obj/machinery/light_switch{
 	pixel_x = 10;
 	pixel_y = 32
@@ -13220,10 +12934,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22
-	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/tcommsat/chamber)
 "Zx" = (
@@ -13296,10 +13006,6 @@
 	name = "escape pod two controller";
 	pixel_y = 32;
 	tag_door = "escape_pod_7_hatch"
-	},
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -21
 	},
 /turf/simulated/floor/warhammer/brothel,
 /area/shuttle/escape_pod7/station)
@@ -13399,18 +13105,6 @@
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/galleybackroom)
-"ZZ" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/item/device/radio/intercom{
-	dir = 1;
-	pixel_y = -28
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/fourthdeck/fore)
 
 (1,1,1) = {"
 Dl
@@ -22197,7 +21891,7 @@ os
 zj
 lU
 oK
-Jn
+qJ
 zj
 wx
 Iw
@@ -23214,7 +22908,7 @@ xP
 Mi
 AE
 Iq
-Rv
+Wu
 Dd
 zj
 zj
@@ -24624,7 +24318,7 @@ dg
 dg
 dg
 dg
-xU
+nm
 Pz
 AH
 BK
@@ -25020,7 +24714,7 @@ ej
 ej
 mk
 nm
-nq
+Zj
 dg
 dg
 dg
@@ -25028,8 +24722,8 @@ dg
 dg
 dg
 dg
-xW
-ZZ
+nm
+Pz
 AH
 AH
 AH
@@ -25436,11 +25130,11 @@ xY
 zu
 AK
 BS
-CT
+EI
 DO
 EI
 Fo
-fk
+hU
 GB
 Ho
 HR
@@ -26645,7 +26339,7 @@ ub
 vz
 wF
 nx
-ZZ
+Pz
 le
 BX
 CX
@@ -27040,10 +26734,10 @@ ji
 uf
 lh
 ms
-VS
+oH
 oH
 kW
-re
+oH
 sz
 ud
 vA
@@ -30696,7 +30390,7 @@ Zk
 Sd
 Sd
 RY
-jr
+RY
 OO
 Jo
 Nw
@@ -31500,7 +31194,7 @@ gg
 Yd
 XZ
 TY
-Rf
+Gp
 Sd
 Sd
 Sd
@@ -32490,7 +32184,7 @@ gw
 BI
 in
 JD
-RC
+JD
 af
 eK
 mU
@@ -32511,7 +32205,7 @@ Sd
 EZ
 Qo
 Uj
-Tx
+MY
 Sd
 Id
 eq
@@ -34333,7 +34027,7 @@ PQ
 KE
 Yz
 On
-yG
+zl
 sh
 JL
 rn
@@ -34935,7 +34629,7 @@ bE
 fA
 Vb
 Np
-Xr
+tA
 HL
 Bf
 Yf
@@ -35738,7 +35432,7 @@ TO
 SK
 XP
 vK
-Wd
+ul
 PB
 Qe
 tA
