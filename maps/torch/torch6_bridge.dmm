@@ -123,7 +123,6 @@
 /turf/simulated/wall/r_wall/hull,
 /area/bridge/storage)
 "au" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 2;
 	d2 = 4;
@@ -132,7 +131,6 @@
 /turf/simulated/floor,
 /area/solar/bridge)
 "av" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 4;
 	d2 = 8;
@@ -151,7 +149,6 @@
 /turf/simulated/floor,
 /area/solar/bridge)
 "aw" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 2;
 	d2 = 8;
@@ -280,7 +277,6 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/bridge/aftstarboard)
 "aH" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 1;
 	d2 = 2;
@@ -421,7 +417,6 @@
 /area/bridge)
 "bb" = (
 /obj/structure/closet/warhammer/emcloset,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
 "bc" = (
@@ -455,23 +450,11 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/heads/cobed)
 "bh" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
+	pixel_y = -8
 	},
-/turf/simulated/floor/warhammer/darkwood,
-/area/crew_quarters/heads/cobed)
+/turf/simulated/wall/prepainted,
+/area/hallway/primary/bridge/aft)
 "bi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -585,7 +568,6 @@
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/substation/bridge)
 "bE" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 1;
 	d2 = 2;
@@ -1116,7 +1098,6 @@
 /turf/simulated/open,
 /area/maintenance/substation/bridge)
 "cO" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 1;
 	d2 = 4;
@@ -1125,7 +1106,6 @@
 /turf/simulated/floor,
 /area/solar/bridge)
 "cP" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 4;
 	d2 = 8;
@@ -1134,7 +1114,6 @@
 /turf/simulated/floor,
 /area/solar/bridge)
 "cQ" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 2;
 	d2 = 8;
@@ -1853,7 +1832,6 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/maintenance/bridge/aftstarboard)
@@ -2084,7 +2062,6 @@
 /area/aquila/cockpit)
 "fK" = (
 /obj/machinery/hologram/holopad/longrange,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/aquila/cockpit)
 "fL" = (
@@ -2152,12 +2129,10 @@
 /area/bridge/hallway/port)
 "fS" = (
 /obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -28;
-	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	pixel_y = -8
 	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/bridge/hallway/port)
+/turf/simulated/wall/ocp_wall,
+/area/crew_quarters/heads/cobed)
 "fT" = (
 /obj/machinery/rotating_alarm/security_alarm{
 	dir = 1
@@ -2315,11 +2290,6 @@
 	dir = 4
 	},
 /obj/structure/closet/warhammer/emcloset,
-/obj/floor_decal/industrial/outline/yellow,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -22
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/aquila/cockpit)
 "gp" = (
@@ -2484,16 +2454,11 @@
 /turf/simulated/floor/reinforced,
 /area/space)
 "gZ" = (
-/obj/machinery/porta_turret{
-	dir = 8;
-	enabled = 0;
-	lethal = 1;
-	name = "Mechanicus Turret"
+/obj/paint/meatstation,
+/obj/machinery/alarm{
+	pixel_y = -8
 	},
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor{
-	map_airless = 1
-	},
+/turf/simulated/wall/titanium,
 /area/aquila/cockpit)
 "ha" = (
 /obj/machinery/sleeper{
@@ -2517,7 +2482,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/aquila/cockpit)
 "hc" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/porta_turret{
 	dir = 8;
 	enabled = 0;
@@ -2660,10 +2624,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/crew)
 "hV" = (
@@ -2749,17 +2709,11 @@
 /turf/simulated/open,
 /area/hallway/primary/bridge/fore)
 "io" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
+	pixel_y = -8
 	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/hallway/primary/bridge/fore)
+/turf/simulated/wall/ocp_wall,
+/area/crew_quarters/heads/office/co)
 "ip" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	dir = 4;
@@ -2800,10 +2754,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
 "iu" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
@@ -3310,7 +3260,6 @@
 	pixel_y = 24
 	},
 /obj/structure/closet/warhammer/emcloset,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/aft)
 "kW" = (
@@ -3328,7 +3277,6 @@
 	pixel_y = 25
 	},
 /obj/machinery/disposal,
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
@@ -3797,7 +3745,6 @@
 	dir = 1
 	},
 /obj/structure/closet/warhammer/emcloset,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/aft)
 "nd" = (
@@ -3806,7 +3753,6 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/bridge/aft)
 "ne" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/crew,
 /obj/random/maintenance/solgov/clean,
 /obj/random/maintenance/solgov/clean,
@@ -4052,7 +3998,6 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/security/bridgecheck)
 "oa" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow,
 /obj/machinery/power/tracker,
 /turf/simulated/floor/reinforced,
@@ -4228,9 +4173,6 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/machinery/alarm{
-	pixel_y = 24
 	},
 /obj/floor_decal/corner/brown/half{
 	dir = 8
@@ -5388,9 +5330,6 @@
 /obj/floor_decal/techfloor{
 	dir = 1
 	},
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
 /obj/floor_decal/techfloor/orange{
 	dir = 5
 	},
@@ -5483,14 +5422,12 @@
 /obj/floor_decal/techfloor{
 	dir = 10
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/light,
 /obj/structure/closet/secure_closet/crew,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/storage)
 "tN" = (
 /obj/floor_decal/techfloor,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/crew,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/storage)
@@ -5498,7 +5435,6 @@
 /obj/floor_decal/techfloor{
 	dir = 6
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/crew,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/storage)
@@ -5691,17 +5627,6 @@
 "uH" = (
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/safe_room/bridge)
-"uI" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/obj/structure/closet/secure_closet/bridgeofficer,
-/turf/simulated/floor/warhammer/plating,
-/area/crew_quarters/safe_room/bridge)
 "uJ" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -5796,7 +5721,6 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/shield/bridge)
 "ve" = (
@@ -5931,7 +5855,6 @@
 /area/maintenance/auxsolarbridge)
 "vJ" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/maintenance/auxsolarbridge)
@@ -6246,7 +6169,6 @@
 	pixel_y = 24;
 	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 4;
 	d2 = 8;
@@ -6260,7 +6182,6 @@
 /turf/simulated/floor,
 /area/solar/bridge)
 "wu" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 1;
 	d2 = 8;
@@ -6392,10 +6313,6 @@
 /area/maintenance/auxsolarbridge)
 "wU" = (
 /obj/item/stool,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/maintenance/auxsolarbridge)
 "wV" = (
@@ -6533,27 +6450,11 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/bridge/aftport)
 "xm" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
+	pixel_y = -8
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/maintenance/bridge/aftport)
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/heads/office/sgr)
 "xn" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -6588,7 +6489,6 @@
 	anchored = 1;
 	sheets = 25
 	},
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/power)
@@ -6704,19 +6604,15 @@
 /area/maintenance/bridge/foreport)
 "xJ" = (
 /obj/structure/ladder,
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/maintenance/bridge/foreport)
 "xK" = (
 /obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
+	pixel_y = -8
 	},
-/obj/structure/lattice,
-/obj/structure/catwalk,
-/turf/simulated/open,
-/area/maintenance/bridge/foreport)
+/turf/simulated/wall/prepainted,
+/area/bridge/disciplinary_board_room)
 "xP" = (
 /obj/landmark/map_data{
 	height = 6
@@ -6743,7 +6639,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/aquila/airlock)
 "xR" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 1;
 	d2 = 4;
@@ -6869,7 +6764,6 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/crew_quarters/heads/cobed)
 "yL" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/firecloset,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -6998,7 +6892,6 @@
 /obj/floor_decal/techfloor{
 	dir = 9
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/storage)
 "zx" = (
@@ -7180,11 +7073,6 @@
 /turf/simulated/wall/r_wall/hull,
 /area/bridge)
 "Ay" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
@@ -7391,7 +7279,6 @@
 	icon_state = "0-4"
 	},
 /obj/structure/closet/warhammer/emcloset,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
@@ -7447,7 +7334,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/cable/cyan{
 	d1 = 2;
 	d2 = 8;
@@ -7646,10 +7532,6 @@
 /obj/item/device/multitool,
 /obj/item/device/destTagger,
 /obj/item/stack/package_wrap/cargo_wrap,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/bridge)
 "Dw" = (
@@ -7766,7 +7648,6 @@
 	icon_state = "2-8"
 	},
 /obj/machinery/hologram/holopad,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -7806,7 +7687,6 @@
 "Ey" = (
 /obj/machinery/light,
 /obj/machinery/disposal,
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
@@ -8589,7 +8469,6 @@
 	dir = 8;
 	start_pressure = 450
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "IG" = (
@@ -9375,7 +9254,6 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/heads/office/co)
 "NL" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -9562,7 +9440,6 @@
 /area/bridge/storage)
 "OX" = (
 /obj/machinery/shipsensors,
-/obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor{
 	map_airless = 1
 	},
@@ -9582,10 +9459,6 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/machinery/alarm{
-	pixel_y = 23;
-	req_access = list("ACCESS_MECHANICUS_COMMAND")
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/aquila/air)
 "Pc" = (
@@ -9599,7 +9472,6 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/maintenance/auxsolarbridge)
 "Pd" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -9692,7 +9564,6 @@
 /obj/floor_decal/techfloor{
 	dir = 1
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/storage)
 "PU" = (
@@ -9886,7 +9757,6 @@
 /turf/simulated/wall/ocp_wall,
 /area/crew_quarters/heads/cobed)
 "Rg" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d1 = 1;
 	d2 = 2;
@@ -9988,10 +9858,6 @@
 /turf/simulated/wall/r_wall/hull,
 /area/bridge)
 "RD" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/structure/reagent_dispensers/water_cooler{
 	dir = 8
 	},
@@ -10143,7 +10009,6 @@
 /obj/floor_decal/techfloor{
 	dir = 5
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/storage)
 "Tc" = (
@@ -10393,7 +10258,6 @@
 /area/crew_quarters/heads/cobed)
 "Uu" = (
 /obj/machinery/hologram/holopad,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/coralg,
 /area/security/bridgecheck)
 "Ux" = (
@@ -10681,7 +10545,6 @@
 /area/maintenance/bridge/foreport)
 "Xa" = (
 /obj/structure/closet/firecloset,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/power/apc/high{
 	dir = 8;
 	name = "west bump";
@@ -10757,7 +10620,6 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/heads/cobed)
 "Xz" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/guncabinet/lasgun,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/bridge)
@@ -20224,7 +20086,7 @@ vv
 vv
 oM
 Dx
-Dx
+io
 Ui
 jz
 cu
@@ -20845,7 +20707,7 @@ ef
 eE
 fc
 fC
-fS
+fw
 sy
 tm
 uG
@@ -21658,7 +21520,7 @@ Pg
 VY
 TT
 ud
-uI
+ud
 vp
 vU
 IF
@@ -22469,7 +22331,7 @@ sL
 sL
 sL
 sL
-sL
+xm
 ie
 ie
 xj
@@ -22877,7 +22739,7 @@ Xg
 Xg
 Xg
 BG
-xK
+Fz
 tg
 tg
 tg
@@ -23852,7 +23714,7 @@ dG
 Xx
 UL
 cq
-bh
+aE
 cq
 GA
 Oh
@@ -24055,7 +23917,7 @@ bR
 bR
 cq
 bi
-cq
+fS
 Kx
 pF
 Pl
@@ -24684,7 +24546,7 @@ vx
 qt
 rl
 zF
-TX
+xK
 FX
 wL
 Fn
@@ -24874,7 +24736,7 @@ sT
 gk
 Yj
 hF
-io
+kK
 iZ
 jT
 kK
@@ -25095,8 +24957,8 @@ Fn
 pG
 RQ
 wN
-TX
-xm
+xK
+xl
 CN
 CN
 CN
@@ -26290,7 +26152,7 @@ fI
 fI
 fI
 fI
-fI
+bh
 kM
 nb
 kM
@@ -29114,7 +28976,7 @@ ad
 fj
 eb
 fk
-gZ
+hc
 QF
 iu
 jg
@@ -29720,7 +29582,7 @@ eH
 fm
 fJ
 gp
-ec
+gZ
 hM
 AN
 jF

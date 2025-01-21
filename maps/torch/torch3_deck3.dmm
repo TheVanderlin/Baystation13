@@ -380,7 +380,6 @@
 	c_tag = "Engineering - Hard Storage";
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/hardstorage)
 "bA" = (
@@ -900,7 +899,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
 "cM" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/disposal,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -1268,7 +1266,6 @@
 /turf/simulated/floor/warhammer/metal,
 /area/crew_quarters/mess)
 "dM" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/suit_storage_unit/engineering/alt,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
@@ -1562,10 +1559,6 @@
 /turf/simulated/wall/prepainted,
 /area/engineering/hardstorage)
 "eJ" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -22
-	},
 /obj/floor_decal/industrial/warning/corner{
 	dir = 4;
 	icon_state = "warningcorner"
@@ -1671,10 +1664,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 10
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/aftstarboard)
@@ -2136,7 +2125,6 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/thruster/d3starboard)
 "fZ" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder/up,
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/aftstarboard)
@@ -2171,7 +2159,6 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/atmos/aux)
@@ -2179,7 +2166,6 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/atmos/aux)
@@ -2252,10 +2238,6 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/port)
 "gu" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /obj/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
@@ -2451,7 +2433,6 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/warhammer/plating,
@@ -3050,7 +3031,6 @@
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/mess)
 "iw" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/light,
 /obj/structure/ship_munition/disperser_charge/mining,
 /turf/simulated/floor/tiled/dark,
@@ -3559,19 +3539,11 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
 "jS" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 25
+	pixel_y = -8
 	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/crew_quarters/safe_room/thirddeck)
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/gym)
 "jT" = (
 /obj/machinery/vending/wallmed1{
 	dir = 8;
@@ -3805,7 +3777,6 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "kC" = (
@@ -4028,22 +3999,6 @@
 /obj/machinery/smartfridge,
 /turf/simulated/floor/warhammer/darkwood,
 /area/hydroponics)
-"li" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/catwalk,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/thruster/d3port)
 "lk" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
 /obj/floor_decal/industrial/warning{
@@ -4287,10 +4242,6 @@
 /area/crew_quarters/service_break_room)
 "mc" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /turf/simulated/floor/warhammer/oldsmoothdirt,
 /area/crew_quarters/observation)
 "me" = (
@@ -4521,10 +4472,6 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/forestarboard)
 "mZ" = (
@@ -4669,7 +4616,6 @@
 /turf/simulated/floor/warhammer/oldsmoothdirt,
 /area/crew_quarters/observation)
 "ny" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder,
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/plating,
@@ -4858,7 +4804,6 @@
 "ob" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
-/obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "oc" = (
@@ -5258,21 +5203,6 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/hardstorage)
-"pn" = (
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "hab_hallway_shutters";
-	name = "Habitation Deck Hallway Shutters";
-	opacity = 0
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/center)
 "pp" = (
 /obj/structure/fitness/weightlifter,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -5389,13 +5319,6 @@
 /obj/item/material/chopping_board,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
-"pM" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
 "pO" = (
 /turf/simulated/open,
 /area/hallway/primary/thirddeck/fore)
@@ -5739,7 +5662,6 @@
 /area/crew_quarters/mess)
 "rp" = (
 /obj/machinery/door/firedoor,
-/obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "rr" = (
@@ -5771,7 +5693,6 @@
 /area/hallway/primary/thirddeck/aft)
 "rv" = (
 /obj/machinery/hologram/holopad,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
 /area/holocontrol)
 "rw" = (
@@ -5957,7 +5878,6 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/hologram/holopad,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
@@ -6044,31 +5964,6 @@
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/tunnelchess,
-/area/hallway/primary/thirddeck/center)
-"sl" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "hab_hallway_shutters";
-	name = "Habitation Deck Hallway Shutters";
-	opacity = 0
-	},
-/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "sn" = (
 /obj/structure/cable/green{
@@ -6728,7 +6623,6 @@
 /area/thruster/d3starboard)
 "uo" = (
 /obj/machinery/disposal,
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
@@ -7029,7 +6923,6 @@
 /area/hallway/primary/thirddeck/fore)
 "vH" = (
 /obj/machinery/hologram/holopad,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/railing/mapped,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
@@ -7535,13 +7428,10 @@
 /area/engineering/hardstorage)
 "xX" = (
 /obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -25
+	pixel_y = -8
 	},
-/obj/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/warhammer/emcloset,
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/chief_steward)
 "xZ" = (
 /obj/structure/cable/green{
 	d2 = 4;
@@ -7897,7 +7787,6 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/plating,
 /area/storage/tools)
 "zF" = (
@@ -7936,7 +7825,6 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/forestarboard)
 "zR" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder/updown,
 /obj/structure/catwalk,
 /turf/simulated/floor/tiled/techfloor,
@@ -7964,7 +7852,6 @@
 /obj/machinery/light/spot{
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/warhammer/secure_closet/personal,
 /obj/item/book/manual/engineering_hacking,
 /obj/item/device/camera,
@@ -8055,7 +7942,6 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 32
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/warhammer/secure_closet/personal,
 /obj/item/book/manual/psionics,
 /obj/item/device/uv_light,
@@ -8091,17 +7977,14 @@
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/plating,
 /area/storage/tools)
 "AL" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/vending/generic,
 /turf/simulated/floor/warhammer/plating,
 /area/storage/tools)
 "AM" = (
 /obj/structure/closet/toolcloset,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/plating,
 /area/storage/tools)
 "AN" = (
@@ -8256,7 +8139,6 @@
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
 "Bw" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/warhammer/secure_closet/personal,
 /obj/item/book/manual/chemistry_recipes,
 /turf/simulated/floor/warhammer/brothel,
@@ -8272,7 +8154,6 @@
 /area/crew_quarters/head)
 "Bz" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/plating,
 /area/storage/tools)
 "BA" = (
@@ -8425,7 +8306,6 @@
 	dir = 8;
 	pixel_x = 22
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/warhammer/secure_closet/personal,
 /obj/item/book/manual/medical_diagnostics_manual,
 /obj/item/device/camera,
@@ -8606,7 +8486,6 @@
 /area/crew_quarters/safe_room/thirddeck)
 "CZ" = (
 /obj/machinery/disposal,
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
@@ -8702,7 +8581,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/warhammer/secure_closet/personal,
 /obj/item/book/manual/barman_recipes,
 /turf/simulated/floor/warhammer/brothel,
@@ -8906,7 +8784,6 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
 "DS" = (
@@ -8978,10 +8855,6 @@
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/aftport)
 "Ea" = (
@@ -9244,7 +9117,6 @@
 	dir = 4
 	},
 /obj/machinery/portable_atmospherics/canister/air,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
 "EO" = (
@@ -9357,7 +9229,6 @@
 /area/hydroponics)
 "Fo" = (
 /obj/structure/ladder/up,
-/obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/aftport)
 "Fp" = (
@@ -9521,7 +9392,6 @@
 	name = "north bump";
 	pixel_y = 24
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/crew,
 /obj/random/maintenance/solgov/clean,
 /obj/random/maintenance/solgov/clean,
@@ -9529,7 +9399,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/cryolocker)
 "FW" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/random/maintenance/clean,
 /obj/random/maintenance/clean,
 /obj/random/maintenance/clean,
@@ -9571,10 +9440,6 @@
 "Gj" = (
 /obj/random/junk,
 /turf/simulated/floor/warhammer/tunnelchess,
-/area/vacant/cabin)
-"Gk" = (
-/obj/item/frame/air_alarm,
-/turf/simulated/floor/warhammer/plating,
 /area/vacant/cabin)
 "Gl" = (
 /obj/machinery/door/unpowered/inn,
@@ -9950,13 +9815,14 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/cryolocker)
 "Hp" = (
-/obj/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/warhammer/plating,
-/area/crew_quarters/cryolocker)
+/obj/machinery/alarm{
+	pixel_y = -8
+	},
+/turf/simulated/wall/prepainted,
+/area/hallway/primary/thirddeck/center)
 "Hr" = (
 /obj/structure/sign/warning/hot_exhaust{
 	dir = 8
@@ -10188,7 +10054,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/command/disperser)
 "HU" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/disposal/deliveryChute{
 	dir = 4
 	},
@@ -10774,7 +10639,6 @@
 	target_pressure = 30000;
 	use_power = 1
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3port)
@@ -11235,10 +11099,6 @@
 	sensor_tag = "d3po2_sensor"
 	},
 /obj/floor_decal/industrial/outline/blue,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -25
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3port)
 "KB" = (
@@ -11286,7 +11146,6 @@
 /obj/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -11429,7 +11288,6 @@
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "Lh" = (
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/warhammer/secure_closet/personal,
 /turf/simulated/floor/warhammer/brothel,
 /area/crew_quarters/sleep/cryo)
@@ -11968,7 +11826,6 @@
 /obj/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3port)
 "MX" = (
@@ -12445,10 +12302,6 @@
 /area/thruster/d3port)
 "OT" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 25
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -12870,10 +12723,6 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/port)
 "Qz" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
@@ -12912,7 +12761,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
 "QL" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/structure/ship_munition/disperser_charge/mining,
 /turf/simulated/floor/tiled/dark,
 /area/command/disperser)
@@ -12975,11 +12823,6 @@
 /turf/simulated/wall/prepainted,
 /area/maintenance/thirddeck/aftport)
 "Rc" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = list("ACCESS_DAUNTLESS")
-	},
 /obj/structure/bed/chair/warhammer{
 	dir = 8
 	},
@@ -12990,15 +12833,11 @@
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/gym)
 "Rh" = (
-/obj/structure/bed/chair/warhammer/padded/green{
-	dir = 4
-	},
 /obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -25
+	pixel_y = -8
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/crew_quarters/service_break_room)
+/turf/simulated/wall/r_wall/hull,
+/area/thruster/d3port)
 "Ri" = (
 /obj/structure/sign/warning/fire,
 /turf/simulated/wall/ocp_wall,
@@ -13220,7 +13059,6 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/recharge_station,
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/cryolocker)
@@ -13692,7 +13530,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/thirddeck/port)
 "TV" = (
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -13968,7 +13805,6 @@
 	dir = 8
 	},
 /obj/machinery/portable_atmospherics/canister/air,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/command/disperser)
 "UV" = (
@@ -14238,7 +14074,6 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/disposal,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
@@ -14500,16 +14335,11 @@
 /turf/simulated/floor/reinforced/hydrogen,
 /area/thruster/d3starboard)
 "WD" = (
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "hab_hallway_shutters";
-	name = "Habitation Deck Hallway Shutters";
-	opacity = 0
+/obj/machinery/alarm{
+	pixel_y = -8
 	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/fore)
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/thirddeck/aftstarboard)
 "WF" = (
 /obj/wallframe_spawn/reinforced_phoron,
 /obj/machinery/door/firedoor,
@@ -14805,7 +14635,6 @@
 /area/command/disperser)
 "Xz" = (
 /obj/structure/closet/crate/solar,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/railing/mapped,
 /obj/floor_decal/industrial/warning,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -14884,29 +14713,10 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/starboard)
 "XX" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/machinery/alarm{
+	pixel_y = -8
 	},
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "hab_hallway_shutters";
-	name = "Habitation Deck Hallway Shutters";
-	opacity = 0
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/warhammer/plating,
+/turf/simulated/wall/prepainted,
 /area/hallway/primary/thirddeck/fore)
 "XZ" = (
 /obj/floor_decal/industrial/warning/corner{
@@ -14934,7 +14744,6 @@
 /area/crew_quarters/chief_steward)
 "Yd" = (
 /obj/structure/closet/warhammer/emcloset,
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "Ye" = (
@@ -15069,16 +14878,11 @@
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep/bunk)
 "YP" = (
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "hab_hallway_shutters";
-	name = "Habitation Deck Hallway Shutters";
-	opacity = 0
+/obj/machinery/alarm{
+	pixel_y = -8
 	},
-/turf/simulated/floor/warhammer/plating,
-/area/hallway/primary/thirddeck/center)
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/mess)
 "YQ" = (
 /obj/machinery/light{
 	dir = 4
@@ -15107,7 +14911,6 @@
 /obj/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3starboard)
 "YU" = (
@@ -23988,7 +23791,7 @@ fb
 mb
 ca
 hc
-Rh
+hc
 XK
 qg
 qg
@@ -24388,7 +24191,7 @@ LG
 EJ
 kw
 BW
-LG
+fb
 rZ
 xK
 vw
@@ -25600,7 +25403,7 @@ LG
 LG
 LG
 LG
-LG
+xX
 LZ
 oK
 qL
@@ -25987,7 +25790,7 @@ gB
 mj
 mj
 mj
-mj
+XX
 mT
 nQ
 oM
@@ -26194,7 +25997,7 @@ oy
 nR
 wP
 CD
-pM
+CD
 CD
 oy
 CD
@@ -27814,7 +27617,7 @@ Fs
 pp
 PG
 Ha
-gB
+jS
 CD
 xR
 CD
@@ -28017,9 +27820,9 @@ Fs
 gM
 Za
 gB
-WD
-XX
-WD
+CD
+xR
+CD
 Bm
 Bm
 Bm
@@ -28829,7 +28632,7 @@ QJ
 iI
 jh
 jP
-jS
+ks
 ks
 lv
 lE
@@ -29230,7 +29033,7 @@ CD
 oy
 CD
 mV
-xX
+Yd
 mj
 zR
 jU
@@ -29635,7 +29438,7 @@ wD
 wD
 wD
 wD
-wD
+Hp
 Px
 AB
 Bp
@@ -30637,10 +30440,10 @@ fB
 fB
 fB
 fB
-fB
 YP
-sl
-pn
+cV
+VM
+cV
 wD
 wD
 wD
@@ -31466,7 +31269,7 @@ uQ
 XR
 UX
 lR
-Hp
+XR
 zG
 zG
 zG
@@ -36715,7 +36518,7 @@ qi
 So
 ub
 FJ
-Gk
+EC
 GJ
 ub
 DL
@@ -40923,7 +40726,7 @@ bd
 bd
 fY
 bd
-aT
+WD
 FC
 ef
 SH
@@ -41163,7 +40966,7 @@ Qm
 jZ
 jZ
 pI
-li
+Ku
 pI
 pI
 aa
@@ -41364,7 +41167,7 @@ jZ
 jZ
 jZ
 EH
-pI
+Rh
 Ku
 pI
 aV
