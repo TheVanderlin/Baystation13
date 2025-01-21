@@ -50,7 +50,7 @@ else if(current_title == "Bounty Hunter")
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/kasrkin
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 12
+	skill_points = 9
 	min_skill = list(
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
@@ -100,7 +100,7 @@ else if(current_title == "Bounty Hunter")
 	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/colonist2
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 10 // PDF do a lot of drills so physically fit but not much practical combat experience.
+	skill_points = 9 // PDF do a lot of drills so physically fit but not much practical combat experience.
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_GUNS = SKILL_EXPERIENCED,
@@ -172,7 +172,7 @@ else if(current_title == "Bounty Hunter")
 	few remaining souls. It’s time to choose an acting captain and salvage what little remains—before the darkness claims \
 	the rest."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 15
+	skill_points = 10
 	min_skill = list(
 		SKILL_FINANCE = SKILL_EXPERIENCED,
 		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
@@ -234,7 +234,7 @@ else if(current_title == "Bounty Hunter")
 	few remaining souls. It’s time to choose an acting captain and salvage what little remains—before the darkness claims \
 	the rest."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 10
+	skill_points = 9
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_COMBAT = SKILL_MASTER,
@@ -287,7 +287,7 @@ else if(current_title == "Bounty Hunter")
 	Imperial trade routes. With the captain lost and the true crew mostly dead, the task of holding this broken ship \
 	together falls on you and the few survivors. It’s time to choose an acting captain and salvage what little remains \
 	—before the dark claims the rest."
-	skill_points = 13
+	skill_points = 9
 	min_skill = list(
 		SKILL_PILOT = SKILL_EXPERIENCED,
 		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
@@ -362,7 +362,7 @@ else if(current_title == "Bounty Hunter")
 	Imperial trade routes. With the captain lost and the true crew mostly dead, the task of holding this broken ship \
 	together falls on you and the few survivors. It’s time to choose an acting captain and salvage what little remains \
 	—before the dark claims the rest."
-	skill_points = 12
+	skill_points = 7
 	min_skill = list(
 		SKILL_GUNS = SKILL_EXPERIENCED,
 		SKILL_MEDICAL = SKILL_EXPERIENCED,

@@ -16,7 +16,7 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 14
+	skill_points = 12
 	min_skill = list(
 		SKILL_MEDICAL = SKILL_MASTER,
 		SKILL_ANATOMY = SKILL_MASTER,
@@ -159,7 +159,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/medical/pharmacologis
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/civ)
-	skill_points = 13
+	skill_points = 8
 	min_skill = list(
 		SKILL_MEDICAL = SKILL_EXPERIENCED,
 		SKILL_ANATOMY = SKILL_EXPERIENCED,
@@ -208,7 +208,7 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 12
+	skill_points = 9
 	min_skill = list(
 		SKILL_MEDICAL = SKILL_EXPERIENCED,
 		SKILL_ANATOMY = SKILL_EXPERIENCED,
@@ -271,7 +271,7 @@
 		/datum/mil_rank/civ/civ
 	)
 
-	skill_points = 12
+	skill_points = 9
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_MEDICAL = SKILL_EXPERIENCED,
@@ -361,13 +361,10 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ
 	)
-	skill_points = 18
+	skill_points = 9
 	min_skill = list( // 41 points
-		SKILL_BUREAUCRACY = SKILL_BASIC, // 1 point
 		SKILL_MEDICAL = SKILL_EXPERIENCED, // 16 points
 		SKILL_ANATOMY = SKILL_EXPERIENCED, // 16 points
-		SKILL_CHEMISTRY = SKILL_BASIC, // 4 points
-		SKILL_DEVICES = SKILL_TRAINED // 4 points
 	)
 
 	access = list(

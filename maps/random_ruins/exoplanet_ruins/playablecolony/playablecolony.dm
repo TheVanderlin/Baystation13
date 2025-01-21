@@ -41,7 +41,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/sister
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 10
+	skill_points = 8
 	min_skill = list(
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
@@ -85,9 +85,8 @@
 	info = "You are part of an established colony on the edge of the Ghoul Stars, far from the Imperium's reach. The outpost stands as a solitary bastion amidst the unknown, its purpose and survival intertwined with the mysteries of this distant frontier."
 	total_positions = 2
 	outfit_type = /singleton/hierarchy/outfit/job/colonist
-	skill_points = 27 // 3 more points then deck scum
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 8
+	skill_points = 7
 	min_skill = list(
 		SKILL_VIGOR = SKILL_MASTER,
 		SKILL_COMBAT = SKILL_MASTER,
@@ -223,7 +222,7 @@
 	total_positions = 1
 	outfit_type = /singleton/hierarchy/outfit/job/colonist
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 10
+	skill_points = 9
 	min_skill = list(
 		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
 		SKILL_VIGOR = SKILL_EXPERIENCED,
