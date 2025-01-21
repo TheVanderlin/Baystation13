@@ -15,7 +15,7 @@
 		/datum/mil_branch/civilian)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ)
-	skill_points = 10
+	skill_points = 8
 	min_skill = list(
 		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
 		SKILL_COMBAT = SKILL_EXPERIENCED,
@@ -148,7 +148,7 @@
 		/datum/mil_rank/fleet/e7,
 		/datum/mil_rank/fleet/e8
 	)
-	skill_points = 14
+	skill_points = 10
 	min_skill = list(
 		SKILL_FINANCE = SKILL_EXPERIENCED,
 		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
@@ -179,9 +179,9 @@
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/contractor)
 	economic_power = 7
-	skill_points = 12
+	skill_points = 9
 	min_skill = list(
-		SKILL_COMBAT = SKILL_EXPERIENCED,
+		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_EXPERIENCED,
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 	)
@@ -249,7 +249,7 @@
 	access = list(
 		access_dauntless, access_medical, access_mechanicus)
 
-	skill_points = 14
+	skill_points = 10
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_CONSTRUCTION = SKILL_EVA,

@@ -211,7 +211,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/kasrkin
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 10
+	skill_points = 9
 	min_skill = list(
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
@@ -257,7 +257,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/survivor/sister/martyr
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 10
+	skill_points = 8
 	min_skill = list(
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER,
@@ -350,7 +350,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/survivor
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	total_positions = 0
-	skill_points = 10
+	skill_points = 9
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_GUNS = SKILL_EXPERIENCED,

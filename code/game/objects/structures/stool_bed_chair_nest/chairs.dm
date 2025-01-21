@@ -471,6 +471,48 @@
 	icon = 'icons/map_project/96x96.dmi'
 	icon_state = "throne"
 	health_max = 3500
+	var/cooldown = 0
+
+/obj/structure/bed/chair/warhammer/throne/giant/proc/process_cooldowns()
+	return
+
+/obj/structure/bed/chair/warhammer/throne/giant/process_cooldowns()
+	cooldown--
+	if(cooldown <= 0)	return 0
+	spawn(30)
+		process_cooldowns()
+	return 1
+
+/obj/structure/bed/chair/warhammer/throne/giant/attack_hand(mob/living/user)
+	var/input = sanitize(input(usr, "Please enter anything you want. Anything. Serious.", "What?", "") as message|null, extra = 0)
+	var/customname = sanitizeSafe(input(usr, "Pick a title for the report.", "Title") as text|null)
+	if(!input)
+		return
+	if(!customname)
+		customname = "Astropathic Communiqué"
+
+	//New message handling
+	post_comm_message(customname, replacetext(input, "\n", "<br/>"))
+
+	switch(alert("Should this be announced to the general population?",,"Compliance","No"))
+		if("Compliance")
+			command_announcement.Announce(input, customname, new_sound = GLOB.using_map.command_report_sound, msg_sanitized = 1);
+			for (var/mob/T as mob in SSmobs.mob_list)
+				to_chat(T, "<br><center>[SPAN_NOTICE("<b>[FONT_HUGE("Man up.<br> Deal with it.")]</b><br>Move on.")]</center><br>")
+				if(prob(30))
+					sound_to(T, 'sound/items/cult/praise.ogg')
+				else if(prob(30))
+					sound_to(T, 'sound/items/cult/skvor.ogg')
+				else
+					sound_to(T, 'sound/items/cult/tesa.ogg')
+		if("No")
+			minor_announcement.Announce(message = "New Update available at all communication consoles.")
+
+	log_admin("[key_name(src)] has created a command report: [input]")
+	message_admins("[key_name_admin(src)] has created a command report", 1)
+	cooldown = 2
+	spawn(30)
+		process_cooldowns()
 
 /obj/structure/bed/chair/warhammer/ancient_throne
 	name = "ancient throne"

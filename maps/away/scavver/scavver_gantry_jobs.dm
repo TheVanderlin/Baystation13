@@ -26,7 +26,7 @@
 	few remaining souls. It’s time to choose an acting captain and salvage what little remains—before the darkness claims \
 	the rest."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 10
+	skill_points = 9
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_GUNS = SKILL_EXPERIENCED,
@@ -101,7 +101,7 @@
 	few remaining souls. It’s time to choose an acting captain and salvage what little remains—before the darkness claims \
 	the rest."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
-	skill_points = 12 // Superior to merc for skills due to worse gear.
+	skill_points = 9 // Superior to merc for skills due to worse gear.
 	min_skill = list(
 		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_GUNS = SKILL_EXPERIENCED,
@@ -154,7 +154,7 @@
 	outfit_type = /singleton/hierarchy/outfit/scavver/bondsman
 	info = "You are a scavver on the Gantry, a battered scavenger vessel drifting far from \
 	Imperial trade routes. It’s time to choose a leader amongst yourselves and start your journey into the void."
-	skill_points = 10 // Superior skills to average crew since Scavvers need to be capable of piloting ships + maintaining them in groups of 2-3.
+	skill_points = 7 // Superior skills to average crew since Scavvers need to be capable of piloting ships + maintaining them in groups of 2-3.
 	min_skill = list(
 		SKILL_PILOT = SKILL_EXPERIENCED,
 		SKILL_GUNS = SKILL_EXPERIENCED,
@@ -234,7 +234,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/scavver
 	info = "You are a scavver on the Gantry, a battered scavenger vessel drifting far from \
 	Imperial trade routes. It’s time to choose a leader amongst yourselves and start your journey into the void."
-	skill_points = 10
+	skill_points = 8
 	min_skill = list(
 		SKILL_GUNS = SKILL_EXPERIENCED,
 		SKILL_SCIENCE = SKILL_EXPERIENCED,
@@ -309,7 +309,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/scavver
 	info = "You are a scavver on the Gantry, a battered scavenger vessel drifting far from \
 	Imperial trade routes. It’s time to choose a leader amongst yourselves and start your journey into the void."
-	skill_points = 12
+	skill_points = 10
 	min_skill = list(
 		SKILL_COMBAT = SKILL_EXPERIENCED,
 		SKILL_VIGOR = SKILL_EXPERIENCED,
