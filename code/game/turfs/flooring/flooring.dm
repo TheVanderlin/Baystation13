@@ -814,26 +814,31 @@
 	build_type = null
 
 /singleton/flooring/warhammer/bar
+	icon = 'icons/turf/flooring/decals.dmi'
 	icon_base = "barfull"
 	color = null
 	build_type = null
 
 /singleton/flooring/warhammer/bar2
+	icon = 'icons/turf/flooring/decals.dmi'
 	icon_base = "bar2"
 	color = null
 	build_type = null
 
 /singleton/flooring/warhammer/bar3
+	icon = 'icons/turf/flooring/decals.dmi'
 	icon_base = "bar3"
 	color = null
 	build_type = null
 
 /singleton/flooring/warhammer/cafe
+	icon = 'icons/turf/flooring/decals.dmi'
 	icon_base = "cafefull"
 	color = null
 	build_type = null
 
 /singleton/flooring/warhammer/cafe2
+	icon = 'icons/turf/flooring/decals.dmi'
 	icon_base = "cafe2"
 	color = null
 	build_type = null
@@ -844,6 +849,7 @@
 	build_type = null
 
 /singleton/flooring/warhammer/coldroom
+	icon = 'icons/turf/flooring/decals.dmi'
 	icon_base = "coldroom"
 	color = null
 	build_type = null
