@@ -13,7 +13,7 @@
 	apc_test_exempt_areas = list(
 		/area/map_template/colony/mineralprocessing = NO_SCRUBBER|NO_VENT
 	)
-	spawn_weight = 3
+	spawn_weight = 0.5
 
 /singleton/submap_archetype/playablecolony
 	descriptor = "established colony"
@@ -324,7 +324,7 @@
 	pda_type = null
 	l_ear = /obj/item/device/radio/headset/map_preset/playablecolony
 	uniform = null
-	r_pocket = /obj/item/device/radio/map_preset/scavver
+	r_pocket = /obj/item/device/radio/map_preset/playablecolony
 	l_pocket = /obj/item/device/flashlight/lantern
 	shoes = /obj/item/clothing/shoes/jackboots/pilgrim_boots
 	gloves = /obj/item/clothing/gloves/thick/leather

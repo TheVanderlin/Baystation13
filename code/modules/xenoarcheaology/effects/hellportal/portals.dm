@@ -32,7 +32,7 @@
 	T.max_gas = null
 	T.minbodytemp = 0
 	T.maxbodytemp = 5000
-	T.faction = "meat"
+	T.faction = "Demon"
 
 	if (parent)
 		parent.register_mob(T)
@@ -76,7 +76,7 @@
 	T.max_gas = null
 	T.minbodytemp = 0
 	T.maxbodytemp = 5000
-	T.faction = "meat"
+	T.faction = "Demon"
 
 	if (prob(60))
 		health--

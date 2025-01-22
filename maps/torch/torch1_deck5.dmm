@@ -344,6 +344,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/fore)
 "aM" = (
@@ -2745,6 +2749,10 @@
 	pixel_y = 23;
 	req_access = list("ACCESS_MECHANICUS")
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/fore)
 "gC" = (
@@ -3358,12 +3366,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/expedition/storage)
-"iF" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/r_wall/hull,
-/area/maintenance/fifthdeck/fore)
 "iG" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -3379,6 +3381,10 @@
 	pixel_y = -3
 	},
 /obj/structure/closet/crate/warhammer/cargo,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/storage)
 "iI" = (
@@ -3473,12 +3479,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
-"iP" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/quartermaster/storage)
 "iQ" = (
 /obj/machinery/suit_cycler/exploration,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -4170,6 +4170,10 @@
 /obj/floor_decal/industrial/warning/corner,
 /obj/item/storage/box/ammo/flashshells,
 /obj/item/gun/projectile/flare,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
 "kt" = (
@@ -4856,6 +4860,10 @@
 	pixel_y = 23;
 	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftstarboard)
 "mg" = (
@@ -5144,6 +5152,10 @@
 	icon_state = "2-8"
 	},
 /obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fifthdeck/fore)
 "mK" = (
@@ -6212,12 +6224,6 @@
 /obj/turbolift_map_holder/torch,
 /turf/unsimulated/mask,
 /area/hallway/primary/fifthdeck/fore)
-"oL" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/hallway/primary/fifthdeck/aft)
 "oM" = (
 /obj/structure/catwalk,
 /obj/machinery/camera/network/fifth_deck{
@@ -6765,12 +6771,6 @@
 /obj/machinery/meter,
 /turf/simulated/floor/warhammer/plating,
 /area/exploration_shuttle/fuel)
-"ql" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/hallway/primary/fifthdeck/fore)
 "qm" = (
 /obj/structure/table/rack/dark,
 /obj/item/tank/jetpack/carbondioxide,
@@ -6942,6 +6942,10 @@
 /obj/structure/hivedecor/statue8,
 /obj/structure/torchwall{
 	dir = 8
+	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fifthdeck/fore)
@@ -7727,6 +7731,10 @@
 /obj/structure/torchwall{
 	dir = 8
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fifthdeck/fore)
 "sg" = (
@@ -7800,6 +7808,10 @@
 /area/hallway/primary/fifthdeck/fore)
 "sn" = (
 /obj/machinery/door/firedoor,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fifthdeck/fore)
 "so" = (
@@ -8543,6 +8555,10 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftport)
 "ul" = (
@@ -8663,6 +8679,10 @@
 	dir = 4;
 	level = 2
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/fifthdeck/aft)
 "uv" = (
@@ -8764,6 +8784,10 @@
 	dir = 10
 	},
 /obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftstarboard)
 "uH" = (
@@ -9253,6 +9277,10 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/shuttle/petrov/phoron)
 "ws" = (
@@ -9332,10 +9360,17 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/shuttle/petrov/cockpit)
 "wA" = (
-/obj/machinery/alarm{
-	pixel_y = -8
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/turf/simulated/wall/prepainted,
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/fore)
 "wD" = (
 /obj/wallframe_spawn/reinforced,
@@ -9935,6 +9970,10 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/plating,
 /area/shuttle/petrov/hallwaya)
 "yy" = (
@@ -10110,12 +10149,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/shuttle/petrov/isolation)
-"zf" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/quartermaster/expedition)
 "zg" = (
 /obj/machinery/atmospherics/unary/engine{
 	dir = 1
@@ -10537,13 +10570,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/shuttle/petrov/hallwaya)
-"Bg" = (
-/obj/paint/meatstation,
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/titanium,
-/area/shuttle/petrov/phoron)
 "Bi" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "petrovcell3";
@@ -10981,6 +11007,10 @@
 	pixel_y = 23;
 	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftport)
 "CY" = (
@@ -11238,12 +11268,6 @@
 /obj/paint/sfv_arbiter,
 /turf/simulated/wall/titanium,
 /area/shuttle/petrov/custodial)
-"DT" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/hallway/primary/fifthdeck/aft)
 "DX" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1
@@ -12067,12 +12091,6 @@
 /obj/floor_decal/industrial/warning,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/shuttle/petrov/rnd)
-"Hx" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/quartermaster/exploration)
 "Hy" = (
 /obj/machinery/power/smes/buildable/preset/torch/shuttle{
 	RCon_tag = "Shuttle - Petrov"
@@ -12169,6 +12187,10 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/expedition)
 "HR" = (
@@ -12177,12 +12199,6 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftstarboard)
-"HS" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/maintenance/fifthdeck/aftport)
 "HU" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -12724,12 +12740,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/shuttle/petrov/rnd)
-"Ki" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/quartermaster/exploration)
 "Kj" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
@@ -13046,6 +13056,10 @@
 	},
 /obj/structure/bed/chair/wheelchair,
 /obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftstarboard)
 "Lt" = (
@@ -15714,9 +15728,6 @@
 "Xa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/paint/meatstation,
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
 /turf/simulated/wall/titanium,
 /area/shuttle/petrov/maint)
 "Xb" = (
@@ -15796,12 +15807,6 @@
 	icon_state = "railing0-1"
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
-/area/maintenance/fifthdeck/aftstarboard)
-"Xp" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
 /area/maintenance/fifthdeck/aftstarboard)
 "Xq" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -16168,6 +16173,10 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fifthdeck/aftport)
 "YQ" = (
@@ -16323,9 +16332,6 @@
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
-	},
-/obj/machinery/alarm{
-	pixel_y = -8
 	},
 /turf/simulated/wall/prepainted,
 /area/maintenance/fifthdeck/aftstarboard)
@@ -29146,7 +29152,7 @@ er
 su
 uQ
 jk
-wA
+yq
 sf
 jo
 jk
@@ -29954,7 +29960,7 @@ yq
 yq
 mh
 fl
-ql
+fl
 sn
 pk
 fl
@@ -29965,8 +29971,8 @@ wF
 jy
 wF
 wF
-ql
-nk
+fl
+wA
 ph
 ph
 pf
@@ -31354,7 +31360,7 @@ aa
 aa
 an
 an
-iF
+an
 aL
 mh
 qc
@@ -31573,7 +31579,7 @@ kl
 kl
 kl
 kl
-ql
+fl
 qJ
 MR
 oX
@@ -31583,13 +31589,13 @@ kp
 fW
 kA
 kz
-Hx
+OX
 kr
 hz
 ku
 ZF
 kQ
-Ki
+eu
 mJ
 nC
 nF
@@ -35397,7 +35403,7 @@ ZG
 Tm
 HR
 aW
-Xp
+aW
 uF
 ms
 mF
@@ -37830,7 +37836,7 @@ nA
 QE
 gF
 WH
-zf
+WU
 HO
 gE
 gE
@@ -37839,7 +37845,7 @@ WU
 qv
 yW
 qE
-DT
+Fk
 uu
 UU
 UU
@@ -38857,7 +38863,7 @@ wc
 Em
 gq
 gq
-iP
+Em
 iH
 ht
 CL
@@ -39455,7 +39461,7 @@ dR
 dR
 qC
 tF
-oL
+dR
 YL
 aC
 aC
@@ -39873,7 +39879,7 @@ gI
 gI
 gI
 gI
-HS
+gI
 uk
 ws
 ws
@@ -44302,7 +44308,7 @@ MQ
 bb
 BM
 Wn
-Bg
+Yk
 wn
 El
 OC

@@ -7879,7 +7879,7 @@
 	},
 /obj/machinery/door/window/northleft,
 /obj/machinery/light/small/red,
-/obj/item/cell/infinite/meatstation,
+/obj/item/cell/infinite,
 /obj/random/loot/lootartifacts,
 /turf/simulated/floor/seolite,
 /area/meatstation/lab)

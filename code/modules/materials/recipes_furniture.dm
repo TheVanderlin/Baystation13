@@ -126,6 +126,48 @@ ARMCHAIR(yellow)
 	req_amount = 5
 	time = 50
 
+/datum/stack_recipe/furniture/barricade/barbed
+	title = "barbed wire"
+	result_type = /obj/structure/barricade/barbed
+	req_amount = 6
+	time = 20
+
+/datum/stack_recipe/furniture/barricade/boards
+	title = "window barricade"
+	result_type = /obj/structure/barricade/boards
+	req_amount = 5
+	time = 40
+
+/datum/stack_recipe/furniture/barricade/barrels
+	title = "barrel obstacle"
+	result_type = /obj/structure/barricade/barrels/four
+	req_amount = 10
+	time = 70
+
+/datum/stack_recipe/furniture/campfire
+	title = "campfire"
+	result_type = /obj/item/campfire/self_lit
+	req_amount = 4
+	time = 40
+
+/datum/stack_recipe/furniture/barricade/sandbag
+	title = "sandbags"
+	result_type = /obj/structure/barricade/sandbag
+	req_amount = 5
+	time = 60
+
+/datum/stack_recipe/furniture/barricade/sandbagwall
+	title = "sandbag wall"
+	result_type = /obj/structure/barricade/sandbagwall
+	req_amount = 8
+	time = 80
+
+/datum/stack_recipe/furniture/barricade/concrete
+	title = "concrete barrier"
+	result_type = /obj/structure/barricade/concrete
+	req_amount = 6
+	time = 70
+
 /datum/stack_recipe/furniture/stool
 	title = "stool"
 	result_type = /obj/item/stool

@@ -197,20 +197,6 @@
 /obj/paint/sfv_arbiter,
 /turf/simulated/wall/r_titanium,
 /area/ship/scrap/escape_star)
-"az" = (
-/obj/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/floor_decal/industrial/loading{
-	dir = 1
-	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/ship/scrap/escape_port)
 "aA" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1
@@ -288,20 +274,6 @@
 	},
 /obj/floor_decal/industrial/loading{
 	dir = 1
-	},
-/turf/simulated/floor/warhammer/metal/alt,
-/area/ship/scrap/escape_star)
-"aJ" = (
-/obj/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/floor_decal/industrial/loading{
-	dir = 1
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/escape_star)
@@ -732,11 +704,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/gambling)
 "bD" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /obj/item/hand/missing_card,
 /obj/item/hand/missing_card,
 /turf/simulated/floor/warhammer/plating,
@@ -753,11 +720,6 @@
 /area/ship/scrap/maintenance/lower)
 "bF" = (
 /obj/decal/cleanable/dirt,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /obj/structure/closet/crate,
 /obj/random/soap,
 /obj/random/soap,
@@ -805,11 +767,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/cargo/lower)
 "bL" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /obj/structure/closet,
 /obj/random/clothing,
 /obj/random/clothing,
@@ -1188,11 +1145,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/broken2)
 "cF" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /obj/item/stack/cable_coil/green,
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/broken2)
@@ -1204,11 +1156,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/cargo/lower)
 "cH" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /obj/structure/closet,
 /obj/random/gloves,
 /obj/random/clothing,
@@ -1587,11 +1534,6 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/broken1)
 "dz" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /obj/machinery/recharge_station,
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -1623,11 +1565,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/maintenance/lower)
 "dE" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /obj/structure/closet,
 /obj/random/clothing,
 /obj/random/clothing,
@@ -2454,11 +2391,6 @@
 /area/ship/scrap/maintenance/eva)
 "eX" = (
 /obj/machinery/suit_storage_unit/engineering/salvage/demeter,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/maintenance/eva)
 "eY" = (
@@ -8680,7 +8612,7 @@ aa
 kH
 ai
 ar
-az
+aA
 UZ
 aV
 bj
@@ -10754,7 +10686,7 @@ aa
 kH
 ap
 ax
-aJ
+aI
 gV
 bh
 bz

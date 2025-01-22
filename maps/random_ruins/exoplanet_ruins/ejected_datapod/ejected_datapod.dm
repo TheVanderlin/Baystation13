@@ -54,7 +54,7 @@
 	var/reagent_type = pickweight(list(
 		/datum/reagent/random = 50,
 		/datum/reagent/rezadone = 25,
-		/datum/reagent/drugs/three_eye = 20,
+		/datum/reagent/drugs/spicemelange = 20,
 		/datum/reagent/zombie = 5
 	))
 	reagents.add_reagent(reagent_type, 5)

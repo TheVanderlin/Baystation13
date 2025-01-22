@@ -42,6 +42,7 @@ GLOBAL_DATUM_INIT(using_map, /datum/map, new using_map_DATUM)
 #include "random_ruins\exoplanet_ruins\oldlab\oldlab.dm"
 #include "random_ruins\exoplanet_ruins\oldlab2\oldlab2.dm"
 #include "random_ruins\exoplanet_ruins\oldpod\oldpod.dm"
+#include "random_ruins\exoplanet_ruins\chaoscolony\chaoscolony.dm"
 #include "random_ruins\exoplanet_ruins\playablecolony\playablecolony.dm"
 #include "random_ruins\exoplanet_ruins\playablecolony2\playablecolony2.dm"
 #include "random_ruins\exoplanet_ruins\radshrine\radshrine.dm"

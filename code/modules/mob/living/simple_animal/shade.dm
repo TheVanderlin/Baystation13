@@ -20,7 +20,7 @@
 	max_gas = null
 	speed = -1
 	status_flags = 0
-	faction = "cult"
+	faction = "Chaos"
 	supernatural = 1
 	status_flags = CANPUSH
 

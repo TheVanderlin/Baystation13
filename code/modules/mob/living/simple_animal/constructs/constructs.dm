@@ -16,7 +16,7 @@
 	max_gas = null
 	minbodytemp = 0
 	show_stat_health = 1
-	faction = "cult"
+	faction = "Chaos"
 	supernatural = 1
 	see_in_dark = 8
 	see_invisible = SEE_INVISIBLE_NOLIGHTING

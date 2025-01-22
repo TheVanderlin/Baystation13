@@ -509,8 +509,8 @@
 		else
 			user.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/grim/cult/tzee(user), slot_wear_suit)
 			visible_message(SPAN_WARNING("\The [src] disappears with a flash of red light, and a set of armor appears on \the [user]."), SPAN_WARNING("You are blinded by the flash of red light. After you're able to see again, you see that you are now wearing a set of armor."))
-
 	user.update_icons() // removed qdel[src] at the end of this code. if it breaks thats why
+	qdel(src)
 
 /obj/rune/chaos/armor2
 	cultname = "summon nurglite wargear"
@@ -554,6 +554,7 @@
 			user.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/grim/cult/nurgleheavy(user), slot_wear_suit)
 
 	user.update_icons()
+	qdel(src)
 
 /obj/rune/chaos/armor3
 	cultname = "summon khornate wargear"
@@ -589,6 +590,7 @@
 			user.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/grim/cult/bloodpact(user), slot_wear_suit)
 
 	user.update_icons()
+	qdel(src)
 
 /obj/rune/offering
 	cultname = "offering"

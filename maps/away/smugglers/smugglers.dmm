@@ -267,7 +267,7 @@
 "aI" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1439;
-	icon_state = "door_locked";
+	icon_state = "door_closed";
 	id_tag = "asteroid_base_east_inner";
 	locked = 1;
 	name = "Internal Airlock"
@@ -298,7 +298,7 @@
 "aK" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1439;
-	icon_state = "door_locked";
+	icon_state = "door_closed";
 	id_tag = "asteroid_base_east_outer";
 	locked = 1
 	},
@@ -699,7 +699,7 @@
 /obj/random/contraband,
 /obj/random/contraband,
 /obj/random/loot,
-/obj/random/projectile,
+/obj/random/loot/gunbundle,
 /obj/random/cash,
 /obj/random/cash,
 /obj/random/cash,

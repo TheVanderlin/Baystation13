@@ -12,9 +12,14 @@
 	fauna_types = list(
 		/mob/living/simple_animal/hostile/retaliate/beast/samak,
 		/mob/living/simple_animal/hostile/retaliate/beast/diyaab,
-		/mob/living/simple_animal/hostile/retaliate/beast/shantak
+		/mob/living/simple_animal/hostile/meat/horrorminer,
+		/mob/living/simple_animal/hostile/meat/horrorsmall,
+		/mob/living/simple_animal/hostile/meat/abomination,
+		/mob/living/simple_animal/hostile/tree,
+		/mob/living/simple_animal/hostile/retaliate/beast/shantak,
+		/mob/living/simple_animal/hostile/retaliate/beast/shantak/lava
 	)
-	megafauna_types = list(/mob/living/simple_animal/hostile/retaliate/giant_crab)
+	megafauna_types = list(/mob/living/simple_animal/hostile/daemon/large)
 
 /obj/overmap/visitable/sector/exoplanet/snow/generate_atmosphere()
 	..()

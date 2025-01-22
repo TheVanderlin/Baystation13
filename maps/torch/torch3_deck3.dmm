@@ -3538,12 +3538,6 @@
 /obj/structure/bed/chair/warhammer,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
-"jS" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/gym)
 "jT" = (
 /obj/machinery/vending/wallmed1{
 	dir = 8;
@@ -4454,6 +4448,10 @@
 "mT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
+	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
@@ -7428,10 +7426,11 @@
 /area/engineering/hardstorage)
 "xX" = (
 /obj/machinery/alarm{
-	pixel_y = -8
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/chief_steward)
+/turf/simulated/floor/warhammer/plating,
+/area/maintenance/thirddeck/aftstarboard)
 "xZ" = (
 /obj/structure/cable/green{
 	d2 = 4;
@@ -9817,12 +9816,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/cryolocker)
-"Hp" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/hallway/primary/thirddeck/center)
 "Hr" = (
 /obj/structure/sign/warning/hot_exhaust{
 	dir = 8
@@ -11612,6 +11605,10 @@
 /area/maintenance/thirddeck/foreport)
 "LZ" = (
 /obj/machinery/vending/cigarette,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "Ma" = (
@@ -12417,6 +12414,10 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/foreport)
 "Py" = (
@@ -12834,10 +12835,11 @@
 /area/crew_quarters/gym)
 "Rh" = (
 /obj/machinery/alarm{
-	pixel_y = -8
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/wall/r_wall/hull,
-/area/thruster/d3port)
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/thirddeck/fore)
 "Ri" = (
 /obj/structure/sign/warning/fire,
 /turf/simulated/wall/ocp_wall,
@@ -14334,12 +14336,6 @@
 "WC" = (
 /turf/simulated/floor/reinforced/hydrogen,
 /area/thruster/d3starboard)
-"WD" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/r_wall/hull,
-/area/maintenance/thirddeck/aftstarboard)
 "WF" = (
 /obj/wallframe_spawn/reinforced_phoron,
 /obj/machinery/door/firedoor,
@@ -14714,10 +14710,11 @@
 /area/maintenance/thirddeck/starboard)
 "XX" = (
 /obj/machinery/alarm{
-	pixel_y = -8
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/wall/prepainted,
-/area/hallway/primary/thirddeck/fore)
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/thirddeck/center)
 "XZ" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -14877,12 +14874,6 @@
 /obj/gibspawner/human,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep/bunk)
-"YP" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/mess)
 "YQ" = (
 /obj/machinery/light{
 	dir = 4
@@ -25403,7 +25394,7 @@ LG
 LG
 LG
 LG
-xX
+LG
 LZ
 oK
 qL
@@ -25790,7 +25781,7 @@ gB
 mj
 mj
 mj
-XX
+mj
 mT
 nQ
 oM
@@ -27617,8 +27608,8 @@ Fs
 pp
 PG
 Ha
-jS
-CD
+gB
+Rh
 xR
 CD
 Bm
@@ -29438,7 +29429,7 @@ wD
 wD
 wD
 wD
-Hp
+wD
 Px
 AB
 Bp
@@ -30440,8 +30431,8 @@ fB
 fB
 fB
 fB
-YP
-cV
+fB
+XX
 VM
 cV
 wD
@@ -40726,8 +40717,8 @@ bd
 bd
 fY
 bd
-WD
-FC
+aT
+xX
 ef
 SH
 fZ
@@ -41167,7 +41158,7 @@ jZ
 jZ
 jZ
 EH
-Rh
+pI
 Ku
 pI
 aV

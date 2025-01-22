@@ -185,7 +185,7 @@
 
 	ai_holder = /datum/ai_holder/simple_animal/ranged/kiting/threatening/fleet_heavy
 
-	ranged_attack_delay = 2 SECOND //How much time we wait before really shooting
+	ranged_attack_delay = 1 SECOND //How much time we wait before really shooting
 
 /datum/ai_holder/simple_animal/ranged/kiting/threatening/fleet_heavy
 	firing_lanes = FALSE        // Lets you use others as shields

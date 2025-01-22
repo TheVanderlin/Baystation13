@@ -952,8 +952,8 @@
 	..()
 
 
-/datum/reagent/drugs/three_eye
-	name = "Three Eye"
+/datum/reagent/drugs/spicemelange
+	name = "Spice Melange"
 	description = "Out on the edge of human space, at the limits of scientific understanding and \
 	cultural taboo, people develop and dose themselves with substances that would curl the hair on \
 	a brinker's vatgrown second head. Three Eye is one of the most notorious narcotics to ever come \
@@ -964,8 +964,8 @@
 	taste_description = "liquid starlight"
 	reagent_state = LIQUID
 	color = "#ccccff"
-	metabolism = REM
-	overdose = 25
+	metabolism = 0.05
+	overdose = 20
 	should_admin_log = TRUE
 	high_message_list = list(
 		"Your name is called. It is your time.",
@@ -997,32 +997,33 @@
 		"THE LIGHT THE DARK A STAR IN CHAINS"
 	)
 
-/datum/reagent/drugs/three_eye/affect_blood(mob/living/carbon/M, removed)
+/datum/reagent/drugs/spicemelange/affect_blood(mob/living/carbon/M, removed)
 	M.add_client_color(/datum/client_color/thirdeye)
 	M.add_chemical_effect(CE_THIRDEYE, 1)
 	M.add_chemical_effect(CE_MIND, -2)
 	M.hallucination(50, 50)
 	M.make_jittery(3)
 	M.make_dizzy(3)
+	M.add_chemical_effect(CE_PULSE, 1)
+	M.add_chemical_effect(CE_STIMULANT, 3)
 	if(prob(0.1) && ishuman(M))
 		var/mob/living/carbon/human/H = M
 		H.seizure()
-		H.adjustBrainLoss(rand(8, 12))
+		H.adjustBrainLoss(rand(2, 8))
 	..()
 
-/datum/reagent/drugs/three_eye/on_leaving_metabolism(mob/parent, metabolism_class)
+/datum/reagent/drugs/spicemelange/on_leaving_metabolism(mob/parent, metabolism_class)
 	parent.remove_client_color(/datum/client_color/thirdeye)
 
-/datum/reagent/drugs/three_eye/overdose(mob/living/carbon/M)
+/datum/reagent/drugs/spicemelange/overdose(mob/living/carbon/M)
 	..()
-	M.adjustBrainLoss(rand(1, 5))
+	M.adjustBrainLoss(rand(-3, 1))
 	if(ishuman(M) && prob(10))
 		var/mob/living/carbon/human/H = M
 		H.seizure()
 	if(prob(10))
 		to_chat(M, SPAN_DANGER(SPAN_SIZE(rand(2,4), pick(overdose_messages))))
-	if(M.psi)
-		M.psi.check_latency_trigger(30, "a Three Eye overdose")
+	M.psi.check_latency_trigger(30, "a spice overdose")
 
 /* Transformations */
 /datum/reagent/slimetoxin

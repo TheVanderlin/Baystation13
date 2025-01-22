@@ -558,7 +558,7 @@
 	},
 /obj/structure/table/rack,
 /obj/floor_decal/industrial/outline/grey,
-/obj/random/projectile,
+/obj/random/loot/gunbundle,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/map_template/icarus/armory)
 "pL" = (

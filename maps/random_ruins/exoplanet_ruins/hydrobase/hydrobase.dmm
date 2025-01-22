@@ -1866,7 +1866,7 @@
 	},
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "door_locked";
+	icon_state = "door_closed";
 	id_tag = "solars_inner";
 	locked = 1;
 	name = "EVA Internal Access"
@@ -1931,7 +1931,7 @@
 "eH" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "door_locked";
+	icon_state = "door_closed";
 	id_tag = "solars_outer";
 	locked = 1;
 	name = "EVA External Access"
@@ -2260,7 +2260,7 @@
 /obj/structure/closet/crate/secure/weapon{
 	desc = "A heavy-duty crate with a suite of firearms safety instructions plastered on the side. The ID scanner is unlike anything you've seen before.";
 	},
-/obj/random/projectile,
+/obj/random/loot/gunbundle,
 /obj/item/material/knife/combat,
 /obj/item/spacecash/bundle/c100,
 /obj/random/cash,
@@ -2710,7 +2710,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "door_locked";
+	icon_state = "door_closed";
 	id_tag = "hydrodock_inner";
 	locked = 1;
 	name = "Shipping Internal Access"
@@ -2925,7 +2925,7 @@
 "gK" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "door_locked";
+	icon_state = "door_closed";
 	id_tag = "hydrodock_outer";
 	locked = 1;
 	name = "Shipping Access"

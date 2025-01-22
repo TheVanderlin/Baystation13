@@ -1632,7 +1632,7 @@ var/global/list/floor_decals = list()
 	icon_state = "surgery2"
 
 /obj/effect/floor_decal/warhammer/brothel
-	name = "brothel floor"
+	name = "stone floor"
 	icon_state = "brothel"
 
 /obj/effect/floor_decal/warhammer/clockwork

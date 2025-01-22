@@ -16,9 +16,9 @@
 	var/intended_y = 150
 	var/large_flora_prob = 30
 	var/flora_prob = 10
-	var/fauna_prob = 2
+	var/fauna_prob = 1
 	var/grass_prob
-	var/megafauna_spawn_prob = 0.5 //chance that a given fauna mob will instead be a megafauna
+	var/megafauna_spawn_prob = 0.35 //chance that a given fauna mob will instead be a megafauna
 
 	var/list/plantcolors = list("RANDOM")
 	var/list/grass_cache

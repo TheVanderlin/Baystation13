@@ -34,12 +34,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/engineering/fuelbay/aux)
-"aah" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/r_wall/hull,
-/area/rnd/xenobiology)
 "aai" = (
 /obj/machinery/camera/network/first_deck{
 	c_tag = "First Deck Hallway - Lift";
@@ -259,11 +253,13 @@
 /turf/simulated/floor/reinforced,
 /area/engineering/fuelbay/aux)
 "aaL" = (
+/obj/structure/closet/warhammer/emcloset,
 /obj/machinery/alarm{
-	pixel_y = -8
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/thruster/d1port)
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/firstdeck/center)
 "aaM" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/atmospherics/portables_connector{
@@ -2863,6 +2859,10 @@
 "afH" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/cell_charger,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "afI" = (
@@ -3268,6 +3268,10 @@
 /obj/structure/cable/green,
 /obj/floor_decal/industrial/warning,
 /obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/substation/firstdeck)
 "ahS" = (
@@ -3628,11 +3632,24 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/substation/firstdeck)
 "ajg" = (
-/obj/machinery/alarm{
-	pixel_y = -8
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/turf/simulated/wall/prepainted,
-/area/medical/staging)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/maintenance/firstdeck/aftport)
 "ajh" = (
 /obj/structure/sign/warning/high_voltage,
 /turf/simulated/wall/prepainted,
@@ -4674,11 +4691,27 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/firstdeck/fore)
 "apk" = (
-/obj/machinery/alarm{
-	pixel_y = -8
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/turf/simulated/wall/prepainted,
-/area/command/conference)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/maintenance/firstdeck/aftstarboard)
 "apm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -5467,11 +5500,21 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/firstdeck/center)
 "auM" = (
-/obj/machinery/alarm{
-	pixel_y = -8
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
 	},
-/turf/simulated/wall/prepainted,
-/area/hallway/primary/firstdeck/center)
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/thruster/d1port)
 "auN" = (
 /turf/simulated/wall/prepainted,
 /area/hallway/primary/firstdeck/center)
@@ -6339,11 +6382,27 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/firstdeck/center)
 "aAI" = (
-/obj/machinery/alarm{
-	pixel_y = -8
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/turf/simulated/wall/r_wall/hull,
-/area/maintenance/firstdeck/aftstarboard)
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/maintenance/firstdeck/centralport)
 "aAK" = (
 /obj/decal/cleanable/blood,
 /obj/random/loot/lasbundle,
@@ -6469,9 +6528,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/firstdeck/centralport)
 "aBP" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
 /turf/simulated/wall/prepainted,
 /area/rnd/entry)
 "aCf" = (
@@ -8049,10 +8105,11 @@
 /area/security/brig)
 "aMO" = (
 /obj/machinery/alarm{
-	pixel_y = -8
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/wall/prepainted,
-/area/maintenance/firstdeck/centralport)
+/turf/simulated/floor/warhammer/coralg,
+/area/command/conference)
 "aMP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -9393,12 +9450,6 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/foreport)
-"aSs" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/medical/sleeper)
 "aSt" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5
@@ -10275,6 +10326,10 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/rnd/xenobiology)
 "aUP" = (
@@ -10307,6 +10362,10 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/rnd/xenobiology)
@@ -12577,12 +12636,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/firstdeck/center)
-"dNb" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/rnd/xenobiology/xenoflora)
 "dOf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -13535,6 +13588,10 @@
 /area/security/detectives_office)
 "fVb" = (
 /obj/structure/iv_stand,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/foyer)
 "fVw" = (
@@ -15282,9 +15339,10 @@
 /area/hallway/primary/firstdeck/center)
 "jab" = (
 /obj/machinery/alarm{
-	pixel_y = -8
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/wall/prepainted,
+/turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/robotics/office)
 "jbk" = (
 /obj/structure/lattice,
@@ -15891,12 +15949,6 @@
 	},
 /turf/simulated/floor/warhammer/coralg,
 /area/rnd/research)
-"jSb" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/maintenance/substation/firstdeck)
 "jUb" = (
 /obj/machinery/alarm{
 	pixel_y = 24
@@ -16053,12 +16105,6 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/chargebay)
-"kgu" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/ocp_wall,
-/area/security/wing)
 "khb" = (
 /obj/structure/table/steel,
 /obj/item/device/integrated_electronics/analyzer{
@@ -16716,6 +16762,10 @@
 "lkb" = (
 /obj/machinery/hologram/holopad,
 /obj/structure/railing/mapped,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/coralg,
 /area/rnd/entry)
 "llb" = (
@@ -18790,6 +18840,10 @@
 /area/crew_quarters/safe_room/firstdeck)
 "oCf" = (
 /obj/floor_decal/sign/d,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "oGG" = (
@@ -24192,11 +24246,13 @@
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/firstdeck/aftstarboard)
 "xKK" = (
+/obj/structure/bed/chair/warhammer/padded/red,
 /obj/machinery/alarm{
-	pixel_y = -8
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/wall/prepainted,
-/area/medical/morgue/autopsy)
+/turf/simulated/floor/warhammer/plating,
+/area/security/wing)
 "xKY" = (
 /obj/floor_decal/techfloor{
 	dir = 8
@@ -34350,8 +34406,8 @@ lKb
 lWb
 qya
 mfb
-kgu
-vJO
+oby
+xKK
 auv
 uJd
 vTY
@@ -36763,8 +36819,8 @@ hBr
 adZ
 jjK
 tnV
-apk
-alZ
+njj
+aMO
 hIl
 hIl
 hIl
@@ -39591,7 +39647,7 @@ abP
 abP
 asF
 afR
-jSb
+apT
 ahR
 aje
 ake
@@ -40008,8 +40064,8 @@ fMI
 acD
 asF
 fDR
-auM
-awd
+auN
+aaL
 hdb
 ayg
 hdb
@@ -41819,8 +41875,8 @@ acD
 uWa
 fps
 amA
+xcW
 jab
-knb
 gos
 knb
 xcW
@@ -43843,7 +43899,7 @@ umT
 aft
 bGZ
 eHb
-aSs
+lHO
 oCf
 pjV
 jul
@@ -44068,8 +44124,8 @@ foP
 eGY
 bSD
 mav
-aMO
-hWW
+aJS
+aAI
 cQo
 jjh
 jjh
@@ -44682,7 +44738,7 @@ jjh
 jjh
 jjh
 aaa
-aah
+sRV
 aUJ
 tgb
 tgb
@@ -44853,7 +44909,7 @@ xTh
 oGU
 glb
 afD
-ajg
+leb
 afH
 rPz
 ipq
@@ -46090,8 +46146,8 @@ rCb
 aRX
 sjb
 sab
-dNb
-aTe
+aSK
+ajg
 aFM
 bDK
 bDK
@@ -46298,7 +46354,7 @@ aTF
 bDK
 bDK
 aaa
-aah
+sRV
 aUR
 aUW
 aVo
@@ -48484,7 +48540,7 @@ dJb
 dUb
 eqb
 eLb
-xKK
+jCM
 fVb
 aeY
 afx
@@ -49891,8 +49947,8 @@ adq
 abN
 mpy
 mpy
-aAI
-ady
+mpy
+apk
 sww
 xBk
 xBk
@@ -49930,8 +49986,8 @@ aRf
 tCu
 nPT
 xaC
-aaL
-bvI
+wEw
+auM
 jbk
 abM
 aaa

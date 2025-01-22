@@ -17,7 +17,7 @@
 	natural_weapon = /obj/item/natural_weapon/meatbits
 	heat_damage_per_tick = 20
 	cold_damage_per_tick = 0
-	faction = "meat"
+	faction = "Demon"
 	pass_flags = PASS_FLAG_TABLE
 	move_to_delay = 3
 	speed = 0.5
@@ -61,7 +61,7 @@
 	natural_weapon = /obj/item/natural_weapon/meatbits
 	heat_damage_per_tick = 20
 	cold_damage_per_tick = 0
-	faction = "meat"
+	faction = "Demon"
 	pass_flags = PASS_FLAG_TABLE
 	move_to_delay = 3
 	speed = 0.5
@@ -94,7 +94,7 @@
 	natural_weapon = /obj/item/natural_weapon/claws
 	heat_damage_per_tick = 100
 	cold_damage_per_tick = 0
-	faction = "meat"
+	faction = "Demon"
 	pass_flags = PASS_FLAG_TABLE
 	move_to_delay = 3
 	speed = 0.5
@@ -128,7 +128,7 @@
 	natural_weapon = /obj/item/natural_weapon/claws/weak
 	heat_damage_per_tick = 100
 	cold_damage_per_tick = 0
-	faction = "meat"
+	faction = "Demon"
 	pass_flags = PASS_FLAG_TABLE
 	move_to_delay = 3
 	speed = 0.5
@@ -164,7 +164,7 @@
 	natural_weapon = /obj/item/natural_weapon/claws
 	heat_damage_per_tick = 100
 	cold_damage_per_tick = 0
-	faction = "meat"
+	faction = "Demon"
 	pass_flags = PASS_FLAG_TABLE
 	move_to_delay = 3
 	speed = 0.5
@@ -198,7 +198,7 @@
 	natural_weapon = /obj/item/natural_weapon/claws
 	heat_damage_per_tick = 100
 	cold_damage_per_tick = 0
-	faction = "meat"
+	faction = "Demon"
 	pass_flags = PASS_FLAG_TABLE
 	move_to_delay = 3
 	speed = 0.5
@@ -232,7 +232,7 @@
 	natural_weapon = /obj/item/natural_weapon/claws
 	heat_damage_per_tick = 100
 	cold_damage_per_tick = 0
-	faction = "meat"
+	faction = "Demon"
 	pass_flags = PASS_FLAG_TABLE
 	move_to_delay = 3
 	speed = 0.5

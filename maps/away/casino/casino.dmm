@@ -2310,7 +2310,7 @@
 "gy" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1379;
-	icon_state = "door_locked";
+	icon_state = "door_closed";
 	id_tag = "solar_casino_outer";
 	locked = 1;
 	name = "External Access"
@@ -2415,7 +2415,7 @@
 "gL" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1439;
-	icon_state = "door_locked";
+	icon_state = "door_closed";
 	id_tag = "solar_casino_inner";
 	locked = 1;
 	name = "External Access"
@@ -4988,10 +4988,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8;
 	level = 2
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -25
 	},
 /turf/simulated/floor/warhammer/plate,
 /area/casino/casino_bridge)
