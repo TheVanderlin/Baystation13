@@ -3480,7 +3480,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
 "iQ" = (
-/obj/machinery/suit_cycler/exploration,
+/obj/machinery/suit_storage_unit/explorer,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
 "iS" = (

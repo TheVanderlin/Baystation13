@@ -450,6 +450,9 @@
 	icon_state = "cave_throne"
 	health_max = 1500
 
+/obj/structure/bed/chair/warhammer/throne/rotate()//Can't rotate it.
+	return
+
 /obj/structure/bed/chair/warhammer/throne/two
 	name = "imperial throne"
 	desc = "An expensive and serious looking chair to use on an office."
