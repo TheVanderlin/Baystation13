@@ -72,7 +72,7 @@
 	flash_vulnerability = 0 //eyeless
 	turns_per_move = 5
 	natural_weapon = /obj/item/natural_weapon/bite/weak
-	faction = "meat"
+	faction = "Demon"
 	min_gas = null
 	minbodytemp = 0
 	meat_type = /obj/item/reagent_containers/food/snacks/meat/meatstationmeat

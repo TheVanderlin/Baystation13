@@ -715,10 +715,6 @@
 	dir = 4;
 	level = 2
 	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -25
-	},
 /turf/simulated/floor/warhammer/plating,
 /area/lar_maria/solar_control)
 "bz" = (
@@ -885,13 +881,6 @@
 /area/lar_maria/dorms)
 "bW" = (
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/wood,
-/area/lar_maria/dorms)
-"bX" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -25
-	},
 /turf/simulated/floor/wood,
 /area/lar_maria/dorms)
 "bY" = (
@@ -1458,16 +1447,6 @@
 /obj/structure/closet/warhammer/emcloset,
 /turf/simulated/floor/warhammer/plating,
 /area/lar_maria/atmos)
-"dP" = (
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -25
-	},
-/turf/simulated/floor/warhammer/plating,
-/area/lar_maria/atmos)
 "dQ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
 	dir = 4
@@ -1855,14 +1834,6 @@
 /obj/decal/cleanable/blood,
 /turf/simulated/floor/wood,
 /area/lar_maria/dorms)
-"fi" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -25
-	},
-/obj/decal/cleanable/blood,
-/turf/simulated/floor/wood,
-/area/lar_maria/dorms)
 "fj" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -2186,13 +2157,6 @@
 "gg" = (
 /obj/structure/table/rack/dark,
 /obj/random/firstaid,
-/turf/simulated/floor/warhammer/brick,
-/area/lar_maria/office)
-"gh" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -25
-	},
 /turf/simulated/floor/warhammer/brick,
 /area/lar_maria/office)
 "gi" = (
@@ -23240,7 +23204,7 @@ eu
 eW
 fB
 fP
-gh
+ex
 eu
 gD
 he
@@ -23434,7 +23398,7 @@ cn
 cS
 do
 cn
-dP
+dB
 bx
 eu
 eu
@@ -24250,7 +24214,7 @@ fe
 ex
 eT
 ex
-gh
+ex
 eu
 gD
 hh
@@ -25852,7 +25816,7 @@ aA
 ad
 bE
 bE
-bX
+bV
 co
 cD
 cY
@@ -25862,7 +25826,7 @@ dX
 ei
 eF
 co
-fi
+bZ
 co
 fF
 db

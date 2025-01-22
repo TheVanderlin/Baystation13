@@ -195,6 +195,30 @@
 	icon_state = "sandglass"
 	diggable = 0
 
+/turf/simulated/floor/exoplanet/desert/use_tool(obj/item/C, mob/living/user, list/click_params)
+	to_chat(user, "You begin searching the desert sand for a worm carcass...")
+	if(do_after(user, 10 SECONDS, src, DO_PUBLIC_UNIQUE))
+		if(prob(10))
+			if (istype(C, /obj/item/reagent_containers/syringe))
+				if (user.skill_check(SKILL_MEDICAL, SKILL_EXPERIENCED))
+					qdel(C)
+					user.equip_to_slot_or_del(new /obj/item/reagent_containers/syringe/spice(get_turf(user)))
+					to_chat(user, "You extract the spice melange with surgical precision...")
+				if(prob(50))
+					qdel(C)
+					user.equip_to_slot_or_del(new /obj/item/reagent_containers/syringe/spice(get_turf(user)))
+					to_chat(user, "You manage to extract the spice melange...")
+				else if(prob(40))
+					to_chat(user, "You break the syringe trying to extract spice from the carcass...")
+					qdel(C)
+				else
+					to_chat(user, "You fail to extract spice from the dead carcass.")
+					return TRUE
+		else
+			to_chat(user, "You find nothing but sand...")
+			return TRUE
+	return ..()
+
 //Concrete
 /turf/simulated/floor/exoplanet/concrete
 	name = "concrete"

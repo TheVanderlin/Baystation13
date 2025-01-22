@@ -17,8 +17,8 @@
 	natural_weapon = /obj/item/natural_weapon/punch
 	can_escape = TRUE
 	a_intent = I_HURT
-	blocky = 20
-	dodgey = 20
+	blocky = 30
+	dodgey = 30
 	var/corpse = /obj/landmark/corpse/infardi
 	var/weapon1 = /obj/item/material/twohanded/ravenor/knife/trench
 	var/weapon2
@@ -168,8 +168,8 @@
 	weapon1 = /obj/item/material/twohanded/ravenor/sword/chopper/heavy
 	weapon2 = null
 	status_flags = 0
-	blocky = 35
-	dodgey = 15
+	blocky = 40
+	dodgey = 35
 	health = 150
 	maxhealth = 150
 
@@ -190,10 +190,10 @@
 	natural_weapon = /obj/item/material/twohanded/ravenor/knife
 	casingtype = /obj/item/ammo_casing/pistol/ap
 	corpse = /obj/landmark/corpse/infardi/trooper
-	ranged_attack_delay = 2 SECONDS
+	ranged_attack_delay = 0.5 SECONDS
 	speed = 0
-	blocky = 15
-	dodgey = 25
+	blocky = 25
+	dodgey = 30
 	weapon1 = /obj/item/gun/projectile/automatic/autogun
 	projectiletype = /obj/item/projectile/bullet/pistol/ap
 	health = 120
@@ -204,7 +204,7 @@
 		laser = ARMOR_LASER_FLAK-1, // Almost immune to heat.
 		energy = 20,
 		bio = 50,
-		rad = 50,
+		rad = 100,
 		bomb = 10,
 		)
 
@@ -222,7 +222,7 @@
 	icon_living = "merc_standart"
 	icon_dead = "merc_standartd"
 	casingtype = /obj/item/ammo_casing/autogun
-	ranged_attack_delay = 1.5 SECONDS
+	ranged_attack_delay = 0.4 SECONDS
 	corpse = /obj/landmark/corpse/bloodpact
 	projectilesound = 'sound/warhammer/guns/fire/smg_fire.ogg'
 	natural_weapon = /obj/item/material/twohanded/ravenor/knife/trench
@@ -232,8 +232,8 @@
 	max_gas = null
 	minbodytemp = 0
 	speed = 0
-	blocky = 15
-	dodgey = 27
+	blocky = 25
+	dodgey = 35
 	health = 130
 	maxhealth = 130
 	natural_armor = list(
@@ -242,7 +242,7 @@
 		laser = ARMOR_LASER_FLAK, // Almost immune to heat.
 		energy = 30,
 		bio = 60,
-		rad = 80,
+		rad = 100,
 		bomb = 15,
 		)
 
@@ -256,24 +256,24 @@
 	name = "Bloodpact Commando"
 	projectile_accuracy = 0
 	projectile_dispersion = 0
-	ranged_attack_delay = 2.5 SECONDS // Heavier round. Beats carapace.
+	ranged_attack_delay = 0.35 SECONDS // Heavier round. Beats carapace.
 	projectilesound = 'sound/warhammer/gunshot/auto2.ogg'
 	corpse = /obj/landmark/corpse/bloodpact/commando
 	casingtype = /obj/item/ammo_casing/autogun/militarum/ap
 	weapon1 = /obj/item/gun/projectile/automatic/autogun/stubber
 	projectiletype = /obj/item/projectile/bullet/rifle/heavy/ap
 	natural_weapon = /obj/item/material/twohanded/ravenor/knife/bowie
-	blocky = 19
-	dodgey = 29
+	blocky = 33
+	dodgey = 37
 	health = 150
 	maxhealth = 150
 	natural_armor = list(
-		melee = ARMOR_MELEE_FLAK+1, // Almost equiv of power armor
-		bullet = ARMOR_BALLISTIC_FLAK+2,
-		laser = ARMOR_LASER_FLAK+2, // Almost immune to heat.
+		melee = ARMOR_MELEE_FLAK+2, // Almost equiv of power armor
+		bullet = ARMOR_BALLISTIC_FLAK+3,
+		laser = ARMOR_LASER_FLAK+3, // Almost immune to heat.
 		energy = 30,
 		bio = 60,
-		rad = 80,
+		rad = 100,
 		bomb = 15,
 		)
 

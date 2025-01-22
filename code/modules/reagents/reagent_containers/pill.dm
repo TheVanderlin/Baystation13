@@ -245,7 +245,7 @@
 
 /obj/item/reagent_containers/pill/three_eye/Initialize()
 	. = ..()
-	reagents.add_reagent(/datum/reagent/drugs/three_eye, 10)
+	reagents.add_reagent(/datum/reagent/drugs/spicemelange, 10)
 	color = reagents.get_color()
 
 /obj/item/reagent_containers/pill/spaceacillin

@@ -292,6 +292,10 @@
 	tag_exterior_door = "admin_shuttle_dock_outer";
 	tag_interior_door = "admin_shuttle_dock_inner"
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/aft)
 "bm" = (
@@ -1355,10 +1359,11 @@
 /area/crew_quarters/galley)
 "fh" = (
 /obj/machinery/alarm{
-	pixel_y = -8
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/wall/prepainted,
-/area/storage/primary)
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/fore)
 "fi" = (
 /obj/structure/closet/coffin/wooden,
 /obj/structure/curtain/open{
@@ -2456,6 +2461,10 @@
 	c_tag = "Fourth Deck - EVA";
 	dir = 4
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/newsteel/dark2,
 /area/eva)
 "ld" = (
@@ -2704,6 +2713,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
+	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/fore)
@@ -5074,12 +5087,6 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/center)
-"wm" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/maintenance/fourthdeck/aft)
 "wn" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/prepainted,
@@ -5482,11 +5489,15 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/eva)
 "xR" = (
-/obj/machinery/alarm{
-	pixel_y = -8
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
 	},
-/turf/simulated/wall/r_wall/hull,
-/area/hallway/primary/fourthdeck/aft)
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/fore)
 "xS" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -6110,12 +6121,6 @@
 "AH" = (
 /turf/simulated/wall/prepainted,
 /area/storage/auxillary/port)
-"AJ" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/prepainted,
-/area/hallway/primary/fourthdeck/fore)
 "AK" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6341,11 +6346,22 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/crew_quarters/galley)
 "BQ" = (
-/obj/machinery/alarm{
-	pixel_y = -8
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/turf/simulated/wall/prepainted,
-/area/eva)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/hallway/primary/fourthdeck/fore)
 "BS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -11040,11 +11056,21 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/security/hangcheck)
 "TD" = (
-/obj/machinery/alarm{
-	pixel_y = -8
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/turf/simulated/wall/prepainted,
-/area/storage/auxillary/starboard)
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/maintenance/fourthdeck/aft)
 "TE" = (
 /obj/machinery/newscaster/security_unit{
 	pixel_y = -32
@@ -22227,7 +22253,7 @@ Dd
 Dd
 Dd
 Rp
-BQ
+Dd
 lc
 sk
 vO
@@ -23636,7 +23662,7 @@ RQ
 RQ
 RQ
 RQ
-TD
+ej
 mf
 nl
 WH
@@ -24861,8 +24887,8 @@ dg
 dg
 xX
 zt
-AJ
-RN
+le
+xR
 Zj
 Zj
 Zj
@@ -25246,8 +25272,8 @@ Dl
 YK
 WZ
 WZ
-AJ
-Zj
+le
+fh
 Zj
 Zj
 Zj
@@ -26272,8 +26298,8 @@ wF
 sy
 ub
 vz
-fh
-nx
+wF
+BQ
 Pz
 le
 BX
@@ -37157,7 +37183,7 @@ Dl
 Yj
 tG
 RR
-xR
+LA
 bk
 MW
 qc
@@ -38393,8 +38419,8 @@ tk
 QW
 QW
 QW
-wm
-KA
+vD
+TD
 Vj
 ah
 DY

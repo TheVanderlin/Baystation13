@@ -1256,7 +1256,7 @@
 /obj/random/cash,
 /obj/random/cash,
 /obj/random/cash,
-/obj/random/projectile,
+/obj/random/loot/gunbundle,
 /turf/simulated/floor/wood/walnut,
 /area/yacht/living)
 "fb" = (

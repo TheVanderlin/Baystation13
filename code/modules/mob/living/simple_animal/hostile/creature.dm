@@ -14,7 +14,7 @@
 	supernatural = 1
 
 /mob/living/simple_animal/hostile/creature/cult
-	faction = "cult"
+	faction = "Chaos"
 	min_gas = null
 	max_gas = null
 	minbodytemp = 0

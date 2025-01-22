@@ -984,10 +984,6 @@
 	icon_state = "intact"
 	},
 /obj/catwalk_plated,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 23
-	},
 /turf/simulated/floor/plating,
 /area/outpost/mining/cenral)
 "cn" = (
@@ -1321,10 +1317,6 @@
 	icon_state = "4-8"
 	},
 /obj/catwalk_plated,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -20
-	},
 /turf/simulated/floor/plating,
 /area/outpost/mining/hangar)
 "de" = (
@@ -1874,10 +1866,6 @@
 /area/outpost/mining/medical)
 "eb" = (
 /obj/structure/iv_stand,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -20
-	},
 /turf/simulated/floor/warhammer/ceramic/surgery2,
 /area/outpost/mining/medical)
 "ec" = (
@@ -2690,10 +2678,6 @@
 "fM" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -20
 	},
 /obj/structure/cable{
 	d1 = 1;

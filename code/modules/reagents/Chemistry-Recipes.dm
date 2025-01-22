@@ -2400,7 +2400,7 @@
 // psi-altering drug
 /singleton/reaction/three_eye
 	name = "Three Eye"
-	result = /datum/reagent/drugs/three_eye
+	result = /datum/reagent/drugs/spicemelange
 	result_amount = 2
 	mix_message = "The surface of the oily, iridescent liquid twitches like a living thing."
 	minimum_temperature = 40 CELSIUS

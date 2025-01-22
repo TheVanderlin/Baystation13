@@ -10,10 +10,12 @@
 	surface_color = "#3e3960"
 	water_color = "#2b2840"
 	fauna_types = list(
-		/mob/living/simple_animal/hostile/retaliate/royalcrab,
-		/mob/living/simple_animal/hostile/retaliate/jelly/alt,
-		/mob/living/simple_animal/hostile/retaliate/beast/shantak/alt,
-		/mob/living/simple_animal/hostile/leech
+		/mob/living/simple_animal/hostile/meat/horrorminer,
+		/mob/living/simple_animal/hostile/meat/abomination,
+		/mob/living/simple_animal/hostile/daemon/headcrab/infestor,
+		/mob/living/simple_animal/hostile/daemon/large,
+		/mob/living/simple_animal/passive/meatbeast,
+		/mob/living/simple_animal/hostile/retaliate/beast/shantak/lava
 	)
 
 
@@ -32,7 +34,7 @@
 	smoothing_iterations = 2
 	flora_prob = 5
 	large_flora_prob = 20
-	megafauna_spawn_prob = 2 //Remember to change this if more types are added.
+	megafauna_spawn_prob = 0.5
 	water_level_max = 3
 	water_level_min = 2
 	land_type = /turf/simulated/floor/exoplanet/shrouded

@@ -279,7 +279,7 @@
 	H.species.hazard_high_pressure = HAZARD_HIGH_PRESSURE * 0.4
 	H.species.hazard_low_pressure = -1
 	H.species.brute_mod = 0.8 // This particular tech priest is weaker then most humans.
-	H.species.burn_mod = 0.8
+	H.species.burn_mod = 0.7
 	H.species.toxins_mod = 0.8
 	H.species.radiation_mod = 0.6
 	H.species.hunger_factor = DEFAULT_HUNGER_FACTOR * 0.5

@@ -10,11 +10,14 @@
 	fauna_types = list(
 		/mob/living/simple_animal/yithian,
 		/mob/living/simple_animal/tindalos,
+		/mob/living/simple_animal/hostile/human/heretic,
+		/mob/living/simple_animal/hostile/human/heretic/berserker,
+		/mob/living/simple_animal/hostile/human/heretic/trooper,
 		/mob/living/simple_animal/hostile/retaliate/jelly
 	)
 	megafauna_types = list(
 		/mob/living/simple_animal/hostile/retaliate/parrot/space/megafauna,
-		/mob/living/simple_animal/hostile/retaliate/goose/dire
+		/mob/living/simple_animal/hostile/human/heretic/trooper
 	)
 
 /obj/overmap/visitable/sector/exoplanet/grass/generate_atmosphere()

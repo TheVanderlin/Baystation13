@@ -136,10 +136,6 @@
 /obj/floor_decal/corner/brown/half{
 	dir = 8
 	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -23
-	},
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_power)
 "aE" = (
@@ -563,10 +559,6 @@
 /obj/floor_decal/corner/brown/half{
 	dir = 4
 	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_living_north)
 "eG" = (
@@ -616,10 +608,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/mininghome_lockers)
 "fd" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/machinery/light/spot{
 	dir = 4
 	},
@@ -674,10 +662,6 @@
 /area/map_template/mininghome_power)
 "fp" = (
 /obj/machinery/light/small,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -834,10 +818,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -23
-	},
 /turf/simulated/floor/tiled/freezer,
 /area/map_template/mininghome_lockers)
 "gE" = (
@@ -880,10 +860,6 @@
 "gM" = (
 /obj/floor_decal/corner/brown/half{
 	dir = 4
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
 	},
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_living_south)
@@ -1048,17 +1024,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/mininghome_power)
-"hY" = (
-/obj/floor_decal/corner/red{
-	dir = 1
-	},
-/obj/floor_decal/corner/red,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -23
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/mininghome_mess)
 "hZ" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/mininghome_hangar)
@@ -1208,13 +1173,6 @@
 "jw" = (
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_robotics)
-"jz" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/map_template/mininghome_bathroom)
 "jD" = (
 /obj/paint/black,
 /turf/simulated/wall/r_titanium,
@@ -1326,10 +1284,6 @@
 "kF" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/mininghome_solars)
@@ -1966,16 +1920,6 @@
 /obj/structure/fitness/punchingbag,
 /turf/simulated/floor/wood/walnut,
 /area/map_template/mininghome_power)
-"rt" = (
-/obj/floor_decal/corner/brown/half{
-	dir = 4
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/simulated/floor/steel_dirty,
-/area/map_template/mininghome_hall)
 "rz" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -2274,10 +2218,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1;
 	level = 2
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/mininghome_processing)
@@ -3128,13 +3068,6 @@
 	},
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_power)
-"Bl" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -21
-	},
-/turf/simulated/floor/steel_dirty,
-/area/map_template/mininghome_hangar)
 "Bm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3235,13 +3168,6 @@
 	},
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_lockers)
-"Cl" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -23
-	},
-/turf/simulated/floor/steel_dirty,
-/area/map_template/mininghome_robotics)
 "Cm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -3656,10 +3582,6 @@
 	dir = 1
 	},
 /obj/floor_decal/corner/brown/half,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /obj/random/tool,
 /obj/random/tool,
 /obj/item/clothing/glasses/meson{
@@ -4381,10 +4303,6 @@
 	level = 2
 	},
 /obj/floor_decal/corner/brown/half,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_hangar)
 "MN" = (
@@ -4442,10 +4360,6 @@
 "NI" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/mininghome_hangar)
@@ -4710,10 +4624,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/mininghome_hangar)
 "PN" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/mininghome_hall)
@@ -4785,10 +4695,6 @@
 	},
 /obj/floor_decal/corner/brown/half{
 	dir = 4
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
 	},
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_lockers)
@@ -4953,16 +4859,6 @@
 	},
 /turf/simulated/floor/steel_dirty,
 /area/map_template/mininghome_hangar)
-"Rb" = (
-/obj/floor_decal/corner/brown/half{
-	dir = 4
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/simulated/floor/steel_dirty,
-/area/map_template/mininghome_lockers)
 "Rd" = (
 /obj/paint/black,
 /turf/simulated/wall/r_titanium,
@@ -5424,13 +5320,6 @@
 /obj/structure/dispenser/oxygen,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/mininghome_processing)
-"Vc" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/map_template/mininghome_power)
 "Vj" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -5450,15 +5339,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/mininghome_power)
-"Vm" = (
-/obj/floor_decal/corner/brown/half,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/obj/machinery/light,
-/turf/simulated/floor/steel_dirty,
-/area/map_template/mininghome_hall)
 "Vr" = (
 /obj/structure/bed,
 /obj/item/bedsheet/blue,
@@ -24495,7 +24375,7 @@ cZ
 lb
 WY
 ik
-Cl
+jw
 Mk
 QW
 aw
@@ -24678,7 +24558,7 @@ iv
 my
 IW
 zF
-hY
+ym
 yC
 ym
 ym
@@ -25098,7 +24978,7 @@ VZ
 DE
 oR
 Db
-Vm
+xL
 WY
 AS
 It
@@ -26276,7 +26156,7 @@ Yu
 SS
 uh
 wp
-Bl
+Yu
 Yu
 Yu
 SS
@@ -26305,7 +26185,7 @@ DE
 Wp
 ud
 og
-rt
+pb
 pb
 pb
 pb
@@ -28123,7 +28003,7 @@ xC
 ZA
 Ft
 fM
-jz
+fM
 xC
 fM
 fM
@@ -28932,7 +28812,7 @@ pD
 wF
 NX
 DR
-Vc
+wF
 Pm
 Lg
 hg
@@ -29139,7 +29019,7 @@ Pm
 Lg
 Bg
 Il
-Rb
+BT
 Rf
 br
 Oo

@@ -249,19 +249,19 @@ var/global/list/Tier4Runes = list(
 	set category = "Chaos Cult"
 	set name = "Rune: Summon Tzeentch Wargear"
 
-	make_rune(/obj/rune/chaos/armor, tome_required = 1)
+	make_rune(/obj/rune/chaos/armor, tome_required = 1, cost = 25)
 
 /mob/proc/armor_rune2()
 	set category = "Chaos Cult"
 	set name = "Rune: Summon Nurglite Wargear"
 
-	make_rune(/obj/rune/chaos/armor2, tome_required = 1)
+	make_rune(/obj/rune/chaos/armor2, tome_required = 1, cost = 25)
 
 /mob/proc/armor_rune3()
 	set category = "Chaos Cult"
 	set name = "Rune: Summon Khornate Wargear"
 
-	make_rune(/obj/rune/chaos/armor3, tome_required = 1)
+	make_rune(/obj/rune/chaos/armor3, tome_required = 1, cost = 25)
 
 /mob/proc/offering_rune()
 	set category = "Chaos Cult"

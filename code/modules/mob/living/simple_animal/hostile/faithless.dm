@@ -51,7 +51,7 @@
 
 // Cult Variant
 /mob/living/simple_animal/hostile/faithless/cult
-	faction = "cult"
+	faction = "Chaos"
 	supernatural = TRUE
 
 /mob/living/simple_animal/hostile/faithless/cult/cultify()

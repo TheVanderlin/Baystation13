@@ -23,6 +23,22 @@
 /obj/structure/barricade/get_material()
 	return material
 
+/obj/structure/barricade/can_climb(mob/living/user, post_climb_check=FALSE, check_silicon=TRUE)
+	. = ..()
+	if (. && get_turf(user) == get_turf(src))
+		var/turf/T = get_step(src, src.dir)
+		if (T.density || T.turf_is_crowded(user))
+			to_chat(user, SPAN_WARNING("You can't climb there, the way is blocked."))
+			return 0
+
+/obj/structure/barricade/do_climb(mob/living/user)
+	. = ..()
+	if (.)
+		if (!anchored || material.is_brittle())
+			kill_health() // Fatboy
+
+		user.jump_layer_shift()
+		addtimer(new Callback(user, /mob/living/proc/jump_layer_shift_end), 2)
 
 /obj/structure/barricade/use_tool(obj/item/tool, mob/user, list/click_params)
 	// Rods - Make barricade spiky
@@ -192,12 +208,34 @@
 	color = null
 	set_max_health(240)
 
+/obj/structure/barricade/sandbag/on_update_icon()
+	if(dir == SOUTH && density)
+		layer = ABOVE_HUMAN_LAYER
+	return ..()
+
 /obj/structure/barricade/sandbag/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	if (!istype(mover) || mover.checkpass(PASS_FLAG_TABLE))
 		return TRUE
 	if (get_dir(loc, target) == dir)
 		return !density
 	return TRUE
+
+/obj/structure/barricade/sandbag/CheckExit(atom/movable/O, turf/target)
+	if (istype(O) && O.checkpass(PASS_FLAG_TABLE))
+		return 1
+	if (get_dir(O.loc, target) == dir)
+		if (!density)
+			return 1
+		return 0
+	return 1
+
+/obj/structure/barricade/sandbag/rotate(mob/user)
+	if(!CanPhysicallyInteract(user))
+		to_chat(user, SPAN_NOTICE("You can't interact with \the [src] right now!"))
+		return
+
+	set_dir(turn(dir, 90))
+	update_icon()
 
 /obj/structure/barricade/sandbagwall
 	name = "sandbag wall"
@@ -227,12 +265,35 @@
 	color = null
 	set_max_health(640)
 
+
+/obj/structure/barricade/concrete/rotate(mob/user)
+	if(!CanPhysicallyInteract(user))
+		to_chat(user, SPAN_NOTICE("You can't interact with \the [src] right now!"))
+		return
+
+	set_dir(turn(dir, 90))
+	update_icon()
+
+/obj/structure/barricade/concrete/sandbag/on_update_icon()
+	if(dir == SOUTH && density)
+		layer = ABOVE_HUMAN_LAYER
+	return ..()
+
 /obj/structure/barricade/concrete/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	if (!istype(mover) || mover.checkpass(PASS_FLAG_TABLE))
 		return TRUE
 	if (get_dir(loc, target) == dir)
 		return !density
 	return TRUE
+
+/obj/structure/barricade/concrete/CheckExit(atom/movable/O, turf/target)
+	if (istype(O) && O.checkpass(PASS_FLAG_TABLE))
+		return 1
+	if (get_dir(O.loc, target) == dir)
+		if (!density)
+			return 1
+		return 0
+	return 1
 
 /obj/item/stack/barbwire
 	name = "barbed wire"

@@ -834,10 +834,6 @@
 /turf/simulated/floor,
 /area/scavver/yachtup)
 "hB" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -28
-	},
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /turf/simulated/floor/tiled,
@@ -1215,12 +1211,6 @@
 /area/scavver/lifepod)
 "kf" = (
 /obj/structure/largecrate/animal/cat/bones,
-/obj/machinery/alarm{
-	dir = 4;
-	locked = 0;
-	pixel_x = -25;
-	req_access = list()
-	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/scavver/hab)
 "ki" = (
@@ -1809,12 +1799,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/scavver/lifepod)
 "pc" = (
-/obj/machinery/alarm{
-	dir = 4;
-	locked = 0;
-	pixel_x = -25;
-	req_access = list()
-	},
 /obj/floor_decal/corner/lightgrey/mono,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/tiled/monotile,
@@ -4047,12 +4031,6 @@
 "HR" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
-	},
-/obj/machinery/alarm{
-	dir = 4;
-	locked = 0;
-	pixel_x = -25;
-	req_access = list()
 	},
 /turf/simulated/floor/tiled/dark,
 /area/scavver/lifepod)

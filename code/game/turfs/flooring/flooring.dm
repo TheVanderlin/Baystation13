@@ -631,7 +631,7 @@
 	build_type = null
 
 /singleton/flooring/warhammer/brothel
-	name = "brothel floor"
+	name = "stone floor"
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_base = "brothel"
 	color = null

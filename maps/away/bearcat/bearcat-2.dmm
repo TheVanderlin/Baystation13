@@ -189,11 +189,6 @@
 /area/ship/scrap/command/bridge)
 "aA" = (
 /obj/machinery/light,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /obj/machinery/light_switch{
 	pixel_y = -25
 	},
@@ -299,11 +294,6 @@
 /obj/structure/table/woodentable,
 /obj/random/action_figure,
 /obj/item/storage/belt/utility/full,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 4;
@@ -478,11 +468,6 @@
 /obj/item/device/radio/intercom/map_preset/demeter{
 	pixel_y = -32
 	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1;
 	level = 2
@@ -574,11 +559,6 @@
 "bj" = (
 /obj/machinery/atm{
 	pixel_y = 32
-	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/dock)
@@ -934,11 +914,6 @@
 	pixel_y = -32
 	},
 /obj/floor_decal/industrial/outline/yellow,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/dock)
 "bO" = (
@@ -950,18 +925,6 @@
 /obj/machinery/door/airlock/autoname/demeter,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/warhammer/metal/alt,
-/area/ship/scrap/dock)
-"bP" = (
-/obj/item/device/radio/intercom/map_preset/demeter{
-	pixel_y = -32
-	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
-/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/dock)
 "bQ" = (
@@ -1100,11 +1063,6 @@
 /area/ship/scrap/crew/hallway/starboard)
 "cl" = (
 /obj/machinery/vending/snack,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/crew/saloon)
 "cm" = (
@@ -1314,15 +1272,6 @@
 	level = 2
 	},
 /obj/submap_landmark/spawnpoint/crewman,
-/turf/simulated/floor/warhammer/surgerynew,
-/area/ship/scrap/crew/cryo)
-"cP" = (
-/obj/machinery/cryopod,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/surgerynew,
 /area/ship/scrap/crew/cryo)
 "cQ" = (
@@ -1816,11 +1765,6 @@
 /obj/structure/curtain/open/privacy,
 /obj/structure/bed/padded,
 /obj/item/clothing/accessory/stethoscope,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/surgerynew,
 /area/ship/scrap/crew/medbay)
 "dS" = (
@@ -1887,11 +1831,6 @@
 /area/ship/scrap/crew/hallway/port)
 "dX" = (
 /obj/decal/cleanable/dirt,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/cargo)
@@ -2282,11 +2221,6 @@
 	dir = 8;
 	icon_state = "bulb1"
 	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/crew/kitchen)
 "eF" = (
@@ -2414,11 +2348,6 @@
 /area/ship/scrap/crew/medbay)
 "eZ" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/crew/hallway/port)
 "fa" = (
@@ -2494,11 +2423,6 @@
 /obj/decal/cleanable/cobweb,
 /obj/decal/cleanable/cobweb2,
 /obj/structure/lattice,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
 /obj/structure/cable/green{
@@ -2525,11 +2449,6 @@
 /turf/space,
 /area/ship/scrap/crew/hallway/port)
 "fo" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 6
 	},
@@ -3404,11 +3323,6 @@
 	pixel_y = -24
 	},
 /obj/structure/reagent_dispensers,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/fire)
 "gM" = (
@@ -3424,11 +3338,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 5
-	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
 	},
 /obj/structure/cable/green{
 	d1 = 1;
@@ -4137,22 +4046,12 @@
 /obj/structure/sign/warning/nosmoking_1{
 	pixel_y = -32
 	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/maintenance/engineering)
 "hZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1;
 	level = 2
-	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/maintenance/power)
@@ -4503,19 +4402,9 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/maintenance/atmos)
 "iU" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /obj/machinery/atmospherics/valve/shutoff/fuel,
 /turf/simulated/floor/warhammer/plating,
 /area/ship/scrap/maintenance/engine/aft)
@@ -4881,11 +4770,6 @@
 	level = 2
 	},
 /obj/item/hemostat,
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	req_access = newlist()
-	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/crew/toilets)
 "km" = (
@@ -5160,11 +5044,6 @@
 /obj/item/disk/tech_disk,
 /obj/item/disk/design_disk,
 /obj/item/cell/high,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24;
-	req_access = newlist()
-	},
 /obj/item/storage/backpack/dufflebag/syndie,
 /obj/random/loot/tech2,
 /turf/simulated/floor/warhammer/plating,
@@ -12821,7 +12700,7 @@ Hc
 bh
 bs
 bD
-bP
+bN
 be
 cc
 ch
@@ -13437,7 +13316,7 @@ aa
 aa
 Ul
 cD
-cP
+dg
 dg
 oa
 so

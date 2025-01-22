@@ -62,7 +62,7 @@
 		/datum/reagent/toxin/plantbgone =  3,
 		/datum/reagent/cryoxadone =       -3,
 		/datum/reagent/radium =            2,
-		/datum/reagent/drugs/three_eye =         2
+		/datum/reagent/drugs/spicemelange =         2
 		)
 	var/static/list/nutrient_reagents = list(
 		/datum/reagent/drink/milk =                     0.1,
@@ -125,7 +125,7 @@
 		/datum/reagent/adminordrazine =                  list(  1,    1,   1  ),
 		/datum/reagent/toxin/fertilizer/robustharvest =  list(  0,    0.2, 0  ),
 		/datum/reagent/toxin/fertilizer/left4zed =       list(  0,    0,   0.2),
-		/datum/reagent/drugs/three_eye =                       list(  -1  , 0,   0.5),
+		/datum/reagent/drugs/spicemelange =                       list(  -1  , 0,   0.5),
 		/datum/reagent/toxin/fertilizer/potash =         list(  0,5,   0.5,   0)
 		)
 

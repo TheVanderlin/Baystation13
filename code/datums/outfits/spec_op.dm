@@ -53,6 +53,7 @@
 
 /singleton/hierarchy/outfit/mercenary
 	name = "Spec Ops - Mercenary"
+	uniform = /obj/item/clothing/under/tactical
 	suit = /obj/item/clothing/suit/armor/grim/cult/militia
 	mask = /obj/item/clothing/mask/gas/prac_mask
 	head = /obj/item/clothing/head/helmet/flak/chaos/renegade
@@ -85,7 +86,7 @@
 /singleton/hierarchy/outfit/mercenary/bloodpact
 	name = "Bloodpact Soldier"
 	suit = /obj/item/clothing/suit/armor/grim/cult/bloodpact
-	mask = /obj/item/clothing/mask/gas/prac_mask
+	mask = /obj/item/clothing/mask/gas/security/bloodpact
 	head = /obj/item/clothing/head/helmet/flak/chaos/bloodpact
 	shoes = /obj/item/clothing/shoes/jackboots/noble
 	id_desc = "Infardi"
@@ -93,7 +94,7 @@
 /singleton/hierarchy/outfit/mercenary/bloodpact/commando
 	name = "Bloodpact Commando"
 	suit = /obj/item/clothing/suit/armor/grim/cult/bloodpact
-	mask = /obj/item/clothing/mask/gas/prac_mask
+	mask = /obj/item/clothing/mask/gas/security/bloodpact
 	head = /obj/item/clothing/head/helmet/flak/chaos/bloodpact
 	shoes = /obj/item/clothing/shoes/jackboots/noble
 	l_pocket = /obj/item/tank/oxygen_emergency

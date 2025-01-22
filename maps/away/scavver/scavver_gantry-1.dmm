@@ -108,12 +108,6 @@
 "cj" = (
 /obj/machinery/vitals_monitor,
 /obj/floor_decal/corner/blue/mono,
-/obj/machinery/alarm{
-	dir = 8;
-	locked = 0;
-	pixel_x = 25;
-	req_access = list()
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/scavver/calypso)
 "cr" = (
@@ -1928,12 +1922,6 @@
 /turf/simulated/floor,
 /area/scavver/yachtdown)
 "Gq" = (
-/obj/machinery/alarm{
-	dir = 4;
-	locked = 0;
-	pixel_x = -25;
-	req_access = list()
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
@@ -2478,12 +2466,6 @@
 /obj/item/clothing/gloves/insulated,
 /obj/item/device/multitool,
 /obj/floor_decal/corner/blue/mono,
-/obj/machinery/alarm{
-	dir = 4;
-	locked = 0;
-	pixel_x = -25;
-	req_access = list()
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/blue{
 	dir = 6
 	},

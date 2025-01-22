@@ -40,7 +40,7 @@
 
 // Spookiest of bats
 /mob/living/simple_animal/hostile/scarybat/cult
-	faction = "cult"
+	faction = "Chaos"
 	supernatural = TRUE
 
 /mob/living/simple_animal/hostile/scarybat/cult/cultify()

@@ -993,6 +993,10 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/robotics)
 "ca" = (
@@ -1946,6 +1950,10 @@
 	},
 /obj/floor_decal/industrial/warning/corner,
 /obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/central)
 "eb" = (
@@ -5471,12 +5479,6 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/central)
-"nn" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/ocp_wall,
-/area/maintenance/seconddeck/aftport)
 "no" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/tunnelchess,
@@ -5935,6 +5937,10 @@
 	dir = 10
 	},
 /obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/aftport)
 "pe" = (
@@ -6999,6 +7005,10 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/aftstarboard)
 "rs" = (
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/open,
 /area/hallway/primary/seconddeck/center)
 "rt" = (
@@ -9108,12 +9118,6 @@
 "yf" = (
 /turf/simulated/wall/ocp_wall,
 /area/engineering/prototype/control)
-"yh" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/ocp_wall,
-/area/assembly/robotics)
 "yi" = (
 /obj/random/obstruction,
 /turf/simulated/floor/warhammer/tunnelchess,
@@ -9987,12 +9991,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/foreport)
-"AI" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/ocp_wall,
-/area/crew_quarters/heads/office/ce)
 "AK" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable{
@@ -10345,12 +10343,6 @@
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/vacant/cargo)
-"BP" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/ocp_wall,
-/area/maintenance/seconddeck/foreport)
 "BQ" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/door/firedoor,
@@ -10417,11 +10409,18 @@
 /turf/simulated/wall/ocp_wall,
 /area/maintenance/auxsolarport)
 "BZ" = (
-/obj/machinery/alarm{
-	pixel_y = -8
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/turf/simulated/wall/ocp_wall,
-/area/maintenance/auxsolarport)
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/maintenance/seconddeck/foreport)
 "Ca" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
@@ -10585,6 +10584,10 @@
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
+	},
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/auxsolarport)
@@ -14317,12 +14320,6 @@
 "Oo" = (
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/engineering/fuelbay)
-"Os" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/ocp_wall,
-/area/hallway/primary/seconddeck/center)
 "Ot" = (
 /obj/structure/noticeboard{
 	pixel_y = 32
@@ -14485,12 +14482,6 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/seconddeck/fore)
-"Pa" = (
-/obj/machinery/alarm{
-	pixel_y = -8
-	},
-/turf/simulated/wall/ocp_wall,
-/area/engineering/prototype/control)
 "Pb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 6
@@ -15426,6 +15417,10 @@
 /obj/structure/closet/crate/radiation,
 /obj/item/stack/material/tritium/ten,
 /obj/item/stack/material/tritium/ten,
+/obj/machinery/alarm{
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
 /turf/simulated/floor/reinforced{
 	map_airless = 1
 	},
@@ -16435,10 +16430,11 @@
 /area/engineering/prototype/control)
 "Wk" = (
 /obj/machinery/alarm{
-	pixel_y = -8
+	pixel_y = 23;
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
 	},
-/turf/simulated/wall/ocp_wall,
-/area/engineering/prototype/engine)
+/turf/simulated/floor/warhammer/metal/alt,
+/area/engineering/prototype/control)
 "Wl" = (
 /obj/shuttle_landmark/escape_pod/start/pod10,
 /obj/wallframe_spawn/reinforced/titanium,
@@ -27740,7 +27736,7 @@ io
 fU
 qw
 Se
-Wk
+Se
 Sg
 Hh
 Xh
@@ -29356,8 +29352,8 @@ JX
 JX
 JX
 SU
-Pa
-Ug
+yf
+Wk
 Vf
 vi
 yf
@@ -30567,7 +30563,7 @@ dq
 iu
 bd
 ci
-Os
+kD
 rs
 mk
 mY
@@ -31590,8 +31586,8 @@ XU
 jV
 jV
 jV
-BP
-dX
+lr
+BZ
 EU
 yV
 zF
@@ -34399,7 +34395,7 @@ WQ
 hP
 NL
 Is
-yh
+XP
 bZ
 cx
 cz
@@ -35809,7 +35805,7 @@ aq
 aq
 aq
 cU
-AI
+cU
 ea
 eJ
 ft
@@ -36041,7 +36037,7 @@ vl
 rn
 Gn
 In
-BZ
+BY
 Cx
 CZ
 Dt
@@ -36441,7 +36437,7 @@ BI
 BI
 BI
 BI
-nn
+BI
 oY
 HY
 Kn

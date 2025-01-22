@@ -400,6 +400,16 @@
 	reagents.add_reagent(/datum/reagent/adrenaline, 5)
 	reagents.add_reagent(/datum/reagent/hyperzine, 10)
 
+/obj/item/reagent_containers/syringe/spice
+	name = "Syringe (spice serum)"
+	desc = "The forbidden sauce."
+
+/obj/item/reagent_containers/syringe/spice/New()
+	..()
+	reagents.add_reagent(/datum/reagent/drugs/spicemelange, 10)
+	reagents.add_reagent(/datum/reagent/toxin/chlorine, 2)
+	reagents.add_reagent(/datum/reagent/toxin/venom, 2)
+	reagents.add_reagent(/datum/reagent/toxin/poo, 2)
 
 // TG ports
 

@@ -599,7 +599,7 @@
 /obj/item/gun/projectile/automatic/boltrifle/lockebolter/sister
 	name = "Godwyn-De'az Pattern Bolter Rifle"
 	desc = "The standard issue pattern for the Adeptus Sororitas, this pattern is millenia old and largely is no longer produced, save for the orders of the sisterhood -- despite it's ancients designs the make and quality makes this ancient design surpass more modern bolters."
-	icon_state = "sisterbolter-30"
+	icon_state = "sisterbolter"
 	one_hand_penalty = 1
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
 	fire_delay = 3.4 // Faster firing compared to Drusian, but less accurate. Designed for one handed use while wielding a chainsword.
@@ -613,11 +613,11 @@
 /obj/item/gun/projectile/automatic/boltrifle/lockebolter/sister/update_icon()
 	..()
 	if(ammo_magazine)
-		icon_state = "sisterbolter-30"
+		icon_state = "sisterbolter"
 		item_state = "autoshotty"
 		wielded_item_state = "autoshotty-wielded"
 	else
-		icon_state = "sisterbolter-30-e"
+		icon_state = "sisterbolter-e"
 		item_state = "autoshotty-e"
 		wielded_item_state = "autoshotty-wielded-e"
 

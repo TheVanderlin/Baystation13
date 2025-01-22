@@ -27,7 +27,6 @@ GLOBAL_DATUM_INIT(cult, /datum/antagonist/cultist, new)
 	restricted_jobs = list(/datum/job/lawyer, /datum/job/rogue_trader, /datum/job/guard_captain, /datum/job/enforcer, /datum/job/enforcer_sergeant, /datum/job/guardsman)
 	blacklisted_jobs = null
 	feedback_tag = "cult_objective"
-	antag_indicator = "hudcultist"
 	welcome_text = "You have a tome in your possession; one that will help you start the cult. Use it well and remember - there are others."
 	victory_text = "The cult wins! It has succeeded in serving its dark masters!"
 	loss_text = "The staff managed to stop the cult!"
@@ -39,7 +38,6 @@ GLOBAL_DATUM_INIT(cult, /datum/antagonist/cultist, new)
 	initial_spawn_req = 4
 	initial_spawn_target = 6
 	antaghud_indicator = null // formerly hudcultist
-	skill_setter = /datum/antag_skill_setter/station
 
 	var/allow_narsie = 1
 	var/powerless = 0
@@ -54,7 +52,7 @@ GLOBAL_DATUM_INIT(cult, /datum/antagonist/cultist, new)
 	var/station_summon_only = TRUE
 	var/no_shuttle_summon = TRUE
 
-	faction = "cult"
+	faction = "Chaos"
 
 /datum/antagonist/cultist/create_global_objectives()
 
