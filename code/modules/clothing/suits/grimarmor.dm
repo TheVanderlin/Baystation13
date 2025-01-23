@@ -9,10 +9,11 @@
 	blood_overlay_type = "armor"
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	flags_inv = CLOTHING_BULKY // DO NOT USE THIS IF YOU DONT KNOW HOW PLATE CARRIER CODE WORKS
-	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_INVALID_FOR_CHAMELEON
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_INVALID_FOR_CHAMELEON | ITEM_FLAG_AIRTIGHT
 	body_parts_covered = LEGS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HANDS
 	heat_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HANDS
+	min_pressure_protection = 0
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-200
 	slowdown_general = 0.04
