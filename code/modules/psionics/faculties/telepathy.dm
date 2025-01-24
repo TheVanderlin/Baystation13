@@ -1,14 +1,14 @@
-/singleton/psionic_faculty/coercion
-	id = PSI_COERCION
-	name = "Coercion"
+/singleton/psionic_faculty/telepathy
+	id = PSI_TELEPATHY
+	name = "telepathy"
 	associated_intent = I_DISARM
 	armour_types = list(DAMAGE_PSIONIC)
 
-/singleton/psionic_power/coercion
-	faculty = PSI_COERCION
-	abstract_type = /singleton/psionic_power/coercion
+/singleton/psionic_power/telepathy
+	faculty = PSI_TELEPATHY
+	abstract_type = /singleton/psionic_power/telepathy
 
-/singleton/psionic_power/coercion/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/telepathy/invoke(mob/living/user, mob/living/target)
 	if (!istype(target))
 		to_chat(user, SPAN_WARNING("You cannot mentally attack \the [target]."))
 		return FALSE
@@ -17,7 +17,7 @@
 	if(. && target.deflect_psionic_attack(user))
 		return FALSE
 
-/singleton/psionic_power/coercion/blindstrike
+/singleton/psionic_power/telepathy/blindstrike
 	name =           "Blindstrike"
 	cost =           8
 	cooldown =       120
@@ -26,14 +26,14 @@
 	min_rank =       PSI_RANK_GRANDMASTER
 	use_description = "Target the eyes or mouth on disarm intent and click anywhere to use a radial attack that blinds, deafens and disorients everyone near you."
 
-/singleton/psionic_power/coercion/blindstrike/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/telepathy/blindstrike/invoke(mob/living/user, mob/living/target)
 	if(user.zone_sel.selecting != BP_MOUTH && user.zone_sel.selecting != BP_EYES)
 		return FALSE
 	. = ..()
 	if(.)
 		user.visible_message(SPAN_DANGER("\The [user] suddenly throws back their head, as though screaming silently!"))
 		to_chat(user, SPAN_DANGER("You strike at all around you with a deafening psionic scream!"))
-		for(var/mob/living/M in orange(user, user.psi.get_rank(PSI_COERCION)))
+		for(var/mob/living/M in orange(user, user.psi.get_rank(PSI_TELEPATHY)))
 			if(M == user)
 				continue
 			var/blocked = 100 * M.get_blocked_ratio(null, DAMAGE_PSIONIC)
@@ -51,7 +51,7 @@
 			M.set_confused(rand(3, 8))
 		return TRUE
 
-/singleton/psionic_power/coercion/mindread
+/singleton/psionic_power/telepathy/mindread
 	name =            "Read Mind"
 	cost =            6
 	cooldown =        80
@@ -59,7 +59,7 @@
 	min_rank =        PSI_RANK_OPERANT
 	use_description = "Target the head on disarm intent at melee range to attempt to read a victim's surface thoughts."
 
-/singleton/psionic_power/coercion/mindread/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/telepathy/mindread/invoke(mob/living/user, mob/living/target)
 	if(!isliving(target) || !istype(target) || user.zone_sel.selecting != BP_HEAD)
 		return FALSE
 	. = ..()
@@ -87,7 +87,7 @@
 	msg_admin_attack("[key_name(user)] read mind of [key_name(target)] with question \"[question]\" and [answer?"got answer \"[answer]\".":"got no answer."]")
 	return TRUE
 
-/singleton/psionic_power/coercion/agony
+/singleton/psionic_power/telepathy/agony
 	name =          "Agony"
 	cost =          8
 	cooldown =      50
@@ -95,7 +95,7 @@
 	min_rank =      PSI_RANK_MASTER
 	use_description = "Target the chest or groin on disarm intent to use a melee attack equivalent to a strike from a stun baton."
 
-/singleton/psionic_power/coercion/agony/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/telepathy/agony/invoke(mob/living/user, mob/living/target)
 	if(!istype(target))
 		return FALSE
 	if(user.zone_sel.selecting != BP_CHEST && user.zone_sel.selecting != BP_GROIN)
@@ -107,7 +107,7 @@
 		target.stun_effect_act(0, 60, user.zone_sel.selecting)
 		return TRUE
 
-/singleton/psionic_power/coercion/spasm
+/singleton/psionic_power/telepathy/spasm
 	name =           "Spasm"
 	cost =           15
 	cooldown =       100
@@ -116,7 +116,7 @@
 	min_rank =       PSI_RANK_MASTER
 	use_description = "Target the arms or hands on disarm intent to use a ranged attack that may rip the weapons away from the target."
 
-/singleton/psionic_power/coercion/spasm/invoke(mob/living/user, mob/living/carbon/human/target)
+/singleton/psionic_power/telepathy/spasm/invoke(mob/living/user, mob/living/carbon/human/target)
 	if(!istype(target))
 		return FALSE
 
@@ -135,7 +135,7 @@
 				target.visible_message(SPAN_DANGER("\The [target] drops \the [item] as their hand spasms!"))
 		return TRUE
 
-/singleton/psionic_power/coercion/mindslave
+/singleton/psionic_power/telepathy/mindslave
 	name =          "Mindslave"
 	cost =          28
 	cooldown =      200
@@ -143,7 +143,7 @@
 	min_rank =      PSI_RANK_PARAMOUNT
 	use_description = "Grab a victim, target the eyes, then use the grab on them while on disarm intent, in order to convert them into a loyal mind-slave. The process takes some time, and failure is punished harshly."
 
-/singleton/psionic_power/coercion/mindslave/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/telepathy/mindslave/invoke(mob/living/user, mob/living/target)
 	if(!istype(target) || user.zone_sel.selecting != BP_EYES)
 		return FALSE
 	. = ..()
@@ -168,7 +168,7 @@
 		GLOB.thralls.add_antagonist(target.mind, new_controller = user)
 		return TRUE
 
-/singleton/psionic_power/coercion/assay
+/singleton/psionic_power/telepathy/assay
 	name =            "Assay"
 	cost =            15
 	cooldown =        100
@@ -176,7 +176,7 @@
 	min_rank =        PSI_RANK_OPERANT
 	use_description = "Grab a patient, target the head, then use the grab on them while on disarm intent, in order to perform a deep coercive-redactive probe of their psionic potential."
 
-/singleton/psionic_power/coercion/assay/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/telepathy/assay/invoke(mob/living/user, mob/living/target)
 	if(user.zone_sel.selecting != BP_HEAD)
 		return FALSE
 	. = ..()
@@ -192,7 +192,7 @@
 		target.show_psi_assay(user)
 		return TRUE
 
-/singleton/psionic_power/coercion/focus
+/singleton/psionic_power/telepathy/focus
 	name =          "Focus"
 	cost =          10
 	cooldown =      80
@@ -200,7 +200,7 @@
 	min_rank =      PSI_RANK_OPERANT
 	use_description = "Grab a patient, target the mouth, then use the grab on them while on disarm intent, in order to cure ailments of the mind."
 
-/singleton/psionic_power/coercion/focus/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/telepathy/focus/invoke(mob/living/user, mob/living/target)
 	if(user.zone_sel.selecting != BP_MOUTH)
 		return FALSE
 	. = ..()
@@ -214,8 +214,8 @@
 		to_chat(user, SPAN_WARNING("You clear \the [target]'s mind of ailments."))
 		to_chat(target, SPAN_WARNING("Your mind is cleared of ailments."))
 
-		var/coercion_rank = user.psi.get_rank(PSI_COERCION)
-		if(coercion_rank >= PSI_RANK_GRANDMASTER)
+		var/telepathy_rank = user.psi.get_rank(PSI_TELEPATHY)
+		if(telepathy_rank >= PSI_RANK_GRANDMASTER)
 			target.AdjustParalysis(-1)
 		target.drowsyness = 0
 		if(istype(target, /mob/living/carbon))
