@@ -144,13 +144,38 @@ GLOBAL_LIST_EMPTY(skills)
 	ID = "hauling"
 	name = "Vigor"
 	desc = "Represents your physical prowess in tasks requiring strength, dexterity, and endurance. Essential for soldiers, laborers, and anyone expected to endure grueling work."
-	levels = list( "Unskilled"			= "You tire quickly from manual labor and lack the physical conditioning required for strenuous tasks. Prolonged work could be dangerous for you.<br>- You can pull objects but will tire out quickly. Your strength improves with skill.<br>- You can throw objects, and their speed, distance, and force increase with skill.<br>- You can sprint, and stamina consumption decreases as your skill improves.<br>- You can leap at distant targets, with leap range and reduced chance of falling increasing with skill.",
-						"Basic"				= "You have some experience with physical labor and are in decent shape, but tasks requiring significant strength or endurance may still challenge you.<br>- You can throw large objects or people without being weakened.",
-						"Trained"			= "You have the strength and dexterity for strenuous tasks, capable of performing manual labor for extended periods without tiring.",
-						"Experienced"		= "You’re accustomed to physically demanding work and are in excellent shape. You may regularly engage in physical training or work in extreme conditions.",
-						"Master"		= "You are in peak physical condition, highly adapted to heavy labor or combat. Extended periods of intense physical work are no challenge for you.")
+	levels = list(
+		"Unskilled" = "You tire quickly from manual labor and lack the physical conditioning required for strenuous tasks. Prolonged work could be dangerous for you.<br>- You can pull objects but will tire out quickly. Your strength improves with skill.<br>- You can throw objects, and their speed, distance, and force increase with skill.<br>- You can sprint, and stamina consumption decreases as your skill improves.<br>- You can leap at distant targets, with leap range and reduced chance of falling increasing with skill.",
+		"Basic" = "You have some experience with physical labor and are in decent shape, but tasks requiring significant strength or endurance may still challenge you.<br>- You can throw large objects or people without being weakened.",
+		"Trained" = "You have the strength and dexterity for strenuous tasks, capable of performing manual labor for extended periods without tiring.",
+		"Experienced" = "You’re accustomed to physically demanding work and are in excellent shape. You may regularly engage in physical training or work in extreme conditions.",
+		"Master" = "You are in peak physical condition, highly adapted to heavy labor or combat. Extended periods of intense physical work are no challenge for you.",
+		"Legend" = "You push beyond mortal limits, shrugging off tasks that would break ordinary men. Your feats of endurance and might earn you renown across the Imperium.",
+		"Primaris" = "Your physique borders on transhuman, resembling the Emperor’s Astartes in raw power. You face grueling tasks and monstrous foes with unwavering endurance.",
+		"Demigod" = "You stand among the mightiest in the galaxy, achieving feats that defy reason. Your raw strength and unyielding stamina approach the divine."
+	)
 	difficulty = SKILL_AVERAGE
-	default_max = SKILL_MASTER
+	default_max = SKILL_DEMIGOD
+
+
+/singleton/hierarchy/skill/general/vigor/get_cost(level)
+	switch(level)
+		if(SKILL_BASIC)
+			return difficulty
+		if(SKILL_TRAINED)
+			return 2*difficulty
+		if(SKILL_EXPERIENCED)
+			return 2*difficulty
+		if(SKILL_MASTER)
+			return 4*difficulty
+		if(SKILL_LEGEND)
+			return 4*difficulty
+		if(SKILL_PRIMARIS)
+			return 6*difficulty
+		if(SKILL_DEMIGOD)
+			return 6*difficulty
+		else
+			return 0
 
 /singleton/hierarchy/skill/general/computer
 	ID = "computer"

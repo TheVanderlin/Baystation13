@@ -83,12 +83,8 @@
 	},
 /area/crew_quarters/heads/office/ce)
 "aj" = (
-/obj/structure/table/warhammer/rusty_table,
-/obj/random/loot/tech1,
-/turf/simulated/floor/selfestructgrid{
-	name = "xenos plating"
-	},
-/area/crew_quarters/heads/office/ce)
+/turf/simulated/wall/r_wall/hull,
+/area/tcommsat/chamber)
 "ak" = (
 /obj/structure/table/warhammer/shrine,
 /obj/structure/hivedecor/statue6{
@@ -126,18 +122,15 @@
 	},
 /area/crew_quarters/heads/office/ce)
 "ao" = (
-/obj/structure/table/warhammer/shrine,
-/obj/random/loot/tech1,
-/turf/simulated/floor/selfestructgrid{
-	name = "xenos plating"
-	},
-/area/crew_quarters/heads/office/ce)
+/obj/machinery/telecomms/server/presets/science,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "ap" = (
 /obj/structure/table/warhammer/shrine,
 /obj/structure/hivedecor/statue6{
 	pixel_x = -35
 	},
-/obj/random/loot/tech1,
+/obj/random/loot/tech2,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -162,12 +155,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/medical/morgue)
 "at" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/machinery/door/window/brigdoor/northleft{
-	name = "Specialty Engine Controls"
-	},
 /obj/machinery/button/blast_door{
 	desc = "A switch made to open the vent from the core into space. Use to vent all gasses from the engine core.";
 	id_tag = "EngineVent";
@@ -529,11 +516,9 @@
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/seconddeck/forestarboard)
 "bc" = (
-/obj/structure/closet/crate,
-/obj/random/technology_scanner,
-/obj/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/warhammer/plating,
-/area/maintenance/seconddeck/forestarboard)
+/obj/machinery/telecomms/server/presets/medical,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "bd" = (
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/forestarboard)
@@ -578,7 +563,7 @@
 /area/crew_quarters/heads/office/ce)
 "bj" = (
 /obj/structure/table/warhammer/rusty_table,
-/obj/random/loot/raregunsenergy,
+/obj/item/material/twohanded/ravenor/axe/thunderhammer,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -1679,7 +1664,7 @@
 	},
 /area/crew_quarters/heads/office/ce)
 "dx" = (
-/obj/structure/sign/warning/high_voltage,
+/obj/structure/sign/warning/nosmoking_2,
 /turf/simulated/wall/ocp_wall,
 /area/crew_quarters/heads/office/ce)
 "dy" = (
@@ -1697,7 +1682,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/heads/office/ce)
 "dz" = (
-/obj/structure/sign/warning/deathsposal,
+/obj/structure/sign/science_2,
 /turf/simulated/wall/ocp_wall,
 /area/crew_quarters/heads/office/ce)
 "dB" = (
@@ -1930,6 +1915,7 @@
 /obj/item/book/manual/medical_diagnostics_manual,
 /obj/item/book/manual/supermatter_engine,
 /obj/item/book/manual/materials_chemistry_analysis,
+/obj/item/clothing/accessory/armor_plate/bodyglovemech,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "ea" = (
@@ -2138,6 +2124,9 @@
 /obj/machinery/door/airlock/warhammer/command/ancient{
 	name = "Magos Accessway";
 	req_access = list("ACCESS_MECHANICUS")
+	},
+/obj/structure/sign/warning/server_room{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/forestarboard)
@@ -2700,6 +2689,10 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/door/airlock/warhammer/engineering{
+	req_access = list("ACCESS_MECHANICUS");
+	name = "Forge Deck"
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/aftstarboard)
 "fI" = (
@@ -3033,15 +3026,7 @@
 	dir = 4
 	},
 /obj/machinery/meter,
-/obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
-	},
-/obj/structure/railing/mapped{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/floor/warhammer/tunnelchess,
+/turf/simulated/wall/ocp_wall,
 /area/maintenance/seconddeck/aftstarboard)
 "gv" = (
 /obj/structure/cable{
@@ -3080,6 +3065,10 @@
 /obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/maintenance/seconddeck/aftstarboard)
+"gz" = (
+/obj/machinery/telecomms/server/presets/security,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "gA" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
@@ -3232,6 +3221,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/forestarboard)
 "gT" = (
@@ -3276,6 +3268,18 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/foreport)
+"ha" = (
+/obj/structure/cable/cyan{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc/super{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "hb" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -3599,6 +3603,10 @@
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/engineering_bay)
+"hY" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "ia" = (
 /obj/structure/table/steel,
 /obj/item/storage/box/lights/bulbs,
@@ -3766,6 +3774,10 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/atmos)
+"iz" = (
+/obj/machinery/telecomms/server/presets/command,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "iC" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -3834,6 +3846,21 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/engineering/engineering_bay)
+"iK" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light_switch{
+	pixel_x = 22
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "iL" = (
 /obj/machinery/power/breakerbox/activated{
 	RCon_tag = "Second Deck Substation Bypass"
@@ -4558,6 +4585,7 @@
 /obj/structure/closet/secure_closet/engineering_torch,
 /obj/random/loot/sidearmbundle,
 /obj/item/book/manual/engineering_guide,
+/obj/item/clothing/accessory/armor_plate/bodyglovebio,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "kJ" = (
@@ -4864,6 +4892,19 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/engineering/bluespacebay)
+"lv" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "lx" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -4945,12 +4986,27 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/aftport)
 "lE" = (
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
 /obj/structure/catwalk,
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Magos Accessway";
+	req_access = list("ACCESS_MECHANICUS")
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/forestarboard)
+"lF" = (
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/structure/table/steel,
+/obj/item/clothing/suit/armor/grim/storage/hooded/wintercoat/solgov,
+/obj/machinery/power/apc/super{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "lG" = (
 /obj/machinery/shieldgen,
 /obj/floor_decal/industrial/outline/grey,
@@ -5207,6 +5263,10 @@
 /obj/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
+"mv" = (
+/obj/machinery/telecomms/processor/preset_three,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "mw" = (
 /obj/structure/table/rack/dark,
 /obj/item/device/paint_sprayer,
@@ -5386,6 +5446,28 @@
 /turf/simulated/floor/warhammer/mudsteel{
 	dir = 8
 	},
+/area/maintenance/seconddeck/forestarboard)
+"mV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/warhammer/command/ancient{
+	name = "Magos Accessway";
+	req_access = list("ACCESS_MECHANICUS")
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/forestarboard)
 "mW" = (
 /obj/machinery/door/firedoor,
@@ -5575,6 +5657,12 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/engine_monitoring)
+"nD" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "nF" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /obj/structure/cable/cyan{
@@ -5593,6 +5681,20 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/engine_room)
+"nG" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "nH" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/green{
 	dir = 1
@@ -5627,6 +5729,13 @@
 	c_tag = "Engineering - Engine Room Center";
 	dir = 8
 	},
+/obj/machinery/button/mass_driver{
+	desc = "A switch used to remotely eject the engine core into space. The vent must be opened to eject the core, otherwise it will explode while still in the ship, causing monumental damage. Only press if core is about to explode.";
+	id_tag = "enginecore";
+	name = "Emergency Core Eject";
+	pixel_x = 22;
+	pixel_y = 7
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/engine_room)
 "nJ" = (
@@ -5635,6 +5744,10 @@
 	},
 /turf/simulated/wall/ocp_wall,
 /area/engineering/engine_room)
+"nK" = (
+/obj/machinery/telecomms/broadcaster/preset_right,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "nL" = (
 /obj/structure/sign/warning/radioactive{
 	dir = 4
@@ -5672,6 +5785,14 @@
 /obj/structure/grille/warhammer/metal_bars,
 /turf/space,
 /area/space)
+"nZ" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/structure/table/steel,
+/obj/item/folder/yellow,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "oa" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -5688,6 +5809,24 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/aftport)
+"ob" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/airlock/warhammer/command{
+	req_access = list("ACCESS_MEDICAL_COMMAND");
+	name = "Medicae Storage"
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/maintenance/seconddeck/aftstarboard)
 "oc" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /obj/floor_decal/industrial/outline/grey,
@@ -5958,6 +6097,17 @@
 	pixel_y = -3
 	},
 /obj/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/maintenance/seconddeck/central)
 "pg" = (
@@ -6121,6 +6271,13 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/foyer)
+"pz" = (
+/obj/machinery/computer/telecomms/monitor{
+	dir = 4;
+	network = "tcommsat"
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "pA" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -6649,6 +6806,7 @@
 /obj/item/book/manual/engineering_guide,
 /obj/item/book/manual/medical_cloning,
 /obj/item/book/manual/supermatter_engine,
+/obj/item/clothing/accessory/armor_plate/bodyglovemech,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "qK" = (
@@ -6847,6 +7005,14 @@
 /obj/engine_setup/pump_max,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
+"ra" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "rb" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -7313,6 +7479,13 @@
 /obj/machinery/rotating_alarm/supermatter{
 	dir = 8
 	},
+/obj/machinery/button/mass_driver{
+	desc = "A switch used to remotely eject the engine core into space. The vent must be opened to eject the core, otherwise it will explode while still in the ship, causing monumental damage. Only press if core is about to explode.";
+	id_tag = "enginecore";
+	name = "Emergency Core Eject";
+	pixel_x = 22;
+	pixel_y = 7
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/engine_room)
 "ss" = (
@@ -7425,6 +7598,10 @@
 /obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/foreport)
+"sM" = (
+/obj/machinery/bluespacerelay,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "sN" = (
 /obj/floor_decal/techfloor,
 /obj/floor_decal/techfloor{
@@ -7432,6 +7609,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/tech)
+"sO" = (
+/obj/machinery/telecomms/bus/preset_four,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "sQ" = (
 /obj/machinery/rotating_alarm/security_alarm{
 	dir = 8
@@ -7459,6 +7640,10 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/foyer)
+"sU" = (
+/obj/machinery/telecomms/server/presets/exploration,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "sW" = (
 /obj/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -8057,6 +8242,20 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/engineering/shieldbay)
+"uB" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Server Room";
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/maintenance/seconddeck/central)
 "uD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
@@ -8084,6 +8283,13 @@
 /obj/machinery/air_sensor{
 	id_tag = "co2_sensor"
 	},
+/obj/machinery/button/blast_door{
+	desc = "A switch designed to vent all gasses from the engine room into space. Press it if there is a fire in the engine room.";
+	id_tag = "engineroomvent";
+	name = "Emergency Engine Room Vents";
+	pixel_x = -24;
+	pixel_y = -9
+	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/engineering/atmos)
 "uF" = (
@@ -8092,6 +8298,32 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/button/blast_door{
+	desc = "A switch made to open the vent from the core into space. Use to vent all gasses from the engine core.";
+	id_tag = "EngineVent";
+	name = "Emergency Core Vent Control";
+	pixel_x = -24;
+	pixel_y = 9
+	},
+/obj/machinery/button/blast_door{
+	desc = "A switch designed to vent all gasses from the engine room into space. Press it if there is a fire in the engine room.";
+	id_tag = "engineroomvent";
+	name = "Emergency Engine Room Vents";
+	pixel_x = -24;
+	pixel_y = -9
+	},
+/obj/machinery/button/blast_door{
+	desc = "A switch made to open the engine access hatch.";
+	id_tag = "EngineAccess";
+	name = "Engine Access Hatch";
+	pixel_x = -36
+	},
+/obj/machinery/button/mass_driver{
+	desc = "A switch used to remotely eject the engine core into space. The vent must be opened to eject the core, otherwise it will explode while still in the ship, causing monumental damage. Only press if core is about to explode.";
+	id_tag = "enginecore";
+	name = "Emergency Core Eject";
+	pixel_x = -24
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/engine_room)
 "uG" = (
@@ -8412,6 +8644,16 @@
 	},
 /turf/simulated/floor/greengrid,
 /area/synth/borg_upload)
+"vB" = (
+/obj/machinery/power/smes/buildable{
+	RCon_tag = "Solar - Port"
+	},
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "vC" = (
 /obj/floor_decal/industrial/warning{
 	dir = 10
@@ -8663,6 +8905,20 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/forestarboard)
+"wy" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Server Room";
+	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "wz" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/floor_decal/industrial/outline/grey,
@@ -8763,6 +9019,10 @@
 /obj/machinery/meter,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/atmos)
+"wO" = (
+/obj/structure/sign/medposte3,
+/turf/simulated/wall/ocp_wall,
+/area/maintenance/seconddeck/central)
 "wP" = (
 /obj/structure/dispenser,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -8975,6 +9235,7 @@
 /obj/random/loot/randomsupply/engineering,
 /obj/item/book/manual/engineering_singularity_safety,
 /obj/item/book/manual/anomaly_testing,
+/obj/item/clothing/accessory/armor_plate/bodyglovemech,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "xy" = (
@@ -8988,6 +9249,8 @@
 "xA" = (
 /obj/structure/closet/secure_closet/engineering_chief_torch,
 /obj/item/device/multitool/hacktool,
+/obj/random/loot/raregunsenergy,
+/obj/item/clothing/accessory/armor_plate/bodyglovemech,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/maintenance/seconddeck/central)
 "xB" = (
@@ -9080,6 +9343,19 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/engine_room)
+"xU" = (
+/obj/structure/table/rack/dark,
+/obj/item/stock_parts/subspace/treatment,
+/obj/item/stock_parts/subspace/treatment,
+/obj/item/stock_parts/subspace/analyzer,
+/obj/item/stock_parts/subspace/analyzer,
+/obj/item/stock_parts/subspace/transmitter,
+/obj/item/stock_parts/subspace/transmitter,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "xW" = (
 /obj/machinery/light/small,
 /obj/structure/bed/chair/shuttle{
@@ -9115,6 +9391,10 @@
 /obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/seconddeck/foreport)
+"ye" = (
+/obj/machinery/telecomms/bus/preset_two,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "yf" = (
 /turf/simulated/wall/ocp_wall,
 /area/engineering/prototype/control)
@@ -9298,6 +9578,15 @@
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/atmos)
+"yL" = (
+/obj/machinery/porta_turret{
+	dir = 8;
+	lethal = 1
+	},
+/turf/simulated/floor/selfestructgrid{
+	name = "xenos plating"
+	},
+/area/tcommsat/chamber)
 "yM" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 8
@@ -9342,6 +9631,17 @@
 "yR" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
+"yS" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "yT" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -9462,6 +9762,17 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/medical/morgue)
+"zk" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "zl" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
@@ -9480,6 +9791,18 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/atmos)
+"zq" = (
+/obj/structure/cable/cyan{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/wallframe_spawn/reinforced,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "zr" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -9913,6 +10236,10 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/incinerator)
+"AB" = (
+/obj/machinery/telecomms/server/presets/engineering,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "AD" = (
 /obj/machinery/power/apc{
 	name = "south bump";
@@ -10100,6 +10427,10 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/engineering_bay)
+"Bk" = (
+/obj/structure/sign/mechanicus,
+/turf/simulated/wall/r_wall/hull,
+/area/crew_quarters/heads/office/ce)
 "Bl" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -10697,6 +11028,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/aftport)
+"CK" = (
+/obj/item/material/twohanded/ravenor/lashoftorment,
+/turf/simulated/floor/seolite,
+/area/vacant/chapel)
 "CM" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
@@ -11259,6 +11594,14 @@
 /obj/wallframe_spawn/reinforced_phoron,
 /turf/simulated/floor/reinforced,
 /area/engineering/engine_room)
+"En" = (
+/obj/structure/sign/solgov{
+	pixel_x = 32;
+	pixel_y = -32
+	},
+/obj/structure/sign/mechanicus,
+/turf/simulated/wall/r_wall/hull,
+/area/tcommsat/chamber)
 "Eo" = (
 /obj/floor_decal/industrial/warning/corner,
 /obj/structure/catwalk,
@@ -12134,12 +12477,37 @@
 	pixel_x = -24;
 	pixel_y = -6
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/maintenance/seconddeck/central)
+"GL" = (
+/obj/machinery/turretid/stun{
+	name = "Server Control Turrets";
+	pixel_x = 32;
+	req_access = list("ACCESS_RESTRICTED_COMMAND");
+	lethal = 1
+	},
+/turf/simulated/wall/r_wall/hull,
+/area/tcommsat/chamber)
 "GM" = (
 /obj/structure/sign/mechanicus,
 /turf/simulated/wall/ocp_wall,
 /area/hallway/primary/seconddeck/elevator)
+"GP" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "GQ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -12158,6 +12526,15 @@
 /obj/machinery/meter,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/atmos)
+"GS" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "GW" = (
 /turf/simulated/wall/r_wall/hull,
 /area/medical/morgue)
@@ -12445,6 +12822,23 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
+"HJ" = (
+/obj/structure/cable/cyan{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable/cyan,
+/obj/wallframe_spawn/reinforced,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
+"HK" = (
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/wallframe_spawn/reinforced,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "HN" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -12482,6 +12876,11 @@
 "HQ" = (
 /turf/simulated/floor/warhammer/coldroom,
 /area/assembly/robotics/surgery)
+"HR" = (
+/obj/structure/cable/cyan,
+/obj/wallframe_spawn/reinforced,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "HU" = (
 /obj/structure/table/rack/dark,
 /obj/random/maintenance/solgov,
@@ -12580,9 +12979,10 @@
 "Ik" = (
 /obj/machinery/light,
 /obj/structure/closet/secure_closet/engineering_torch,
-/obj/random/loot/gunbundle,
 /obj/item/book/manual/engineering_guide,
 /obj/item/book/manual/atmospipes,
+/obj/item/clothing/accessory/armor_plate/bodyglovebio,
+/obj/random/loot/sidearmbundle,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "Il" = (
@@ -12773,6 +13173,9 @@
 /obj/machinery/shield_diffuser,
 /turf/simulated/floor/reinforced,
 /area/engineering/engine_room)
+"IR" = (
+/turf/simulated/wall/prepainted,
+/area/tcommsat/chamber)
 "IU" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -12851,6 +13254,20 @@
 /obj/machinery/constructable_frame/machine_frame,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/engine_smes)
+"Je" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "Jf" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -12967,6 +13384,10 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/engineering/foyer)
+"Jq" = (
+/obj/machinery/telecomms/server/presets/supply,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "Jr" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -13014,6 +13435,8 @@
 /obj/structure/closet/secure_closet/engineering_torch,
 /obj/item/book/manual/engineering_construction,
 /obj/item/book/manual/engineering_construction,
+/obj/item/clothing/accessory/armor_plate/bodyglovebio,
+/obj/random/loot/sidearmbundle,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "Jx" = (
@@ -13091,6 +13514,10 @@
 	dir = 8
 	},
 /area/maintenance/disposal)
+"JP" = (
+/obj/machinery/telecomms/server/presets/common,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "JQ" = (
 /obj/structure/table/steel,
 /obj/machinery/recharger,
@@ -13332,6 +13759,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/assembly/robotics)
+"KS" = (
+/obj/machinery/r_n_d/server/robotics,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "KT" = (
 /obj/structure/lattice,
 /turf/simulated/floor/selfestructgrid{
@@ -13387,6 +13818,9 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/forestarboard)
 "Lh" = (
@@ -13492,6 +13926,10 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/assembly/robotics)
+"LH" = (
+/obj/machinery/r_n_d/server/core,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "LJ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -13726,6 +14164,21 @@
 /obj/machinery/meter,
 /turf/simulated/wall/ocp_wall,
 /area/engineering/atmos)
+"Mt" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "Mu" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -13759,6 +14212,13 @@
 	dir = 8
 	},
 /area/maintenance/seconddeck/foreport)
+"MA" = (
+/obj/machinery/power/smes/buildable/preset/on_full{
+	RCon_tag = "Substation - Telecommunications"
+	},
+/obj/structure/cable/cyan,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "MD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -13977,6 +14437,21 @@
 	dir = 8
 	},
 /area/engineering/bluespace)
+"Ns" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
+"Ny" = (
+/obj/machinery/computer/telecomms/server{
+	dir = 4;
+	network = "tcommsat"
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "NA" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -14073,6 +14548,10 @@
 /obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/warhammer/plating,
 /area/storage/medical)
+"NO" = (
+/obj/structure/sign/mechanicus,
+/turf/simulated/wall/r_wall/hull,
+/area/tcommsat/chamber)
 "NS" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -14093,9 +14572,9 @@
 	},
 /area/maintenance/disposal)
 "NW" = (
-/obj/machinery/vending/generic,
-/turf/simulated/floor/warhammer/plating,
-/area/maintenance/seconddeck/forestarboard)
+/obj/machinery/telecomms/processor/preset_one,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "NX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -14331,6 +14810,7 @@
 /obj/item/book/manual/research_and_development,
 /obj/item/book/manual/supermatter_engine,
 /obj/item/book/manual/mass_spectrometry,
+/obj/item/clothing/accessory/armor_plate/bodyglovemech,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "Ou" = (
@@ -14435,10 +14915,25 @@
 "OM" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/incinerator)
+"ON" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "OO" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /turf/simulated/floor/warhammer/brothel,
 /area/shuttle/escape_pod10/station)
+"OQ" = (
+/obj/machinery/telecomms/bus/preset_three,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "OR" = (
 /obj/machinery/camera/network/second_deck{
 	c_tag = "Second Deck Hallway - Aft";
@@ -14455,6 +14950,21 @@
 	dir = 8
 	},
 /area/maintenance/seconddeck/aftport)
+"OT" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light_switch{
+	pixel_x = 22
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "OU" = (
 /obj/structure/sign/warning/fire,
 /turf/simulated/wall/ocp_wall,
@@ -14624,6 +15134,10 @@
 /obj/structure/flora/yes/armok,
 /turf/simulated/floor/seolite,
 /area/vacant/chapel)
+"Pp" = (
+/obj/structure/sign/mechanicus,
+/turf/simulated/wall/ocp_wall,
+/area/maintenance/seconddeck/central)
 "Pq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -14917,6 +15431,19 @@
 "Qw" = (
 /turf/simulated/wall/ocp_wall,
 /area/engineering/wastetank)
+"Qx" = (
+/obj/structure/cable/cyan,
+/obj/structure/cable/cyan{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/wallframe_spawn/reinforced,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "Qz" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -15195,6 +15722,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/aftstarboard)
+"Rt" = (
+/obj/machinery/telecomms/processor/preset_four,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "Ru" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -15229,7 +15760,6 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/seconddeck)
 "Rx" = (
-/obj/structure/barricade/boards,
 /obj/machinery/door/unpowered/inn,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/forestarboard)
@@ -15347,6 +15877,7 @@
 /obj/item/book/manual/anomaly_testing,
 /obj/item/book/manual/ripley_build_and_repair,
 /obj/item/book/manual/atmospipes,
+/obj/item/clothing/accessory/armor_plate/bodyglovemech,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "RX" = (
@@ -15376,6 +15907,17 @@
 	},
 /turf/simulated/floor/warhammer/coldroom,
 /area/assembly/robotics/surgery)
+"RZ" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "Sa" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4;
@@ -15463,6 +16005,10 @@
 	},
 /turf/simulated/floor/warhammer/brothel,
 /area/shuttle/escape_pod10/station)
+"Sm" = (
+/obj/machinery/telecomms/receiver/preset_right,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "Sn" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/visible/green{
@@ -15617,6 +16163,12 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/seconddeck/fore)
+"SX" = (
+/obj/machinery/computer/message_monitor{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "SZ" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -15809,12 +16361,21 @@
 	dir = 8;
 	icon_state = "warningcorner"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/maintenance/seconddeck/central)
@@ -16008,6 +16569,43 @@
 	},
 /turf/simulated/floor/warhammer/brothel,
 /area/shuttle/escape_pod11/station)
+"Ut" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/structure/sign/warning/server_room{
+	pixel_y = 32
+	},
+/turf/simulated/floor/warhammer/tunnelchess,
+/area/maintenance/seconddeck/central)
+"Uv" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "Uz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -16056,6 +16654,19 @@
 	dir = 8
 	},
 /area/maintenance/seconddeck/foreport)
+"UR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/alarm/cold{
+	dir = 8;
+	pixel_x = 25
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "UT" = (
 /obj/item/modular_computer/tablet/lease/preset/command,
 /obj/machinery/computer/modular/preset/cardslot/command_eng{
@@ -16067,6 +16678,10 @@
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/ocp_wall,
 /area/engineering/atmos)
+"UW" = (
+/obj/machinery/telecomms/processor/preset_two,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "UY" = (
 /obj/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -16226,6 +16841,10 @@
 	dir = 8
 	},
 /area/maintenance/seconddeck/aftport)
+"Vv" = (
+/obj/machinery/telecomms/server/presets/service,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "VB" = (
 /obj/floor_decal/techfloor/corner,
 /obj/floor_decal/techfloor{
@@ -16290,6 +16909,18 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/seconddeck/fore)
+"VN" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "VP" = (
 /obj/structure/closet/radiation,
 /obj/floor_decal/industrial/outline/grey,
@@ -16709,6 +17340,10 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/engineering/bluespacebay)
+"WO" = (
+/obj/machinery/telecomms/bus/preset_one,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "WP" = (
 /obj/wallframe_spawn/reinforced,
 /obj/structure/cable/cyan{
@@ -16991,6 +17626,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/seconddeck/forestarboard)
+"XL" = (
+/obj/machinery/ntnet_relay,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "XO" = (
 /obj/machinery/r_n_d/circuit_imprinter,
 /turf/simulated/floor/warhammer/metal/alt,
@@ -17048,6 +17687,18 @@
 	},
 /turf/simulated/wall/ocp_wall,
 /area/maintenance/seconddeck/forestarboard)
+"Yb" = (
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "Yc" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4
@@ -17153,6 +17804,9 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/red,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/atmos)
+"Yt" = (
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/tcommsat/chamber)
 "Yu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/floor_decal/techfloor{
@@ -17284,6 +17938,9 @@
 /obj/item/stamp/ce,
 /obj/item/pen,
 /obj/item/stamp/rd,
+/obj/structure/sign/warning/server_room{
+	pixel_y = 32
+	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/maintenance/seconddeck/central)
 "Ze" = (
@@ -17436,6 +18093,10 @@
 /obj/floor_decal/industrial/warning,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/seconddeck/fore)
+"ZA" = (
+/obj/machinery/telecomms/hub/preset,
+/turf/simulated/floor/bluegrid,
+/area/tcommsat/chamber)
 "ZB" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4;
@@ -30559,7 +31220,7 @@ Fp
 Cg
 dq
 dr
-dq
+CK
 iu
 bd
 ci
@@ -31951,16 +32612,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-wb
+yL
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+En
 XT
 Gr
 Gr
@@ -32153,18 +32814,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-JX
-JX
+NO
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
 bb
 JX
 hC
@@ -32355,18 +33016,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-JX
-JX
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
 JX
 bG
 RO
@@ -32377,7 +33038,7 @@ hC
 hC
 hC
 lE
-Nf
+mV
 OV
 jp
 jp
@@ -32557,18 +33218,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-JX
-JX
+aj
+aj
+aj
+xU
+vB
+Yt
+KS
+aj
+aj
+aj
+aj
+aj
 JX
 Lt
 vH
@@ -32759,18 +33420,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-JX
-JX
-JX
+aj
+aj
+aj
+ha
+lv
+Ns
+LH
+ye
+UW
+NW
+WO
+aj
 JX
 hC
 vR
@@ -32961,19 +33622,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+aj
+aj
+aj
+iz
+AB
+Uv
+GP
+RZ
+GP
+yS
+Yt
+aj
 JX
-JX
-JX
-bc
 vH
 ch
 cL
@@ -33163,19 +33824,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+aj
+aj
+aj
+Jq
+ao
+zk
+Sm
+nD
+sO
+ON
+OQ
+aj
 JX
-JX
-JX
-NW
 vR
 ci
 hC
@@ -33364,20 +34025,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+yL
+aj
+aj
+aj
+Yt
+hY
+Je
+nK
+Yt
+Rt
+ra
+mv
+aj
 JX
-JX
-JX
-Zr
 wx
 cj
 EX
@@ -33567,19 +34228,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+aj
+aj
+aj
+bc
+gz
+nG
+sM
+zq
+HJ
+Qx
+HR
+aj
 JX
-JX
-JX
-bd
 xr
 EY
 EY
@@ -33769,18 +34430,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aC
-aC
+aj
+aj
+GL
+Vv
+sU
+nG
+XL
+HK
+pz
+Ny
+SX
+bf
 bf
 bf
 bf
@@ -33971,27 +34632,27 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aC
-aC
+aj
+aj
+aj
+Yt
+hY
+Yb
+MA
+IR
+lF
+GS
+nZ
 bf
 bf
 bf
 bf
 bf
+Pp
 dU
 eE
 rU
-XP
+Li
 XP
 vO
 vO
@@ -34173,18 +34834,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aC
-aC
+aj
+aj
+aj
+JP
+ZA
+UR
+iK
+wy
+Mt
+VN
+OT
+uB
 GK
 pf
 OA
@@ -34375,18 +35036,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aC
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+bf
 eZ
 TC
 Zq
@@ -34577,24 +35238,24 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
 aC
 Zd
 HC
 Ub
 Ta
 bf
-dW
+Ut
 eG
 Is
 XP
@@ -34778,16 +35439,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+yL
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
 aa
 aa
 aC
@@ -35198,7 +35859,7 @@ aa
 aC
 aC
 bf
-bf
+wO
 bf
 dW
 eG
@@ -35382,7 +36043,7 @@ aa
 aa
 aa
 aa
-aq
+Bk
 aq
 aq
 aq
@@ -35589,7 +36250,7 @@ aq
 aq
 bi
 am
-aj
+JG
 al
 cQ
 aq
@@ -36802,7 +37463,7 @@ aq
 bi
 av
 JG
-ao
+al
 ah
 aq
 aq
@@ -36998,7 +37659,7 @@ aa
 aa
 aa
 aa
-aq
+Bk
 aq
 aq
 aq
@@ -37413,7 +38074,7 @@ aq
 aq
 aq
 aq
-aq
+Bk
 kV
 pl
 sG
@@ -42273,7 +42934,7 @@ Lk
 Lk
 Lk
 ax
-WK
+ob
 az
 az
 iX

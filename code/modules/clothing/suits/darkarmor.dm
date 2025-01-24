@@ -8,7 +8,7 @@
 	item_state = "fharmor"
 	w_class = ITEM_SIZE_GARGANTUAN
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
-	body_parts_covered = LEGS|ARMS|FULL_TORSO // Remember to make power gloves and booties.
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS // Remember to make power gloves and booties.
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+600
 	slowdown_general = 0.10
@@ -585,7 +585,7 @@
 	w_class = ITEM_SIZE_GARGANTUAN
 	icon_state = "ork_m_armor"
 	item_state = "ork_m_armor" // Make sure orks ignore cold, heat, pressure and vacuum.
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+50
 	slowdown_general = 0.3 // Make sure to set ork speed to match this slowdown. So it only slows down non-orks wearing it.
@@ -670,7 +670,7 @@
 	icon_state = "freeboota"
 	item_state = "freeboota"
 	color = COLOR_DARK_GUNMETAL
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+50
 	slowdown_general = 0.3
@@ -692,7 +692,7 @@
 	item_state = "fw_armor"
 	w_class = ITEM_SIZE_GARGANTUAN
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+500
 	slowdown_general = 0.11
@@ -712,7 +712,7 @@
 	icon_state = "tbrea"
 	item_state = "tbrea"
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+700
 	slowdown_general = 0.12
@@ -730,7 +730,7 @@
 	name = "fire warrior scout suit"
 	desc = "The impeccable yellow and brown armor of the Tau warrior caste. This one is specially modified for use by recon elements of the Tau warriors."
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+500
 	slowdown_general = 0.1
@@ -751,7 +751,7 @@
 	icon_state = "eldarmor"
 	item_state = "eldarmor"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	slowdown_general = 0.1 // Marshal's carapace is 0.11
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -771,7 +771,7 @@
 	desc = "A ancient armor. It looks as if made from hardened resin in a thin-scale like pattern. It cackles with electrical power."
 	icon_state = "deldarmor"
 	item_state = "deldarmor"
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	slowdown_general = 0.085
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -791,7 +791,7 @@
 	desc = "The dark and shadowy armor of a voidscarred Corsair.."
 	icon_state = "aeldar_armor"
 	item_state = "aeldar_armor"
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	slowdown_general = 0.08 // Faster. But weaker to rad/primitive weapons.
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -811,7 +811,7 @@
 	desc = "An Eldar Ranger's Armour, comprised of many layers of cameoline materials with an underlying thermoplas player.."
 	icon_state = "ranger"
 	item_state = "ranger"
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	slowdown_general = 0.1 // Marshal's carapace is 0.11
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE

@@ -10,7 +10,7 @@
 	apc_test_exempt_areas = list(
 		/area/map_template/chaoscolony/mineralprocessing = NO_SCRUBBER|NO_VENT
 	)
-	spawn_weight = 4
+	spawn_weight = 0
 
 /singleton/submap_archetype/chaoscolony
 	descriptor = "chaos colony"
@@ -39,7 +39,7 @@
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 9
 	min_skill = list(
-		SKILL_VIGOR = SKILL_MASTER,
+		SKILL_VIGOR = SKILL_DEMIGOD,
 		SKILL_PILOT = SKILL_EXPERIENCED,
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER
@@ -79,7 +79,7 @@
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 8
 	min_skill = list(
-		SKILL_VIGOR = SKILL_MASTER,
+		SKILL_VIGOR = SKILL_DEMIGOD,
 		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
 		SKILL_PILOT = SKILL_EXPERIENCED,
 		SKILL_COMBAT = SKILL_EXPERIENCED,

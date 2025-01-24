@@ -5,7 +5,7 @@
 	id = "playablecolony"
 	description = "a fully functional colony on the frontier of settled space"
 	suffixes = list("playablecolony/colony.dmm")
-	spawn_cost = 4
+	spawn_cost = 5
 	player_cost = 0
 	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS | TEMPLATE_FLAG_NO_RUINS | TEMPLATE_FLAG_NO_RADS
 	ruin_tags = RUIN_HUMAN|RUIN_HABITAT
@@ -13,7 +13,7 @@
 	apc_test_exempt_areas = list(
 		/area/map_template/colony/mineralprocessing = NO_SCRUBBER|NO_VENT
 	)
-	spawn_weight = 0.5
+	spawn_weight = 3
 
 /singleton/submap_archetype/playablecolony
 	descriptor = "established colony"
@@ -88,7 +88,7 @@
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 7
 	min_skill = list(
-		SKILL_VIGOR = SKILL_MASTER,
+		SKILL_VIGOR = SKILL_DEMIGOD,
 		SKILL_COMBAT = SKILL_MASTER,
 	)
 
@@ -164,7 +164,7 @@
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 10
 	min_skill = list(,
-		SKILL_VIGOR = SKILL_MASTER,
+		SKILL_VIGOR = SKILL_DEMIGOD,
 		SKILL_GUNS = SKILL_EXPERIENCED,
 	)
 

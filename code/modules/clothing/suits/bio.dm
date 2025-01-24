@@ -29,7 +29,7 @@
 	gas_transfer_coefficient = 0
 	permeability_coefficient = 0
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingmech)
-	body_parts_covered = LEGS|ARMS|HANDS|FEET
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	allowed = list(
 		/obj/item/tank/oxygen_emergency,
 		/obj/item/tank/oxygen_emergency_extended,

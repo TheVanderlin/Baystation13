@@ -146,7 +146,7 @@
 	var/static/respawn_delay = 7
 
 	/// An observer that has returned to the main menu must wait this many minutes before rejoining
-	var/static/respawn_menu_delay = FALSE
+	var/static/respawn_menu_delay = 7
 
 	var/static/guest_jobban = TRUE
 

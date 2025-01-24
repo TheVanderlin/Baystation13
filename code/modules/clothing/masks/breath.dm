@@ -46,5 +46,5 @@
 	down_icon_state = "scba_maskdown"
 	item_flags = ITEM_FLAG_AIRTIGHT|ITEM_FLAG_FLEXIBLEMATERIAL
 	flags_inv = HIDEEYES
-	body_parts_covered = FACE|EYES
+	body_parts_covered = HEAD|FACE|EYES
 	gas_transfer_coefficient = 0.01

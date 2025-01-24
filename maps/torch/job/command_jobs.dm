@@ -31,7 +31,7 @@
 	max_skill = list(	SKILL_BUREAUCRACY = SKILL_MASTER,
 						SKILL_FINANCE = SKILL_MASTER,
 						SKILL_DEVICES = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER,
+						SKILL_VIGOR = SKILL_DEMIGOD,
 						SKILL_GUNS = SKILL_PRIMARIS,
 						SKILL_COMBAT = SKILL_PRIMARIS,
 						SKILL_PILOT = SKILL_MASTER)
@@ -108,7 +108,7 @@
 	max_skill = list(	SKILL_BUREAUCRACY = SKILL_MASTER,
 						SKILL_FINANCE = SKILL_MASTER,
 						SKILL_DEVICES = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER,
+						SKILL_VIGOR = SKILL_DEMIGOD,
 						SKILL_GUNS = SKILL_LEGEND,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_PILOT = SKILL_MASTER)
@@ -179,7 +179,7 @@
 	max_skill = list(	SKILL_BUREAUCRACY = SKILL_MASTER,
 						SKILL_FINANCE = SKILL_MASTER,
 						SKILL_DEVICES = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER,
+						SKILL_VIGOR = SKILL_DEMIGOD,
 						SKILL_GUNS = SKILL_LEGEND,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_PILOT = SKILL_MASTER)
@@ -237,11 +237,11 @@
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/civ)
 	skill_points = 9
-	min_skill = list(SKILL_VIGOR = SKILL_MASTER,
+	min_skill = list(SKILL_VIGOR = SKILL_DEMIGOD,
 					SKILL_COMBAT = SKILL_LEGEND, // Worse skills then imperials. Since they are more primitive bioforms.
 					SKILL_GUNS = SKILL_EXPERIENCED,
 				)
-	max_skill = list(	SKILL_VIGOR = SKILL_MASTER,
+	max_skill = list(	SKILL_VIGOR = SKILL_DEMIGOD,
 						SKILL_COMBAT = SKILL_LEGEND)
 
 

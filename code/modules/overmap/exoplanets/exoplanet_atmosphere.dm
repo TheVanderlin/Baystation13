@@ -39,12 +39,12 @@
 
 			if (gas_data.flags[ng] & XGM_GAS_OXIDIZER)
 				badflag |= XGM_GAS_OXIDIZER
-				if (prob(33))
+				if (prob(13))
 					badflag |= (XGM_GAS_FUSION_FUEL | XGM_GAS_FUEL)
 
 			if ((gas_data.flags[ng] & XGM_GAS_FUEL) || (gas_data.flags[ng] & XGM_GAS_FUSION_FUEL))
 				badflag |= (XGM_GAS_FUSION_FUEL | XGM_GAS_FUEL)
-				if (prob(33))
+				if (prob(13))
 					badflag |= XGM_GAS_OXIDIZER
 
 			var/part = new_moles.Rand() //allocate percentage to it

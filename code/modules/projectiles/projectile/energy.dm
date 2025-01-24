@@ -231,21 +231,21 @@
 	name = "ION round"
 	fire_sound='sound/warhammer/gunshot/lasgun3.ogg'
 	icon_state = "pulse1"
-	damage = 79
+	damage = 89
 	armor_penetration = 32
 
 /obj/item/projectile/energy/ion/plasma
 	name = "plasma round"
 	fire_sound='sound/warhammer/gunshot/lasgun3.ogg'
 	icon_state = "pulse1"
-	damage = 83
+	damage = 98
 	armor_penetration = 33
 
 /obj/item/projectile/energy/ion/plasma/pellet
 	name = "plasma pellet"
 	fire_sound='sound/warhammer/gunshot/lasgun3.ogg'
 	icon_state = "pulse1"
-	damage = 36
+	damage = 40
 	armor_penetration = 30
 
 /obj/item/projectile/bullet/heavyplasma
@@ -253,7 +253,7 @@
 	icon_state = "pulse1"
 	fire_sound='sound/warhammer/gunshot/lasgun3.ogg'
 	armor_penetration = 34
-	damage = 40
+	damage = 51
 	agony = 20
 	damage_type = DAMAGE_BURN
 
@@ -267,7 +267,7 @@
 	icon_state = "dark_pellet"
 	fire_sound='sound/warhammer/gunshot/lasgun3.ogg'
 	armor_penetration = 34
-	damage = 81
+	damage = 101
 	damage_type = DAMAGE_BRUTE
 
 /obj/item/projectile/bullet/railgun/on_hit(atom/target)
@@ -279,12 +279,12 @@
 	name = "pulse round"
 	fire_sound='sound/warhammer/gunshot/lasgun2.ogg'
 	icon_state = "pulse1"
-	damage = 56
+	damage = 59
 	armor_penetration = 26
 
 /obj/item/projectile/energy/pulserifle
 	name = "pulse round"
 	fire_sound='sound/warhammer/gunshot/lasgun2.ogg'
 	icon_state = "pulse1"
-	damage = 58
+	damage = 63
 	armor_penetration = 28

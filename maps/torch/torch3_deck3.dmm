@@ -4039,8 +4039,8 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/forestarboard)
 "lt" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/tiled/techfloor,
+/obj/structure/ladder/up,
+/turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/forestarboard)
 "lu" = (
 /turf/unsimulated/mask,
@@ -4060,6 +4060,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
+"lw" = (
+/obj/structure/sign/impbar/left,
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/mess)
 "ly" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -5635,6 +5639,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
+"rg" = (
+/obj/structure/sign/impbar/right,
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/mess)
 "rh" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/atm{
@@ -8162,6 +8170,10 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/storage/tools)
+"BD" = (
+/obj/structure/sign/mailbox0,
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/mess)
 "BH" = (
 /obj/structure/hygiene/shower{
 	dir = 4
@@ -12255,6 +12267,13 @@
 	},
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d3port)
+"OM" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/mailbox0,
+/turf/simulated/wall/r_wall/hull,
+/area/crew_quarters/mess)
 "ON" = (
 /obj/machinery/light{
 	dir = 1
@@ -12741,11 +12760,9 @@
 /turf/simulated/floor/warhammer/plating,
 /area/vacant/brig)
 "QD" = (
-/obj/structure/sign/tradedepot{
-	dir = 1
-	},
+/obj/structure/sign/impbar2/left,
 /turf/simulated/wall/prepainted,
-/area/hallway/primary/thirddeck/center)
+/area/maintenance/thirddeck/starboard)
 "QG" = (
 /obj/machinery/botany/extractor,
 /obj/machinery/light{
@@ -14261,6 +14278,10 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/aft)
+"Wl" = (
+/obj/structure/sign/impbar2/right,
+/turf/simulated/wall/prepainted,
+/area/maintenance/thirddeck/starboard)
 "Wo" = (
 /obj/machinery/meter,
 /obj/floor_decal/industrial/warning{
@@ -30835,8 +30856,8 @@ mm
 gy
 bk
 oY
-fB
-QD
+lw
+cV
 sj
 wV
 uM
@@ -31037,7 +31058,7 @@ eA
 jd
 jd
 sq
-fB
+rg
 cV
 pr
 dP
@@ -32442,7 +32463,7 @@ YW
 fB
 fB
 ly
-fB
+BD
 mA
 jX
 fU
@@ -33042,7 +33063,7 @@ pE
 Um
 vZ
 fc
-cU
+OM
 rM
 jd
 ky
@@ -34067,7 +34088,7 @@ CO
 jT
 KZ
 jd
-cl
+QD
 cV
 sj
 tC
@@ -34269,7 +34290,7 @@ cl
 cl
 cl
 cl
-cl
+Wl
 cV
 RQ
 cV

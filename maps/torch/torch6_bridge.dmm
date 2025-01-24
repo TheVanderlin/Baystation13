@@ -8302,6 +8302,7 @@
 /area/crew_quarters/heads/office/co)
 "HI" = (
 /obj/structure/closet/secure_closet/CO,
+/obj/item/clothing/accessory/armor_plate/bodyglove2,
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/heads/cobed)
 "HJ" = (
@@ -8817,6 +8818,7 @@
 	pixel_y = 30
 	},
 /obj/item/aiModule/freeform,
+/obj/item/clothing/accessory/armor_plate/bodyglove2,
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/heads/office/xo)
 "Ks" = (

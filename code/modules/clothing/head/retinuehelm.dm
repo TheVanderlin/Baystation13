@@ -197,7 +197,7 @@
 	slowdown_general = 0.012
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+300
 	disorientation = 0.75
-	body_parts_covered = HEAD
+	body_parts_covered = HEAD|FACE|EYES
 	slowdown_general = 0.065
 	armor = list(
 		melee = ARMOR_MELEE_CARAPACE,

@@ -43,7 +43,7 @@ GLOBAL_LIST_INIT(weighted_minerals_rich, \
 	))
 
 /datum/random_map/automata/cave_system
-	iterations = 5
+	iterations = 4
 	descriptor = "moon caves"
 	wall_type =  /turf/simulated/mineral
 	floor_type = /turf/simulated/floor/asteroid

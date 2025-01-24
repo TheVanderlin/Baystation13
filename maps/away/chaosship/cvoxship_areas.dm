@@ -4,7 +4,7 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/cvoxship/scavship
-	name = "Xenos Scavenger Ship"
+	name = "Chaos Ship"
 	icon_state = "scavship"
 
 /area/cvoxship/fore

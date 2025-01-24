@@ -9,7 +9,7 @@
 	player_cost = 0
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/cvox_ship, /datum/shuttle/autodock/overmap/cvox_lander)
 	area_usage_test_exempted_root_areas = list(/area/cvoxship)
-	spawn_weight = 3.5
+	spawn_weight = 0
 
 /obj/overmap/visitable/sector/cvox_scav_ship
 	name = "small asteroid cluster"

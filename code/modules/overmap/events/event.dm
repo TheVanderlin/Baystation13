@@ -277,21 +277,21 @@ var/global/singleton/overmap_event_handler/overmap_event_handler = new()
 
 /datum/overmap_event/meteor
 	name = "asteroid field"
-	count = 12
-	radius = 4
+	count = 6
+	radius = 3
 	continuous = FALSE
 	hazards = /obj/overmap/event/meteor
 
 /datum/overmap_event/electric
 	name = "electrical storm"
-	count = 6
+	count = 4
 	radius = 2
 	opacity = 0
 	hazards = /obj/overmap/event/electric
 
 /datum/overmap_event/dust
 	name = "dust cloud"
-	count = 12
+	count = 16
 	radius = 4
 	hazards = /obj/overmap/event/dust
 
@@ -304,21 +304,21 @@ var/global/singleton/overmap_event_handler/overmap_event_handler = new()
 
 /datum/overmap_event/carp
 	name = "carp shoal"
-	count = 8
-	radius = 3
+	count = 6
+	radius = 2
 	opacity = 0
 	continuous = FALSE
 	hazards = /obj/overmap/event/carp
 
 /datum/overmap_event/carp/major
 	name = "carp school"
-	count = 5
-	radius = 4
+	count = 3
+	radius = 3
 	hazards = /obj/overmap/event/carp/major
 
 /datum/overmap_event/gravity
 	name = "dark matter influx"
-	count = 7
+	count = 5
 	radius = 2
 	opacity = 0
 	hazards = /obj/overmap/event/gravity

@@ -22,8 +22,28 @@
 /obj/structure/monolith,
 /turf/simulated/floor/exoplanet/water/shallow/tar,
 /area/template_noop)
+"I" = (
+/obj/structure/monolith{
+	density = 0
+	},
+/turf/simulated/floor/exoplanet/water/shallow/tar,
+/area/template_noop)
+"K" = (
+/obj/landmark/clear,
+/obj/landmark/clear,
+/turf/template_noop,
+/area/template_noop)
+"S" = (
+/obj/landmark/clear,
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
+S
+S
+S
+S
+S
 a
 b
 b
@@ -37,6 +57,11 @@ e
 b
 "}
 (2,1,1) = {"
+S
+S
+S
+S
+S
 b
 b
 c
@@ -50,6 +75,11 @@ a
 b
 "}
 (3,1,1) = {"
+S
+S
+S
+S
+S
 b
 b
 a
@@ -63,6 +93,11 @@ a
 a
 "}
 (4,1,1) = {"
+S
+S
+S
+S
+S
 b
 a
 a
@@ -76,6 +111,11 @@ a
 a
 "}
 (5,1,1) = {"
+S
+S
+S
+S
+S
 c
 a
 a
@@ -89,6 +129,11 @@ a
 b
 "}
 (6,1,1) = {"
+S
+S
+S
+S
+S
 a
 f
 a
@@ -102,6 +147,11 @@ f
 b
 "}
 (7,1,1) = {"
+S
+S
+S
+S
+S
 a
 a
 a
@@ -115,6 +165,11 @@ a
 c
 "}
 (8,1,1) = {"
+S
+S
+S
+S
+S
 a
 a
 a
@@ -128,6 +183,11 @@ a
 b
 "}
 (9,1,1) = {"
+S
+S
+S
+S
+S
 b
 a
 a
@@ -141,12 +201,17 @@ c
 b
 "}
 (10,1,1) = {"
+S
+S
+S
+S
+S
 b
 b
 c
 a
 a
-f
+I
 a
 a
 b
@@ -154,6 +219,11 @@ a
 b
 "}
 (11,1,1) = {"
+S
+S
+S
+S
+S
 b
 a
 b
@@ -165,4 +235,130 @@ b
 b
 b
 b
+"}
+(12,1,1) = {"
+K
+K
+K
+K
+K
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+"}
+(13,1,1) = {"
+K
+K
+K
+K
+K
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+"}
+(14,1,1) = {"
+K
+K
+K
+K
+K
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+"}
+(15,1,1) = {"
+K
+K
+K
+K
+K
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+"}
+(16,1,1) = {"
+K
+K
+K
+K
+K
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+"}
+(17,1,1) = {"
+K
+K
+K
+K
+K
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+"}
+(18,1,1) = {"
+K
+K
+K
+K
+K
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
 "}

@@ -15,7 +15,7 @@
 	player_cost = 0
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/vox_ship, /datum/shuttle/autodock/overmap/vox_lander)
 	area_usage_test_exempted_root_areas = list(/area/voxship)
-	spawn_weight = 1
+	spawn_weight = 2.5
 
 /obj/overmap/visitable/sector/vox_scav_ship
 	name = "small asteroid cluster"
@@ -305,7 +305,7 @@
 	min_skill = list(
 		SKILL_COMBAT = SKILL_PRIMARIS,
 		SKILL_GUNS = SKILL_MASTER,
-		SKILL_VIGOR = SKILL_MASTER,
+		SKILL_VIGOR = SKILL_DEMIGOD,
 	)
 
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,

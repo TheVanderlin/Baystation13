@@ -43,8 +43,8 @@
 	descriptor = "ruined city"
 	initial_wall_cell = 0
 	initial_cell_char = -1
-	var/max_building_size = 11	//Size of buildings in tiles. Must be odd number for building generation to work properly.
-	var/buildings_number = 4	//Buildings per block
+	var/max_building_size = 8	//Size of buildings in tiles. Must be odd number for building generation to work properly.
+	var/buildings_number = 3	//Buildings per block
 	var/list/blocks_x = list(TRANSITIONEDGE + 1)	//coordinates for start of blocs
 	var/list/blocks_y = list(TRANSITIONEDGE + 1)
 	var/list/building_types = list(

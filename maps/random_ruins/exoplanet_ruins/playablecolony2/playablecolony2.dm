@@ -5,7 +5,7 @@
 	id = "playablecolony2" // later add the sister hospitaller.
 	description = "a recently landed colony ship"
 	suffixes = list("playablecolony2/colony2.dmm")
-	spawn_cost = 3.5
+	spawn_cost = 4.5
 	player_cost = 0
 	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS | TEMPLATE_FLAG_NO_RUINS | TEMPLATE_FLAG_NO_RADS
 	ruin_tags = RUIN_HUMAN|RUIN_HABITAT

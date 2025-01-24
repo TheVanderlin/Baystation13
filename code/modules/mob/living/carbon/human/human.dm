@@ -563,8 +563,15 @@
 	if(species.vision_organ)
 		var/obj/item/organ/internal/eyes/I = internal_organs_by_name[species.vision_organ]
 		if(istype(I))
-			return I.flash_mod
-	return species.flash_mod
+			. = I.flash_mod
+		else
+			. = species.flash_mod
+	else
+		. = species.flash_mod
+	var/skill_reduction = get_combat_skill_reduction(src)
+	if(skill_reduction > 0)
+		. *= (1 - skill_reduction)
+	return .
 
 /mob/living/carbon/human/proc/getDarkvisionRange()
 	if(species.vision_organ)

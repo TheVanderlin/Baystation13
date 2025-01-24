@@ -428,10 +428,10 @@ var/global/list/all_objectives = list()
 	explanation_text = "Our knowledge must live on. Make sure at least [target_amount] acolytes escape to spread their work."
 
 /datum/objective/cult/eldergod
-	explanation_text = "Summon the Sovereign via the use of the appropriate rune (Hell join self). It will only work if nine cultists stand on and around it. The convert rune is join blood self."
+	explanation_text = "Serve the chaos god or entity who wields a direct hand on the font of power you draw from..."
 
 /datum/objective/cult/sacrifice
-	explanation_text = "Conduct a ritual sacrifice for the glory of the Sovereign."
+	explanation_text = "Conduct a ritual corruption and bring a non believer into our midst. Convert or corrupt a loyalist to the glory of chaos"
 
 /datum/objective/cult/sacrifice/find_target()
 	var/list/possible_targets = list()

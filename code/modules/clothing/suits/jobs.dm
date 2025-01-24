@@ -141,7 +141,7 @@
 		/obj/item/device/taperecorder
 	)
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	armor = list(
 		melee = ARMOR_MELEE_FLAK-1,
 		bullet = ARMOR_BALLISTIC_FLAK-8,

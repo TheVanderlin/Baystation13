@@ -2760,6 +2760,7 @@
 /obj/item/solar_assembly,
 /obj/item/solar_assembly,
 /obj/structure/closet/crate/warhammer/xenos,
+/obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -2952,6 +2953,7 @@
 /obj/random/loot/tech2,
 /obj/item/clothing/suit/armor/seolarmor,
 /obj/structure/closet/crate/warhammer/xenos,
+/obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3293,6 +3295,12 @@
 /obj/item/storage/belt/utility/full,
 /obj/item/storage/box/glowsticks,
 /obj/structure/table/rack/dark,
+/obj/item/clothing/accessory/armor_plate/bodyglove,
+/obj/item/clothing/accessory/armor_plate/bodyglove,
+/obj/item/clothing/accessory/armor_plate/bodyglove,
+/obj/item/clothing/accessory/armor_plate/bodyglove,
+/obj/item/clothing/accessory/armor_plate/bodyglove,
+/obj/item/clothing/accessory/armor_plate/bodyglove,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3497,6 +3505,7 @@
 /obj/item/book/manual/engineering_construction,
 /obj/item/stack/material/steel/ten,
 /obj/structure/closet/crate/warhammer/xenos,
+/obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3864,6 +3873,7 @@
 /obj/item/clothing/suit/armor/seolarmor,
 /obj/random/loot/randomsupply,
 /obj/structure/closet/crate/warhammer/xenos,
+/obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},

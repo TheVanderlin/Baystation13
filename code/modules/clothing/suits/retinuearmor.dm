@@ -5,7 +5,7 @@
 	desc = "A brilliantly made carapace coat for Inquisitorial Agents, adorned with holy seals and the Rosette to ward off Chaos corruption."
 	icon_state = "acolytecoat"
 	item_state = "acolytecoat"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy)
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -26,7 +26,7 @@
 	desc = "A masterwork of Carapace Armor, crafted for the Inquisition’s elite agents. Adorned with the sacred Rosette, it radiates authority and the Emperor’s divine protection."
 	icon_state = "inqcoat"
 	item_state = "inqcoat"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapacemaster)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -47,7 +47,7 @@
 	desc = "A sacred relic forged by the Tech-Priests of Mars, this Inquisitorial coat bears the Rosette, shining with the Emperor’s light. Worn by Inquisitors on their holy path to cleanse heresy with fire and faith."
 	icon_state = "hereticuscoat"
 	item_state = "hereticuscoat"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapacemaster)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -73,7 +73,7 @@
 	valid_accessory_slots = null // So you can't remove or attach armor acceesories.
 	restricted_accessory_slots = null
 	accessories = null
-	body_parts_covered = LEGS|ARMS|FULL_TORSO
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	max_pressure_protection = RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE +1500
@@ -115,7 +115,7 @@
 	icon_state = "knight_grey"
 	item_state = "knight_grey"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS|ARMS|FULL_TORSO // Mirror of inq p-armor until I have time to code daemon tech.
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS // Mirror of inq p-armor until I have time to code daemon tech.
 	max_pressure_protection = RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE +1500
@@ -138,7 +138,7 @@
 	desc = "A lavish and oversized mantle, custom-made for the governoship. Its opulence matches the ruler’s overwhelming presence."
 	icon_state = "taxstomach"
 	item_state = "taxstomach"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapacemaster)
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -158,7 +158,7 @@
 	name = "rogue trader's heavy mantle"
 	desc = "A mantle of distinction, worn by Rogue Traders as they navigate the stars and broker imperial dominance. Its weight symbolizes both authority and responsibility."
 	icon_state = "lccoat"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -180,7 +180,7 @@
 	icon_state = "rtarm"
 	item_state = "rtarm"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapacemaster)
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -201,7 +201,7 @@
 	desc = "Elegant yet practical, these robes reflect the Rogue Trader’s flair for both fashion and diplomacy, crafted for light protection and mobility."
 	icon_state = "rtdrip"
 	item_state = "rtdrip"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingmech) // Even though it's not armor, still has radiological prot
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -223,7 +223,7 @@
 	icon_state = "royalgc"
 	item_state = "royalgc"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS | ARMS | FULL_TORSO
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+600
 	slowdown_general = 0.14
@@ -242,7 +242,7 @@
 	desc = "A lavish piece of noble finery, draped in elegance and woven with the finest materials to showcase the wearer’s high station."
 	icon_state = "baroness"
 	item_state = "baroness"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar) // sewn in armor.
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -263,7 +263,7 @@
 	desc = "The ornate khalat of the seneschal. It is made from the finest fabrics this side of the galaxy and interwoven with real gold. Very fancy and well armored."
 	icon_state = "senkhalat"
 	item_state = "senkhalat"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -284,7 +284,7 @@
 	desc = "An ornate tailcoat, designed to elevate any suit into a display of extravagance and high status."
 	icon_state = "tailcoat"
 	item_state = "tailcoat"
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -305,7 +305,7 @@
 	icon = 'icons/mob/onmob/suit.dmi'
 	icon_state = "tailcoatgirlblack"
 	item_state = "tailcoatgirlblack"
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -337,7 +337,7 @@
 	desc = "An ellegant studded coat worn by the illustrious members of a voidcraft's bridge crew."
 	icon_state = "castellan"
 	item_state = "castellan"
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -361,7 +361,7 @@
 	desc = "Organic armor layered to enhance Kroot resilience, the Carapace Mantle provides crucial protection against a variety of threats while allowing for the freedom of movement that Kroot require."
 	icon_state = "merc"
 	item_state = "merc"
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
@@ -382,7 +382,7 @@
 	desc = "An altered fabrication of Imperial Pattern Flak Armor - this particular version is commonly used by mercenaries guilds in service to the renegade houses of the frontier."
 	icon_state = "merc"
 	item_state = "merc"
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak) // All flak armors should use plate/medium unless shoddy
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-100 // Consider militarum patterns to have good rad and temp resistance so we don't get guardsmen in EVA suits
@@ -441,7 +441,7 @@
 	desc = "A masterwork trenchcoat reinforced with carapace plates and fitted with iron-alloy chausses and pauldrons, offering superior protection and style unique to Messina."
 	icon_state = "towntrench_heavy"
 	item_state = "towntrench_heavy"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+100
@@ -462,7 +462,7 @@
 	icon_state = "lightpa2"
 	item_state = "lightpa2"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS | ARMS | FULL_TORSO
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+600
 	slowdown_general = 0.12
@@ -482,7 +482,7 @@
 	icon_state = "berserker"
 	item_state = "berserker"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS | ARMS | FULL_TORSO
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+1100
 	slowdown_general = 0.11
@@ -502,7 +502,7 @@
 	icon_state = "t51bgs"
 	item_state = "t51bgs"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS | ARMS | FULL_TORSO
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+900
 	slowdown_general = 0.12
@@ -522,7 +522,7 @@
 	icon_state = "fox"
 	item_state = "fox"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+40
@@ -542,7 +542,7 @@
 	desc = "Armored robes of Seolite origin, engineered to ward off lasburns and perhaps even more sinister threats."
 	icon_state = "scribe"
 	item_state = "scribe"
-	body_parts_covered = LEGS | ARMS | FULL_TORSO
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE +100
@@ -563,7 +563,7 @@
 	icon_state = "spacer"
 	item_state = "spacer"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS | ARMS | FULL_TORSO | HEAD
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO | HEAD
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE +1000
@@ -589,7 +589,7 @@
 	desc = "Unmarked flak armor manufactured by the underhives of the ghoul stars."
 	icon_state = "flak1"
 	item_state = "flak1"
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-100
@@ -618,7 +618,7 @@
 	desc = "Shoddy flak armor worn by members of House Goliath, it seems unlikely to protect you from much more then a blade."
 	icon_state = "raider_combat"
 	item_state = "raider_combat"
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-100
@@ -638,7 +638,7 @@
 	desc = "Unmarked carapace armor manufactured by the underhives of the ghoul stars."
 	icon_state = "carapace2"
 	item_state = "carapace2"
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -682,7 +682,7 @@
 	desc = "A crude heavy plate armor, commonly worn by gang enforcers. Though functional, it is forged from salvaged metals and lacks the refinement of military-grade carapace."
 	icon_state = "paladin"
 	item_state = "paladin"
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+50
@@ -703,7 +703,7 @@
 	icon_state = "venator"
 	item_state = "venator"
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar)
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.06
@@ -724,7 +724,7 @@
 	icon_state = "talon_duster"
 	item_state = "talon_duster"
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.06
@@ -744,7 +744,7 @@
 	icon_state = "ranger"
 	item_state = "ranger"
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.06
@@ -764,7 +764,7 @@
 	icon_state = "ranger2"
 	item_state = "ranger2"
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.06
@@ -784,7 +784,7 @@
 	icon_state = "ranger3"
 	item_state = "ranger3"
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.06
@@ -804,7 +804,7 @@
 	icon_state = "necromundaflak"
 	item_state = "necromundaflak"
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.06
@@ -824,7 +824,7 @@
 	icon_state = "necromundacarapace"
 	item_state = "necromundacarapace"
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy)
-	body_parts_covered = LEGS | ARMS
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.08

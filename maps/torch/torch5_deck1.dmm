@@ -12984,7 +12984,6 @@
 	},
 /obj/structure/closet/walllocker{
 	pixel_y = 20;
-	req_access = list("ACCESS_RESTRICTED_COMMAND");
 	locked = 1
 	},
 /obj/item/plastique,
@@ -18977,6 +18976,10 @@
 	pixel_x = 26
 	},
 /obj/machinery/light,
+/obj/random/loot/tech1,
+/obj/random/loot/tech1,
+/obj/random/loot/tech1,
+/obj/random/loot/tech1,
 /turf/simulated/floor/warhammer/coralg,
 /area/rnd/development)
 "oPD" = (

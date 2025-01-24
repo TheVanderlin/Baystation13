@@ -1,7 +1,7 @@
 /obj/item/clothing/suit/armor/grim/storage
 	var/obj/item/storage/internal/pockets/pockets
 	var/slots = 2
-	body_parts_covered = LEGS|ARMS
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/padding)
 	armor = list(
 		melee = ARMOR_MELEE_FLAK-1,

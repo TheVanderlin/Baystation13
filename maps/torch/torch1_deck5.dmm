@@ -1696,6 +1696,8 @@
 	req_access = list("ACCESS_RESTRICTED")
 	},
 /obj/floor_decal/industrial/outline/orange,
+/obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
+/obj/item/clothing/accessory/armor_plate/bodyglovebio,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "dK" = (
@@ -1831,6 +1833,8 @@
 	req_access = list("ACCESS_RESTRICTED")
 	},
 /obj/floor_decal/industrial/outline/orange,
+/obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
+/obj/item/clothing/accessory/armor_plate/bodyglovebio,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "ec" = (
@@ -1874,6 +1878,8 @@
 /obj/item/storage/mre/random,
 /obj/structure/closet/crate/warhammer/xenos/chest2,
 /obj/floor_decal/industrial/outline/orange,
+/obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
+/obj/item/clothing/accessory/armor_plate/bodyglovebio,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3109,6 +3115,8 @@
 /obj/structure/torchwall{
 	dir = 4
 	},
+/obj/item/clothing/accessory/armor_plate/bodyglove,
+/obj/item/clothing/accessory/armor_plate/flakheavy,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
 "hP" = (
@@ -4082,6 +4090,8 @@
 /obj/structure/closet/secure_closet/explorer,
 /obj/item/material/twohanded/ravenor/axe,
 /obj/random/loot/lightmelee,
+/obj/item/clothing/accessory/armor_plate/bodyglove2,
+/obj/item/clothing/accessory/armor_plate/flaklamellar,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
 "ki" = (
@@ -4094,6 +4104,8 @@
 /obj/structure/closet/secure_closet/explorer,
 /obj/item/material/twohanded/jack,
 /obj/random/loot/lightmelee,
+/obj/item/clothing/accessory/armor_plate/bodyglove,
+/obj/item/clothing/accessory/armor_plate,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
 "kk" = (
@@ -4146,6 +4158,12 @@
 /obj/structure/torchwall{
 	dir = 4
 	},
+/obj/item/clothing/accessory/armor_plate/paddingmech,
+/obj/item/clothing/accessory/armor_plate/paddingmech,
+/obj/item/clothing/accessory/armor_plate/paddingmech,
+/obj/item/clothing/accessory/armor_plate/paddingmech,
+/obj/item/clothing/accessory/armor_plate/paddingmech,
+/obj/item/clothing/accessory/armor_plate/paddingmech,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
 "kp" = (
@@ -7837,6 +7855,8 @@
 /obj/item/device/geiger,
 /obj/structure/closet/crate/warhammer/xenos/chest2,
 /obj/floor_decal/industrial/outline/orange,
+/obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
+/obj/item/clothing/accessory/armor_plate/bodyglovebio,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "sr" = (
@@ -13084,6 +13104,8 @@
 /obj/structure/closet/secure_closet/explorer,
 /obj/random/loot/basicarmorbundle,
 /obj/random/loot/swordmelee,
+/obj/item/clothing/accessory/armor_plate/bodyglove,
+/obj/item/clothing/accessory/armor_plate/flaklamellar,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/exploration)
 "LA" = (
@@ -15589,6 +15611,14 @@
 	},
 /turf/space,
 /area/space)
+"We" = (
+/obj/structure/closet/secure_closet/explorer,
+/obj/random/loot/basicarmorbundle,
+/obj/random/loot/swordmelee,
+/obj/item/clothing/accessory/armor_plate/bodyglove,
+/obj/item/clothing/accessory/armor_plate,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/quartermaster/exploration)
 "Wg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -30776,7 +30806,7 @@ au
 rQ
 aI
 eu
-Lx
+We
 kj
 Lx
 kh

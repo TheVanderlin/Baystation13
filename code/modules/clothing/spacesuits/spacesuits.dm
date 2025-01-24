@@ -7,7 +7,6 @@
 	icon_state = "space"
 	desc = "A special helmet designed for work in a hazardous, low-pressure environment."
 	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
-	flags_inv = BLOCKHAIR
 	item_state_slots = list(
 		slot_l_hand_str = "s_helmet",
 		slot_r_hand_str = "s_helmet",
@@ -117,6 +116,7 @@
 		slot_r_hand_str = "s_suit",
 	)
 	w_class = ITEM_SIZE_LARGE//large item
+	slot_flags = SLOT_BELT|SLOT_OCLOTHING
 	gas_transfer_coefficient = 0
 	permeability_coefficient = 0
 	item_flags = ITEM_FLAG_THICKMATERIAL

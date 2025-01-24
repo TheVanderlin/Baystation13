@@ -8,7 +8,7 @@
 	map_generators = list(/datum/random_map/noise/exoplanet/chlorine, /datum/random_map/noise/ore/poor)
 	surface_color = "#a3b879"
 	water_color = COLOR_BOTTLE_GREEN
-	habitability_weight = HABITABILITY_BAD
+	habitability_weight = HABITABILITY_EXTREME
 	has_trees = FALSE
 	flora_diversity = 5
 	fauna_types = list(/mob/living/simple_animal/thinbug, /mob/living/simple_animal/hostile/retaliate/beast/samak/alt, /mob/living/simple_animal/yithian, /mob/living/simple_animal/tindalos, /mob/living/simple_animal/hostile/retaliate/jelly)

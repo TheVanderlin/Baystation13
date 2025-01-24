@@ -16,7 +16,7 @@
 	return res
 
 /datum/random_map/automata/cave_system/mountains
-	iterations = 2
+	iterations = 1
 	descriptor = "space mountains"
 	wall_type =  /turf/simulated/mineral
 	cell_threshold = 6

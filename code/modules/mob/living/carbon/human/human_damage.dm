@@ -99,24 +99,39 @@
 	SET_BIT(hud_updateflag, HEALTH_HUD)
 
 /mob/living/carbon/human/Stun(amount)
-	amount *= species.stun_mod
-	if(amount <= 0) return
+	var/final_stun_mod = species.stun_mod
+	var/skill_reduction = get_combat_skill_reduction(src)
+	if(skill_reduction > 0)
+		final_stun_mod *= (1 - skill_reduction)
+	amount *= final_stun_mod
+	if(amount <= 0)
+		return
 	..()
 
 /mob/living/carbon/human/Weaken(amount)
-	amount *= species.weaken_mod
-	if(amount <= 0) return
-	if (!lying && species?.bodyfall_sound)
+	var/final_weaken_mod = species.weaken_mod
+	var/skill_reduction = get_combat_skill_reduction(src)
+	if(skill_reduction > 0)
+		final_weaken_mod *= (1 - skill_reduction)
+	amount *= final_weaken_mod
+	if(amount <= 0)
+		return
+	if(!lying && species?.bodyfall_sound)
 		playsound(loc, species.bodyfall_sound, 50, TRUE, -1)
 	..(amount)
 
 /mob/living/carbon/human/Paralyse(amount)
-	amount *= species.paralysis_mod
-	if(amount <= 0) return
-	// Notify our AI if they can now control the suit.
-	if(wearing_rig && !stat && paralysis < amount) //We are passing out right this second.
+	var/final_paralysis_mod = species.paralysis_mod
+	var/skill_reduction = get_combat_skill_reduction(src)
+	if(skill_reduction > 0)
+		final_paralysis_mod *= (1 - skill_reduction)
+	amount *= final_paralysis_mod
+	if(amount <= 0)
+		return
+	if(wearing_rig && !stat && paralysis < amount)
 		wearing_rig.notify_ai(SPAN_DANGER("Warning: user consciousness failure. Mobility control passed to integrated intelligence system."))
 	..(amount)
+
 
 /mob/living/carbon/human/getCloneLoss()
 	var/amount = 0
@@ -159,14 +174,21 @@
 /mob/living/carbon/human/adjustOxyLoss(amount)
 	if(!need_breathe())
 		return
-	var/heal = amount < 0
+	var/heal = (amount < 0)
 	var/obj/item/organ/internal/lungs/breathe_organ = internal_organs_by_name[species.breathing_organ]
 	if(breathe_organ)
 		if(heal)
 			breathe_organ.remove_oxygen_deprivation(abs(amount))
 		else
-			breathe_organ.add_oxygen_deprivation(abs(amount*species.oxy_mod))
+			var/final_oxy_mod = species.oxy_mod
+			var/skill_reduction = get_combat_skill_reduction(src)
+			skill_reduction += 0.15
+			if(skill_reduction > 1)
+				skill_reduction = 1
+			final_oxy_mod *= (1 - skill_reduction)
+			breathe_organ.add_oxygen_deprivation(abs(amount * final_oxy_mod))
 	SET_BIT(hud_updateflag, HEALTH_HUD)
+
 
 /mob/living/carbon/human/getToxLoss()
 	if((species.species_flags & SPECIES_FLAG_NO_POISON) || isSynthetic())

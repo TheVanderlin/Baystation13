@@ -28,8 +28,9 @@
 /obj/overmap/visitable/sector/exoplanet/volcanic/generate_atmosphere()
 	..()
 	var/datum/species/H = all_species[SPECIES_HUMAN]
-	var/xtreme = H.heat_level_2 + (rand(1,3) *  H.heat_level_2)
-	var/generator/new_temp = generator("num", H.heat_level_2, xtreme, UNIFORM_RAND)
+	// var/xtreme = H.heat_level_2 + (rand(1,3) *  H.heat_level_2)
+	// var/generator/new_temp = generator("num", H.heat_level_2, xtreme, UNIFORM_RAND)
+	var/generator/new_temp = generator("num", T0C, H.heat_level_1 - 10, UNIFORM_RAND)
 	atmosphere.temperature = new_temp.Rand()
 	atmosphere.update_values()
 

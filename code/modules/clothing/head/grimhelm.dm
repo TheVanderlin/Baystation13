@@ -99,7 +99,7 @@
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.008 // Try to set slowdowns to be 10-20 percent of the armours roughly.
-	body_parts_covered = EYES|HEAD
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = BLOCKHEADHAIR
 	disorientation = 0.5
 	armor = list(
@@ -392,7 +392,7 @@
 	)
 	valid_accessory_slots = null
 	restricted_accessory_slots = null
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_WASHER_ALLOWED
 	flags_inv = null
 	w_class = ITEM_SIZE_SMALL
 

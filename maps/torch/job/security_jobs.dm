@@ -23,7 +23,7 @@
 		/datum/mil_rank/civ/civ
 	)
 	skill_points = 10
-	min_skill = list(SKILL_VIGOR = SKILL_MASTER,
+	min_skill = list(SKILL_VIGOR = SKILL_DEMIGOD,
 					SKILL_COMBAT = SKILL_MASTER,
 					SKILL_GUNS = SKILL_MASTER,
 				)
@@ -90,7 +90,7 @@
 			H.species.species_flags = SPECIES_FLAG_NO_PAIN
 		else if(current_title == "Valhallan Captain")
 			H.fully_replace_character_name("Captain [current_name]")
-			H.species.stun_mod = 0.8
+			H.species.stun_mod = 0.7
 			H.species.weaken_mod = 0.73 // Ice-worlders got that whim hoff circulatory / nervous system control. Resist stuns and thermal damage.
 			H.species.paralysis_mod = 0.73
 			H.species.cold_level_1 = 180 // Amazing at cold. Terrible with heat.
@@ -127,7 +127,7 @@
 					SKILL_GUNS = SKILL_EXPERIENCED,
 					SKILL_FORENSICS = SKILL_EXPERIENCED,
 				)
-	max_skill = list(	SKILL_VIGOR = SKILL_MASTER,
+	max_skill = list(	SKILL_VIGOR = SKILL_DEMIGOD,
 						SKILL_GUNS = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND)
 
@@ -166,8 +166,8 @@
 
 /datum/job/enforcer
 	title = "Deck Enforcer"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	department = "Security"
 	department_flag = SEC
 	supervisors = "Anyone with a fancy title..."
@@ -189,12 +189,12 @@
 					SKILL_GUNS = SKILL_EXPERIENCED,
 					SKILL_FORENSICS = SKILL_EXPERIENCED,
 				)
-	max_skill = list(	SKILL_VIGOR = SKILL_MASTER,
+	max_skill = list(	SKILL_VIGOR = SKILL_DEMIGOD,
 						SKILL_GUNS = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER)
 
 	access = list(
-		access_dauntless, access_restricted, access_mechanicus, access_medical,
+		access_dauntless, access_restricted, access_restricted_command, access_bridge, access_mechanicus, access_mechanicus_command, access_medical,
 		access_medical_command)
 
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
@@ -225,8 +225,8 @@
 
 /datum/job/guardsman
 	title = "Cadian Guardsman"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "the Captain, Rogue Trader or Seneschal"
 	economic_power = 5
 	minimal_player_age = 1
@@ -252,12 +252,12 @@
 					SKILL_COMBAT = SKILL_MASTER,
 					SKILL_GUNS = SKILL_MASTER,
 				)
-	max_skill = list(	SKILL_VIGOR = SKILL_MASTER,
+	max_skill = list(	SKILL_VIGOR = SKILL_DEMIGOD,
 						SKILL_GUNS = SKILL_LEGEND,
 						SKILL_COMBAT = SKILL_LEGEND)
 
 	access = list(
-		access_dauntless, access_restricted, access_mechanicus, access_medical,
+		access_dauntless, access_restricted, access_restricted_command, access_bridge, access_mechanicus, access_medical,
 		access_medical_command, access_bridge)
 
 	software_on_spawn = list(/datum/computer_file/program/comm,
@@ -313,7 +313,7 @@
 			H.species.species_flags = SPECIES_FLAG_NO_PAIN
 		else if(current_title == "Valhallan Guardsman")
 			H.fully_replace_character_name("[current_name]")
-			H.species.stun_mod = 0.8
+			H.species.stun_mod = 0.7
 			H.species.weaken_mod = 0.73 // Ice-worlders got that whim hoff circulatory / nervous system control. Resist stuns and thermal damage.
 			H.species.paralysis_mod = 0.73
 			H.species.cold_level_1 = 180 // Amazing at cold. Terrible with heat.

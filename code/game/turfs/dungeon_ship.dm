@@ -207,7 +207,7 @@
 	name = "leper armour"
 	desc = "An ancient armor from millenia ago, it's state is very much pristine and looks like it was masterfully crafted."
 	icon_state = "leper"
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS|FEET|HANDS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	heat_protection = UPPER_TORSO|LOWER_TORSO|ARMS
@@ -230,7 +230,7 @@
 	name = "cerberus armour"
 	desc = "A questionable armor of unknown origin, it does seem familiar though.."
 	icon_state = "TrustworthyCerberus"
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS|FEET|HANDS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	heat_protection = UPPER_TORSO|LOWER_TORSO|ARMS

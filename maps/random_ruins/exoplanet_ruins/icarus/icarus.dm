@@ -18,7 +18,7 @@
 	name = "Icarus Radiation Spawner"
 	icon = 'icons/effects/landmarks.dmi'
 	icon_state = "x2"
-	var/radiation_power = 20 //Dangerous but survivable for 10-15 minutes if crew is too lazy to read away map description
+	var/radiation_power = 10 //Dangerous but survivable for 20-25 minutes if crew is too lazy to read away map description
 	var/datum/radiation_source/S
 	var/req_range = 20 //to cover part of the ruin
 

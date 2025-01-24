@@ -11,7 +11,6 @@
 		/mob/living/simple_animal/yithian,
 		/mob/living/simple_animal/tindalos,
 		/mob/living/simple_animal/hostile/human/heretic,
-		/mob/living/simple_animal/hostile/human/heretic/berserker,
 		/mob/living/simple_animal/hostile/human/heretic/trooper,
 		/mob/living/simple_animal/hostile/retaliate/jelly
 	)

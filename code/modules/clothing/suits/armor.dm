@@ -2,7 +2,7 @@
 /obj/item/clothing/suit/armor
 	allowed = list(/obj/item/gun/energy,/obj/item/device/radio,/obj/item/reagent_containers/spray/pepper,/obj/item/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/melee/baton,/obj/item/handcuffs,/obj/item/gun/magnetic,/obj/item/clothing/head/helmet,/obj/item/device/flashlight)
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	flags_inv = CLOTHING_BULKY
 	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HANDS
 	heat_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HANDS
@@ -12,6 +12,7 @@
 	equip_delay = 2 SECONDS
 	slowdown_general = 0.09
 	w_class = ITEM_SIZE_HUGE
+	min_pressure_protection = 0
 
 /obj/item/clothing/suit/armor/equip_delay_before(mob/user, slot, equip_flags)
 	user.setClickCooldown(1 SECOND)

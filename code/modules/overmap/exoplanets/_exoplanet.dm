@@ -134,7 +134,7 @@ GLOBAL_VAR(planet_repopulation_disabled)
 	generate_features()
 	for (var/datum/exoplanet_theme/T in themes)
 		T.after_map_generation(src)
-	generate_landing(2)
+	generate_landing(4)
 	update_biome()
 	generate_daycycle()
 	generate_planet_image()
@@ -300,7 +300,7 @@ GLOBAL_VAR(planet_repopulation_disabled)
 		do_spawn(E)
 
 //Tries to generate num landmarks, but avoids repeats.
-/obj/overmap/visitable/sector/exoplanet/proc/generate_landing(num = 1, override_density = FALSE)
+/obj/overmap/visitable/sector/exoplanet/proc/generate_landing(num = 1, override_density = TRUE)
 	var/places = list()
 	var/attempts = 30*num
 	var/new_type = landmark_type

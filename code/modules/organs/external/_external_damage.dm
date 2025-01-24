@@ -322,34 +322,89 @@
 		return TRUE
 	return FALSE
 
+// This returns a percentage-based "damage reduction" for skill levels.
+// If the returned value is R, then we multiply final armor by (1 - R).
+proc/get_combat_skill_reduction(mob/user)
+	if(!user)
+		return 0
+
+	// Example thresholds:
+	if(user.skill_check(SKILL_VIGOR, SKILL_DEMIGOD))
+		return 0.40  // 40% damage reduction from skill
+	else if(user.skill_check(SKILL_VIGOR, SKILL_PRIMARIS))
+		return 0.33
+	else if(user.skill_check(SKILL_VIGOR, SKILL_LEGEND))
+		return 0.18
+	else if(user.skill_check(SKILL_VIGOR, SKILL_MASTER))
+		return 0.13
+	else if(user.skill_check(SKILL_VIGOR, SKILL_EXPERIENCED))
+		return 0.08
+	else if(user.skill_check(SKILL_VIGOR, SKILL_TRAINED))
+		return 0.05
+	else if(user.skill_check(SKILL_VIGOR, SKILL_BASIC))
+		return 0.05
+	else
+		return 0
+
+
+
 /obj/item/organ/external/proc/get_brute_mod(damage_flags)
 	var/reduction = 1
 	for(var/obj/item/organ/internal/augment/armor/armor_aug in owner.internal_organs)
-		reduction = reduction * armor_aug.brute_mult
-	var/base_armor = 1
-	if(reduction != 1)
-		base_armor = reduction
+		reduction *= armor_aug.brute_mult
+
+	var/base_armor = (reduction != 1) ? reduction : 1
+
+	// Apply species brute_mod if not robotic
 	if(!BP_IS_ROBOTIC(src))
 		base_armor *= species.get_brute_mod(owner)
+
+	// Blunt + brittle => more damage
 	var/blunt = !(damage_flags & DAMAGE_FLAG_EDGE|DAMAGE_FLAG_SHARP)
 	if(blunt && BP_IS_BRITTLE(src))
 		base_armor *= 1.5
+
+	// Crystal => 20% less brute protection
 	if(BP_IS_CRYSTAL(src))
 		base_armor *= 0.8
-	return base_armor + (0.2 * burn_dam/max_damage) //burns make you take more brute damage
+
+	//----------------------------------------------------------
+	// Get skill-based reduction. Then multiply final armor by
+	// (1 - that reduction) to yield a lower damage modifier.
+	//----------------------------------------------------------
+	var/skill_reduction = get_combat_skill_reduction(owner)
+	if(skill_reduction > 0)
+		base_armor *= (1 - skill_reduction)
+
+	// Additional factor from burn damage
+	return base_armor + (0.2 * burn_dam / max_damage)
+
 
 /obj/item/organ/external/proc/get_burn_mod(damage_flags)
 	var/reduction = 1
 	for(var/obj/item/organ/internal/augment/armor/armor_aug in owner.internal_organs)
-		reduction = reduction * armor_aug.burn_mult
-	var/base_armor = 1
-	if(reduction != 1)
-		base_armor = reduction
+		reduction *= armor_aug.burn_mult
+
+	var/base_armor = (reduction != 1) ? reduction : 1
+
+	// Apply species burn_mod if not robotic
 	if(!BP_IS_ROBOTIC(src))
 		base_armor *= species.get_burn_mod(owner)
+
+	// Crystal => drastically less burn protection
 	if(BP_IS_CRYSTAL(src))
 		base_armor *= 0.1
+
+	//----------------------------------------------------------
+	// Get skill-based reduction; apply it multiplicatively.
+	//----------------------------------------------------------
+	var/skill_reduction = get_combat_skill_reduction(owner)
+	if(skill_reduction > 0)
+		base_armor *= (1 - skill_reduction)
+
 	return base_armor
+
+
 
 //organs can come off in three cases
 //1. If the damage source is edge_eligible and the brute damage dealt exceeds the edge threshold, then the organ is cut off.

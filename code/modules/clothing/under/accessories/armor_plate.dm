@@ -3,21 +3,23 @@
 	desc = "Constructed from steel-reinforced synthetic fibers, this light flak plate offers basic protection against shrapnel and low-velocity projectiles."
 	icon = 'icons/obj/clothing/obj_suit.dmi'
 	icon_state = "armor_light"
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	cold_protection = UPPER_TORSO|LOWER_TORSO
 	heat_protection = UPPER_TORSO|LOWER_TORSO
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+200
+	min_pressure_protection = 0
 	slowdown = 0.03
 	armor = list(
-		melee = ARMOR_MELEE_FLAK-1,
-		bullet = ARMOR_BALLISTIC_FLAK-2,
-		laser = ARMOR_LASER_FLAK-2,
-		energy = ARMOR_ENERGY_TEN-2,
-		bio = ARMOR_BIO_THIRTY,
-		rad = ARMOR_RAD_THIRTY+5,
-		bomb = ARMOR_BOMB_TEN+5
+		melee = 1,
+		bullet = 1,
+		laser = 0,
+		energy = 1,
+		bio = 4,
+		rad = 5,
+		bomb = 1
 		)
 	slot = ACCESSORY_SLOT_ARMOR_CHEST
 	flags_inv = null
@@ -26,17 +28,16 @@
 	name = "medium flak plates"
 	desc = "A plasteel-reinforced flak plate, providing enhanced protection against ballistic impacts and energy discharge."
 	icon_state = "armor_medium"
-	item_flags = ITEM_FLAG_THICKMATERIAL
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+300
 	armor = list(
-		melee = ARMOR_MELEE_FLAK,
-		bullet = ARMOR_BALLISTIC_FLAK+1,
-		laser = ARMOR_LASER_FLAK+1,
-		energy = ARMOR_ENERGY_TEN+10,
-		bio = ARMOR_BIO_THIRTY+10,
-		rad = ARMOR_RAD_THIRTY+20,
-		bomb = ARMOR_BOMB_TEN+10
+		melee = 1,
+		bullet = 1,
+		laser = 1,
+		energy = 2,
+		bio = 6,
+		rad = 7,
+		bomb = 2
 		)
 	slowdown = 0.04
 
@@ -46,19 +47,19 @@
 	icon_state = "armor_medium"
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	color = COLOR_PAKISTAN_GREEN
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+400
 	cold_protection = FULL_BODY // CHAOS PROTECTION
 	heat_protection = FULL_BODY
 	armor = list(
-		melee = ARMOR_MELEE_FLAK,
-		bullet = ARMOR_BALLISTIC_FLAK+1,
-		laser = ARMOR_LASER_FLAK+1,
-		energy = ARMOR_ENERGY_TEN+10,
-		bio = ARMOR_BIO_SHIELDED,
-		rad = ARMOR_RAD_SHIELDED,
-		bomb = ARMOR_BOMB_TEN+10
+		melee = 2,
+		bullet = 3,
+		laser = 2,
+		energy = 2,
+		bio = 26,
+		rad = 27,
+		bomb = 4
 		)
 	slowdown = 0.05
 
@@ -67,42 +68,42 @@
 	desc = "A disgusting plague infused plating, providing enhanced protection against ballistic impacts and energy discharge. It writhes as if the metal were alive."
 	icon_state = "armor_medium"
 	color = COLOR_PAKISTAN_GREEN
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+400
 	cold_protection = FULL_BODY // CHAOS PROTECTION
 	heat_protection = FULL_BODY
 	armor = list(
-		melee = ARMOR_MELEE_FLAK+1,
-		bullet = ARMOR_BALLISTIC_FLAK+2,
-		laser = ARMOR_LASER_FLAK+2,
-		energy = ARMOR_ENERGY_TEN+20,
-		bio = ARMOR_BIO_SHIELDED,
-		rad = ARMOR_RAD_SHIELDED,
-		bomb = ARMOR_BOMB_TEN+15
+		melee = 3,
+		bullet = 3,
+		laser = 3,
+		energy = 4,
+		bio = 26,
+		rad = 27,
+		bomb = 6
 		)
-	slowdown = 0.065
+	slowdown = 0.055
 
 /obj/item/clothing/accessory/armor_plate/tzeentch
 	name = "exotic plates"
 	desc = "A beautiful alien plating, providing enhanced protection against ballistic impacts and energy discharge. It writhes with constant sparks of chaos magic."
 	icon_state = "armor_medium"
 	color = COLOR_PALE_PURPLE_GRAY
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+400
 	cold_protection = FULL_BODY // CHAOS PROTECTION
 	heat_protection = FULL_BODY
 	armor = list(
-		melee = ARMOR_MELEE_FLAK+1,
-		bullet = ARMOR_BALLISTIC_FLAK+3,
-		laser = ARMOR_LASER_FLAK+3,
-		energy = ARMOR_ENERGY_TEN+20,
-		bio = ARMOR_BIO_THIRTY+20,
-		rad = ARMOR_RAD_THIRTY+30,
-		bomb = ARMOR_BOMB_TEN+20
+		melee = 2,
+		bullet = 2,
+		laser = 4,
+		energy = 8,
+		bio = 16,
+		rad = 17,
+		bomb = 6
 		)
 	slowdown = 0.05
 
@@ -110,18 +111,18 @@
 	name = "heavy flak plates"
 	desc = "A plasteel-reinforced flak plate, providing enhanced protection against ballistic impacts and energy discharge."
 	icon_state = "armor_medium"
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+400
 	armor = list(
-		melee = ARMOR_MELEE_FLAK+1,
-		bullet = ARMOR_BALLISTIC_FLAK+2,
-		laser = ARMOR_LASER_FLAK+2,
-		energy = ARMOR_ENERGY_TEN+10,
-		bio = ARMOR_BIO_THIRTY+20,
-		rad = ARMOR_RAD_THIRTY+30,
-		bomb = ARMOR_BOMB_TEN+10
+		melee = 2,
+		bullet = 2,
+		laser = 2,
+		energy = 4,
+		bio = 10,
+		rad = 11,
+		bomb = 4
 		)
 	slowdown = 0.06
 
@@ -129,55 +130,55 @@
 	name = "lamellar flak plates"
 	desc = "A plasteel-reinforced flak plate, providing enhanced protection against ballistic impacts and energy discharge."
 	icon_state = "armor_medium"
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+450
 	armor = list(
-		melee = ARMOR_MELEE_FLAK,
-		bullet = ARMOR_BALLISTIC_FLAK-1,
-		laser = ARMOR_LASER_FLAK-1,
-		energy = ARMOR_ENERGY_TEN-1,
-		bio = ARMOR_BIO_THIRTY+10,
-		rad = ARMOR_RAD_THIRTY+20,
-		bomb = ARMOR_BOMB_TEN+5
-	)
-	slowdown = 0.02 // Lighter weight, allows for better mobility
+		melee = 1,
+		bullet = 1,
+		laser = 1,
+		energy = 2,
+		bio = 6,
+		rad = 7,
+		bomb = 2
+		)
+	slowdown = 0.025 // Lighter weight, allows for better mobility
 
 /obj/item/clothing/accessory/armor_plate/flaktribal
 	name = "tribal flak lamellar"
 	desc = "Old scavenged flak-plates sewn in with hard cured xenos leathers and alien fabrics."
 	icon_state = "armor_medium"
 	color = COLOR_BEASTY_BROWN
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+450
 	slowdown = 0.02
 	armor = list(
-		melee = ARMOR_MELEE_FLAK-1,
-		bullet = ARMOR_BALLISTIC_FLAK-1,
-		laser = ARMOR_LASER_FLAK-1,
-		energy = ARMOR_ENERGY_TEN-1,
-		bio = ARMOR_BIO_THIRTY+5,
-		rad = ARMOR_RAD_THIRTY+15,
-		bomb = ARMOR_BOMB_TEN
-	)
+		melee = 1,
+		bullet = 1,
+		laser = 0,
+		energy = 1,
+		bio = 8,
+		rad = 9,
+		bomb = 2
+		)
 
 /obj/item/clothing/accessory/armor_plate/carapace
 	name = "carapace plates"
 	desc = "A carapace plate reinforced with ablative coatings, designed to dissipate energy and deflect high-velocity rounds. Provides robust defense in high-risk environments."
 	icon_state = "armor_tactical"
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+500
 	armor = list(
-		melee = ARMOR_MELEE_CARAPACE,
-		bullet = ARMOR_BALLISTIC_CARAPACE+1,
-		laser = ARMOR_LASER_CARAPACE+1,
-		energy = ARMOR_ENERGY_TEN+10,
-		rad = ARMOR_RAD_THIRTY+30,
-		bio = ARMOR_BIO_THIRTY+20,
-		bomb = ARMOR_BOMB_THIRTY
+		melee = 2,
+		bullet = 3,
+		laser = 2,
+		energy = 4,
+		bio = 10,
+		rad = 11,
+		bomb = 6
 		)
 
 	slowdown = 0.05
@@ -186,18 +187,18 @@
 	name = "masterwork carapace plates"
 	desc = "A carapace plate reinforced with ablative coatings, designed to dissipate energy and deflect high-velocity rounds. Provides robust defense in high-risk environments."
 	icon_state = "armor_tactical"
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+600
 	armor = list(
-		melee = ARMOR_MELEE_CARAPACE+1,
-		bullet = ARMOR_BALLISTIC_CARAPACE+2,
-		laser = ARMOR_LASER_CARAPACE+2,
-		energy = ARMOR_ENERGY_TEN+12,
-		rad = ARMOR_RAD_THIRTY+45,
-		bio = ARMOR_BIO_THIRTY+35,
-		bomb = ARMOR_BOMB_THIRTY+10
+		melee = 3,
+		bullet = 3,
+		laser = 3,
+		energy = 6,
+		bio = 11,
+		rad = 12,
+		bomb = 7
 		)
 
 	slowdown = 0.05
@@ -206,18 +207,18 @@
 	name = "heavy carapace plates"
 	desc = "Crafted with ceramic composites and advanced synthetic materials, this heavy carapace plate maximizes protection against ballistic and energy-based attacks."
 	icon_state = "armor_merc"
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+650
 	armor = list(
-		melee = ARMOR_MELEE_CARAPACE+1,
-		bullet = ARMOR_BALLISTIC_CARAPACE+2,
-		laser = ARMOR_LASER_CARAPACE+2,
-		energy = ARMOR_ENERGY_TEN+12,
-		rad = ARMOR_RAD_THIRTY+40,
-		bio = ARMOR_BIO_THIRTY+20,
-		bomb = ARMOR_BOMB_THIRTY
+		melee = 3,
+		bullet = 3,
+		laser = 3,
+		energy = 6,
+		bio = 11,
+		rad = 12,
+		bomb = 7
 		)
 	slowdown = 0.065
 
@@ -233,13 +234,13 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	slowdown = 0
 	armor = list(
-		melee = ARMOR_MELEE_PRIMAL-1,
-		bullet = ARMOR_BALLISTIC_PRIMAL,
-		laser = ARMOR_LASER_PRIMAL-1,
-		energy = ARMOR_ENERGY_TEN-4,
-		bio = ARMOR_BIO_THIRTY-6,
-		rad = ARMOR_RAD_THIRTY,
-		bomb = ARMOR_BOMB_TEN-5
+		melee = 0,
+		bullet = 0,
+		laser = 0,
+		energy = 0,
+		bio = 4,
+		rad = 5,
+		bomb = 1
 		)
 
 /obj/item/clothing/accessory/armor_plate/paddingheavy
@@ -248,20 +249,20 @@
 	icon = 'icons/obj/clothing/obj_suit.dmi'
 	icon_state = "helmcover_green"
 	color = COLOR_BEASTY_BROWN
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+350
 	slowdown = 0.01
 	armor = list(
-		melee = ARMOR_MELEE_PRIMAL,
-		bullet = ARMOR_BALLISTIC_PRIMAL+1, // Heavy padding is better for bullets then las.
-		laser = ARMOR_LASER_PRIMAL,
-		energy = ARMOR_ENERGY_TEN-3,
-		bio = ARMOR_BIO_THIRTY,
-		rad = ARMOR_RAD_THIRTY+10,
-		bomb = ARMOR_BOMB_TEN
+		melee = 1,
+		bullet = 0,
+		laser = 0,
+		energy = 1,
+		bio = 8,
+		rad = 9,
+		bomb = 2
 		)
 
 /obj/item/clothing/accessory/armor_plate/paddingbio
@@ -272,18 +273,18 @@
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+400
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	color = COLOR_BEASTY_BROWN
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	slowdown = 0.01
 	armor = list(
-		melee = ARMOR_MELEE_PRIMAL-1,
-		bullet = ARMOR_BALLISTIC_PRIMAL,
-		laser = ARMOR_LASER_PRIMAL,
-		energy = ARMOR_ENERGY_TEN,
-		rad = ARMOR_RAD_FIFTY,
-		bio = ARMOR_BIO_FIFTY,
-		bomb = ARMOR_BOMB_TEN+5
+		melee = 1,
+		bullet = 0,
+		laser = 0,
+		energy = 1,
+		bio = 18,
+		rad = 19,
+		bomb = 2
 		)
 
 /obj/item/clothing/accessory/armor_plate/paddingmech
@@ -291,21 +292,21 @@
 	desc = "A special tech hazard lining used primarily by the mechanicus, it's been cut out..."
 	icon = 'icons/obj/clothing/obj_suit.dmi'
 	icon_state = "helmcover_green"
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	color = COLOR_BEASTY_BROWN
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+550
-	slowdown = 0.02
+	slowdown = 0.035
 	armor = list(
-		melee = ARMOR_MELEE_PRIMAL,
-		bullet = ARMOR_BALLISTIC_PRIMAL+1,
-		laser = ARMOR_LASER_PRIMAL+1,
-		energy = ARMOR_ENERGY_TEN+10,
-		rad = ARMOR_RAD_FIFTY+45,
-		bio = ARMOR_BIO_FIFTY+45,
-		bomb = ARMOR_BOMB_TEN+5
+		melee = 1,
+		bullet = 1,
+		laser = 1,
+		energy = 4,
+		bio = 24,
+		rad = 24,
+		bomb = 4
 		)
 
 /obj/item/clothing/accessory/armor_plate/mechplate
@@ -313,21 +314,21 @@
 	desc = "A special tech hazard plating used primarily by mechanicus tech priests -- it's been ripped out..."
 	icon = 'icons/obj/clothing/obj_suit.dmi'
 	icon_state = "helmcover_green"
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	color = COLOR_BEASTY_BROWN
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+700
-	slowdown = 0.06
+	slowdown = 0.065
 	armor = list(
-		melee = ARMOR_MELEE_FLAK+1,
-		bullet = ARMOR_BALLISTIC_CARAPACE+1,
-		laser = ARMOR_LASER_CARAPACE+1,
-		energy = ARMOR_ENERGY_TEN+20,
-		rad = ARMOR_RAD_FIFTY+48,
-		bio = ARMOR_BIO_FIFTY+48,
-		bomb = ARMOR_BOMB_TEN+15
+		melee = 2,
+		bullet = 2,
+		laser = 2,
+		energy = 8,
+		bio = 26,
+		rad = 26,
+		bomb = 8
 		)
 
 /obj/item/clothing/accessory/armor_plate/mechplatemagos
@@ -335,21 +336,21 @@
 	desc = "A special tech hazard plating used primarily by mechanicus tech priests -- it's been ripped out..."
 	icon = 'icons/obj/clothing/obj_suit.dmi'
 	icon_state = "helmcover_green"
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	color = COLOR_BEASTY_BROWN
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+700
-	slowdown = 0.07
+	slowdown = 0.075
 	armor = list(
-		melee = ARMOR_MELEE_FLAK+1,
-		bullet = ARMOR_BALLISTIC_CARAPACE+2,
-		laser = ARMOR_LASER_CARAPACE+2,
-		energy = ARMOR_ENERGY_TEN+30,
-		rad = ARMOR_RAD_FIFTY+60,
-		bio = ARMOR_BIO_FIFTY+60,
-		bomb = ARMOR_BOMB_TEN+25
+		melee = 3,
+		bullet = 3,
+		laser = 3,
+		energy = 10,
+		bio = 28,
+		rad = 28,
+		bomb = 12
 		)
 
 /obj/item/clothing/accessory/armor_plate/bodyglovebio
@@ -365,7 +366,7 @@
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	heat_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	slot_flags = SLOT_OCLOTHING //can wear in suit slot as well
 	slot = ACCESSORY_SLOT_UTILITY // Worn alongside a carrier plate.
 	w_class = ITEM_SIZE_NORMAL
@@ -392,7 +393,7 @@
 	color = COLOR_DARK_GREEN_GRAY
 	icon = 'icons/obj/clothing/uniforms.dmi'
 	item_icons = 'icons/mob/onmob/onmob_under.dmi'
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+50
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
@@ -427,6 +428,7 @@
 	heat_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	siemens_coefficient = 0.1
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	icon = 'icons/obj/clothing/uniforms.dmi'
 	item_icons = 'icons/mob/onmob/onmob_under.dmi'
 	slot_flags = SLOT_OCLOTHING
@@ -458,7 +460,7 @@
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	icon = 'icons/obj/clothing/uniforms.dmi'
 	item_icons = list(slot_wear_suit_str = 'icons/mob/onmob/onmob_under.dmi')
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_UTILITY // Attaches to uniform or can be worn as exosuit.
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
@@ -489,7 +491,7 @@
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	icon = 'icons/obj/clothing/uniforms.dmi'
 	item_icons = list(slot_wear_suit_str = 'icons/mob/onmob/onmob_under.dmi')
-	item_flags = ITEM_FLAG_THICKMATERIAL
+	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_UTILITY // Attaches to uniform or can be worn as exosuit.
 	w_class = ITEM_SIZE_NORMAL

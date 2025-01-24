@@ -218,7 +218,7 @@
 	icon_state = "halfgas"
 	item_state = "halfgas"
 	siemens_coefficient = 0.7
-	body_parts_covered = HEAD|EYES // needs to protect head or else cadians die in space.
+	body_parts_covered = HEAD|FACE|EYES
 	w_class = ITEM_SIZE_SMALL
 	down_gas_transfer_coefficient = 1
 	down_body_parts_covered = null
