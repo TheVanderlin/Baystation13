@@ -1,26 +1,26 @@
-/singleton/psionic_faculty/redaction
-	id = PSI_REDACTION
-	name = "Redaction"
+/singleton/psionic_faculty/biomancy
+	id = PSI_BIOMANCY
+	name = "biomancy"
 	associated_intent = I_HELP
 	armour_types = list("bio", "rad")
 
-/singleton/psionic_power/redaction
-	faculty = PSI_REDACTION
+/singleton/psionic_power/biomancy
+	faculty = PSI_BIOMANCY
 	admin_log = FALSE
 
-/singleton/psionic_power/redaction/proc/check_dead(mob/living/target)
+/singleton/psionic_power/biomancy/proc/check_dead(mob/living/target)
 	if(!istype(target))
 		return FALSE
 	if(target.stat == DEAD || (target.status_flags & FAKEDEATH))
 		return TRUE
 	return FALSE
 
-/singleton/psionic_power/redaction/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/biomancy/invoke(mob/living/user, mob/living/target)
 	if(check_dead(target))
 		return FALSE
 	. = ..()
 
-/singleton/psionic_power/redaction/skinsight
+/singleton/psionic_power/biomancy/skinsight
 	name =            "Skinsight"
 	cost =            3
 	cooldown =        30
@@ -28,7 +28,7 @@
 	min_rank =        PSI_RANK_OPERANT
 	use_description = "Grab a patient, target the chest, then switch to help intent and use the grab on them to perform a check for wounds and damage."
 
-/singleton/psionic_power/redaction/skinsight/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/biomancy/skinsight/invoke(mob/living/user, mob/living/target)
 	if(user.zone_sel.selecting != BP_CHEST)
 		return FALSE
 	. = ..()
@@ -37,7 +37,7 @@
 		to_chat(user, medical_scan_results(target, TRUE, SKILL_MAX))
 		return TRUE
 
-/singleton/psionic_power/redaction/mend
+/singleton/psionic_power/biomancy/mend
 	name =            "Mend"
 	cost =            7
 	cooldown =        50
@@ -45,7 +45,7 @@
 	min_rank =        PSI_RANK_OPERANT
 	use_description = "Target a patient while on help intent at melee range to mend a variety of maladies, such as bleeding or broken bones. Higher ranks in this faculty allow you to mend a wider range of problems."
 
-/singleton/psionic_power/redaction/mend/invoke(mob/living/user, mob/living/carbon/human/target)
+/singleton/psionic_power/biomancy/mend/invoke(mob/living/user, mob/living/carbon/human/target)
 	if(!istype(user) || !istype(target))
 		return FALSE
 	. = ..()
@@ -63,9 +63,9 @@
 		user.visible_message(SPAN_NOTICE("<i>\The [user] rests a hand on \the [target]'s [E.name]...</i>"))
 		to_chat(target, SPAN_NOTICE("A healing warmth suffuses you."))
 
-		var/redaction_rank = user.psi.get_rank(PSI_REDACTION)
-		var/pk_rank = user.psi.get_rank(PSI_PSYCHOKINESIS)
-		if(pk_rank >= PSI_RANK_LATENT && redaction_rank >= PSI_RANK_MASTER)
+		var/biomancy_rank = user.psi.get_rank(PSI_BIOMANCY)
+		var/pk_rank = user.psi.get_rank(PSI_TELEKINESIS)
+		if(pk_rank >= PSI_RANK_LATENT && biomancy_rank >= PSI_RANK_MASTER)
 			var/removal_size = clamp(5-pk_rank, 0, 5)
 			var/valid_objects = list()
 			for(var/thing in E.implants)
@@ -82,7 +82,7 @@
 				to_chat(user, SPAN_NOTICE("You extend a tendril of psychokinetic-redactive power and carefully tease \the [removing] free of \the [E]."))
 				return TRUE
 
-		if(redaction_rank >= PSI_RANK_MASTER)
+		if(biomancy_rank >= PSI_RANK_MASTER)
 			if(E.status & ORGAN_ARTERY_CUT)
 				to_chat(user, SPAN_NOTICE("You painstakingly mend the torn veins in \the [E], stemming the internal bleeding."))
 				E.status &= ~ORGAN_ARTERY_CUT
@@ -99,7 +99,7 @@
 
 		for(var/datum/wound/W in E.wounds)
 			if(W.bleeding())
-				if(redaction_rank >= PSI_RANK_MASTER || W.wound_damage() < 30)
+				if(biomancy_rank >= PSI_RANK_MASTER || W.wound_damage() < 30)
 					to_chat(user, SPAN_NOTICE("You knit together severed veins and broken flesh, stemming the bleeding."))
 					W.bleed_timer = 0
 					W.clamped = TRUE
@@ -108,18 +108,18 @@
 				else
 					to_chat(user, SPAN_NOTICE("This [W.desc] is beyond your power to heal."))
 
-		if(redaction_rank >= PSI_RANK_GRANDMASTER)
+		if(biomancy_rank >= PSI_RANK_GRANDMASTER)
 			for(var/obj/item/organ/internal/I in E.internal_organs)
 				if(!BP_IS_ROBOTIC(I) && !BP_IS_CRYSTAL(I) && I.damage > 0)
 					to_chat(user, SPAN_NOTICE("You encourage the damaged tissue of \the [I] to repair itself."))
-					var/heal_rate = redaction_rank
+					var/heal_rate = biomancy_rank
 					I.damage = max(0, I.damage - rand(heal_rate,heal_rate*2))
 					return TRUE
 
 		to_chat(user, SPAN_NOTICE("You can find nothing within \the [target]'s [E.name] to mend."))
 		return FALSE
 
-/singleton/psionic_power/redaction/cleanse
+/singleton/psionic_power/biomancy/cleanse
 	name =            "Cleanse"
 	cost =            9
 	cooldown =        60
@@ -127,7 +127,7 @@
 	min_rank =        PSI_RANK_GRANDMASTER
 	use_description = "Target a patient while on help intent at melee range to cleanse radiation and genetic damage from a patient."
 
-/singleton/psionic_power/redaction/cleanse/invoke(mob/living/user, mob/living/carbon/human/target)
+/singleton/psionic_power/biomancy/cleanse/invoke(mob/living/user, mob/living/carbon/human/target)
 	if(!istype(user) || !istype(target))
 		return FALSE
 	. = ..()
@@ -157,7 +157,7 @@
 	cooldown =        80
 	use_grab =        TRUE
 	min_rank =        PSI_RANK_PARAMOUNT
-	faculty =         PSI_REDACTION
+	faculty =         PSI_BIOMANCY
 	use_description = "Obtain a grab on a dead target, target the head, then select help intent and use the grab against them to attempt to bring them back to life. The process is lengthy and failure is punished harshly."
 	admin_log = FALSE
 
