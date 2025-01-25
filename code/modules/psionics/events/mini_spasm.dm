@@ -50,7 +50,7 @@
 		to_chat(victim, SPAN_DANGER("An indescribable, brain-tearing sound hisses from [icon2html(source, victim)] \the [source], and you collapse in a seizure!"))
 		victim.seizure()
 		var/new_latencies = rand(2,4)
-		var/list/faculties = list(PSI_TELEKINESIS, PSI_BIOMANCY, PSI_PYROKINESIS, PSI_TELEKINESIS)
+		var/list/faculties = list(PSI_TELEKINESIS, PSI_BIOMANCY, PSI_PYROMANCY, PSI_TELEKINESIS)
 		for(var/i = 1 to new_latencies)
 			to_chat(victim, SPAN_DANGER(FONT_LARGE(pick(psi_operancy_messages))))
 			victim.adjustBrainLoss(rand(10,20))
