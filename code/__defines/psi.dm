@@ -9,9 +9,11 @@
 #define PSI_BIOMANCY          "biomancy"
 #define PSI_PYROMANCY          "pyromancy"
 
-#define PSI_RANK_BLUNT         0
-#define PSI_RANK_LATENT        1
-#define PSI_RANK_OPERANT       2
-#define PSI_RANK_MASTER        3
-#define PSI_RANK_GRANDMASTER   4
-#define PSI_RANK_PARAMOUNT     5
+#define PSI_RANK_RHO         0 //Inert
+#define PSI_RANK_NU        1 //Some latent abilities
+#define PSI_RANK_IOTA       2 //First true Psyker
+#define PSI_RANK_ZETA        3 //Basic non-Primaris Psyker, most sorcerers max, cult "Psyker"
+#define PSI_RANK_DELTA   4 //Basic Primaris Psyker
+#define PSI_RANK_GAMMA     5 //High-end Primaris Psyker, SM Librarians, low-end Eldar Psykers
+#define PSI_RANK_BETA     6 //High-end SM Librarians, Eldar Psykers. Often unstable.
+#define PSI_RANK_ALPHA     7  //The very highest end of "Standard" Psychic ability. Highly unstable, often insane.
