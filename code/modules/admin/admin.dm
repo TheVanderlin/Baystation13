@@ -135,14 +135,14 @@ var/global/floorIsLava = 0
 		body += "<a href='?src=\ref[M.mind];add_goal=1'>Add Random Goal</a>"
 
 	body += "<br><br>"
-	body += "<b>Psionics:</b><br/>"
+	body += "<b>Psyker:</b><br/>"
 	if(isliving(M))
 		var/mob/living/psyker = M
 		if(psyker.psi)
-			body += "<a href='?src=\ref[psyker.psi];remove_psionics=1'>Remove psionics.</a><br/><br/>"
+			body += "<a href='?src=\ref[psyker.psi];remove_psionics=1'>Remove Psyker abilitiess.</a><br/><br/>"
 			body += "<a href='?src=\ref[psyker.psi];trigger_psi_latencies=1'>Trigger latencies.</a><br/>"
 		body += "<table width = '100%'>"
-		for(var/faculty in list(PSI_COERCION, PSI_PSYCHOKINESIS, PSI_REDACTION, PSI_ENERGISTICS))
+		for(var/faculty in list(PSI_TELEPATHY, PSI_TELEKINESIS, PSI_BIOMANCY, PSI_PYROKINESIS))
 			var/singleton/psionic_faculty/faculty_singleton = SSpsi.get_faculty(faculty)
 			var/faculty_rank = psyker.psi ? psyker.psi.get_rank(faculty) : 0
 			body += "<tr><td><b>[faculty_singleton.name]</b></td>"
