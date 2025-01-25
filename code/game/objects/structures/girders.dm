@@ -79,8 +79,8 @@
 		)
 		return TRUE
 
-	// Diamond Drill, Plasmacutter, Psiblade (Paramount) - Slice girder
-	if (istype(tool, /obj/item/pickaxe/diamonddrill) || istype(tool, /obj/item/gun/energy/plasmacutter) || istype(tool, /obj/item/psychic_power/psiblade/master/grand/paramount))
+	// Diamond Drill, Plasmacutter, Psiblade (Gamma+) - Slice girder
+	if (istype(tool, /obj/item/pickaxe/diamonddrill) || istype(tool, /obj/item/gun/energy/plasmacutter) || istype(tool, /obj/item/psychic_power/psiblade/gamma)  || istype(tool, /obj/item/psychic_power/psiblade/beta)   || istype(tool, /obj/item/psychic_power/psiblade/alpha))
 		var/obj/item/gun/energy/plasmacutter/cutter = tool
 		if (istype(cutter) && !cutter.slice(user))
 			return TRUE
