@@ -7,7 +7,7 @@ GLOBAL_DATUM_INIT(foundation_agents, /datum/antagonist/foundation, new)
 	role_text_plural = "Foundation Agents"
 	welcome_text = "<span class='info'>You are a field agent of the Imperial Inquisition, \
 	The secret police of the Imperium. You have a free pass to anywhere \
-	you like, a pistol "Borrowed" from the Culexus temple, with anti-psi nullglass rounds, and a clear duty.</span>"
+	you like, a pistol <b>Borrowed</b> from the Culexus temple, with anti-psi nullglass rounds, and a clear duty.</span>"
 	antag_text = "You are an <b>anti</b> antagonist! Within the rules, \
 		try to save the installation and its inhabitants from the ongoing crisis. \
 		Try to make sure other players have <i>fun</i>! If you are confused or at a loss, always adminhelp, \
