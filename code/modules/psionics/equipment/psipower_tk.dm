@@ -9,7 +9,7 @@
 	. = ..()
 
 /obj/item/psychic_power/telekinesis/Process()
-	if(!focus || !istype(focus.loc, /turf) || get_dist(get_turf(focus), get_turf(owner)) > owner.psi.get_rank(PSI_PSYCHOKINESIS))
+	if(!focus || !istype(focus.loc, /turf) || get_dist(get_turf(focus), get_turf(owner)) > owner.psi.get_rank(PSI_TELEKINESIS))
 		owner.drop_from_inventory(src)
 		return
 	. = ..()
@@ -29,7 +29,7 @@
 	else
 		return FALSE
 
-	if(_focus.anchored || (check_paramount && owner.psi.get_rank(PSI_PSYCHOKINESIS) < PSI_RANK_PARAMOUNT))
+	if(_focus.anchored || (check_paramount && owner.psi.get_rank(PSI_TELEKINESIS) < PSI_RANK_GAMMA))
 		focus = _focus
 		. = attack_self(owner)
 		if(!.)
@@ -67,7 +67,7 @@
 		return
 
 	var/distance = get_dist(get_turf(user), get_turf(focus ? focus : target))
-	if(distance > user.psi.get_rank(PSI_PSYCHOKINESIS))
+	if(distance > user.psi.get_rank(PSI_TELEKINESIS))
 		to_chat(user, SPAN_WARNING("Your telekinetic power won't reach that far."))
 		return FALSE
 
@@ -83,7 +83,7 @@
 				I.afterattack(target,user,1) // for splashing with beakers
 		else
 			if(!focus.anchored)
-				var/user_rank = owner.psi.get_rank(PSI_PSYCHOKINESIS)
+				var/user_rank = owner.psi.get_rank(PSI_TELEKINESIS)
 				focus.throw_at(target, user_rank*2, user_rank*3, owner)
 			sleep(1)
 			sparkle()
