@@ -71,7 +71,7 @@
 
 		switch(user_rank)
 			if(PSI_RANK_ALPHA)
-				pew = new /obj/item/projectile/beam/heavylaser(get_turf(user))
+				pew = new /obj/item/projectile/beam/incendiary_laser/heavy(get_turf(user))
 				pew.name = "petawatt mental laser"
 				pew_sound = 'sound/weapons/lasercannonfire.ogg'
 			if(PSI_RANK_BETA)
@@ -79,11 +79,11 @@
 				pew.name = "terawatt mental laser"
 				pew_sound = 'sound/weapons/lasercannonfire.ogg'
 			if(PSI_RANK_GAMMA)
-				pew = new /obj/item/projectile/beam/heavylaser(get_turf(user))
-				pew.name = "gigawatt mental laser"
-				pew_sound = 'sound/weapons/lasercannonfire.ogg'
-			if(PSI_RANK_DELTA)
 				pew = new /obj/item/projectile/beam/midlaser(get_turf(user))
+				pew.name = "gigawatt mental laser"
+				pew_sound = 'sound/weapons/Laser.ogg'
+			if(PSI_RANK_DELTA)
+				pew = new /obj/item/projectile/beam/smalllaser(get_turf(user))
 				pew.name = "megawatt mental laser"
 				pew_sound = 'sound/weapons/Laser.ogg'
 			if(PSI_RANK_ZETA)
