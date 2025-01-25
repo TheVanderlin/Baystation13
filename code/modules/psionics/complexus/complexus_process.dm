@@ -28,6 +28,7 @@
 			return
 		else
 			rebuild_power_cache = TRUE
+			max_stamina = ((highest_rank - 1) * 50)
 			sound_to(owner, 'sound/effects/psi/power_unlock.ogg')
 			rating = ceil(combined_rank/rank_count)
 			cost_modifier = 1
