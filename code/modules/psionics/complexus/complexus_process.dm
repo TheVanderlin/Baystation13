@@ -143,14 +143,14 @@
 		heal_bleeding = TRUE
 		mend_prob = 95
 		heal_rate = 25
-	if(use_rank >= PSI_RANK_BETA)
+	else if(use_rank >= PSI_RANK_BETA)
 		heal_general = TRUE
 		heal_poison = TRUE
 		heal_internal = TRUE
 		heal_bleeding = TRUE
 		mend_prob = 75
 		heal_rate = 12
-	if(use_rank >= PSI_RANK_GAMMA)
+	else if(use_rank >= PSI_RANK_GAMMA)
 		heal_general = TRUE
 		heal_poison = TRUE
 		heal_internal = TRUE
