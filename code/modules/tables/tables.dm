@@ -127,8 +127,8 @@
 		)
 		return TRUE
 
-	// Energy Blade, Psiblade
-	if (istype(weapon, /obj/item/melee/energy/blade) || istype(weapon, /obj/item/psychic_power/psiblade/master/grand/paramount))
+	// Energy Blade, Psiblade Gamma +
+	if (istype(weapon, /obj/item/melee/energy/blade) ||istype(tool, /obj/item/gun/energy/plasmacutter) || istype(tool, /obj/item/psychic_power/psiblade/gamma)  || istype(tool, /obj/item/psychic_power/psiblade/beta)   || istype(tool, /obj/item/psychic_power/psiblade/alpha))
 		var/datum/effect/spark_spread/spark_system = new(src)
 		spark_system.set_up(5, EMPTY_BITFIELD, loc)
 		spark_system.start()
