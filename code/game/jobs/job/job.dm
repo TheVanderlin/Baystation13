@@ -80,7 +80,7 @@
 		H.set_default_language(all_languages[LANGUAGE_LOW_GOTHIC])
 
 	if(psi_latency_chance && prob(psi_latency_chance))
-		H.set_psi_rank(pick(PSI_TELEPATHY, PSI_BIOMANCY, PSI_PYROKINESIS, PSI_TELEKINESIS), 1, defer_update = TRUE)
+		H.set_psi_rank(pick(PSI_TELEPATHY, PSI_BIOMANCY, PSI_PYROMANCY, PSI_TELEKINESIS), 1, defer_update = TRUE)
 	if(islist(psi_faculties))
 		for(var/psi in psi_faculties)
 			H.set_psi_rank(psi, psi_faculties[psi], take_larger = TRUE, defer_update = TRUE)
