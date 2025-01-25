@@ -51,7 +51,7 @@
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_PRIMARIS,
 						SKILL_GUNS = SKILL_PRIMARIS,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonistsisterw/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -88,14 +88,14 @@
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 7
 	min_skill = list(
-		SKILL_VIGOR = SKILL_DEMIGOD,
+		SKILL_VIGOR = SKILL_MASTER,
 		SKILL_COMBAT = SKILL_MASTER,
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_GUNS = SKILL_LEGEND,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist_noble/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -164,7 +164,7 @@
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 10
 	min_skill = list(,
-		SKILL_VIGOR = SKILL_DEMIGOD,
+		SKILL_VIGOR = SKILL_EXPERIENCED,
 		SKILL_GUNS = SKILL_EXPERIENCED,
 	)
 
@@ -177,7 +177,7 @@
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonistpathfinder/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -238,7 +238,7 @@
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name

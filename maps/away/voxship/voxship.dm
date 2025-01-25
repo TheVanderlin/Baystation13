@@ -221,7 +221,7 @@
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_PRIMARIS,
 						SKILL_GUNS = SKILL_PRIMARIS,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/captivekasrkin/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -267,7 +267,7 @@
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_PRIMARIS,
 						SKILL_GUNS = SKILL_PRIMARIS,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/captivesisterm/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -305,13 +305,13 @@
 	min_skill = list(
 		SKILL_COMBAT = SKILL_PRIMARIS,
 		SKILL_GUNS = SKILL_MASTER,
-		SKILL_VIGOR = SKILL_DEMIGOD,
+		SKILL_VIGOR = SKILL_LEGEND,
 	)
 
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_PRIMARIS,
 						SKILL_GUNS = SKILL_PRIMARIS,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/captivecatachan/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -361,7 +361,7 @@
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_GUNS = SKILL_LEGEND,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/captive/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -515,7 +515,7 @@
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_PRIMARIS,
 						SKILL_GUNS = SKILL_PRIMARIS,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/captivenoble/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -728,7 +728,7 @@
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/captive/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name

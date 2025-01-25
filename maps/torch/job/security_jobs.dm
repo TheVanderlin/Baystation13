@@ -23,7 +23,7 @@
 		/datum/mil_rank/civ/civ
 	)
 	skill_points = 10
-	min_skill = list(SKILL_VIGOR = SKILL_DEMIGOD,
+	min_skill = list(SKILL_VIGOR = SKILL_LEGEND,
 					SKILL_COMBAT = SKILL_MASTER,
 					SKILL_GUNS = SKILL_MASTER,
 				)
@@ -31,7 +31,7 @@
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_PRIMARIS,
 						SKILL_GUNS = SKILL_PRIMARIS,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 	access = list(
 		access_dauntless, access_restricted, access_restricted_command, access_mechanicus, access_mechanicus_command, access_medical,
@@ -248,7 +248,7 @@
 		/datum/mil_rank/civ/civ
 	)
 	skill_points = 7
-	min_skill = list(SKILL_VIGOR = SKILL_EXPERIENCED,
+	min_skill = list(SKILL_VIGOR = SKILL_MASTER,
 					SKILL_COMBAT = SKILL_MASTER,
 					SKILL_GUNS = SKILL_MASTER,
 				)

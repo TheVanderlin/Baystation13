@@ -98,7 +98,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/tauscoutship_leader/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -141,7 +141,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/tauscoutship_scoutvet/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -232,7 +232,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/tauscoutship_crew/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -281,7 +281,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/tauscoutship_leader/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -348,7 +348,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/tauscoutship_crew/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name

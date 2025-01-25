@@ -39,7 +39,7 @@
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 9
 	min_skill = list(
-		SKILL_VIGOR = SKILL_DEMIGOD,
+		SKILL_VIGOR = SKILL_LEGEND,
 		SKILL_PILOT = SKILL_EXPERIENCED,
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_GUNS = SKILL_MASTER
@@ -48,7 +48,7 @@
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_GUNS = SKILL_LEGEND,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/bloodpactmagir/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -79,7 +79,7 @@
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 8
 	min_skill = list(
-		SKILL_VIGOR = SKILL_DEMIGOD,
+		SKILL_VIGOR = SKILL_MASTER,
 		SKILL_CONSTRUCTION = SKILL_EXPERIENCED,
 		SKILL_PILOT = SKILL_EXPERIENCED,
 		SKILL_COMBAT = SKILL_EXPERIENCED,
@@ -89,7 +89,7 @@
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_GUNS = SKILL_LEGEND,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/bloodpactsoldier/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name

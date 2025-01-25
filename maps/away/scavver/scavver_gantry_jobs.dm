@@ -36,7 +36,7 @@
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_GUNS = SKILL_LEGEND,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/scavver_merc/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -111,7 +111,7 @@
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_GUNS = SKILL_LEGEND,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/scavver_noble/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -171,7 +171,7 @@
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/scavver_crew/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -324,7 +324,7 @@
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/scavver_bard/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name

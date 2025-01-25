@@ -1,17 +1,17 @@
 /datum/map/torch
 	species_to_job_whitelist = list(
 		/datum/species/vox = list(/datum/job/ai, /datum/job/cyborg),
-		/datum/species/kroot = list(/datum/job/mercenary), // Whitelist mercs here
-		/datum/species/tau  = list(/datum/job/mercenary),
+		/datum/species/kroot = list(/datum/job/mercenary),
+		/datum/species/tau  = list(/datum/job/merchant), // I think this is for whitelists.
 		/datum/species/human/mule = list(/datum/job/merchant)
 	)
 
 #define HUMAN_ONLY_JOBS /datum/job/rogue_trader, /datum/job/seneschal, /datum/job/void_officer, /datum/job/magos_explorator, /datum/job/data_smith, /datum/job/tech_priest, /datum/job/bondsman, /datum/job/guard_captain, /datum/job/enforcer, /datum/job/enforcer_sergeant, /datum/job/guardsman, /datum/job/magos_biologis, /datum/job/sister_hospitaller, /datum/job/pharmacologis, /datum/job/medicae, /datum/job/noble_guest, /datum/job/unexpected_guest, /datum/job/deck_scum, /datum/job/chaplain_militant, /datum/job/chamber_magister, /datum/job/chamber_assistant
 	species_to_job_blacklist = list(
 		/datum/species/kroot  = list(HUMAN_ONLY_JOBS),
-		/datum/species/kroot/yeosa = list(HUMAN_ONLY_JOBS, /datum/job/mercenary),
+		/datum/species/kroot/yeosa = list(HUMAN_ONLY_JOBS),
 		/datum/species/tau  = list(HUMAN_ONLY_JOBS, /datum/job/mercenary),
-		/datum/species/machine = list(HUMAN_ONLY_JOBS, /datum/job/mercenary),
+		/datum/species/machine = list(HUMAN_ONLY_JOBS, /datum/job/mercenary), // This is like whitelist -- but it's just banned for everyone regardless of whitelist. DOUBLE WHITELIST.
 		/datum/species/human = list(/datum/job/mercenary),
 		/datum/species/diona   = list(HUMAN_ONLY_JOBS, /datum/job/mercenary),
 	)

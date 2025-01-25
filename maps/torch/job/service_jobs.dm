@@ -281,7 +281,7 @@
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/deck_scum/get_description_blurb()
 	return "As Deck Scum, you’re the bottom rung, drifting through whatever job you’re handed next. Your service may be a punishment for a crime, it may be that you were stolen from your world and enslaved, or worse... that you chose this life for yourself. You are a dredge of society now, an outcast, surviving in the underbelly of the Rogue Trader's corvette."

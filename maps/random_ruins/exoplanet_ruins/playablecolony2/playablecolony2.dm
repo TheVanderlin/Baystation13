@@ -52,7 +52,7 @@
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_PRIMARIS,
 						SKILL_GUNS = SKILL_PRIMARIS,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist2repentia/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -97,7 +97,7 @@
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_GUNS = SKILL_LEGEND,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist2_pdf/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -247,7 +247,7 @@
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist2/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name

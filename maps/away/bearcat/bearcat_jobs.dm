@@ -60,7 +60,7 @@ else if(current_title == "Bounty Hunter")
 	max_skill = list(	SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_PRIMARIS,
 						SKILL_GUNS = SKILL_PRIMARIS,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/kasrkin/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -110,7 +110,7 @@ else if(current_title == "Bounty Hunter")
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_GUNS = SKILL_LEGEND,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/pdf/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -187,7 +187,7 @@ else if(current_title == "Bounty Hunter")
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/merchant/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -243,7 +243,7 @@ else if(current_title == "Bounty Hunter")
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_LEGEND,
 						SKILL_GUNS = SKILL_LEGEND,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/noble/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -303,7 +303,7 @@ else if(current_title == "Bounty Hunter")
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/demeter_crew/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name
@@ -378,7 +378,7 @@ else if(current_title == "Bounty Hunter")
 						SKILL_PILOT = SKILL_MASTER,
 						SKILL_COMBAT = SKILL_MASTER,
 						SKILL_GUNS = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/demeter_detective/equip(mob/living/carbon/human/H)
 	var/current_name = H.real_name

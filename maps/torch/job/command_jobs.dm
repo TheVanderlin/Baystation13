@@ -237,7 +237,7 @@
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/civ)
 	skill_points = 9
-	min_skill = list(SKILL_VIGOR = SKILL_DEMIGOD,
+	min_skill = list(SKILL_VIGOR = SKILL_LEGEND,
 					SKILL_COMBAT = SKILL_LEGEND, // Worse skills then imperials. Since they are more primitive bioforms.
 					SKILL_GUNS = SKILL_EXPERIENCED,
 				)

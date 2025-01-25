@@ -30,9 +30,6 @@
 	species_to_branch_whitelist = list(
 		/datum/species/diona        = list(/datum/mil_branch/civilian),
 		/datum/species/nabber       = list(/datum/mil_branch/civilian),
-		/datum/species/tau       = list(/datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps, /datum/mil_branch/tau_fleet),
-		/datum/species/kroot       = list(/datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
-		/datum/species/kroot/yeosa = list(/datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
 		/datum/species/adherent     = list(/datum/mil_branch/civilian),
 		/datum/species/vox          = list(/datum/mil_branch/alien)
 	)

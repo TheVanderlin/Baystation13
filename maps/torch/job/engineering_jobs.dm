@@ -315,7 +315,7 @@
 	)
 
 	max_skill = list(	SKILL_CONSTRUCTION = SKILL_MASTER,
-						SKILL_VIGOR = SKILL_MASTER)
+						SKILL_VIGOR = SKILL_DEMIGOD)
 
 	access = list(
 		access_dauntless, access_restricted, access_mechanicus, access_medical)
