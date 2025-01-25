@@ -2865,7 +2865,7 @@
 #include "code\modules\psionics\faculties\_faculty.dm"
 #include "code\modules\psionics\faculties\_power.dm"
 #include "code\modules\psionics\faculties\telepathy.dm"
-#include "code\modules\psionics\faculties\pyrokinesis.dm"
+#include "code\modules\psionics\faculties\pyromancy.dm"
 #include "code\modules\psionics\faculties\telekinesis.dm"
 #include "code\modules\psionics\faculties\biomancy.dm"
 #include "code\modules\psionics\interface\ui.dm"
