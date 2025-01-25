@@ -9,7 +9,7 @@ var/global/list/tank_gauge_cache = list()
 	var/previous_gauge_pressure = null
 
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
-	slot_flags = SLOT_BACK
+	slot_flags = SLOT_BACK|SLOT_BELT
 	w_class = ITEM_SIZE_LARGE
 
 	force = 15

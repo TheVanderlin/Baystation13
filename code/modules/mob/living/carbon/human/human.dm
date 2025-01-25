@@ -12,6 +12,8 @@
 	var/list/grasp_limbs
 	var/step_count
 	var/dream_timer
+	var/poo_cooldown = 0 // Tracks when the mob can poo again
+	var/pee_cooldown = 0 // Tracks when the mob can pee again
 
 
 /mob/living/carbon/human/Initialize(mapload, new_species = null)
@@ -1106,6 +1108,78 @@
 		to_chat(usr, message)
 	else
 		to_chat(usr, SPAN_WARNING("You failed to check the pulse. Try again."))
+
+/mob/living/carbon/human/verb/poo()
+	set name = "Poo"
+	set category = "Emotes"
+	var/message = null
+	var/obj/structure/hygiene/toilet/T = locate() in src.loc
+	var/mob/living/M = locate() in src.loc
+	if (world.time < src.poo_cooldown)
+		visible_message("You need to wait before you can poo again!")
+		return
+	if(T && T.open)
+		message = "<B>[src]</B> defecates into \the [T]."
+
+	else if(w_uniform)
+		message = "<B>[src]</B> shits \his pants."
+		reagents.add_reagent(/datum/reagent/toxin/poo, 10)
+	//Poo on the face.
+	else if(M != src && M.lying)//Can only shit on them if they're lying down.
+		message = "<span class='danger'><b>[src]</b> shits right on <b>[M]</b>'s face!</span>"
+		M.reagents.add_reagent(/datum/reagent/toxin/poo, 10)
+	else
+		message = "<B>[src]</B> [pick("shits", "craps", "poops")]."
+		var/obj/item/reagent_containers/food/snacks/poo/V = new/obj/item/reagent_containers/food/snacks/poo(src.loc)
+		if(reagents)
+			reagents.trans_to(V, rand(1,5))
+	playsound(src.loc, 'sound/effects/poo2.ogg', 60, 1)
+
+	visible_message("[message]")
+	src.poo_cooldown = world.time + (rand(15,30)) SECONDS
+
+/mob/living/carbon/human/verb/pee()
+	set name = "Pee"
+	set category = "Emotes"
+	var/message = null
+	var/obj/structure/hygiene/urinal/U = locate() in src.loc
+	var/obj/structure/hygiene/toilet/T = locate() in src.loc
+	var/obj/structure/hygiene/sink/S = locate() in src.loc
+	var/obj/item/reagent_containers/RC = locate() in src.loc
+	if (world.time < src.pee_cooldown)
+		visible_message("You need to wait before you can pee again!")
+		return
+	if((U || S) && gender != FEMALE)//In the urinal or sink.
+		message = "<B>[src]</B> urinates into [U ? U : S]."
+
+	else if(T && T.open)//In the toilet.
+		message = "<B>[src]</B> urinates into [T]."
+
+	else if(RC && (istype(RC,/obj/item/reagent_containers/food/drinks || istype(RC,/obj/item/reagent_containers/glass))))
+		if(RC.is_open_container())
+			//Inside a beaker, glass, drink, etc.
+			message = "<B>[src]</B> urinates into [RC]."
+			var/amount = rand(1,8)
+			RC.reagents.add_reagent(/datum/reagent/toxin/urine, amount)
+			if(reagents)
+				reagents.trans_to(RC, amount)
+
+	else if(w_uniform)//In your pants.
+		message = "<B>[src]</B> pisses \his pants."
+		var/obj/decal/cleanable/urine/D = new/obj/decal/cleanable/urine(src.loc)
+		if(reagents)
+			reagents.trans_to(D, rand(1,8))
+
+
+	else//On the floor.
+		var/turf/TT = src.loc
+		var/obj/decal/cleanable/urine/D = new/obj/decal/cleanable/urine(src.loc)
+		if(reagents)
+			reagents.trans_to(D, rand(1,8))
+		if(TT)//In case it's somehow not there.
+			message = "<B>[src]</B> pisses on the [TT.name]."
+	visible_message("[message]")
+	src.pee_cooldown = world.time + (rand(13,25)) SECONDS
 
 /mob/living/carbon/human/verb/lookup()
 	set name = "Look up"

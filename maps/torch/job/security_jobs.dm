@@ -290,6 +290,7 @@
 			H.species.stun_mod = 0.77
 			H.species.burn_mod = 0.7
 			H.species.toxins_mod = 0.7
+			H.species.radiation_mod = 0.55
 			H.species.hunger_factor = DEFAULT_HUNGER_FACTOR * 1.5
 			H.species.species_flags = SPECIES_FLAG_LOW_GRAV_ADAPTED
 			H.species.silent_steps = TRUE

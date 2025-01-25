@@ -680,6 +680,9 @@
 	icon_state = "windowwood1"
 	dir = 5
 
+/obj/structure/window/reinforced/medieval/on_update_icon()
+	return
+
 /obj/structure/window/reinforced/medieval/damaged
 	icon_state = "windowwood2"
 

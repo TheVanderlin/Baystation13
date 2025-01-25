@@ -160,7 +160,7 @@
 	slowdown_general = 0.03
 	armor = list(
 		melee = ARMOR_MELEE_FLAK-1,
-		bullet = ARMOR_BALLISTIC_FLAK,
+		bullet = ARMOR_BALLISTIC_FLAK-1,
 		laser = ARMOR_LASER_FLAK-1,
 		energy = ARMOR_ENERGY_TEN,
 		bio = ARMOR_BIO_THIRTY,
@@ -175,15 +175,32 @@
 	item_state = "BP_Armor"
 	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
-	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy,/obj/item/clothing/accessory/leg_guards/flak) // Bloodpact are heavily armoured shock troops.
+	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy) // Bloodpact are heavily armoured shock troops.
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+35
 	slowdown_general = 0.045
 	armor = list(
 		melee = ARMOR_MELEE_FLAK,
 		bullet = ARMOR_BALLISTIC_FLAK,
-		laser = ARMOR_LASER_FLAK,
+		laser = ARMOR_LASER_FLAK+1,
 		energy = ARMOR_ENERGY_TEN,
+		bio = ARMOR_BIO_THIRTY+5,
+		rad = ARMOR_RAD_THIRTY+10,
+		bomb = ARMOR_BOMB_TEN
+	)
+
+/obj/item/clothing/suit/armor/grim/cult/bloodpact/broken
+	name = "damaged bloodpact armor"
+	desc = "Makeshift steel armor, while not refined, it will protect you vital organs. It has strange marks carved into it devoted to Khorne."
+	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
+	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
+	slowdown_general = 0.04
+	armor = list(
+		melee = ARMOR_MELEE_FLAK-1,
+		bullet = ARMOR_BALLISTIC_FLAK-2,
+		laser = ARMOR_LASER_FLAK-2,
+		energy = ARMOR_ENERGY_TEN-2,
 		bio = ARMOR_BIO_THIRTY+5,
 		rad = ARMOR_RAD_THIRTY+10,
 		bomb = ARMOR_BOMB_TEN
@@ -196,15 +213,32 @@
 	item_state = "Sek_Armor"
 	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
-	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace,/obj/item/clothing/accessory/leg_guards/reactiveslug)
+	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+35
-	slowdown_general = 0.05
+	slowdown_general = 0.047
 	armor = list(
 		melee = ARMOR_MELEE_FLAK,
-		bullet = ARMOR_BALLISTIC_FLAK,
+		bullet = ARMOR_BALLISTIC_FLAK+1,
 		laser = ARMOR_LASER_FLAK,
 		energy = ARMOR_ENERGY_TEN,
+		bio = ARMOR_BIO_THIRTY+5,
+		rad = ARMOR_RAD_THIRTY+1,
+		bomb = ARMOR_BOMB_TEN
+	)
+
+/obj/item/clothing/suit/armor/grim/cult/sekite/broken
+	name = "damaged sekite armour"
+	desc = "War torn and suited to savage needs. This is the armor of a Sekite warrior. It has certainly seen blood flown upon it."
+	icon_state = "Sek_Armor"
+	item_state = "Sek_Armor"
+	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar)
+	slowdown_general = 0.045
+	armor = list(
+		melee = ARMOR_MELEE_FLAK-1,
+		bullet = ARMOR_BALLISTIC_FLAK-2,
+		laser = ARMOR_LASER_FLAK-2,
+		energy = ARMOR_ENERGY_TEN-2,
 		bio = ARMOR_BIO_THIRTY+5,
 		rad = ARMOR_RAD_THIRTY+1,
 		bomb = ARMOR_BOMB_TEN

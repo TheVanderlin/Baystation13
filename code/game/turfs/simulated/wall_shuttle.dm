@@ -10,6 +10,7 @@
 	opacity = 1
 	density = TRUE
 	blocks_air = 1
+	health_flags = HEALTH_FLAG_STRUCTURE
 
 /turf/simulated/shuttle/wall/corner
 	var/corner_overlay_state = "diagonalWall"
@@ -19,6 +20,7 @@
 	..()
 	reset_base_appearance()
 	reset_overlay()
+	set_max_health(4440)
 
 //Grabs the base turf type from our area and copies its appearance
 /turf/simulated/shuttle/wall/corner/proc/reset_base_appearance()

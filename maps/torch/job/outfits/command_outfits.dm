@@ -193,7 +193,7 @@
 	id_types = list(/obj/item/card/id/torch/silver/security)
 	pda_type = /obj/item/modular_computer/pda/heads/hos
 	back = /obj/item/storage/backpack/satchel/maccabian
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/glaive = 1, /obj/item/ammo_magazine/shotholder/flechette = 1, /obj/item/ammo_magazine/heavy = 2)
+	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/glaive = 1, /obj/item/ammo_magazine/shotgunmag/flechette = 1, /obj/item/ammo_magazine/heavy = 2)
 
 // DONT USE
 /singleton/hierarchy/outfit/job/torch/crew/command/chief_engineer/fleet

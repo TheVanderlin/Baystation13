@@ -35,7 +35,7 @@
 #define COLOR_BLUE_GRAY        "#6a97b0"
 #define COLOR_DARK_BLUE_GRAY   "#3e4855"
 #define COLOR_SURGERY_BLUE     "#e0f2f6"
-#define COLOR_SUN              "#ec8b2f"
+#define COLOR_SUN              "#ebc342"
 #define COLOR_PURPLE_GRAY      "#a2819e"
 #define COLOR_BLUE_LIGHT       "#33ccff"
 #define COLOR_RED_LIGHT        "#ff3333"

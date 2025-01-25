@@ -588,6 +588,7 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+50
+	species_restricted = list(SPECIES_ORK, SPECIES_ORK_NOB, SPECIES_ORK_BOSS, SPECIES_ORK_MEK)
 	slowdown_general = 0.3 // Make sure to set ork speed to match this slowdown. So it only slows down non-orks wearing it.
 	armor = list(
 		melee = ARMOR_MELEE_FLAK+2,

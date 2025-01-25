@@ -76,7 +76,7 @@
 
 /singleton/hierarchy/outfit/mercenary/infardi/trooper
 	name = "Infardi Trooper"
-	suit = /obj/item/clothing/suit/armor/grim/cult/sekite
+	suit = /obj/item/clothing/suit/armor/grim/cult/sekite/broken
 	mask = /obj/item/clothing/mask/gas/prac_mask
 	head = /obj/item/clothing/head/helmet/flak/chaos/sekite
 	shoes = /obj/item/clothing/shoes/jackboots/pilgrim_boots
@@ -85,7 +85,7 @@
 
 /singleton/hierarchy/outfit/mercenary/bloodpact
 	name = "Bloodpact Soldier"
-	suit = /obj/item/clothing/suit/armor/grim/cult/bloodpact
+	suit = /obj/item/clothing/suit/armor/grim/cult/bloodpact/broken
 	mask = /obj/item/clothing/mask/gas/security/bloodpact
 	head = /obj/item/clothing/head/helmet/flak/chaos/bloodpact
 	shoes = /obj/item/clothing/shoes/jackboots/noble

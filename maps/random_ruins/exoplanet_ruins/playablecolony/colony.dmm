@@ -312,6 +312,7 @@
 /obj/floor_decal/techfloor{
 	dir = 1
 	},
+/obj/item/device/boombox,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony/command)
 "aY" = (
@@ -322,6 +323,8 @@
 	locked = 0;
 	pixel_y = 20
 	},
+/obj/item/device/cassette/sombre,
+/obj/item/device/cassette/western1,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony/command)
 "aZ" = (
@@ -3020,6 +3023,7 @@
 	locked = 0;
 	pixel_y = 20
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony)
 "gn" = (
@@ -7605,6 +7609,16 @@
 	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/map_template/colony/dorms)
+"Yu" = (
+/obj/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/floor_decal/techfloor/hole/right{
+	dir = 1
+	},
+/obj/item/device/cassette/fart,
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/colony/command)
 "YD" = (
 /obj/machinery/telecomms/hub/map_preset/playablecolony,
 /turf/simulated/floor/tiled/techfloor,
@@ -8456,7 +8470,7 @@ Dj
 XO
 KH
 at
-fX
+fT
 hp
 aP
 id
@@ -8726,7 +8740,7 @@ os
 (28,1,1) = {"
 ad
 aD
-aV
+Yu
 bk
 bC
 ac

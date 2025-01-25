@@ -129,10 +129,10 @@
 	item_state = "crevolver"
 	caliber = "shotgun"
 	force = 15
-	accuracy = -0.5
+	accuracy = -1
 	fire_delay = 3.4
-	allowed_magazines = /obj/item/ammo_magazine/shotholder
-	magazine_type = /obj/item/ammo_magazine/shotholder/flechette
+	allowed_magazines = /obj/item/ammo_magazine/shotgunmag
+	magazine_type = /obj/item/ammo_magazine/shotgunmag/flechette
 	ammo_type = /obj/item/ammo_casing/shotgun
 	caliber = CALIBER_SHOTGUN
 	fire_sound = 'sound/warhammer/guns/fire/revolver_fire.ogg'

@@ -2619,7 +2619,6 @@
 	dir = 4;
 	pixel_x = -21
 	},
-/obj/item/clothing/suit/space/syndicate/black,
 /obj/item/clothing/head/helmet/space/void,
 /turf/simulated/floor/seolite,
 /area/voxship/shuttle)
@@ -2761,6 +2760,7 @@
 /obj/item/solar_assembly,
 /obj/structure/closet/crate/warhammer/xenos,
 /obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
+/obj/item/tank/jetpack/carbondioxide,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -2820,6 +2820,8 @@
 	pixel_y = -32
 	},
 /obj/structure/closet/crate/warhammer/freezer/rations,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
 /obj/item/tank/oxygen_emergency_double,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -2954,6 +2956,7 @@
 /obj/item/clothing/suit/armor/seolarmor,
 /obj/structure/closet/crate/warhammer/xenos,
 /obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
+/obj/item/tank/jetpack/carbondioxide,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3506,6 +3509,7 @@
 /obj/item/stack/material/steel/ten,
 /obj/structure/closet/crate/warhammer/xenos,
 /obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
+/obj/item/tank/jetpack/carbondioxide,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -3874,6 +3878,7 @@
 /obj/random/loot/randomsupply,
 /obj/structure/closet/crate/warhammer/xenos,
 /obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman,
+/obj/item/tank/jetpack/carbondioxide,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -4191,7 +4196,7 @@
 	},
 /area/voxship/shuttle)
 "Mn" = (
-/obj/machinery/portable_atmospherics/canister/empty/phoron,
+/obj/machinery/portable_atmospherics/canister/air,
 /turf/simulated/floor/seolite,
 /area/voxship/shuttle)
 "Mp" = (
@@ -4417,7 +4422,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/obj/item/clothing/suit/space/syndicate/black,
 /obj/item/clothing/head/helmet/space/void,
 /turf/simulated/floor/seolite,
 /area/voxship/shuttle)
@@ -4621,6 +4625,10 @@
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
+/area/voxship/shuttle)
+"YD" = (
+/obj/machinery/portable_atmospherics/canister/phoron,
+/turf/simulated/floor/seolite,
 /area/voxship/shuttle)
 "Zg" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -10572,7 +10580,7 @@ gL
 gL
 ZD
 pD
-pD
+YD
 Mn
 gL
 gL

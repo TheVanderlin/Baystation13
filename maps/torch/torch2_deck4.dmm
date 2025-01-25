@@ -5631,6 +5631,13 @@
 	},
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/galleybackroom)
+"zW" = (
+/obj/floor_decal/spline/fancy/wood,
+/obj/item/paper{
+	desc = "The evil bookcase door has been installed my lord -- simply press against the red book to open it!"
+	},
+/turf/simulated/floor/warhammer/darkwood,
+/area/crew_quarters/galleybackroom)
 "zZ" = (
 /obj/structure/stairs/south,
 /turf/simulated/floor/tiled/steel_grid,
@@ -28792,7 +28799,7 @@ Il
 uY
 Mv
 jp
-OR
+zW
 Jc
 xc
 Bm

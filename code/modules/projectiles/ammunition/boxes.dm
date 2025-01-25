@@ -1,5 +1,6 @@
 // WARHAMMER 40k //
 
+
 /obj/item/ammo_magazine/shotholder
 	name = "16mm slug holder"
 	desc = "A convenient pouch that holds 16mm slugs."
@@ -92,7 +93,7 @@
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/shotgun
 	matter = list(MATERIAL_STEEL = 2400)
-	max_ammo = 15
+	max_ammo = 8
 	multiple_sprites = TRUE
 	sales_price = 300
 

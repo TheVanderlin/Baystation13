@@ -70,9 +70,8 @@
 		brainmob.real_name = H.real_name
 		brainmob.dna = H.dna.Clone()
 		brainmob.timeofhostdeath = H.timeofdeath
-
-	if(H.mind)
-		H.mind.transfer_to(brainmob)
+	/*if(H.mind)
+		H.mind.transfer_to(brainmob)*/ // This causes you to have no icon as a ghost, being invisible even to admins.
 
 	to_chat(brainmob, SPAN_NOTICE("You feel slightly disoriented. That's normal when you're just \a [initial(src.name)]."))
 	callHook("debrain", list(brainmob))

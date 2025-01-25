@@ -294,6 +294,7 @@
 	locked = 0;
 	pixel_y = 20
 	},
+/obj/item/device/cassette/combat1,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/map_template/chaoscolony/command)
 "aZ" = (
@@ -7019,6 +7020,10 @@
 "uK" = (
 /turf/simulated/floor/warhammer/plating,
 /area/map_template/chaoscolony/tcomms)
+"vg" = (
+/obj/item/device/cassette/forbidden1,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/map_template/chaoscolony/command)
 "vt" = (
 /mob/living/simple_animal/passive/chicken,
 /turf/simulated/floor/warhammer/oldsmoothdirt,
@@ -7255,6 +7260,10 @@
 /obj/structure/torchwall,
 /turf/simulated/wall/r_titanium,
 /area/map_template/chaoscolony/jail)
+"SR" = (
+/obj/item/device/boombox,
+/turf/simulated/floor/warhammer/metal/alt,
+/area/map_template/chaoscolony/command)
 "Vc" = (
 /obj/structure/torchwall,
 /turf/simulated/wall/r_titanium,
@@ -8405,7 +8414,7 @@ os
 (28,1,1) = {"
 ad
 aD
-ap
+SR
 bk
 bC
 ac
@@ -8487,7 +8496,7 @@ os
 (30,1,1) = {"
 aa
 tS
-ap
+vg
 bp
 ac
 aH
