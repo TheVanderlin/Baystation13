@@ -162,6 +162,7 @@
 	admin_log = FALSE
 
 /singleton/psionic_power/revive/invoke(mob/living/user, mob/living/target)
+	var/biomancy_rank = user.psi.get_rank(PSI_BIOMANCY)
 	if(!isliving(target) || !istype(target) || user.zone_sel.selecting != BP_HEAD)
 		return FALSE
 	. = ..()
