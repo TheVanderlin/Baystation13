@@ -1,7 +1,7 @@
 //Psi-boosting item (antag only)
 /obj/item/clothing/head/helmet/space/psi_amp
-	name = "cerebro-energetic enhancer"
-	desc = "A matte-black, eyeless cerebro-energetic enhancement helmet. It uses highly sophisticated, and illegal, techniques to drill into your brain and install psi-infected AIs into the fluid cavities between your lobes."
+	name = "Tzeentchian-Vashtorr Psy-Helm"
+	desc = "A matte-black, eyeless helmet. Consisting of a slaved Tzeentchian Daemon, which ostensibly obeys your will, it is of course exceptionally heretical."
 	action_button_name = "Install Boosters"
 	icon_state = "cerebro"
 
@@ -12,21 +12,21 @@
 
 	var/operating = FALSE
 	var/list/boosted_faculties
-	var/boosted_rank = PSI_RANK_PARAMOUNT
-	var/unboosted_rank = PSI_RANK_MASTER
+	var/boosted_rank = PSI_RANK_GAMMA
+	var/unboosted_rank = PSI_RANK_BETA
 	var/max_boosted_faculties = 3
 	var/boosted_psipower = 120
 
 /obj/item/clothing/head/helmet/space/psi_amp/lesser
 	name = "psionic amplifier"
-	desc = "A crown-of-thorns cerebro-energetic enhancer that interfaces directly with the brain, isolating and strengthening psionic signals. It kind of looks like a tiara having sex with an industrial robot."
+	desc = "A crown constructed from highly Psy-reactive materials, this is used by low-ranking Psykers to boost their abilities, at minor cost to their sanity."
 	icon_state = "amp"
 	flags_inv = 0
 	body_parts_covered = 0
 
 	max_boosted_faculties = 1
-	boosted_rank = PSI_RANK_MASTER
-	unboosted_rank = PSI_RANK_OPERANT
+	boosted_rank = PSI_RANK_ZETA
+	unboosted_rank = PSI_RANK_IOTA
 	boosted_psipower = 50
 
 /obj/item/clothing/head/helmet/space/psi_amp/Initialize()
@@ -85,7 +85,7 @@
 		canremove = TRUE
 		return
 
-	to_chat(H, SPAN_WARNING("You feel a strange tugging sensation as \the [src] begins removing the slave-minds from your brain..."))
+	to_chat(H, SPAN_WARNING("You feel a strange tugging sensation as \the [src] begins removing the device from your brain..."))
 	playsound(H, 'sound/weapons/circsawhit.ogg', 50, 1, -1)
 	operating = TRUE
 
@@ -94,7 +94,7 @@
 	if(H.psi)
 		H.psi.reset()
 
-	to_chat(H, SPAN_NOTICE("\The [src] chimes quietly as it finishes removing the slave-minds from your brain."))
+	to_chat(H, SPAN_NOTICE("\The [src] chimes quietly as it finishes removing the Daemon from your brain."))
 
 	canremove = TRUE
 	operating = FALSE
@@ -142,12 +142,12 @@
 
 	canremove = FALSE
 	operating = TRUE
-	to_chat(H, SPAN_WARNING("You feel a series of sharp pinpricks as \the [src] anaesthetises your scalp before drilling down into your brain."))
+	to_chat(H, SPAN_WARNING("You feel a series of sharp pinpricks as \the [src] anaesthetises your scalp before drilling down into your brain. Was this a good idea?"))
 	playsound(H, 'sound/weapons/circsawhit.ogg', 50, 1, -1)
 
 	sleep(80)
 
-	for(var/faculty in list(PSI_COERCION, PSI_PSYCHOKINESIS, PSI_REDACTION, PSI_ENERGISTICS))
+	for(var/faculty in list(PSI_TELEPATHY, PSI_TELEKINESIS, PSI_BIOMANCY, PSI_PYROMANCY))
 		if(faculty in boosted_faculties)
 			H.set_psi_rank(faculty, boosted_rank, take_larger = TRUE, temporary = TRUE)
 		else
