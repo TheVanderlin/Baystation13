@@ -14,7 +14,7 @@
 	name =            "Psiblade"
 	cost =            10
 	cooldown =        30
-	min_rank =        PSI_RANK_OPERANT
+	min_rank =        PSI_RANK_IOTA
 	use_description = "Click on or otherwise activate an empty hand while on harm intent to manifest a psychokinetic cutting blade. The power the blade will vary based on your mastery of the faculty."
 	admin_log = FALSE
 
@@ -24,11 +24,15 @@
 	. = ..()
 	if(.)
 		switch(user.psi.get_rank(faculty))
-			if(PSI_RANK_PARAMOUNT)
+			if(PSI_RANK_ALPHA)
 				return new /obj/item/psychic_power/psiblade/master/grand/paramount(user, user)
-			if(PSI_RANK_GRANDMASTER)
+			if(PSI_RANK_BETA)
 				return new /obj/item/psychic_power/psiblade/master/grand(user, user)
-			if(PSI_RANK_MASTER)
+			if(PSI_RANK_GAMMA)
+				return new /obj/item/psychic_power/psiblade/master/grand/paramount(user, user)
+			if(PSI_RANK_DELTA)
+				return new /obj/item/psychic_power/psiblade/master/grand(user, user)
+			if(PSI_RANK_ZETA)
 				return new /obj/item/psychic_power/psiblade/master(user, user)
 			else
 				return new /obj/item/psychic_power/psiblade(user, user)
@@ -37,8 +41,8 @@
 	name =            "Tinker"
 	cost =            5
 	cooldown =        10
-	min_rank =        PSI_RANK_MASTER
-	use_description = "Click on or otherwise activate an empty hand while on help intent to manifest a psychokinetic tool. Use it in-hand to switch between tool types."
+	min_rank =        PSI_RANK_ZETA
+	use_description = "Click on or otherwise activate an empty hand while on help intent to manifest a telekinetic tool. Use it in-hand to switch between tool types."
 	admin_log = FALSE
 
 /singleton/psionic_power/telekinesis/tinker/invoke(mob/living/user, mob/living/target)
@@ -54,7 +58,7 @@
 	cooldown =        10
 	use_ranged =      TRUE
 	use_manifest =    FALSE
-	min_rank =        PSI_RANK_GRANDMASTER
+	min_rank =        PSI_RANK_DELTA
 	use_description = "Click on a distant target while on grab intent to manifest a psychokinetic grip. Use it manipulate objects at a distance."
 	admin_log = FALSE
 	use_sound = 'sound/effects/psi/power_used.ogg'
