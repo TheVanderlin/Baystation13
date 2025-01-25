@@ -24,7 +24,7 @@ GLOBAL_DATUM_INIT(paramounts, /datum/antagonist/paramount, new)
 	player.set_psi_rank(PSI_BIOMANCY, 4,     defer_update = TRUE)
 	player.set_psi_rank(PSI_TELEPATHY, 4,      defer_update = TRUE)
 	player.set_psi_rank(PSI_TELEKINESIS, 4, defer_update = TRUE)
-	player.set_psi_rank(PSI_PYROKINESIS, 4,   defer_update = TRUE)
+	player.set_psi_rank(PSI_PYROMANCY, 4,   defer_update = TRUE)
 	player.psi.update(TRUE)
 
 	player.equip_to_slot_or_del(new /obj/item/clothing/under/psysuit(player), slot_w_uniform)
