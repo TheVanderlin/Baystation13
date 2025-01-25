@@ -196,6 +196,8 @@
 	agony = 8
 	eyeblur = 8
 	damage_flags = 0
+	var/fire_stack_min = 4 //Lower bound of firestacks the weapon can apply
+	var/fire_stack_max = 6 //Upper bound of firestacks the weapon can apply
 	rupture_artery = 0.3 // Volkite sets you on fire. Lasbeams explode chunks off you. So less arterial bleed.
 	life_span = 5
 	armor_penetration = 35
@@ -213,9 +215,25 @@
 	..()
 	if(isliving(target))
 		var/mob/living/L = target
-		L.adjust_fire_stacks(rand(4,6))
+		L.adjust_fire_stacks(rand(fire_stack_min,fire_stack_max))
 		if(L.fire_stacks >= 3)
 			L.IgniteMob()
+
+/obj/item/projectile/beam/incendiary_laser/heavy
+	name = "Heavy Volkite Beam" //Tank mounted or emplacement weapon, only really portable for Dreadnoughts plus nearly lost tech.
+	damage = 75
+	agony = 16
+	eyeblur = 16
+	fire_stack_min = 12 //Lower bound of firestacks the weapon can apply
+	fire_stack_max = 16 //Upper bound of firestacks the weapon can apply
+	rupture_artery = 0.5 // Volkite sets you on fire. Lasbeams explode chunks off you. So less arterial bleed.
+	life_span = 12
+	armor_penetration = 45
+	damage_falloff_list = list(
+		list(6, 0.97),
+		list(9, 0.94),
+		list(11, 0.88),
+	)
 
 /obj/item/projectile/beam/heavylaser
 	name = "heavy laser"
