@@ -23,7 +23,7 @@
 	cooldown =       120
 	use_ranged =     TRUE
 	use_melee =      TRUE
-	min_rank =       PSI_RANK_GRANDMASTER
+	min_rank =       PSI_RANK_DELTA
 	use_description = "Target the eyes or mouth on disarm intent and click anywhere to use a radial attack that blinds, deafens and disorients everyone near you."
 
 /singleton/psionic_power/telepathy/blindstrike/invoke(mob/living/user, mob/living/target)
@@ -56,7 +56,7 @@
 	cost =            6
 	cooldown =        80
 	use_melee =       TRUE
-	min_rank =        PSI_RANK_OPERANT
+	min_rank =        PSI_RANK_IOTA
 	use_description = "Target the head on disarm intent at melee range to attempt to read a victim's surface thoughts."
 
 /singleton/psionic_power/telepathy/mindread/invoke(mob/living/user, mob/living/target)
@@ -92,7 +92,7 @@
 	cost =          8
 	cooldown =      50
 	use_melee =     TRUE
-	min_rank =      PSI_RANK_MASTER
+	min_rank =      PSI_RANK_ZETA
 	use_description = "Target the chest or groin on disarm intent to use a melee attack equivalent to a strike from a stun baton."
 
 /singleton/psionic_power/telepathy/agony/invoke(mob/living/user, mob/living/target)
@@ -113,7 +113,7 @@
 	cooldown =       100
 	use_melee =      TRUE
 	use_ranged =     TRUE
-	min_rank =       PSI_RANK_MASTER
+	min_rank =       PSI_RANK_ZETA
 	use_description = "Target the arms or hands on disarm intent to use a ranged attack that may rip the weapons away from the target."
 
 /singleton/psionic_power/telepathy/spasm/invoke(mob/living/user, mob/living/carbon/human/target)
@@ -140,7 +140,7 @@
 	cost =          28
 	cooldown =      200
 	use_grab =      TRUE
-	min_rank =      PSI_RANK_PARAMOUNT
+	min_rank =      PSI_RANK_GAMMA
 	use_description = "Grab a victim, target the eyes, then use the grab on them while on disarm intent, in order to convert them into a loyal mind-slave. The process takes some time, and failure is punished harshly."
 
 /singleton/psionic_power/telepathy/mindslave/invoke(mob/living/user, mob/living/target)
@@ -173,7 +173,7 @@
 	cost =            15
 	cooldown =        100
 	use_grab =        TRUE
-	min_rank =        PSI_RANK_OPERANT
+	min_rank =        PSI_RANK_IOTA
 	use_description = "Grab a patient, target the head, then use the grab on them while on disarm intent, in order to perform a deep coercive-redactive probe of their psionic potential."
 
 /singleton/psionic_power/telepathy/assay/invoke(mob/living/user, mob/living/target)
@@ -197,7 +197,7 @@
 	cost =          10
 	cooldown =      80
 	use_grab =     TRUE
-	min_rank =      PSI_RANK_OPERANT
+	min_rank =      PSI_RANK_IOTA
 	use_description = "Grab a patient, target the mouth, then use the grab on them while on disarm intent, in order to cure ailments of the mind."
 
 /singleton/psionic_power/telepathy/focus/invoke(mob/living/user, mob/living/target)
@@ -215,7 +215,7 @@
 		to_chat(target, SPAN_WARNING("Your mind is cleared of ailments."))
 
 		var/telepathy_rank = user.psi.get_rank(PSI_TELEPATHY)
-		if(telepathy_rank >= PSI_RANK_GRANDMASTER)
+		if(telepathy_rank >= PSI_RANK_DELTA)
 			target.AdjustParalysis(-1)
 		target.drowsyness = 0
 		if(istype(target, /mob/living/carbon))
