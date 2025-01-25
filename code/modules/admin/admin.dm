@@ -139,7 +139,7 @@ var/global/floorIsLava = 0
 	if(isliving(M))
 		var/mob/living/psyker = M
 		if(psyker.psi)
-			body += "<a href='?src=\ref[psyker.psi];remove_psionics=1'>Remove Psyker abilitiess.</a><br/><br/>"
+			body += "<a href='?src=\ref[psyker.psi];remove_psionics=1'>Remove Psyker abilities.</a><br/><br/>"
 			body += "<a href='?src=\ref[psyker.psi];trigger_psi_latencies=1'>Trigger latencies.</a><br/>"
 		body += "<table width = '100%'>"
 		for(var/faculty in list(PSI_TELEPATHY, PSI_TELEKINESIS, PSI_BIOMANCY, PSI_PYROMANCY))
