@@ -101,9 +101,9 @@
 				stamina++
 		else if(stamina < max_stamina)
 			if(owner.stat == CONSCIOUS)
-				stamina = min(max_stamina, stamina + rand(1,3))
-			else if(owner.stat == UNCONSCIOUS)
 				stamina = min(max_stamina, stamina + rand(3,5))
+			else if(owner.stat == UNCONSCIOUS)
+				stamina = min(max_stamina, stamina + rand(5,8))
 
 		if(!owner.nervous_system_failure() && owner.stat == CONSCIOUS && stamina && !suppressed && get_rank(PSI_BIOMANCY) >= PSI_RANK_IOTA)
 			attempt_regeneration()
