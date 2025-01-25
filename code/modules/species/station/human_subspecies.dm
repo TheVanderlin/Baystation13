@@ -157,7 +157,7 @@
 /datum/species/human/mule/handle_post_spawn(mob/living/carbon/human/H)
 	if(!H.psi)
 		H.psi = new(H)
-		var/list/faculties = list("[PSI_COERCION]", "[PSI_REDACTION]", "[PSI_ENERGISTICS]", "[PSI_PSYCHOKINESIS]")
+		var/list/faculties = list("[PSI_TELEKINESIS]", "[PSI_BIOMANCY]", "[PSI_PYROKINESIS]", "[PSI_TELEKINESIS]")
 		for(var/i = 1 to rand(2,3))
 			H.set_psi_rank(pick_n_take(faculties), 1)
 	H.psi.max_stamina = 70
