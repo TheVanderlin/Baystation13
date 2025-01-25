@@ -1,6 +1,6 @@
 /obj/machinery/psi_meter
-	name = "psi-meter"
-	desc = "A bulky psi-meter for conducting assays of psi-operants."
+	name = "Warp-meter"
+	desc = "A bulky Warp-meter for conducting assessments of potential Psykers."
 	icon = 'icons/obj/machines/research/psimeter.dmi'
 	icon_state = "meter_on"
 	use_power = POWER_USE_ACTIVE
