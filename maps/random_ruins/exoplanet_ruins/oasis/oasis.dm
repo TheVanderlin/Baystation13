@@ -16,3 +16,8 @@
 	name = "oasis 3"
 	id = "oasis3"
 	suffixes = list("oasis/oasis3.dmm")
+
+/datum/map_template/ruin/exoplanet/oasis/shrine
+	name = "battle shrine"
+	id = "battleshrine"
+	suffixes = list("oasis/shrine.dmm")

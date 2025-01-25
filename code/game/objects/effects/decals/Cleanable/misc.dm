@@ -126,17 +126,17 @@
 	taste_description = "urine"
 	strength = 0.3
 
-/obj/effect/decal/cleanable/urine/Initialize()
+/obj/decal/cleanable/urine/Initialize()
 	. = ..()
 	create_reagents(5)
 	reagents.add_reagent(/datum/reagent/toxin/urine,5)
-	for(var/obj/effect/decal/cleanable/urine/piss in src.loc)
+	for(var/obj/decal/cleanable/urine/piss in src.loc)
 		if(piss != src)
 			qdel(piss)
 
 /datum/reagent/toxin/urine/touch_turf(turf/T)
 	if(!istype(T, /turf/space))
-		new /obj/effect/decal/cleanable/urine(T)
+		new /obj/decal/cleanable/urine(T)
 	qdel(src)
 
 /obj/decal/cleanable/urine
@@ -149,7 +149,7 @@
 	persistent = TRUE
 	generic_filth = TRUE
 
-/obj/effect/decal/cleanable/urine/Crossed(AM as mob|obj)
+/obj/decal/cleanable/urine/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living/carbon))
 		var/mob/living/carbon/M =	AM
 

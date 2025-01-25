@@ -2,7 +2,6 @@
 	name = "\improper Tau Ship"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 	base_turf = /turf/space
-	req_access = list(access_tauscoutship)
 
 /area/ship/tauscoutship/solars
 	name = "\improper Solar Area"
@@ -51,7 +50,12 @@
 	icon_state = "bridge"
 	base_turf = /turf/simulated/floor/plating
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
-	req_access = list(access_tauscoutship)
+
+/area/ship/tauscoutshuttle2
+	name = "\improper Tau Shuttle"
+	icon_state = "bridge"
+	base_turf = /turf/simulated/floor/plating
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 //New Ship Areas
 

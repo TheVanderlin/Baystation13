@@ -865,3 +865,6 @@ var/global/const/NO_EMAG_ACT = -50
 /obj/item/card/id/key/grand/monastary/inner
 	name = "Inner Sanctum Key"
 	desc = "Key to the Inner Sactum of His Holyness' Church."
+
+/obj/item/card/id/key/grand/ordinate
+	access = list("ACCESS_BRIDGE")

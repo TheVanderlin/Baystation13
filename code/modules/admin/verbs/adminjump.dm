@@ -100,6 +100,9 @@
 	if(config.allow_admin_jump)
 		log_and_message_admins("teleported [key_name(M)] to self.")
 		M.jumpTo(get_turf(mob))
+		M.make_jittery(5)
+		M.make_dizzy(5)
+		M.Weaken(8)
 	else
 		alert("Admin jumping disabled")
 
@@ -125,6 +128,9 @@
 		log_and_message_admins("teleported [key_name(M)] to self.")
 		if(M)
 			M.jumpTo(get_turf(mob))
+			M.make_jittery(5)
+			M.make_dizzy(5)
+			M.Weaken(8)
 	else
 		alert("Admin jumping disabled")
 
@@ -143,3 +149,6 @@
 	if(A)
 		M.jumpTo(pick(get_area_turfs(A)))
 		log_and_message_admins("teleported [key_name(M)] to [A].")
+		M.make_jittery(5)
+		M.make_dizzy(5)
+		M.Weaken(8)

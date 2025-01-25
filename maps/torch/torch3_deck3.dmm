@@ -2279,8 +2279,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/unpowered/inn{
-	name = "The Backrooms";
-	req_access = list("ACCESS_TAVERNBACK")
+	name = "The Backrooms"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/mess)
@@ -3438,6 +3437,10 @@
 	dir = 8
 	},
 /obj/item/storage/fancy/smokable/cigar,
+/obj/item/card/id/key/grand{
+	name = "Room Key #5";
+	access = list("ACCESS_TAVERN5")
+	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue/middle,
 /area/crew_quarters/mess)
 "jC" = (
@@ -3454,6 +3457,12 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
+"jE" = (
+/obj/structure/torchwall{
+	dir = 8
+	},
+/turf/simulated/floor/warhammer/fancyfloor/carpet/blue/middle,
+/area/crew_quarters/mess)
 "jG" = (
 /obj/structure/ore_box,
 /turf/simulated/floor/warhammer/tunnelchess,
@@ -4512,7 +4521,7 @@
 	begins_closed = 0;
 	icon_state = "gshutter0"
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "ne" = (
 /obj/structure/barricade/barrels/three,
@@ -4529,7 +4538,7 @@
 	begins_closed = 0;
 	icon_state = "gshutter0"
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "nh" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -5142,10 +5151,8 @@
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/mess)
 "pg" = (
-/obj/structure/torchwall{
-	dir = 1
-	},
-/turf/simulated/floor/warhammer/darkwood,
+/obj/structure/torchwall,
+/turf/simulated/wall/prepainted,
 /area/crew_quarters/mess)
 "pi" = (
 /obj/structure/table/woodentable_reinforced/walnut,
@@ -6859,17 +6866,11 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/crew_quarters/mess)
 "vs" = (
-/obj/structure/closet/crate/warhammer/xenos/chest3,
+/obj/structure/closet/crate/warhammer/xenos/chest3{
+	req_access = list("ACCESS_TAVERNBACK")
+	},
 /obj/item/trash/warfare_can/flower,
 /obj/item/material/knife/folding/combat/balisong,
-/obj/item/card/id/key/grand{
-	name = "Backrooms Key";
-	access = list("ACCESS_TAVERNBACK")
-	},
-/obj/item/card/id/key/grand{
-	name = "Backrooms Key";
-	access = list("ACCESS_TAVERNBACK")
-	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "vt" = (
@@ -12367,6 +12368,10 @@
 "Pf" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/deck/tarot,
+/obj/item/card/id/key/grand{
+	name = "Backrooms Key";
+	access = list("ACCESS_TAVERNBACK")
+	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/maintenance/thirddeck/starboard)
 "Pj" = (
@@ -12634,8 +12639,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/unpowered/inn{
-	name = "The Backrooms";
-	req_access = list("ACCESS_TAVERNBACK")
+	name = "The Backrooms"
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/starboard)
@@ -14406,7 +14410,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/closet/crate/warhammer/xenos/chest3,
+/obj/structure/closet/crate/warhammer/xenos/chest3{
+	req_access = list("ACCESS_TAVERNBACK")
+	},
 /obj/random/loot/randomcolonyitems,
 /obj/item/deck/cards,
 /turf/simulated/floor/warhammer/darkwood,
@@ -31260,7 +31266,7 @@ eA
 jd
 jd
 pc
-fB
+pg
 qQ
 sk
 xf
@@ -32669,11 +32675,11 @@ iu
 hu
 UK
 fU
-eC
+jE
 eC
 ni
 jd
-pg
+jd
 nf
 cV
 VM
@@ -33078,7 +33084,7 @@ jc
 be
 jd
 ft
-fB
+pg
 cV
 sj
 tJ

@@ -548,6 +548,7 @@
 	slowdown_general = 0.04
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+400
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
+	species_restricted = list(SPECIES_ORK, SPECIES_ORK_NOB, SPECIES_ORK_BOSS, SPECIES_ORK_MEK)
 	disorientation = 1
 	armor = list(
 		melee = ARMOR_MELEE_FLAK+1,

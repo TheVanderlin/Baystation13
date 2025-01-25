@@ -4,7 +4,7 @@
 	shuttle_area = list(/area/map_template/sfv_arbiter)
 	current_location = "nav_sfv_arbiter_start"
 	dock_target = "sfv_arbiter_shuttle"
-	range = 1
+	range = 2
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 	flags = SHUTTLE_FLAGS_PROCESS
 	defer_initialisation = TRUE

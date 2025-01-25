@@ -12,7 +12,7 @@
 	suffixes = list("skrellscoutship/skrellscoutship_revamp.dmm")
 	spawn_cost = 2
 	player_cost = 0
-	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/tauscoutship, /datum/shuttle/autodock/overmap/tauscoutshuttle)
+	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/tauscoutship, /datum/shuttle/autodock/overmap/tauscoutshuttle, /datum/shuttle/autodock/overmap/tauscoutshuttle2)
 	apc_test_exempt_areas = list(
 		/area/ship/tauscoutship/externalwing/port = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/ship/tauscoutship/externalwing/starboard = NO_SCRUBBER|NO_VENT|NO_APC

@@ -30,7 +30,7 @@
 
 /obj/landmark/rav/shotgunslugpistol/New()
 	new /obj/item/gun/projectile/pistol/slug/shotgun(src.loc)
-	new /obj/item/ammo_magazine/shotholder/flechette(src.loc)
+	new /obj/item/ammo_magazine/shotgunmag/flechette(src.loc)
 	qdel(src)
 
 /obj/landmark/rav/imperialrevolver/New()

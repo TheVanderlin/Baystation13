@@ -831,6 +831,13 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/bridge)
+"cv" = (
+/obj/decal/cleanable/flour{
+	name = "...?";
+	desc = "Icky."
+	},
+/turf/simulated/floor/warhammer/darkwood,
+/area/crew_quarters/heads/cobed)
 "cw" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -2652,11 +2659,6 @@
 	icon_state = "4-8"
 	},
 /obj/structure/table/warhammer/big_wood_table{
-	dir = 8;
-	pixel_x = 7;
-	pixel_y = -17
-	},
-/obj/structure/table/warhammer/big_wood_table{
 	dir = 4;
 	pixel_x = -4;
 	pixel_y = -17
@@ -3702,6 +3704,7 @@
 /area/hallway/primary/bridge/aft)
 "mT" = (
 /obj/structure/table/woodentable/walnut,
+/obj/item/reagent_containers/syringe/spice,
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/heads/office/xo)
 "mV" = (
@@ -3920,6 +3923,12 @@
 	dir = 1;
 	pixel_y = 7
 	},
+/obj/structure/table/warhammer/big_wood_table{
+	dir = 1;
+	pixel_y = 9;
+	pixel_x = 2;
+	layer = 2.22
+	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
 	dir = 4
 	},
@@ -3946,7 +3955,8 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/warhammer{
-	name = "Administratum Office"
+	name = "Administratum Office";
+	req_access = list("ACCESS_BRIDGE")
 	},
 /turf/simulated/floor/warhammer/brick,
 /area/bridge/disciplinary_board_room)
@@ -4454,11 +4464,6 @@
 /obj/structure/table/warhammer/big_wood_table{
 	dir = 1
 	},
-/obj/structure/table/warhammer/big_wood_table{
-	dir = 1;
-	pixel_y = -22;
-	pixel_x = 2
-	},
 /obj/structure/hivedecor/skulls{
 	pixel_y = 4;
 	layer = 3;
@@ -4629,10 +4634,6 @@
 	icon_state = "1-2"
 	},
 /obj/structure/table/warhammer/big_wood_table,
-/obj/structure/table/warhammer/big_wood_table{
-	pixel_y = -24;
-	pixel_x = -2
-	},
 /obj/structure/hivedecor/skulls{
 	pixel_y = 5;
 	layer = 3;
@@ -4651,6 +4652,11 @@
 /obj/structure/table/warhammer/big_wood_table{
 	icon_state = "wood_1tileendtable";
 	dir = 4
+	},
+/obj/item/reagent_containers/syringe/spice,
+/obj/item/reagent_containers/syringe/spice{
+	pixel_x = 11;
+	pixel_y = 7
 	},
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/heads/cobed)
@@ -7803,6 +7809,12 @@
 	pixel_y = -15;
 	layer = 3
 	},
+/obj/structure/table/warhammer/big_wood_table{
+	dir = 4;
+	pixel_x = -4;
+	pixel_y = 5;
+	density = 0
+	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
 	dir = 1
 	},
@@ -7938,6 +7950,12 @@
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
+"FW" = (
+/obj/item/paper{
+	desc = "The evil bookcase door has been installed my lord -- simply press against the red book to open it!"
+	},
+/turf/simulated/floor/warhammer/darkwood,
+/area/crew_quarters/heads/cobed)
 "FX" = (
 /obj/structure/bed/chair/warhammer/padded/blue,
 /turf/simulated/floor/warhammer/brick,
@@ -8261,11 +8279,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
-	},
-/obj/structure/table/warhammer/big_wood_table{
-	dir = 4;
-	pixel_x = -4;
-	pixel_y = -17
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/bridge)
@@ -8819,6 +8832,7 @@
 	},
 /obj/item/aiModule/freeform,
 /obj/item/clothing/accessory/armor_plate/bodyglove2,
+/obj/random/loot/raresidearmbundle,
 /turf/simulated/floor/warhammer/darkwood,
 /area/crew_quarters/heads/office/xo)
 "Ks" = (
@@ -10583,6 +10597,11 @@
 	dir = 1;
 	icon_state = "console";
 	pixel_y = 7
+	},
+/obj/structure/table/warhammer/big_wood_table{
+	pixel_y = 9;
+	pixel_x = -2;
+	layer = 2.22
 	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
 	dir = 8
@@ -23011,7 +23030,7 @@ bR
 bR
 Xe
 dG
-dG
+cv
 dG
 as
 aE
@@ -23414,7 +23433,7 @@ OE
 bR
 bR
 dG
-dG
+cv
 dG
 dG
 Gx
@@ -23618,7 +23637,7 @@ bR
 al
 dG
 dG
-dG
+cv
 JL
 aF
 aP
@@ -23820,7 +23839,7 @@ bR
 bR
 kE
 HI
-dG
+FW
 Xx
 UL
 cq

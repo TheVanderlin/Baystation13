@@ -2,6 +2,7 @@
 	name = "gun cabinet"
 	icon = 'icons/obj/structures/guncabinet.dmi' // 'icons/map_project/gunrack.dmi' do later
 	closet_appearance = null
+	color = COLOR_DARK_GUNMETAL
 
 /obj/structure/closet/secure_closet/guncabinet/Initialize()
 	. = ..()

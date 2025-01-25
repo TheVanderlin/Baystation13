@@ -48,6 +48,7 @@
 	name = "catachan shorts"
 	desc = "Catachan fear no heat, no boltguns, no lasguns. They don't need shirts, They're Catachan Jungle Hunters."
 	icon_state = "camopants"
+	accessories = list(/obj/item/clothing/accessory/armor_plate/bodyglovecatachan)
 	item_state = "camopants"
 	worn_state = "camopants"
 	cold_protection = LOWER_TORSO | LEGS

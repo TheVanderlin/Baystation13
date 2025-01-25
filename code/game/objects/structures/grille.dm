@@ -171,16 +171,6 @@
 		)
 		return TRUE
 
-	// Wirecutter - Cut grille
-	if (isWirecutter(tool))
-		playsound(src, 'sound/items/Wirecutter.ogg', 50, TRUE)
-		dismantle()
-		user.visible_message(
-			SPAN_NOTICE("\The [user] cuts \the [src] apart with \a [tool]."),
-			SPAN_NOTICE("You cut \the [src] apart with \the [tool].")
-		)
-		return TRUE
-
 	// Material Stack - Place window
 	if (istype(tool, /obj/item/stack/material))
 		var/obj/item/stack/material/stack = tool
@@ -286,25 +276,6 @@
 			SPAN_NOTICE("You cut \the [src] apart with \the [tool].")
 		)
 		return TRUE
-
-	// Wirecutter - Cut grille
-	if (isWirecutter(tool))
-		if(prob(10))
-			playsound(src, 'sound/items/Wirecutter.ogg', 50, TRUE)
-			dismantle()
-			user.visible_message(
-				SPAN_NOTICE("\The [user] cuts \the [src] apart with \a [tool]."),
-				SPAN_NOTICE("You cut \the [src] apart with \the [tool].")
-			)
-			return TRUE
-		else
-			playsound(src, 'sound/items/Wirecutter.ogg', 50, TRUE)
-			user.visible_message(
-				SPAN_NOTICE("\The [user] struggles to cut \the [src] apart with \a [tool]."),
-				SPAN_NOTICE("You struggle to cut \the [src] apart with \the [tool].")
-			)
-			return TRUE
-
 
 	// Material Stack - Place window
 	if (istype(tool, /obj/item/stack/material))

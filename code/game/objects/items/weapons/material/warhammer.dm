@@ -522,6 +522,22 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	attack_cooldown_modifier = 1.8
 	melee_accuracy_bonus = 10
 
+
+/obj/item/material/twohanded/ravenor/axe/thunderhammer/omnissiah
+	name = "omnissiah axe"
+	desc = "Muh magos!"
+	icon = 'icons/obj/items/oma.dmi'
+	icon_state = "Whistle"
+	item_state = "Whistle_InHand"
+	wielded_item_state = "Whistle_InHand_W"
+	max_force = 90
+	armor_penetration = 7
+	force_multiplier = 0.70
+	unwielded_force_divisor = 0.68
+	thrown_force_multiplier = 0.48
+	throw_speed = 0.6
+	attack_cooldown_modifier = 1.7
+
 /obj/item/material/twohanded/ravenor/axe/thunderhammer/astartes
 	name = "astartes thunder hammer"
 	max_force = 110

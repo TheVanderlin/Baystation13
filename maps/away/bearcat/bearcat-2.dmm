@@ -175,6 +175,11 @@
 	dir = 4;
 	pixel_x = -22
 	},
+/obj/item/device/boombox,
+/obj/item/device/cassette/ambient2,
+/obj/item/device/cassette/ambient3,
+/obj/item/device/cassette/ambient,
+/obj/item/device/cassette/western1,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/ship/scrap/command/bridge)
 "az" = (

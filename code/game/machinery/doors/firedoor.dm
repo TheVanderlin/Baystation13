@@ -15,7 +15,7 @@
 	icon_state = "open"
 	req_access = null
 	autoset_access = FALSE
-	opacity = FALSE
+	opacity = 0
 	density = FALSE
 	layer = BELOW_DOOR_LAYER
 	open_layer = BELOW_DOOR_LAYER

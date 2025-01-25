@@ -330,11 +330,11 @@ proc/get_combat_skill_reduction(mob/user)
 
 	// Example thresholds:
 	if(user.skill_check(SKILL_VIGOR, SKILL_DEMIGOD))
-		return 0.40  // 40% damage reduction from skill
+		return 0.29  // 29% damage reduction from skill
 	else if(user.skill_check(SKILL_VIGOR, SKILL_PRIMARIS))
-		return 0.33
+		return 0.21
 	else if(user.skill_check(SKILL_VIGOR, SKILL_LEGEND))
-		return 0.18
+		return 0.16
 	else if(user.skill_check(SKILL_VIGOR, SKILL_MASTER))
 		return 0.13
 	else if(user.skill_check(SKILL_VIGOR, SKILL_EXPERIENCED))
