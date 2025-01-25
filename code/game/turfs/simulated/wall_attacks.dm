@@ -220,7 +220,7 @@
 			cut_delay *= 0.7
 			WT.remove_fuel(1, user)
 
-		else if(istype(W,/obj/item/melee/energy/blade) || if(istype(W, /obj/item/psychic_power/psiblade/gamma)  || if(istype(W, /obj/item/psychic_power/psiblade/beta))   || if(istype(W, /obj/item/psychic_power/psiblade/alpha)) || istype(W, /obj/item/gun/energy/plasmacutter))
+		else if(istype(W,/obj/item/melee/energy/blade) || istype(W, /obj/item/psychic_power/psiblade/gamma)  || istype(W, /obj/item/psychic_power/psiblade/beta)   || istype(W, /obj/item/psychic_power/psiblade/alpha) || istype(W, /obj/item/gun/energy/plasmacutter))
 			if(istype(W, /obj/item/gun/energy/plasmacutter))
 				var/obj/item/gun/energy/plasmacutter/cutter = W
 				if(!cutter.slice(user))
