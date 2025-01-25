@@ -189,7 +189,9 @@
 		/obj/item/weldingtool = 35,
 		/obj/item/weldingtool/electric = 50,
 		/obj/item/gun/energy/plasmacutter = 25,
-		/obj/item/psychic_power/psiblade/master = 100
+		/obj/item/psychic_power/psiblade/alpha = 200,
+		/obj/item/psychic_power/psiblade/beta = 150,
+		/obj/item/psychic_power/psiblade/gamma = 100
 	)
 
 	min_duration = 70

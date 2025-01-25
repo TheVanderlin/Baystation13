@@ -44,7 +44,7 @@
 		breakout_time /= 2
 
 	if(psi && psi.can_use())
-		var/psi_mod = (1 - (psi.get_rank(PSI_PSYCHOKINESIS)*0.2))
+		var/psi_mod = (1 - (psi.get_rank(PSI_TELEKINESIS)*0.2))
 		breakout_time = max(5, breakout_time * psi_mod)
 
 	visible_message(
@@ -84,7 +84,7 @@
 	return
 
 /mob/living/proc/can_break_cuffs()
-	. = (psi && psi.can_use() && psi.get_rank(PSI_PSYCHOKINESIS) >= 5)
+	. = (psi && psi.can_use() && psi.get_rank(PSI_TELEKINESIS) >= 5)
 
 /mob/living/carbon/can_break_cuffs()
 	. = ..() || (MUTATION_FERAL in mutations)
@@ -128,7 +128,7 @@
 		setClickCooldown(100)
 		unbuckle_time = 2 MINUTES
 		if(psi && psi.can_use())
-			unbuckle_time = max(0, unbuckle_time - ((25 SECONDS) * psi.get_rank(PSI_PSYCHOKINESIS)))
+			unbuckle_time = max(0, unbuckle_time - ((25 SECONDS) * psi.get_rank(PSI_TELEKINESIS)))
 
 		visible_message(
 			SPAN_DANGER("[src] attempts to unbuckle themself!"),

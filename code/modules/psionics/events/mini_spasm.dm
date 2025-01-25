@@ -11,11 +11,11 @@
 
 /datum/event/minispasm/announce()
 	priority_announcement.Announce( \
-		"PRIORITY ALERT: SIGMA-[rand(50,80)] PSIONIC SIGNAL LOCAL TRAMISSION DETECTED (97% MATCH, NONVARIANT) \
+		"PRIORITY ALERT: SIGMA-[rand(50,80)] WARP SIGNAL LOCAL TRAMISSION DETECTED (97% MATCH, NONVARIANT) \
 		(SIGNAL SOURCE TRIANGULATED ADJACENT LOCAL SITE): All personnel are advised to avoid \
 		exposure to active audio transmission equipment including radio headsets and intercoms \
 		for the duration of the signal broadcast.", \
-		"Cuchulain Sensor Array Automated Message" \
+		"Inquisitorial Array Automated Message" \
 		)
 
 /datum/event/minispasm/start()
@@ -50,7 +50,7 @@
 		to_chat(victim, SPAN_DANGER("An indescribable, brain-tearing sound hisses from [icon2html(source, victim)] \the [source], and you collapse in a seizure!"))
 		victim.seizure()
 		var/new_latencies = rand(2,4)
-		var/list/faculties = list(PSI_COERCION, PSI_REDACTION, PSI_ENERGISTICS, PSI_PSYCHOKINESIS)
+		var/list/faculties = list(PSI_TELEKINESIS, PSI_BIOMANCY, PSI_PYROMANCY, PSI_TELEKINESIS)
 		for(var/i = 1 to new_latencies)
 			to_chat(victim, SPAN_DANGER(FONT_LARGE(pick(psi_operancy_messages))))
 			victim.adjustBrainLoss(rand(10,20))

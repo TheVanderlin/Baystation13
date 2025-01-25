@@ -28,6 +28,7 @@
 			return
 		else
 			rebuild_power_cache = TRUE
+			max_stamina = ((highest_rank - 1) * 50)
 			sound_to(owner, 'sound/effects/psi/power_unlock.ogg')
 			rating = ceil(combined_rank/rank_count)
 			cost_modifier = 1
@@ -47,18 +48,18 @@
 					owner.client.images |= thing
 
 			var/image/aura_image = get_aura_image()
-			if(rating >= PSI_RANK_PARAMOUNT) // spooky boosters
+			if(rating >= PSI_RANK_GAMMA) // spooky boosters
 				aura_color = "#aaffaa"
 				aura_image.blend_mode = BLEND_SUBTRACT
 			else
 				aura_image.blend_mode = BLEND_ADD
-				if(highest_faculty == PSI_COERCION)
+				if(highest_faculty == PSI_TELEPATHY)
 					aura_color = "#cc3333"
-				else if(highest_faculty == PSI_PSYCHOKINESIS)
+				else if(highest_faculty == PSI_TELEKINESIS)
 					aura_color = "#3333cc"
-				else if(highest_faculty == PSI_REDACTION)
+				else if(highest_faculty == PSI_BIOMANCY)
 					aura_color = "#33cc33"
-				else if(highest_faculty == PSI_ENERGISTICS)
+				else if(highest_faculty == PSI_PYROMANCY)
 					aura_color = "#cccc33"
 			aura_image.pixel_x = -64 - owner.default_pixel_x
 			aura_image.pixel_y = -64 - owner.default_pixel_y
@@ -66,7 +67,7 @@
 	if(!announced && owner && owner.client && !QDELETED(src))
 		announced = TRUE
 		to_chat(owner, "<hr>")
-		to_chat(owner, SPAN_NOTICE(FONT_LARGE("You are <b>psionic</b>, touched by powers beyond understanding.")))
+		to_chat(owner, SPAN_NOTICE(FONT_LARGE("You are a <b>Psyker</b>, with a direct portal to hell within your head. Try not to lose control.")))
 		to_chat(owner, SPAN_NOTICE("<b>Shift-left-click your Psi icon</b> on the bottom right to <b>view a summary of how to use them</b>, or <b>left click</b> it to <b>suppress or unsuppress</b> your psionics. Beware: overusing your gifts can have <b>deadly consequences</b>."))
 		to_chat(owner, "<hr>")
 
@@ -101,11 +102,11 @@
 				stamina++
 		else if(stamina < max_stamina)
 			if(owner.stat == CONSCIOUS)
-				stamina = min(max_stamina, stamina + rand(1,3))
-			else if(owner.stat == UNCONSCIOUS)
 				stamina = min(max_stamina, stamina + rand(3,5))
+			else if(owner.stat == UNCONSCIOUS)
+				stamina = min(max_stamina, stamina + rand(5,8))
 
-		if(!owner.nervous_system_failure() && owner.stat == CONSCIOUS && stamina && !suppressed && get_rank(PSI_REDACTION) >= PSI_RANK_OPERANT)
+		if(!owner.nervous_system_failure() && owner.stat == CONSCIOUS && stamina && !suppressed && get_rank(PSI_BIOMANCY) >= PSI_RANK_IOTA)
 			attempt_regeneration()
 
 	var/next_aura_size = max(0.1,((stamina/max_stamina)*min(3,rating))/5)
@@ -135,26 +136,40 @@
 	var/heal_rate =     0
 	var/mend_prob =     0
 
-	var/use_rank = get_rank(PSI_REDACTION)
-	if(use_rank >= PSI_RANK_PARAMOUNT)
+	var/use_rank = get_rank(PSI_BIOMANCY)
+	if(use_rank >= PSI_RANK_ALPHA)
+		heal_general = TRUE
+		heal_poison = TRUE
+		heal_internal = TRUE
+		heal_bleeding = TRUE
+		mend_prob = 95
+		heal_rate = 25
+	else if(use_rank >= PSI_RANK_BETA)
+		heal_general = TRUE
+		heal_poison = TRUE
+		heal_internal = TRUE
+		heal_bleeding = TRUE
+		mend_prob = 75
+		heal_rate = 12
+	else if(use_rank >= PSI_RANK_GAMMA)
 		heal_general = TRUE
 		heal_poison = TRUE
 		heal_internal = TRUE
 		heal_bleeding = TRUE
 		mend_prob = 50
 		heal_rate = 7
-	else if(use_rank == PSI_RANK_GRANDMASTER)
+	else if(use_rank == PSI_RANK_DELTA)
 		heal_poison = TRUE
 		heal_internal = TRUE
 		heal_bleeding = TRUE
 		mend_prob = 20
 		heal_rate = 5
-	else if(use_rank == PSI_RANK_MASTER)
+	else if(use_rank == PSI_RANK_ZETA)
 		heal_internal = TRUE
 		heal_bleeding = TRUE
 		mend_prob = 10
 		heal_rate = 3
-	else if(use_rank == PSI_RANK_OPERANT)
+	else if(use_rank == PSI_RANK_IOTA)
 		heal_bleeding = TRUE
 		mend_prob = 5
 		heal_rate = 1
@@ -188,8 +203,8 @@
 
 					if(I.damage > 0 && spend_power(heal_rate))
 						I.damage = max(I.damage - heal_rate, 0)
-						if(prob(25))
-							to_chat(H, SPAN_NOTICE("Your innards itch as your autoredactive faculty mends your [I.name]."))
+						if(prob(50))
+							to_chat(H, SPAN_NOTICE("Your innards itch as your biomantic abilities mend your [I.name]."))
 						return
 
 			// Heal broken bones.
@@ -202,25 +217,25 @@
 					if(heal_internal && (E.status & ORGAN_BROKEN) && E.damage < (E.min_broken_damage * config.organ_health_multiplier)) // So we don't mend and autobreak.
 						if(spend_power(heal_rate))
 							if(E.mend_fracture())
-								to_chat(H, SPAN_NOTICE("Your autoredactive faculty coaxes together the shattered bones in your [E.name]."))
+								to_chat(H, SPAN_NOTICE("Your biomantic abilities coaxe together the shattered bones in your [E.name]."))
 								return
 
 					if(heal_bleeding)
 
 						if((E.status & ORGAN_ARTERY_CUT) && spend_power(heal_rate))
-							to_chat(H, SPAN_NOTICE("Your autoredactive faculty mends the torn artery in your [E.name], stemming the worst of the bleeding."))
+							to_chat(H, SPAN_NOTICE("Your biomantic abilities mend the torn artery in your [E.name], stemming the worst of the bleeding."))
 							E.status &= ~ORGAN_ARTERY_CUT
 							return
 
 						if(E.status & ORGAN_TENDON_CUT)
-							to_chat(H, SPAN_NOTICE("Your autoredactive faculty repairs the severed tendon in your [E.name]."))
+							to_chat(H, SPAN_NOTICE("Your biomantic abilities repair the severed tendon in your [E.name]."))
 							E.status &= ~ORGAN_TENDON_CUT
 							return TRUE
 
 						for(var/datum/wound/W in E.wounds)
 
 							if(W.bleeding() && spend_power(heal_rate))
-								to_chat(H, SPAN_NOTICE("Your autoredactive faculty knits together severed veins, stemming the bleeding from \a [W.desc] on your [E.name]."))
+								to_chat(H, SPAN_NOTICE("Your biomantic abilities knit together severed veins, stemming the bleeding from \a [W.desc] on your [E.name]."))
 								W.bleed_timer = 0
 								W.clamped = TRUE
 								E.status &= ~ORGAN_BLEEDING
@@ -230,14 +245,14 @@
 	if(heal_poison)
 
 		if(owner.radiation && spend_power(heal_rate))
-			if(prob(25))
-				to_chat(owner, SPAN_NOTICE("Your autoredactive faculty repairs some of the radiation damage to your body."))
+			if(prob(50))
+				to_chat(owner, SPAN_NOTICE("Your biomantic abilities repair some of the radiation damage to your body."))
 			owner.radiation = max(0, owner.radiation - heal_rate)
 			return
 
 		if(owner.getCloneLoss() && spend_power(heal_rate))
-			if(prob(25))
-				to_chat(owner, SPAN_NOTICE("Your autoredactive faculty stitches together some of your mangled DNA."))
+			if(prob(50))
+				to_chat(owner, SPAN_NOTICE("Your biomantic abilities stitch together some of your mangled DNA."))
 			owner.adjustCloneLoss(-heal_rate)
 			return
 
@@ -246,5 +261,5 @@
 		owner.adjustBruteLoss(-(heal_rate))
 		owner.adjustFireLoss(-(heal_rate))
 		owner.adjustOxyLoss(-(heal_rate))
-		if(prob(25))
-			to_chat(owner, SPAN_NOTICE("Your skin crawls as your autoredactive faculty heals your body."))
+		if(prob(50))
+			to_chat(owner, SPAN_NOTICE("Your skin crawls as your biomantic abilities heal your body."))

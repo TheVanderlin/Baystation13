@@ -1,22 +1,22 @@
-/singleton/psionic_faculty/energistics
-	id = PSI_ENERGISTICS
-	name = "Energistics"
+/singleton/psionic_faculty/pyromancy
+	id = PSI_PYROMANCY
+	name = "pyromancy"
 	associated_intent = I_HURT
 	armour_types = list("bomb", "laser", "energy")
 
-/singleton/psionic_power/energistics
-	faculty = PSI_ENERGISTICS
-	abstract_type = /singleton/psionic_power/energistics
+/singleton/psionic_power/pyromancy
+	faculty = PSI_PYROMANCY
+	abstract_type = /singleton/psionic_power/pyromancy
 
-/singleton/psionic_power/energistics/disrupt
+/singleton/psionic_power/pyromancy/disrupt
 	name =            "Disrupt"
 	cost =            10
 	cooldown =        100
 	use_melee =       TRUE
-	min_rank =        PSI_RANK_MASTER
+	min_rank =        PSI_RANK_ZETA
 	use_description = "Target the head, eyes or mouth while on harm intent to use a melee attack that causes a localized electromagnetic pulse."
 
-/singleton/psionic_power/energistics/disrupt/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/pyromancy/disrupt/invoke(mob/living/user, mob/living/target)
 	if(user.zone_sel.selecting != BP_HEAD && user.zone_sel.selecting != BP_EYES && user.zone_sel.selecting != BP_MOUTH)
 		return FALSE
 	if(istype(target, /turf))
@@ -27,15 +27,15 @@
 		empulse(target, 0, 1)
 		return TRUE
 
-/singleton/psionic_power/energistics/electrocute
+/singleton/psionic_power/pyromancy/electrocute
 	name =            "Electrocute"
 	cost =            15
 	cooldown =        25
 	use_melee =       TRUE
-	min_rank =        PSI_RANK_GRANDMASTER
+	min_rank =        PSI_RANK_DELTA
 	use_description = "Target the chest or groin while on harm intent to use a melee attack that electrocutes a victim."
 
-/singleton/psionic_power/energistics/electrocute/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/pyromancy/electrocute/invoke(mob/living/user, mob/living/target)
 	if(user.zone_sel.selecting != BP_CHEST && user.zone_sel.selecting != BP_GROIN)
 		return FALSE
 	if(istype(target, /turf))
@@ -52,15 +52,15 @@
 				charging_cell.give(rand(15,45))
 			return TRUE
 
-/singleton/psionic_power/energistics/zorch
+/singleton/psionic_power/pyromancy/zorch
 	name =             "Zorch"
 	cost =             20
 	cooldown =         20
 	use_ranged =       TRUE
-	min_rank =         PSI_RANK_MASTER
+	min_rank =         PSI_RANK_ZETA
 	use_description = "Use this ranged laser attack while on harm intent. Your mastery of Energistics will determine how powerful the laser is. Be wary of overuse, and try not to fry your own brain."
 
-/singleton/psionic_power/energistics/zorch/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/pyromancy/zorch/invoke(mob/living/user, mob/living/target)
 	. = ..()
 	if(.)
 		user.visible_message(SPAN_DANGER("\The [user]'s eyes flare with light!"))
@@ -70,15 +70,23 @@
 		var/pew_sound
 
 		switch(user_rank)
-			if(PSI_RANK_PARAMOUNT)
+			if(PSI_RANK_ALPHA)
+				pew = new /obj/item/projectile/beam/heavylaser(get_turf(user))
+				pew.name = "petawatt mental laser"
+				pew_sound = 'sound/weapons/lasercannonfire.ogg'
+			if(PSI_RANK_BETA)
+				pew = new /obj/item/projectile/beam/heavylaser(get_turf(user))
+				pew.name = "terawatt mental laser"
+				pew_sound = 'sound/weapons/lasercannonfire.ogg'
+			if(PSI_RANK_GAMMA)
 				pew = new /obj/item/projectile/beam/heavylaser(get_turf(user))
 				pew.name = "gigawatt mental laser"
 				pew_sound = 'sound/weapons/lasercannonfire.ogg'
-			if(PSI_RANK_GRANDMASTER)
+			if(PSI_RANK_DELTA)
 				pew = new /obj/item/projectile/beam/midlaser(get_turf(user))
 				pew.name = "megawatt mental laser"
 				pew_sound = 'sound/weapons/Laser.ogg'
-			if(PSI_RANK_MASTER)
+			if(PSI_RANK_ZETA)
 				pew = new /obj/item/projectile/beam/stun(get_turf(user))
 				pew.name = "mental laser"
 				pew_sound = 'sound/weapons/Taser.ogg'
@@ -92,15 +100,15 @@
 			pew.launch(target, user.zone_sel.selecting, (target.x-user.x), (target.y-user.y))
 			return TRUE
 
-/singleton/psionic_power/energistics/spark
+/singleton/psionic_power/pyromancy/spark
 	name =            "Spark"
 	cost =            1
 	cooldown =        1
 	use_melee =       TRUE
-	min_rank =        PSI_RANK_OPERANT
+	min_rank =        PSI_RANK_IOTA
 	use_description = "Target a non-living target in melee range on harm intent to cause some sparks to appear. This can light fires."
 
-/singleton/psionic_power/energistics/spark/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/pyromancy/spark/invoke(mob/living/user, mob/living/target)
 	if(isnull(target) || istype(target)) return FALSE
 	. = ..()
 	if(.)

@@ -220,7 +220,7 @@
 			cut_delay *= 0.7
 			WT.remove_fuel(1, user)
 
-		else if(istype(W,/obj/item/melee/energy/blade) || istype(W,/obj/item/psychic_power/psiblade/master) || istype(W, /obj/item/gun/energy/plasmacutter))
+		else if(istype(W,/obj/item/melee/energy/blade) || istype(W, /obj/item/psychic_power/psiblade/gamma)  || istype(W, /obj/item/psychic_power/psiblade/beta)   || istype(W, /obj/item/psychic_power/psiblade/alpha) || istype(W, /obj/item/gun/energy/plasmacutter))
 			if(istype(W, /obj/item/gun/energy/plasmacutter))
 				var/obj/item/gun/energy/plasmacutter/cutter = W
 				if(!cutter.slice(user))
@@ -254,7 +254,7 @@
 	else
 		switch(construction_stage)
 			if(6)
-				if(istype(W, /obj/item/psychic_power/psiblade/master/grand/paramount))
+				if(istype(W, /obj/item/psychic_power/psiblade/gamma)  || istype(W, /obj/item/psychic_power/psiblade/beta)   || istype(W, /obj/item/psychic_power/psiblade/alpha))
 					to_chat(user, SPAN_NOTICE("You sink \the [W] into the wall and begin trying to rip out the support frame..."))
 					playsound(src, 'sound/items/Welder.ogg', 100, 1)
 
@@ -304,7 +304,7 @@
 					WT.remove_fuel(1, user)
 					cut_cover=1
 
-				else if (istype(W, /obj/item/gun/energy/plasmacutter) || istype(W, /obj/item/psychic_power/psiblade/master))
+				else if (istype(W, /obj/item/gun/energy/plasmacutter) || istype(W, /obj/item/psychic_power/psiblade/gamma)  || istype(W, /obj/item/psychic_power/psiblade/beta)   || istype(W, /obj/item/psychic_power/psiblade/alpha))
 					if(istype(W, /obj/item/gun/energy/plasmacutter))
 						var/obj/item/gun/energy/plasmacutter/cutter = W
 						if(!cutter.slice(user))
@@ -351,7 +351,7 @@
 					WT.remove_fuel(1, user)
 					cut_cover=1
 
-				else if(istype(W, /obj/item/gun/energy/plasmacutter) || istype(W,/obj/item/psychic_power/psiblade/master))
+				else if(istype(W, /obj/item/gun/energy/plasmacutter) || istype(W, /obj/item/psychic_power/psiblade/gamma)  || istype(W, /obj/item/psychic_power/psiblade/beta)   || istype(W, /obj/item/psychic_power/psiblade/alpha))
 					if(istype(W, /obj/item/gun/energy/plasmacutter))
 						var/obj/item/gun/energy/plasmacutter/cutter = W
 						if(!cutter.slice(user))

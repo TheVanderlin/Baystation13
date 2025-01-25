@@ -101,7 +101,9 @@
 	allowed_tools = list(
 		/obj/item/weldingtool = 80,
 		/obj/item/circular_saw = 60,
-		/obj/item/psychic_power/psiblade/master/grand/paramount = 100,
+		/obj/item/psychic_power/psiblade/alpha = 200,
+		/obj/item/psychic_power/psiblade/beta = 150,
+		/obj/item/psychic_power/psiblade/gamma = 100,
 		/obj/item/psychic_power/psiblade = 75,
 		/obj/item/gun/energy/plasmacutter = 30
 	)

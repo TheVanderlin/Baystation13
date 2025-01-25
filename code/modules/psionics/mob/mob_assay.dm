@@ -18,6 +18,7 @@
 
 		// Hi Warhammer 40k rating system, how are you?
 		// I hope you get along with the Galactic Milieu metapsychics.
+		//Revamping this, more 40K.
 		var/use_rating
 		var/effective_rating = psi.rating
 		if(effective_rating > 1 && psi.suppressed)
@@ -25,40 +26,46 @@
 		var/rating_descriptor
 		if(mind && !psi.suppressed)
 			if(GLOB.paramounts.is_antagonist(mind))
-				use_rating = SPAN_COLOR("#ff0000", "<b>[effective_rating]-Alpha-Plus</b>")
-				rating_descriptor = "This indicates a completely deviant psi complexus, either beyond or outside anything currently recorded. Approach with care."
+				use_rating = SPAN_COLOR("#ff0000", "<b>[effective_rating]-Alpha</b>")
+				rating_descriptor = "This indicates a completely deviant psi complexus, within the very highest levels of recorded ability. Approach with care."
 			// This space intentionally left blank (for Omega-Minus psi vampires. todo)
 			if(viewer != usr && GLOB.thralls.is_antagonist(mind) && ishuman(viewer))
 				var/mob/living/H = viewer
-				if(H.psi && H.psi.get_rank(PSI_REDACTION) >= PSI_RANK_GRANDMASTER)
+				if(H.psi && H.psi.get_rank(PSI_BIOMANCY) >= PSI_RANK_DELTA)
 					dat += SPAN_COLOR("#ff0000", "<b>Their mind has been cored like an apple, and enslaved by another operant psychic.</b>")
 
 		if(!use_rating)
 			switch(effective_rating)
 				if(1)
-					use_rating = "[effective_rating]-Epsilon"
-					rating_descriptor = "This indicates the presence of minor latent psi potential with little or no operant capabilities."
+					use_rating = "[effective_rating]-Nu"
+					rating_descriptor = "This indicates the presence of minor latent Psyker potential."
 				if(2)
-					use_rating = "[effective_rating]-Gamma"
-					rating_descriptor = "This indicates the presence of minor psi capabilities of the Operant rank or higher."
+					use_rating = "[effective_rating]-Iota"
+					rating_descriptor = "This indicates the presence of minor Psyker capabilities."
 				if(3)
-					use_rating = SPAN_COLOR("#f4f441", "[effective_rating]-Delta")
-					rating_descriptor = "This indicates the presence of psi capabilities of the Master rank or higher."
+					use_rating = SPAN_COLOR("#f4f441", "[effective_rating]-Zeta")
+					rating_descriptor = "This indicates the presence of Psyker capabilities."
 				if(4)
-					use_rating = SPAN_COLOR("#f4bc42", "[effective_rating]-Beta")
-					rating_descriptor = "This indicates the presence of significant psi capabilities of the Grandmaster rank or higher."
+					use_rating = SPAN_COLOR("#f4bc42", "[effective_rating]-Delta")
+					rating_descriptor = "This indicates the presence of significant Psyker capabilities."
 				if(5)
+					use_rating = SPAN_COLOR("#ff0000", "[effective_rating]-Gamma")
+					rating_descriptor = "This indicates the presence of major Psyker capabilities."
+				if(6)
+					use_rating = SPAN_COLOR("#f4bc42", "[effective_rating]-Beta")
+					rating_descriptor = "This indicates the presence of exceptional Psyker capabilities."
+				if(7)
 					use_rating = SPAN_COLOR("#ff0000", "[effective_rating]-Alpha")
-					rating_descriptor = "This indicates the presence of major psi capabilities of the Paramount Grandmaster rank or higher."
+					rating_descriptor = "This indicates the presence of overwhelming Psyker capabilities."
 				else
-					use_rating = "[effective_rating]-Lambda"
+					use_rating = "[effective_rating]-Rho"
 					rating_descriptor = "This indicates the presence of trace latent psi capabilities."
 
 		dat += "[use_He_has] an overall psi rating of [use_rating].<br><i>[rating_descriptor]</i><hr>"
 
 		if(!istype(machine))
 
-			dat += "[use_He_is] currently <b>[psi.suppressed ? "suppressing" : "not suppressing"]</b> your psychic operancy.<br>"
+			dat += "[use_He_is] currently <b>[psi.suppressed ? "suppressing" : "not suppressing"]</b> your psyker abilities.<br>"
 			dat += "[use_He_has] <b>[psi.stamina]/[psi.max_stamina]</b> psi stamina remaining.<br>"
 			dat += "<hr>"
 
@@ -81,7 +88,7 @@
 							dat += "<tr><td><b>[power.name]</b></td><td>[power.use_description]</td></tr>"
 				dat += "</table>"
 	else
-		dat += "[use_He_has] no notable psychic latency or operancy."
+		dat += "[use_He_has] no notable Psyker sensitivity."
 
 	if(istype(machine))
 		dat += "<a href='?src=\ref[machine];print=1'>Print</a> <a href='?src=\ref[machine];clear=1'>Clear Buffer</a>"
