@@ -96,8 +96,6 @@
 
 
 /obj/shuttle_landmark/proc/shuttle_arrived(datum/shuttle/shuttle)
-	..()  // Call any base functionality
-
 	// If this landmark is set for warp events, trigger APC failures
 	if(warpspace)
 		var/list/picked_apcs = list()
@@ -123,6 +121,7 @@
 				continue
 			else
 				T.energy_fail(10 * 3 * rand(3 * 2, 3 * 4))
+	return
 
 /proc/check_collision(area/target_area, list/target_turfs)
 	for(var/target_turf in target_turfs)
