@@ -25,7 +25,7 @@
 	cost =            3
 	cooldown =        30
 	use_grab =        TRUE
-	min_rank =        PSI_RANK_OPERANT
+	min_rank =        PSI_RANK_IOTA
 	use_description = "Grab a patient, target the chest, then switch to help intent and use the grab on them to perform a check for wounds and damage."
 
 /singleton/psionic_power/biomancy/skinsight/invoke(mob/living/user, mob/living/target)
@@ -42,7 +42,7 @@
 	cost =            7
 	cooldown =        50
 	use_melee =       TRUE
-	min_rank =        PSI_RANK_OPERANT
+	min_rank =        PSI_RANK_IOTA
 	use_description = "Target a patient while on help intent at melee range to mend a variety of maladies, such as bleeding or broken bones. Higher ranks in this faculty allow you to mend a wider range of problems."
 
 /singleton/psionic_power/biomancy/mend/invoke(mob/living/user, mob/living/carbon/human/target)
@@ -65,7 +65,7 @@
 
 		var/biomancy_rank = user.psi.get_rank(PSI_BIOMANCY)
 		var/pk_rank = user.psi.get_rank(PSI_TELEKINESIS)
-		if(pk_rank >= PSI_RANK_LATENT && biomancy_rank >= PSI_RANK_MASTER)
+		if(pk_rank >= PSI_RANK_NU && biomancy_rank >= PSI_RANK_ZETA)
 			var/removal_size = clamp(5-pk_rank, 0, 5)
 			var/valid_objects = list()
 			for(var/thing in E.implants)
@@ -79,10 +79,10 @@
 			if(LAZYLEN(valid_objects))
 				var/removing = pick(valid_objects)
 				target.remove_implant(removing, TRUE)
-				to_chat(user, SPAN_NOTICE("You extend a tendril of psychokinetic-redactive power and carefully tease \the [removing] free of \the [E]."))
+				to_chat(user, SPAN_NOTICE("You extend a tendril of biomantic power and carefully tease \the [removing] free of \the [E]."))
 				return TRUE
 
-		if(biomancy_rank >= PSI_RANK_MASTER)
+		if(biomancy_rank >= PSI_RANK_ZETA)
 			if(E.status & ORGAN_ARTERY_CUT)
 				to_chat(user, SPAN_NOTICE("You painstakingly mend the torn veins in \the [E], stemming the internal bleeding."))
 				E.status &= ~ORGAN_ARTERY_CUT
@@ -99,7 +99,7 @@
 
 		for(var/datum/wound/W in E.wounds)
 			if(W.bleeding())
-				if(biomancy_rank >= PSI_RANK_MASTER || W.wound_damage() < 30)
+				if(biomancy_rank >= PSI_RANK_ZETA || W.wound_damage() < 30)
 					to_chat(user, SPAN_NOTICE("You knit together severed veins and broken flesh, stemming the bleeding."))
 					W.bleed_timer = 0
 					W.clamped = TRUE
@@ -108,11 +108,11 @@
 				else
 					to_chat(user, SPAN_NOTICE("This [W.desc] is beyond your power to heal."))
 
-		if(biomancy_rank >= PSI_RANK_GRANDMASTER)
+		if(biomancy_rank >= PSI_RANK_DELTA)
 			for(var/obj/item/organ/internal/I in E.internal_organs)
 				if(!BP_IS_ROBOTIC(I) && !BP_IS_CRYSTAL(I) && I.damage > 0)
 					to_chat(user, SPAN_NOTICE("You encourage the damaged tissue of \the [I] to repair itself."))
-					var/heal_rate = biomancy_rank
+					var/heal_rate = (biomancy_rank *2)
 					I.damage = max(0, I.damage - rand(heal_rate,heal_rate*2))
 					return TRUE
 
@@ -124,7 +124,7 @@
 	cost =            9
 	cooldown =        60
 	use_melee =       TRUE
-	min_rank =        PSI_RANK_GRANDMASTER
+	min_rank =        PSI_RANK_DELTA
 	use_description = "Target a patient while on help intent at melee range to cleanse radiation and genetic damage from a patient."
 
 /singleton/psionic_power/biomancy/cleanse/invoke(mob/living/user, mob/living/carbon/human/target)
@@ -156,7 +156,7 @@
 	cost =            25
 	cooldown =        80
 	use_grab =        TRUE
-	min_rank =        PSI_RANK_PARAMOUNT
+	min_rank =        PSI_RANK_GAMMA
 	faculty =         PSI_BIOMANCY
 	use_description = "Obtain a grab on a dead target, target the head, then select help intent and use the grab against them to attempt to bring them back to life. The process is lengthy and failure is punished harshly."
 	admin_log = FALSE
@@ -170,8 +170,13 @@
 			to_chat(user, SPAN_WARNING("This person is already alive!"))
 			return TRUE
 
-		if((world.time - target.timeofdeath) > 6000)
-			to_chat(user, SPAN_WARNING("\The [target] has been dead for too long to revive."))
+
+		if((biomancy_rank = PSI_RANK_GAMMA) && (world.time - target.timeofdeath) > 600)
+			to_chat(user, SPAN_WARNING("\The [target] has been dead for too long for a Psyker of your power to revive."))
+			return TRUE
+
+		if((biomancy_rank = PSI_RANK_BETA) && (world.time - target.timeofdeath) > 6000)
+			to_chat(user, SPAN_WARNING("\The [target] has been dead for too long for a Psyker of your power to revive."))
 			return TRUE
 
 		user.visible_message(SPAN_NOTICE("<i>\The [user] splays out their hands over \the [target]'s body...</i>"))
