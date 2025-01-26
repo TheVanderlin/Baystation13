@@ -213,7 +213,7 @@
 	pilot_coverage = 40
 	exosuit_desc_string = "an industrial rollcage"
 	desc = "A Xion industrial brand roll cage. Technically OSHA compliant. Technically."
-	max_damage = 100
+	max_damage = 150
 	power_use = 0
 	climb_time = 6
 
@@ -245,7 +245,7 @@
 	transparent_cabin =  TRUE
 	exosuit_desc_string = "an open and light chassis"
 	icon_state = "light_body"
-	max_damage = 50
+	max_damage = 100
 	power_use = 5
 	has_hardpoints = list(HARDPOINT_BACK, HARDPOINT_LEFT_SHOULDER)
 	damage_sound = 'sound/effects/glass_crack1.ogg'
@@ -274,7 +274,7 @@
 	transparent_cabin = TRUE
 	exosuit_desc_string = "a spherical chassis"
 	icon_state = "pod_body"
-	max_damage = 70
+	max_damage = 150
 	power_use = 5
 	has_hardpoints = list(HARDPOINT_BACK)
 	desc = "The Necromundan Katamari series cockpits have won a massive tender by Imperium few years back. No one is sure why, but these terrible things keep popping up on every government facility."
@@ -318,8 +318,8 @@
 	pilot_coverage = 100
 	exosuit_desc_string = "a heavily armoured chassis"
 	icon_state = "heavy_body"
-	max_damage = 150
-	mech_health = 500
+	max_damage = 400
+	mech_health = 750
 	power_use = 50
 	has_hardpoints = list(HARDPOINT_BACK)
 
@@ -339,12 +339,43 @@
 	. = ..()
 	m_armour = new /obj/item/robot_parts/robot_component/armour/exosuit/combat(src)
 
+/obj/item/mech_component/chassis/cubical
+	name = "reinforced cubical chassis"
+	hatch_descriptor = "hatch"
+	desc = "A behemoth of a exosuit chassis, its armoured exterior lacks a hardpoint for mounting sensors on, instead the pilot makes use of a recessed slit in the armour to see."
+	pilot_coverage = 100
+	transparent_cabin = TRUE
+	exosuit_desc_string = "a cubical tank chassis"
+	icon_state = "cubical_body"
+	max_damage = 500
+	mech_health = 1000
+	power_use = 50
+	has_hardpoints = list(HARDPOINT_BACK)
+
+/obj/item/mech_component/chassis/cubical/prebuild()
+	pilot_positions = list(
+		list(
+			"[NORTH]" = list("x" = 8,  "y" = 8),
+			"[SOUTH]" = list("x" = 9,  "y" = 2),
+			"[EAST]"  = list("x" = 4,  "y" = 8),
+			"[WEST]"  = list("x" = 12, "y" = 8)
+		)
+	)
+
+	. = ..()
+
+/obj/item/mech_component/chassis/cubical/prebuild()
+	. = ..()
+	m_armour = new /obj/item/robot_parts/robot_component/armour/exosuit/combat(src)
+
 /obj/item/mech_component/chassis/combat
 	name = "sealed exosuit chassis"
 	hatch_descriptor = "canopy"
 	pilot_coverage = 100
 	exosuit_desc_string = "an armoured chassis"
 	icon_state = "combat_body"
+	max_damage = 300
+	mech_health = 500
 	power_use = 40
 
 /obj/item/mech_component/chassis/combat/prebuild()

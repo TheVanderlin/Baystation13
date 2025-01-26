@@ -13,10 +13,22 @@
 	holding_type = /obj/item/gun/energy/ionrifle/mounted/mech
 
 /obj/item/mech_equipment/mounted_system/taser/laser
-	name = "\improper CH-PS \"Immolator\" laser"
+	name = "\improper Sol-Astro \"Immolator\" laser"
 	desc = "An exosuit-mounted laser rifle. Handle with care."
 	icon_state = "mech_lasercarbine"
 	holding_type = /obj/item/gun/energy/lasercannon/mounted/mech
+
+/obj/item/mech_equipment/mounted_system/taser/sniper
+	name = "\improper Sol-Astro \"Helios\" laser"
+	desc = "An exosuit-mounted ryzn-pattern laser rifle. Handle with care."
+	icon_state = "mech_sniper"
+	holding_type = /obj/item/gun/energy/lasgun/hotshot/mounted/mech
+
+/obj/item/mech_equipment/mounted_system/taser/plasma
+	name = "\improper Sol-Astro \"Solaris\" plasma"
+	desc = "An exosuit-mounted plasma pistol. Handle with care."
+	icon_state = "mech_plasmamg"
+	holding_type = /obj/item/gun/energy/plasma/pistol/mounted/mech
 
 /obj/item/gun/energy/taser/carbine/mounted/mech
 	use_external_power = TRUE
@@ -32,12 +44,24 @@
 	self_recharge = TRUE
 
 /obj/item/gun/energy/lasercannon/mounted/mech
-	name = "\improper CH-PS \"Immolator\" laser"
+	name = "\improper Sol-Astro \"Immolator\" laser"
 	use_external_power = TRUE
 	has_safety = FALSE
 	self_recharge = TRUE
 	fire_delay = 11
 	accuracy = 2
+
+/obj/item/gun/energy/plasma/pistol/mounted/mech
+	name = "\improper Sol-Astro \"Solaris\" laser"
+	use_external_power = TRUE
+	has_safety = FALSE
+	self_recharge = TRUE
+
+/obj/item/gun/energy/lasgun/hotshot/mounted/mech
+	name = "\improper Sol-Astro \"Helios\" laser"
+	use_external_power = TRUE
+	has_safety = FALSE
+	self_recharge = TRUE
 
 /obj/item/gun/energy/get_hardpoint_maptext()
 	if (charge_cost <= 0)
@@ -55,8 +79,8 @@
 	desc = "The Hephaestus Armature system is a well liked energy deflector system designed to stop any projectile before it has a chance to become a threat."
 	icon_state = "shield_droid"
 	var/obj/aura/mechshield/aura = null
-	var/max_charge = 150
-	var/charge = 150
+	var/max_charge = 300
+	var/charge = 300
 	var/last_recharge = 0
 	var/charging_rate = 7500 * CELLRATE
 	var/cooldown = 3.5 SECONDS //Time until we can recharge again after a blocked impact

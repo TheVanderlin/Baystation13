@@ -394,6 +394,33 @@
 			easing = SINE_EASING
 		)
 
+// Controls strafing mode on the mech
+/obj/screen/screen/exosuit/toggle/strafe
+	name = "toggle strafe"
+	maptext = MECH_UI_STYLE("STRAFE")
+	maptext_x = 2
+	maptext_y = 12
+
+/obj/screen/exosuit/toggle/strafe/toggled() // Prevents exosuits from strafing when EMP'd enough
+	if(!(owner.legs.movement_flags & PF_OMNI_STRAFE))
+		to_chat(usr, SPAN_WARNING("Error: This propulsion system doesn't support synchronization!"))
+		return
+	if(owner.emp_damage >= EMP_MOVE_DISRUPT)
+		to_chat(usr, SPAN_WARNING("Error: Coordination systems are unable to synchronize. Contact an authorised exo-electrician immediately."))
+		return
+	if(..())
+		owner.mech_flags |= MF_STRAFING
+	else
+		owner.mech_flags &= ~MF_STRAFING
+	to_chat(usr, SPAN_NOTICE("Strafing [owner.mech_flags & MF_STRAFING ? "enabled" : "disabled"]."))
+//	playsound(src,'sound/mecha/lever.ogg', 40, 1)
+
+/obj/screen/exosuit/toggle/strafe/on_update_icon()
+	if(!(owner?.legs?.movement_flags & PF_OMNI_STRAFE))
+		maptext = MECH_UI_STYLE("------")
+	else
+		maptext = initial(maptext)
+	. = ..()
 
 #undef BAR_CAP
 #undef MECH_UI_STYLE

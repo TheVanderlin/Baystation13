@@ -5,9 +5,9 @@
 	name = "exosuit armour plating"
 	desc = "A pair of flexible armor plates, used to protect the internals of exosuits and its pilot."
 	armor = list(
-		melee = ARMOR_MELEE_FLAK,
-		bullet = ARMOR_BALLISTIC_FLAK,
-		laser = ARMOR_LASER_FLAK,
+		melee = ARMOR_MELEE_CARAPACE,
+		bullet = ARMOR_BALLISTIC_FLAK+1,
+		laser = ARMOR_LASER_FLAK+1,
 		energy = ARMOR_ENERGY_TEN,
 		bomb = ARMOR_BOMB_THIRTY,
 		bio = ARMOR_BIO_SHIELDED,
@@ -21,7 +21,7 @@
 	icon_state = "armor_r"
 	icon_state_broken = "armor_r_broken"
 	armor = list(
-		melee = ARMOR_MELEE_PRIMAL,
+		melee = ARMOR_MELEE_FLAK,
 		bullet = ARMOR_BALLISTIC_FLAK,
 		laser = ARMOR_LASER_FLAK,
 		energy = ARMOR_ENERGY_TEN,
@@ -37,7 +37,7 @@
 	icon_state = "armor_e"
 	icon_state_broken = "armor_e_broken"
 	armor = list(
-		melee = ARMOR_MELEE_PRIMAL ,
+		melee = ARMOR_MELEE_FLAK,
 		bullet = ARMOR_BALLISTIC_PRIMAL,
 		laser = ARMOR_LASER_PRIMAL,
 		energy = ARMOR_ENERGY_SHIELDED,
@@ -53,10 +53,10 @@
 	icon_state = "armor_c"
 	icon_state_broken = "armor_c_broken"
 	armor = list(
-		melee = ARMOR_MELEE_FLAK,
-		bullet = ARMOR_BALLISTIC_CARAPACE,
-		laser = ARMOR_LASER_FLAK,
-		energy = ARMOR_ENERGY_TEN,
+		melee = ARMOR_MELEE_ASTARTES,
+		bullet = ARMOR_BALLISTIC_ASTARTES-1,
+		laser = ARMOR_LASER_ASTARTES-1,
+		energy = ARMOR_ENERGY_SMALL,
 		bomb = ARMOR_BOMB_RESISTANT,
 		bio = ARMOR_BIO_SHIELDED
 		)
