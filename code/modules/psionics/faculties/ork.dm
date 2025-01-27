@@ -10,12 +10,12 @@ singleton/psionic_power/ork/zzap
 	cooldown =         20
 	use_ranged =       TRUE
 	min_rank =         PSI_RANK_ZETA
-	use_description = "Use this ranged laser attack while on harm intent. Your mastery of Energistics will determine how powerful the laser is. Be wary of overuse, and try not to fry your own brain."
+	use_description = "UZE DIS TA ZAP YA ENEMIES! WAAAAGH!."
 
 /singleton/psionic_power/ork/zzap/invoke(mob/living/user, mob/living/target)
 	. = ..()
 	if(.)
-		user.visible_message(SPAN_DANGER("\The [user] belches forth a cloud of energy!"))
+		user.visible_message(SPAN_DANGER("\The [user] belches forth a cloud of sparks!"))
 
 		var/user_rank = user.psi.get_rank(faculty)
 		var/obj/item/projectile/pew
@@ -25,19 +25,19 @@ singleton/psionic_power/ork/zzap
 			if(PSI_RANK_ALPHA)
 				pew = new /obj/item/projectile/beam/incendiary_laser/heavy(get_turf(user))
 				pew.name = "DEFF LIGHTNIN'"
-				pew_sound = 'sound/weapons/lasercannonfire.ogg'
+				pew_sound = 'sound/magic/lightning_bolt.ogg'
 			if(PSI_RANK_BETA)
 				pew = new /obj/item/projectile/beam/heavylaser(get_turf(user))
 				pew.name = "enormous lightning bolt"
-				pew_sound = 'sound/weapons/lasercannonfire.ogg'
+				pew_sound = 'sound/magic/lightning_bolt.ogg'
 			if(PSI_RANK_GAMMA)
 				pew = new /obj/item/projectile/beam/midlaser(get_turf(user))
 				pew.name = "lightning bolt"
-				pew_sound = 'sound/weapons/Laser.ogg'
+				pew_sound = 'sound/magic/lightning_bolt.ogg'
 			if(PSI_RANK_DELTA)
 				pew = new /obj/item/projectile/beam/smalllaser(get_turf(user))
 				pew.name = "electrical zap"
-				pew_sound = 'sound/weapons/Laser.ogg'
+				pew_sound = 'sound/weapons/Taser.ogg'
 			if(PSI_RANK_ZETA)
 				pew = new /obj/item/projectile/beam/stun(get_turf(user))
 				pew.name = "electrical jolt"
