@@ -29,9 +29,6 @@
 	head_hair_style = "Kroot Horns"
 	. = ..(mapload, SPECIES_KROOT)
 
-/mob/living/carbon/human/ork/Initialize(mapload)
-	. = ..(mapload, SPECIES_ORK)
-
 /mob/living/carbon/human/vox/Initialize(mapload)
 	head_hair_style = "Long Xenos Quills"
 	. = ..(mapload, SPECIES_VOX)

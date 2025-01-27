@@ -99,7 +99,7 @@
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.008 // Try to set slowdowns to be 10-20 percent of the armours roughly.
-	body_parts_covered = HEAD|FACE|EYES
+	body_parts_covered = HEAD|EYES
 	flags_inv = BLOCKHEADHAIR
 	disorientation = 0.5
 	armor = list(
@@ -322,6 +322,7 @@
 	icon_state = "ScionHelmet"
 	item_state = "ScionHelmet"
 	flags_inv = HIDEMASK|HIDEEARS|BLOCKHAIR
+	body_parts_covered = HEAD|FACE|EYES
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+450
 	slowdown_general = 0.012
@@ -340,6 +341,7 @@
 	name = "kasrkin carapace helmet"
 	desc = "A carapace helmet belonging to the elite stormtroopers of the Kasrkin. Cadia may not be intact, but your brain will when in combat with this on."
 	icon_state = "kasrkinhelmet"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEEARS|BLOCKHAIR
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+550
@@ -497,6 +499,7 @@
 	icon_state = "fwhelm"
 	item_state = "fwhelm"
 	flags_inv = HIDEMASK|HIDEEARS|BLOCKHAIR
+	body_parts_covered = HEAD|FACE|EYES
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+600
 	slowdown_general = 0.010
@@ -548,7 +551,6 @@
 	slowdown_general = 0.04
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+400
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
-	species_restricted = list(SPECIES_ORK, SPECIES_ORK_NOB, SPECIES_ORK_BOSS, SPECIES_ORK_MEK)
 	disorientation = 1
 	armor = list(
 		melee = ARMOR_MELEE_FLAK+1,
