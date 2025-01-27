@@ -801,7 +801,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	var/stunforce = 0
 	var/agonyforce = 50
 
-/obj/item/material/twohanded/ravenor/powermaul/apply_hit_effect(mob/living/target, mob/living/user, hit_zone)
+/obj/item/material/twohanded/ravenor/powermaul/apply_hit_effect(mob/living/target, mob/living/user, var/hit_zone)
 	var/agony = agonyforce
 	var/stun = stunforce
 	var/obj/item/organ/external/affecting = null
