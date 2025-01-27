@@ -12,7 +12,7 @@ singleton/psionic_power/ork/zzap
 	min_rank =         PSI_RANK_ZETA
 	use_description = "Use this ranged laser attack while on harm intent. Your mastery of Energistics will determine how powerful the laser is. Be wary of overuse, and try not to fry your own brain."
 
-/singleton/psionic_power/pyromancy/zorch/invoke(mob/living/user, mob/living/target)
+/singleton/psionic_power/ork/zzap/invoke(mob/living/user, mob/living/target)
 	. = ..()
 	if(.)
 		user.visible_message(SPAN_DANGER("\The [user] belches forth a cloud of energy!"))
