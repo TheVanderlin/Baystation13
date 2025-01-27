@@ -69,6 +69,8 @@
 /mob/living/exosuit/bullet_act(obj/item/projectile/P, def_zone, used_weapon)
 	if (status_flags & GODMODE)
 		return PROJECTILE_FORCE_MISS
+	if(!def_zone)
+		return PROJECTILE_FORCE_MISS
 	switch(def_zone)
 		if(BP_HEAD , BP_CHEST, BP_MOUTH, BP_EYES)
 			if(LAZYLEN(pilots) && (!hatch_closed || !prob(body.pilot_coverage) || (body.total_damage == body.max_damage && (P.penetrating || (P.armor_penetration > 10 && P.damage > 10)))))

@@ -24,7 +24,7 @@
 	icon_state = "mech_sniper"
 	holding_type = /obj/item/gun/energy/lasgun/hotshot/mounted/mech
 
-/obj/item/mech_equipment/mounted_system/taser/plasma
+/obj/item/mech_equipment/mounted_system/taser/plasmagun
 	name = "\improper Sol-Astro \"Solaris\" plasma"
 	desc = "An exosuit-mounted plasma pistol. Handle with care."
 	icon_state = "mech_plasmamg"
@@ -52,7 +52,7 @@
 	accuracy = 2
 
 /obj/item/gun/energy/plasma/pistol/mounted/mech
-	name = "\improper Sol-Astro \"Solaris\" laser"
+	name = "\improper Sol-Astro \"Solaris\" plasma"
 	use_external_power = TRUE
 	has_safety = FALSE
 	self_recharge = TRUE

@@ -5,7 +5,7 @@
 	name = "exosuit armour plating"
 	desc = "A pair of flexible armor plates, used to protect the internals of exosuits and its pilot."
 	armor = list(
-		melee = ARMOR_MELEE_CARAPACE,
+		melee = ARMOR_MELEE_POWER_ARM,
 		bullet = ARMOR_BALLISTIC_FLAK+1,
 		laser = ARMOR_LASER_FLAK+1,
 		energy = ARMOR_ENERGY_TEN,
@@ -54,8 +54,8 @@
 	icon_state_broken = "armor_c_broken"
 	armor = list(
 		melee = ARMOR_MELEE_ASTARTES,
-		bullet = ARMOR_BALLISTIC_ASTARTES-1,
-		laser = ARMOR_LASER_ASTARTES-1,
+		bullet = ARMOR_BALLISTIC_ASTARTES,
+		laser = ARMOR_LASER_ASTARTES,
 		energy = ARMOR_ENERGY_SMALL,
 		bomb = ARMOR_BOMB_RESISTANT,
 		bio = ARMOR_BIO_SHIELDED
