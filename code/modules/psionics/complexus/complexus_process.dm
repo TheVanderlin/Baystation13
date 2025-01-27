@@ -132,6 +132,8 @@
 	var/heal_general =  FALSE
 	var/heal_poison =   FALSE
 	var/heal_internal = FALSE
+	var/heal_deform   = FALSE
+	var/heal_external = FALSE
 	var/heal_bleeding = FALSE
 	var/heal_rate =     0
 	var/mend_prob =     0
@@ -142,6 +144,8 @@
 		heal_poison = TRUE
 		heal_internal = TRUE
 		heal_bleeding = TRUE
+		heal_deform   = TRUE
+		heal_external = TRUE
 		mend_prob = 95
 		heal_rate = 25
 	else if(use_rank >= PSI_RANK_BETA)
@@ -149,6 +153,8 @@
 		heal_poison = TRUE
 		heal_internal = TRUE
 		heal_bleeding = TRUE
+		heal_deform   = TRUE
+		heal_external = TRUE
 		mend_prob = 75
 		heal_rate = 12
 	else if(use_rank >= PSI_RANK_GAMMA)
@@ -156,12 +162,15 @@
 		heal_poison = TRUE
 		heal_internal = TRUE
 		heal_bleeding = TRUE
+		heal_deform   = TRUE
+		heal_external = TRUE
 		mend_prob = 50
 		heal_rate = 7
 	else if(use_rank == PSI_RANK_DELTA)
 		heal_poison = TRUE
 		heal_internal = TRUE
 		heal_bleeding = TRUE
+		heal_deform   = TRUE
 		mend_prob = 20
 		heal_rate = 5
 	else if(use_rank == PSI_RANK_ZETA)
@@ -206,6 +215,39 @@
 						if(prob(50))
 							to_chat(H, SPAN_NOTICE("Your innards itch as your biomantic abilities mend your [I.name]."))
 						return
+
+			if(heal_deform)
+				var/obj/item/organ/external/head/D = H.organs_by_name["head"]
+				if (D.status & ORGAN_DISFIGURED)
+					to_chat(H, SPAN_NOTICE("Your face itches as your biomantic abilities mend your disfigurement."))
+					D.status &= ~ORGAN_DISFIGURED
+				return
+
+			if(heal_external)
+				for(var/limb_type in H.species.has_limbs)
+					var/obj/item/organ/external/E = H.organs_by_name[limb_type]
+					if(E && E.organ_tag != BP_HEAD && !E.vital && (E.is_stump() || E.status & ORGAN_DEAD))	//Skips heads and vital bits...
+						E.removed()			//...because no one wants their head to explode to make way for a new one.
+						qdel(E)
+						E= null
+					if(!E)
+						var/list/organ_data = H.species.has_limbs[limb_type]
+						var/limb_path = organ_data["path"]
+						var/obj/item/organ/external/O = new limb_path(H)
+						to_chat(H, SPAN_DANGER("Through sheer force of will and power, your Biomantic powers regenerate your missing limb in a shower of blood!."))
+						H.visible_message(SPAN_DANGER("With a shower of fresh blood, a length of biomass shoots from [H]'s [O.amputation_point], forming a new [O.name]!"))
+						var/datum/reagent/blood/B = locate(/datum/reagent/blood) in H.vessel.reagent_list
+						blood_splatter(H,B,1)
+						organ_data["descriptor"] = O.name
+						H.update_body()
+						return
+					else
+						for(var/datum/wound/W in E.wounds)
+							if(W.wound_damage() == 0 && prob(50))
+								qdel(W)
+						return
+
+
 
 			// Heal broken bones.
 			if(length(H.bad_external_organs))
