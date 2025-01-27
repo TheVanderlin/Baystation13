@@ -17,7 +17,7 @@
 	var/regen_message = "<span class='warning'>Your body throbs as you feel your ORGAN regenerate.</span>"
 	var/grow_chance = 0
 	var/grow_threshold = 0
-	var/ignore_tag//organ tag to ignore
+	var/ignore_tag //organ tag to ignore
 	var/last_nutrition_warning = 0
 	var/innate_heal = TRUE // Whether the aura is on, basically.
 
