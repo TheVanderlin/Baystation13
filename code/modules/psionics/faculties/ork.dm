@@ -23,19 +23,19 @@ singleton/psionic_power/ork/zzap
 
 		switch(user_rank)
 			if(PSI_RANK_ALPHA)
-				pew = new /obj/item/projectile/beam/incendiary_laser/heavy(get_turf(user))
+				pew = new /obj/item/projectile/beam/stun/lightning/ultra(get_turf(user))
 				pew.name = "DEFF LIGHTNIN'"
 				pew_sound = 'sound/magic/lightning_bolt.ogg'
 			if(PSI_RANK_BETA)
-				pew = new /obj/item/projectile/beam/heavylaser(get_turf(user))
+				pew = new /obj/item/projectile/beam/stun/lightning/strong(get_turf(user))
 				pew.name = "enormous lightning bolt"
 				pew_sound = 'sound/magic/lightning_bolt.ogg'
 			if(PSI_RANK_GAMMA)
-				pew = new /obj/item/projectile/beam/midlaser(get_turf(user))
+				pew = new /obj/item/projectile/beam/stun/lightning(get_turf(user))
 				pew.name = "lightning bolt"
 				pew_sound = 'sound/magic/lightning_bolt.ogg'
 			if(PSI_RANK_DELTA)
-				pew = new /obj/item/projectile/beam/smalllaser(get_turf(user))
+				pew = new /obj/item/projectile/beam/stun/lightning/weak(user))
 				pew.name = "electrical zap"
 				pew_sound = 'sound/weapons/Taser.ogg'
 			if(PSI_RANK_ZETA)
