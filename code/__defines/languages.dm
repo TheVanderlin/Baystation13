@@ -10,7 +10,6 @@
 //Human misc
 #define LANGUAGE_GUTTER         "Gutter"
 #define LANGUAGE_LOW_GOTHIC         "Low Gothic"
-#define LANGUAGE_ORKY               "Proppa Orky"
 
 //Alien
 #define LANGUAGE_MECHANICUS               "Binaric Speech"
