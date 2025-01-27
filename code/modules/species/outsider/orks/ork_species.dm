@@ -54,6 +54,8 @@
 		H.update_eyes()	//hacky fix, i don't care and i'll never ever care (this fixs the weird grey vision shit when placing people in a new mob)
 	return ..()
 
+//Removing this temporarily for now, it should be removed fully in future
+/* 
 /mob/living/carbon/human/ork/Stat()
 	..()
 	if(max_waaagh > 0)
@@ -109,7 +111,7 @@
 	*/
 
 /mob/living/carbon/human //the most cursed line in all of this code
-	var/new_orkz = SPECIES_ORK
+	var/new_orkz = SPECIES_ORK*/ //Just no.
 
 /proc/random_ork_name(gender)
 	var/orknames = list("Bruzgrod", "Drugzag", "Klawgasha", "Warshredda", "Domechoppah", "Gravesmashah", "Krookacka", "Ugtazak", "Wildgasha", "Killgashah", "Bigrippa", "Domesplittah", "Orkamongus", "Barbcooka", "Krookkrushah", "Madwakkah", "Gatgroz", "Grimtoof", "Buzzgob", "Manchewa", "Wurldwrecka", "Wugzark", "Urgak", "Mawsnatcha", "Zogcrusha", "Gollik", "Bloodbrakka", "Crookcooka", "Umieslashah", "Eadhacka", "Zutmuk", "Gloomgoz", "Squigchompa", "Snurkkruk", "Doomkrakkah", "Bigackah", "Wirgox", "Zhagux", "Ghoskrugas", "Wriktug", "Skullstumpah", "Rageskorcha", "Zrakkud", "Trukzorgga", "Kharkux", "Kurgax", "UgeDakka", "Klawaface", "Zogzurk", "Zigkurg" ) // yeah i used a name generator. Gonna zogging krump me?
