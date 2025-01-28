@@ -324,9 +324,6 @@
 /mob/living/exosuit/use_tool(obj/item/tool, mob/user, list/click_params)
 	// Cable Coil - Repair burn damage
 	if (isCoil(tool))
-		if (!getFireLoss())
-			USE_FEEDBACK_FAILURE("\The [src] has no electrical damage to repair.")
-			return TRUE
 		var/list/damaged_parts = list()
 		for (var/obj/item/mech_component/component in list(arms, legs, body, head))
 			if (component?.burn_damage)
@@ -481,9 +478,6 @@
 
 	// Welding Tool - Repair physical damage
 	if (isWelder(tool))
-		if (!getBruteLoss())
-			USE_FEEDBACK_FAILURE("\The [src] has no physical damage to repair.")
-			return TRUE
 		var/list/damaged_parts = list()
 		for (var/obj/item/mech_component/component in list(arms, legs, body, head))
 			if (component?.brute_damage)

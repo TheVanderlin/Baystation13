@@ -17,6 +17,9 @@
 /obj/screen/exosuit/radio/Click()
 	if(..())
 		if(owner.radio)
+			if(!owner.get_cell())
+				to_chat(usr, SPAN_WARNING("Insufficient power."))
+				return
 			owner.radio.attack_self(usr)
 		else
 			to_chat(usr, SPAN_WARNING("There is no radio installed."))
@@ -131,10 +134,6 @@
 /obj/screen/exosuit/hardpoint/Click(location, control, params)
 
 	if(!(..()))
-		return
-
-	if(!owner?.hatch_closed)
-		to_chat(usr, SPAN_WARNING("Error: Hardpoint interface disabled while [owner.body.hatch_descriptor] is open."))
 		return
 
 	var/modifiers = params2list(params)
@@ -263,6 +262,9 @@
 /obj/screen/exosuit/toggle/hatch/toggled()
 	if(!owner.hatch_locked && !owner.hatch_closed)
 		to_chat(usr, SPAN_WARNING("You cannot lock the hatch while it is open."))
+		return
+	if(owner.body.total_damage >= owner.body.max_damage)
+		to_chat(usr, SPAN_WARNING("The canopy is too badly damaged to be locked."))
 		return
 	owner.hatch_locked = ..()
 	to_chat(usr, SPAN_NOTICE("The [owner.body.hatch_descriptor] is [owner.hatch_locked ? "now" : "no longer" ] locked."))
@@ -397,6 +399,7 @@
 // Controls strafing mode on the mech
 /obj/screen/screen/exosuit/toggle/strafe
 	name = "toggle strafe"
+	icon_state = "small"
 	maptext = MECH_UI_STYLE("STRAFE")
 	maptext_x = 2
 	maptext_y = 12

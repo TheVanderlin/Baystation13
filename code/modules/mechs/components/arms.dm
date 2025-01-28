@@ -76,7 +76,7 @@
 	desc = "Designed to function where any other piece of equipment would have long fallen apart, the Hephaestus Superheavy Lifter series can take a beating and excel at delivering it."
 	punch_sound = 'sound/mecha/mech_punch_slow.ogg'
 	action_delay = 20
-	melee_damage = 50
+	melee_damage = 95 // under 100 so it doesn't instantly break walls
 	max_damage = 300
 	power_use = 60
 
@@ -85,6 +85,6 @@
 	exosuit_desc_string = "flexible, advanced manipulators"
 	icon_state = "combat_arms"
 	action_delay = 10
-	melee_damage = 35
+	melee_damage = 50
 	max_damage = 150
 	power_use = 50

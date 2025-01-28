@@ -407,10 +407,6 @@
 
 
 /obj/structure/heavy_vehicle_frame/proc/install_component(obj/item/thing, mob/user)
-	var/obj/item/mech_component/MC = thing
-	if(istype(MC) && !MC.ready_to_install())
-		to_chat(user, SPAN_WARNING("\The [MC] [MC.gender == PLURAL ? "are" : "is"] not ready to install."))
-		return 0
 	if(user)
 		visible_message(SPAN_NOTICE("\The [user] begins installing \the [thing] into \the [src]."))
 		if(!user.canUnEquip(thing) || !do_after(user, 3 SECONDS * user.skill_delay_mult(SKILL_DEVICES), src, DO_PUBLIC_UNIQUE) || user.get_active_hand() != thing)

@@ -26,6 +26,7 @@
 	var/obj/item/cell/cell
 	var/obj/item/robot_parts/robot_component/diagnosis_unit/diagnostics
 	var/obj/item/robot_parts/robot_component/armour/exosuit/m_armour
+	var/obj/item/mech_component/control_module/software
 	var/obj/machinery/portable_atmospherics/canister/air_supply
 	var/obj/item/storage/mech/storage_compartment
 	var/datum/gas_mixture/cockpit
@@ -39,6 +40,9 @@
 	has_hardpoints = list(HARDPOINT_BACK, HARDPOINT_LEFT_SHOULDER, HARDPOINT_RIGHT_SHOULDER)
 	var/damage_sound = 'sound/effects/bang.ogg'
 	var/climb_time = 25
+
+	/// Takes /obj/item/circuitboard/exosystem type paths for what boards get put in for prefabs
+	var/list/prebuilt_software = list()
 
 /obj/item/mech_component/chassis/New()
 	..()
@@ -57,6 +61,7 @@
 	QDEL_NULL(diagnostics)
 	QDEL_NULL(m_armour)
 	QDEL_NULL(air_supply)
+	QDEL_NULL(software)
 	QDEL_NULL(storage_compartment)
 	. = ..()
 
@@ -65,6 +70,7 @@
 	cell =        locate() in src
 	m_armour =    locate() in src
 	air_supply =  locate() in src
+	software = locate() in src
 	storage_compartment = locate() in src
 
 /obj/item/mech_component/chassis/show_missing_parts(mob/user)
@@ -74,6 +80,8 @@
 		to_chat(user, SPAN_WARNING("It is missing a diagnostics unit."))
 	if(!m_armour)
 		to_chat(user, SPAN_WARNING("It is missing exosuit armour plating."))
+	if(!software)
+		to_chat(user, SPAN_WARNING("It is missing a software control module."))
 
 /obj/item/mech_component/chassis/Initialize()
 	. = ..()
@@ -143,8 +151,19 @@
 	diagnostics = new(src)
 	cell = new /obj/item/cell/high(src)
 	cell.charge = cell.maxcharge
+	software = new(src)
+	for(var/board in prebuilt_software)
+		software.install_software(new board)
 
 /obj/item/mech_component/chassis/use_tool(obj/item/thing, mob/living/user, list/click_params)
+	if(istype(thing, /obj/item/mech_component/control_module))
+		if(software)
+			to_chat(user, SPAN_WARNING("\The [src] already has a control modules installed."))
+			return TRUE
+		if(install_component(thing, user))
+			software = thing
+			return TRUE
+
 	if(istype(thing,/obj/item/robot_parts/robot_component/diagnosis_unit))
 		if(diagnostics)
 			to_chat(user, SPAN_WARNING("\The [src] already has a diagnostic system installed."))
@@ -197,6 +216,12 @@
 
 /obj/item/mech_component/chassis/return_diagnostics(mob/user)
 	..()
+	if(software)
+		to_chat(user, SPAN_NOTICE(" Installed Software"))
+		for(var/exosystem_software in software.installed_software)
+			to_chat(user, SPAN_NOTICE(" - <b>[capitalize(exosystem_software)]</b>"))
+	else
+		to_chat(user, SPAN_WARNING(" Control Module Missing or Non-functional."))
 	if(diagnostics)
 		to_chat(user, SPAN_NOTICE(" Diagnostics Unit Integrity: <b>[round((((diagnostics.max_dam - diagnostics.total_dam) / diagnostics.max_dam)) * 100)]%</b>"))
 	else
@@ -206,6 +231,13 @@
 	else
 		to_chat(user, SPAN_WARNING(" Armor Missing or Non-functional."))
 
+/obj/item/mech_component/update_health()
+	.=..()
+	var/mob/living/exosuit/mech = loc
+	if(istype(mech))
+		return
+	if(total_damage >= max_damage && mech.hatch_locked && mech.hatch_closed)
+		mech.hatch_locked = FALSE
 
 /obj/item/mech_component/chassis/powerloader
 	name = "open exosuit chassis"
@@ -213,9 +245,11 @@
 	pilot_coverage = 40
 	exosuit_desc_string = "an industrial rollcage"
 	desc = "A Xion industrial brand roll cage. Technically OSHA compliant. Technically."
-	max_damage = 150
+	max_damage = 200
+	mech_health = 400
 	power_use = 0
 	climb_time = 6
+	prebuilt_software = list(/obj/item/circuitboard/exosystem/utility, /obj/item/circuitboard/exosystem/engineering)
 
 /obj/item/mech_component/chassis/powerloader/prebuild()
 	. = ..()
@@ -251,6 +285,7 @@
 	damage_sound = 'sound/effects/glass_crack1.ogg'
 	desc = "The Veymed Odysseus series cockpits combine ultralight materials and clear aluminum laminates to provide an optimized cockpit experience."
 	climb_time = 15
+	prebuilt_software = list(/obj/item/circuitboard/exosystem/medical, /obj/item/circuitboard/exosystem/utility)
 
 /obj/item/mech_component/chassis/light/prebuild()
 	. = ..()
@@ -275,9 +310,11 @@
 	exosuit_desc_string = "a spherical chassis"
 	icon_state = "pod_body"
 	max_damage = 150
+	mech_health = 400
 	power_use = 5
 	has_hardpoints = list(HARDPOINT_BACK)
 	desc = "The Necromundan Katamari series cockpits have won a massive tender by Imperium few years back. No one is sure why, but these terrible things keep popping up on every government facility."
+	prebuilt_software = list(/obj/item/circuitboard/exosystem/utility)
 
 /obj/item/mech_component/chassis/pod/Initialize()
 	pilot_positions = list(
@@ -322,6 +359,7 @@
 	mech_health = 750
 	power_use = 50
 	has_hardpoints = list(HARDPOINT_BACK)
+	prebuilt_software = list(/obj/item/circuitboard/exosystem/weapons)
 
 /obj/item/mech_component/chassis/heavy/prebuild()
 	pilot_positions = list(
@@ -351,6 +389,7 @@
 	mech_health = 1000
 	power_use = 50
 	has_hardpoints = list(HARDPOINT_BACK)
+	prebuilt_software = list(/obj/item/circuitboard/exosystem/weapons)
 
 /obj/item/mech_component/chassis/cubical/prebuild()
 	pilot_positions = list(
@@ -377,6 +416,7 @@
 	max_damage = 300
 	mech_health = 500
 	power_use = 40
+	prebuilt_software = list(/obj/item/circuitboard/exosystem/weapons)
 
 /obj/item/mech_component/chassis/combat/prebuild()
 	. = ..()
@@ -393,3 +433,47 @@
 	)
 
 	. = ..()
+/obj/item/mech_component/control_module
+	name = "exosuit control module"
+	desc = "A clump of circuitry and software chip docks, used to program exosuits."
+	icon_state = "control"
+	icon = 'icons/mecha/mech_equipment.dmi'
+	gender = NEUTER
+	color = COLOR_WHITE
+	var/list/installed_software = list()
+	var/max_installed_software = 2
+
+/obj/item/mech_component/control_module/examine(mob/user)
+	. = ..()
+	to_chat(user, SPAN_NOTICE("It has [max_installed_software - LAZYLEN(installed_software)] empty slot\s remaining out of [max_installed_software]."))
+
+/obj/item/mech_component/control_module/use_tool(obj/item/thing, mob/living/user, list/click_params)
+	if(istype(thing, /obj/item/circuitboard/exosystem))
+		install_software(thing, user)
+		return TRUE
+
+	if(isScrewdriver(thing))
+		var/result = ..()
+		update_software()
+		return result
+	else
+		return ..()
+
+/obj/item/mech_component/control_module/proc/install_software(obj/item/circuitboard/exosystem/software, mob/user)
+	if(length(installed_software) >= max_installed_software)
+		if(user)
+			to_chat(user, SPAN_WARNING("\The [src] can only hold [max_installed_software] software modules."))
+		return
+	if(user && !user.unEquip(software))
+		return
+
+	if(user)
+		to_chat(user, SPAN_NOTICE("You load \the [software] into \the [src]'s memory."))
+
+	software.forceMove(src)
+	update_software()
+
+/obj/item/mech_component/control_module/proc/update_software()
+	installed_software = list()
+	for(var/obj/item/circuitboard/exosystem/program in contents)
+		installed_software |= program.contains_software
