@@ -63,6 +63,7 @@ else if(current_title == "Bounty Hunter")
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/kasrkin/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -88,7 +89,7 @@ else if(current_title == "Bounty Hunter")
 	H.species.stun_mod = 0.61
 	H.species.slowdown = -0.2 // Kasrkin are renowned for incredible speed and the ability to scale any terrain, even mountains.
 	H.species.silent_steps = TRUE
-	return ..()
+	return
 
 /datum/job/submap/pdf
 	title = "Demeter Deserter"
@@ -113,6 +114,7 @@ else if(current_title == "Bounty Hunter")
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/pdf/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -160,7 +162,7 @@ else if(current_title == "Bounty Hunter")
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/energy/lasgun/laspistol/hellpistol, slot_belt)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/energy/lasgun/laspistol/lucius, slot_belt)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/cell/device/high/laspack, slot_in_backpack)
-	return ..()
+	return
 
 /datum/job/submap/merchant
 	title = "Merchant" // The only semi-free roles left to assign to Demeter is Witch Hunter and Deserter. Also something else somewhere maybe?
@@ -190,6 +192,7 @@ else if(current_title == "Bounty Hunter")
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/merchant/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -222,7 +225,7 @@ else if(current_title == "Bounty Hunter")
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/victorian/black, slot_w_uniform)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/contraband/imp_explosive, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/book/manual/chef_recipes(get_turf(src)))
-	return ..()
+	return
 
 /datum/job/submap/noble
 	title = "Witch Hunter" // The only semi-free roles left to assign to Demeter is Witch Hunter and Deserter. Also something else somewhere maybe?
@@ -246,6 +249,7 @@ else if(current_title == "Bounty Hunter")
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/noble/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -276,7 +280,7 @@ else if(current_title == "Bounty Hunter")
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/victorian/redbl, slot_w_uniform)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/axe, slot_belt)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/projectile/pistol/slug/old, slot_in_backpack)
-	return ..()
+	return
 
 /datum/job/submap/demeter_crew
 	title = "Crewman"
@@ -306,6 +310,7 @@ else if(current_title == "Bounty Hunter")
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/demeter_crew/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -351,7 +356,7 @@ else if(current_title == "Bounty Hunter")
 			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/thief2, slot_r_hand)
 		else
 			H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/thief3, slot_r_hand)
-	return ..()
+	return
 
 /datum/job/submap/demeter_detective
 	title = "Detective"
@@ -381,6 +386,7 @@ else if(current_title == "Bounty Hunter")
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/demeter_detective/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -406,7 +412,7 @@ else if(current_title == "Bounty Hunter")
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/projectile/revolver/imperial/heavy/bounty, slot_r_hand)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/ammo_magazine/speedloader/revolver/kp, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/multitool/hacktool, slot_in_backpack)
-	return ..()
+	return
 
 /*
 			to_chat(H,"<span class='danger'><b><font size=4>THE DETECTIVE</font></b></span>")

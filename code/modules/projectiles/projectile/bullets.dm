@@ -299,22 +299,22 @@
 	armor_penetration = 24
 
 /obj/item/projectile/bullet/rifle/sniper // 12.7mm Battle Round
-	damage = 58
+	damage = 61
 	armor_penetration = 33
 
 /obj/item/projectile/bullet/rifle/sniper/ap
 	armor_penetration = 35
 
 /obj/item/projectile/bullet/rifle/sniper/kp
-	damage = 61
+	damage = 63
 	armor_penetration = 37
 
 /obj/item/projectile/bullet/rifle/sniper/ms
-	damage = 63
+	damage = 68
 	armor_penetration = 31
 
 /obj/item/projectile/bullet/rifle/shell // 12.7mm Tech Round
-	damage = 85
+	damage = 95
 	stun = 1
 	weaken = 2
 	penetrating = 3
@@ -346,7 +346,7 @@
 /obj/item/projectile/bullet/meltagun
 	name = "Meltagun beam"
 	icon_state = "melta"
-	damage = 145
+	damage = 155
 	agony = 25
 	weaken = 2
 	eyeblur = 4
@@ -461,7 +461,7 @@
 /obj/item/projectile/bullet/rifle/pmag // Xenos Super Penetrative Round. The rifle is an automatic railgun that fires small tiny projectiles.
 	fire_sound = 'sound/warhammer/gunshot/needler.ogg'
 	icon_state = "pulse"
-	damage = 50
+	damage = 55
 	armor_penetration = 34
 	penetrating = 3
 
@@ -469,13 +469,13 @@
 /obj/item/projectile/bullet/rifle/galvanic
 	fire_sound = 'sound/warhammer/guns/misc/laser_searwall.ogg'
 	icon_state = "ion"
-	damage = 60
+	damage = 62
 	armor_penetration = 32
 
 /obj/item/projectile/bullet/rifle/galvanic/fire // Armor Piercing Incendiary
 	fire_sound = 'sound/warhammer/guns/misc/laser_searwall.ogg'
 	icon_state = "ion"
-	damage = 35
+	damage = 52
 	armor_penetration = 34
 
 /obj/item/projectile/bullet/rifle/galvanic/fire/on_hit(atom/target, blocked = 0)
@@ -489,7 +489,7 @@
 /obj/item/projectile/bullet/rifle/galvanic/emp // Armor Piercing Tech Bullet. Should be rarer then Tzeentch's diary. NOT map spawned.
 	fire_sound = 'sound/warhammer/guns/misc/laser_searwall.ogg'
 	icon_state = "ion"
-	damage = 50
+	damage = 52
 	armor_penetration = 42
 
 /obj/item/projectile/bullet/rifle/galvanic/emp/on_impact(atom/A)

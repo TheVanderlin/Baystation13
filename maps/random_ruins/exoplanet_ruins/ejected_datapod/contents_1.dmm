@@ -26,6 +26,7 @@
 /area/template_noop)
 "f" = (
 /obj/structure/table,
+/obj/random/loot/valuableloot,
 /turf/template_noop,
 /area/template_noop)
 "g" = (

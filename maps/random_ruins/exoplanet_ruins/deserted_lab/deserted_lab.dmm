@@ -8,18 +8,20 @@
 	},
 /area/template_noop)
 "ac" = (
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "ad" = (
 /obj/random/loot,
 /obj/decal/cleanable/cobweb,
 /obj/decal/cleanable/blood,
 /obj/decal/cleanable/mucus,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "ae" = (
-/obj/random/loot,
-/turf/simulated/floor/tiled/steel_ridged,
+/obj/structure/sign/directions/med,
+/turf/simulated/wall/r_wall/prepainted{
+	paint_color = "#556769"
+	},
 /area/template_noop)
 "af" = (
 /obj/machinery/anomaly_container,
@@ -30,13 +32,13 @@
 /obj/structure/sign/warning/secure_area{
 	pixel_y = 32
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "ah" = (
 /obj/structure/mattress/dirty,
 /obj/decal/cleanable/blood,
 /obj/decal/cleanable/blood/drip,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "ai" = (
 /obj/machinery/floodlight,
@@ -48,17 +50,17 @@
 	pixel_y = 32
 	},
 /obj/decal/cleanable/spiderling_remains,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "ak" = (
 /obj/machinery/artifact,
 /obj/decal/cleanable/cobweb2,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "al" = (
 /obj/random/loot,
 /obj/decal/cleanable/mucus,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "am" = (
 /obj/wallframe_spawn/reinforced,
@@ -75,7 +77,7 @@
 /area/template_noop)
 "aq" = (
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "ar" = (
 /obj/structure/closet/crate/trashcart,
@@ -89,11 +91,10 @@
 /area/template_noop)
 "at" = (
 /obj/random/loot,
-/mob/living/simple_animal/hostile/voxslug,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "au" = (
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "av" = (
 /obj/structure/table/standard{
@@ -101,58 +102,61 @@
 	},
 /obj/random/contraband,
 /obj/random/masks,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aw" = (
 /obj/decal/cleanable/mucus,
-/mob/living/simple_animal/hostile/creature,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "ax" = (
 /obj/structure/bed/chair/office/light,
 /obj/structure/closet/walllocker/emerglocker/east,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "ay" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "az" = (
 /obj/machinery/door/unpowered/simple/wood,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aA" = (
 /obj/structure/sign/monkey_painting{
 	pixel_y = -32
 	},
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aB" = (
 /obj/item/clothing/head/bio_hood/anomaly,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "aC" = (
 /obj/random/closet,
-/turf/simulated/floor/carpet/blue2,
+/obj/random/loot/randomsupply,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aE" = (
 /obj/structure/bookcase/manuals/xenoarchaeology,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aF" = (
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "aG" = (
-/turf/simulated/floor/carpet/blue2,
+/obj/structure/sign/directions/examroom,
+/turf/simulated/wall/r_wall/prepainted{
+	paint_color = "#556769"
+	},
 /area/template_noop)
 "aH" = (
 /obj/random/trash,
 /obj/random/trash,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "aI" = (
 /obj/machinery/door/airlock/vault{
@@ -162,11 +166,11 @@
 	deployed = 1;
 	icon_state = "beartrap1"
 	},
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "aJ" = (
 /obj/random/trash,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aK" = (
 /obj/decal/cleanable/spiderling_remains,
@@ -175,14 +179,14 @@
 	},
 /obj/machinery/reagentgrinder,
 /obj/item/reagent_containers/glass/beaker/large,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aL" = (
 /obj/structure/table/rack,
 /obj/random/firstaid,
 /obj/random/advdevice,
 /obj/random/advdevice,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aM" = (
 /obj/decal/cleanable/vomit,
@@ -190,26 +194,28 @@
 /obj/structure/closet/medical_wall/filled{
 	pixel_y = 32
 	},
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aN" = (
-/obj/decal/cleanable/mucus,
-/turf/simulated/floor/tiled/white,
+/mob/living/simple_animal/hostile/meat/horrorsmall,
+/turf/simulated/wall/r_wall/prepainted{
+	paint_color = "#556769"
+	},
 /area/template_noop)
 "aP" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "aQ" = (
 /obj/decal/cleanable/cobweb2,
 /obj/structure/closet/cabinet,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aR" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -32
 	},
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aS" = (
 /obj/random/junk,
@@ -220,43 +226,46 @@
 /obj/machinery/door/airlock/vault{
 	name = "Door"
 	},
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "aU" = (
 /obj/random/junk,
 /obj/structure/bed/chair/office/light,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aV" = (
 /obj/item/material/harpoon,
 /obj/landmark/corpse/scientist,
 /obj/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/obj/random/loot/heavymelee,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aW" = (
 /obj/item/beartrap,
 /obj/structure/sign/warning/science/anomalous_materials{
 	pixel_x = 32
 	},
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "aX" = (
-/obj/random/trash,
-/turf/simulated/floor/carpet/blue2,
+/mob/living/simple_animal/hostile/meat/abomination,
+/turf/simulated/wall/r_wall/prepainted{
+	paint_color = "#556769"
+	},
 /area/template_noop)
 "aY" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/purple,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "aZ" = (
 /obj/structure/railing/mapped,
 /obj/machinery/replicator,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "ba" = (
 /obj/random/snack,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "bb" = (
 /obj/structure/table/rack,
@@ -264,35 +273,32 @@
 /obj/random/voidsuit,
 /obj/random/voidhelmet,
 /obj/random/toolbox,
-/turf/simulated/floor/carpet/blue2,
+/obj/random/loot/lootcontraband,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "bc" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/mime,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "bd" = (
 /obj/decal/cleanable/blood/drip,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "be" = (
 /obj/decal/cleanable/mucus,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "bf" = (
 /obj/random/trash,
 /obj/decal/cleanable/blood,
 /obj/decal/cleanable/mucus,
-/mob/living/simple_animal/hostile/creature,
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/warhammer/brothel,
 /area/template_noop)
 "bg" = (
 /obj/random/trash,
-/obj/structure/filingcabinet/wallcabinet{
-	pixel_y = -32
-	},
 /obj/decal/cleanable/blood/drip,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/carpetn00,
 /area/template_noop)
 "za" = (
 /obj/landmark/clear,
@@ -318,15 +324,15 @@ aa
 ao
 ab
 ab
+aX
 ab
 ab
 ab
 ab
 ab
-ab
-ab
+ae
 aP
-ab
+ae
 aa
 "}
 (3,1,1) = {"
@@ -349,7 +355,7 @@ aa
 ab
 al
 bf
-am
+ab
 aq
 aJ
 ac
@@ -376,11 +382,11 @@ aS
 "}
 (6,1,1) = {"
 aa
-ab
+aN
 ah
 aF
 aT
-aN
+be
 aA
 ab
 aZ
@@ -394,10 +400,10 @@ aa
 ab
 ak
 aH
-am
+ab
 ac
 bg
-ab
+aG
 aE
 aU
 aK
@@ -414,14 +420,14 @@ aj
 bd
 az
 ba
-aX
+aJ
 bb
 am
 aa
 "}
 (9,1,1) = {"
 aa
-ab
+aN
 at
 au
 aT
@@ -430,7 +436,7 @@ av
 ab
 aM
 be
-aG
+ac
 am
 aa
 "}
@@ -438,8 +444,8 @@ aa
 aa
 ab
 au
-ae
-am
+at
+ab
 ax
 ay
 ab

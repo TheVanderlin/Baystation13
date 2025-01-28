@@ -38,6 +38,15 @@
 /obj/landmark/map_load_mark/droppod,
 /turf/simulated/floor/reinforced,
 /area/map_template/droppod)
+"y" = (
+/obj/random/loot/randomcolonyitems,
+/turf/simulated/floor/reinforced,
+/area/map_template/droppod)
+"z" = (
+/obj/random/loot/valuableloot,
+/obj/random/loot/randomsupply/engineering,
+/turf/simulated/floor/reinforced,
+/area/map_template/droppod)
 "O" = (
 /obj/landmark/scorcher,
 /obj/landmark/scorcher,
@@ -81,9 +90,9 @@ c
 c
 d
 d
+y
 g
-g
-g
+z
 d
 d
 c

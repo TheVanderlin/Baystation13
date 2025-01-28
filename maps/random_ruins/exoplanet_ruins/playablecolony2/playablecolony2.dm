@@ -55,6 +55,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist2repentia/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -78,7 +79,7 @@
 	H.species.toxins_mod = 0.6
 	H.species.radiation_mod = 0.55
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
-	return ..()
+	return
 
 /datum/job/submap/colonist2_pdf
 	title = "Deserter"
@@ -100,6 +101,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist2_pdf/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -148,7 +150,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/energy/lasgun/laspistol/hellpistol, slot_belt)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/energy/lasgun/laspistol/lucius, slot_belt)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/cell/device/high/laspack, slot_in_backpack)
-	return ..()
+	return
 
 
 /datum/job/submap/colonistheretek2
@@ -182,6 +184,7 @@
 						SKILL_PILOT = SKILL_MASTER)
 
 /datum/job/submap/colonistheretek2/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -211,7 +214,7 @@
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/engineer, slot_w_uniform)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/gloves/thick/swat/techpriest, slot_gloves)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/techpriest, slot_back)
-	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/mechanicus/techpriest, slot_wear_suit)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/storage/hooded/techpriest, slot_wear_suit)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	if(prob(50))
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/augment_implanter/wrist_blade, slot_in_backpack)
@@ -221,7 +224,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/augment_implanter/popout_shotgun, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/organ/internal/augment/active/polytool/engineer, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/implant/translator, slot_in_backpack)
-	return ..()
+	return
 
 /datum/job/submap/colonist2
 	title = "Ship Colonist" // Plan make the crashed ship technical roles. Landed colony tribals.
@@ -250,6 +253,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist2/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -285,7 +289,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/hiver/trenchcoat, slot_wear_suit)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/projectile/pistol/stub/talon, slot_r_hand)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/ammo_magazine/pistol/small/ap, slot_in_backpack)
-	return ..()
+	return
 
 /singleton/hierarchy/outfit/job/colonist2
 	name = OUTFIT_JOB_NAME("Ship Colonest")

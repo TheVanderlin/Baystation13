@@ -7,7 +7,7 @@
 	plant_colors = list("#3c5434", "#2f6655", "#0e703f", "#495139", "#394c66", "#1a3b77", "#3e3166", "#52457c", "#402d56", "#580d6d")
 	map_generators = list(/datum/random_map/noise/exoplanet/shrouded, /datum/random_map/noise/ore/poor)
 	sun_brightness_modifier = -0.5
-	habitability_weight = HABITABILITY_BAD
+	habitability_weight = HABITABILITY_LOCKED
 	surface_color = "#3e3960"
 	water_color = "#2b2840"
 	fauna_types = list(
@@ -26,6 +26,7 @@
 	var/generator/new_temp = generator("num", T0C, H.heat_level_1 - 10, UNIFORM_RAND)
 	atmosphere.temperature = new_temp.Rand()
 	atmosphere.update_values()
+
 
 /obj/overmap/visitable/sector/exoplanet/shrouded/get_atmosphere_color()
 	var/air_color = ..()

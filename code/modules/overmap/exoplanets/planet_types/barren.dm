@@ -21,9 +21,9 @@
 	descriptor = "barren exoplanet"
 	smoothing_iterations = 4
 	land_type = /turf/simulated/floor/exoplanet/barren
-	flora_prob = 0.1
-	large_flora_prob = 0
-	fauna_prob = 0
+	flora_prob = 4
+	large_flora_prob = 5
+	fauna_prob = 0.5
 
 /turf/simulated/floor/exoplanet/barren
 	name = "ground"

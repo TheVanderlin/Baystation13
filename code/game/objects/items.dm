@@ -414,9 +414,9 @@ var/global/list/slot_flags_enumeration = list(
 			return 0
 
 		//Next check if the slot is accessible.
-		var/mob/_user = disable_warning? null : H
+		/*var/mob/_user = disable_warning? null : H
 		if(!H.slot_is_accessible(slot, src, _user))
-			return 0
+			return 0*/
 
 
 	if (!force && istype(src, /obj/item/clothing))
@@ -500,8 +500,8 @@ var/global/list/slot_flags_enumeration = list(
 
 	if(!canremove)
 		return 0
-	if(!M.slot_is_accessible(slot, src, disable_warning? null : M))
-		return 0
+	/*if(!M.slot_is_accessible(slot, src, disable_warning? null : M))
+		return 0 */
 	return 1
 
 /obj/item/proc/can_be_dropped_by_client(mob/M)

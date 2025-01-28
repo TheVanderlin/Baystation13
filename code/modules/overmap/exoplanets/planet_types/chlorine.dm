@@ -8,8 +8,8 @@
 	map_generators = list(/datum/random_map/noise/exoplanet/chlorine, /datum/random_map/noise/ore/poor)
 	surface_color = "#a3b879"
 	water_color = COLOR_BOTTLE_GREEN
-	habitability_weight = HABITABILITY_EXTREME
-	has_trees = FALSE
+	habitability_weight = HABITABILITY_BAD
+	has_trees = TRUE
 	flora_diversity = 5
 	fauna_types = list(/mob/living/simple_animal/thinbug, /mob/living/simple_animal/hostile/retaliate/beast/samak/alt, /mob/living/simple_animal/yithian, /mob/living/simple_animal/tindalos, /mob/living/simple_animal/hostile/retaliate/jelly)
 	megafauna_types = list(/mob/living/simple_animal/hostile/retaliate/jelly/mega)
@@ -24,9 +24,8 @@
 	var/chlor_moles = (rand(1, 6) / 10) * (atmosphere.total_moles)
 	atmosphere = atmosphere.remove(chlor_moles )
 	atmosphere.adjust_gas(GAS_CHLORINE, chlor_moles )
-
 	var/datum/species/H = all_species[SPECIES_HUMAN]
-	var/generator/new_temp = generator("num", H.cold_level_1 + 40, H.heat_level_1 + 10, UNIFORM_RAND)
+	var/generator/new_temp = generator("num", T0C, H.heat_level_1 - 10, UNIFORM_RAND)
 	atmosphere.temperature = new_temp.Rand()
 	atmosphere.update_values()
 

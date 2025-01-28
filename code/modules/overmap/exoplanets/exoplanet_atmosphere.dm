@@ -6,10 +6,8 @@
 	else //let the fuckery commence
 		var/habitability
 		var/list/newgases = gas_data.gases.Copy()
-		if (prob(90)) //all phoron planet should be rare
-			newgases -= GAS_PHORON
-		if (prob(50)) //alium gas should be slightly less common than mundane shit
-			newgases -= GAS_ALIEN
+		newgases -= GAS_PHORON
+		newgases -= GAS_ALIEN
 		newgases -= GAS_STEAM
 
 		switch(habitability_weight)
@@ -36,16 +34,16 @@
 						newgases -= g
 
 			var/ng = pick_n_take(newgases)	//pick a gas
-
+			/*
 			if (gas_data.flags[ng] & XGM_GAS_OXIDIZER)
 				badflag |= XGM_GAS_OXIDIZER
-				if (prob(13))
+				if (prob(1))
 					badflag |= (XGM_GAS_FUSION_FUEL | XGM_GAS_FUEL)
 
 			if ((gas_data.flags[ng] & XGM_GAS_FUEL) || (gas_data.flags[ng] & XGM_GAS_FUSION_FUEL))
 				badflag |= (XGM_GAS_FUSION_FUEL | XGM_GAS_FUEL)
-				if (prob(13))
-					badflag |= XGM_GAS_OXIDIZER
+				if (prob(1))
+					badflag |= XGM_GAS_OXIDIZER */
 
 			var/part = new_moles.Rand() //allocate percentage to it
 			if (i == gasnum || !length(newgases)) //if it's last gas, let it have all remaining moles

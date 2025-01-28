@@ -6,9 +6,14 @@
 "h" = (
 /turf/template_noop,
 /area/template_noop)
+"s" = (
+/obj/random/loot/rarearmorbundle,
+/obj/decal/remains,
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
-h
+s
 h
 h
 "}

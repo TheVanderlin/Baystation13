@@ -28,6 +28,7 @@
 	min_gas = null
 	max_gas = null
 	minbodytemp = 0
+	maxbodytemp = 600
 	natural_armor = list(
 		melee = ARMOR_MELEE_FLAK
 		)
@@ -72,6 +73,7 @@
 	min_gas = null
 	max_gas = null
 	minbodytemp = 0
+	maxbodytemp = 1800
 	natural_armor = list(
 		melee = ARMOR_MELEE_FLAK
 		)
@@ -105,6 +107,7 @@
 	min_gas = null
 	max_gas = null
 	minbodytemp = 0
+	maxbodytemp = 800
 	natural_armor = list(
 		melee = ARMOR_MELEE_FLAK
 		)
@@ -208,6 +211,7 @@
 	pry_desc = "clawing"
 	min_gas = null
 	max_gas = null
+	maxbodytemp = 1000
 	minbodytemp = 0
 	natural_armor = list(
 		melee = ARMOR_MELEE_FLAK
@@ -242,6 +246,7 @@
 	pry_desc = "clawing"
 	min_gas = null
 	max_gas = null
+	maxbodytemp = 900
 	minbodytemp = 0
 	natural_armor = list(
 		melee = ARMOR_MELEE_FLAK

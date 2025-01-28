@@ -31,6 +31,8 @@
 			var armor_value = armor_datum.get_value(get_armor_key(damage_type, damage_flags))
 
 			// Skip further calculations if armor_pen is extremely high
+			if(armor_pen == 0)
+				armor_pen = 5 // This may fixed unarmed and throwing attacks dealing no damage. It will have no effect on projectiles though.
 			if (armor_pen >= 200)
 				continue
 
@@ -44,14 +46,14 @@
 			// If armor penetration exceeds armor value, continue without blocking
 			if (armor_pen >= armor_value)
 				continue
-			var damage_breakthrough = (((armor_value * (rand(70, 110) / 100)) - armor_pen) / 15) * 100
+			var damage_breakthrough = (((armor_value * (rand(75, 115) / 100)) - armor_pen) / 15) * 100
 			if (damage_breakthrough < 0)
 				damage_breakthrough = 0
 			// Show message and sound if partial block occurs
 			if (damage_breakthrough > 0)
 			{
 				show_message("<span class='warning'>Your armor weakens the blow!</span>")
-				playsound(src, "sound/weapons/armorblock[rand(1,4)].ogg", 50, 1, 1)
+				playsound(src, "sound/weapons/armorblock[rand(1,4)].ogg", 35, 1, 1)
 			}
 
 			// Accumulate blocked ratio for this armor piece

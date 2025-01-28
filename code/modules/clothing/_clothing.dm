@@ -381,6 +381,8 @@ BLIND     // can't see anything
 	w_class = ITEM_SIZE_SMALL
 	icon = 'icons/obj/clothing/obj_hands.dmi'
 	siemens_coefficient = 0.75
+	min_pressure_protection = 0
+	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	var/wired = 0
 	var/obj/item/cell/cell = 0
 	var/clipped = 0
@@ -713,8 +715,10 @@ BLIND     // can't see anything
 	gender = PLURAL
 	siemens_coefficient = 0.9
 	body_parts_covered = FEET
+	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	slot_flags = SLOT_FEET
 	item_flags = ITEM_FLAG_WASHER_ALLOWED
+	min_pressure_protection = 0
 	permeability_coefficient = 0.50
 	force = 5
 	species_restricted = list("exclude", SPECIES_NABBER, SPECIES_VOX, SPECIES_KROOT)

@@ -54,6 +54,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonistsisterw/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -77,7 +78,7 @@
 	H.species.weaken_mod = 0.61
 	H.species.stun_mod = 0.61
 	H.species.slowdown = -0.2
-	return ..()
+	return
 
 /datum/job/submap/colonist_noble
 	title = "Landed Paladin"
@@ -98,6 +99,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist_noble/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -153,7 +155,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/feudal/cuirass, slot_wear_suit)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/axe/saintie/adamantine, slot_belt)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/head/helmet/pilgrimhelm/hevhelm/feudal, slot_head)
-	return ..()
+	return
 
 /datum/job/submap/colonistpathfinder
 	title = "Pathfinder"
@@ -180,6 +182,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonistpathfinder/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -212,7 +215,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/victorian/redbl, slot_w_uniform)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/head/helmet/pilgrimhelm/flak/metal, slot_head)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/scrapforged/duster, slot_wear_suit)
-	return ..()
+	return
 
 
 /datum/job/submap/colonist
@@ -241,6 +244,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/colonist/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -272,8 +276,7 @@
 			H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/axe/saintie/adamantine, slot_belt)
 		else
 			H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/sword/chopper/heavy/adamantine, slot_belt)
-	return ..()
-
+	return
 /*
 		else if(current_title == "Miner")
 			to_chat(H,"<span class='danger'><b><font size=4>THE MINER</font></b></span>")

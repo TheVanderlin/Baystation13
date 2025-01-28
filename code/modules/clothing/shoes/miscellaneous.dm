@@ -325,6 +325,12 @@
 	icon_state = "jackboots"
 	item_state = "jackboots"
 
+/obj/item/clothing/shoes/jackboots/bloodpact
+	name = "combat boots"
+	desc = "Bloodpact metal combat boots."
+	icon_state = "jackboots"
+	item_state = "BP_Boots"
+
 /obj/item/clothing/shoes/jackboots/krieg
 	name = "combat boots"
 	desc = "The Krieg Regiment, unlike most of the Astra Militarum, prefer their less protective but more mobile boots over the standard Mars Pattern used by the Munitorium."

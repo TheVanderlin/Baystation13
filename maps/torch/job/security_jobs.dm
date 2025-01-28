@@ -46,6 +46,7 @@
 	return "As the Guard Captain, you command the ship's security forces, leading personnel in maintaining order and protecting the vessel. You oversee security training, manage defensive operations, and embark on critical missions alongside the Deck Sergeant and Seneschal. Your leadership keeps the crew ready for any threat, aboard the ship or beyond."
 
 /datum/job/guard_captain/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -101,7 +102,7 @@
 			H.species.heat_level_3 = 800
 	to_chat(H, "<span class='notice'><b><font size=2>As the [current_title], you command the ship's security forces, leading personnel in maintaining order and protecting the vessel. You oversee security training, manage defensive operations, and embark on critical missions alongside the Deck Sergeant and Seneschal. Your leadership keeps the crew ready for any threat, aboard the ship or beyond.</font></b></span>")
 	to_chat(H, "<span class='notice'><b><font size=2>The Astra Militarum, also known as the Imperial Guard in colloquial Low Gothic, is the largest coherent fighting force in the galaxy. They serve as the Imperium of Man's primary combat force and first line of defence from the myriad threats which endanger the existence of the Human race in the 41st Millennium. </font></b></span>")
-	return ..()
+	return
 
 /datum/job/enforcer_sergeant
 	title = "Deck Sergeant"
@@ -144,6 +145,7 @@
 
 
 /datum/job/enforcer_sergeant/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.fully_replace_character_name("Sergeant [current_name]")
@@ -161,7 +163,7 @@
 	else
 		current_title = title // use default title
 	to_chat(H, "<span class='notice'><b><font size=2>As the [current_title], you are tasked with maintaining law and order aboard the vessel. You oversee the enforcers, manage prisoner interrogations, and ensure the internal security of the ship. Your duties include handling breaches of discipline, the protection of essential crew, and ensuring compliance with the Rogue Trader's directives.</font></b></span>")
-	return ..()
+	return
 
 
 /datum/job/enforcer
@@ -205,6 +207,7 @@
 
 
 /datum/job/enforcer/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -220,7 +223,7 @@
 	else
 		current_title = title // use default title
 	to_chat(H, "<span class='notice'><b><font size=2>As the [current_title], you are responsible for enforcing shipboard law and maintaining internal security. You oversee general patrols, ensure the protection of key crew and assets, and handle any breaches of discipline. Your role includes general arrests, executions and interrogations, working closely with the Enforcer Sergeant to uphold order.</font></b></span>")
-	return ..()
+	return
 
 
 /datum/job/guardsman
@@ -269,6 +272,7 @@
 	return "As the Guardsman, you are the ship’s boots on the ground, an extension of its force beyond the hull. Tasked with protecting the crew and engaging in expeditionary missions, you serve as a versatile asset for any conflict or deployment."
 
 /datum/job/guard_captain/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -325,7 +329,7 @@
 			H.species.heat_level_3 = 800
 	to_chat(H, "<span class='notice'><b><font size=2>As the [current_title], you are the ship’s boots on the ground, an extension of its force beyond the hull. Tasked with protecting the crew and engaging in expeditionary missions, you serve as a versatile asset for any conflict or deployment.</font></b></span>")
 	to_chat(H, "<span class='notice'><b><font size=2>The Astra Militarum, also known as the Imperial Guard in colloquial Low Gothic, is the largest coherent fighting force in the galaxy. They serve as the Imperium of Man's primary combat force and first line of defence from the myriad threats which endanger the existence of the Human race in the 41st Millennium. </font></b></span>")
-	return ..()
+	return
 
 
 /mob/proc/voice_in_head(message)

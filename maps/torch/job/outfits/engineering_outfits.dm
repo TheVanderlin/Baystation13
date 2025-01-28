@@ -11,7 +11,7 @@
 	mask = /obj/item/clothing/mask/gas/techpriest
 	glasses = /obj/item/clothing/glasses/science/techpriest
 	belt = /obj/item/storage/belt/utility/full
-	suit = /obj/item/clothing/suit/armor/grim/mechanicus/techpriest
+	suit = /obj/item/clothing/suit/armor/grim/storage/hooded/techpriest
 	shoes = /obj/item/clothing/shoes/jackboots/skitshoes/techpriest
 	uniform = /obj/item/clothing/under/rank/engineer
 	r_pocket = null
@@ -35,7 +35,7 @@
 	mask = /obj/item/clothing/mask/gas/techpriest
 	glasses = /obj/item/clothing/glasses/science/techpriest
 	belt = /obj/item/storage/belt/utility/full
-	suit = /obj/item/clothing/suit/armor/grim/mechanicus/techpriest
+	suit = /obj/item/clothing/suit/armor/grim/storage/hooded/techpriest
 	shoes = /obj/item/clothing/shoes/jackboots/skitshoes/techpriest
 	uniform = /obj/item/clothing/under/rank/engineer
 	r_pocket = null

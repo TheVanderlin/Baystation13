@@ -101,6 +101,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/tauscoutship_leader/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -114,7 +115,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 	H.species.brute_mod = 0.7 // Default 0.77
 	H.species.weaken_mod = 0.61
 	H.species.stun_mod = 0.61
-	return ..()
+	return
 
 /datum/job/submap/tauscoutship_scoutvet
 	title = "Scout Veteran"
@@ -144,6 +145,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/tauscoutship_scoutvet/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -155,7 +157,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 	to_chat(H, "<span class='notice'><b><font size=2>As a Fire Scout, you are the keen eye of the Tau Empire, trained in advanced stealth and observation to probe the outer reaches of enemy territory. Your role demands a blend of agility and quick adaptability, embodying the teachings of Shadowsun by gathering intelligence unseen, preparing the path for the Tau’s next advance.</font></b></span>")
 	H.fully_replace_character_name("Shas'la [current_name]")
 	H.species.slowdown = -0.2 // default is -0.3
-	return ..()
+	return
 
 /datum/job/submap/tauscoutship_watercaste
 	title = "Kor-vattra Merchant"
@@ -191,6 +193,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 						SKILL_VIGOR = SKILL_EXPERIENCED)
 
 /datum/job/submap/tauscoutship_watercaste/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -201,7 +204,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 	to_chat(H,"<span class='danger'><b><font size=4>WATER CASTE</font></b></span>")
 	to_chat(H, "<span class='notice'><b><font size=2>As a distinguished Water Caste representative, you navigate the vast expanse of the Ghoul Stars, orchestrating alliances and fostering the Tau's influence through diplomacy and trade. Your knowledge of the Kor’vattra’s network enables the Empire's expansion, bridging the divide between the Tau and potential allies with calculated, profitable engagements.</font></b></span>")
 	H.fully_replace_character_name("Por'el [current_name]")
-	return ..()
+	return
 
 /datum/job/submap/tauscoutship_crew
 	title = "Fire Caste Warrior"
@@ -235,6 +238,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/tauscoutship_crew/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -245,7 +249,7 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 	to_chat(H,"<span class='danger'><b><font size=4>FIRE WARRIOR</font></b></span>")
 	to_chat(H, "<span class='notice'><b><font size=2>As a Fire Warrior, you stand as the disciplined heart of the Fire Caste, embodying the Tau'va through fierce commitment to the Greater Good. Your role is to protect the cadre and maintain vigilance, prepared to neutralize threats with precision as the vanguard of the Tau Empire’s exploratory forces.</font></b></span>")
 	H.fully_replace_character_name("Shas'la [current_name]")
-	return ..()
+	return
 
 /*
 /datum/job/submap/tauscoutship_leader

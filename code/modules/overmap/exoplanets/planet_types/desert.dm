@@ -9,6 +9,7 @@
 	surface_color = "#d6cca4"
 	water_color = null
 	has_trees = FALSE
+	habitability_weight = HABITABILITY_LOCKED
 	fauna_types = list(/mob/living/simple_animal/thinbug, /mob/living/simple_animal/hostile/retaliate/beast/antlion, /mob/living/simple_animal/hostile/human/heretic/trooper, /mob/living/simple_animal/hostile/retaliate/beast/antlion/mega)
 	megafauna_types = list(/mob/living/simple_animal/hostile/human/heretic/bloodpact, /mob/living/simple_animal/hostile/human/heretic/bloodpact/commando)
 
