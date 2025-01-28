@@ -43,7 +43,7 @@
 
 /obj/item/mech_component/sensors/proc/get_sight(powered)
 	var/flags = 0
-	if(total_damage >= 0.8 * max_damage || !powered)
+	if(total_damage >= max_damage || !powered)
 		flags |= BLIND
 	else if(active_sensors && powered)
 		flags |= vision_flags

@@ -103,9 +103,9 @@
 	switch(zone)
 		if(BP_EYES , BP_HEAD)
 			return head
-		if(BP_L_ARM , BP_R_ARM)
+		if(BP_L_ARM , BP_R_ARM, BP_L_HAND, BP_R_HAND)
 			return arms
-		if(BP_L_LEG , BP_R_LEG)
+		if(BP_L_LEG , BP_R_LEG, BP_L_FOOT, BP_R_FOOT)
 			return legs
 		else
 			return body
@@ -130,7 +130,6 @@
 					def_zone = BP_L_LEG
 				else if(part == head)
 					def_zone = BP_HEAD
-
 				. = .() || .
 			return
 
