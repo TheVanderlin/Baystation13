@@ -5983,7 +5983,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -6538,7 +6538,7 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/vacant/monitoring)
 "EK" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -9929,7 +9929,7 @@
 /area/hallway/primary/fourthdeck/fore)
 "Rw" = (
 /obj/structure/flora/pottedplant/crystal,
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -10151,7 +10151,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/substation/fourthdeck)
 "Sl" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -10666,7 +10666,7 @@
 /turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/crew_quarters/galley)
 "TH" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24

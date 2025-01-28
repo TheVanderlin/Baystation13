@@ -54,7 +54,7 @@ GLOBAL_VAR(planet_repopulation_disabled)
 
 	var/list/possible_themes = list(
 		/datum/exoplanet_theme = 45,
-		/datum/exoplanet_theme/mountains = 45,
+		/datum/exoplanet_theme/mountains = 25,
 		/datum/exoplanet_theme/radiation_bombing = 5,
 		/datum/exoplanet_theme/ruined_city = 5,
 		/datum/exoplanet_theme/robotic_guardians = 5

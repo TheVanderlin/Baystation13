@@ -47,12 +47,6 @@
 /obj/machinery/constructable_frame,
 /obj/item/stack/cable_coil,
 /obj/item/stock_parts/circuitboard/comm_monitor,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
 "da" = (
@@ -98,16 +92,11 @@
 /obj/structure/shuttle/engine/heater{
 	dir = 8
 	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /turf/template_noop,
 /area/map_template/ecprobe/engineering)
 "go" = (
-/obj/structure/sign/warning/airlock{
-	pixel_y = 32
-	},
-/turf/simulated/floor/reinforced,
+/obj/structure/hivedecor/xenos,
+/turf/simulated/wall/r_wall/hull,
 /area/map_template/ecprobe/engineering)
 "gs" = (
 /obj/structure/cable{
@@ -118,6 +107,7 @@
 /obj/decal/cleanable/blood/gibs/robot{
 	pixel_x = 1
 	},
+/mob/living/simple_animal/hostile/human/heretic/bloodpact,
 /turf/simulated/floor/reinforced,
 /area/map_template/ecprobe/engineering)
 "gB" = (
@@ -128,19 +118,9 @@
 /turf/simulated/floor/reinforced,
 /area/map_template/ecprobe/engineering)
 "hn" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/structure/decoy{
 	icon_state = "ai-crash";
 	name = "inactive AI"
-	},
-/obj/machinery/door/window/eastright{
-	name = "Processing Core 2";
-	dir = 8
 	},
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
@@ -148,10 +128,6 @@
 /obj/machinery/constructable_frame,
 /obj/item/stack/cable_coil,
 /obj/item/stock_parts/circuitboard/comm_server,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
 "id" = (
@@ -193,14 +169,9 @@
 /turf/simulated/wall/r_wall/hull,
 /area/map_template/ecprobe/engineering)
 "ld" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk,
-/mob/living/simple_animal/hostile/hivebot/ranged_damage/strong/guard,
-/obj/landmark/clear,
-/turf/template_noop,
-/area/map_template/ecprobe/solarsp)
+/obj/structure/barricade/spike,
+/turf/simulated/wall/r_wall/hull,
+/area/map_template/ecprobe/engineering)
 "lO" = (
 /obj/floor_decal/solarpanel,
 /obj/machinery/power/solar,
@@ -277,10 +248,6 @@
 /area/map_template/ecprobe/bridge)
 "pv" = (
 /obj/machinery/telecomms/server,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
 "pA" = (
@@ -303,10 +270,7 @@
 /obj/decal/cleanable/blood/gibs/robot{
 	pixel_x = 1
 	},
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
+/obj/random/loot/randomsupply/engineering,
 /turf/simulated/floor,
 /area/map_template/ecprobe/engineering)
 "rg" = (
@@ -319,6 +283,10 @@
 /obj/landmark/clear,
 /turf/template_noop,
 /area/map_template/ecprobe/solarss)
+"rh" = (
+/mob/living/simple_animal/hostile/human/heretic/bloodpact,
+/turf/simulated/floor/reinforced,
+/area/map_template/ecprobe/engineering)
 "rw" = (
 /obj/machinery/light/small/red{
 	dir = 4
@@ -329,23 +297,9 @@
 /turf/simulated/floor/reinforced,
 /area/map_template/ecprobe/engineering)
 "rE" = (
-/obj/structure/cable{
-	dir = 4;
-	icon_state = "1-2"
-	},
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/decoy{
-	icon_state = "ai-crash";
-	name = "inactive AI"
-	},
-/obj/machinery/door/window/eastright{
-	name = "Processing Core 1"
-	},
-/turf/simulated/floor/bluegrid,
-/area/map_template/ecprobe/engineering)
+/obj/structure/hivedecor/xenos,
+/turf/simulated/wall/r_wall/hull,
+/area/map_template/ecprobe/bridge)
 "rW" = (
 /obj/floor_decal/corner/blue/border{
 	dir = 1
@@ -375,6 +329,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/ecprobe/bridge)
+"sR" = (
+/obj/machinery/light/small/red{
+	dir = 1
+	},
+/mob/living/simple_animal/hostile/human/heretic/bloodpact/commando,
+/turf/simulated/floor/reinforced,
+/area/map_template/ecprobe/engineering)
 "th" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 10
@@ -386,6 +347,7 @@
 	dir = 6
 	},
 /obj/structure/table/steel_reinforced,
+/obj/random/loot/raregunslug,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/ecprobe/bridge)
 "tu" = (
@@ -430,7 +392,6 @@
 /turf/template_noop,
 /area/template_noop)
 "uV" = (
-/mob/living/simple_animal/hostile/hivebot/ranged_damage/strong/guard,
 /turf/simulated/floor,
 /area/map_template/ecprobe/engineering)
 "vu" = (
@@ -442,18 +403,12 @@
 /turf/template_noop,
 /area/template_noop)
 "xm" = (
-/obj/structure/window/reinforced,
-/obj/machinery/door/window{
-	dir = 8;
-	name = "Blackbox Recording Room"
-	},
+/obj/random/loot/randomsupply/tech,
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
 "yh" = (
 /obj/landmark/clear,
-/obj/structure/sign/warning/server_room{
-	pixel_y = 32
-	},
+/obj/structure/barricade/barbed,
 /turf/template_noop,
 /area/map_template/ecprobe/solarss)
 "zp" = (
@@ -511,10 +466,6 @@
 /area/map_template/ecprobe/engineering)
 "EI" = (
 /obj/machinery/telecomms/processor,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
 "EP" = (
@@ -550,7 +501,6 @@
 /obj/structure/bed/chair/office/light{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/rogue_drone/hijacked,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/ecprobe/bridge)
 "II" = (
@@ -573,36 +523,15 @@
 /area/map_template/ecprobe/bridge)
 "IV" = (
 /obj/machinery/telecomms/hub,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
 "Jt" = (
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/decoy{
-	icon_state = "ai-crash";
-	name = "inactive AI"
-	},
-/obj/machinery/door/window{
-	dir = 8;
-	name = "Processing Core 2"
-	},
-/turf/simulated/floor/bluegrid,
-/area/map_template/ecprobe/engineering)
+/obj/landmark/clear,
+/obj/structure/hivedecor/skulls,
+/turf/template_noop,
+/area/template_noop)
 "JG" = (
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /obj/item/stool,
-/mob/living/simple_animal/hostile/rogue_drone/hijacked,
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
 "JO" = (
@@ -613,9 +542,6 @@
 /obj/structure/shuttle/engine/heater{
 	dir = 8
 	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /turf/template_noop,
 /area/map_template/ecprobe/engineering)
 "Ko" = (
@@ -624,18 +550,9 @@
 /area/map_template/ecprobe/engineering)
 "KB" = (
 /obj/machinery/telecomms/bus,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
 "KD" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/machinery/recharge_station{
 	name = "drone recharging station";
 	desc = "An outdated, bulky model of recharging stations, designed for drones but wildly inefficient by modern standards. You see loose wires and sparks coming out of it."
@@ -661,29 +578,23 @@
 /area/map_template/ecprobe/bridge)
 "Ml" = (
 /obj/landmark/clear,
-/obj/structure/sign/warning/server_room{
-	dir = 1;
-	pixel_y = -32
-	},
+/obj/structure/barricade/barbed,
 /turf/template_noop,
 /area/map_template/ecprobe/solarsp)
 "Mv" = (
-/obj/structure/sign/warning/airlock{
-	dir = 1
-	},
+/obj/structure/sign/banner_count/warhammer/red,
 /turf/simulated/wall/r_wall/hull,
 /area/map_template/ecprobe/engineering)
 "ND" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/ecprobe/bridge)
 "NE" = (
-/obj/structure/cable{
-	dir = 4;
-	icon_state = "1-2"
-	},
-/mob/living/simple_animal/hostile/hivebot/ranged_damage/strong/guard,
-/turf/simulated/floor/reinforced,
-/area/map_template/ecprobe/engineering)
+/obj/item/material/shard,
+/obj/item/stack/material/rods,
+/obj/landmark/clear,
+/obj/structure/hivedecor/skulls,
+/turf/template_noop,
+/area/map_template/ecprobe/solarss)
 "NP" = (
 /obj/floor_decal/solarpanel,
 /obj/machinery/power/solar,
@@ -729,18 +640,15 @@
 /area/template_noop)
 "Ps" = (
 /obj/structure/cable{
+	dir = 4;
 	icon_state = "1-2"
 	},
-/mob/living/simple_animal/hostile/hivebot/ranged_damage/strong/guard,
+/obj/structure/barricade/sandbag,
+/obj/structure/barricade/sandbag,
+/obj/random/loot/randomsupply,
 /turf/simulated/floor/reinforced,
 /area/map_template/ecprobe/engineering)
 "PZ" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/item/disk/astrodata,
 /obj/item/paper/ecprobelog,
 /obj/machinery/computer/dummy{
@@ -773,12 +681,6 @@
 /obj/item/stock_parts/circuitboard/ntnet_relay,
 /obj/machinery/constructable_frame,
 /obj/item/stack/cable_coil,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
 "RP" = (
@@ -820,12 +722,6 @@
 /turf/simulated/floor/reinforced,
 /area/map_template/ecprobe/engineering)
 "Uc" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/structure/backup_server,
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
@@ -833,8 +729,13 @@
 /obj/machinery/constructable_frame,
 /obj/item/stack/cable_coil,
 /obj/item/stock_parts/circuitboard/broken,
-/obj/structure/window/reinforced,
 /turf/simulated/floor/bluegrid,
+/area/map_template/ecprobe/engineering)
+"Uj" = (
+/obj/structure/barricade/sandbag{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced,
 /area/map_template/ecprobe/engineering)
 "UJ" = (
 /obj/item/material/shard,
@@ -857,19 +758,9 @@
 	dir = 4;
 	icon_state = "1-2"
 	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/structure/decoy{
 	icon_state = "ai-crash";
 	name = "inactive AI"
-	},
-/obj/machinery/door/window{
-	dir = 4;
-	name = "Processing Core 1"
 	},
 /turf/simulated/floor/bluegrid,
 /area/map_template/ecprobe/engineering)
@@ -916,16 +807,12 @@
 /turf/simulated/floor,
 /area/map_template/ecprobe/engineering)
 "Zp" = (
-/obj/machinery/constructable_frame,
-/obj/item/stack/cable_coil,
-/obj/item/stock_parts/circuitboard/broken,
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/structure/cable{
+	dir = 4;
+	icon_state = "1-2"
 	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/simulated/floor/bluegrid,
+/obj/structure/barricade/sandbag,
+/turf/simulated/floor/reinforced,
 /area/map_template/ecprobe/engineering)
 "ZC" = (
 /obj/machinery/suit_storage_unit/engineering/salvage,
@@ -1144,7 +1031,7 @@ Ko
 oa
 oa
 kM
-kM
+go
 in
 RP
 RP
@@ -1199,19 +1086,19 @@ RP
 RP
 RP
 kM
-kM
+go
 uG
-kM
-kM
-Ko
-kM
-kM
-kM
+ld
+ld
+ld
+ld
+ld
+ld
 zp
 kM
 kM
 RP
-RP
+Jt
 RP
 RP
 RP
@@ -1227,7 +1114,7 @@ vz
 RP
 RP
 RP
-RP
+Jt
 RP
 RP
 kM
@@ -1296,12 +1183,12 @@ RP
 kM
 kM
 uK
-Zp
 Ug
-uK
+Ug
+Uj
 gB
 gB
-gB
+Ps
 KD
 uV
 uK
@@ -1330,15 +1217,15 @@ kM
 dK
 cY
 hQ
-uK
+Uj
 gB
-NE
 gB
+Zp
 RC
 qz
 TH
 kM
-kM
+go
 nJ
 OT
 Ok
@@ -1356,26 +1243,26 @@ tQ
 aq
 aq
 Ml
+Mv
 kM
 kM
-kM
-go
+uK
 uK
 uK
 uK
 Xj
-rE
+Xj
 gB
 uK
 uK
 uK
+kM
+kM
 Mv
-kM
-kM
 yh
 II
 ba
-UJ
+NE
 OT
 OT
 vz
@@ -1386,14 +1273,14 @@ JO
 nP
 pA
 pA
-ld
+pA
 pA
 YU
 GB
 YU
 id
 id
-Ps
+id
 id
 UW
 Ow
@@ -1419,8 +1306,8 @@ YK
 Yl
 Yl
 Yl
-JO
-kM
+Ml
+Mv
 ZC
 kM
 uK
@@ -1428,15 +1315,15 @@ uK
 uK
 uK
 hn
-Jt
-NE
+hn
+gB
 id
 id
 QF
 kM
 ZC
-kM
-OT
+Mv
+yh
 jV
 lO
 vu
@@ -1455,13 +1342,13 @@ JO
 kM
 kM
 kM
-dK
+sR
 KB
 EI
+Uj
 uK
 uK
-uK
-gB
+Zp
 Uc
 xm
 TH
@@ -1486,19 +1373,19 @@ vz
 vz
 sk
 kM
-kM
+go
 uK
 IV
 pv
+Uj
 uK
 uK
-uK
-gB
+Zp
 PZ
 JG
 uK
 kM
-kM
+go
 sk
 RP
 vz
@@ -1526,7 +1413,7 @@ uK
 uK
 uK
 gB
-uK
+rh
 uK
 uK
 kM
@@ -1659,7 +1546,7 @@ Lr
 Lr
 sk
 RP
-RP
+Jt
 RP
 vz
 vz
@@ -1677,11 +1564,11 @@ vz
 vz
 vz
 RP
-RP
+Jt
 sk
 sk
 Lr
-Lr
+rE
 Hu
 sw
 mJ

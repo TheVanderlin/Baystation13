@@ -20,6 +20,7 @@
 	var/initial_flooring
 	var/singleton/flooring/flooring
 	var/mineral = DEFAULT_WALL_MATERIAL
+	var/dirty = 10
 
 	// Initialization modifiers for mapping
 	/// Boolean (Default `FALSE`) - If set, the tile will not have atmosphere on init.
@@ -47,6 +48,8 @@
 		floortype = initial_flooring
 	if(floortype)
 		set_flooring(GET_SINGLETON(floortype))
+	if(dirty > 0 && prob(dirty)) // Check if dirt should spawn
+		new /obj/decal/cleanable/dirt(src)
 
 /turf/simulated/floor/proc/set_flooring(singleton/flooring/newflooring)
 	make_plating(defer_icon_update = 1)

@@ -320,6 +320,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	wielded_item_state = "lance-w"
 	w_class = ITEM_SIZE_GARGANTUAN
 	max_force = 70
+	slot_flags = SLOT_BACK|SLOT_HOLSTER
 	force_multiplier = 0.46 // Heavier, slower version of a spear.
 	unwielded_force_divisor = 0.32
 	thrown_force_multiplier = 0.32
@@ -350,6 +351,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	wielded_item_state = "spear-w"
 	w_class = ITEM_SIZE_GARGANTUAN
 	obj_flags = OBJ_FLAG_CONDUCTIBLE // Steel Staff
+	slot_flags = SLOT_BACK|SLOT_HOLSTER
 	max_force = 90
 	force_multiplier = 0.50
 	unwielded_force_divisor = 0.36
@@ -378,6 +380,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	item_state = "savaxe"
 	wielded_item_state = "savaxe"
 	w_class = ITEM_SIZE_GARGANTUAN
+	slot_flags = SLOT_BACK|SLOT_HOLSTER
 	max_force = 95
 	force_multiplier = 0.53 // Heavy chopping weapon.
 	unwielded_force_divisor = 0.36
@@ -501,6 +504,7 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 /obj/item/material/twohanded/ravenor/axe/thunderhammer
 	name = "thunder hammer"
 	desc = "A brutal weapon, not for the faint of heart. This weapon is the chosen wargear for Ordos Agents and Astartes -- legendary for its use against daemonkind. A truly terrifying power-weapon."
+	icon = 'icons/obj/weapons/melee/misc.dmi'
 	icon_state = "thunder_hammer"
 	item_state = "thunder_hammer"
 	wielded_item_state = "thunder_hammer-w"
@@ -522,13 +526,13 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	attack_cooldown_modifier = 1.8
 	melee_accuracy_bonus = 10
 
-
 /obj/item/material/twohanded/ravenor/axe/thunderhammer/omnissiah
 	name = "omnissiah axe"
 	desc = "Muh magos!"
 	icon = 'icons/obj/items/oma.dmi'
 	icon_state = "Whistle"
 	item_state = "Whistle_InHand"
+	slot_flags = SLOT_BACK|SLOT_HOLSTER
 	wielded_item_state = "Whistle_InHand_W"
 	max_force = 90
 	armor_penetration = 7
@@ -611,10 +615,10 @@ All weapons should use twohanded/warhammer -- otherwise it will break.
 	w_class = ITEM_SIZE_LARGE
 	origin_tech = list(TECH_COMBAT = 5)
 	attack_verb = list("flicked", "whipped", "lashed")
-	max_force = 38
-	force_multiplier = 0.1
-	unwielded_force_divisor = 0.1
-	thrown_force_multiplier = 0.25
+	max_force = 48
+	force_multiplier = 0.40
+	unwielded_force_divisor = 0.38
+	thrown_force_multiplier = 0.31
 	armor_penetration = 7 // Chaos Magic.
 	throw_speed = 1
 	edge = TRUE

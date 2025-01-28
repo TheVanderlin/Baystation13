@@ -370,6 +370,12 @@
 /obj/structure/barricade/barbed/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 		return 1
 
+/obj/structure/barricade/barbed/necro
+	name = "infestor mouth"
+	icon = 'icons/turf/flooring/decals.dmi'
+	icon_state = "necro2"
+	material = MATERIAL_BONE_CARTILAGE
+	damage = 40
 
 /obj/structure/barricade/spike
 	name = "spiked barricade"

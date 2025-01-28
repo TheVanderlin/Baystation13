@@ -52,8 +52,6 @@
 		if(broken && icon_off)
 			icon_state = icon_off
 			overlays += icon_broken
-		else if(locked)
-			icon_state = icon_locked
 		else
 			icon_state = icon_closed
 		ClearOverlays()
@@ -66,8 +64,6 @@
 		if(broken && icon_off)
 			icon_state = icon_off
 			overlays += icon_broken
-		else if(locked)
-			icon_state = icon_locked
 		else
 			icon_state = icon_closed
 		ClearOverlays()

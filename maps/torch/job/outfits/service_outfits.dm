@@ -10,6 +10,7 @@
 	back = /obj/item/storage/backpack/satchel/warfare/heavy
 	id_types = list(/obj/item/card/id/torch/crew)
 	pda_type = /obj/item/modular_computer/pda
+	l_pocket = /obj/item/device/flashlight/lantern
 	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife = 1)
 
 

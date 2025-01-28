@@ -8,7 +8,7 @@
 	map_generators = list(/datum/random_map/noise/exoplanet/snow, /datum/random_map/noise/ore/poor)
 	surface_color = "#e8faff"
 	water_color = "#b5dfeb"
-	habitability_weight = HABITABILITY_TYPICAL
+	habitability_weight = HABITABILITY_LOCKED
 	fauna_types = list(
 		/mob/living/simple_animal/hostile/retaliate/beast/samak,
 		/mob/living/simple_animal/hostile/retaliate/beast/diyaab,

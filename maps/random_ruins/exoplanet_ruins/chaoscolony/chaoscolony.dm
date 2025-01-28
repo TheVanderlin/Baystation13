@@ -33,7 +33,7 @@
 /datum/job/submap/bloodpactmagir
 	title = "Bloodpact Magir"
 	supervisors = "the Magister and the Archon"
-	info = "As the Magir commanding a captured Imperial colony, you’re a devout enforcer of the Blood Pact’s will. Once a nameless trooper in the Archon’s butcher legions, you’ve slaughtered your way to authority, forging the enslaved populace into a living testament to Khorne’s dominion and your unquenchable thirst for conquest."
+	info = "As the Magir commanding a captured Imperial colony, you’re a devout enforcer of the Blood Pact’s will. Once a nameless trooper in the Archon’s butcher legions, you’ve survived impossible odds and been chosen to lead their most elite shock troopers. Here in this backwater you are tasked with total dominion of this star-system, either by conquest or diplomacy. You must succeed, even in death you would not be free from punishment."
 	total_positions = 1
 	outfit_type = /singleton/hierarchy/outfit/job/ccolony/bloodpact/magir
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
@@ -51,6 +51,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/bloodpactmagir/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -60,20 +61,20 @@
 	else
 		current_title = title // use default title
 	to_chat(H,"<span class='danger'><b><font size=4>THE MAGIR/font></b></span>")
-	to_chat(H, "<span class='notice'><b><font size=2>As the Magir commanding a captured Imperial colony, you’re a devout enforcer of the Blood Pact’s will. Once a nameless trooper in the Archon’s butcher legions, you’ve slaughtered your way to authority, forging the enslaved populace into a living testament to Khorne’s dominion and your unquenchable thirst for conquest.</font></b></span>")
+	to_chat(H, "<span class='notice'><b><font size=2>As the Magir commanding a captured Imperial colony, you’re a devout enforcer of the Blood Pact’s will. Once a nameless trooper in the Archon’s butcher legions, you’ve survived impossible odds and been chosen to lead their most elite shock troopers. Here in this backwater you are tasked with total dominion of this star-system, either by conquest or diplomacy. You must succeed, even in death you would not be free from punishment.</font></b></span>")
 	GLOB.cult.add_antagonist(H.mind, ignore_role = 1, do_not_equip = 0)
-	to_chat(H, "<span class='notice'><b><font size=2>You are a bloodpact soldier loyal to the Chaos Magister Sek -- unlike the many pretenders you are truly blessed by the warp and can survive encounters that would boil the brains of most mortal men.</font></b></span>")
+	to_chat(H, "<span class='notice'><b><font size=2>The Magister expects progress, do not throw away your lives meaninglessy. Co-operate with other Cultists to secure the sector for Chaos! MURDERING CULTISTS FROM OTHER GODS WITHOUT REASON IS GRIEFING.</font></b></span>")
 	H.species.brute_mod = 0.6
 	H.species.burn_mod = 0.6
 	H.species.weaken_mod = 0.61
 	H.species.stun_mod = 0.61
 	H.species.slowdown = -0.15
-	return ..()
+	return
 
 /datum/job/submap/bloodpactsoldier
 	title = "Bloodpact Soldier"
 	supervisors = "the trust of your Magir"
-	info = "As a rank-and-file enforcer within the captured colony, you’re the sharpened blade of the Blood Pact’s dominion. Once a nameless marauder plucked from a war-torn backwater, you now revel in unleashed brutality, ever eager to spill blood in the Magister's name."
+	info = "As a rank-and-file enforcer within the captured colony, you’re the sharpened blade of the Blood Pact’s dominion. Once a nameless marauder plucked from a war-torn backwater, you now revel in unleashed brutality, ever eager to spill blood in the Magister's name. Tasked with the protection of the region from invading forces and the extension of the chaos magister's authority within this system."
 	total_positions = 4
 	outfit_type = /singleton/hierarchy/outfit/job/ccolony/bloodpact
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
@@ -92,6 +93,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/bloodpactsoldier/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -101,18 +103,17 @@
 	else
 		current_title = title // use default title
 	to_chat(H,"<span class='danger'><b><font size=4>THE BLOODPACT SOLDIER</font></b></span>")
-	to_chat(H, "<span class='notice'><b><font size=2>As a rank-and-file enforcer within the captured colony, you’re the sharpened blade of the Blood Pact’s dominion. Once a nameless marauder plucked from a war-torn backwater, you now revel in unleashed brutality, ever eager to spill blood in the Magister's name.</font></b></span>")
+	to_chat(H, "<span class='notice'><b><font size=2>As a rank-and-file enforcer within the captured colony, you’re the sharpened blade of the Blood Pact’s dominion. Once a nameless marauder plucked from a war-torn backwater, you now revel in unleashed brutality, ever eager to spill blood in the Magister's name. Tasked with the protection of the region from invading forces and the extension of the chaos magister's authority within this system.</font></b></span>")
 	H.equip_to_slot_or_store_or_drop(new /obj/item/material/twohanded/ravenor/knife/bowie, slot_in_backpack)
 	GLOB.cult.add_antagonist(H.mind, ignore_role = 1, do_not_equip = 0)
-	to_chat(H, "<span class='notice'><b><font size=2>You are a bloodpact soldier loyal to the Chaos Magister Sek -- unlike the many pretenders you are truly blessed by the warp and can survive encounters that would boil the brains of most mortal men.</font></b></span>")
+	to_chat(H, "<span class='notice'><b><font size=2>The Magister expects progress, do not throw away your lives meaninglessy. Co-operate with other Cultists to secure the sector for Chaos! MURDERING CULTISTS FROM OTHER GODS WITHOUT REASON IS GRIEFING.</font></b></span>")
 	H.species.brute_mod = 0.7
 	H.species.burn_mod = 0.7
 	H.species.weaken_mod = 0.71
 	H.species.stun_mod = 0.71
 	H.species.slowdown = -0.1
 	H.species.hunger_factor = DEFAULT_HUNGER_FACTOR * 0.75
-	return ..()
-
+	return
 
 /datum/job/submap/prisoner
 	title = "Prisoner"
@@ -139,6 +140,7 @@
 						SKILL_GUNS = SKILL_MASTER)
 
 /datum/job/submap/prisoner/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -175,7 +177,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/engineer, slot_w_uniform)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/gloves/thick/swat/techpriest, slot_gloves)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/techpriest, slot_back)
-		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/mechanicus/techpriest, slot_wear_suit)
+		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/storage/hooded/techpriest, slot_wear_suit)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 		if(prob(50))
 			H.equip_to_slot_or_store_or_drop(new /obj/item/device/augment_implanter/wrist_blade, slot_in_backpack)
@@ -212,7 +214,7 @@
 		else
 			H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/scrapforged/carapace2, slot_wear_suit)
 			H.equip_to_slot_or_store_or_drop(new /obj/item/ammo_magazine/speedloader/clip/stub/ms, slot_in_backpack)
-	return ..()
+	return
 
 /*
 		else if(current_title == "Miner")
@@ -259,7 +261,7 @@
 				*/
 
 /singleton/hierarchy/outfit/job/ccolony
-	name = OUTFIT_JOB_NAME("Chaos Colony")
+	name = OUTFIT_JOB_NAME("Prisoner")
 	id_types = null
 	pda_type = null
 	l_ear = /obj/item/device/radio/headset/map_preset/playablecolony
@@ -275,15 +277,15 @@
 	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/spacecash/bundle/c500 = 1)
 
 /singleton/hierarchy/outfit/job/ccolony/bloodpact
-	name = OUTFIT_JOB_NAME("Chaos Colony")
+	name = OUTFIT_JOB_NAME("Bloodpact")
 	id_types = null
 	pda_type = null
 	uniform = /obj/item/clothing/under/tactical
-	suit = /obj/item/clothing/suit/armor/grim/cult/bloodpact
+	suit = /obj/item/clothing/suit/armor/grim/cult/bloodpact/masterwork
 	mask = /obj/item/clothing/mask/gas/security/bloodpact
-	head = /obj/item/clothing/head/helmet/flak/chaos/bloodpact
-	shoes = /obj/item/clothing/shoes/jackboots/cadian
-	gloves = /obj/item/clothing/gloves/thick/swat/combat
+	head = /obj/item/clothing/head/helmet/flak/chaos/bloodpact/masterwork
+	shoes = /obj/item/clothing/shoes/jackboots/bloodpact
+	gloves = /obj/item/clothing/gloves/thick/swat/combat/bloodpact
 	l_hand = /obj/item/gun/energy/lasgun/triplex
 	back = /obj/item/storage/backpack/satchel/warfare/heavy
 	id_types = null
@@ -291,7 +293,7 @@
 	backpack_contents = list(/obj/item/device/flashlight/lantern = 1, /obj/item/pen/fancy/quill = 1, /obj/item/spacecash/bundle/c500 = 1)
 
 /singleton/hierarchy/outfit/job/ccolony/bloodpact/magir
-	name = OUTFIT_JOB_NAME("Chaos Colony")
+	name = OUTFIT_JOB_NAME("Bloodpact Magir")
 	l_hand = /obj/item/gun/projectile/automatic/boltrifle/lockebolter/drusian
 
 

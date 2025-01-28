@@ -39,6 +39,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/scavver_merc/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -88,7 +89,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/projectile/heavysniper/boltaction/imperial/crucible, slot_wear_suit)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/ammo_magazine/speedloader/clip/stub/ap, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/ammo_magazine/speedloader/clip/stub/ms, slot_in_backpack)
-	return ..()
+	return
 
 
 /datum/job/submap/scavver_noble
@@ -114,6 +115,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/scavver_noble/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -145,7 +147,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/gun/projectile/revolver/imperial/heavy/mateba, slot_belt)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/ammo_magazine/speedloader/revolver/ms, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/ammo_magazine/speedloader/revolver/ms, slot_in_backpack)
-	return ..()
+	return
 
 /datum/job/submap/scavver_crew
 	title = "Scavver"
@@ -174,6 +176,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/scavver_crew/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -224,7 +227,7 @@
 			H.equip_to_slot_or_store_or_drop(new /obj/item/gun/energy/lasgun/laspistol/militarum, slot_r_hand)
 		else
 			H.equip_to_slot_or_store_or_drop(new /obj/item/gun/projectile/pistol/slug, slot_r_hand)
-	return ..()
+	return
 
 
 /datum/job/submap/scavver_priest
@@ -260,6 +263,7 @@
 						SKILL_PILOT = SKILL_MASTER)
 
 /datum/job/submap/scavver_priest/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -290,7 +294,7 @@
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/engineer, slot_w_uniform)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/gloves/thick/swat/techpriest, slot_gloves)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/backpack/satchel/warfare/techpriest, slot_back)
-	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/mechanicus/techpriest, slot_wear_suit)
+	H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/suit/armor/grim/storage/hooded/techpriest, slot_wear_suit)
 	H.equip_to_slot_or_store_or_drop(new /obj/item/storage/box/survival, slot_in_backpack)
 	if(prob(50))
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/augment_implanter/wrist_blade, slot_in_backpack)
@@ -300,7 +304,7 @@
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/augment_implanter/popout_shotgun, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/organ/internal/augment/active/polytool/engineer, slot_in_backpack)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/implant/translator, slot_in_backpack)
-	return ..()
+	return
 
 /datum/job/submap/scavver_bard
 	title = "Scavver Bard"
@@ -327,6 +331,7 @@
 						SKILL_VIGOR = SKILL_DEMIGOD)
 
 /datum/job/submap/scavver_bard/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -350,7 +355,7 @@
 	else
 		H.equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/victorian/black, slot_w_uniform)
 		H.equip_to_slot_or_store_or_drop(new /obj/item/device/synthesized_instrument/guitar, slot_wear_suit)
-	return ..()
+	return
 
 /datum/job/submap/scavver_engineer
 	title = "Salvage Engineer"

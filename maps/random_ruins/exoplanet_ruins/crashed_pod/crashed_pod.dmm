@@ -172,7 +172,7 @@
 "by" = (
 /obj/machinery/alarm{
 	dir = 1;
-	pixel_y = -22;
+	pixel_y = -22
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -629,7 +629,7 @@
 /obj/machinery/light,
 /obj/machinery/alarm{
 	dir = 4;
-	pixel_x = -21;
+	pixel_x = -21
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -808,7 +808,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm{
-	pixel_y = 24;
+	pixel_y = 24
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -830,7 +830,7 @@
 	},
 /obj/machinery/alarm{
 	dir = 4;
-	pixel_x = -21;
+	pixel_x = -21
 	},
 /obj/item/clothing/suit/space/syndicate/black,
 /obj/item/clothing/head/helmet/space/void,
@@ -892,7 +892,7 @@
 	dir = 1
 	},
 /obj/machinery/alarm{
-	pixel_y = 24;
+	pixel_y = 24
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
@@ -1262,6 +1262,8 @@
 "rZ" = (
 /obj/structure/bed/chair/shuttle/blue,
 /obj/landmark/corpse/bloodpact,
+/obj/random/loot/tech2,
+/obj/random/loot/sidearmbundle,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -1437,7 +1439,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/item/storage/toolbox/mechanical,
+/obj/random/loot/randomsupply/engineering,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -1610,6 +1612,7 @@
 /area/map_template/oldpod)
 "MU" = (
 /obj/structure/table/steel_reinforced,
+/obj/random/loot/randomsupply,
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"
 	},
@@ -1668,7 +1671,7 @@
 	},
 /obj/machinery/alarm{
 	dir = 1;
-	pixel_y = -22;
+	pixel_y = -22
 	},
 /turf/simulated/floor/selfestructgrid{
 	name = "xenos plating"

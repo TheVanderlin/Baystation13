@@ -295,7 +295,7 @@
 /area/hallway/primary/thirddeck/center)
 "bh" = (
 /obj/structure/roller_bed,
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -1115,7 +1115,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/vacant/mess)
 "dk" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -5678,7 +5678,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/center)
 "rr" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -5873,7 +5873,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/fore)
 "se" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -8096,7 +8096,7 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/foreport)
 "Bs" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -8627,7 +8627,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -9399,7 +9399,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -10990,7 +10990,7 @@
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue,
 /area/crew_quarters/mess)
 "Kp" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -13441,7 +13441,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -13720,7 +13720,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/crew_quarters/sleep/bunk)
 "Uy" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -14679,7 +14679,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
 "XD" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24

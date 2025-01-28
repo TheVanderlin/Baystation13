@@ -356,7 +356,7 @@
 /obj/item/clothing/accessory/armor_plate/bodyglovebio
 	name = "biohazard bodyglove" // DO NOT EVER ATTACH TO ARMOR. BODYGLOVES ARE NOT ARMOR ACCESORIES. THEY ARE UNIFORM ATTACHMENTS
 	desc = "Composed of layered polymer fibers, attached to a uniform, this chemical bodyglove offers lightweight and flexible protection, suitable for menial mechanicus duties and light exploration."
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	siemens_coefficient = 0.1
 	color = COLOR_DARK_GREEN_GRAY
 	icon = 'icons/obj/clothing/uniforms.dmi'
@@ -388,7 +388,7 @@
 /obj/item/clothing/accessory/armor_plate/bodyglovemech
 	name = "mechanicus bodyglove"
 	desc = "Composed of advanced tech polymer fibers, attached to a uniform, this carapace-mesh bodyglove offers lightweight and flexible protection, suitable for all mechanicus duties and exploration of death-worlds."
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	siemens_coefficient = 0.1
 	color = COLOR_DARK_GREEN_GRAY
 	icon = 'icons/obj/clothing/uniforms.dmi'
@@ -421,7 +421,7 @@
 /obj/item/clothing/accessory/armor_plate/bodyglove
 	name = "undersuit bodyglove"
 	desc = "Composed of layered polymer fibers, attached to a uniform, this low-profile bodyglove offers lightweight and flexible protection, suitable for minimizing bulk without sacrificing defense."
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
@@ -452,7 +452,7 @@
 /obj/item/clothing/accessory/armor_plate/bodyglove2
 	name = "armoured bodyglove"
 	desc = "Made from tech polymers, attached to a uniform, this experimental bodyglove balances flexibility with advanced defensive capabilities, providing enhanced protection at the cost of more cumbersome movement."
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+40
 	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
@@ -482,11 +482,11 @@
 
 /obj/item/clothing/accessory/armor_plate/bodyglovecatachan
 	name = "catachan under armour"
-	desc = "Made from tech polymers, attached to a uniform, this death world variant balances energy protection with advanced bio defense systems, though it is vulnerable to primitive firearms and melee attacks, it's users rarely have to worry about losing when it comes to glorious melee."
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD
+	desc = "Made from tech polymers, attached to a uniform, this death world variant balances energy protection with advanced bio defense systems, though it is vulnerable to primitive firearms, it's users rarely have to worry about losing when it comes to glorious melee."
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS // We're simulating their rippling muscles a little bit with this bodyglove.
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+50
-	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD
+	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD // Catachans dont get cold.
 	heat_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	icon = 'icons/obj/clothing/uniforms.dmi'
@@ -498,11 +498,11 @@
 	blood_overlay_type = "armor"
 	icon_state = "catacomm" // Bulletproof pants and shirt.
 	item_state = "catacomm_s"
-	slowdown = 0.02
+	slowdown = 0.03
 	flags_inv = null
 	armor = list(
-		melee = 0,
-		bullet = 2,
+		melee = 2,
+		bullet = 1,
 		laser = 2,
 		energy = 4,
 		bio = 8,

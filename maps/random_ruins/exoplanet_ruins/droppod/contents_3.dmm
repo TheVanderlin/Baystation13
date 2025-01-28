@@ -1,6 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"b" = (
+/obj/random/loot/valuableloot,
+/turf/template_noop,
+/area/template_noop)
 "e" = (
-/mob/living/simple_animal/hostile/fleet_heavy,
+/obj/random/loot/lightmelee,
+/obj/random/loot/superrarearmor,
 /turf/template_noop,
 /area/template_noop)
 "f" = (
@@ -8,7 +13,7 @@
 /area/template_noop)
 
 (1,1,1) = {"
-f
+b
 f
 f
 "}
