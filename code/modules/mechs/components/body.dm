@@ -70,7 +70,7 @@
 	cell =        locate() in src
 	m_armour =    locate() in src
 	air_supply =  locate() in src
-	software = locate() in src
+	software =    locate() in src
 	storage_compartment = locate() in src
 
 /obj/item/mech_component/chassis/show_missing_parts(mob/user)
@@ -143,9 +143,6 @@
 
 	if(changed)
 		cockpit.react()
-
-/obj/item/mech_component/chassis/ready_to_install()
-	return (cell && diagnostics && m_armour)
 
 /obj/item/mech_component/chassis/prebuild()
 	diagnostics = new(src)
@@ -230,14 +227,6 @@
 		to_chat(user, SPAN_NOTICE(" Armor Integrity: <b>[round((((m_armour.max_dam - m_armour.total_dam) / m_armour.max_dam)) * 100)]%</b>"))
 	else
 		to_chat(user, SPAN_WARNING(" Armor Missing or Non-functional."))
-
-/obj/item/mech_component/update_health()
-	.=..()
-	var/mob/living/exosuit/mech = loc
-	if(istype(mech))
-		return
-	if(total_damage >= max_damage && mech.hatch_locked && mech.hatch_closed)
-		mech.hatch_locked = FALSE
 
 /obj/item/mech_component/chassis/powerloader
 	name = "open exosuit chassis"

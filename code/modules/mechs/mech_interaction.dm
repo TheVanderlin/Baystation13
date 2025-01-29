@@ -39,10 +39,8 @@
 		//If this happens something broke tbh
 		user.RemoveClickHandler(src)
 		return
-	if(E.hatch_closed)
-		E.ClickOn(A, params, user)
-		return
-	else return ..()
+	E.ClickOn(A, params, user)
+	return ..()
 
 /datum/click_handler/default/mech/OnDblClick(atom/A, params)
 	OnClick(A, params)

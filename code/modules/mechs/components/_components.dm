@@ -33,7 +33,6 @@
 	. = ..()
 	if(ready_to_install())
 		to_chat(user, SPAN_NOTICE("It is ready for installation."))
-	else
 		show_missing_parts(user)
 
 //These icons have multiple directions but before they're attached we only want south.
@@ -160,7 +159,7 @@
 			SPAN_NOTICE("\The [user] begins welding the damage on \the [src]..."),
 			SPAN_NOTICE("You begin welding the damage on \the [src]...")
 		)
-		var/repair_value = 10 * max(user.get_skill_value(SKILL_CONSTRUCTION), user.get_skill_value(SKILL_DEVICES))
+		var/repair_value = 20 * max(user.get_skill_value(SKILL_CONSTRUCTION), user.get_skill_value(SKILL_DEVICES))
 		if(user.do_skilled(1 SECOND, SKILL_DEVICES , src, 0.6) && brute_damage && WT.remove_fuel((SKILL_MAX + 1) - user.get_skill_value(SKILL_CONSTRUCTION), user))
 			repair_brute_damage(repair_value)
 			to_chat(user, SPAN_NOTICE("You mend the damage to \the [src]."))

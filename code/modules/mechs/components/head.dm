@@ -46,11 +46,6 @@
 		invisible = see_invisible
 	return invisible
 
-
-
-/obj/item/mech_component/sensors/ready_to_install()
-	return (radio && camera)
-
 /obj/item/mech_component/sensors/use_tool(obj/item/thing, mob/living/user, list/click_params)
 	if(istype(thing,/obj/item/robot_parts/robot_component/radio))
 		if(radio)
