@@ -53,8 +53,8 @@
 		charge_tick = 0
 	if (!power_supply || power_supply.charge >= power_supply.maxcharge)
 		return PROCESS_KILL
-//	if (++charge_tick < recharge_time)
-//		return
+	if (++charge_tick < recharge_time)
+		return
 
 	var/obj/item/cell/external = get_external_power_supply()
 	charge_tick = 0

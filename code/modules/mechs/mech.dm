@@ -28,8 +28,6 @@
 
 	var/emp_damage = 0
 
-	var/mech_flags = 0
-
 	var/obj/item/device/radio/exosuit/radio
 
 	var/wreckage_path = /obj/structure/mech_wreckage
@@ -78,7 +76,6 @@
 	var/obj/screen/exosuit/heat/hud_heat
 	var/obj/screen/exosuit/toggle/power_control/hud_power_control
 	var/obj/screen/exosuit/toggle/camera/hud_camera
-	var/obj/screen/exosuit/toggle/strafe/hud_strafing
 
 	//POWER
 	var/power = MECH_POWER_OFF
