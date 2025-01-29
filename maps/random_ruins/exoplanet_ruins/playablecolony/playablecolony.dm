@@ -84,7 +84,7 @@
 	title = "Landed Paladin"
 	supervisors = "the trust of your fellow Colonists"
 	info = "You are part of an established colony on the edge of the Ghoul Stars, far from the Imperium's reach. The outpost stands as a solitary bastion amidst the unknown, its purpose and survival intertwined with the mysteries of this distant frontier."
-	total_positions = 2
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/colonist
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 7
@@ -161,7 +161,7 @@
 	title = "Pathfinder"
 	supervisors = "the trust of your fellow Colonists"
 	info = "You are part of an established colony on the edge of the Ghoul Stars, far from the Imperium's reach. The outpost stands as a solitary bastion amidst the unknown, its purpose and survival intertwined with the mysteries of this distant frontier."
-	total_positions = 1
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/colonist
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 10
@@ -222,7 +222,7 @@
 	title = "Landed Tribal"
 	supervisors = "the trust of your fellow Colonists"
 	info = "You are part of an established colony on the edge of the Ghoul Stars, far from the Imperium's reach. The outpost stands as a solitary bastion amidst the unknown, its purpose and survival intertwined with the mysteries of this distant frontier."
-	total_positions = 1
+	total_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/colonist
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_VOX,SPECIES_TAU,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_KROOT)
 	skill_points = 9

@@ -174,10 +174,10 @@
 
 	var/mob/living/M = user
 	if(!safety() && world.time > last_safety_check + 5 MINUTES && !user.skill_check(SKILL_GUNS, SKILL_BASIC))
-		if(prob(30))
+		if(prob(5))
 			toggle_safety()
 			return 1
-	if((MUTATION_CLUMSY in M.mutations) && prob(40)) //Clumsy handling
+	if((MUTATION_CLUMSY in M.mutations) && prob(10)) //Clumsy handling
 		var/obj/P = consume_next_projectile()
 		if(P)
 			if(process_projectile(P, user, user, pick(BP_L_FOOT, BP_R_FOOT)))

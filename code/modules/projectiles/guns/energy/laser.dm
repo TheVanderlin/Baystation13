@@ -588,6 +588,7 @@
 	self_recharge = 1
 	recharge_time = 11
 	fire_delay = 16
+	safety_state = 1
 	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 2)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	projectile_type = /obj/item/projectile/energy/ion/plasma
@@ -689,6 +690,7 @@
 	desc = "The ION Cannon is a Tau weapon that projects a concentrated beam of ionized particles. Upon impact, it releases a burst of high-energy ions This advanced technology delivers precise and powerful shots, effective against both infantry and armored targets."
 	icon_state = "ionriflet"
 	item_state = "ionriflet"
+	safety_state = 1
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
 	w_class = ITEM_SIZE_GARGANTUAN
 	charge_meter = FALSE
@@ -716,6 +718,7 @@
 	desc = "The Railgun is a Tau weapon that accelerates high-density projectiles using magnetic fields. Upon impact, it delivers a precise and penetrating shot with overwhelming kinetic force. This sophisticated technology is effective against both infantry and heavily armored units."
 	icon_state = "railgun"
 	item_state = "railgun"
+	safety_state = 1
 	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
 	w_class = ITEM_SIZE_GARGANTUAN
 	charge_meter = FALSE
@@ -739,6 +742,7 @@
 	desc = "The trusty sidearm of the T'au Empire."
 	icon_state = "pulsep"
 	item_state = "pulsep"
+	safety_state = 1
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_HOLSTER
 	w_class = ITEM_SIZE_LARGE
 	charge_meter = FALSE
@@ -762,6 +766,7 @@
 	desc = "The standard-issue pulse rifle of the Fire Warrior Caste"
 	icon_state = "pulseb"
 	item_state = "pulseb"
+	safety_state = 1
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_BACK
 	w_class = ITEM_SIZE_GARGANTUAN
 	charge_meter = FALSE
