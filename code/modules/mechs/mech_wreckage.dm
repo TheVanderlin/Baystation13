@@ -15,7 +15,7 @@
 		name = "wreckage of \the [exosuit.name]"
 		if(!gibbed)
 			for(var/obj/item/thing in list(exosuit.arms, exosuit.legs, exosuit.head, exosuit.body))
-				if(thing && prob(40))
+				if(thing)
 					thing.forceMove(src)
 			for(var/hardpoint in exosuit.hardpoints)
 				if(exosuit.hardpoints[hardpoint])

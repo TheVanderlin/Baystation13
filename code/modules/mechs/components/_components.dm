@@ -33,7 +33,6 @@
 	. = ..()
 	if(ready_to_install())
 		to_chat(user, SPAN_NOTICE("It is ready for installation."))
-	else
 		show_missing_parts(user)
 
 //These icons have multiple directions but before they're attached we only want south.
@@ -66,22 +65,36 @@
 	return 1
 
 /obj/item/mech_component/proc/repair_brute_damage(amt)
-	take_brute_damage(-amt)
+	if(total_damage == max_damage)
+		take_brute_damage(-amt)
+		if(istype(loc, /mob/living/exosuit))
+			loc.update_icon()
+	else
+		take_brute_damage(-amt)
 
 /obj/item/mech_component/proc/repair_burn_damage(amt)
-	take_burn_damage(-amt)
+	if(total_damage == max_damage)
+		take_burn_damage(-amt)
+		if(istype(loc, /mob/living/exosuit))
+			loc.update_icon()
+	else
+		take_burn_damage(-amt)
 
 /obj/item/mech_component/proc/take_brute_damage(amt)
 	brute_damage = max(0, brute_damage + amt)
 	update_health()
 	if(total_damage == max_damage)
 		take_component_damage(amt,0)
+		if(istype(loc, /mob/living/exosuit))
+			loc.update_icon()
 
 /obj/item/mech_component/proc/take_burn_damage(amt)
 	burn_damage = max(0, burn_damage + amt)
 	update_health()
 	if(total_damage == max_damage)
 		take_component_damage(0,amt)
+		if(istype(loc, /mob/living/exosuit))
+			loc.update_icon()
 
 /obj/item/mech_component/proc/take_component_damage(brute, burn)
 	var/list/damageable_components = list()
@@ -146,7 +159,7 @@
 			SPAN_NOTICE("\The [user] begins welding the damage on \the [src]..."),
 			SPAN_NOTICE("You begin welding the damage on \the [src]...")
 		)
-		var/repair_value = 10 * max(user.get_skill_value(SKILL_CONSTRUCTION), user.get_skill_value(SKILL_DEVICES))
+		var/repair_value = 20 * max(user.get_skill_value(SKILL_CONSTRUCTION), user.get_skill_value(SKILL_DEVICES))
 		if(user.do_skilled(1 SECOND, SKILL_DEVICES , src, 0.6) && brute_damage && WT.remove_fuel((SKILL_MAX + 1) - user.get_skill_value(SKILL_CONSTRUCTION), user))
 			repair_brute_damage(repair_value)
 			to_chat(user, SPAN_NOTICE("You mend the damage to \the [src]."))
