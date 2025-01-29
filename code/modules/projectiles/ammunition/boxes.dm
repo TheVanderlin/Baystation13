@@ -526,6 +526,7 @@
 	name = "magazine (10mm AR)"
 	max_ammo = 25
 	icon_state = "5556"
+	caliber = CALIBER_AUTOHEAVY
 	ammo_type = /obj/item/ammo_casing/heavy
 	sales_price = 600
 
