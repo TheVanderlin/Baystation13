@@ -172,7 +172,7 @@
 	fire_delay = 3.5
 	accuracy = 0
 	self_recharge = 1
-	recharge_time = 5
+	recharge_time = 9
 	origin_tech = list(TECH_COMBAT = 2, TECH_MAGNET = 2)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	projectile_type = /obj/item/projectile/beam/lasgun
@@ -306,7 +306,7 @@
 	accuracy = 0.5
 	fire_delay = 3.3
 	self_recharge = 1
-	recharge_time = 4
+	recharge_time = 7
 	charge_cost = 33
 	cell_type = /obj/item/cell/device/high/xenos
 	projectile_type = /obj/item/projectile/beam/lasgun
@@ -347,7 +347,7 @@
 	one_hand_penalty = 1.5
 	fire_delay = 3.9
 	accuracy = 0
-	recharge_time = 6
+	recharge_time = 20
 	charge_cost = 22
 	wielded_item_state = "semir"
 	charge_meter = FALSE
@@ -474,7 +474,7 @@
 	fire_delay = 4.2
 	accuracy = 0
 	self_recharge = 1
-	recharge_time = 5
+	recharge_time = 11
 	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 3)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	projectile_type = /obj/item/projectile/beam/lasgun/hotshot
@@ -525,7 +525,7 @@
 	fire_delay = 4
 	accuracy = 0.2
 	self_recharge = 1
-	recharge_time = 7
+	recharge_time = 14
 	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 3)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	projectile_type = /obj/item/projectile/beam/incendiary_laser
@@ -586,7 +586,7 @@
 	one_hand_penalty = 3 //heavy af fam
 	accuracy = 0.5
 	self_recharge = 1
-	recharge_time = 11
+	recharge_time = 16
 	fire_delay = 16
 	safety_state = 1
 	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 2)
@@ -612,7 +612,7 @@
 	force = 10
 	one_hand_penalty = 1
 	fire_delay = 16
-	recharge_time = 10
+	recharge_time = 15
 	accuracy = -0.5 //it a pistol, but giga cool plasma
 	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 2)
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
@@ -706,7 +706,7 @@
 	fire_delay = 15
 	charge_cost = 90
 	self_recharge = 1
-	recharge_time = 10
+	recharge_time = 16
 	slowdown_general = 0.07
 	firemodes = list(
 		list(mode_name="light", projectile_type=/obj/item/projectile/energy/ion/plasma, charge_cost=50, burst=1, burst_delay=2.4, fire_delay=7),
@@ -734,7 +734,7 @@
 	fire_delay = 8
 	charge_cost = 70
 	self_recharge = 1
-	recharge_time = 9
+	recharge_time = 15
 	slowdown_general = 0.06
 
 /obj/item/gun/energy/tau/pulsepistol
@@ -757,7 +757,7 @@
 	fire_delay = 4.5
 	wielded_item_state = "pulsep"
 	self_recharge = 1
-	recharge_time = 6
+	recharge_time = 11
 	one_hand_penalty = 2
 	slowdown_general = 0
 
@@ -782,7 +782,7 @@
 	fire_delay = 4
 	wielded_item_state = "pulseb_wielded"
 	self_recharge = 1
-	recharge_time = 7
+	recharge_time = 12
 	slowdown_general = 0.05
 	firemodes = list(
 		list(mode_name="single", projectile_type=/obj/item/projectile/energy/pulserifle, charge_cost=45, burst=1, burst_delay=3, fire_delay=4),
