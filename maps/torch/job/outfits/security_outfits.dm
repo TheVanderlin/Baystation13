@@ -120,23 +120,23 @@
 
 
 /singleton/hierarchy/outfit/job/torch/crew/security/maccabian
-	name = OUTFIT_JOB_NAME("Maccabian Sergeant")
+	name = OUTFIT_JOB_NAME("Maccabian Guardsman")
 	head = /obj/item/clothing/head/helmet/flak/maccabian/sergeant
-	mask = /obj/item/clothing/mask/gas/maccabian/sergeant
+	mask = /obj/item/clothing/mask/gas/maccabian
 	glasses = /obj/item/clothing/glasses/cadiangoggles/elite
 	belt = /obj/item/material/twohanded/ravenor/sword/cutro/adamantine
-	suit = /obj/item/clothing/suit/armor/grim/maccabian/sergeant
+	suit = /obj/item/clothing/suit/armor/grim/maccabian
 	shoes = /obj/item/clothing/shoes/jackboots/maccabian
-	uniform = /obj/item/clothing/under/rank/maccabian/sergeant
+	uniform = /obj/item/clothing/under/rank/maccabian
 	r_pocket = null
 	l_ear = /obj/item/device/radio/headset/headset_sec
-	l_hand = /obj/item/gun/projectile/pistol/stub/talon
-	r_hand = /obj/item/gun/projectile/automatic/autogun/stubber
+	l_hand = /obj/item/gun/projectile/pistol/slug
+	r_hand = /obj/item/gun/projectile/automatic/slugrifle
 	gloves = /obj/item/clothing/gloves/thick/swat/cadian
 	id_types = list(/obj/item/card/id/torch/crew/security)
 	pda_type = /obj/item/modular_computer/pda/security
 	back = /obj/item/storage/backpack/satchel/maccabian
-	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/glaive = 1, /obj/item/ammo_magazine/autogunheavy = 2, /obj/item/ammo_magazine/pistol/small/ap)
+	backpack_contents = list(/obj/item/pen/fancy/quill = 1, /obj/item/material/twohanded/ravenor/knife/glaive = 1, /obj/item/ammo_magazine/heavy/ap = 2, /obj/item/ammo_magazine/magnum/ap = 2)
 
 /singleton/hierarchy/outfit/job/torch/crew/security/enforcer/fleet
 	name = OUTFIT_JOB_NAME("Master at Arms - Fleet")
