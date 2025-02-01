@@ -206,6 +206,8 @@
 
 /obj/item/clothing/suit/armor/grim/cult/bloodpact/masterwork
 	name = "bloodpact armor"
+	icon_state = "BP_Armor2"
+	item_state = "BP_Armor2"
 	desc = "Reinforced machined flak armor, a perfected pattern used by the elite of the Bloodpact, protects against lasfire. It has strange marks carved into it devoted to Khorne."
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	slowdown_general = 0.05

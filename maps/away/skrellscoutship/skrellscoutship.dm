@@ -74,7 +74,8 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 /datum/job/submap/tauscoutship_leader
 	title = "Shas-ui"
 	supervisors = "The Greater Good. The Ethereals. Your ambition."
-	total_positions = 1
+	total_positions = 0
+	faction = "Tau"
 	whitelisted_species = list(SPECIES_TAU)
 	outfit_type = /singleton/hierarchy/outfit/job/firewarriorleader
 	info = "Your vessel scouts the perilous expanse of the Ghoul Stars, mapping potential threats and identifying unknown forces, all while pursuing the Tau's relentless expansion and the ideals of the Greater Good."
@@ -120,7 +121,8 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 /datum/job/submap/tauscoutship_scoutvet
 	title = "Scout Veteran"
 	supervisors = "The Greater Good. The Ethereals. Your ambition."
-	total_positions = 1
+	total_positions = 0
+	faction = "Tau"
 	whitelisted_species = list(SPECIES_TAU)
 	outfit_type = /singleton/hierarchy/outfit/job/firewarriorscout
 	info = "Your vessel scouts the perilous expanse of the Ghoul Stars, mapping potential threats and identifying unknown forces, all while pursuing the Tau's relentless expansion and the ideals of the Greater Good."
@@ -162,7 +164,8 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 /datum/job/submap/tauscoutship_watercaste
 	title = "Kor-vattra Merchant"
 	supervisors = "The Greater Good. The Ethereals. Your ambition."
-	total_positions = 1
+	total_positions = 0
+	faction = "Tau"
 	whitelisted_species = list(SPECIES_TAU)
 	outfit_type = /singleton/hierarchy/outfit/job/watercaste
 	info = "Your vessel scouts the perilous expanse of the Ghoul Stars, mapping potential threats and identifying unknown forces, all while pursuing the Tau's relentless expansion and the ideals of the Greater Good."
@@ -209,9 +212,10 @@ var/global/const/access_tauscoutship = "ACCESS_TAUSCOUT"
 /datum/job/submap/tauscoutship_crew
 	title = "Fire Caste Warrior"
 	supervisors = "your commander and the Greater Good."
-	total_positions = 1
+	total_positions = 0
 	whitelisted_species = list(SPECIES_TAU)
 	blacklisted_species = null
+	faction = "Tau"
 	outfit_type = /singleton/hierarchy/outfit/job/firewarrior
 	info = "Your vessel scouts the perilous expanse of the Ghoul Stars, mapping potential threats and identifying unknown forces, all while pursuing the Tau's relentless expansion and the ideals of the Greater Good."
 	branch = /datum/mil_branch/tau_fleet

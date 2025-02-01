@@ -3027,8 +3027,8 @@
 /turf/simulated/wall/warhammer/techno,
 /area/engineering/bluespacebay)
 "gX" = (
-/obj/shuttle_landmark/merc/deck3{
-	name = "2nd Deck, Aft"
+/obj/shuttle_landmark/skipjack/deck3{
+	name = "2nd Deck, West Solars"
 	},
 /turf/space,
 /area/space)
@@ -6411,7 +6411,7 @@
 /area/assembly/robotics)
 "qu" = (
 /obj/shuttle_landmark/torch/deck3/aquila{
-	name = "2nd Deck, Aft Port"
+	name = "2nd Deck, East Engine"
 	},
 /turf/space,
 /area/space)
@@ -11898,14 +11898,14 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/engineering/engineering_bay)
 "FS" = (
-/obj/shuttle_landmark/skipjack/deck3{
-	name = "2nd Deck, Fore Port"
+/obj/shuttle_landmark/merc/deck3{
+	name = "2nd Deck, East Engine"
 	},
 /turf/space,
 /area/space)
 "FT" = (
 /obj/shuttle_landmark/torch/deck3/exploration_shuttle{
-	name = "2nd Deck, Port"
+	name = "2nd Deck, South Solars"
 	},
 /turf/space,
 /area/space)
@@ -11923,7 +11923,7 @@
 /area/space)
 "Gb" = (
 /obj/shuttle_landmark/torch/deck3/guppy{
-	name = "2nd Deck, Fore"
+	name = "2nd Deck, West Engine"
 	},
 /turf/space,
 /area/space)
@@ -13224,7 +13224,7 @@
 /area/synth/borg_upload)
 "Kb" = (
 /obj/shuttle_landmark/ert/deck3{
-	name = "2nd Deck, Fore Starboard"
+	name = "2nd Deck, North Engine"
 	},
 /turf/space,
 /area/space)
@@ -13442,7 +13442,7 @@
 /area/hallway/primary/seconddeck/fore)
 "Lb" = (
 /obj/shuttle_landmark/ninja/deck3{
-	name = "2nd Deck, Aft Starboard"
+	name = "2nd Deck, North Side"
 	},
 /turf/space,
 /area/space)
@@ -26171,7 +26171,7 @@ aa
 aa
 aa
 aa
-aa
+gX
 aa
 aa
 aa
@@ -26380,7 +26380,7 @@ aa
 aa
 aa
 aa
-FS
+aa
 aa
 aa
 aa
@@ -46781,7 +46781,7 @@ aa
 aa
 aa
 aa
-qu
+aa
 aa
 aa
 aa
@@ -50794,11 +50794,11 @@ aa
 aa
 aa
 aa
+FS
 aa
 aa
 aa
 aa
-gX
 aa
 aa
 aa
@@ -51168,7 +51168,7 @@ aa
 aa
 aa
 aa
-aa
+qu
 aa
 aa
 aa

@@ -2304,7 +2304,7 @@
 /area/maintenance/thirddeck/starboard)
 "gE" = (
 /obj/shuttle_landmark/ninja/deck4{
-	name = "3rd Deck, Aft"
+	name = "3rd Deck, East Side"
 	},
 /turf/space,
 /area/space)
@@ -6724,8 +6724,8 @@
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/thirddeck/aft)
 "uO" = (
-/obj/shuttle_landmark/torch/deck4/exploration_shuttle{
-	name = "3rd Deck, Fore Port"
+/obj/shuttle_landmark/torch/deck4/aquila{
+	name = "3rd Deck, West Side"
 	},
 /turf/space,
 /area/space)
@@ -11557,8 +11557,8 @@
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head)
 "LN" = (
-/obj/shuttle_landmark/skipjack/deck4{
-	name = "3rd Deck, Aft Port"
+/obj/shuttle_landmark/merc/deck4{
+	name = "3rd Deck, South Port"
 	},
 /turf/space,
 /area/space)
@@ -11636,7 +11636,7 @@
 /area/maintenance/thirddeck/foreport)
 "Mb" = (
 /obj/shuttle_landmark/ert/deck4{
-	name = "3rd Deck, Starboard"
+	name = "3rd Deck, North Side"
 	},
 /turf/space,
 /area/space)
@@ -11866,8 +11866,8 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/thirddeck/aftstarboard)
 "Nb" = (
-/obj/shuttle_landmark/merc/deck4{
-	name = "3rd Deck, Port"
+/obj/shuttle_landmark/skipjack/deck4{
+	name = "3rd Deck, South Side"
 	},
 /turf/space,
 /area/space)
@@ -12117,8 +12117,8 @@
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "Ob" = (
-/obj/shuttle_landmark/torch/deck4/aquila{
-	name = "3rd Deck, Fore"
+/obj/shuttle_landmark/torch/deck4/exploration_shuttle{
+	name = "3rd Deck, West Side"
 	},
 /turf/space,
 /area/space)
@@ -19332,7 +19332,7 @@ aa
 aa
 aa
 aa
-Ob
+aa
 aa
 aa
 aa
@@ -19535,7 +19535,7 @@ aa
 aa
 aa
 aa
-aa
+uO
 aa
 aa
 aa
@@ -19754,7 +19754,7 @@ aa
 aa
 aa
 aa
-aa
+Ob
 aa
 aa
 aa
@@ -20598,7 +20598,7 @@ aa
 aa
 aa
 aa
-uO
+aa
 aa
 aa
 aa
@@ -31918,7 +31918,7 @@ aa
 aa
 aa
 aa
-aa
+LN
 aa
 aa
 aa
@@ -32325,7 +32325,7 @@ aa
 aa
 aa
 aa
-Nb
+aa
 aa
 aa
 aa
@@ -42414,7 +42414,7 @@ aa
 aa
 aa
 aa
-aa
+Nb
 aa
 aa
 aa
@@ -44837,7 +44837,7 @@ aa
 aa
 aa
 aa
-LN
+aa
 aa
 aa
 aa

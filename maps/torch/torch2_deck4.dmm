@@ -1,20 +1,18 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ac" = (
 /obj/shuttle_landmark/skipjack/deck5{
-	name = "4th Deck, Aft Starboard"
+	name = "4th Deck, North Side"
 	},
 /turf/space,
 /area/space)
 "ad" = (
 /obj/shuttle_landmark/torch/deck5/guppy{
-	name = "4th Deck, Starboard"
+	name = "4th Deck, North Side"
 	},
 /turf/space,
 /area/space)
 "ae" = (
-/obj/shuttle_landmark/merc/deck5{
-	name = "4th Deck, Fore Starboard"
-	},
+/obj/shuttle_landmark/automatic,
 /turf/space,
 /area/space)
 "af" = (
@@ -161,9 +159,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/starboard)
 "aJ" = (
-/obj/wallframe_spawn/reinforced/hull,
-/turf/simulated/floor/warhammer/tunnelchess,
-/area/hallway/primary/fourthdeck/aft)
+/obj/structure/grille,
+/turf/space,
+/area/space)
 "aK" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
@@ -307,7 +305,7 @@
 /area/hallway/primary/fourthdeck/aft)
 "bn" = (
 /obj/shuttle_landmark/torch/deck5/aquila{
-	name = "4th Deck, Aft"
+	name = "4th Deck, East Side"
 	},
 /turf/space,
 /area/space)
@@ -580,7 +578,6 @@
 	frequency = 1380;
 	icon_state = "door_closed";
 	id_tag = "merchant_shuttle_station_exterior";
-	locked = 1;
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -674,6 +671,14 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/center)
+"cH" = (
+/obj/item/material/twohanded/ravenor/axe,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/center)
+"cI" = (
+/obj/structure/barricade/sandbagwall,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/center)
 "cK" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -756,6 +761,11 @@
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/fore)
+"di" = (
+/obj/machinery/door/firedoor,
+/obj/decal/cleanable/blood,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/center)
 "dj" = (
 /obj/structure/bed/chair/shuttle{
 	dir = 4
@@ -1258,6 +1268,10 @@
 	name = "Grand Room Key";
 	access = list("ACCESS_TAVERN1")
 	},
+/obj/machinery/door/unpowered/necron_door1{
+	req_access = list()
+	},
+/obj/item/fluff_items/necron4,
 /turf/simulated/floor/warhammer/coralg,
 /area/crew_quarters/galleybackroom)
 "fj" = (
@@ -1567,6 +1581,10 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fourthdeck/starboard)
+"gI" = (
+/obj/structure/barricade/barbed,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/center)
 "gL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -1996,6 +2014,12 @@
 "jw" = (
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/engineering/hardstorage)
+"jx" = (
+/obj/structure/barricade/barbed,
+/obj/landmark/corpse/infardi,
+/obj/decal/cleanable/blood,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/center)
 "jB" = (
 /obj/machinery/computer/modular/preset/civilian,
 /obj/structure/noticeboard{
@@ -2888,6 +2912,21 @@
 	dir = 5
 	},
 /area/crew_quarters/galleybackroom)
+"nK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/random/loot/lightmelee,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/center)
 "nR" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -3348,6 +3387,7 @@
 /area/eva)
 "qM" = (
 /obj/machinery/rotating_alarm/security_alarm,
+/obj/structure/barricade/sandbagwall,
 /turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/center)
 "qQ" = (
@@ -3422,6 +3462,12 @@
 "rp" = (
 /turf/simulated/wall/prepainted,
 /area/hallway/primary/fourthdeck/center)
+"rq" = (
+/obj/shuttle_landmark/ert/deck5{
+	name = "4th Deck, South Side"
+	},
+/turf/space,
+/area/space)
 "rr" = (
 /turf/simulated/floor/warhammer/ceramic/old,
 /area/crew_quarters/galley)
@@ -3850,6 +3896,12 @@
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/warhammer/tunnelchess,
+/area/hallway/primary/fourthdeck/center)
+"sQ" = (
+/obj/landmark/corpse/infardi,
+/obj/decal/cleanable/blood,
+/obj/random/loot/lightmelee,
+/turf/simulated/floor/warhammer/plating,
 /area/hallway/primary/fourthdeck/center)
 "sR" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -6279,9 +6331,7 @@
 /turf/space,
 /area/space)
 "Dr" = (
-/obj/machinery/computer/modular/preset/merchant{
-	req_access = list("ACCESS_MECHANICUS")
-	},
+/obj/machinery/computer/modular/preset/merchant,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/quartermaster/office)
 "Ds" = (
@@ -7507,7 +7557,6 @@
 	frequency = 1380;
 	icon_state = "door_closed";
 	id_tag = "skipjack_shuttle_dock_outer";
-	locked = 1;
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -7802,6 +7851,10 @@
 /obj/structure/sign/warning/docking_area,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/fourthdeck/foreport)
+"JC" = (
+/obj/machinery/door/unpowered/inn,
+/turf/simulated/floor/warhammer/darkwood,
+/area/crew_quarters/galleybackroom)
 "JD" = (
 /obj/effect/floor_decal/newcorner/polar{
 	dir = 4
@@ -7939,6 +7992,10 @@
 /obj/wallframe_spawn/reinforced/titanium,
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/shuttle/escape_pod8/station)
+"JW" = (
+/obj/gibspawner/human,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/center)
 "JX" = (
 /obj/shuttle_landmark/escape_pod/start/pod9,
 /obj/wallframe_spawn/reinforced/titanium,
@@ -8021,11 +8078,9 @@
 /turf/space,
 /area/space)
 "Kp" = (
-/obj/shuttle_landmark/ert/deck5{
-	name = "4th Deck, Fore Port"
-	},
-/turf/space,
-/area/space)
+/obj/item/grenade/frag/homemade,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/center)
 "Kq" = (
 /obj/landmark/test/space_turf,
 /turf/space,
@@ -8117,6 +8172,11 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/sorting)
+"KF" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/decal/cleanable/blood,
+/turf/simulated/floor/warhammer/plating,
+/area/hallway/primary/fourthdeck/center)
 "KG" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
@@ -8220,9 +8280,9 @@
 "KZ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/warhammer/engineering{
-	req_access = list("ACCESS_MECHANICUS");
-	name = "Private Office"
+/obj/machinery/door/airlock/warhammer/glass{
+	name = "Private Office";
+	req_access = list("ACCESS_DAUNTLESS")
 	},
 /turf/simulated/floor/warhammer/ceramic,
 /area/quartermaster/deckchief)
@@ -10483,6 +10543,12 @@
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/hallway/primary/fourthdeck/aft)
+"Tc" = (
+/obj/shuttle_landmark/merc/deck5{
+	name = "4th Deck, North Side"
+	},
+/turf/space,
+/area/space)
 "Te" = (
 /obj/structure/sign/wantedwritten,
 /turf/simulated/wall/ocp_wall,
@@ -10709,7 +10775,6 @@
 	frequency = 1331;
 	icon_state = "door_closed";
 	id_tag = "rescue_shuttle_dock_outer";
-	locked = 1;
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -10744,7 +10809,6 @@
 	frequency = 1380;
 	icon_state = "door_closed";
 	id_tag = "admin_shuttle_dock_outer";
-	locked = 1;
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -11550,7 +11614,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/warhammer/glass{
 	name = "Private Office";
-	req_access = list("ACCESS_MECHANICUS")
+	req_access = list("ACCESS_DAUNTLESS")
 	},
 /turf/simulated/floor/warhammer/ceramic,
 /area/quartermaster/deckchief)
@@ -18870,7 +18934,7 @@ Dl
 Dl
 Dl
 Dl
-ae
+Dl
 Dl
 Dl
 Dl
@@ -20763,7 +20827,7 @@ Dl
 Dl
 Dl
 Dl
-Kp
+Dl
 Dl
 Dl
 Dl
@@ -22782,7 +22846,7 @@ Dl
 Dl
 Dl
 Dl
-Dl
+rq
 Dl
 Dl
 Dl
@@ -23719,7 +23783,7 @@ Dl
 Dl
 Dl
 Dl
-Dl
+Tc
 Dl
 Dl
 Dl
@@ -27586,7 +27650,7 @@ ri
 aZ
 lf
 aZ
-yB
+JC
 aZ
 aZ
 rp
@@ -29416,7 +29480,7 @@ Lt
 af
 cF
 wl
-cF
+di
 rp
 EC
 EC
@@ -29618,7 +29682,7 @@ cw
 af
 qx
 Yn
-qx
+sQ
 rp
 CG
 CG
@@ -29818,9 +29882,9 @@ cw
 cw
 cw
 af
-qx
+cI
 Yn
-qx
+cI
 rp
 CG
 CG
@@ -30020,9 +30084,9 @@ XC
 af
 Lt
 af
-qx
+gI
 Yn
-qx
+gI
 rp
 CG
 CG
@@ -30222,7 +30286,7 @@ qt
 af
 hG
 af
-qx
+Kp
 sK
 qx
 rp
@@ -30628,7 +30692,7 @@ aV
 af
 qx
 Yn
-qx
+cH
 xB
 rp
 CG
@@ -30830,7 +30894,7 @@ yW
 af
 qM
 Yn
-qx
+cI
 wn
 rp
 CG
@@ -31030,9 +31094,9 @@ pK
 nB
 fV
 YX
-qx
+jx
 UX
-qx
+gI
 ro
 CG
 CG
@@ -31232,7 +31296,7 @@ pK
 BO
 MF
 YX
-YL
+KF
 xw
 Hh
 ro
@@ -31435,7 +31499,7 @@ AW
 zH
 YX
 qx
-UX
+nK
 qx
 ro
 pI
@@ -31840,7 +31904,7 @@ rp
 rp
 qx
 Yn
-qx
+JW
 VO
 rp
 pI
@@ -33252,7 +33316,7 @@ VW
 cq
 hh
 XI
-qx
+JW
 xJ
 qx
 UN
@@ -36664,7 +36728,7 @@ Dl
 Dl
 Dl
 Dl
-Yj
+LA
 tG
 RR
 LA
@@ -36707,10 +36771,10 @@ CL
 lJ
 MW
 JP
-aJ
+LA
 Px
 Ms
-Yj
+LA
 Dl
 Dl
 Dl
@@ -38887,7 +38951,7 @@ Dl
 Dl
 Dl
 Dl
-Dl
+aJ
 Vr
 Vr
 Vr
@@ -38931,7 +38995,7 @@ Vr
 Vr
 Vr
 Vr
-Dl
+aJ
 Dl
 Dl
 Dl
@@ -39090,51 +39154,51 @@ Dl
 Dl
 Dl
 Dl
+aJ
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+Vr
+aJ
 Dl
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Vr
-Dl
-Dl
-Dl
+aJ
 Dl
 Dl
 Dl
@@ -39293,7 +39357,7 @@ Dl
 Dl
 Dl
 Dl
-Dl
+aJ
 Vr
 Vr
 Vr
@@ -39333,7 +39397,7 @@ Vr
 Vr
 Vr
 Vr
-Dl
+aJ
 Dl
 Dl
 Dl
@@ -39536,7 +39600,7 @@ Dl
 Dl
 Dl
 Dl
-Dl
+aJ
 Dl
 Dl
 Dl
@@ -41761,7 +41825,7 @@ Dl
 Dl
 Dl
 Dl
-Dl
+ae
 Dl
 Dl
 Dl
@@ -41911,7 +41975,7 @@ Dl
 Dl
 Dl
 Dl
-Dl
+ae
 Dl
 Dl
 Dl
@@ -44776,7 +44840,7 @@ Dl
 Dl
 Dl
 Dl
-Dl
+ae
 Dl
 Dl
 Dl

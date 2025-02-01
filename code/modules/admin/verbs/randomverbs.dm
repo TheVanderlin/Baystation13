@@ -604,8 +604,14 @@ Ccomp's first proc.
 		alert("Cannot revive a ghost")
 		return
 	if(config.allow_admin_rev)
-		M.revive()
-
+		// M.revive()
+		M.adjustBruteLoss(-30)
+		M.adjustFireLoss(-40)
+		M.adjustToxLoss(-30)
+		M.adjustBrainLoss(-25)
+		M.adjustToxLoss(-25)
+		M.adjust_fire_stacks(3)
+		M.IgniteMob()
 		log_and_message_admins("healed / revived [key_name_admin(M)]!")
 	else
 		alert("Admin revive disabled")

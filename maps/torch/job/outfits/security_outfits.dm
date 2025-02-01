@@ -121,7 +121,7 @@
 
 /singleton/hierarchy/outfit/job/torch/crew/security/maccabian
 	name = OUTFIT_JOB_NAME("Maccabian Guardsman")
-	head = /obj/item/clothing/head/helmet/flak/maccabian/sergeant
+	head = /obj/item/clothing/head/helmet/flak/maccabian
 	mask = /obj/item/clothing/mask/gas/maccabian
 	glasses = /obj/item/clothing/glasses/cadiangoggles/elite
 	belt = /obj/item/material/twohanded/ravenor/sword/cutro/adamantine

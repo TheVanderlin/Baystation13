@@ -3,20 +3,20 @@
 /turf/space,
 /area/space)
 "aab" = (
-/obj/shuttle_landmark/merc/deck2{
-	name = "1st Deck, Aft Starboard"
+/obj/shuttle_landmark/torch/deck2/exploration_shuttle{
+	name = "1st Deck, North Side"
 	},
 /turf/space,
 /area/space)
 "aac" = (
-/obj/shuttle_landmark/torch/deck2/exploration_shuttle{
-	name = "1st Deck, Fore Starboard"
+/obj/shuttle_landmark/torch/deck2/aquila{
+	name = "1st Deck, South Side"
 	},
 /turf/space,
 /area/space)
 "aad" = (
 /obj/shuttle_landmark/torch/deck2/guppy{
-	name = "1st Deck, Aft"
+	name = "1st Deck, East Side"
 	},
 /turf/space,
 /area/space)
@@ -106,7 +106,7 @@
 /area/engineering/fuelbay/aux)
 "aar" = (
 /obj/shuttle_landmark/skipjack/deck2{
-	name = "1st Deck, Fore"
+	name = "1st Deck, West Armory"
 	},
 /turf/space,
 /area/space)
@@ -6354,7 +6354,7 @@
 /area/hallway/primary/firstdeck/aft)
 "azV" = (
 /obj/shuttle_landmark/ert/deck2{
-	name = "1st Deck, Fore Port"
+	name = "1st Deck, South Side"
 	},
 /turf/space,
 /area/space)
@@ -10845,13 +10845,13 @@
 /area/rnd/xenobiology/cell_3)
 "aWn" = (
 /obj/shuttle_landmark/ninja/deck2{
-	name = "1st Deck, Aft Port"
+	name = "1st Deck, East Side"
 	},
 /turf/space,
 /area/space)
 "aWo" = (
-/obj/shuttle_landmark/torch/deck2/aquila{
-	name = "1st Deck, Port"
+/obj/shuttle_landmark/merc/deck2{
+	name = "1st Deck, North Side"
 	},
 /turf/space,
 /area/space)
@@ -32094,10 +32094,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
 azV
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -33223,8 +33223,8 @@ aaa
 aaa
 aaa
 aaa
-aac
 aaa
+aab
 aaa
 aaa
 aaa
@@ -40382,7 +40382,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aac
 aaa
 aaa
 aaa
@@ -40990,7 +40990,7 @@ aaa
 aaa
 aaa
 aaa
-aWo
+aaa
 aaa
 aaa
 aaa
@@ -52701,7 +52701,7 @@ aaa
 aaa
 aaa
 aaa
-aWn
+aaa
 aaa
 aaa
 aaa
@@ -52815,7 +52815,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aWo
 aaa
 aaa
 aaa
@@ -53018,7 +53018,7 @@ aaa
 aaa
 aaa
 aaa
-aab
+aaa
 aaa
 aaa
 aaa
@@ -56313,7 +56313,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aWn
 aaa
 aaa
 aaa

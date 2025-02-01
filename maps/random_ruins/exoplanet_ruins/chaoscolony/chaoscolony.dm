@@ -286,7 +286,7 @@
 	head = /obj/item/clothing/head/helmet/flak/chaos/bloodpact/masterwork
 	shoes = /obj/item/clothing/shoes/jackboots/bloodpact
 	gloves = /obj/item/clothing/gloves/thick/swat/combat/bloodpact
-	l_hand = /obj/item/gun/energy/lasgun/triplex
+	l_hand = /obj/item/gun/energy/lasgun/laspistol/militarum/bloodpact
 	back = /obj/item/storage/backpack/satchel/warfare/heavy
 	id_types = null
 	pda_type = /obj/item/modular_computer/pda
@@ -294,7 +294,7 @@
 
 /singleton/hierarchy/outfit/job/ccolony/bloodpact/magir
 	name = OUTFIT_JOB_NAME("Bloodpact Magir")
-	l_hand = /obj/item/gun/projectile/automatic/boltrifle/lockebolter/drusian
+	l_hand = /obj/item/gun/energy/lasgun/laspistol/hellpistol
 
 
 // Areas //
