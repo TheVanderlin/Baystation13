@@ -169,7 +169,6 @@
 
 var/global/list/Tier1Runes = list(
 	/mob/proc/convert_rune,
-	/mob/proc/teleport_rune,
 	/mob/proc/tome_rune,
 	/mob/proc/wall_rune,
 	/mob/proc/ajorney_rune,
@@ -187,20 +186,17 @@ var/global/list/Tier1Runes = list(
 var/global/list/Tier2Runes = list(
 	/mob/proc/offering_rune,
 	/mob/proc/drain_rune,
-	/mob/proc/emp_rune,
 	/mob/proc/massdefile_rune
 	)
 
 var/global/list/Tier3Runes = list(
-	/mob/proc/weapon_rune,
 	/mob/proc/shell_rune,
 	/mob/proc/bloodboil_rune,
 	/mob/proc/confuse_rune,
-	/mob/proc/revive_rune
 )
 
 var/global/list/Tier4Runes = list(
-	/mob/proc/tearreality_rune
+	/mob/proc/revive_rune
 	)
 
 /mob/proc/convert_rune()

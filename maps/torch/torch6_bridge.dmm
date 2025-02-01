@@ -2278,7 +2278,7 @@
 /area/hallway/primary/bridge/fore)
 "gl" = (
 /obj/shuttle_landmark/torch/deck1/exploration_shuttle{
-	name = "B-Deck, Fore Port"
+	name = "B-Deck, West Bridge"
 	},
 /turf/space,
 /area/space)
@@ -6795,14 +6795,14 @@
 /turf/simulated/open,
 /area/maintenance/bridge/aftport)
 "yA" = (
-/obj/shuttle_landmark/skipjack/deck1{
-	name = "B-Deck, Port"
+/obj/shuttle_landmark/torch/deck1/guppy{
+	name = "B-Deck, North Solars"
 	},
 /turf/space,
 /area/space)
 "yB" = (
-/obj/shuttle_landmark/torch/deck1/guppy{
-	name = "B-Deck, Aft Starboard"
+/obj/shuttle_landmark/torch/deck1/aquila{
+	name = "B-Deck, East Solars"
 	},
 /turf/space,
 /area/space)
@@ -6882,7 +6882,7 @@
 /area/security/bridgecheck)
 "zb" = (
 /obj/shuttle_landmark/merc/deck1{
-	name = "B-Deck, Aft"
+	name = "B-Deck, East Solars"
 	},
 /turf/space,
 /area/space)
@@ -7030,7 +7030,7 @@
 /area/maintenance/bridge/aftstarboard)
 "Ab" = (
 /obj/shuttle_landmark/ninja/deck1{
-	name = "B-Deck, Aft Port"
+	name = "B-Deck, South Solars"
 	},
 /turf/space,
 /area/space)
@@ -7361,8 +7361,8 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
 "Cb" = (
-/obj/shuttle_landmark/torch/deck1/aquila{
-	name = "B-Deck, Fore Starboard"
+/obj/shuttle_landmark/skipjack/deck1{
+	name = "B-Deck, South Solars"
 	},
 /turf/space,
 /area/space)
@@ -10413,7 +10413,7 @@
 /area/crew_quarters/heads/cobed)
 "UU" = (
 /obj/shuttle_landmark/ert/deck1{
-	name = "B-Deck, Fore"
+	name = "B-Deck, West Bridge"
 	},
 /turf/space,
 /area/space)
@@ -14376,7 +14376,7 @@ aa
 aa
 aa
 aa
-UU
+aa
 aa
 aa
 aa
@@ -14578,7 +14578,7 @@ aa
 aa
 aa
 aa
-aa
+UU
 aa
 aa
 aa
@@ -14942,7 +14942,6 @@ aa
 aa
 aa
 aa
-Cb
 aa
 aa
 aa
@@ -14993,6 +14992,7 @@ aa
 aa
 aa
 aa
+gl
 aa
 aa
 aa
@@ -16026,7 +16026,7 @@ aa
 aa
 aa
 aa
-gl
+aa
 aa
 aa
 aa
@@ -26529,7 +26529,7 @@ aa
 aa
 aa
 aa
-aa
+Cb
 aa
 aa
 aa
@@ -27345,7 +27345,7 @@ aa
 aa
 aa
 aa
-yA
+aa
 aa
 aa
 aa
@@ -37159,8 +37159,8 @@ aa
 aa
 aa
 aa
-yB
 aa
+yA
 aa
 aa
 aa
@@ -44266,7 +44266,7 @@ aa
 aa
 aa
 aa
-aa
+yB
 aa
 aa
 aa

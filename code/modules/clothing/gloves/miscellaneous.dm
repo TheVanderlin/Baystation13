@@ -319,7 +319,7 @@
 		bomb = ARMOR_BOMB_TEN+5
 	)
 	icon_state = "work"
-	item_state = "techpriest"
+	item_state = "admech_gauntlets"
 	unacidable = 1
 
 /obj/item/clothing/gloves/thick/swat/sister

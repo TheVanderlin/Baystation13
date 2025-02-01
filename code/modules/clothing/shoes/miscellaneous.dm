@@ -310,7 +310,7 @@
 	name = "techno-boots"
 	desc = "Cybernetic legs scurry the Tech-priest where he is needed."
 	icon_state = "merc_rig"
-	item_state = "techpriest"
+	item_state = "admech_boots"
 	siemens_coefficient = 0.7
 	unacidable = 1
 	item_flags = ITEM_FLAG_NOSLIP
