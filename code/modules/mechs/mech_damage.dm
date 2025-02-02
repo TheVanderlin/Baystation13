@@ -69,11 +69,9 @@
 /mob/living/exosuit/bullet_act(obj/item/projectile/P, def_zone, used_weapon)
 	if (status_flags & GODMODE)
 		return PROJECTILE_FORCE_MISS
-	if(!def_zone)
-		return PROJECTILE_FORCE_MISS
 	switch(def_zone)
 		if(BP_HEAD , BP_CHEST, BP_MOUTH, BP_EYES)
-			if(LAZYLEN(pilots) && (!hatch_closed || !prob(body.pilot_coverage) || (body.total_damage == body.max_damage && (P.armor_penetration > 10 && P.damage > 10))))
+			if(LAZYLEN(pilots) && (!hatch_closed || !prob(body.pilot_coverage)))
 				var/mob/living/pilot = pick(pilots)
 				return pilot.bullet_act(P, def_zone, used_weapon)
 	..()
@@ -130,6 +128,7 @@
 					def_zone = BP_L_LEG
 				else if(part == head)
 					def_zone = BP_HEAD
+
 				. = .() || .
 			return
 
@@ -172,14 +171,14 @@
 
 /mob/living/exosuit/getFireLoss()
 	var/total = 0
-	for(var/obj/item/mech_component/MC in list(body))
+	for(var/obj/item/mech_component/MC in list(arms, legs, body, head))
 		if(MC)
 			total += MC.burn_damage
 	return total
 
 /mob/living/exosuit/getBruteLoss()
 	var/total = 0
-	for(var/obj/item/mech_component/MC in list(body))
+	for(var/obj/item/mech_component/MC in list(arms, legs, body, head))
 		if(MC)
 			total += MC.brute_damage
 	return total
@@ -208,10 +207,3 @@
 
 /mob/living/exosuit/get_bullet_impact_effect_type(def_zone)
 	return BULLET_IMPACT_METAL
-
-/mob/living/exosuit/electrocute_act(shock_damage, obj/source, siemens_coeff = 1.0, def_zone = null)
-	if(LAZYLEN(pilots) && (body.total_damage == body.max_damage))
-		var/mob/living/pilot = pick(pilots)
-		return pilot.electrocute_act(shock_damage, source, siemens_coeff, def_zone)
-	else
-		return ..()

@@ -256,13 +256,6 @@
 	materials = list(MATERIAL_STEEL = 70000, MATERIAL_URANIUM = 10000)
 	build_path = /obj/item/mech_component/chassis/heavy
 
-/datum/design/item/mechfab/exosuit/tank_torso
-	name = "cubical exosuit chassis"
-	id = "cubical_body"
-	time = 75
-	materials = list(MATERIAL_STEEL = 100000, MATERIAL_URANIUM = 20000, MATERIAL_DIAMOND = 5000)
-	build_path = /obj/item/mech_component/chassis/cubical
-
 /datum/design/item/mechfab/exosuit/heavy_arms
 	name = "heavy exosuit manipulators"
 	id = "heavy_arms"
@@ -292,14 +285,6 @@
 	materials = list(MATERIAL_STEEL = 25000)
 	build_path = /obj/item/mech_component/propulsion/tracks
 	req_tech = list(TECH_MATERIAL = 4)
-
-/datum/design/item/mechfab/exosuit/wheel
-	name = "ruggedized wheels"
-	id = "wheels"
-	time = 35
-	materials = list(MATERIAL_STEEL = 25000)
-	build_path = /obj/item/mech_component/propulsion/wheels
-	req_tech = list(TECH_MATERIAL = 3)
 
 /datum/design/item/mechfab/exosuit/sphere_torso
 	name = "spherical chassis"
@@ -437,18 +422,6 @@
 	name = "mounted laser gun"
 	id = "mech_laser"
 	req_tech = list(TECH_COMBAT = 4, TECH_MAGNET = 4)
-	build_path = /obj/item/mech_equipment/mounted_system/taser/laser
-
-/datum/design/item/exosuit/weapon/plasma
-	name = "mounted plasma gun"
-	id = "mech_plasma"
-	req_tech = list(TECH_COMBAT = 5, TECH_MAGNET = 4)
-	build_path = /obj/item/mech_equipment/mounted_system/taser/laser
-
-/datum/design/item/exosuit/weapon/sniper
-	name = "mounted beam precision rifle"
-	id = "mech_sniper"
-	req_tech = list(TECH_COMBAT = 5, TECH_MAGNET = 4)
 	build_path = /obj/item/mech_equipment/mounted_system/taser/laser
 
 /datum/design/item/exosuit/weapon/machete

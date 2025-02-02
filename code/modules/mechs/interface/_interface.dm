@@ -29,8 +29,7 @@
 			/obj/screen/exosuit/toggle/hatch_open,
 			/obj/screen/exosuit/radio,
 			/obj/screen/exosuit/rename,
-			/obj/screen/exosuit/toggle/camera,
-			/obj/screen/exosuit/toggle/strafe
+			/obj/screen/exosuit/toggle/camera
 			)
 		if(body && body.pilot_coverage >= 100)
 			additional_hud_elements += /obj/screen/exosuit/toggle/air
@@ -54,7 +53,6 @@
 		hud_heat = new /obj/screen/exosuit/heat(src)
 		hud_heat.screen_loc = "EAST-1:28,CENTER-4"
 		hud_elements |= hud_heat
-		hud_strafing = locate(/obj/screen/exosuit/toggle/strafe) in hud_elements
 
 	refresh_hud()
 
