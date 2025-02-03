@@ -42,7 +42,7 @@
 	desc = "The standard armour found throughout the Cadian-oriented PDF and Cadian Regiments, reinforced with heavy flak inserts for better protection in the field."
 	icon_state = "farmor"
 	item_state = "farmor"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -63,7 +63,7 @@
 	desc = "The standard armour found throughout the Cadian-oriented PDF and Cadian Regiments, It is so common that it became symbol of the Astra Militarum as a whole. This one is in it light configuration, issued to the Whiteshields."
 	icon_state = "fvest"
 	item_state = "fvest"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-100
@@ -110,7 +110,7 @@
 	desc = "The carapace armor issued to a Planetary Defense Force captain, providing reliable protection while maintaining a balance of mobility and durability."
 	icon_state = "PDF-CaptainT"
 	item_state = "PDF-CaptainT"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	w_class = ITEM_SIZE_GARGANTUAN
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -141,7 +141,7 @@
 	item_state = "fharmor"
 	w_class = ITEM_SIZE_GARGANTUAN
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO // Same as regular Cadian but provides better leg/arm protection.
+	body_parts_covered = LEGS|ARMS|FULL_TORSO // Same as regular Cadian but provides better leg/arm protection.
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+50
@@ -161,7 +161,7 @@
 	desc = "The reinforced carapace armor worn by Cadian Officers, offering enhanced protection with carapace inserts."
 	icon_state = "fharmor"
 	item_state = "fharmor"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -182,7 +182,7 @@
 	desc = "The standard armour found throughout the Cadian-oriented PDF and Cadian Regiments, reinforced with carapace plates for enhanced protection in combat zones."
 	icon_state = "fharmor"
 	item_state = "fharmor"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -203,7 +203,7 @@
 	desc = "A reinforced Krieg flak overcoat, resistant to environmental hazards like radiation and biohazards, with decent ballistic and thermal protection."
 	icon_state = "kriegcoat"
 	item_state = "kriegcoat"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -224,7 +224,7 @@
 	desc = "The reinforced carapace overcoat of a Krieg Officer, offering additional protection against hazardous environments and combat damage."
 	icon_state = "kriegcoat"
 	item_state = "kriegcoat"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -246,7 +246,7 @@
 	desc = "A Krieg grenadier carapace-plated overcoat, offering excellent protection at the cost of movement."
 	icon_state = "grencoat"
 	item_state = "grencoat"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	w_class = ITEM_SIZE_GARGANTUAN
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy)
@@ -268,7 +268,7 @@
 	desc = "The fatigues worn by a Mordian Iron Guardsman. Light and robust in the colour blue, designed to protect against blast and small arms fire."
 	icon_state = "MordianC"
 	item_state = "MordianC"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar) // Flak Padding. lighter and weaker.
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
@@ -306,7 +306,7 @@
 	desc = "A thermal flak overcoat designed for Valhallan Ice Warriors, providing standard protection against energy projectiles and blunt force."
 	icon_state = "valarmor"
 	item_state = "valarmor"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -351,7 +351,7 @@
 	icon_state = "M_Armor-Icon"
 	item_state = "M_Armor-Icon"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -372,7 +372,7 @@
 	desc = "The flak armor worn by Maccabian Sergeants, reinforced with carapace plates for enhanced protection."
 	icon_state = "M_SArmor-Icon"
 	item_state = "M_SArmor-Icon"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapacemaster)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -393,7 +393,7 @@
 	desc = "A light flak vest worn by Catachan Guardsmen, designed for mobility over protection."
 	icon_state = "Catachan_Vest"
 	item_state = "Catachan_Vest"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO // Need to give catachan space immunity later
+	body_parts_covered = LEGS|ARMS|FULL_TORSO // Need to give catachan space immunity later
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
@@ -411,7 +411,7 @@
 /obj/item/clothing/suit/armor/grim/catachan/sergeant
 	name = "catachan flak vest"
 	desc = "A decorated Catachan flak vest worn by sergeants, offering slightly better protection without compromising mobility."
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapacemaster)
 
 /obj/item/clothing/suit/armor/grim/commissar
@@ -419,7 +419,7 @@
 	desc = "The infamous greatcoat worn by an Imperial Commissar, reinforced with carapace-lamellar lining for additional protection."
 	icon_state = "commissar4"
 	item_state = "commissar4"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapacemaster) // There's only a handful of commissar's to a regiment. They get the good stuff.
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+60
@@ -538,7 +538,7 @@
 	desc = "Worn by those who make a living tracking down Imperial fugitives or collecting bounties, this armor is built for mobility and resilience."
 	icon_state = "valhalla"
 	item_state = "valhalla"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	slowdown_general = 0.025
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -600,7 +600,7 @@
 	desc = "The lightweight flak jacket worn by a Enforcer. It’s a low-profile, black coat designed to provide moderate protection against blasts and small arms fire while maintaining mobility."
 	icon_state = "enforcercoat"
 	item_state = "enforcercoat"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO // Low profile armor but still highly protective.
+	body_parts_covered = LEGS|ARMS|FULL_TORSO // Low profile armor but still highly protective.
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+300
@@ -620,7 +620,7 @@
 	desc = "A flak jacket worn by Enforcer's. Black and streamlined, it provides mobility while offering enhanced protection against blasts and small arms fire."
 	icon_state = "enforcercoat"
 	item_state = "enforcercoat"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	slowdown_general = 0.055
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy) // Heavy cheaper plates. Marshals can't have two sets of masterwork.
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -656,6 +656,10 @@
 		bomb = ARMOR_BOMB_THIRTY+5
 		)
 
+
+/obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/on_update_icon()
+	return
+
 // MECHANICUS
 /obj/item/clothing/suit/armor/grim/storage/hooded/mechanicus/bondsman
 	name = "mechanicus hazard suit"
@@ -663,7 +667,7 @@
 	icon_state = "MineWorkerS"
 	item_state = "MineWorkerS"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/mechplate)
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -699,15 +703,15 @@
 		bomb = ARMOR_BOMB_TEN+5
 		)
 
-/obj/item/clothing/suit/armor/grim/mechanicus/techpriest
+/obj/item/clothing/suit/armor/grim/storage/hooded/techpriest
 	name = "tech priest robes"
 	desc = "Red robes adorned with metal augmentations, scanners, and plates, marking the wearer as a veteran Tech-Priest of Mars. Resistant to biohazards and radiation, these ancient mechanisms still hum with life."
 	icon_state = "Mars_Engineseer"
 	item_state = "Mars_Engineseer"
-	canremove = 0
+	canremove = 1
 	unacidable = 1
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO | HEAD
+	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/mechplate)
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -716,6 +720,8 @@
 	heat_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HANDS|HEAD
 	flags_inv = HIDEMASK|HIDEEARS|BLOCKHAIR|CLOTHING_BULKY
 	slowdown_general = 0.08
+	action_button_name = "Toggle Hood"
+	hoodtype = /obj/item/clothing/head/techhood
 	armor = list(
 		melee = ARMOR_MELEE_FLAK,
 		bullet = ARMOR_BALLISTIC_FLAK+1,
@@ -726,33 +732,58 @@
 		bomb = ARMOR_BOMB_TEN+20
 		)
 
-/obj/item/clothing/suit/armor/grim/mechanicus/techpriest/mob_can_equip(mob/living/carbon/human/user, slot)
-	if(user.get_equipped_item(slot_head))
-		to_chat(user, "You are already wearing headgear, you cannot wear the tech priest robes over it.")
-		return FALSE
-	if(slot == slot_head)
-		to_chat(user, "Your mechanicus robes already cover your head, you cannot wear a helmet.")
-		return FALSE
-	return ..()
+/obj/item/clothing/suit/armor/grim/storage/hooded/techpriest/on_update_icon()
+	return
 
-/obj/item/clothing/suit/armor/grim/mechanicus/techpriest/ryza
+/obj/item/clothing/head/techhood
+	name = "tech priest hood"
+	desc = "A blood red hood with embroidered with the Adeptus Mechanicus' logo."
+	icon_state = "Mars_Engineseer_Hood"
+	item_state = "Mars_Engineseer_Hood"
+	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
+	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+650
+	slowdown_general = 0.004
+	body_parts_covered = HEAD|FACE|EYES
+	flags_inv = HIDEEARS | BLOCKHAIR
+	armor = list(
+		melee = ARMOR_MELEE_FLAK,
+		bullet = ARMOR_BALLISTIC_FLAK,
+		laser = ARMOR_LASER_CARAPACE-2,
+		energy = ARMOR_ENERGY_TEN+20,
+		rad = ARMOR_RAD_FIFTY+48,
+		bio = ARMOR_BIO_FIFTY+48,
+		bomb = ARMOR_BOMB_TEN+10
+		)
+
+/obj/item/clothing/suit/armor/grim/storage/hooded/techpriest/ryza
 	name = "tech priest robes"
 	desc = "Dark orange robes reinforced with metallic augments and plating, well suited for the fiery forges of Ryza. The ancient tech inside offers strong resistance to biohazards and radiation."
 	icon_state = "Ryza_Engineseer"
 	item_state = "Ryza_Engineseer"
+	hoodtype = /obj/item/clothing/head/techhood/ryza
+/obj/item/clothing/head/techhood/ryza
+	icon_state = "Ryza_Engineseer_Hood"
+	item_state = "Ryza_Engineseer_Hood"
 
-/obj/item/clothing/suit/armor/grim/mechanicus/techpriest/stygies
+/obj/item/clothing/suit/armor/grim/storage/hooded/techpriest/stygies
 	name = "tech priest robes"
 	desc = "Black, shadowy robes enhanced with augments and scanner arrays, reflecting the covert nature of Stygies' tech priests. The augmentations provide robust protection against biohazards and radiation."
 	icon_state = "Stygies8_Engineseer"
 	item_state = "Stygies8_Engineseer"
+	hoodtype = /obj/item/clothing/head/techhood/stygies
+/obj/item/clothing/head/techhood/stygies
+	icon_state = "Stygies8_Engineseer_Hood"
+	item_state = "Stygies8_Engineseer_Hood"
 
-/obj/item/clothing/suit/armor/grim/mechanicus/techpriest/metalica
+/obj/item/clothing/suit/armor/grim/storage/hooded/techpriest/metalica
 	name = "tech priest robes"
 	desc = "Pale white robes marked with metallic enhancements, representing the pure and efficient form of Metalica's Tech-Priests. The ancient augments offer high resistance to biohazards and radiation."
 	icon_state = "Metalica_Engineseer"
 	item_state = "Metalica_Engineseer"
-
+	hoodtype = /obj/item/clothing/head/techhood/metalica
+/obj/item/clothing/head/techhood/metalica
+	icon_state = "Metalica_Engineseer_Hood"
+	item_state = "Metalica_Engineseer_Hood"
 
 /obj/item/clothing/head/hardhat/techpriest
 	name = "augmented head" // Do not use this with the new tech priest armors.
@@ -783,7 +814,7 @@
 	desc = "Plain robes adorned with various wriggling mechanical appendages. These robes belong to a Magos Biologis, devoted to unlocking the biological mysteries of the universe with a machine-like precision."
 	icon_state = "genetor"
 	item_state = "genetor"
-	canremove = 0
+	canremove = 1
 	unacidable = 1
 	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/mechplate)
@@ -805,6 +836,7 @@
 	desc = "An ancient cowl covering a heavily augmented face."
 	icon_state = "genetor"
 	item_state = "genetor"
+	disorientation = 0 // Magos ignores disorientation. They are one with the machine spirit.
 	armor = list(
 		melee = ARMOR_MELEE_FLAK,
 		bullet = ARMOR_BALLISTIC_FLAK+1,
@@ -820,7 +852,7 @@
 	desc = "Magnificent robes brimming with advanced augments, scanners, and syringes. These ancient garments have been worn by countless Magi, their layered machinery acting as a testament to the long, unrelenting pursuit of knowledge."
 	icon_state = "magos"
 	item_state = "magos"
-	canremove = 0
+	canremove = 1
 	unacidable = 1
 	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/mechplatemagos)
@@ -843,7 +875,7 @@
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+800
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	slowdown_general = 0.004
-	disorientation = 0.5 // magos can melee
+	disorientation = 0 // Magos ignores disorientation. They are one with the machine spirit.
 	armor = list(
 		melee = ARMOR_MELEE_CARAPACE-1,
 		bullet = ARMOR_BALLISTIC_CARAPACE-1,
@@ -860,7 +892,7 @@
 	icon_state = "skitsuit"
 	item_state = "skitsuit"
 	w_class = ITEM_SIZE_GARGANTUAN
-	canremove = 0
+	canremove = 1
 	unacidable = 1
 	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
@@ -903,7 +935,7 @@
 	desc = "Tailored and reinforced by the Adeptus Mechanicus, this strange armour is issued to Skitarii Ruststalkers. It shimmers oddly in the light, and seems to have storage pouches for skulls."
 	icon_state = "skitsuit"
 	item_state = "skitsuit"
-	canremove = 0
+	canremove = 1
 	unacidable = 1
 	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
@@ -947,7 +979,7 @@
 	desc = "Tailored and reinforced by the Adeptus Mechanicus, these heavy ceramite plates offer near-complete protection from attack."
 	icon_state = "rig-hazardhardsuit"
 	item_state = "rig-hazardhardsuit"
-	canremove = 0
+	canremove = 1
 	unacidable = 1
 	body_parts_covered = LEGS|FEET|ARMS|HANDS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy)

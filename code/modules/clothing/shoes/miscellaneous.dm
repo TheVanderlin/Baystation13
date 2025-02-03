@@ -310,7 +310,7 @@
 	name = "techno-boots"
 	desc = "Cybernetic legs scurry the Tech-priest where he is needed."
 	icon_state = "merc_rig"
-	item_state = "techpriest"
+	item_state = "admech_boots"
 	siemens_coefficient = 0.7
 	unacidable = 1
 	item_flags = ITEM_FLAG_NOSLIP
@@ -324,6 +324,12 @@
 	desc = "Astra Militarum's common combat boots, found worn by most Imperial Agencies and Astra Militarum."
 	icon_state = "jackboots"
 	item_state = "jackboots"
+
+/obj/item/clothing/shoes/jackboots/bloodpact
+	name = "combat boots"
+	desc = "Bloodpact metal combat boots."
+	icon_state = "jackboots"
+	item_state = "BP_Boots"
 
 /obj/item/clothing/shoes/jackboots/krieg
 	name = "combat boots"

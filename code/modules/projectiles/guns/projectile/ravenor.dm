@@ -221,7 +221,7 @@
 		list(mode_name="3-round bursts", burst=3, fire_delay=3.1, burst_delay=2.1, burst_accuracy=list(0,-1,-1), dispersion=null)
 		)
 
-/obj/item/gun/projectile/automatic/machine_pistol/on_update_icon()
+/obj/item/gun/projectile/automatic/autogun/a80/on_update_icon()
 	..()
 	if(ammo_magazine)
 		icon_state = "autorifle"
@@ -250,7 +250,7 @@
 		list(mode_name="3-round bursts", burst=3, fire_delay=3.1, burst_delay=2.1, burst_accuracy=list(0,-1,-1), dispersion=null)
 		)
 
-/obj/item/gun/projectile/automatic/machine_pistol/on_update_icon()
+/obj/item/gun/projectile/automatic/autogun/valhalla/on_update_icon()
 	..()
 	if(ammo_magazine)
 		icon_state = "auto_grim"
@@ -283,7 +283,7 @@
 		list(mode_name="2-round bursts", burst=2, fire_delay=3.5, burst_delay=2.1, burst_accuracy=list(0,-1), dispersion=null)
 		)
 
-/obj/item/gun/projectile/automatic/machine_pistol/on_update_icon()
+/obj/item/gun/projectile/automatic/autogun/krieg/on_update_icon()
 	..()
 	if(ammo_magazine)
 		icon_state = "kriegstubber"

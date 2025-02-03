@@ -284,7 +284,7 @@
 	desc = "An ornate tailcoat, designed to elevate any suit into a display of extravagance and high status."
 	icon_state = "tailcoat"
 	item_state = "tailcoat"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -305,7 +305,7 @@
 	icon = 'icons/mob/onmob/suit.dmi'
 	icon_state = "tailcoatgirlblack"
 	item_state = "tailcoatgirlblack"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -337,7 +337,7 @@
 	desc = "An ellegant studded coat worn by the illustrious members of a voidcraft's bridge crew."
 	icon_state = "castellan"
 	item_state = "castellan"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -361,7 +361,7 @@
 	desc = "Organic armor layered to enhance Kroot resilience, the Carapace Mantle provides crucial protection against a variety of threats while allowing for the freedom of movement that Kroot require."
 	icon_state = "merc"
 	item_state = "merc"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
@@ -382,7 +382,7 @@
 	desc = "An altered fabrication of Imperial Pattern Flak Armor - this particular version is commonly used by mercenaries guilds in service to the renegade houses of the frontier."
 	icon_state = "merc"
 	item_state = "merc"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak) // All flak armors should use plate/medium unless shoddy
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-100 // Consider militarum patterns to have good rad and temp resistance so we don't get guardsmen in EVA suits
@@ -589,7 +589,7 @@
 	desc = "Unmarked flak armor manufactured by the underhives of the ghoul stars."
 	icon_state = "flak1"
 	item_state = "flak1"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-100
@@ -618,7 +618,7 @@
 	desc = "Shoddy flak armor worn by members of House Goliath, it seems unlikely to protect you from much more then a blade."
 	icon_state = "raider_combat"
 	item_state = "raider_combat"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-100
@@ -638,7 +638,7 @@
 	desc = "Unmarked carapace armor manufactured by the underhives of the ghoul stars."
 	icon_state = "carapace2"
 	item_state = "carapace2"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE

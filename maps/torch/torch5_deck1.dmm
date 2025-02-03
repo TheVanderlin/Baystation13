@@ -3,20 +3,20 @@
 /turf/space,
 /area/space)
 "aab" = (
-/obj/shuttle_landmark/merc/deck2{
-	name = "1st Deck, Aft Starboard"
+/obj/shuttle_landmark/torch/deck2/exploration_shuttle{
+	name = "1st Deck, North Side"
 	},
 /turf/space,
 /area/space)
 "aac" = (
-/obj/shuttle_landmark/torch/deck2/exploration_shuttle{
-	name = "1st Deck, Fore Starboard"
+/obj/shuttle_landmark/torch/deck2/aquila{
+	name = "1st Deck, South Side"
 	},
 /turf/space,
 /area/space)
 "aad" = (
 /obj/shuttle_landmark/torch/deck2/guppy{
-	name = "1st Deck, Aft"
+	name = "1st Deck, East Side"
 	},
 /turf/space,
 /area/space)
@@ -106,7 +106,7 @@
 /area/engineering/fuelbay/aux)
 "aar" = (
 /obj/shuttle_landmark/skipjack/deck2{
-	name = "1st Deck, Fore"
+	name = "1st Deck, West Armory"
 	},
 /turf/space,
 /area/space)
@@ -601,7 +601,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -2077,7 +2077,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -3268,10 +3268,19 @@
 	},
 /obj/structure/cable/green,
 /obj/floor_decal/industrial/warning,
-/obj/structure/catwalk,
 /obj/machinery/alarm{
 	pixel_y = 23;
 	req_access = list("ACCESS_MECHANICUS_COMMAND")
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/substation/firstdeck)
@@ -3280,7 +3289,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -3377,7 +3386,8 @@
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "brigvent2";
-	name = "Blast Doors"
+	name = "Blast Doors";
+	begins_closed = 1
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/firstdeck/foreport)
@@ -3386,7 +3396,8 @@
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "brigvent1";
-	name = "Blast Doors"
+	name = "Blast Doors";
+	begins_closed = 1
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/maintenance/firstdeck/foreport)
@@ -3404,7 +3415,8 @@
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "brigvent2";
-	name = "Blast Doors"
+	name = "Blast Doors";
+	begins_closed = 1
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/security/brig)
@@ -3541,7 +3553,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -4018,7 +4030,7 @@
 /obj/random/tech_supply,
 /obj/random/maintenance/solgov,
 /obj/structure/catwalk,
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -4050,7 +4062,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
-/obj/machinery/power/apc/high{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -4161,6 +4173,11 @@
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
 /obj/structure/lattice,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/open,
 /area/maintenance/substation/firstdeck)
 "ali" = (
@@ -4356,6 +4373,11 @@
 	req_access = list("ACCESS_MECHANICUS");
 	name = "Substation Airlock"
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/substation/firstdeck)
 "amr" = (
@@ -4448,7 +4470,7 @@
 /area/maintenance/firstdeck/centralstarboard)
 "amP" = (
 /obj/structure/table/rack/dark,
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -4528,6 +4550,11 @@
 	},
 /obj/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/firstdeck/centralstarboard)
@@ -5815,7 +5842,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -5836,7 +5863,7 @@
 /obj/structure/bed/chair/warhammer/padded/red{
 	dir = 4
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -6327,7 +6354,7 @@
 /area/hallway/primary/firstdeck/aft)
 "azV" = (
 /obj/shuttle_landmark/ert/deck2{
-	name = "1st Deck, Fore Port"
+	name = "1st Deck, South Side"
 	},
 /turf/space,
 /area/space)
@@ -7870,7 +7897,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -8441,7 +8468,7 @@
 /obj/machinery/computer/modular{
 	dir = 8
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -9920,7 +9947,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/thruster/d1port)
 "aTS" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -10818,13 +10845,13 @@
 /area/rnd/xenobiology/cell_3)
 "aWn" = (
 /obj/shuttle_landmark/ninja/deck2{
-	name = "1st Deck, Aft Port"
+	name = "1st Deck, East Side"
 	},
 /turf/space,
 /area/space)
 "aWo" = (
-/obj/shuttle_landmark/torch/deck2/aquila{
-	name = "1st Deck, Port"
+/obj/shuttle_landmark/merc/deck2{
+	name = "1st Deck, North Side"
 	},
 /turf/space,
 /area/space)
@@ -12501,7 +12528,7 @@
 	dir = 4;
 	icon_state = "console"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -16238,7 +16265,7 @@
 /turf/simulated/floor/warhammer/surgerynew,
 /area/crew_quarters/head/deck1)
 "kss" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -16417,7 +16444,7 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/staging)
 "kJb" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -16733,7 +16760,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -17008,7 +17035,7 @@
 /turf/simulated/floor/warhammer/plating,
 /area/rnd/research)
 "lAp" = (
-/obj/machinery/power/apc/high{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -19402,7 +19429,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/armoury)
 "puL" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -20905,9 +20932,10 @@
 /obj/structure/reagent_dispensers/water_cooler{
 	dir = 4
 	},
-/obj/machinery/power/apc/debug/skrell{
+/obj/machinery/power/apc/super/critical{
 	dir = 8;
-	pixel_x = -22
+	name = "west bump";
+	pixel_x = -24
 	},
 /turf/simulated/floor/warhammer/plating,
 /area/rnd/research)
@@ -20962,9 +20990,10 @@
 	},
 /obj/structure/closet/coffin/wooden,
 /obj/item/material/urn,
-/obj/machinery/power/apc/debug/skrell{
+/obj/machinery/power/apc/super/critical{
 	dir = 1;
-	pixel_y = 23
+	name = "north bump";
+	pixel_y = 24
 	},
 /turf/simulated/floor/warhammer/brick,
 /area/chapel/memorial)
@@ -23455,7 +23484,7 @@
 /turf/simulated/floor/warhammer/coralg,
 /area/medical/locker)
 "vnC" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -23955,6 +23984,14 @@
 /obj/structure/sign/mechanicus,
 /turf/simulated/wall/prepainted,
 /area/rnd/entry)
+"wDh" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/wall/prepainted,
+/area/maintenance/substation/firstdeck)
 "wDm" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/table/warhammer/butcher_table,
@@ -32057,10 +32094,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
 azV
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -33186,8 +33223,8 @@ aaa
 aaa
 aaa
 aaa
-aac
 aaa
+aab
 aaa
 aaa
 aaa
@@ -39678,7 +39715,7 @@ abP
 abP
 asF
 afR
-apT
+wDh
 ahR
 aje
 ake
@@ -40345,7 +40382,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aac
 aaa
 aaa
 aaa
@@ -40953,7 +40990,7 @@ aaa
 aaa
 aaa
 aaa
-aWo
+aaa
 aaa
 aaa
 aaa
@@ -52664,7 +52701,7 @@ aaa
 aaa
 aaa
 aaa
-aWn
+aaa
 aaa
 aaa
 aaa
@@ -52778,7 +52815,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aWo
 aaa
 aaa
 aaa
@@ -52981,7 +53018,7 @@ aaa
 aaa
 aaa
 aaa
-aab
+aaa
 aaa
 aaa
 aaa
@@ -56276,7 +56313,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aWn
 aaa
 aaa
 aaa

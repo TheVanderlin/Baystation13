@@ -22,7 +22,7 @@
 	//self-recharging
 	var/self_recharge = 0	//if set, the weapon will recharge itself
 	var/use_external_power = 0 //if set, the weapon will look for an external power source to draw from, otherwise it recharges magically
-	var/recharge_time = 9
+	var/recharge_time = 10
 	var/charge_tick = 0
 	calibration_penalty = 2
 

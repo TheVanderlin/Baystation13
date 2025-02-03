@@ -8,7 +8,7 @@
 	map_generators = list(/datum/random_map/automata/cave_system/mountains/volcanic, /datum/random_map/noise/exoplanet/volcanic, /datum/random_map/noise/ore/filthy_rich)
 	surface_color = "#261e19"
 	water_color = "#c74d00"
-	habitability_weight = HABITABILITY_EXTREME
+	habitability_weight = HABITABILITY_BAD
 	has_trees = FALSE
 	flora_diversity = 4
 	fauna_types = list(

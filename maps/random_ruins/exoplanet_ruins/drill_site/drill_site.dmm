@@ -26,6 +26,7 @@
 "g" = (
 /obj/structure/ore_box,
 /obj/landmark/clear,
+/obj/random/loot/randomsupply/engineering,
 /turf/template_noop,
 /area/template_noop)
 "h" = (
@@ -84,6 +85,15 @@
 /obj/landmark/clear,
 /turf/template_noop,
 /area/template_noop)
+"Y" = (
+/obj/random/loot/tech1,
+/turf/template_noop,
+/area/template_noop)
+"Z" = (
+/obj/landmark/clear,
+/obj/gibspawner/robot,
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 a
@@ -100,7 +110,7 @@ O
 O
 "}
 (2,1,1) = {"
-a
+Y
 u
 u
 u
@@ -132,7 +142,7 @@ u
 u
 u
 u
-u
+Z
 u
 u
 u
@@ -188,7 +198,7 @@ b
 u
 u
 j
-a
+Y
 u
 u
 u
@@ -205,7 +215,7 @@ b
 n
 u
 u
-u
+Z
 u
 u
 u

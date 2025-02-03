@@ -49,7 +49,7 @@
 	name = "work gloves"
 	icon_state = "black"
 	item_state = "bgloves"
-	siemens_coefficient = 0.50
+	siemens_coefficient = 0
 	permeability_coefficient = 0.05
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+500
 	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_WASHER_ALLOWED
@@ -219,6 +219,10 @@
 	icon_state = "warfare_gloves"
 	item_state = "warfare_gloves"
 
+/obj/item/clothing/gloves/thick/swat/combat/bloodpact
+	icon_state = "warfare_gloves"
+	item_state = "BP_Gloves"
+
 /obj/item/clothing/gloves/thick/swat/combat/warfare/rt
 	icon_state = "rtg"
 	item_state = "rtg"
@@ -314,8 +318,8 @@
 		rad = ARMOR_RAD_THIRTY+35,
 		bomb = ARMOR_BOMB_TEN+5
 	)
-	icon_state = "techpriest"
-	item_state = "techpriest"
+	icon_state = "work"
+	item_state = "admech_gauntlets"
 	unacidable = 1
 
 /obj/item/clothing/gloves/thick/swat/sister

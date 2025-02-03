@@ -139,6 +139,12 @@
 /area/map_template/colony)
 "aA" = (
 /obj/machinery/merchant_pad,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/colony/command)
 "aB" = (
@@ -930,25 +936,7 @@
 /obj/random/cash,
 /obj/random/cash,
 /obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
-/obj/random/cash,
 /obj/item/spacecash/bundle/c1000,
-/obj/random/contraband,
-/obj/random/contraband,
-/obj/random/contraband,
-/obj/random/contraband,
-/obj/random/contraband,
 /obj/structure/torchwall{
 	dir = 8
 	},
@@ -1519,6 +1507,7 @@
 /obj/item/clothing/suit/armor/grim/storage/det_trench/ft,
 /obj/structure/closet/crate/warhammer/xenos/chest3,
 /obj/random/loot/randomsupply,
+/obj/item/grenade/frag/homemade,
 /turf/simulated/floor/warhammer/fancyfloor/carpet{
 	dir = 1
 	},
@@ -2264,6 +2253,8 @@
 /obj/item/clothing/mask/gas/prac_mask,
 /obj/item/clothing/shoes/jackboots/prac_boots,
 /obj/item/clothing/shoes/jackboots/prac_boots,
+/obj/item/grenade/frag/homemade,
+/obj/item/grenade/frag/homemade,
 /turf/simulated/floor/warhammer/fancyfloor/carpet/middle,
 /area/map_template/colony/dorms)
 "eY" = (
@@ -2296,6 +2287,7 @@
 /obj/item/material/twohanded/jack,
 /obj/item/clothing/head/hardhat/white,
 /obj/random/loot/randomcolonyitems,
+/obj/item/grenade/frag/homemade,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/colony/engineering)
 "fe" = (
@@ -3065,6 +3057,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony)
 "gq" = (
@@ -3137,6 +3130,7 @@
 	dir = 10
 	},
 /obj/floor_decal/techfloor/hole/right,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony)
 "gy" = (
@@ -3149,6 +3143,7 @@
 /obj/floor_decal/techfloor{
 	dir = 6
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony)
 "gz" = (
@@ -3595,6 +3590,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony)
 "hw" = (
@@ -4848,6 +4844,7 @@
 	},
 /obj/structure/closet/firecloset,
 /obj/item/device/flashlight/lamp/floodlamp,
+/obj/item/storage/briefcase/inflatable,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony)
 "jS" = (
@@ -9154,8 +9151,8 @@ aa
 aa
 aa
 pB
-eh
-aj
+hr
+hr
 aw
 aw
 aw

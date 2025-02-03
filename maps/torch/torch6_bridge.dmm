@@ -1812,7 +1812,7 @@
 /turf/simulated/wall/prepainted,
 /area/bridge/hallway/port)
 "fd" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -2012,7 +2012,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -2181,7 +2181,7 @@
 	dir = 5
 	},
 /obj/item/pyre/self_lit/church,
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -2278,7 +2278,7 @@
 /area/hallway/primary/bridge/fore)
 "gl" = (
 /obj/shuttle_landmark/torch/deck1/exploration_shuttle{
-	name = "B-Deck, Fore Port"
+	name = "B-Deck, West Bridge"
 	},
 /turf/space,
 /area/space)
@@ -2661,7 +2661,8 @@
 /obj/structure/table/warhammer/big_wood_table{
 	dir = 4;
 	pixel_x = -4;
-	pixel_y = -17
+	pixel_y = -17;
+	density = 0
 	},
 /obj/structure/hivedecor/statue2{
 	layer = 2.9;
@@ -3145,6 +3146,8 @@
 /area/aquila/crew)
 "ko" = (
 /obj/machinery/merchant_pad,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
 /turf/simulated/floor/warhammer/metal/alt,
 /area/bridge)
 "kv" = (
@@ -4462,7 +4465,8 @@
 /area/bridge/storage)
 "pL" = (
 /obj/structure/table/warhammer/big_wood_table{
-	dir = 1
+	dir = 1;
+	density = 0
 	},
 /obj/structure/hivedecor/skulls{
 	pixel_y = 4;
@@ -4633,7 +4637,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/table/warhammer/big_wood_table,
+/obj/structure/table/warhammer/big_wood_table{
+	density = 0
+	},
 /obj/structure/hivedecor/skulls{
 	pixel_y = 5;
 	layer = 3;
@@ -5157,7 +5163,7 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
 "sb" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -5427,7 +5433,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -6789,14 +6795,14 @@
 /turf/simulated/open,
 /area/maintenance/bridge/aftport)
 "yA" = (
-/obj/shuttle_landmark/skipjack/deck1{
-	name = "B-Deck, Port"
+/obj/shuttle_landmark/torch/deck1/guppy{
+	name = "B-Deck, North Solars"
 	},
 /turf/space,
 /area/space)
 "yB" = (
-/obj/shuttle_landmark/torch/deck1/guppy{
-	name = "B-Deck, Aft Starboard"
+/obj/shuttle_landmark/torch/deck1/aquila{
+	name = "B-Deck, East Solars"
 	},
 /turf/space,
 /area/space)
@@ -6876,7 +6882,7 @@
 /area/security/bridgecheck)
 "zb" = (
 /obj/shuttle_landmark/merc/deck1{
-	name = "B-Deck, Aft"
+	name = "B-Deck, East Solars"
 	},
 /turf/space,
 /area/space)
@@ -6929,7 +6935,6 @@
 "zq" = (
 /obj/structure/closet/crate/warhammer,
 /obj/random/loot/tech1,
-/obj/item/spacecash/bundle/c500,
 /turf/simulated/floor/warhammer/coralg,
 /area/bridge/storage)
 "zw" = (
@@ -7025,7 +7030,7 @@
 /area/maintenance/bridge/aftstarboard)
 "Ab" = (
 /obj/shuttle_landmark/ninja/deck1{
-	name = "B-Deck, Aft Port"
+	name = "B-Deck, South Solars"
 	},
 /turf/space,
 /area/space)
@@ -7077,7 +7082,11 @@
 /area/crew_quarters/heads/office/xo)
 "Ao" = (
 /obj/structure/closet/crate/warhammer,
-/obj/item/spacecash/bundle/c100,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
 /turf/simulated/floor/warhammer/coralg,
 /area/bridge/storage)
 "Ap" = (
@@ -7352,8 +7361,8 @@
 /turf/simulated/floor/warhammer/metal/alt,
 /area/hallway/primary/bridge/fore)
 "Cb" = (
-/obj/shuttle_landmark/torch/deck1/aquila{
-	name = "B-Deck, Fore Starboard"
+/obj/shuttle_landmark/skipjack/deck1{
+	name = "B-Deck, South Solars"
 	},
 /turf/space,
 /area/space)
@@ -7809,12 +7818,6 @@
 	pixel_y = -15;
 	layer = 3
 	},
-/obj/structure/table/warhammer/big_wood_table{
-	dir = 4;
-	pixel_x = -4;
-	pixel_y = 5;
-	density = 0
-	},
 /turf/simulated/floor/warhammer/fancyfloor/carpet/blue{
 	dir = 1
 	},
@@ -8063,7 +8066,7 @@
 /area/bridge)
 "GA" = (
 /obj/structure/table/woodentable/walnut,
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -8121,7 +8124,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/aquila/crew)
 "GM" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -8279,6 +8282,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
+	},
+/obj/structure/table/warhammer/big_wood_table{
+	dir = 4;
+	pixel_x = -4;
+	pixel_y = -19;
+	density = 0
 	},
 /turf/simulated/floor/warhammer/metal/alt,
 /area/bridge)
@@ -9529,7 +9538,6 @@
 "OS" = (
 /obj/structure/closet/crate/warhammer/secure,
 /obj/random/loot/tech1,
-/obj/item/spacecash/bundle/c500,
 /turf/simulated/floor/warhammer/coralg,
 /area/bridge/storage)
 "OX" = (
@@ -10405,7 +10413,7 @@
 /area/crew_quarters/heads/cobed)
 "UU" = (
 /obj/shuttle_landmark/ert/deck1{
-	name = "B-Deck, Fore"
+	name = "B-Deck, West Bridge"
 	},
 /turf/space,
 /area/space)
@@ -14368,7 +14376,7 @@ aa
 aa
 aa
 aa
-UU
+aa
 aa
 aa
 aa
@@ -14570,7 +14578,7 @@ aa
 aa
 aa
 aa
-aa
+UU
 aa
 aa
 aa
@@ -14934,7 +14942,6 @@ aa
 aa
 aa
 aa
-Cb
 aa
 aa
 aa
@@ -14985,6 +14992,7 @@ aa
 aa
 aa
 aa
+gl
 aa
 aa
 aa
@@ -16018,7 +16026,7 @@ aa
 aa
 aa
 aa
-gl
+aa
 aa
 aa
 aa
@@ -26521,7 +26529,7 @@ aa
 aa
 aa
 aa
-aa
+Cb
 aa
 aa
 aa
@@ -27337,7 +27345,7 @@ aa
 aa
 aa
 aa
-yA
+aa
 aa
 aa
 aa
@@ -37151,8 +37159,8 @@ aa
 aa
 aa
 aa
-yB
 aa
+yA
 aa
 aa
 aa
@@ -44258,7 +44266,7 @@ aa
 aa
 aa
 aa
-aa
+yB
 aa
 aa
 aa

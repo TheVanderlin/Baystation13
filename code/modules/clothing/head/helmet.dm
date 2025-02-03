@@ -9,7 +9,7 @@
 	valid_accessory_slots = null
 	restricted_accessory_slots = null
 	item_flags = ITEM_FLAG_THICKMATERIAL
-	body_parts_covered = HEAD|FACE|EYES
+	body_parts_covered = HEAD
 	min_pressure_protection = 0
 	armor = list(
 		melee = ARMOR_MELEE_PRIMAL,

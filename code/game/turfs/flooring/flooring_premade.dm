@@ -495,13 +495,8 @@
 	icon = 'icons/turf/flooring/floors.dmi'
 	icon_state = "grimy"
 	layer = DECAL_LAYER
-	var/dirty = 15
 	initial_flooring = null
-
-/turf/simulated/floor/warhammer/New()
-	.= ..()
-	if(dirty > 0 && prob(dirty)) // Check if dirt should spawn
-		new /obj/decal/cleanable/dirt(src)
+	dirty = 15
 
 /turf/simulated/floor/warhammer/nf2
 	name = "stone floor"

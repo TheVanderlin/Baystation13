@@ -99,6 +99,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/mob/living/simple_animal/hostile/daemon/headcrab/infestor,
 /turf/simulated/floor/tiled/lowpressure,
 /area/map_template/ecship/cockpit)
 "as" = (
@@ -109,16 +110,13 @@
 /turf/template_noop,
 /area/map_template/ecship/cryo)
 "au" = (
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
 /obj/structure/table/glass,
 /obj/item/disk/astrodata,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "av" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -126,24 +124,20 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aw" = (
 /obj/structure/sign/ecplaque{
 	pixel_y = 32
 	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/obj/machinery/suit_storage_unit/standard_unit,
-/turf/simulated/floor/tiled,
+/obj/structure/closet/crate/warhammer/floorsafe,
+/obj/random/loot/valuableloot,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "ax" = (
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/obj/machinery/suit_storage_unit/standard_unit,
-/turf/simulated/floor/tiled,
+/obj/structure/closet/crate/warhammer/safe,
+/obj/random/loot/raresidearmbundle,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "ay" = (
 /obj/machinery/light{
@@ -151,7 +145,7 @@
 	icon_state = "tube1"
 	},
 /obj/structure/closet/walllocker/emerglocker/west,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "az" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -173,7 +167,7 @@
 	level = 2
 	},
 /obj/item/stool/padded,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aD" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -188,7 +182,7 @@
 /obj/item/reagent_containers/chem_disp_cartridge/coffee{
 	name = "coffee canister"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aE" = (
 /obj/structure/broken_cryo,
@@ -197,13 +191,13 @@
 	icon_state = "bulb1"
 	},
 /obj/structure/closet/walllocker/emerglocker/west,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "aF" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aG" = (
 /obj/machinery/light{
@@ -211,17 +205,17 @@
 	icon_state = "tube1"
 	},
 /obj/item/stool/padded,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aI" = (
 /obj/structure/broken_cryo,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "aJ" = (
 /obj/structure/table/glass,
 /obj/item/ecletters,
 /obj/item/paper/ecrashlog,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "aK" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -246,18 +240,10 @@
 /obj/structure/handrail{
 	dir = 4
 	},
-/obj/floor_decal/corner/blue/diagonal,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aN" = (
-/obj/floor_decal/corner/blue/diagonal,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -266,33 +252,25 @@
 	icon_state = "1-2"
 	},
 /obj/item/deck/cards,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aP" = (
 /obj/structure/closet/crate/warhammer/freezer/rations,
 /obj/structure/handrail{
 	dir = 8
 	},
-/obj/floor_decal/corner/blue/diagonal,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aQ" = (
 /obj/structure/handrail{
 	dir = 4
 	},
-/obj/floor_decal/corner/blue/diagonal,
 /obj/item/stool/padded,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
-	},
 /obj/machinery/alarm/low{
 	dir = 4;
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "aR" = (
 /obj/structure/curtain/open/shower{
@@ -305,9 +283,7 @@
 	icon_state = "bulb1"
 	},
 /obj/structure/closet/walllocker/emerglocker/west,
-/turf/simulated/floor/tiled{
-	map_airless = 1
-	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "aS" = (
 /obj/floor_decal/industrial/warning/full,
@@ -332,14 +308,14 @@
 	pixel_x = -26
 	},
 /obj/structure/closet/wardrobe/mixed,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "aU" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "aV" = (
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "aW" = (
 /obj/structure/broken_cryo,
@@ -347,33 +323,20 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "aX" = (
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
-	},
-/obj/structure/table/glass,
-/turf/simulated/floor/tiled/white,
-/area/map_template/ecship/science)
+/obj/structure/sign/imperial,
+/turf/simulated/wall/r_wall/hull,
+/area/map_template/ecship/crew)
 "aY" = (
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
 /obj/structure/table/glass,
 /obj/item/storage/box/monkeycubes,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "aZ" = (
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
 /obj/structure/table/glass,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "ba" = (
 /obj/machinery/door/airlock/external,
@@ -414,26 +377,20 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled{
-	map_airless = 1
-	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bd" = (
 /obj/structure/table/steel,
-/obj/floor_decal/corner/blue/diagonal,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
+/obj/random/loot/rarearmorbundle,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "be" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/tiled{
-	map_airless = 1
-	},
+/obj/random/loot/swordmelee,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -441,7 +398,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "bg" = (
 /obj/structure/hygiene/sink{
@@ -454,9 +411,7 @@
 	pixel_x = -24
 	},
 /obj/machinery/power/apc/derelict,
-/turf/simulated/floor/tiled{
-	map_airless = 1
-	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bh" = (
 /obj/structure/hygiene/sink{
@@ -466,9 +421,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/low{
 	dir = 1
 	},
-/turf/simulated/floor/tiled{
-	map_airless = 1
-	},
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bi" = (
 /obj/structure/catwalk,
@@ -480,12 +433,8 @@
 /obj/structure/handrail{
 	dir = 8
 	},
-/obj/floor_decal/corner/blue/diagonal,
 /obj/item/stool/padded,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "bk" = (
 /obj/structure/catwalk,
@@ -505,7 +454,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -514,7 +463,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -523,7 +472,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -540,23 +489,12 @@
 /turf/simulated/floor,
 /area/map_template/ecship/crew)
 "bp" = (
-/obj/floor_decal/corner/purple{
-	dir = 9
-	},
 /obj/structure/handrail{
 	dir = 4
 	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
 /obj/item/remains/xeno,
-/turf/simulated/floor/tiled/white,
+/obj/random/loot/gunbundle,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bq" = (
 /obj/structure/broken_cryo{
@@ -564,11 +502,11 @@
 	},
 /obj/machinery/light/small,
 /obj/structure/closet/walllocker/emerglocker/west,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "br" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -578,28 +516,25 @@
 	dir = 4
 	},
 /obj/machinery/optable,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bt" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/reagent_containers/glass/bucket,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bu" = (
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
 /obj/structure/handrail{
 	dir = 8
 	},
 /obj/structure/closet/hydroponics_torch,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bv" = (
 /obj/structure/broken_cryo{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bw" = (
 /obj/structure/catwalk,
@@ -613,14 +548,10 @@
 /turf/template_noop,
 /area/map_template/ecship/engine)
 "bx" = (
-/obj/floor_decal/corner/blue/diagonal,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "by" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -638,13 +569,9 @@
 	icon_state = "2-4"
 	},
 /obj/item/board,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "bz" = (
-/obj/floor_decal/corner/blue/diagonal,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
-	},
 /obj/machinery/atmospherics/unary/vent_pump/low{
 	dir = 8
 	},
@@ -653,15 +580,11 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "bA" = (
 /obj/structure/handrail{
 	dir = 8
-	},
-/obj/floor_decal/corner/blue/diagonal,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
 	},
 /obj/machinery/power/apc{
 	dir = 4
@@ -672,7 +595,7 @@
 	dir = 1;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "bB" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -691,7 +614,7 @@
 	icon_state = "2-8"
 	},
 /obj/item/stool/padded,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "bC" = (
 /obj/structure/catwalk,
@@ -712,67 +635,41 @@
 	dir = 4;
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bE" = (
 /obj/machinery/atmospherics/unary/vent_pump/low{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/cryo)
 "bF" = (
-/obj/floor_decal/corner/purple{
-	dir = 9
-	},
-/obj/structure/handrail{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/obj/machinery/door/window/southright,
-/turf/simulated/floor/tiled/white,
+/obj/structure/sign/imperial,
+/turf/simulated/wall/r_wall/hull,
 /area/map_template/ecship/science)
 "bG" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced,
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/ecship/science)
+/obj/random/loot/lootstructureartifact,
+/turf/template_noop,
+/area/template_noop)
 "bH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bI" = (
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bJ" = (
-/turf/simulated/floor/tiled/white,
+/mob/living/simple_animal/hostile/daemon/zygote,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bK" = (
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
 /obj/structure/handrail{
 	dir = 8
 	},
 /obj/machinery/vending/hydronutrients{
 	vendor_flags = 3
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bL" = (
 /obj/floor_decal/industrial/warning{
@@ -786,7 +683,7 @@
 /obj/structure/sign/warning/nosmoking_2{
 	pixel_x = -26
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bM" = (
 /obj/floor_decal/industrial/warning{
@@ -801,7 +698,7 @@
 	},
 /obj/structure/curtain/open/shower,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bN" = (
 /obj/floor_decal/industrial/warning{
@@ -811,7 +708,7 @@
 	pixel_y = 16
 	},
 /obj/structure/curtain/open/shower,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bO" = (
 /obj/structure/sign/warning/science,
@@ -844,7 +741,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "bR" = (
 /obj/floor_decal/industrial/warning{
@@ -862,7 +759,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/crew)
 "bS" = (
 /obj/structure/bed,
@@ -885,14 +782,9 @@
 /turf/template_noop,
 /area/map_template/ecship/engine)
 "bW" = (
-/obj/floor_decal/corner/purple{
-	dir = 9
-	},
-/obj/structure/handrail{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/ecship/science)
+/obj/machinery/suit_storage_unit/explorer,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/map_template/ecship/crew)
 "bX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -900,10 +792,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "bY" = (
 /obj/structure/catwalk,
@@ -918,10 +807,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/obj/floor_decal/corner/purple{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "ca" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -933,19 +819,16 @@
 /obj/item/scalpel/basic{
 	pixel_y = 12
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cb" = (
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cc" = (
 /obj/machinery/door/airlock/autoname,
@@ -955,7 +838,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cd" = (
 /obj/floor_decal/industrial/warning{
@@ -968,15 +851,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "ce" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/ecship/science)
+/obj/structure/sign/imperial,
+/turf/simulated/wall/r_wall/hull,
+/area/map_template/ecship/engineering)
 "cf" = (
 /obj/floor_decal/industrial/warning{
 	dir = 4;
@@ -993,7 +873,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cg" = (
 /obj/machinery/door/airlock/external,
@@ -1061,62 +941,32 @@
 /turf/simulated/wall/r_wall/hull,
 /area/map_template/ecship/cryo)
 "cl" = (
-/obj/floor_decal/corner/purple{
-	dir = 9
-	},
 /obj/structure/handrail{
 	dir = 4
 	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/obj/machinery/door/window/northleft,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cm" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/ecship/science)
+/obj/structure/sign/imperial,
+/turf/simulated/wall/r_wall/hull,
+/area/map_template/ecship/cryo)
 "cn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/portable_atmospherics/hydroponics{
 	closed_system = 1;
 	name = "isolation tray"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "co" = (
-/obj/machinery/portable_atmospherics/hydroponics{
-	closed_system = 1;
-	name = "isolation tray"
-	},
-/obj/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/ecship/science)
+/mob/living/simple_animal/hostile/daemon/zygote,
+/turf/simulated/floor,
+/area/map_template/ecship/engineering)
 "cp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cq" = (
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
 /obj/structure/sign/warning/nosmoking_2{
 	pixel_x = 26
 	},
@@ -1124,7 +974,7 @@
 	dir = 8
 	},
 /obj/machinery/botany/extractor,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cr" = (
 /obj/floor_decal/industrial/warning{
@@ -1135,7 +985,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cs" = (
 /obj/floor_decal/industrial/warning,
@@ -1147,7 +997,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/low{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "ct" = (
 /obj/floor_decal/industrial/warning{
@@ -1159,63 +1009,38 @@
 /obj/machinery/power/apc/derelict{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cu" = (
 /obj/machinery/door/airlock/autoname,
 /turf/simulated/floor/tiled/lowpressure,
 /area/map_template/ecship/crew)
 "cv" = (
-/obj/floor_decal/corner/purple{
-	dir = 9
-	},
-/obj/structure/handrail{
-	dir = 4
-	},
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/ecship/science)
+/obj/structure/table/steel,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
+/area/map_template/ecship/crew)
 "cw" = (
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
 /obj/item/remains/xeno,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cx" = (
 /obj/machinery/atmospherics/unary/vent_pump/low{
 	dir = 1;
 	level = 2
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cy" = (
 /obj/machinery/atmospherics/unary/vent_pump/low{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cz" = (
 /obj/item/stool/padded,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cA" = (
-/obj/floor_decal/corner/purple{
-	dir = 6
-	},
 /obj/structure/handrail{
 	dir = 8
 	},
@@ -1224,52 +1049,40 @@
 	pixel_x = 24
 	},
 /obj/machinery/botany/editor,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cC" = (
 /obj/floor_decal/industrial/warning/full,
 /turf/simulated/floor,
 /area/map_template/ecship/crew)
 "cD" = (
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
 /obj/machinery/light{
 	dir = 8;
 	icon_state = "tube1"
 	},
 /obj/structure/table/glass,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cE" = (
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
 /obj/machinery/portable_atmospherics/hydroponics{
 	closed_system = 1;
 	name = "isolation tray"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cF" = (
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
 /obj/machinery/smartfridge{
 	density = 0
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cG" = (
-/obj/floor_decal/corner/purple{
-	dir = 10
-	},
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
 /obj/machinery/seed_extractor,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "cH" = (
 /turf/simulated/wall/r_wall/hull,
@@ -1285,12 +1098,10 @@
 /area/map_template/ecship/engineering)
 "cJ" = (
 /obj/structure/closet/secure_closet/engineering_welding,
-/obj/floor_decal/corner/yellow{
-	dir = 9
-	},
 /obj/structure/handrail{
 	dir = 4
 	},
+/obj/random/loot/randomsupply/engineering,
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "cK" = (
@@ -1323,9 +1134,6 @@
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "cN" = (
-/obj/floor_decal/corner/yellow{
-	dir = 6
-	},
 /obj/structure/handrail{
 	dir = 8
 	},
@@ -1335,9 +1143,6 @@
 "cO" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 6
-	},
-/obj/floor_decal/corner/yellow{
-	dir = 9
 	},
 /obj/machinery/alarm/low{
 	dir = 4;
@@ -1367,18 +1172,12 @@
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "cS" = (
-/obj/floor_decal/corner/yellow{
-	dir = 6
-	},
 /obj/item/stool/padded,
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "cT" = (
 /obj/machinery/atmospherics/binary/oxyregenerator{
 	dir = 1
-	},
-/obj/floor_decal/corner/yellow{
-	dir = 9
 	},
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
@@ -1406,9 +1205,6 @@
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "cX" = (
-/obj/floor_decal/corner/yellow{
-	dir = 6
-	},
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
@@ -1423,9 +1219,6 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
 	dir = 4
-	},
-/obj/floor_decal/corner/yellow{
-	dir = 9
 	},
 /obj/structure/closet/walllocker/emerglocker/west,
 /obj/machinery/meter,
@@ -1448,9 +1241,6 @@
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
-	},
-/obj/floor_decal/corner/yellow{
-	dir = 6
 	},
 /obj/machinery/power/smes/buildable,
 /obj/structure/cable,
@@ -1487,11 +1277,11 @@
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "de" = (
-/obj/machinery/suit_storage_unit/engineering/salvage,
 /obj/machinery/light/small/red{
 	dir = 8;
 	icon_state = "bulb1"
 	},
+/obj/machinery/suit_storage_unit/explorer,
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "df" = (
@@ -1503,9 +1293,6 @@
 /turf/simulated/wall/r_wall/hull,
 /area/map_template/ecship/engineering)
 "dh" = (
-/obj/floor_decal/corner/yellow{
-	dir = 9
-	},
 /obj/structure/handrail{
 	dir = 4
 	},
@@ -1522,9 +1309,6 @@
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "dj" = (
-/obj/floor_decal/corner/yellow{
-	dir = 6
-	},
 /obj/structure/handrail{
 	dir = 8
 	},
@@ -1583,9 +1367,6 @@
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "dp" = (
-/obj/floor_decal/corner/yellow{
-	dir = 9
-	},
 /obj/floor_decal/industrial/warning{
 	dir = 8;
 	icon_state = "warning"
@@ -1630,9 +1411,6 @@
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "ds" = (
-/obj/floor_decal/corner/yellow{
-	dir = 6
-	},
 /obj/floor_decal/industrial/warning{
 	dir = 4;
 	icon_state = "warning"
@@ -1756,7 +1534,7 @@
 /turf/simulated/floor,
 /area/map_template/ecship/engine)
 "dD" = (
-/obj/floor_decal/corner/yellow/full,
+/obj/machinery/suit_storage_unit/explorer,
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "dE" = (
@@ -1765,14 +1543,12 @@
 	id_tag = "sev_engine";
 	pixel_x = -5
 	},
-/obj/floor_decal/corner/yellow/full,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
 /area/map_template/ecship/engineering)
 "dF" = (
-/obj/floor_decal/corner/yellow/full,
 /obj/machinery/computer/air_control{
 	name = "O2 Sensor";
 	sensor_tag = "sev_oxygen"
@@ -1997,10 +1773,6 @@
 /obj/machinery/atmospherics/valve/open{
 	dir = 4
 	},
-/obj/floor_decal/corner/paleblue/diagonal,
-/obj/floor_decal/corner/paleblue/diagonal{
-	dir = 4
-	},
 /turf/template_noop,
 /area/map_template/ecship/engine)
 "em" = (
@@ -2096,7 +1868,7 @@
 "SX" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/item/device/scanner/xenobio,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "UQ" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -2108,7 +1880,7 @@
 "Vy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/item/circular_saw,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/warhammer/ceramic/blackstone,
 /area/map_template/ecship/science)
 "YW" = (
 /obj/structure/catwalk,
@@ -2206,10 +1978,10 @@ aB
 aA
 aA
 bp
-bF
-bW
 cl
-cv
+cl
+cl
+cl
 aA
 aA
 aB
@@ -2240,11 +2012,11 @@ aa
 aa
 aA
 aA
-aX
-cm
-bG
+cD
+bI
+bI
 bJ
-cm
+bI
 cw
 cD
 aA
@@ -2316,8 +2088,8 @@ aZ
 aJ
 bI
 bs
-co
-bJ
+cE
+bI
 cE
 ao
 aB
@@ -2386,9 +2158,9 @@ aA
 aA
 au
 bt
-bJ
+bI
 ca
-bJ
+bI
 cz
 cG
 aA
@@ -2451,7 +2223,7 @@ aa
 aa
 aa
 aa
-aa
+bG
 NM
 qB
 qB
@@ -2531,7 +2303,7 @@ qB
 qB
 aA
 bM
-ce
+bZ
 cs
 aA
 ZF
@@ -2638,9 +2410,9 @@ qB
 qB
 qB
 qB
-aA
+bF
 ch
-aA
+bF
 qB
 ZF
 ZF
@@ -2685,7 +2457,7 @@ qB
 cH
 dd
 dn
-cH
+ce
 dl
 ZF
 dR
@@ -2755,7 +2527,7 @@ qB
 cH
 cH
 cH
-df
+dD
 do
 cH
 dl
@@ -2813,7 +2585,7 @@ ac
 ac
 ac
 ac
-ax
+bW
 ay
 aM
 aQ
@@ -2852,7 +2624,7 @@ ac
 ax
 aC
 aN
-bd
+cv
 bx
 bo
 bS
@@ -2861,11 +2633,11 @@ aq
 cH
 cK
 cP
-cU
+co
 cP
 cU
 dq
-dD
+cU
 dd
 dG
 ZF
@@ -2957,7 +2729,7 @@ ac
 ac
 ac
 ac
-ax
+bW
 aG
 aP
 bj
@@ -2997,9 +2769,9 @@ aq
 aq
 aL
 aq
-aq
+aX
 bP
-aq
+aX
 aq
 qB
 cH
@@ -3117,7 +2889,7 @@ qB
 cH
 dd
 dt
-cH
+ce
 dv
 qB
 dR
@@ -3177,9 +2949,9 @@ qB
 qB
 qB
 qB
-as
+cm
 aS
-as
+cm
 qB
 qB
 qB

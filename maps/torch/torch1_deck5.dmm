@@ -2954,7 +2954,7 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftstarboard)
 "hg" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -5138,7 +5138,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -6888,7 +6888,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -10374,7 +10374,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -11536,8 +11536,8 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftstarboard)
 "EN" = (
-/obj/shuttle_landmark/merc/hanger{
-	name = "5th Deck, Aft Starboard"
+/obj/shuttle_landmark/ert/hanger{
+	name = "5th Deck, West Side"
 	},
 /turf/space,
 /area/space)
@@ -11670,8 +11670,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fifthdeck/aftstarboard)
 "FS" = (
-/obj/shuttle_landmark/skipjack/hanger{
-	name = "5th Deck, Starboard"
+/obj/shuttle_landmark/ninja/hanger{
+	name = "5th Deck, West Side"
 	},
 /turf/space,
 /area/space)
@@ -11864,7 +11864,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/maintenance/fifthdeck/fore)
 "GK" = (
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -11911,7 +11911,7 @@
 /area/maintenance/fifthdeck/aftstarboard)
 "GP" = (
 /obj/structure/table/steel,
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -12426,8 +12426,8 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftport)
 "IW" = (
-/obj/shuttle_landmark/ert/hanger{
-	name = "5th Deck, Aft Port"
+/obj/shuttle_landmark/skipjack/hanger{
+	name = "5th Deck, East Side"
 	},
 /turf/space,
 /area/space)
@@ -12993,7 +12993,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -15586,8 +15586,8 @@
 /turf/simulated/floor/warhammer/tunnelchess,
 /area/maintenance/fifthdeck/aftport)
 "Wb" = (
-/obj/shuttle_landmark/ninja/hanger{
-	name = "5th Deck, Fore"
+/obj/shuttle_landmark/merc/hanger{
+	name = "5th Deck, East Side"
 	},
 /turf/space,
 /area/space)
@@ -23308,7 +23308,7 @@ aa
 aa
 aa
 aa
-Wb
+aa
 aa
 aa
 aa
@@ -23510,7 +23510,7 @@ aa
 aa
 aa
 aa
-aa
+FS
 aa
 aa
 aa
@@ -23725,7 +23725,7 @@ aa
 aa
 aa
 aa
-aa
+EN
 aa
 aa
 aa
@@ -32362,7 +32362,7 @@ aa
 aa
 aa
 aa
-FS
+aa
 aa
 aa
 aa
@@ -41930,7 +41930,7 @@ aa
 aa
 aa
 aa
-IW
+aa
 aa
 aa
 aa
@@ -47313,7 +47313,7 @@ aa
 aa
 aa
 aa
-EN
+aa
 aa
 aa
 aa
@@ -50574,6 +50574,7 @@ aa
 aa
 aa
 aa
+Wb
 aa
 aa
 aa
@@ -50583,8 +50584,7 @@ aa
 aa
 aa
 aa
-aa
-aa
+IW
 aa
 aa
 aa

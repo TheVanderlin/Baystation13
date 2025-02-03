@@ -7,7 +7,7 @@
 	desc = "A rough overcoat made from leather and poorly forged steel plates. It appears unremarkable at first glance."
 	icon_state = "heretmil"
 	item_state = "heretmil"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
@@ -27,7 +27,7 @@
 	desc = "A strange duster, with tech-padding using mechanicus forged fire-retardant materials. Its snug fit hints at its mysterious origins."
 	icon_state = "chemsis"
 	item_state = "chemsis"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO // Specialized anti-las armor cult armor.
+	body_parts_covered = LEGS|ARMS|FULL_TORSO // Specialized anti-las armor cult armor.
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
@@ -48,7 +48,7 @@
 	icon_state = "bluecoat"
 	item_state = "bluecoat"
 	w_class = ITEM_SIZE_LARGE
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
@@ -69,7 +69,7 @@
 	icon_state = "bluecoat_sniper"
 	item_state = "bluecoat_sniper"
 	w_class = ITEM_SIZE_LARGE
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
@@ -89,7 +89,7 @@
 	desc = "This robe is woven from an unnatural silk-like material, covered in crude runes and symbols. Being near it fills you with the eerie sensation of being observed."
 	icon_state = "tzeecult"
 	item_state = "tzeecult"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/tzeentch)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -110,7 +110,7 @@
 	desc = "A decaying leather coat smeared in filth, exuding a foul stench of rot, vomit, and waste. Even approaching it tests your willpower."
 	icon_state = "nurgc"
 	item_state = "nurgc"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/nurgle)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -131,7 +131,7 @@
 	desc = "This heavy leather coat reeks of filth, covered in the same nauseating mixture of rot and human waste. Its stench precedes its presence."
 	icon_state = "nurgc"
 	item_state = "nurgc"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/nurgleheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -149,10 +149,10 @@
 
 /obj/item/clothing/suit/armor/grim/cult/renegade
 	name = "renegade armour"
-	desc = "Makeshift steel armor, while not refined, it will protect you vital organs. It has strange marks carved into it"
+	desc = "Makeshift flak armor, while not refined, it will protect you vital organs. It has strange marks carved into it"
 	icon_state = "renegade_militia_armor"
 	item_state = "renegade_militia_armor"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
@@ -170,12 +170,12 @@
 
 /obj/item/clothing/suit/armor/grim/cult/bloodpact
 	name = "bloodpact armor"
-	desc = "Makeshift steel armor, while not refined, it will protect you vital organs. It has strange marks carved into it devoted to Khorne."
+	desc = "Makeshift flak armor, while not refined, it will protect you vital organs. It has strange marks carved into it devoted to Khorne."
 	icon_state = "BP_Armor"
 	item_state = "BP_Armor"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
-	accessories = list(/obj/item/clothing/accessory/armor_plate/carapaceheavy) // Bloodpact are heavily armoured shock troops.
+	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy) // Bloodpact are heavily armoured shock troops.
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+35
 	slowdown_general = 0.045
@@ -183,27 +183,42 @@
 		melee = ARMOR_MELEE_FLAK,
 		bullet = ARMOR_BALLISTIC_FLAK,
 		laser = ARMOR_LASER_FLAK+1,
+		energy = ARMOR_ENERGY_TEN+10,
+		bio = ARMOR_BIO_THIRTY+5,
+		rad = ARMOR_RAD_THIRTY+20,
+		bomb = ARMOR_BOMB_TEN+10
+	)
+
+/obj/item/clothing/suit/armor/grim/cult/bloodpact/broken
+	name = "damaged bloodpact armor"
+	desc = "Damaged flak armor, while not refined, it will protect you vital organs. It has strange marks carved into it devoted to Khorne."
+	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
+	slowdown_general = 0.04
+	armor = list(
+		melee = ARMOR_MELEE_FLAK-1,
+		bullet = ARMOR_BALLISTIC_FLAK-2,
+		laser = ARMOR_LASER_FLAK-2,
 		energy = ARMOR_ENERGY_TEN,
 		bio = ARMOR_BIO_THIRTY+5,
 		rad = ARMOR_RAD_THIRTY+10,
 		bomb = ARMOR_BOMB_TEN
 	)
 
-/obj/item/clothing/suit/armor/grim/cult/bloodpact/broken
-	name = "damaged bloodpact armor"
-	desc = "Makeshift steel armor, while not refined, it will protect you vital organs. It has strange marks carved into it devoted to Khorne."
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
-	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
-	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
-	slowdown_general = 0.04
+/obj/item/clothing/suit/armor/grim/cult/bloodpact/masterwork
+	name = "bloodpact armor"
+	icon_state = "BP_Armor2"
+	item_state = "BP_Armor2"
+	desc = "Reinforced machined flak armor, a perfected pattern used by the elite of the Bloodpact, protects against lasfire. It has strange marks carved into it devoted to Khorne."
+	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
+	slowdown_general = 0.05
 	armor = list(
-		melee = ARMOR_MELEE_FLAK-1,
-		bullet = ARMOR_BALLISTIC_FLAK-2,
-		laser = ARMOR_LASER_FLAK-2,
-		energy = ARMOR_ENERGY_TEN-2,
-		bio = ARMOR_BIO_THIRTY+5,
-		rad = ARMOR_RAD_THIRTY+10,
-		bomb = ARMOR_BOMB_TEN
+		melee = ARMOR_MELEE_FLAK+1,
+		bullet = ARMOR_BALLISTIC_FLAK+1,
+		laser = ARMOR_LASER_FLAK+2,
+		energy = ARMOR_ENERGY_TEN+15,
+		bio = ARMOR_BIO_THIRTY+15,
+		rad = ARMOR_RAD_THIRTY+30,
+		bomb = ARMOR_BOMB_TEN+17
 	)
 
 /obj/item/clothing/suit/armor/grim/cult/sekite
@@ -211,20 +226,20 @@
 	desc = "War torn and suited to savage needs. This is the armor of a Sekite warrior. It has certainly seen blood flown upon it."
 	icon_state = "Sek_Armor"
 	item_state = "Sek_Armor"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
-	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
+	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+35
-	slowdown_general = 0.047
+	slowdown_general = 0.042
 	armor = list(
-		melee = ARMOR_MELEE_FLAK,
-		bullet = ARMOR_BALLISTIC_FLAK+1,
+		melee = ARMOR_MELEE_FLAK-1,
+		bullet = ARMOR_BALLISTIC_FLAK,
 		laser = ARMOR_LASER_FLAK,
-		energy = ARMOR_ENERGY_TEN,
+		energy = ARMOR_ENERGY_TEN+10,
 		bio = ARMOR_BIO_THIRTY+5,
-		rad = ARMOR_RAD_THIRTY+1,
-		bomb = ARMOR_BOMB_TEN
+		rad = ARMOR_RAD_THIRTY+20,
+		bomb = ARMOR_BOMB_TEN+10
 	)
 
 /obj/item/clothing/suit/armor/grim/cult/sekite/broken
@@ -232,7 +247,7 @@
 	desc = "War torn and suited to savage needs. This is the armor of a Sekite warrior. It has certainly seen blood flown upon it."
 	icon_state = "Sek_Armor"
 	item_state = "Sek_Armor"
-	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar)
+	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	slowdown_general = 0.045
 	armor = list(
 		melee = ARMOR_MELEE_FLAK-1,
@@ -244,6 +259,22 @@
 		bomb = ARMOR_BOMB_TEN
 	)
 
+/obj/item/clothing/suit/armor/grim/cult/sekite/masterwork
+	name = "sekite armour"
+	desc = "Pristine flak armor worn by the sons of sek, a perfected version of Bloodpact flak patterns designed for lightning fast shocktroops."
+	icon_state = "Sek_Armor2"
+	item_state = "Sek_Armor2"
+	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar)
+	slowdown_general = 0.036
+	armor = list(
+		melee = ARMOR_MELEE_FLAK-1,
+		bullet = ARMOR_BALLISTIC_FLAK,
+		laser = ARMOR_LASER_FLAK,
+		energy = ARMOR_ENERGY_TEN+10,
+		bio = ARMOR_BIO_THIRTY+5,
+		rad = ARMOR_RAD_THIRTY+20,
+		bomb = ARMOR_BOMB_TEN+10
+	)
 // ECCLESIARCHY
 // ECCLESIARCHY
 // ECCLESIARCHY
@@ -400,7 +431,7 @@
 	desc = "Worn by practioners and other surgoens."
 	icon_state = "prac_robes"
 	item_state = "prac_robes"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingmech)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -420,7 +451,7 @@
 	desc = "Gorgeous robes littered  with holy seals and writs. Smells faintly of incense. This one has been fitted with a special hidden armor plate for extra protection."
 	icon_state = "ministorum_priest"
 	item_state = "ministorum_priest"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flak)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-150
@@ -461,7 +492,7 @@
 	desc = "An imperial cult mantle with heavy flak plates blessed by the Ecceliarchy to protect the wearer from threats to aid in protecting the faithful and to repel the heretic."
 	icon_state = "zealot"
 	item_state = "zealot"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flakheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-150
@@ -646,7 +677,7 @@
 	desc = "Ritual combat armor worn by the nomadic clansmen predating the colony."
 	icon_state = "tribal_armor"
 	item_state = "tribal_armor"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaktribal)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-150
@@ -686,7 +717,7 @@
 	icon_state = "bonearmor"
 	item_state = "bonearmor"
 	w_class = ITEM_SIZE_GARGANTUAN
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaktribal)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-150
@@ -711,7 +742,7 @@
 	icon_state = "slaverobe"
 	item_state = "slaverobe"
 	w_class = ITEM_SIZE_LARGE
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-350
@@ -731,7 +762,7 @@
 	desc = "A colorful yet somewhat tattered uniform."
 	icon_state = "xomrobe"
 	item_state = "xomrobe"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -751,7 +782,7 @@
 	desc = "Elegant clothing for a servant of the imperium..."
 	icon_state = "robes"
 	item_state = "robes"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-150
@@ -772,7 +803,7 @@
 	desc = "Elegant clothing for a wealthy trader."
 	icon_state = "male2"
 	item_state = "male2"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar) // Trader's got monei
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -805,7 +836,7 @@
 	desc = "Stinking, torn robes"
 	icon_state = "grosthrobe"
 	item_state = "grosthrobe"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -825,7 +856,7 @@
 	desc = "An amasec and caff stained apron."
 	icon_state = "mapron"
 	item_state = "mapron"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -845,7 +876,7 @@
 	desc = "A red hunters uniform"
 	icon_state = "chokha"
 	item_state = "chokha"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/flaklamellar)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -865,7 +896,7 @@
 	desc = "A pathfinder's vestaments"
 	icon_state = "sherpa"
 	item_state = "sherpa"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -885,7 +916,7 @@
 	desc = "A heavy leather jacket."
 	icon_state = "wornmfp"
 	item_state = "wornmfp"
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	accessories = list(/obj/item/clothing/accessory/armor_plate/paddingheavy)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE-300
@@ -924,7 +955,7 @@
 	icon_state = "towntrench_heavy"
 	item_state = "towntrench_heavy"
 	w_class = ITEM_SIZE_HUGE
-	body_parts_covered = LEGS|ARMS|HANDS|FEET|FULL_TORSO
+	body_parts_covered = LEGS|ARMS|FULL_TORSO
 	slowdown_general = 0.035 // Light due to missing parts of the armor.
 	accessories = list(/obj/item/clothing/accessory/armor_plate/carapace)
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE

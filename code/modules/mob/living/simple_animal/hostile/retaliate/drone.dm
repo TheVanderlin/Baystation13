@@ -4,6 +4,7 @@
 	icon_state = "drone"
 	icon_living = "drone"
 	icon_dead = "drone_dead"
+	faction = "Tau"
 	ranged = TRUE
 	turns_per_move = 3
 	response_help = "pokes"

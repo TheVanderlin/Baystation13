@@ -66,6 +66,7 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/magos_explorator/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -91,7 +92,7 @@
 	H.fully_replace_character_name("Magos Explorator [current_name]")
 	H.say(":e Memory cache integrity at 87%... Motive force appeased. Security apparatis functional. Non organics uncorrupted.")
 	to_chat(H, "<span class='notice'><b><font size=2>As the [current_title], you manage the technology and exploration efforts aboard The Dauntless, working in partnership with the Rogue Trader. Your duties are divided between maintaining the sacred machinery of the ship and pursuing the discovery of lost knowledge and power across the stars. Overseeing tech-priests, bondsmen, menials, slaves, and Skitarii, you ensure their work serves the dual purpose of keeping the ship operational and advancing the Mechanicum’s quest for knowledge, all while respecting the Rogue Trader’s command.</font></b></span>")
-	return ..()
+	return
 
 /datum/job/magos_explorator/get_description_blurb()
 	return "As the Magos Explorator, you manage the technology and exploration efforts aboard The Dauntless, working in partnership with the Rogue Trader. Your duties are divided between maintaining the sacred machinery of the ship and pursuing the discovery of lost knowledge and power across the stars. Overseeing tech-priests, bondsmen, menials, slaves, and Skitarii, you ensure their work serves the dual purpose of keeping the ship operational and advancing the Mechanicum’s quest for knowledge, all while respecting the Rogue Trader’s command."
@@ -168,6 +169,7 @@
 	return "As a member of the mechanicus aboard The Dauntless, your role centers on the pursuit of knowledge and the preservation of ancient technologies. Focused on research and data analysis, you delve into the mysteries of the machine, whether through the study of archives, the recovery of lost information, or the understanding of sacred technology. Overseeing tech-acolytes and other personnel, your purpose is to advance the Mechanicus' quest for knowledge while safeguarding the ship's technological sanctity."
 
 /datum/job/data_smith/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -193,7 +195,7 @@
 	H.fully_replace_character_name("[current_title] [current_name]")
 	H.say(":e OMVISS1@H &(47*TECHNICA)B(ADMECH)... transponder signal active.")
 	to_chat(H, "<span class='notice'><b><font size=2>As a member of the mechanicus aboard The Dauntless, your role centers on the pursuit of knowledge and the preservation of ancient technologies. Focused on research and data analysis, you delve into the mysteries of the machine, whether through the study of archives, the recovery of lost information, or the understanding of sacred technology. Overseeing tech-acolytes and other personnel, your purpose is to advance the Mechanicus' quest for knowledge while safeguarding the ship's technological sanctity.</font></b></span>")
-	return ..()
+	return
 
 /datum/job/tech_priest
 	title = "Enginseer"
@@ -259,6 +261,7 @@
 	return "As a member of the Mechanicus aboard The Dauntless, your role is dedicated to maintaining the sacred machinery that keeps the ship operational. Focused on engineering, repairs, and the appeasement of machine spirits, you oversee the function of essential systems. Whether guiding tech-acolytes or directly addressing mechanical issues, your purpose is to ensure the smooth operation of the ship’s technology, preserving its sanctity and efficiency for the Omnissiah."
 
 /datum/job/tech_priest/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -283,7 +286,7 @@
 	H.fully_replace_character_name("[current_title] [current_name]")
 	H.say(":e OMVISS1@H &(47*TECHNICA)B(ADMECH)... transponder signal active.")
 	to_chat(H, "<span class='notice'><b><font size=2>As a member of the Mechanicus aboard The Dauntless, your role is dedicated to maintaining the sacred machinery that keeps the ship operational. Focused on engineering, repairs, and the appeasement of machine spirits, you oversee the function of essential systems. Whether guiding tech-acolytes or directly addressing mechanical issues, your purpose is to ensure the smooth operation of the ship’s technology, preserving its sanctity and efficiency for the Omnissiah.</font></b></span>")
-	return ..()
+	return
 
 /datum/job/bondsman
 	title = "Bondsman"
@@ -328,6 +331,7 @@
 	return "You are a Bondsman under the service of the Mechanicus aboard the Rogue Trader’s vessel, lifebonded to the Magos Explorator and likely a descendant of gang-pressed families taken from their homeworlds. Tasked with menial yet vital technical work, your duties include maintaining ship systems, assisting with resource extraction, and performing hazardous tasks in the ship's more dangerous zones."
 
 /datum/job/bondsman/equip(mob/living/carbon/human/H)
+	..()
 	var/current_name = H.real_name
 	var/current_title = trimtext(H.mind.role_alt_title)
 	H.voice_in_head(pick(GLOB.lone_thoughts))
@@ -347,7 +351,7 @@
 	H.fully_replace_character_name("[current_name]")
 	H.say(":e OMVISS1@H &(47*INDENTURED)B(X1HK)... transponder signal active.")
 	to_chat(H, "<span class='notice'><b><font size=2>You are a [current_title] under the service of the Mechanicus aboard the Rogue Trader’s vessel, lifebonded to the Magos Explorator and likely a descendant of gang-pressed families taken from their homeworlds. Tasked with menial yet vital technical work, your duties include maintaining ship systems, assisting with resource extraction, and performing hazardous tasks in the ship's more dangerous zones.</font></b></span>")
-	return ..()
+	return
 
 /datum/job/roboticist
 	title = "Roboticist"

@@ -9,10 +9,9 @@
 	preview_icon= 'icons/mob/human_races/species/human/subspecies/gravworlder_preview.dmi'
 	health_hud_intensity = 2
 
-	flash_mod =     0.9
+	flash_mod =     0.8
 	oxy_mod =       0.6
 	breath_pressure = 17
-	radiation_mod = 1
 	brute_mod =     0.7
 	strength = STR_HIGH
 
@@ -35,7 +34,7 @@
 	oxy_mod =   0.35
 	toxins_mod =   0.7
 	brute_mod = 0.78
-	radiation_mod = 0.6
+	radiation_mod = 0.5
 	darksight_range = 4
 	darksight_tint = DARKTINT_MODERATE
 
@@ -143,14 +142,12 @@
 	frail and prone to physical illness. Their physiology rejects prosthetics and synthetic organs, and their lifespans \
 	are short, but their raw psionic potential is unmatched."
 	preview_icon= 'icons/mob/human_races/species/human/subspecies/mule_preview.dmi'
-
-	spawn_flags =   SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN | SPECIES_NO_ROBOTIC_INTERNAL_ORGANS
-	brute_mod =     0.65
-	burn_mod =      0.65
-	oxy_mod =       0.5
-	toxins_mod =    0.7
-	radiation_mod = 0.6
-	flash_mod =     1.2
+	toxins_mod =    0.85
+	brute_mod = 0.8
+	burn_mod = 0.7
+	flash_mod =     1.1
+	weaken_mod = 0.85
+	stun_mod = 0.95
 	min_age =       18
 	max_age =       500
 
@@ -158,7 +155,7 @@
 	if(!H.psi)
 		H.psi = new(H)
 		var/list/faculties = list("[PSI_TELEKINESIS]", "[PSI_BIOMANCY]", "[PSI_PYROMANCY]", "[PSI_TELEKINESIS]")
-		for(var/i = 1 to rand(2,3))
+		for(var/i = 1 to rand(1,2))
 			H.set_psi_rank(pick_n_take(faculties), 1)
 	H.psi.max_stamina = 70
 	var/obj/item/organ/external/E = pick(H.organs)

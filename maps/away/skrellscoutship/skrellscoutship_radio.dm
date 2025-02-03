@@ -31,9 +31,8 @@
 	preset_name = "Recon"
 	encryption_key = /obj/item/device/encryptionkey/map_preset/tauscoutship
 
-/obj/item/device/radio/headset/map_preset/tauscoutship/Initialize()
-	. = ..()
-	set_frequency(TAU_FREQ)
+/obj/item/device/encryptionkey/map_preset/tauscoutship
+	preset_name = "Tau Empire"
 
 /obj/item/device/radio/headset/map_preset/tauscoutship/iccgn
 	name = "\improper Tau radio encryption key"

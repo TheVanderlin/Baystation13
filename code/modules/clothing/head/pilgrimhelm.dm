@@ -7,10 +7,11 @@
 	icon_state = "vraks2"
 	item_state = "vraks2"
 	flags_inv = HIDEEARS|BLOCKHEADHAIR
+	body_parts_covered = HEAD|FACE|EYES
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+100
 	slowdown_general = 0.009
-	disorientation = 0.5
+	disorientation = 0.35
 	armor = list(
 		melee = ARMOR_MELEE_FLAK,
 		bullet = ARMOR_BALLISTIC_FLAK,
@@ -33,16 +34,48 @@
 
 /obj/item/clothing/head/helmet/flak/chaos/bloodpact
 	name = "heavy flak helmet"
-	desc = "A carapace helmet forged for the Bloodpact Warriors of the sanguinary warlords of Chaos.."
+	desc = "A crude flak helmet forged for the Bloodpact Warriors of the sanguinary warlords of Chaos.."
 	icon_state = "BP_Helmet"
 	item_state = "BP_Helmet"
 
+/obj/item/clothing/head/helmet/flak/chaos/bloodpact/masterwork
+	name = "heavy flak helmet"
+	desc = "A carapace helmet forged for the Bloodpact Warriors of the sanguinary warlords of Chaos.."
+	icon_state = "BPHelmet1"
+	item_state = "BPHelmet1"
+	disorientation = 0.5
+	armor = list(
+		melee = ARMOR_MELEE_FLAK+1,
+		bullet = ARMOR_BALLISTIC_FLAK+1,
+		laser = ARMOR_LASER_FLAK+1,
+		energy = ARMOR_ENERGY_TEN,
+		bio = ARMOR_BIO_THIRTY+10,
+		rad = ARMOR_RAD_THIRTY+35,
+		bomb = ARMOR_BOMB_TEN+10
+	)
+
 /obj/item/clothing/head/helmet/flak/chaos/sekite
 	name = "heavy flak helmet"
-	desc = "A carapace helmet forged for the Sekite Warriors of the sanguinary warlord of Chaos."
+	desc = "A crude flak helmet forged for the Sekite Warriors of the sanguinary warlord of Chaos."
 	icon_state = "Sek_Helmet"
 	item_state = "Sek_Helmet"
 
+
+/obj/item/clothing/head/helmet/flak/chaos/sekite/masterwork
+	name = "heavy flak helmet"
+	desc = "A carapace helmet forged for the Sekite Warriors of the sanguinary warlord of Chaos."
+	icon_state = "SekHelm2"
+	item_state = "SekHelm2"
+	disorientation = 0.5
+	armor = list(
+		melee = ARMOR_MELEE_FLAK+1,
+		bullet = ARMOR_BALLISTIC_FLAK+1,
+		laser = ARMOR_LASER_FLAK+1,
+		energy = ARMOR_ENERGY_TEN,
+		bio = ARMOR_BIO_THIRTY+10,
+		rad = ARMOR_RAD_THIRTY+35,
+		bomb = ARMOR_BOMB_TEN+10
+	)
 
 /obj/item/clothing/head/helmet/flak/chaos/renegade
 	name = "renegade militia mask"
@@ -52,7 +85,7 @@
 	body_parts_covered = FACE|EYES|HEAD
 	flags_inv = HIDEEARS|BLOCKHEADHAIR
 	slowdown_general = 0.008
-	disorientation = 0.75
+	disorientation = 0.5
 	armor = list(
 		melee = ARMOR_MELEE_FLAK,
 		bullet = ARMOR_BALLISTIC_FLAK,
@@ -220,7 +253,7 @@
 	item_state = "sheriffhat"
 	max_pressure_protection = null
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
-	body_parts_covered = FACE|EYES|HEAD
+	body_parts_covered = HEAD
 	flags_inv = null
 	slowdown_general = 0.006 // Try to set slowdowns to be 10-20 percent of the armours roughly.
 	disorientation = 0.5
@@ -239,6 +272,7 @@
 	desc = "A well worn and dented helm."
 	icon_state = "skullopen"
 	item_state = "skullopen"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = BLOCKHEADHAIR
 	slowdown_general = 0.0085
 	disorientation = 0.5
@@ -257,6 +291,7 @@
 	desc = "an armoured flak-lamellar recon hood."
 	icon_state = "reconhood"
 	item_state = "reconhood"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEEARS|BLOCKHEADHAIR
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	slowdown_general = 0.008
@@ -315,6 +350,7 @@
 	desc = "A heavy metal visor for protecting your face."
 	icon_state = "leglad"
 	item_state = "leglad"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEEARS|BLOCKHEADHAIR|HIDEMASK
 	slowdown_general = 0.003
 	disorientation = 0.25
@@ -333,6 +369,7 @@
 	desc = "A feudal styled heavy plasteel helm with a visor."
 	icon_state = "hevhelm"
 	item_state = "hevhelm"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEMASK|HIDEEARS|BLOCKHEADHAIR
 	slowdown_general = 0.009
 	disorientation = 0.75
@@ -351,6 +388,7 @@
 	desc = "A heavy metal helmet that protects you from slashes, stabs and the occassional lasburn."
 	icon_state = "knighthelm"
 	item_state = "knighthelm"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEMASK|HIDEEARS|BLOCKHEADHAIR
 
 /obj/item/clothing/head/helmet/pilgrimhelm/hevhelm/bone
@@ -396,7 +434,7 @@
 	max_pressure_protection = SPACE_SUIT_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	slowdown_general = 0.008
-	body_parts_covered = FACE|EYES|HEAD
+	body_parts_covered = HEAD
 	disorientation = 0.5
 	armor = list(
 		melee = ARMOR_MELEE_FLAK-1,
@@ -419,6 +457,7 @@
 	desc = "A heavy metal ganger helmet that protects you from slashes, stabs and the occassional lasburn."
 	icon_state = "raider_combat_helmet"
 	item_state = "raider_combat_helmet"
+	body_parts_covered = HEAD|FACE|EYES
 	slowdown_general = 0.0011
 	disorientation = 0.75
 	armor = list(
@@ -436,6 +475,7 @@
 	desc = "A stealthy hood featuring overlaying ceramic plate inserts, designed for camouflage and protection, though it sacrifices practicality for style."
 	icon_state = "foxhelm"
 	item_state = "foxhelm"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEEARS|HIDEFACE|BLOCKHEADHAIR
 	armor = list(
 		melee = ARMOR_MELEE_CARAPACE-2,
@@ -452,6 +492,7 @@
 	desc = "An old combat helmet, custom fitted with a filtration mask and carapace exterior, the stalker who wore this knew their trade well."
 	icon_state = "ranger_oldup"
 	item_state = "ranger_oldup"
+	body_parts_covered = HEAD|FACE|EYES
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+200
 	slowdown_general = 0.005
@@ -479,6 +520,7 @@
 	item_state = "doom"
 	slowdown_general = 0.001
 	disorientation = 0.5
+	body_parts_covered = HEAD|FACE|EYES
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+300 // u know why
 	armor = list(
@@ -496,6 +538,7 @@
 	desc = "A power helmet manufactured by some backwater tech-priest, the quality despite it's status as technical power armor is quite poor."
 	icon_state = "lightpahelm"
 	item_state = "lightpahelm"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEEARS|HIDEFACE|BLOCKHEADHAIR
 	max_pressure_protection = RIG_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+800
@@ -516,6 +559,7 @@
 	desc = "A power helmet manufactured manufactured by unknown smiths of xenos origin, it radiates with incredible energy and a wrath that infests your very soul."
 	icon_state = "berserkerhelm"
 	item_state = "berserkerhelm"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEEARS|HIDEFACE|BLOCKHEADHAIR
 	max_pressure_protection = RIG_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+1500
@@ -536,6 +580,7 @@
 	desc = "A helmet forged by alien craftsmen, exhibiting remarkable resistance to thermal damage."
 	icon_state = "soul"
 	item_state = "soul"
+	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEEARS|HIDEFACE|BLOCKHEADHAIR
 	max_pressure_protection = VOIDSUIT_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+200
@@ -556,6 +601,7 @@
 	desc = "A power armor helmet crafted by the alien forgemasters, exhibiting remarkable resistance to thermal damage."
 	icon_state = "seolhelm"
 	item_state = "seolhelm"
+	body_parts_covered = HEAD|FACE|EYES
 	max_pressure_protection = LIGHT_RIG_MAX_PRESSURE
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE+800
 	slowdown_general = 0.015

@@ -311,6 +311,56 @@
 				/obj/item/exploration_loot/artiaxe = 0.5,
 				/obj/item/exploration_loot/goldbar = 0.5)
 
+/obj/random/loot/randomer
+	name = "shit random loot spawner"
+	desc = "this loot spawner spawns mostly shit loot from OTHER spawners. combines bad spawners into one."
+	icon_state = "armoraccessory"
+
+/obj/random/loot/randomer/spawn_choices()
+	return list(/obj/random/loot/tech1 = 1,
+				/obj/random/loot/lightmelee = 4,
+				/obj/random/loot/heavymelee = 3,
+				/obj/random/loot/swordmelee = 2,
+				/obj/random/loot/sidearmbundle = 2,
+				/obj/random/loot/gunbundle = 2,
+				/obj/random/loot/lasbundle = 1,
+				/obj/random/loot/basicarmorbundle = 2,
+				/obj/random/loot/armorinserts = 2,
+				/obj/random/loot/randomsupply = 2,
+				/obj/random/loot/randomcolonyitems = 3,
+				/obj/random/loot/randomsupply/engineering = 1,
+				/obj/random/loot/randomsupply/tech = 1,
+				/obj/random/loot/rigloot = 1,
+				/obj/random/loot/valuableloot = 2)
+
+/obj/random/loot/randomer/good
+	name = "good random loot spawner"
+	desc = "this loot spawner spawns mostly okay loot from OTHER spawners. combines all into one."
+	icon_state = "armoraccessory"
+
+/obj/random/loot/randomer/good/spawn_choices()
+	return list(/obj/random/loot/tech1 = 3,
+				/obj/random/loot/tech2 = 1,
+				/obj/random/loot/lightmelee = 1,
+				/obj/random/loot/heavymelee = 2,
+				/obj/random/loot/swordmelee = 2,
+				/obj/random/loot/sidearmbundle = 2,
+				/obj/random/loot/raresidearmbundle = 1,
+				/obj/random/loot/gunbundle = 2,
+				/obj/random/loot/raregunslug = 1,
+				/obj/random/loot/lasbundle = 2,
+				/obj/random/loot/raregunsenergy = 1,
+				/obj/random/loot/basicarmorbundle = 2,
+				/obj/random/loot/rarearmorbundle = 2,
+				/obj/random/loot/superrarearmor = 1,
+				/obj/random/loot/armorinserts = 1,
+				/obj/random/loot/armorinsertsrare = 2,
+				/obj/random/loot/randomsupply = 1,
+				/obj/random/loot/randomcolonyitems = 1,
+				/obj/random/loot/randomsupply/engineering = 2,
+				/obj/random/loot/randomsupply/tech = 2,
+				/obj/random/loot/lootcontraband = 1,
+				/obj/random/loot/valuableloot = 4)
 
 /obj/random/loot/tech1
 	name = "LOW TECH SPAWNER"
@@ -1150,12 +1200,22 @@
 
 /obj/random/loot/valuableloot/spawn_choices()
 	return list(/obj/item/fluff_items/alien_blaster = 1,
-				/obj/item/stack/material/plasteel/fifty = 1,
 				/obj/item/stack/material/gold/ten = 1,
 				/obj/item/stack/material/uranium/ten = 1,
-				/obj/item/stack/material/phoron/ten = 1,
 				/obj/item/stack/material/diamond/ten = 1,
 				/obj/item/stack/material/silver/ten = 2,
+				/obj/item/exploration_loot/map = 3,
+			    /obj/item/exploration_loot/drugs = 3,
+				/obj/item/exploration_loot/elerium = 1,
+				/obj/item/exploration_loot/guard_diary = 2,
+				/obj/item/exploration_loot/bm_file = 1,
+				/obj/item/exploration_loot/shiny_gem = 2,
+				/obj/item/exploration_loot/zrbite = 1,
+				/obj/item/exploration_loot/elerium = 1,
+				/obj/item/exploration_loot/elerium_ingot = 0.7,
+				/obj/item/exploration_loot/zrbite_ingot = 0.7,
+				/obj/item/exploration_loot/artiaxe = 0.5,
+				/obj/item/exploration_loot/goldbar = 0.5,
 				/obj/item/fluff_items/atlantis = 2,
 				/obj/item/fluff_items/bonehelm = 2,
 				/obj/item/fluff_items/gramophone = 2,
