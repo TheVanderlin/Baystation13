@@ -12,6 +12,8 @@
 	appearance_flags = SPECIES_APPEARANCE_HAS_STATIC_HAIR
 	spawn_flags = SPECIES_IS_RESTRICTED
 	siemens_coefficient = 0
+	min_age =                 1
+	max_age =                 500
 
 	meat_type = null
 	bone_material = null
