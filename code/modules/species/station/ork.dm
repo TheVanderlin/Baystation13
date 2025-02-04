@@ -50,7 +50,6 @@
 		H.mind.reset()
 		H.mind.assigned_role = "Ork"
 		H.mind.special_role = "Ork"
-	H.real_name = "Ork ([rand(1, 1000)])" //Placeholder
-	H.SetName(H.real_name)
+	H.fully_replace_character_name(random_ork_name)
 	H.status_flags |= NO_ANTAG
 	..()
