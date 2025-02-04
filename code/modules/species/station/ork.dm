@@ -50,6 +50,6 @@
 		H.mind.reset()
 		H.mind.assigned_role = "Ork"
 		H.mind.special_role = "Ork"
-	H.fully_replace_character_name(random_ork_name)
+	H.fully_replace_character_name(random_ork_name())
 	H.status_flags |= NO_ANTAG
 	..()
