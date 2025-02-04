@@ -234,8 +234,7 @@
 	pilot_coverage = 40
 	exosuit_desc_string = "an industrial rollcage"
 	desc = "A Xion industrial brand roll cage. Technically OSHA compliant. Technically."
-	max_damage = 200
-	mech_health = 400
+	max_damage = 100
 	power_use = 0
 	climb_time = 6
 	prebuilt_software = list(/obj/item/circuitboard/exosystem/utility, /obj/item/circuitboard/exosystem/engineering)
@@ -268,7 +267,7 @@
 	transparent_cabin =  TRUE
 	exosuit_desc_string = "an open and light chassis"
 	icon_state = "light_body"
-	max_damage = 100
+	max_damage = 50
 	power_use = 5
 	has_hardpoints = list(HARDPOINT_BACK, HARDPOINT_LEFT_SHOULDER)
 	damage_sound = 'sound/effects/glass_crack1.ogg'
@@ -298,8 +297,7 @@
 	transparent_cabin = TRUE
 	exosuit_desc_string = "a spherical chassis"
 	icon_state = "pod_body"
-	max_damage = 150
-	mech_health = 400
+	max_damage = 70
 	power_use = 5
 	has_hardpoints = list(HARDPOINT_BACK)
 	desc = "The Necromundan Katamari series cockpits have won a massive tender by Imperium few years back. No one is sure why, but these terrible things keep popping up on every government facility."
@@ -344,8 +342,8 @@
 	pilot_coverage = 100
 	exosuit_desc_string = "a heavily armoured chassis"
 	icon_state = "heavy_body"
-	max_damage = 400
-	mech_health = 750
+	max_damage = 150
+	mech_health = 500
 	power_use = 50
 	has_hardpoints = list(HARDPOINT_BACK)
 	prebuilt_software = list(/obj/item/circuitboard/exosystem/weapons)
@@ -376,8 +374,6 @@
 	pilot_coverage = 100
 	exosuit_desc_string = "an armoured chassis"
 	icon_state = "combat_body"
-	max_damage = 300
-	mech_health = 500
 	power_use = 40
 	prebuilt_software = list(/obj/item/circuitboard/exosystem/weapons)
 
