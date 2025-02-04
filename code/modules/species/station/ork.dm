@@ -2,9 +2,7 @@
 	name = SPECIES_ORK
 	name_plural = "Orks"
 
-	icobase = ''
-	deform = ''
-	husk_icon = ''
+	icobase = 'icons/mob/human_races/species/ork/r_ork.dmi'
 	preview_icon = null
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch)
@@ -44,8 +42,7 @@
 
 	traits = list(
 		/singleton/trait/boon/clear_mind = TRAIT_LEVEL_MAJOR,
-		/singleton/trait/general/metabolically_inert = TRAIT_LEVEL_MAJOR,
-		/singleton/trait/general/nonpermeable_skin = TRAIT_LEVEL_EXISTS
+		/singleton/trait/boon/cast_iron_stomach = TRAIT_LEVEL_EXISTS
 	)
 
 /datum/species/ork/handle_post_spawn(mob/living/carbon/human/H)
