@@ -366,10 +366,6 @@
 	. = ..()
 	m_armour = new /obj/item/robot_parts/robot_component/armour/exosuit/combat(src)
 
-/obj/item/mech_component/chassis/cubical/prebuild()
-	. = ..()
-	m_armour = new /obj/item/robot_parts/robot_component/armour/exosuit/combat(src)
-
 /obj/item/mech_component/chassis/combat
 	name = "sealed exosuit chassis"
 	hatch_descriptor = "canopy"
