@@ -398,7 +398,7 @@
 		if(!body)
 			USE_FEEDBACK_FAILURE("You must attach a body before attaching sensors!")
 			return TRUE
-		if (body && (istype(body, /obj/item/mech_component/chassis/cubical)))
+		if (body && !body.sensor_housing)
 			USE_FEEDBACK_FAILURE("This type of chassis cannot support sensors!")
 			return TRUE
 		if (!install_component(tool, user))

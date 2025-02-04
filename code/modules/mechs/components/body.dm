@@ -40,6 +40,8 @@
 	has_hardpoints = list(HARDPOINT_BACK, HARDPOINT_LEFT_SHOULDER, HARDPOINT_RIGHT_SHOULDER)
 	var/damage_sound = 'sound/effects/bang.ogg'
 	var/climb_time = 25
+	///If the body type can hold a head.
+	var/sensor_housing = TRUE
 
 	/// Takes /obj/item/circuitboard/exosystem type paths for what boards get put in for prefabs
 	var/list/prebuilt_software = list()
