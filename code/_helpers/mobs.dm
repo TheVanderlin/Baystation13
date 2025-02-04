@@ -323,3 +323,12 @@
 	if(damflags & DAMAGE_FLAG_BIO)
 		res += "bio"
 	return english_list(res)
+
+proc/random_ork_name
+	var/orkfirstnamepart = list("Git","Zog","Cog","Grot","Dakka","Choppa","Axe","Killa")
+	var/orksecondnamepart = list("killa","smasha","burna","chewa","stabba")
+	var/orktitles = list("Da Bigga","Da Bitey","Da Kunnin'","Da Brutal","Da Stabby","Da Sneaky")
+	if(prob(25))
+		return pick(orkfirstnamepart + orksecondnamepart) + " " + "[orktitles]"
+	else
+		return pick(orkfirstnamepart + orksecondnamepart)
