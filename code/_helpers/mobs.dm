@@ -325,10 +325,10 @@
 	return english_list(res)
 
 proc/random_ork_name()
-	var/orkfirstnamepart = list("Git","Zog","Cog","Grot","Dakka","Choppa","Axe","Killa")
-	var/orksecondnamepart = list("killa","smasha","burna","chewa","stabba")
-	var/orktitles = list("Da Bigga","Da Bitey","Da Kunnin'","Da Brutal","Da Stabby","Da Sneaky")
-	if(prob(25))
-		return pick(orkfirstnamepart + orksecondnamepart) + " " + "[orktitles]"
+	var/orkfirstnamepart = list("Git","Zog","Cog","Grot","Dakka","Choppa","Axe","Killa", "Stabba", "War", "Dome", "Grave", "Sneak", "Ghaz", "Mag", "Wild", "Kill", "Mad", "Grim", "Buzz", "Wulrd", "Burn")
+	var/orksecondnamepart = list("killa","smasha","burna","chewa","stabba", "choppa", "shredda", "ghkull", "snik", "chompa", "stompa", "cookah", "krusha", "gob", "chewa", "wrecka")
+	var/orktitles = list("Da Bigga","Da Bitey","Da Kunnin'","Da Brutal","Da Stabby","Da Sneaky", "Da Green", "Da Big", "Da Small", "Beakie-Slaya")
+	if(prob(10))
+		return pick(orkfirstnamepart) + pick(orksecondnamepart) + " " + pick(orktitles)
 	else
-		return pick(orkfirstnamepart + orksecondnamepart)
+		return pick(orkfirstnamepart) + pick(orksecondnamepart)
