@@ -439,6 +439,38 @@
 	tracer_type = /obj/projectile/stun/tracer
 	impact_type = /obj/projectile/stun/impact
 
+/obj/item/projectile/beam/stun/lightning
+	name = "lightning bolt"
+	icon_state = "stun"
+	fire_sound = 'sound/weapons/Taser.ogg'
+	damage = 35
+	agony = 35
+	armor_penetration = 25
+
+/obj/item/projectile/beam/stun/lightning/weak
+	name = "weak lightning bolt"
+	icon_state = "stun"
+	fire_sound = 'sound/weapons/Taser.ogg'
+	damage = 20
+	agony = 20
+	armor_penetration = 18
+
+/obj/item/projectile/beam/stun/lightning/strong
+	name = "large lightning bolt"
+	icon_state = "stun"
+	fire_sound = 'sound/weapons/Taser.ogg'
+	damage = 55
+	agony = 55
+	armor_penetration = 27
+
+/obj/item/projectile/beam/stun/lightning/ultra
+	name = "enormous lightning bolt"
+	icon_state = "stun"
+	fire_sound = 'sound/weapons/Taser.ogg'
+	damage = 90
+	agony = 90
+	armor_penetration = 31
+
 /obj/item/projectile/beam/stun/smalllaser
 	distance_falloff = 2
 	damage_falloff_list = list(
