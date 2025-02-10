@@ -11,7 +11,6 @@
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = SPACE_SUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	flags_inv = HIDEJUMPSUIT|HIDEGLOVES
-	species_restricted = list(SPECIES_ASTARTES)
 	siemens_coefficient = 0
 	permeability_coefficient = 0.05
 	germ_level = 0 //sterile...
@@ -473,7 +472,6 @@
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = SPACE_SUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	flags_inv = HIDEJUMPSUIT|HIDEGLOVES
-	species_restricted = list(SPECIES_ASTARTES)
 
 /obj/item/clothing/suit/armor/astartes/terminator/shielded //Shielded version
 	name = "Indomitus Pattern Tactical Dreadnought Armour"
