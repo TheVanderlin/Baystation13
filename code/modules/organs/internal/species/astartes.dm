@@ -61,6 +61,7 @@
 	owner.immunity = max(owner.immunity - 0.3, 0)
 	owner.add_chemical_effect(CE_ANTIBIOTIC, 1)
 	owner.add_chemical_effect(CE_ANTIVIRAL, VIRUS_ENGINEERED)
+	owner.add_up_to_chemical_effect(CE_ANTITOX, 1)
 
 	//Detox can heal small amounts of damage
 	if (damage < max_damage && !owner.chem_effects[CE_TOXIN])
