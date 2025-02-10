@@ -4,11 +4,8 @@
 	item_icons = list(slot_wear_suit_str = 'icons/mob/32x40/suits.dmi')
 	icon_state = "umpowerarmor"
 	item_state = "umpowerarmor"
-	str_requirement = 24 // they can get gibbed and their armor stays. helmet has it, so why not armor too
 	canremove = 1
 	allowed = list(/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/cell,/obj/item/gun)
-	armor = list(melee = 18, bullet = 48, laser = 48, energy = 44, bomb = 60, bio = 100, rad = 80)
-	sales_price = 120
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
@@ -18,6 +15,16 @@
 	siemens_coefficient = 0
 	permeability_coefficient = 0.05
 	germ_level = 0 //sterile...
+	armor = list(
+		melee = ARMOR_MELEE_ASTARTES,
+		bullet = ARMOR_BALLISTIC_ASTARTES,
+		laser = ARMOR_LASER_ASTARTES,
+		energy = ARMOR_ENERGY_STRONG,
+		rad = ARMOR_RAD_SHIELDED,
+		bio = ARMOR_BIO_SHIELDED,
+		bomb = ARMOR_BOMB_RESISTANT
+		)
+
 
 // SPESS MUUHREEN TACTICOOL
 
@@ -151,7 +158,7 @@
 	set name = "Activate Narthecium"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -168,30 +175,21 @@
 	icon = 'icons/obj/guardpower_gear_32xOBJ.dmi'
 	icon_state = "hypogauntlet_on" // Does not spin. I have no clue why.
 	item_state = "hypogauntlet_on"
-	wielded_icon = "hypogauntlet_on"
-	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_S_STORE
-	str_requirement = 20
+	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_OCLOTHING
 	force = 47
 	armor_penetration = 10
-	block_chance = 45 //apothecary nartheciums can be used for blocking better, due to being essentially a extension of the apothecaries body and being insanely armored.
-	sales_price = 0
-	weapon_speed_delay = 9 //2 seconds
+	base_parry_chance = 45 //apothecary nartheciums can be used for blocking better, due to being essentially a extension of the apothecaries body and being insanely armored.
+	attack_cooldown = SLOW_WEAPON_COOLDOWN
 	edge = 1
 	sharp = 1
 	w_class = ITEM_SIZE_HUGE
-	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_S_STORE
+	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_OCLOTHING
 	atom_flags = 0
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
 	origin_tech = list(TECH_MAGNET = 6, TECH_COMBAT = 6)
 	attack_verb = list("attacked", "chopped", "cleaved", "torn", "cut", "slashed", "sliced")
-	hitsound = "sound/weapons/chainsword.ogg"
-	grab_sound_is_loud = "TRUE"
-	parry_sounds = list('sound/weapons/bladeparry1.ogg', 'sound/weapons/bladeparry2.ogg', 'sound/weapons/bladeparry3.ogg', 'sound/weapons/bladeparry4.ogg')
-	drop_sound = 'sound/items/drop_sword.ogg'
-	grab_sound = 'sound/items/unholster_sword02.ogg'
-	equipsound = 'sound/items/holster_sword1.ogg'
+	hitsound = 'sound/weapons/chainsword.ogg'
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD
-	armor = list(melee = 1, bullet = 3, laser = 3, energy = 3, bomb = 3, bio = 0, rad = 0)
 
 /obj/item/melee/chain/pcsword/narthecium/apot/dropped() //since nodrop is fucked this will deal with it for now.
 	..()
@@ -201,7 +199,7 @@
 	set name = "Pull out Electro-Paddles"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -232,7 +230,7 @@
 	set name = "Pull out integrated saw"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -254,7 +252,7 @@
 	set name = "Activate FixOvein"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -277,7 +275,7 @@
 	set name = "Activate Bone Gel"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -301,7 +299,7 @@
 	set name = "Activate Bone Setter"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -324,7 +322,7 @@
 	set name = "Activate Scalpel"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -347,7 +345,7 @@
 	set name = "Activate Cautery"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -369,7 +367,7 @@
 	set name = "Activate Servo Hemostat"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -392,7 +390,7 @@
 	set name = "Activate Duct Tape Retractor"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -414,7 +412,7 @@
 	set name = "Activate Blessed IMS"
 	set category = "Narthecium"
 	set src in usr
-	if(!usr.canmove || usr.stat || usr.restrained())
+	if(usr.stat || usr.restrained())
 		return
 	if(!can_toggle)
 		to_chat(usr,"This tool cannot be toggled!")
@@ -431,3 +429,122 @@
 /obj/item/scalpel/manager/narthecium/dropped() //since nodrop is fucked this will deal with it for now.
 	..()
 	spawn(1) if(src) qdel(src)
+
+// SPESS MUHREEN TOASTER FUCKER
+
+/obj/item/clothing/suit/armor/astartes/techmarine/bloodangel
+	name = "Astartes Mark VII Power Armour"
+	desc = "The Holy armour of the Emperor's chosen, This one bears the symbol of his position, Techmarine of the IXth Chapter, Blood Angels."
+	icon_state = "bangtech"
+	item_state = "bangtech"
+
+/obj/item/clothing/suit/armor/astartes/techmarine/ultramarine
+	name = "Astartes Mark VII Power Armour"
+	desc = "The Holy armour of the Emperor's chosen, This one bears the symbol of his position, Techmarine of the XIIIth Chapter, Ultramarines."
+	icon_state = "ultratech"
+	item_state = "ultratech"
+
+/obj/item/clothing/suit/armor/astartes/techmarine/ravenguard
+	name = "Astartes Mark VII Power Armour"
+	desc = "The Holy armour of the Emperor's chosen, This one bears the symbol of his position, Techmarine of the XIXth Chapter, Raven Guards."
+	icon_state = "ravtech"
+	item_state = "ravtech"
+
+/obj/item/clothing/suit/armor/astartes/techmarine/salamander
+	name = "Astartes Mark VII Power Armour"
+	desc = "The Holy armour of the Emperor's chosen, This one bears the symbol of his position, Techmarine of the XVIIIth Chapter, Salamanders."
+	icon_state = "saltech"
+	item_state = "saltech"
+	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+
+/obj/item/clothing/suit/armor/astartes/terminator //FINALLY HERE!
+	name = "Indomitus Pattern Tactical Dreadnought Armour"
+	icon = 'icons/mob/32x40/suits.dmi'
+	item_icons = list(slot_wear_suit_str = 'icons/mob/32x40/suits.dmi')
+	icon_state = "ultracap"
+	item_state = "ultracap"
+	str_requirement = 25
+	canremove = 0
+	var/shield_count = 0
+	allowed = list(/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/cell,/obj/item/gun)
+	armor = list(melee = 20, bullet = 60, laser = 60, energy = 60, bomb = 90, bio = 100, rad = 100)
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
+	max_heat_protection_temperature = SPACE_SUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	flags_inv = HIDEJUMPSUIT|HIDEGLOVES
+	species_restricted = list(SPECIES_ASTARTES)
+
+/obj/item/clothing/suit/armor/astartes/terminator/shielded //Shielded version
+	name = "Indomitus Pattern Tactical Dreadnought Armour"
+	shield_count = 5
+
+/obj/item/clothing/suit/armor/astartes/terminator/shielded/Initialize()
+	. = ..()
+
+
+/obj/item/clothing/suit/armor/astartes/terminator/shielded/handle_shield(mob/user, var/damage, atom/damage_source = null, mob/attacker = null, var/def_zone = null, var/attack_text = "the attack")
+	if(istype(damage_source, /obj/item/projectile))
+		if(shield_count > 0)
+			var/obj/item/projectile/P = damage_source
+			//var/reflectchance = 100 //Defined here, for if you want to make it have X percent chance of blocking the shot,
+			var/datum/effect/spark_spread/s = new /datum/effect/spark_spread
+			s.set_up(5, 0, user.loc)
+			s.start()
+			playsound(user.loc, "sparks", 50, 1)
+			user.visible_message("<span class='danger'>[user]'s shields deflect [attack_text] in a shower of sparks!</span>")
+			shield_count -= 1
+			START_PROCESSING(SSobj, src)
+			del(P)
+		else
+			user.visible_message("<span class='warning'>[user]'s shield overloads!</span>")
+			user.update_inv_wear_suit()
+			return 0
+	return 0
+
+
+/obj/item/clothing/suit/armor/astartes/terminator/shielded/Destroy()
+	STOP_PROCESSING(SSobj, src)
+	return ..()
+
+/obj/item/clothing/suit/armor/astartes/terminator/shielded/Process()
+	if(shield_count < 6) //Set this to whatever you want the max number of charges to be.
+		sleep(60) //Timer in between recharge.
+		shield_count += 1
+		playsound(loc, 'sound/effects/compbeep1.ogg', 50, TRUE)
+	if(shield_count  == 6) //Whatever the max charge is, this plays the sound.
+		playsound(loc, 'sound/machines/ding.ogg', 50, TRUE)
+		STOP_PROCESSING(SSobj, src)
+		if(ishuman(loc))
+			var/mob/living/carbon/human/C = loc
+			C.update_inv_wear_suit()
+
+/obj/item/clothing/suit/armor/astartes/terminator/verb/toggleclaw()
+	set name = "Extend Lightning Claws"
+	set category = "Weapons"
+	set src in usr
+	if(usr.stat || usr.restrained())
+		return
+	else
+		to_chat(usr,"You extend your lightning claws.")
+		usr.put_in_hands(new /obj/item/melee/energy/powersword/claw/integrated/terminator(usr))
+
+/obj/item/clothing/suit/armor/astartes/terminator/verb/activatestormbolter()
+	set name = "Activate Storm Bolter"
+	set category = "Weapons"
+	set src in usr
+	if(usr.stat || usr.restrained())
+		return
+	else
+		to_chat(usr,"You activate your integrated Storm Bolter.")
+		usr.put_in_hands(new /obj/item/gun/energy/integrated/stormbolter(usr))
+
+/obj/item/clothing/suit/armor/astartes/terminator/verb/togglefist()
+	set name = "Activate Power Fist"
+	set category = "Weapons"
+	set src in usr
+	if(usr.stat || usr.restrained())
+		return
+	else
+		to_chat(usr,"You activate your power fist.")
+		usr.put_in_hands(new /obj/item/melee/energy/powersword/fist/integrated/terminator(usr))
