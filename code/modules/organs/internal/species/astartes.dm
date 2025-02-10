@@ -314,3 +314,27 @@
 			pulsesound = "extremely fast and faint"
 
 	. = "[pulsesound] pulse"
+
+/obj/item/organ/internal/progenoid
+	name = "progenoid gland"
+	desc = "A progenoid gland, otherwhise known as a geneseed. Crucial to the creation of new Astartes."
+	icon_state = "appendix"
+	w_class = ITEM_SIZE_SMALL
+	organ_tag = BP_PROGENOID_LOWER
+	parent_organ = BP_CHEST
+	min_bruised_damage = 25
+	min_broken_damage = 45
+	max_damage = 70
+	relative_size = 15
+
+/obj/item/organ/internal/progenoid/upper
+	name = "progenoid gland"
+	desc = "A progenoid gland, otherwhise known as a geneseed. Crucial to the creation of new Astartes."
+	icon_state = "appendix"
+	w_class = ITEM_SIZE_SMALL
+	organ_tag = BP_PROGENOID_UPPER
+	parent_organ = BP_HEAD
+	min_bruised_damage = 25
+	min_broken_damage = 45
+	max_damage = 70
+	relative_size = 15
