@@ -99,3 +99,9 @@
 	max_damage = 140
 	relative_size = 60
 
+/obj/item/organ/internal/brain/astartes
+	name = "membranous brain
+	desc = "A brain. It apoears to be covered in an odd membrane."
+	relative_size = 85
+	damage_reduction = 0.5
+	oxygen_reserve = 60
