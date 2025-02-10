@@ -86,3 +86,16 @@
 	phoron_guard = 1
 	innate_flash_protection = FLASH_PROTECTION_MAJOR
 	max_damage = 90
+
+/obj/item/organ/internal/lungs/astartes
+	name = "multilungs
+	icon_state = "lungs"
+	gender = PLURAL
+	organ_tag = BP_LUNGS
+	parent_organ = BP_CHEST
+	w_class = ITEM_SIZE_NORMAL
+	min_bruised_damage = 50
+	min_broken_damage = 90
+	max_damage = 140
+	relative_size = 60
+
