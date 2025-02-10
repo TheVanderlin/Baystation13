@@ -1,4 +1,4 @@
-/datum/species/astartes
+/datum/species/human/astartes
 	name = SPECIES_ASTARTES
 	name_plural = "Astartes"
 	icobase = 'icons/mob/human_races/species/astartes/r_astartes.dmi'
