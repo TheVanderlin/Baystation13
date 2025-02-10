@@ -116,6 +116,15 @@
 		/singleton/trait/boon/cast_iron_stomach = TRAIT_LEVEL_EXISTS
 	)
 
+/datum/species/human/astartes/handle_post_spawn(mob/living/carbon/human/H)
+	if(H.mind)
+		H.mind.reset()
+		H.mind.assigned_role = "Astartes"
+		H.mind.special_role = "Astartes"
+	H.fully_replace_character_name(random_astartes_name())
+	H.status_flags |= NO_ANTAG
+	..()
+
 /mob/living/carbon/human/proc/astaforemperor()
 	set name = "For The Emperor"
 	set category = "Astartes"
