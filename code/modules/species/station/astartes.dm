@@ -68,7 +68,7 @@
 		)
 
 	base_auras = list(
-		/obj/aura/regenerating/human
+		/obj/aura/regenerating/human/astartes
 		)
 
 	inherent_verbs = list(
@@ -82,7 +82,7 @@
 		BP_KIDNEYS =  /obj/item/organ/internal/kidneys/astartes,
 		BP_EYES =   /obj/item/organ/internal/eyes/astartes,
 		BP_BRAIN =  /obj/item/organ/internal/brain/astartes
-		BP_PROGENOID_LOWER = /obj/item/organ/internal/progenoid/lower,
+		BP_PROGENOID_LOWER = /obj/item/organ/internal/progenoid,
 		BP_PROGENOID_UPPER = /obj/item/organ/internal/progenoid/upper
 		)
 
