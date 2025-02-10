@@ -138,6 +138,9 @@ var/global/list/sparring_attack_cache = list()
 /datum/unarmed_attack/bite/sharp/strong
 	damage = 19
 
+/datum/unarmed_attack/bite/sharp/strong/astartes
+	damage = 25
+
 /datum/unarmed_attack/bite/is_usable(mob/living/carbon/human/user, mob/living/carbon/human/target, zone)
 
 	if(istype(user.wear_mask, /obj/item/clothing/mask))
@@ -203,6 +206,9 @@ var/global/list/sparring_attack_cache = list()
 /datum/unarmed_attack/punch/strong
 	damage = 19
 
+/datum/unarmed_attack/punch/astartes
+	damage = 25
+
 /datum/unarmed_attack/kick
 	attack_verb = list("kicked", "kicked", "kicked", "kneed")
 	attack_noun = list("kick", "kick", "kick", "knee strike")
@@ -244,6 +250,9 @@ var/global/list/sparring_attack_cache = list()
 
 /datum/unarmed_attack/kick/strong
 	damage = 19
+
+/datum/unarmed_attack/kick/astartes
+	damage = 30
 
 /datum/unarmed_attack/stomp
 	attack_verb = list("stomped on")
@@ -294,6 +303,9 @@ var/global/list/sparring_attack_cache = list()
 
 /datum/unarmed_attack/stomp/strong
 	damage = 12
+
+/datum/unarmed_attack/stomp/astartes
+	damage = 25
 
 /datum/unarmed_attack/light_strike
 	deal_halloss = 3
