@@ -307,9 +307,28 @@
 	spawn(1) if(src) qdel(src)
 	visible_message("<span class='warning'><b>The Terminator return the Storm Bolter to their armour, automated systems already reloading the magazine for them.</span>")
 
+/obj/item/gun/energy/phosphor
+	name = "Phosphor Blast Pistol"
+	desc = "A rare and dangerous weapon, used by powerful Magi and Skitarii Alphas, this weapon is supposed to deliver the killing blow by burning it's target to death, however, despite it's ability to pass through heavy armor easily, it has a short range."
+	icon = 'icons/obj/guns/40k.dmi'
+	icon_state = "teslar"
+	item_state = "teslar"
+	slot_flags = SLOT_BACK|SLOT_BELT
+	force = 8
+	max_shots = 5 //not lore accurate, but this is better.
+	w_class = ITEM_SIZE_NORMAL
+	burst_delay = 2 //its a small as fuck pistol, it may be poisonous but its small.
+	fire_delay = 8
+	charge_cost = 300
+	cell_type = /obj/item/cell/device/high/mechanicus
+	projectile_type = 	/obj/item/projectile/energy/phosphor
+	self_recharge = 1
+
+
 /obj/item/gun/energy/archeotech
 	name = "Archeotech Rifle"
 	desc = "A truly ancient looking rifle. A miracle of ancient engineering, it is compatible with many forms of battery."
+	icon = 'icons/obj/guns/40k.dmi'
 	icon_state = "xray" //Placeholder
 	item_state = "xray" //Placeholder
 	slot_flags = SLOT_BACK|SLOT_OCLOTHING
