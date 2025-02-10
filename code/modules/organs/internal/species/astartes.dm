@@ -28,7 +28,7 @@
 	// Blood loss or liver damage make you lose nutriments
 	var/blood_volume = owner.get_blood_volume()
 	if(blood_volume < BLOOD_VOLUME_SAFE || is_bruised())
-    		for(var/obj/item/organ/external/E in owner.organs)
+		for(var/obj/item/organ/external/E in owner.organs)
 			if(E.status & ORGAN_ARTERY_CUT && prob(25))
 				E.status &= ~ORGAN_ARTERY_CUT
 			for(var/datum/wound/W in E.wounds)
@@ -51,6 +51,7 @@
 	min_broken_damage = 90
 	max_damage = 140
 	relative_size = 35
+
 
 /obj/item/organ/internal/kidneys/astartes/Process()
 	..()
@@ -88,7 +89,7 @@
 	max_damage = 90
 
 /obj/item/organ/internal/lungs/astartes
-	name = "multilungs
+	name = "multilungs"
 	icon_state = "lungs"
 	gender = PLURAL
 	organ_tag = BP_LUNGS
@@ -100,7 +101,7 @@
 	relative_size = 60
 
 /obj/item/organ/internal/brain/astartes
-	name = "membranous brain
+	name = "membranous brain"
 	desc = "A brain. It apoears to be covered in an odd membrane."
 	relative_size = 85
 	damage_reduction = 0.5
@@ -113,15 +114,13 @@
 	organ_tag = "heart"
 	parent_organ = BP_CHEST
 	dead_icon = "heart-off"
-	var/pulse = PULSE_NORM
-	var/heartbeat = 0
-	var/beat_sound = 'sound/effects/singlebeat.ogg'
-	var/next_blood_squirt = 0
+	pulse = PULSE_NORM
+	heartbeat = 0
+	beat_sound = 'sound/effects/singlebeat.ogg'
+	next_blood_squirt = 0
 	damage_reduction = 0.5
 	relative_size = 5
 	max_damage = 150
-	var/open
-	var/list/external_pump
 
 /obj/item/organ/internal/heart/astartes/open
 	open = 1
@@ -134,17 +133,17 @@
 
 /obj/item/organ/internal/heart/astartes/Process()
 	if(owner)
-		handle_pulse()
+		handle_pulse_astartes()
 		if(pulse)
-			handle_heartbeat()
+			handle_heartbeat_astartes()
 			if(pulse == PULSE_2FAST && prob(1))
 				take_internal_damage(0.1)
 			if(pulse == PULSE_THREADY && prob(5))
 				take_internal_damage(0.1)
-		handle_blood()
+		handle_blood_astartes()
 	..()
 
-/obj/item/organ/internal/heart/astartes/proc/handle_pulse()
+/obj/item/organ/internal/heart/astartes/proc/handle_pulse_astartes()
 
 	// pulse mod starts out as just the chemical effect amount
 	var/pulse_mod = owner.chem_effects[CE_PULSE]
@@ -174,10 +173,11 @@
 
 	//If heart is stopped, it isn't going to restart itself randomly. //Unless you have a second heart, of course.
 	if(pulse == PULSE_NONE)
-		if(prob(25) owner.resuscitate()
+		if(prob(25))
+			owner.resuscitate()
 			to_chat(owner, SPAN_DANGER("You feel your secondary heart kick-start your circulation"))
-			regenerate_blood(100)
-		else	
+			owner.regenerate_blood(100)
+		else
 			return
 	else //and if it's beating, let's see if it should
 		var/should_stop = prob(80) && owner.get_blood_circulation() < BLOOD_VOLUME_SURVIVE //cardiovascular shock, not enough liquid to pump
@@ -204,7 +204,7 @@
 		else
 			pulse++
 
-/obj/item/organ/internal/heart/astartes/proc/handle_heartbeat()
+/obj/item/organ/internal/heart/astartes/proc/handle_heartbeat_astartes()
 	if(pulse >= PULSE_2FAST || owner.shock_stage >= 10 || is_below_sound_pressure(get_turf(owner)))
 		//PULSE_THREADY - maximum value for pulse, currently it 5.
 		//High pulse value corresponds to a fast rate of heartbeat.
@@ -219,7 +219,7 @@
 		else
 			heartbeat++
 
-/obj/item/organ/internal/heart/astartes/proc/handle_blood()
+/obj/item/organ/internal/heart/astartes/proc/handle_blood_astartes()
 
 	if(!owner)
 		return
@@ -294,12 +294,6 @@
 					owner.drip(blood_max, get_turf(owner))
 		else
 			owner.drip(blood_max)
-
-/obj/item/organ/internal/heart/astartes/proc/is_working()
-	if(!is_usable())
-		return FALSE
-
-	return pulse > PULSE_NONE || BP_IS_ROBOTIC(src) || (owner.status_flags & FAKEDEATH)
 
 /obj/item/organ/internal/heart/astartes/listen()
 	if(!pulse || (owner.status_flags & FAKEDEATH))
