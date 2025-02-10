@@ -47,14 +47,23 @@
 						item_slowdown = item_slowdown / (size_mod + 1)
 					else
 						item_slowdown = item_slowdown - size_mod
-				if(I.str_requirement)
+				if(I.str_requirement) //REALLY needs fine-tuning.
 					if(skill_check(SKILL_COMBAT, SKILL_DEMIGOD))
-						item_slowdown += 0.02
+						item_slowdown += 0
 					else if(skill_check(SKILL_COMBAT, SKILL_PRIMARIS))
-						item_slowdown += 0.05
+						item_slowdown += 0
 					else if(skill_check(SKILL_COMBAT, SKILL_LEGEND))
 						// Minor slowdown for high-level users.
-						item_slowdown += 0.4
+						item_slowdown += 0.05
+					else if(skill_check(SKILL_COMBAT, SKILL_MASTER))
+						// Minor slowdown for high-level users.
+						item_slowdown += 0.1
+					else if(skill_check(SKILL_COMBAT, SKILL_EXPERIENCED))
+						//Lower slowdown as strength and skill increases.
+						item_slowdown += 0.25
+					else if(skill_check(SKILL_COMBAT, SKILL_TRAINED))
+						//Slowdown for trained users, but they can still *carry* them.
+						item_slowdown += 0.5
 					else
 						to_chat(src, "<span class='danger'>You are too weak to use this item!</span>")
 						drop_item()
