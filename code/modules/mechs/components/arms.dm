@@ -54,7 +54,7 @@
 /obj/item/mech_component/manipulators/powerloader
 	name = "exosuit arms"
 	exosuit_desc_string = "heavy-duty industrial lifters"
-	max_damage = 70
+	max_damage = 150
 	power_use = 30
 	desc = "The Xion Industrial Digital Interaction Manifolds allow you poke untold dangers from the relative safety of your cockpit."
 	punch_sound = 'sound/mecha/mech_punch_slow.ogg'
@@ -63,8 +63,8 @@
 	name = "light arms"
 	exosuit_desc_string = "lightweight, segmented manipulators"
 	icon_state = "light_arms"
-	action_delay = 10
-	max_damage = 40
+	action_delay = 5
+	max_damage = 75
 	power_use = 10
 	desc = "As flexible as they are fragile, these Vey-Med manipulators can follow a pilot's movements in close to real time."
 	punch_sound = 'sound/mecha/mech_punch_fast.ogg'
@@ -76,8 +76,8 @@
 	desc = "Designed to function where any other piece of equipment would have long fallen apart, the Hephaestus Superheavy Lifter series can take a beating and excel at delivering it."
 	punch_sound = 'sound/mecha/mech_punch_slow.ogg'
 	action_delay = 20
-	melee_damage = 30
-	max_damage = 90
+	melee_damage = 70
+	max_damage = 300
 	power_use = 60
 
 /obj/item/mech_component/manipulators/combat
@@ -85,4 +85,6 @@
 	exosuit_desc_string = "flexible, advanced manipulators"
 	icon_state = "combat_arms"
 	action_delay = 10
+	melee_damage = 50
+	max_damage = 150
 	power_use = 50
