@@ -335,4 +335,4 @@ proc/random_ork_name()
 
 proc/random_astartes_name()
 	var/astartesname = list("Indrick", "Leonitas", "Sendidi", "Daed", "Phaeton", "Brant", "Donatos", "Erasmus", "Telamon", "Kolak", "Elias", "Solomon", "Balthus", "Lucius", "Virius", "Portan", "Falchian", "Taelos", "Vaas", "Vinyar", "Jexad", "Lyonus", "Alerin", "Koryn", "Rykas", "Adrax", "Pellos", "Kortar", "Cato", "Marneus")
-		return "Brother" + " " + pick(astartesname)
+	return "Brother" + " " + pick(astartesname)
