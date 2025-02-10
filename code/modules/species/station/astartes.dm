@@ -95,7 +95,7 @@
 		BP_LIVER =    /obj/item/organ/internal/liver/astartes,
 		BP_KIDNEYS =  /obj/item/organ/internal/kidneys/astartes,
 		BP_EYES =   /obj/item/organ/internal/eyes/astartes,
-		BP_BRAIN =  /obj/item/organ/internal/brain/astartes
+		BP_BRAIN =  /obj/item/organ/internal/brain/astartes,
 		BP_PROGENOID_LOWER = /obj/item/organ/internal/progenoid,
 		BP_PROGENOID_UPPER = /obj/item/organ/internal/progenoid/upper
 		)
