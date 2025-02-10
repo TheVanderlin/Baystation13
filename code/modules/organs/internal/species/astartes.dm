@@ -28,7 +28,7 @@
 	// Blood loss or liver damage make you lose nutriments
 	var/blood_volume = owner.get_blood_volume()
 	if(blood_volume < BLOOD_VOLUME_SAFE || is_bruised())
-    for(var/obj/item/organ/external/E in owner.organs)
+    		for(var/obj/item/organ/external/E in owner.organs)
 			if(E.status & ORGAN_ARTERY_CUT && prob(25))
 				E.status &= ~ORGAN_ARTERY_CUT
 			for(var/datum/wound/W in E.wounds)
