@@ -49,8 +49,7 @@
 	species_flags = SPECIES_FLAG_NO_SCAN | SPECIES_FLAG_NEED_DIRECT_ABSORB | SPECIES_FLAG_NO_SLIP | SPECIES_FLAG_NO_MINOR_CUT | SPECIES_FLAG_NO_TANGLE
 	spawn_flags = SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN | SPECIES_CAN_JOIN
 	appearance_flags = SPECIES_APPEARANCE_HAS_HAIR_COLOR | SPECIES_APPEARANCE_HAS_LIPS | SPECIES_APPEARANCE_HAS_UNDERWEAR | SPECIES_APPEARANCE_HAS_SKIN_TONE_NORMAL |SPECIES_APPEARANCE_HAS_SKIN_COLOR | SPECIES_APPEARANCE_HAS_EYE_COLOR
-	blood_color = "#dc143c"
-	organs_icon = 
+	blood_color = "#dc143c" 
 
 	move_trail = /obj/decal/cleanable/blood/tracks
 
@@ -67,7 +66,6 @@
 		"You feel cold.",
 		"Your skin chills."
 		)
-	breathing_sound = 
 
 	base_auras = list(
 		/obj/aura/regenerating/human
@@ -84,6 +82,8 @@
 		BP_KIDNEYS =  /obj/item/organ/internal/kidneys/astartes,
 		BP_EYES =   /obj/item/organ/internal/eyes/astartes,
 		BP_BRAIN =  /obj/item/organ/internal/brain/astartes
+		BP_PROGENOID_LOWER = /obj/item/organ/internal/progenoid/lower,
+		BP_PROGENOID_UPPER = /obj/item/organ/internal/progenoid/upper
 		)
 
 	descriptors = list(
