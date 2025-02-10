@@ -229,3 +229,118 @@
 		to_chat(target, SPAN_WARNING("You feel a wave of heat wash over you!"))
 		L.adjust_fire_stacks(rand(5,8))
 		L.IgniteMob()
+
+/obj/item/projectile/archeotech //Categorisation object.
+	name = "Archeotech Shot"
+	icon_state = "ion"
+	fire_sound = 'sound/weapons/Laser.ogg'
+	damage = 0
+	damage_type = DAMAGE_BURN
+	nodamage = 1
+
+/obj/item/projectile/archeotech/explosion
+	name = "Explosive Archeotech Shot"
+	icon_state = "ion"
+	fire_sound = 'sound/weapons/Laser.ogg'
+	damage = 5
+	armor_penetration = 60
+	damage_type = DAMAGE_BURN
+
+/obj/item/projectile/archeotech/explosion/on_hit(var/atom/target, var/blocked = 0)
+	explosion(target, 1, 2, 3)
+	..()
+
+/obj/item/projectile/archeotech/anticausality
+	name = "Anticausal Archeotech Shot"
+	icon_state = "bluespace"
+	fire_sound = 'sound/weapons/Laser.ogg'
+	damage = 5
+	armor_penetration = 60
+	damage_type = DAMAGE_BURN
+
+
+/obj/item/projectile/archeotech/anticausality/on_hit(var/atom/target, var/blocked = 0)
+	if(ismob(target))
+		var/mobloc = get_turf(target.loc)
+		var/atom/movable/fake_overlay/animation
+		animation = new/atom/movable/fake_overlay(mobloc)
+		animation.SetName("residue")
+		animation.set_density(FALSE)
+		animation.anchored = TRUE
+		animation.icon = 'icons/mob/mob.dmi'
+		animation.layer = FLY_LAYER
+		visible_message("<span class='danger'>[target] vanishes in a flow of anticausal particles!</span>")
+		animation.icon_state = "liquify"
+		flick("liquify",animation)
+		qdel(target)
+	if(istype(target, /turf/simulated/wall))
+		var/turf/simulated/wall/W = target
+		explosion(W, 1, 1, 1)
+		qdel(W)
+	if(istype(target, /atom/movable/lighting_overlay))
+		var/atom/movable/lighting_overlay/L = target
+		explosion(L, 1, 1, 1)
+	if(istype(target, /mob/living/simple_animal))
+		var/mob/living/simple_animal/S = target
+		qdel(S)
+	else
+		if(!isturf(target))
+			qdel(target)
+			visible_message("<span class='danger'>[target] vanishes in a flow of anticausal particles!</span>")
+		return
+	..()
+
+/obj/item/projectile/archeotech/capture
+	name = "Capture Archeotech Shot"
+	icon_state = "electricity2"
+	fire_sound = 'sound/weapons/Laser.ogg'
+	damage = 0
+	armor_penetration = 60
+	damage_type = DAMAGE_BURN
+
+/obj/item/projectile/archeotech/capture/on_hit(var/atom/target, var/blocked = 0)
+	if(istype(target, /mob/living/carbon/human))
+		var/mob/living/carbon/human/H = target
+		var/obj/item/handcuffs/archeotech/cuffs = new()
+		cuffs.forceMove(H)
+		H.handcuffed = cuffs
+		H.update_inv_handcuffed()
+		H.visible_message("Beams of light form around \the [H]'s hands!")
+		H.Weaken(5)
+	if(istype(target, /mob/living/simple_animal))
+		var/mob/living/simple_animal/S = target
+		S.in_stasis = 1
+	..()
+
+/obj/item/handcuffs/archeotech
+	name = "Energy Cuffs"
+	desc = "Strange beams of energy which restrain your hands."
+	breakout_time = 300 //30 seconds
+
+/obj/item/handcuffs/archeotech/dropped(var/mob/user)
+	..()
+	qdel(src)
+
+/obj/item/projectile/archeotech/stun
+	name = "Stun Archeotech Shot"
+	icon_state = "spark"
+	fire_sound = 'sound/weapons/Laser.ogg'
+	damage = 0
+	armor_penetration = 60
+	damage_type = DAMAGE_BURN
+
+/obj/item/projectile/archeotech/stun/on_hit(var/atom/target, var/blocked = 0)
+	if(istype(target, /mob/living/carbon/human))
+		var/mob/living/carbon/human/H = target
+		H.Weaken(15)
+		H.Stun(15)
+	..()
+
+/obj/item/projectile/archeotech/kill
+	name = "Lethal Archeotech Shot"
+	icon_state = "heavylaser"
+	fire_sound = 'sound/weapons/Laser.ogg'
+	damage = 750 //Enough to instakill simplemobs.
+	armor_penetration = 80
+	damage_type = DAMAGE_BURN
+	sharp = 1
