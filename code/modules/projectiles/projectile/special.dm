@@ -230,6 +230,143 @@
 		L.adjust_fire_stacks(rand(5,8))
 		L.IgniteMob()
 
+
+#define CALLBACK new /datum/callback
+
+/obj/flamer_fire
+	name = "fire"
+	desc = "Ouch!"
+	anchored = 1
+	mouse_opacity = 0
+	icon = 'icons/effects/fire.dmi'
+	icon_state = "red_2"
+	layer = BELOW_OBJ_LAYER
+	var/firelevel = 1 //Tracks how much "fire" there is. Basically the timer of how long the fire burns
+	var/burnlevel = 10 //Tracks how HOT the fire is. This is basically the heat level of the fire and determines the temperature.
+	var/flame_color = "red"
+	var/canSpreadDir = NORTH | SOUTH | EAST | WEST
+
+/obj/flamer_fire/New(loc, fire_lvl, burn_lvl, f_color, fire_spread_amount, BlockedDirs)
+	..()
+	if (f_color)
+		flame_color = f_color
+
+	icon_state = "[flame_color]_2"
+	if(fire_lvl) firelevel = fire_lvl
+	if(burn_lvl) burnlevel = burn_lvl
+	if(BlockedDirs)
+		canSpreadDir &= ~BlockedDirs
+	START_PROCESSING(SSobj,src)
+
+	if(fire_spread_amount > 0)
+		var/turf/T
+		for(var/dirn in GLOB.cardinal)
+			if(!(dirn & canSpreadDir))
+				continue
+			T = get_step(loc, dirn)
+			if(istype(T,/turf/simulated/open)) continue
+			if(locate(/obj/flamer_fire) in T) continue //No stacking
+			var/new_spread_amt = T.density ? 0 : fire_spread_amount - 1 //walls stop the spread
+			if(new_spread_amt)
+				for(var/obj/O in T)
+					if(!O.CanPass(src, loc))
+						new_spread_amt = 0
+						break
+			addtimer(CALLBACK(src, .proc/make_more_fire,T, fire_lvl, burn_lvl, f_color, new_spread_amt, ~canSpreadDir), 0) //Do not put spawns in recursive things.
+
+/obj/flamer_fire/proc/make_more_fire(var/T, var/f_level, var/b_level, var/fcolor, var/new_spread, var/blockedDirs)
+	new /obj/flamer_fire(T, f_level, b_level, fcolor, new_spread, blockedDirs)
+
+/obj/flamer_fire/Destroy()
+	set_light(0)
+	STOP_PROCESSING(SSobj,src)
+	. = ..()
+
+/obj/flamer_fire/Crossed(mob/living/M) //Only way to get it to reliable do it when you walk into it.
+	if(istype(M))
+		if(ishuman(M))
+			var/mob/living/carbon/human/H = M
+			if(istype(H.wear_suit, /obj/item/clothing/suit/fire))
+				H.show_message(text("Your suit protects you from the flames."), 1)
+				H.adjustFireLoss(rand(0 ,burnlevel*0.25)) //Does small burn damage to a person wearing one of the suits.
+			if(istype(H.wear_suit, /obj/item/clothing/suit/armor/astartes))
+				H.show_message(text("Your suit protects you from the flames."), 1)
+				H.adjustFireLoss(0) //Does no burn damage
+		M.adjust_fire_stacks(burnlevel) //Make it possible to light them on fire later.
+		if (prob(firelevel + 2*M.fire_stacks)) //the more soaked in fire you are, the likelier to be ignited
+			M.IgniteMob()
+
+		M.adjustFireLoss(round(burnlevel*0.5)) //This makes fire stronk.
+		to_chat(M, "<span class='danger'>You are burned!</span>")
+
+/obj/flamer_fire/proc/updateicon()
+	if(burnlevel < 15)
+		color = "#c1c1c1" //make it darker to make show its weaker.
+	switch(firelevel)
+		if(1 to 9)
+			icon_state = "[flame_color]_1"
+			set_light(2, l_color = "#E38F46")
+		if(10 to 25)
+			icon_state = "[flame_color]_2"
+			set_light(4, l_color = "#E38F46")
+		if(25 to INFINITY) //Change the icons and luminosity based on the fire's intensity
+			icon_state = "[flame_color]_3"
+			set_light(6, l_color = "#E38F46")
+
+/obj/flamer_fire/Process()
+	var/turf/T = loc
+	firelevel = max(0, firelevel)
+	if(!istype(T)) //Is it a valid turf? Has to be on a floor
+		qdel(src)
+		return
+
+	updateicon()
+
+	if(!firelevel)
+		qdel(src)
+		return
+
+	for(var/mob/living/I in loc)
+		if(istype(I,/mob/living/carbon/human))
+			var/mob/living/carbon/human/M = I
+			if(istype(M.wear_suit, /obj/item/clothing/suit/fire))
+				M.show_message(text("Your suit protects you from the flames."), 1)
+				M.adjustFireLoss(rand(0 ,burnlevel*0.25)) //Does small burn damage to a person wearing one of the suits.
+			if(istype(M.wear_suit, /obj/item/clothing/suit/armor/astartes))
+				M.show_message(text("Your suit protects you from the flames."), 1)
+				M.adjustFireLoss(0) //Does no burn damage
+				continue
+		I.adjust_fire_stacks(burnlevel) //If i stand in the fire i deserve all of this. Also Napalm stacks quickly.
+		if(prob(firelevel)) I.IgniteMob()
+		I.show_message(text("<span class='warning'>You are burned!</span>"),1)
+
+	//This has been made a simple loop, for the most part flamer_fire_act() just does return, but for specific items it'll cause other effects.
+	firelevel -= 2 //reduce the intensity by 2 per tick
+	return
+
+
+//this is the PHOSPHOR energy gun, its really fucking OP in lore because it burns through almost anything until they are dead, im not sure why the pain is so huge tho.
+/obj/item/projectile/energy/phosphor
+	name = "phosphor splash"
+	icon_state = "pulse1"
+	fire_sound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
+	damage = 35 //phosphor blasters are incredibly powerful weapons, almost never used
+	armor_penetration = 40 //phosphor blasters are incredibly good at penetrating heavy armor
+	//range =  6 //extremely close ranged, normal vision is 8 but technically 7 if you don't count your own tile.
+
+
+/obj/item/projectile/energy/phosphor/on_hit(var/atom/target, var/blocked = 0)
+	if(ishuman(target))
+		var/mob/living/carbon/human/H = target
+		if(!istype(H.wear_suit, /obj/item/clothing/suit/armor/seolsuit))
+			H.adjust_fire_stacks(5) //i know this aint lore accurate, but if you want to buff this, nerf pain.
+			H.IgniteMob()
+		new /obj/flamer_fire(H.loc, 12, 10, "red", 1)
+
+
+
+//ARCHEOTECH
+
 /obj/item/projectile/archeotech //Categorisation object.
 	name = "Archeotech Shot"
 	icon_state = "ion"
