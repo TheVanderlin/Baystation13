@@ -4,9 +4,9 @@
 	w_class = ITEM_SIZE_SMALL
 	organ_tag = BP_LIVER
 	parent_organ = BP_GROIN
-	min_bruised_damage = 25
-	min_broken_damage = 45
-	max_damage = 70
+	min_bruised_damage = 50
+	min_broken_damage = 90
+	max_damage = 140
 	relative_size = 35
 
 /obj/item/organ/internal/liver/astartes/Process()
@@ -47,9 +47,9 @@
 	gender = PLURAL
 	organ_tag = BP_KIDNEYS
 	parent_organ = BP_GROIN
-	min_bruised_damage = 25
-	min_broken_damage = 45
-	max_damage = 70
+	min_bruised_damage = 50
+	min_broken_damage = 90
+	max_damage = 140
 	relative_size = 35
 
 /obj/item/organ/internal/kidneys/astartes/Process()
@@ -73,3 +73,16 @@
 			heal_damage(0.2)
 		if(damage < min_bruised_damage)
 			heal_damage(0.3)
+
+
+/obj/item/organ/internal/eyes/astartes
+	name = "occulobes"
+	icon_state = "eyes"
+	gender = PLURAL
+	organ_tag = BP_EYES
+	parent_organ = BP_HEAD
+	surface_accessible = TRUE
+	relative_size = 5
+	phoron_guard = 1
+	innate_flash_protection = FLASH_PROTECTION_MAJOR
+	max_damage = 90
