@@ -279,3 +279,48 @@
 	icon_state = "yellow slime extract" //"potato_battery"
 	maxcharge = 200
 	matter = null
+
+/obj/item/cell/tyranid
+	name = "Tyranid Bio-Generator"
+	desc = "A pulsing sack of flesh. "
+	icon_state = "potato_cell"
+	w_class = ITEM_SIZE_NORMAL
+	maxcharge = 3000
+
+/obj/item/cell/tyranid/large
+	name = "Tyranid Large Bio-Generator"
+	desc = "A huge, pulsing sack of flesh. "
+	icon_state = "potato_cell"
+	w_class = ITEM_SIZE_NORMAL
+	maxcharge = 6000
+
+/obj/item/cell/eldar
+	name = "Eldar Power Crystal"
+	desc = "A softly glowing crystal. "
+	icon_state = "ion"
+	w_class = ITEM_SIZE_NORMAL
+	maxcharge = 5000
+
+/obj/item/cell/eldar/large
+	name = "Large Eldar Power Crystal"
+	desc = "A softly glowing crystal. "
+	icon_state = "ion"
+	w_class = ITEM_SIZE_NORMAL
+	maxcharge = 10000
+
+/obj/item/cell/stormbolter
+	name = "Stormbolter Magazine"
+	desc = "A magazine intended for use in a Terminator-mounted Stormbolter. It has connection points for automated reloading systems."
+	icon = 'icons/obj/guardpower_gear_32xOBJ.dmi'
+	icon_state = "bolterbigmag"
+	item_state = "bolterbigmag"
+	w_class = ITEM_SIZE_NORMAL
+	maxcharge = 40
+
+/obj/item/cell/archeotech
+	name = "Archeotech Power Source"
+	desc = "An ancient looking power source. "
+	icon_state = "rail"
+	w_class = ITEM_SIZE_NORMAL
+	maxcharge = 20000
+	origin_tech = list(TECH_POWER = 8)
