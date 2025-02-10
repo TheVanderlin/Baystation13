@@ -138,7 +138,7 @@ var/global/list/sparring_attack_cache = list()
 /datum/unarmed_attack/bite/sharp/strong
 	damage = 19
 
-/datum/unarmed_attack/bite/sharp/strong/astartes
+/datum/unarmed_attack/bite/sharp/astartes
 	damage = 25
 
 /datum/unarmed_attack/bite/is_usable(mob/living/carbon/human/user, mob/living/carbon/human/target, zone)
