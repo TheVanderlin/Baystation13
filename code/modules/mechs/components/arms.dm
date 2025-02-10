@@ -76,7 +76,7 @@
 	desc = "Designed to function where any other piece of equipment would have long fallen apart, the Hephaestus Superheavy Lifter series can take a beating and excel at delivering it."
 	punch_sound = 'sound/mecha/mech_punch_slow.ogg'
 	action_delay = 20
-	melee_damage = 95
+	melee_damage = 70
 	max_damage = 300
 	power_use = 60
 
