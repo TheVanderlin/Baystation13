@@ -1,15 +1,11 @@
 /datum/species/astartes
 	name = SPECIES_ASTARTES
 	name_plural = "Astartes"
-	/icobase = 
-	deform = 
-	preview_icon = 
-	bandages_icon = 
+	icobase = 'icons/mob/human_races/species/astartes/r_astartes.dmi'
 	hidden_from_codex = FALSE
 	skin_material =   MATERIAL_SKIN_GENERIC
-	icon_template = 
 
-	unarmed_types = list(/datum/unarmed_attack/stomp/strong, /datum/unarmed_attack/punch/strong, /datum/unarmed_attack/bite/sharp/strong)
+	unarmed_types = list(/datum/unarmed_attack/stomp/astartes, /datum/unarmed_attack/punch/astartes, /datum/unarmed_attack/bite/sharp/astartes)
 	primitive_form = "Human"
 	darksight_range = 8
 	darksight_tint = DARKTINT_GOOD
@@ -31,8 +27,8 @@
 	health_hud_intensity = 2
 	hunger_factor = DEFAULT_HUNGER_FACTOR * 0.2
 
-	min_age = 18
-	max_age = 260
+	min_age = 25
+	max_age = 250
 
 	body_temperature = null // cold-blooded, implemented the same way nabbers do it
 
@@ -87,7 +83,7 @@
 		BP_LIVER =    /obj/item/organ/internal/liver/astartes,
 		BP_KIDNEYS =  /obj/item/organ/internal/kidneys/astartes,
 		BP_EYES =   /obj/item/organ/internal/eyes/astartes,
-		BP_BRAIN =  /obj/item/organ/internal/brain/astartes,
+		BP_BRAIN =  /obj/item/organ/internal/brain/astartes
 		)
 
 	descriptors = list(
@@ -97,38 +93,9 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-		),
-		TAG_HOMEWORLD = list(
-		),
-		TAG_FACTION = list(
-		),
-		TAG_RELIGION =  list(
-			RELIGION_IMPERIUM
+			CULTURE_HUMAN_IMPERIAL
 		)
 	)
-	default_cultural_info = list(
-		TAG_CULTURE   = 
-		TAG_HOMEWORLD = 
-		TAG_FACTION   = 
-		TAG_RELIGION  = 
-	)
-	pain_emotes_with_pain_level = list(
-			list(/singleton/emote/audible/wheeze, /singleton/emote/audible/roar, /singleton/emote/audible/bellow, /singleton/emote/audible/howl) = 80,
-			list(/singleton/emote/audible/grunt, /singleton/emote/audible/groan, /singleton/emote/audible/wheeze, /singleton/emote/audible/hiss) = 50,
-			list(/singleton/emote/audible/grunt, /singleton/emote/audible/groan, /singleton/emote/audible/hiss) = 20,
-		)
-
-	exertion_effect_chance = 10
-	exertion_hydration_scale = 1
-	exertion_reagent_scale = 5
-	exertion_reagent_path = /datum/reagent/lactate
-	exertion_emotes_biological = list(
-		/singleton/emote/exertion/biological,
-		/singleton/emote/exertion/biological/breath,
-		/singleton/emote/exertion/biological/pant
-	)
-
-	ingest_amount = 20
 
 	traits = list(
 		/singleton/trait/boon/filtered_blood = TRAIT_LEVEL_EXISTS,
