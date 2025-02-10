@@ -30,8 +30,6 @@
 	min_age = 25
 	max_age = 250
 
-	body_temperature = null // cold-blooded, implemented the same way nabbers do it
-
 	description = "The Space Marines or Adeptus Astartes are foremost amongst the defenders of Humanity, the greatest of the Emperor of Mankind's Warriors. They are barely human at all, but superhuman; having been made superior in all respects to a normal man by a harsh regime of genetic modification, psycho-conditioning and rigorous training. Untouched by disease and can take a wound that could kill a normal human instantly. Using ancient power armor that can augment their abilities and wielding the best weapons known to man."
   
 	cold_level_1 = SYNTH_COLD_LEVEL_1
