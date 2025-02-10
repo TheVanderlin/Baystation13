@@ -1663,6 +1663,7 @@
 #include "code\modules\clothing\spacesuits\void\wizard.dm"
 #include "code\modules\clothing\suits\alien.dm"
 #include "code\modules\clothing\suits\armor.dm"
+#include "code\modules\clothing\suits\astartes.dm"
 #include "code\modules\clothing\suits\bio.dm"
 #include "code\modules\clothing\suits\darkarmor.dm"
 #include "code\modules\clothing\suits\grimarmor.dm"
