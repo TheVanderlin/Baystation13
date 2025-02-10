@@ -249,3 +249,94 @@
 /obj/item/gun/energy/laser/xenofauna/broken/Initialize()
 	. = ..()
 	emag_act(INFINITY)
+
+/obj/item/gun/energy/integrated
+	name = "Integrated Projectile system"
+	desc = "A basic template weapon. You shouldn't be seeing this."
+	icon_state = "xenoheavyr" //Placeholder
+	item_state = "xenoheavyr" //Placeholder
+	slot_flags = SLOT_BACK|SLOT_OCLOTHING
+	w_class = ITEM_SIZE_HUGE
+	force = 15
+	one_hand_penalty = 1.5
+	fire_delay = 3.1
+	accuracy = 1
+	self_recharge = 1
+	origin_tech = list(TECH_COMBAT = 4, TECH_MAGNET = 4)
+	matter = list(DEFAULT_WALL_MATERIAL = 2000)
+	projectile_type = /obj/item/projectile/bullet
+	charge_cost = 500
+	cell_type = /obj/item/cell
+	wielded_item_state = "lascar-wielded"
+	sales_price = null
+	charge_meter = FALSE
+
+	firemodes = list(
+		list(mode_name="semi-automatic",       burst=1, fire_delay=3.1, burst_accuracy=null, dispersion=null, automatic = 0, charge_cost=0),
+		list(mode_name="automatic",       burst=1, fire_delay=0.8, burst_accuracy=null, dispersion=null, automatic = 1, charge_cost=0),
+		)
+
+/obj/item/gun/energy/integrated/stormbolter
+	name = "Terminator Stormbolter"
+	desc = "A powerful bolter system attached to a suit of Terminator Armour."
+	icon = 'icons/obj/guardpower_gear_32xOBJ.dmi'
+	icon_state = "Rboltpistol_loaded_bigmag"
+	item_state = "Rboltpistol_loaded_bigmag"
+	slot_flags = null
+	w_class = ITEM_SIZE_NORMAL
+	force = 15
+	one_hand_penalty = 0 //It's intended to be used one-handed.
+	fire_delay = 1
+	self_recharge = 0 //No magically manifesting ammo, you've got to get it back to the reloading systems in the suit.
+	accuracy = 0 //A bit innacurate by virtue of firing big rounds out of a single-handed weapon, but it's being used by Terminators.
+	origin_tech = list(TECH_COMBAT = 4, TECH_MAGNET = 4)
+	matter = list(DEFAULT_WALL_MATERIAL = 2000)
+	projectile_type = /obj/item/projectile/bullet/bolt
+	charge_cost = 1 //One unit correlates to ammo capacity. 
+	cell_type = /obj/item/cell/stormbolter
+	charge_meter = FALSE
+
+	firemodes = list(
+		list(mode_name="semi-automatic",       burst=1, fire_delay=3.1, burst_accuracy=null, dispersion=null, automatic = 0, charge_cost=1),
+		list(mode_name="burst",       burst=3, fire_delay=0.8, burst_accuracy=null, dispersion=null, automatic = 0, charge_cost=1),
+		list(mode_name="automatic",       burst=1, fire_delay=1, burst_accuracy=null, dispersion=null, automatic = 1, charge_cost=1),
+		)
+
+/obj/item/gun/energy/integrated/stormbolter/dropped()
+	..()
+	spawn(1) if(src) qdel(src)
+	visible_message("<span class='warning'><b>The Terminator return the Storm Bolter to their armour, automated systems already reloading the magazine for them.</span>")
+
+/obj/item/gun/energy/archeotech
+	name = "Archeotech Rifle"
+	desc = "A truly ancient looking rifle. A miracle of ancient engineering, it is compatible with many forms of battery."
+	icon_state = "xray" //Placeholder
+	item_state = "xray" //Placeholder
+	slot_flags = SLOT_BACK|SLOT_OCLOTHING
+	w_class = ITEM_SIZE_HUGE
+	force = 35
+	one_hand_penalty = 2
+	fire_delay = 3
+	accuracy = 5
+	self_recharge = 1
+	projectile_type = /obj/item/projectile/archeotech/stun
+	charge_cost = 500
+	cell_type = /obj/item/cell/archeotech
+	charge_meter = 0
+
+	firemodes = list(
+		list(mode_name="STUN", fire_delay=0.5, projectile_type=/obj/item/projectile/archeotech/stun, charge_cost=1000),
+		list(mode_name="CAPTURE", fire_delay = 1, projectile_type=/obj/item/projectile/archeotech/capture, charge_cost=2000),
+		list(mode_name="KILL", fire_delay = 1, projectile_type=/obj/item/projectile/archeotech/kill, charge_cost=2000),
+		list(mode_name="EXPLOSION", fire_delay = 1, projectile_type=/obj/item/projectile/archeotech/explosion, charge_cost=4000),
+		list(mode_name="ANTICAUSAL", fire_delay = 4, projectile_type=/obj/item/projectile/archeotech/anticausality, charge_cost=10000),
+		)
+
+/obj/item/gun/energy/archeotech/integrated
+	name = "Archeotech Rifle"
+	desc = "A truly ancient looking rifle. A miracle of ancient engineering, it is compatible with many forms of battery. This one seems to be integrated into a suit of armour."
+
+/obj/item/gun/energy/archeotech/integrated/dropped()
+	..()
+	spawn(1) if(src) qdel(src)
+	visible_message("<span class='warning'><b>The Archeotech Rifle snaps back into the armour..</span>")
