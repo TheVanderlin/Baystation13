@@ -9,7 +9,6 @@
 	primitive_form = "Human"
 	darksight_range = 8
 	darksight_tint = DARKTINT_GOOD
-	gluttonous = GLUT_ANYTHING
 	strength = STR_HIGH
 	breath_pressure = 12
 	slowdown = -1
