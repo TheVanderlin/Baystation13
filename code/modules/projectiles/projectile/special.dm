@@ -384,7 +384,7 @@
 	damage_type = DAMAGE_BURN
 
 /obj/item/projectile/archeotech/explosion/on_hit(var/atom/target, var/blocked = 0)
-	explosion(target, 1, 2, 3)
+	explosion(target, 3, EX_ACT_HEAVY)
 	..()
 
 /obj/item/projectile/archeotech/anticausality
@@ -410,13 +410,14 @@
 		animation.icon_state = "liquify"
 		flick("liquify",animation)
 		qdel(target)
+		qdel(animation)
 	if(istype(target, /turf/simulated/wall))
 		var/turf/simulated/wall/W = target
-		explosion(W, 1, 1, 1)
+		explosion(W, 1, EX_ACT_HEAVY)
 		qdel(W)
 	if(istype(target, /atom/movable/lighting_overlay))
 		var/atom/movable/lighting_overlay/L = target
-		explosion(L, 1, 1, 1)
+		explosion(L, 1, EX_ACT_HEAVY)
 	if(istype(target, /mob/living/simple_animal))
 		var/mob/living/simple_animal/S = target
 		qdel(S)
