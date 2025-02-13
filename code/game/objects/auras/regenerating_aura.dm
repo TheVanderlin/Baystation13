@@ -189,3 +189,14 @@
 	brute_mult = 1.5
 	organ_mult = 3
 	tox_mult = 2
+
+/obj/aura/regenerating/human/astartes
+	nutrition_damage_mult = 0.1 //How much nutrition it takes to heal regular damage
+	external_nutrition_mult = 5 // How much nutrition it takes to regrow a limb
+	brute_mult = 2
+	organ_mult = 3
+	tox_mult = 2
+	regen_message = "<span class='warning'>Your body throbs as you feel your ORGAN regenerate.</span>"
+	grow_chance = 0
+	grow_threshold = 0
+	innate_heal = TRUE // Whether the aura is on, basically.

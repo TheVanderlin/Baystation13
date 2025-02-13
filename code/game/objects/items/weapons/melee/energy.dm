@@ -346,3 +346,126 @@
 	origin_tech = list(TECH_MAGNET = 3)
 	active_attack_verb = list("attacked", "chopped", "cleaved", "torn", "cut")
 	hitsound = 'sound/weapons/blade1.ogg'
+
+	
+	//WARHAMMER 40 THOUSAND IMPERIAL BITCHES WITH BOLTERS!
+
+
+/obj/item/melee/energy/powersword //basis for other power weapons
+	name = "Power Sword"
+	desc = "A adamantium sword with a void shield generator inside of it, the void shield will cut through almost anything that it touches when its on, so make sure you don't cut yourself."
+	item_state = "powersword"
+	icon_state = "powersword"
+	active_force = 47 //should be enough to cut off most limbs
+	active_throwforce = 18
+	icon = 'icons/obj/guardpower_gear_32xOBJ.dmi'
+	force = 42
+	armor_penetration = 10
+	throwforce = 15
+	throw_speed = 1
+	throw_range = 4
+	base_parry_chance = 30
+	attack_cooldown = DEFAULT_WEAPON_COOLDOWN
+	edge = 1
+	sharp = 1
+	w_class = ITEM_SIZE_HUGE
+	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_OCLOTHING
+	atom_flags = 0
+	obj_flags = OBJ_FLAG_CONDUCTIBLE
+	origin_tech = list(TECH_MAGNET = 6, TECH_COMBAT = 6)
+	attack_verb = list("attacked", "chopped", "cleaved", "torn", "cut", "slashed", "sliced")
+	hitsound = 'sound/weapons/slash.ogg'
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HEAD
+	armor = list(melee = 1, bullet = 3, laser = 3, energy = 3, bomb = 3, bio = 0, rad = 0)
+
+/obj/item/melee/energy/powersword/activate(mob/living/user)
+	..()
+	icon_state = "powersword_on"
+	to_chat(user, "<span class='notice'>\The [src] is now energised.</span>")
+
+/obj/item/melee/energy/powersword/deactivate(mob/living/user)
+	..()
+	icon_state = initial(icon_state)
+	to_chat(user, "<span class='notice'>\The [src] is de-energised. It's just a regular adamantium sword now.</span>")
+
+/obj/item/melee/energy/powersword/astartes/ingelldina
+	name = "Ingelldina Pattern Power Sword"
+	desc = "A adamantium sword with a void shield generator inside of it, this one is very long and heavy, clearly having been made for one of the sons of the emperor."
+	item_state = "powersword" // There is no on-mob for powersword we must use this. It looks alright.
+	icon_state = "powersword"
+	active_force = 52 //should be enough to cut off most limbs
+	active_throwforce = 20
+	force = 47 //its just a adamantium sword when offline
+	throwforce = 15
+	throw_speed = 1
+	throw_range = 4
+	sharp = TRUE
+	slot_flags = SLOT_BELT|SLOT_BACK|SLOT_OCLOTHING
+	base_parry_chance = 45
+	w_class = ITEM_SIZE_HUGE
+	atom_flags = 0
+	obj_flags = OBJ_FLAG_CONDUCTIBLE
+	origin_tech = list(TECH_MAGNET = 7, TECH_COMBAT = 7)
+	attack_verb = list("attacked", "chopped", "cleaved", "torn", "cut")
+	armor_penetration = 11
+
+
+/obj/item/melee/energy/powersword/claw/integrated/terminator
+	name = "Terminator Lightning Claws"
+	desc = "A gauntlet with 4 clawed fingers with a void shield generator inside of it, the voidshield makes a concentrated power field around each of the 4 claws, making them able to cut through almost anything, this one was integrated to the user's armor and would need a series of ajustments to be safely removed."
+	icon_state = "powerclaw-alt_mag"
+	item_state = "none"
+	active_force = 40
+	active_throwforce = 0
+	force = 35
+	throwforce = 1
+	throw_speed = 1
+	throw_range = 1
+	armor_penetration = 22
+	edge = 1
+	sharp = 1
+	attack_cooldown = FAST_WEAPON_COOLDOWN
+	base_parry_chance = 66
+	obj_flags = OBJ_FLAG_CONDUCTIBLE
+	w_class = ITEM_SIZE_LARGE
+	atom_flags = 0
+	attack_verb = list("mauled", "clawed", "cleaved", "torn", "cut")
+	//can_door_force = 1
+
+/obj/item/melee/energy/powersword/fist/integrated/terminator //Make other sub-groups for this when other power fists get added.
+	name = "Terminator Power Fist"
+	desc = "A powerful ceramite gauntlet, coated in a crackling power field, this one was integrated to the user's armor and would need a series of ajustments to be safely removed."
+	icon_state = "powerclaw-alt_mag"
+	item_state = "none"
+	active_force = 60
+	active_throwforce = 0
+	force = 38
+	throwforce = 1
+	throw_speed = 1
+	throw_range = 1
+	armor_penetration = 18
+	edge = 1
+	sharp = 1
+	attack_cooldown = SLOW_WEAPON_COOLDOWN
+	base_parry_chance = 45
+	obj_flags = OBJ_FLAG_CONDUCTIBLE
+	w_class = ITEM_SIZE_LARGE
+	atom_flags = 0
+	attack_verb = list("crushed", "slammed", "bludgeoned", "smashed", "slammed")
+//	can_door_force = 1
+//	wall_breaker = 1
+
+/obj/item/melee/energy/powersword/fist/integrated/terminator/activate(mob/living/user)
+	..()
+	icon_state = "powerclaw-alt_on_mag"
+	to_chat(user, "<span class='notice'>\The [src] is now energised.</span>")
+
+/obj/item/melee/energy/powersword/fist/integrated/terminator/deactivate(mob/living/user)
+	..()
+	icon_state = initial(icon_state)
+	to_chat(user, "<span class='notice'>\The [src] is de-energised. It's just a ceramite fist now.</span>")
+
+/obj/item/melee/energy/powersword/fist/integrated/terminator/dropped()
+	..()
+	spawn(1) if(src) qdel(src)
+

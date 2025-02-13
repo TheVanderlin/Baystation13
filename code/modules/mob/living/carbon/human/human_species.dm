@@ -61,3 +61,6 @@
 
 /mob/living/carbon/human/ork/Initialize(mapload)
 	. = ..(mapload, SPECIES_ORK)
+
+/mob/living/carbon/human/astartes/Initialize(mapload)
+	. = ..(mapload, SPECIES_ASTARTES)

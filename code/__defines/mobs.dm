@@ -208,6 +208,8 @@
 #define BP_ANCHOR   "anchoring ligament"
 #define BP_PHORON   "phoron filter"
 #define BP_ACETONE  "acetone reactor"
+#define BP_PROGENOID_LOWER  "lower progenoid"
+#define BP_PROGENOID_UPPER  "upper progenoid"
 
 // Xenos bits.
 #define BP_HINDTONGUE "hindtongue"
@@ -365,6 +367,7 @@
 #define SPECIES_FARWA       "Farwa"
 #define SPECIES_NEAERA      "Neaera"
 #define SPECIES_STOK        "Stok"
+#define SPECIES_ASTARTES        "Astartes"
 
 #define UNRESTRICTED_SPECIES list(SPECIES_HUMAN, SPECIES_VOX, SPECIES_TAU, SPECIES_KROOT)
 #define RESTRICTED_SPECIES   list(SPECIES_ALIEN, SPECIES_GOLEM, SPECIES_DIONA, SPECIES_IPC, SPECIES_YEOSA, SPECIES_TRITONIAN, SPECIES_SPACER, SPECIES_VATGROWN, SPECIES_GRAVWORLDER, SPECIES_PSYKER)

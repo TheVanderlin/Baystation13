@@ -38,6 +38,8 @@
 	/// The amount this mob's age has been changed in the round, if it has
 	var/changed_age = 0
 
+	var/quote_cd = 0 //for yells
+
 	var/list/worn_underwear = list()
 
 	var/datum/backpack_setup/backpack_setup
